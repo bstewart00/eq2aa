@@ -1,0 +1,168 @@
+body {
+    background-color: #000;
+    color: #FFF;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+#header {
+    padding: 20px;
+}
+
+#donate {
+    position: absolute;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#gameVersion {
+    font-size: 0.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#content-container {
+    float: left;
+    width: 1100px;
+}
+
+#left-bar {
+    float: left;
+    width: 100px;
+    padding: 10px 0;
+    margin: 0 10px;
+    display: inline;
+}
+
+#left-bar ul {
+    margin: 0;
+    padding: 0;
+}
+
+#left-bar ul li {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#content {
+    float: left;
+    width: 640px;
+    height: 530px;
+    margin: 0 0 0 20px;
+}
+
+#right-bar {
+    float: right;
+    width: 250px;
+    padding: 20px 0;
+    margin: 0 20px 0 0;
+    display: inline;
+}
+
+#right-bar > ul {
+    margin-bottom: 20px;
+}
+
+#footer {
+    clear: left;
+    text-align: left;
+    padding: 20px;
+    height: 1%;
+    font-size: 0.9em;
+}
+
+#footer span.copy {
+    float: right;
+    text-align: right;
+}
+
+#help {
+    list-style-type: disc;
+}
+
+a {
+    color: #808080;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+#commands li {
+    list-style-type: none;
+}
+
+#commands a {
+    text-decoration: underline;
+}
+
+#commands a:link {
+    color: #FFD700;
+}
+
+#commands a:hover {
+    color: #fff;
+}
+
+#commands a:visited {
+    color: #FFD700;
+}
+
+fieldset {
+    border: 1px solid gray;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+#points-spent span {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+label {
+    font-size: 90%;
+}
+
+#character-search {
+    width: 8em;
+    height: 14px;
+    font-size: 14px;
+}
+
+.ui-autocomplete-loading {
+    background: white url('images/ajax-loader.gif') right center no-repeat;
+}
+
+#class-list li.selected {
+    border: 1px solid #0085FF;
+    border-radius: 5px;
+    background: -webkit-radial-gradient(45px 45px, cover, #0555FF 0%, black 100%);
+    background: -moz-radial-gradient(45px 45px, cover, #0555FF 0%, black 100%);
+    background: -o-radial-gradient(45px 45px, cover, #0555FF 0%, black 100%);
+    background: -ms-radial-gradient(45px 45px, cover, #0555FF 0%, black 100%);
+
+}
+
+#points-spent li > ul .composite-pool {
+    padding-left: 0px;
+}
+
+#points-spent li > ul li {
+    padding-left: 25px;
+}

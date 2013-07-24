@@ -1,0 +1,235 @@
+.tabs {
+    border-bottom: 1px solid gray;
+}
+
+.tab {
+    display: inline-block;
+    margin-right: 4px;
+    border: 1px solid gray;
+    border-bottom-width: 0;
+    padding: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tab.active {
+    background-color: #591717;
+}
+
+.tree-viewer {
+
+}
+
+.tree {
+    display: none;
+    position: relative;
+    background: url("images/tree-background.gif") transparent no-repeat;
+    background-size: 660px;
+    border: 1px solid gray;
+    width: 640px;
+    height: 500px;
+}
+
+.tree > .tree-dropdown {
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.tree > img {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -10;
+}
+
+.tree.active {
+    display: block;
+}
+
+.shadows-labels {
+    font-size: 14px;
+    position: absolute;
+}
+
+.shadows-labels.subtree {
+    color: #ffcc66;
+}
+
+.shadows-labels.subtree.General {
+    left: 12px;
+    top: 20px;
+}
+
+.shadows-labels.subtree.Family {
+    left: 12px;
+    top: 125px;
+}
+
+.shadows-labels.subtree.Archetype {
+    left: 12px;
+    top: 230px;
+}
+
+.shadows-labels.subtree.Class {
+    left: 12px;
+    top: 335px;
+}
+
+.shadows-labels.requirements {
+    color: red;
+}
+
+.shadows-labels.requirements.req60 {
+    left: 450px;
+    top: 125px;
+}
+
+.shadows-labels.requirements.req120 {
+    left: 440px;
+    top: 230px;
+}
+
+.shadows-labels.requirements.req170 {
+    left: 440px;
+    top: 335px;
+}
+
+.shadows-arrows {
+    background: url("images/shadows-arrows.gif") no-repeat;
+    display: inline-block;
+    width: 561px;
+    height: 32px;
+    position: absolute;
+    left: 32px;
+}
+
+.shadows-arrows.req60 {
+    top: 194px;
+}
+
+.shadows-arrows.req120 {
+    top: 294px;
+}
+
+.shadows-arrows.req170 {
+    top: 394px;
+}
+
+.aa-level {
+    position: absolute;
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    position: absolute;
+}
+
+#tooltip-container {
+    position: fixed;
+}
+
+.aa-tooltip {
+    color: white;
+    padding: 5px;
+    border: 1px solid grey;
+    background-color: black;
+    font-size: 12px;
+    line-height: 12px;
+    width: 400px;
+    display: inline-block;
+}
+
+.aa-tooltip .name {
+    color: #f8cd38;
+    float: left;
+}
+
+.aa-tooltip .subclass {
+    padding-left: 5px;
+    color: #f8cd38;
+    float: left;
+}
+
+.aa-tooltip .rank {
+    float: right;
+}
+
+.aa-tooltip .cost {
+    color: red;
+    float: right;
+}
+
+.aa-tooltip .cost.spent {
+    color: #33cc33;
+}
+
+.aa-tooltip .prereqs li {
+    padding-left: 5px;
+    color: red;
+}
+
+.aa-tooltip .title {
+    padding-left: 5px;
+}
+
+.aa-tooltip .description {
+    padding: 10px 0 10px 5px;
+}
+
+.aa-tooltip .effects > span {
+    padding-left: 5px;
+    color: gray;
+}
+
+.aa-tooltip .effects {
+    color: #cccccc;
+}
+
+.aa-tooltip .effects ul {
+    padding-left: 25px;
+    list-style-type: disc;
+}
+
+.tree .footer {
+    color: white;
+    font-size: 11px;
+}
+
+.error {
+    color: red;
+}
+
+.icon {
+   background-repeat: no-repeat;
+}
+.Assassin .icon { background-image: url(icons/Assassin.png); }
+.Beastlord .icon { background-image: url(icons/Beastlord.png); }
+.Berserker .icon { background-image: url(icons/Berserker.png); }
+.Brigand .icon { background-image: url(icons/Brigand.png); }
+.Bruiser .icon { background-image: url(icons/Bruiser.png); }
+.Coercer .icon { background-image: url(icons/Coercer.png); }
+.Conjuror .icon { background-image: url(icons/Conjuror.png); }
+.Defiler .icon { background-image: url(icons/Defiler.png); }
+.Dirge .icon { background-image: url(icons/Dirge.png); }
+.Fury .icon { background-image: url(icons/Fury.png); }
+.Guardian .icon { background-image: url(icons/Guardian.png); }
+.Illusionist .icon { background-image: url(icons/Illusionist.png); }
+.Inquisitor .icon { background-image: url(icons/Inquisitor.png); }
+.Monk .icon { background-image: url(icons/Monk.png); }
+.Mystic .icon { background-image: url(icons/Mystic.png); }
+.Necromancer .icon { background-image: url(icons/Necromancer.png); }
+.Paladin .icon { background-image: url(icons/Paladin.png); }
+.Ranger .icon { background-image: url(icons/Ranger.png); }
+.Shadowknight .icon { background-image: url(icons/Shadowknight.png); }
+.Swashbuckler .icon { background-image: url(icons/Swashbuckler.png); }
+.Troubador .icon { background-image: url(icons/Troubador.png); }
+.Templar .icon { background-image: url(icons/Templar.png); }
+.Warden .icon { background-image: url(icons/Warden.png); }
+.Warlock .icon { background-image: url(icons/Warlock.png); }
+.Wizard .icon { background-image: url(icons/Wizard.png); }
