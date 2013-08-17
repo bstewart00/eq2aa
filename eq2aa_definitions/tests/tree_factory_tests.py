@@ -1,12 +1,13 @@
 import unittest
 from eq2aa_definitions.model.tree_factory import TreeFactory
-from eq2aa_definitions.tests.data_helper import DataHelper
+from eq2aa_definitions.tests.data_helper import TreeBuilder
 from unittest.mock import MagicMock, patch, call
 
 class TestTreeFactory(unittest.TestCase):
     def setUp(self):
         self._data_provider = MagicMock()
         self._aa_factory = MagicMock()
+        self._aa_factory.create.side_effect = lambda nodes: nodes
         self.sut = TreeFactory(self._data_provider, self._aa_factory)
         
     @patch('eq2aa_definitions.model.tree_factory.Tree')
@@ -18,18 +19,32 @@ class TestTreeFactory(unittest.TestCase):
         self._aa_factory.create.return_value = []
         
         tree_id = 1
-        self._data_provider.tree.side_effect = lambda id_: DataHelper.make_tree(tree_id, "Tree", True) if id_ == tree_id else None
+        tree = TreeBuilder().with_id(tree_id).is_warder_tree().build()
+        self._data_provider.tree.side_effect = lambda id_: tree if id_ == tree_id else None
          
         result = self.sut.create(tree_id)
-        self.assertEqual(result, "Tree")
+        self.assertEqual(result, tree["name"])
 
     @patch('eq2aa_definitions.model.tree_factory.Tree')
     def test_create_maps_data_properties(self, mock_tree):
         self._aa_factory.create.return_value = []
         
         tree_id = 1
-        self._data_provider.tree.side_effect = lambda id_: DataHelper.make_tree(tree_id, "Tree", True) if id_ == tree_id else None
+        tree = TreeBuilder().with_id(tree_id).is_warder_tree().build()
+        self._data_provider.tree.side_effect = lambda id_: tree if id_ == tree_id else None
          
         self.sut.create(tree_id)
         
-        mock_tree.assert_has_calls([call(1, "Tree", 0, True, [])])
+        mock_tree.assert_has_calls([call(tree_id, tree["name"], 0, "true", [])])
+        
+    @patch('eq2aa_definitions.model.tree_factory.Tree')
+    def test_create_populates_aa(self, mock_tree):
+        aa_nodes = [1,2,3]
+        
+        tree_id = 1
+        tree = TreeBuilder().with_id(tree_id).with_aa(aa_nodes).build()
+        self._data_provider.tree.side_effect = lambda id_: tree if id_ == tree_id else None
+         
+        self.sut.create(tree_id)
+        
+        mock_tree.assert_has_calls([call(tree_id, tree["name"], 0, "false", aa_nodes)])

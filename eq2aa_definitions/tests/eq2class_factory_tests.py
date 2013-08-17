@@ -1,6 +1,6 @@
 import unittest
 from eq2aa_definitions.model.eq2class_factory import EQ2ClassFactory
-from eq2aa_definitions.tests.data_helper import DataHelper
+from eq2aa_definitions.tests.data_helper import EQ2ClassBuilder, TreeBuilder
 from unittest.mock import MagicMock, patch, call
 
 class TestEQ2ClassFactory(unittest.TestCase):
@@ -15,7 +15,7 @@ class TestEQ2ClassFactory(unittest.TestCase):
             return name
         mock_class.side_effect = return_class_name
         
-        class1 = DataHelper.make_class(3, "Class1", True, [])
+        class1 = EQ2ClassBuilder().with_id(3).name("Class1").is_subclass().build()
         self._data_provider.classes.return_value = [class1]
 
         result = list(self.sut.create_classes())
@@ -28,19 +28,18 @@ class TestEQ2ClassFactory(unittest.TestCase):
         def return_class_name(id_,name,lineage,trees):
             return name
         mock_class.side_effect = return_class_name
-        
-        family1 = DataHelper.make_class(1, "Family", False, [])
-        arch1 = DataHelper.make_class(2, "Archetype", False, [])
-        class1 = DataHelper.make_class(3, "Class1", True, [])
-        class2 = DataHelper.make_class(4, "Class2", True, [])
+        family1 = EQ2ClassBuilder().with_id(1).name("Family").build()
+        arch1 = EQ2ClassBuilder().with_id(2).name("Archetype").build()
+        class1 = EQ2ClassBuilder().with_id(3).name("Class1").is_subclass().build()
+        class2 = EQ2ClassBuilder().with_id(4).name("Class2").is_subclass().build()
 
-        arch2 = DataHelper.make_class(5, "Archetype2", False, [])
-        class3 = DataHelper.make_class(6, "Class3", True, [])
+        arch2 = EQ2ClassBuilder().with_id(5).name("Archetype2").build()
+        class3 = EQ2ClassBuilder().with_id(6).name("Class3").is_subclass().build()
 
-        family2 = DataHelper.make_class(7, "Family2", False, [])
-        arch3 = DataHelper.make_class(8, "Archetype3", False, [])
-        class4 = DataHelper.make_class(9, "Class4", True, [])
 
+        family2 = EQ2ClassBuilder().with_id(7).name("Family2").build()
+        arch3 = EQ2ClassBuilder().with_id(8).name("Archetype3").build()
+        class4 = EQ2ClassBuilder().with_id(9).name("Class4").is_subclass().build()
 
         self._data_provider.classes.return_value = [family1, arch1,
                                                     class1, class2,
@@ -61,8 +60,8 @@ class TestEQ2ClassFactory(unittest.TestCase):
         mock_class.side_effect = return_class_name
         
         tree_id = 0
-        some_tree = DataHelper.make_tree(tree_id, "Tree")
-        some_class = DataHelper.make_class(0, "Class", True, [tree_id])
+        some_tree = TreeBuilder().build()
+        some_class = EQ2ClassBuilder().is_subclass().with_tree_ids([tree_id]).build()
         
         def return_tree(id_):
             return some_tree if id_["id"] == tree_id else None
@@ -71,4 +70,4 @@ class TestEQ2ClassFactory(unittest.TestCase):
         
         list(self.sut.create_classes())
         
-        mock_class.assert_has_calls([call(0, 'Class', [], [some_tree])]),
+        mock_class.assert_has_calls([call(some_class["id"], some_class["name"], [], [some_tree])]),

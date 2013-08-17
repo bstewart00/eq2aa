@@ -9,4 +9,6 @@ class TreeFactory(object):
         tree = self._data_provider.tree(id_)
         aa = self._aa_factory.create(tree["alternateadvancementnode_list"])
         
-        return Tree(tree["id"], tree["name"], 0, tree["iswardertree"], aa)
+        max_points = 0;
+        
+        return Tree(tree["id"], tree["name"], max_points, tree["iswardertree"], aa)
