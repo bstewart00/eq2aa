@@ -40,11 +40,35 @@ class TestEQ2ClassFactory(unittest.TestCase):
                                call(6, 'Class3', ['Family', 'Archetype2'], []),
                                call(9, 'Class4', ['Family2', 'Archetype3'], [])])
         
+    @patch('eq2aa_definitions.model.eq2class_factory.EQ2Class')
+    def test_create_classes_populates_trees(self, mock_class):
+        def return_class_name(id_,name,lineage,trees):
+            return name
+        mock_class.side_effect = return_class_name
+        
+        tree_id = 0
+        some_tree = DataHelper.make_tree(self, tree_id)
+        some_class = DataHelper.make_class(0, "Class", True, [tree_id])
+        
+        def return_tree(id_):
+            return some_tree if id_["id"] == tree_id else None
+        self._tree_factory.create.side_effect = return_tree
+        self._data_provider.classes.return_value = [some_class]
+        
+        list(self.sut.create_classes())
+        
+        mock_class.assert_has_calls([call(0, 'Class', [], [some_tree])]),
+        
+        
 class DataHelper(object):
     @staticmethod
-    def make_class(class_id, name, is_subclass, trees):
+    def make_class(class_id, name, is_subclass, tree_ids):
         return {"issubclass": "true" if is_subclass else "false",
                 "id": class_id,
                 "name": name,
-                "alternateadvancementtree_list": trees
+                "alternateadvancementtree_list": [{ "id": i } for i in tree_ids]
                 }
+        
+    def make_tree(self, tree_id):
+        return {"id": tree_id,
+                "name": "SomeTree"}
