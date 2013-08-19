@@ -36,7 +36,6 @@ class TestEQ2ClassFactory(unittest.TestCase):
         arch2 = EQ2ClassBuilder().with_id(5).name("Archetype2").build()
         class3 = EQ2ClassBuilder().with_id(6).name("Class3").is_subclass().build()
 
-
         family2 = EQ2ClassBuilder().with_id(7).name("Family2").build()
         arch3 = EQ2ClassBuilder().with_id(8).name("Archetype3").build()
         class4 = EQ2ClassBuilder().with_id(9).name("Class4").is_subclass().build()
