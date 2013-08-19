@@ -1,35 +1,55 @@
-<project name="MyProject" default="dist" basedir=".">
-   <description>
-      simple example build file
-   </description>
-   <!-- set global properties for this build -->
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="eq2aa" default="current-version" basedir=".">
    <property name="src" location="src" />
    <property name="build" location="build" />
    <property name="dist" location="dist" />
 
+   <property file="build_info.properties" />
+   <property name="build.number" value="${build.major.number}.${build.minor.number}.${build.revision.number}" />
+   <property name="test-server" value="192.168.1.97" />
+
    <target name="init">
-      <!-- Create the time stamp -->
       <tstamp />
-      <!-- Create the build directory structure used by compile -->
       <mkdir dir="${build}" />
+      <mkdir dir="${dist}" />
    </target>
 
-   <target name="compile" depends="init" description="compile the source ">
-      <!-- Compile the java code from ${src} into ${build} -->
-      <javac srcdir="${src}" destdir="${build}" />
+   <target name="current-version">
+      <echo>Current build number:${build.number}</echo>
    </target>
 
-   <target name="dist" depends="compile" description="generate the distribution">
-      <!-- Create the distribution directory -->
-      <mkdir dir="${dist}/lib" />
-
-      <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
-      <jar jarfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}" />
-   </target>
-
-   <target name="clean" description="clean up">
-      <!-- Delete the ${build} and ${dist} directory trees -->
+   <target name="clean">
       <delete dir="${build}" />
       <delete dir="${dist}" />
    </target>
+
+   <target name="compile">
+   </target>
+
+   <target name="dist">
+   </target>
+
+   <!-- 1. Split up JS files 2. Concat them on build 3. Copy /web to /build 4. Copy scripts to js 5. Copy tree definitions to js/trees 6. Move all to /dist 7. Deploy /dist to test server -->
+
+   <target name="inc-revision">
+      <propertyfile file="build_info.properties">
+         <entry key="build.revision.number" type="int" operation="+" value="1" pattern="00" />
+      </propertyfile>
+   </target>
+
+   <target name="inc-minor">
+      <propertyfile file="build_info.properties">
+         <entry key="build.minor.number" type="int" operation="+" value="1" pattern="00" />
+         <entry key="build.revision.number" type="int" value="0" pattern="00" />
+      </propertyfile>
+   </target>
+
+   <target name="inc-major">
+      <propertyfile file="build_info.properties">
+         <entry key="build.major.number" type="int" operation="+" value="1" pattern="00" />
+         <entry key="build.minor.number" type="int" value="0" pattern="00" />
+         <entry key="build.revision.number" type="int" value="0" pattern="00" />
+      </propertyfile>
+   </target>
+
 </project>
