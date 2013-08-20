@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="eq2aa" default="current-version" basedir=".">
-   <property name="src" location="src" />
-   <property name="build" location="build" />
-   <property name="dist" location="dist" />
+   <property name="src.dir" location="src" />
+   <property name="lib.dir" location="lib" />
+   <property name="js.dir" location="${src.dir}/webui/js" />
+   <property name="build.dir" location="build" />
+   <property name="dist.dir" location="dist" />
 
    <property file="build_info.properties" />
    <property name="build.number" value="${build.major.number}.${build.minor.number}.${build.revision.number}" />
    <property name="test-server" value="192.168.1.97" />
 
+   <taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask" classpath="${lib.dir}/compiler.jar" />
+   <path id="js.fileset">
+      <fileset dir="${js.dir}">
+         <include name="util/*.js" />
+      </fileset>
+      <fileset dir="${js.dir}">
+         <include name="**/*.js" />
+         <exclude name="util/*.js" />
+      </fileset>
+   </path>
+
+   <macrodef name="compile-js">
+      <attribute name="destfile" />
+      <element name="paths" implicit="true" />
+
+      <sequential>
+         <jscomp compilationLevel="simple" output="@{destfile}">
+            <paths />
+         </jscomp>
+      </sequential>
+   </macrodef>
+
    <target name="init">
       <tstamp />
-      <mkdir dir="${build}" />
-      <mkdir dir="${dist}" />
+      <mkdir dir="${build.dir}" />
+      <mkdir dir="${dist.dir}" />
    </target>
 
    <target name="current-version">
@@ -19,11 +43,14 @@
    </target>
 
    <target name="clean">
-      <delete dir="${build}" />
-      <delete dir="${dist}" />
+      <delete dir="${build.dir}" />
+      <delete dir="${dist.dir}" />
    </target>
 
    <target name="compile">
+      <compile-js destfile="${build.dir}/eq2aa_compiled.js">
+         <path refid="js.fileset" />
+      </compile-js>
    </target>
 
    <target name="dist">
