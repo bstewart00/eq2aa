@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="eq2aa" default="current-version" basedir=".">
    <property name="src.dir" location="src" />
+   <property name="trees.dir" location="${src.dir}/definitions/trees" />
    <property name="lib.dir" location="lib" />
    <property name="js.dir" location="${src.dir}/webui/js" />
    <property name="build.dir" location="build" />
    <property name="dist.dir" location="dist" />
+   <property name="web.dir" location="web" />
 
    <property file="build_info.properties" />
    <property name="build.number" value="${build.major.number}.${build.minor.number}.${build.revision.number}" />
-   <property name="test-server" value="192.168.1.97" />
+   <property name="test-server" value="192.168.1.95" />
 
    <taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask" classpath="${lib.dir}/compiler.jar" />
    <path id="js.fileset">
+      <filelist dir="${js.dir}/util" files="utils.js, shims.js" />
       <fileset dir="${js.dir}">
-         <include name="util/*.js" />
+         <include name="Constants.js" />
+         <include name="GameVersions.js" />
+         <include name="io/**/*.js" />
+         <include name="lib/**/*.js" />
+         <include name="model/**/*.js" />
+         <include name="ui/**/*.js" />
       </fileset>
-      <fileset dir="${js.dir}">
-         <include name="**/*.js" />
-         <exclude name="util/*.js" />
-      </fileset>
+      <filelist dir="${js.dir}" files="Main.js, eq2aa.js" />
    </path>
 
    <macrodef name="compile-js">
@@ -26,7 +31,7 @@
       <element name="paths" implicit="true" />
 
       <sequential>
-         <jscomp compilationLevel="simple" output="@{destfile}">
+         <jscomp compilationLevel="whitespace" output="@{destfile}">
             <paths />
          </jscomp>
       </sequential>
@@ -47,13 +52,33 @@
       <delete dir="${dist.dir}" />
    </target>
 
-   <target name="compile">
+   <target name="build">
       <compile-js destfile="${build.dir}/eq2aa_compiled.js">
          <path refid="js.fileset" />
       </compile-js>
    </target>
 
-   <target name="dist">
+   <target name="dist" depends="build">
+      <copy todir="${dist.dir}/eq2aa">
+         <fileset dir="${web.dir}">
+            <include name="**/*" />
+         </fileset>
+      </copy>
+      <mkdir dir="${dist.dir}/eq2aa/js" />
+      <copy file="${build.dir}/eq2aa_compiled.js" tofile="${dist.dir}/eq2aa/js/eq2aa.js" />
+      <copy todir="${dist.dir}/eq2aa/js/trees">
+         <fileset dir="${trees.dir}" />
+      </copy>
+
+   </target>
+
+   <target name="deploy-test" depends="dist">
+      <scp trust="true" sftp="true" todir="root:root@${test-server}:/var/www">
+         <fileset dir="${dist.dir}">
+            <include name="**/*" />
+         </fileset>
+      </scp>
+
    </target>
 
    <!-- 1. Split up JS files 2. Concat them on build 3. Copy /web to /build 4. Copy scripts to js 5. Copy tree definitions to js/trees 6. Move all to /dist 7. Deploy /dist to test server -->
