@@ -31,7 +31,7 @@
       <element name="paths" implicit="true" />
 
       <sequential>
-         <jscomp compilationLevel="whitespace" output="@{destfile}">
+         <jscomp compilationLevel="simple" output="@{destfile}">
             <paths />
          </jscomp>
       </sequential>
@@ -78,10 +78,7 @@
             <include name="**/*" />
          </fileset>
       </scp>
-
    </target>
-
-   <!-- 1. Split up JS files 2. Concat them on build 3. Copy /web to /build 4. Copy scripts to js 5. Copy tree definitions to js/trees 6. Move all to /dist 7. Deploy /dist to test server -->
 
    <target name="inc-revision">
       <propertyfile file="build_info.properties">
