@@ -14,7 +14,7 @@
 
    <taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask" classpath="${lib.dir}/compiler.jar" />
    <path id="js.fileset">
-      <filelist dir="${js.dir}/util" files="utils.js, shims.js" />
+      <filelist dir="${js.dir}/util" files="utils.js, shims.js, XmlBuilder.js" />
       <fileset dir="${js.dir}">
          <include name="Constants.js" />
          <include name="GameVersions.js" />
