@@ -1,10 +1,11 @@
 namespace("Beetny.EQ2AA");
 Beetny.EQ2AA.AATreeViewer = Class.extend({
-		init : function (classDef, renderer) {
+		init : function (classDef, renderer, urlUpdater) {
 			this.class_ = classDef;
 			this._renderer = renderer;
 			this.activeTree = null;
 			this._compositeTreesSelectedIndex = {}
+			this._urlUpdater = urlUpdater;
 
 		},
 		_template : '<div class="tree-viewer {ClassName}">' + '<ul class="tabs"></ul>' + '<div class="trees"></div>' + "</div>",
@@ -155,12 +156,7 @@ Beetny.EQ2AA.AATreeViewer = Class.extend({
 			Beetny.EQ2AA.Tooltips.createOrUpdateAATooltips(aa)
 		},
 		updateHash : function () {
-			var hash = this._getFullHash();
-			if (window.location.search.length === 0)
-				window.location.hash = hash;
-			var exportUrl = window.location.protocol + "//" + window.location.hostname + window.location.pathname +
-				"#" + hash;
-			$("#commands .command.export a").prop("href", exportUrl)
+		   this._urlUpdater.updateHash();
 		},
 		_getFullHash : function () {
 			return Beetny.EQ2AA.GameVersions.LatestUpdate + ";" + this.class_.createHash()

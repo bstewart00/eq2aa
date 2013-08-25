@@ -23,7 +23,20 @@
          <include name="model/**/*.js" />
          <include name="ui/**/*.js" />
       </fileset>
-      <filelist dir="${js.dir}" files="Main.js, eq2aa.js" />
+      <filelist dir="${js.dir}" files="Main.js, eq2aa_entry.js" />
+   </path>
+
+   <path id="print.js.fileset">
+      <filelist dir="${js.dir}/util" files="utils.js, shims.js" />
+      <fileset dir="${js.dir}">
+         <include name="Constants.js" />
+         <include name="GameVersions.js" />
+         <include name="io/**/*.js" />
+         <include name="lib/**/*.js" />
+         <include name="model/**/*.js" />
+         <include name="ui/**/*.js" />
+      </fileset>
+      <filelist dir="${js.dir}" files="print_entry.js" />
    </path>
 
    <macrodef name="compile-js">
@@ -56,6 +69,9 @@
       <compile-js destfile="${build.dir}/eq2aa_compiled.js">
          <path refid="js.fileset" />
       </compile-js>
+      <compile-js destfile="${build.dir}/eq2aa_print_compiled.js">
+         <path refid="print.js.fileset" />
+      </compile-js>
    </target>
 
    <target name="dist" depends="build">
@@ -66,6 +82,7 @@
       </copy>
       <mkdir dir="${dist.dir}/eq2aa/js" />
       <copy file="${build.dir}/eq2aa_compiled.js" tofile="${dist.dir}/eq2aa/js/eq2aa.js" />
+      <copy file="${build.dir}/eq2aa_print_compiled.js" tofile="${dist.dir}/eq2aa/js/eq2aa_print.js" />
       <copy todir="${dist.dir}/eq2aa/js/trees">
          <fileset dir="${trees.dir}" />
       </copy>
