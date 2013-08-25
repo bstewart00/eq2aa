@@ -101,10 +101,6 @@
     } catch (err) {
     }
 </script>
-<form id="export-xml-form" method="POST" action="Export.php">
-<input type="hidden" name="export-xml-data">
-<input type="submit" value="DoExport">
-</form>
 <script>
 $(function() {
 $('#export-xml-form input:submit').on('click', function () {

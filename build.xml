@@ -31,7 +31,7 @@
       <element name="paths" implicit="true" />
 
       <sequential>
-         <jscomp compilationLevel="simple" output="@{destfile}">
+         <jscomp compilationLevel="whitespace" output="@{destfile}">
             <paths />
          </jscomp>
       </sequential>

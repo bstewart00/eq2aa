@@ -2,9 +2,11 @@ namespace("Beetny.EQ2AA");
 Beetny.EQ2AA.Main = function (classLoader, renderer, importer, importHash) {
 	var currentViewer = null;
 	var viewerContainer = $("#content");
+	
 	addClassLinks();
 	addViewerCommands();
 	initializeCharacterSearch();
+	
 	if (importHash && importHash.length > 0) {
 		var importResult = importer.importClassFromHash(importHash);
 		if (importResult.errorMessage) {
@@ -18,12 +20,14 @@ Beetny.EQ2AA.Main = function (classLoader, renderer, importer, importHash) {
 			currentViewer.updateHash()
 		}
 	}
+	
 	function selectClassLink(className) {
 		$("#class-list .selected").removeClass("selected");
 		$("#class-list li").filter(function () {
 			return $(this).text() === className
 		}).addClass("selected")
 	}
+	
 	function addClassLinks() {
 		var classList = $("#class-list");
 		Object.iterItems(Beetny.EQ2AA.Constants.ClassNames, function (id, className) {
@@ -52,20 +56,24 @@ Beetny.EQ2AA.Main = function (classLoader, renderer, importer, importHash) {
 			}
 		}
 	}
+	
 	function createViewerAndRender(classObj) {
 		var viewer = new Beetny.EQ2AA.AATreeViewer(classObj, renderer);
 		viewer.render("#content");
 		return viewer
 	}
+	
 	function addViewerCommands() {
-		Beetny.EQ2AA.AATreeViewerCommands.forEach(function (command) {
+		Beetny.EQ2AA.Commands.forEach(function (command) {
 			command.render().on("click", onCommandClick).appendTo("#commands");
+			
 			function onCommandClick() {
 				if (currentViewer)
 					command.execute(currentViewer)
 			}
 		})
 	}
+	
 	function initializeCharacterSearch() {
 		$("#character-search").autocomplete({
 			source : function (request, response) {
