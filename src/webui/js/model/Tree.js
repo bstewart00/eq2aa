@@ -127,6 +127,25 @@ Beetny.EQ2AA.Model.Tree = Class.extend({
 				}
 				hash = hash.slice(sliceIndex)
 			}
+		},
+		
+		typeNum: function () {
+		   switch(this.type) {
+		      case 'Archetype':
+            case 'Class':
+            case 'Shadows':
+            case 'Heroic':
+               return 0;
+            case 'Warder':
+               return 1;
+            case 'Prestige':
+               return 2;
+            case 'Tradeskill':
+               return 3;
+            case 'TradeskillPrestige':
+               return 4;		      
+		   }
+		   return null; 
 		}
 	});
 Beetny.EQ2AA.Model.Tree.TreeHashToken = "t";

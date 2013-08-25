@@ -12,6 +12,11 @@ Beetny.EQ2AA.Model.Class = Class.extend({
 					this.points[type] = new Beetny.EQ2AA.Model.PointPool(pointPool)
 			}, this)
 		},
+		getTreeByType: function (treeType) {
+		   return this.trees.filter(function (tree) {
+		      return tree.type === treeType;
+		   }); 
+		},
 		getOrderedPointPools : function () {
 			return this.ordered_point_pools.map(function (type) {
 				return this.points[type]
