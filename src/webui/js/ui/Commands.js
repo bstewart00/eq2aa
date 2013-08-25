@@ -67,7 +67,7 @@ Beetny.EQ2AA.ExportXmlCommand = Beetny.EQ2AA.AATreeViewerCommand.extend({
          var form = $('form', this._element);
          $('input[name=export-xml-data]').val(xml);
          
-         var filename = 'BeetnyEQ2AAExport_' + classDef.name + '_' + classDef.points.AA.spent;
+         var filename = 'BeetnyEQ2AAExport_' + classDef.name + '_' + classDef.points.AA.spent + '.aa';
          $('input[name=export-xml-filename]').val(filename);
          
          form.submit();

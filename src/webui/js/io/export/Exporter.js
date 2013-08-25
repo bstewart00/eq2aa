@@ -14,7 +14,8 @@ Beetny.EQ2AA.XmlExporter = Class.extend({
    },
 
    exportClass : function(classModel) {
-      var introComment = '\nExported by ' + window.location + '\n';
+      var introComment = '\nExported by Beetny EQ2 Calculator\nView this build at ' + window.location + '\n' +
+      'Save this file to the EverQuest2 directory and Load via the AA window.\n';
       
       this._xmlBuilder.appendComment(introComment);
       var aaElem = this._xmlBuilder.appendChild('aa', { 'game': 'eq2' });
@@ -35,7 +36,9 @@ Beetny.EQ2AA.XmlExporter = Class.extend({
       tree.aa.filter(function (aa) {
          return aa.level > 0;
       }).forEach(function (aa) {
-         this._xmlBuilder.appendChild('alternateadvancement', { 'order': order++, 'treeID': tree.soe_id, 'id':aa.soe_id }, treeElem);
+         for (var i = 1; i <= aa.level; i++) {
+            this._xmlBuilder.appendChild('alternateadvancement', { 'order': order++, 'treeID': tree.soe_id, 'id':aa.soe_id }, treeElem);
+         }
       }, this);
    }
 });
