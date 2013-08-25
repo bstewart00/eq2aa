@@ -14,7 +14,9 @@ Beetny.EQ2AA.XmlExporter = Class.extend({
    },
 
    exportClass : function(classModel) {
-      this._xmlBuilder.appendComment('Exported by http://www.beetny.com/eq2aa');
+      var introComment = '\nExported by ' + window.location + '\n';
+      
+      this._xmlBuilder.appendComment(introComment);
       var aaElem = this._xmlBuilder.appendChild('aa', { 'game': 'eq2' });
       
       classModel.trees.filter(function(tree) {

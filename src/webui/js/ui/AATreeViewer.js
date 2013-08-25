@@ -78,12 +78,12 @@ Beetny.EQ2AA.AATreeViewer = Class.extend({
 		selectTree : function (tree) {
 			var treeElement = this._getTreeElement(tree.type);
 			if (treeElement.length === 0) {
-				treeElement = this._renderer.renderTree(tree, [tree.type]);
+				treeElement = this._renderer.renderTree(tree, [tree.type], this.class_);
 				$(".trees", this._element).append(treeElement)
 			}
 			this._setActiveTab(tree.type);
 			this._setActiveTree(tree, treeElement);
-			this._renderer.refreshTree(tree)
+			this._renderer.refreshTree(tree, this.class_)
 		},
 		selectCompositeTree : function (trees) {
 			var treeType = trees[0].type;
@@ -114,12 +114,12 @@ Beetny.EQ2AA.AATreeViewer = Class.extend({
 			var childTreeElement = $(".tree." +
 					treeType + "." + childTreeClassName, compositeTreeContainer);
 			if (childTreeElement.length === 0) {
-				childTreeElement = this._renderer.renderTree(tree, [treeType, childTreeClassName]);
+				childTreeElement = this._renderer.renderTree(tree, [treeType, childTreeClassName], this.class_);
 				compositeTreeContainer.append(childTreeElement)
 			}
 			this._removeActiveTrees(compositeTreeContainer);
 			this._setActiveChildTree(tree, childTreeElement);
-			this._renderer.refreshTree(tree);
+			this._renderer.refreshTree(tree, this.class_);
 			this._compositeTreesSelectedIndex[treeType] = treeIndex
 		},
 		_setActiveChildTree : function (tree, childTreeElement) {
@@ -150,7 +150,7 @@ Beetny.EQ2AA.AATreeViewer = Class.extend({
 		},
 		spendPoints : function (aa, numPoints) {
 			aa.tree.spendPoints(aa, numPoints);
-			this._renderer.refreshTree(aa.tree);
+			this._renderer.refreshTree(aa.tree, this.class_);
 			this._renderer.updatePointTotals(this.class_);
 			this.updateHash();
 			Beetny.EQ2AA.Tooltips.createOrUpdateAATooltips(aa)
@@ -173,11 +173,11 @@ Beetny.EQ2AA.AATreeViewer = Class.extend({
 			Beetny.EQ2AA.Tooltips.hideTooltip()
 		},
 		refresh : function () {
-			this._renderer.refreshTree(this.activeTree);
+			this._renderer.refreshTree(this.activeTree, this.class_);
 			this._renderer.updatePointTotals(this.class_)
 		},
 		fullRefresh : function () {
-			this._renderer.refreshTree(this.activeTree);
+			this._renderer.refreshTree(this.activeTree, this.class_);
 			this._renderer.replacePointTotals(this.class_)
 		},
 		resetClass : function () {

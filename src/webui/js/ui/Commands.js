@@ -54,6 +54,7 @@ Beetny.EQ2AA.ExportXmlCommand = Beetny.EQ2AA.AATreeViewerCommand.extend({
          var form = 
          '<form method="POST" action="Export.php">' +
             '<input type="hidden" name="export-xml-data">' +
+            '<input type="hidden" name="export-xml-filename">' +
          '</form>';
          $(form).appendTo(element);
          
@@ -61,9 +62,13 @@ Beetny.EQ2AA.ExportXmlCommand = Beetny.EQ2AA.AATreeViewerCommand.extend({
       },
       execute : function (aaTreeViewer) {
          var exporter = new Beetny.EQ2AA.XmlExporter(Beetny.EQ2AA.GameVersions.LatestUpdate);
-         var xml = exporter.exportClass(aaTreeViewer.getClassDef());
+         var classDef = aaTreeViewer.getClassDef();
+         var xml = exporter.exportClass(classDef);
          var form = $('form', this._element);
          $('input[name=export-xml-data]').val(xml);
+         
+         var filename = 'BeetnyEQ2AAExport_' + classDef.name + '_' + classDef.points.AA.spent;
+         $('input[name=export-xml-filename]').val(filename);
          
          form.submit();
       }

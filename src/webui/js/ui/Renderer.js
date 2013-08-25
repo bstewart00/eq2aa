@@ -41,9 +41,9 @@ Beetny.EQ2AA.Rendering.Renderer = Class.extend({
 			return treeElement
 		},
 		_treeTemplate : '<div class="tree {Classes}"></div>',
-		renderTree : function (tree, classes) {
+		renderTree : function (tree, classes, classDef) {
 			classes = classes || [];
-			var cachedTree = this._getCachedComponents(tree.soe_id);
+			var cachedTree = this._getCachedComponents(classDef.id.toString() + tree.soe_id);
 			if (cachedTree.element)
 				return cachedTree.element;
 			var self = this;
@@ -153,8 +153,8 @@ Beetny.EQ2AA.Rendering.Renderer = Class.extend({
 				$("#points-spent .{Type} .spent".replace("{Type}", pool.type())).text(pool.spent)
 			}
 		},
-		refreshTree : function (tree) {
-			var treeElements = this._getCachedComponents(tree.soe_id);
+		refreshTree : function (tree, classDef) {
+			var treeElements = this._getCachedComponents(classDef.id.toString() + tree.soe_id);
 			updateTreeSpecificElements();
 			updateFooter();
 			tree.aa.forEach(function (aa) {
