@@ -1,5 +1,5 @@
 namespace("Beetny.EQ2AA");
-Beetny.EQ2AA.Main = function (classLoader, renderer, importer, importHash) {
+Beetny.EQ2AA.Main = function (classLoader, renderer, importer, importHash, urlUpdater) {
 	var currentViewer = null;
 	var viewerContainer = $("#content");
 	
@@ -58,7 +58,7 @@ Beetny.EQ2AA.Main = function (classLoader, renderer, importer, importHash) {
 	}
 	
 	function createViewerAndRender(classObj) {
-		var viewer = new Beetny.EQ2AA.AATreeViewer(classObj, renderer);
+		var viewer = new Beetny.EQ2AA.AATreeViewer(classObj, renderer, urlUpdater);
 		viewer.render("#content");
 		return viewer
 	}

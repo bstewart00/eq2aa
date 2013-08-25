@@ -65,9 +65,10 @@ Beetny.EQ2AA.Model.AA = Class.extend({
 			}, this);
 			return result
 		},
-		spendPoints : function (numPoints) {
-			if (numPoints === 0)
+		spendPoints : function (numPoints) {		   
+			if (numPoints === 0 || !this.satisfiesPrerequisites())
 				return 0;
+				
 			var currentLevel = this.level;
 			var futureLevel = this.level + numPoints;
 			futureLevel = Math.max(0, Math.min(futureLevel, this.max_level));

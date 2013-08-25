@@ -156,7 +156,7 @@ Beetny.EQ2AA.AATreeViewer = Class.extend({
 			Beetny.EQ2AA.Tooltips.createOrUpdateAATooltips(aa)
 		},
 		updateHash : function () {
-		   this._urlUpdater.updateHash();
+		   this._urlUpdater.updateUrlHash(this.class_);
 		},
 		_getFullHash : function () {
 			return Beetny.EQ2AA.GameVersions.LatestUpdate + ";" + this.class_.createHash()

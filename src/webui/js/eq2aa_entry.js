@@ -10,7 +10,8 @@ $(function () {
       importer = new Beetny.EQ2AA.Importer(classLoader),
       elementBuilder = new Beetny.EQ2AA.Rendering.ElementBuilder(iconDir),
       graphicsRenderer = new Beetny.EQ2AA.Rendering.RaphaelRenderer,
+      urlUpdater = new Beetny.EQ2AA.UrlUpdater,
       renderer = new Beetny.EQ2AA.Rendering.Renderer(graphicsRenderer, elementBuilder);
    
-   Beetny.EQ2AA.Main.apply(Beetny.EQ2AA, [classLoader, renderer, importer, hash]);
+   Beetny.EQ2AA.Main.apply(Beetny.EQ2AA, [classLoader, renderer, importer, hash, urlUpdater]);
 });
