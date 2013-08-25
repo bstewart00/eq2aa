@@ -32,6 +32,8 @@ Beetny.EQ2AA.AATreeViewer = Class.extend({
 			this._renderer.replacePointTotals(this.class_);
 			jElement.appendTo(parentElement);
 			this._element = jElement;
+			this.updateHash();
+			
 			return this._element;
 			function addTabs() {
 				var tabs = $(".tabs", jElement);
@@ -174,11 +176,12 @@ Beetny.EQ2AA.AATreeViewer = Class.extend({
 		},
 		refresh : function () {
 			this._renderer.refreshTree(this.activeTree, this.class_);
-			this._renderer.updatePointTotals(this.class_)
+			this._renderer.updatePointTotals(this.class_);
 		},
 		fullRefresh : function () {
 			this._renderer.refreshTree(this.activeTree, this.class_);
-			this._renderer.replacePointTotals(this.class_)
+			this._renderer.replacePointTotals(this.class_);
+	      this.updateHash();
 		},
 		resetClass : function () {
 			this.class_.reset();
