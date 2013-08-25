@@ -9,8 +9,13 @@ Beetny.EQ2AA.AATreeViewer = Class.extend({
 		},
 		_template : '<div class="tree-viewer {ClassName}">' + '<ul class="tabs"></ul>' + '<div class="trees"></div>' + "</div>",
 		getElement : function () {
-			return this._element
+			return this._element;
 		},
+		
+		getClassDef: function () {
+		   return this.class_;
+		},
+		
 		render : function (parentElement) {
 			var self = this;
 			var baseHtml = this._template.replace("{ClassName}", this.class_.name);

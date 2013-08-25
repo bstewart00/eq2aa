@@ -45,7 +45,7 @@ Beetny.EQ2AA.ExportCommand = Beetny.EQ2AA.AATreeViewerCommand.extend({
 		}
 	});
 	
-Beetny.EQ2AA.ExportXmlCommand = Beetny.EQ2AA.Command.extend({
+Beetny.EQ2AA.ExportXmlCommand = Beetny.EQ2AA.AATreeViewerCommand.extend({
       init : function () {
          this._super("export-xml", "Export to File", "Creates .aa file that can be imported directly into EQ2.")
       },
@@ -59,10 +59,11 @@ Beetny.EQ2AA.ExportXmlCommand = Beetny.EQ2AA.Command.extend({
          
          return element;
       },
-      execute : function () {
-         var data = 'someData';
+      execute : function (aaTreeViewer) {
+         var exporter = new Beetny.EQ2AA.XmlExporter(Beetny.EQ2AA.GameVersions.LatestUpdate);
+         var xml = exporter.exportClass(aaTreeViewer.getClassDef());
          var form = $('form', this._element);
-         $('input[name=export-xml-data]').val(data);
+         $('input[name=export-xml-data]').val(xml);
          
          form.submit();
       }
