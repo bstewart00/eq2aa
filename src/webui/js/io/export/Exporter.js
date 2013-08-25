@@ -61,33 +61,6 @@ Beetny.EQ2AA.XmlExporter = Class.extend({
          this._exportTree(tree, aaElem);
       }, this);
 
-      /*
-       * 0 - Subclass, Class, Shadows, Heroic
-       1 - Beastlord Pet Specialization
-       2 - Prestige
-       3 - Tradeskill
-       4 - Prestige Tradeskill
-
-       *
-       *
-       * Add "Exported by Beetny comment, including URL link to build"
-       * <aa game="eq2">
-       * For each tree in [valid tree order]
-       *    <alternateadvancements typenum="{TYPENUM}">
-       *    set order = 1
-       *    For each spent AA, sorted by
-       *          - number of prerequisites and/or x, y location ascending
-       *          <alternateadvancement order="{i}" treeID="{TreeSoeID}" id="{AASoeId}"/>
-       *          order++
-       * </alternateadvancements>
-       * </aa>
-       *
-       * Send file as download somehow. Make POST with XML string to server, to send back as binary data?
-       *
-       * Tradeskill, then Subclass, then Class, then Shadows, then Heroic, then Prestige, I think your export should always be valid. That's my theory at least. ;)
-       *
-       */
-
       var declaration = '<?xml version="1.0" encoding="UTF-8"?>';
       var xml = declaration + new XMLSerializer().serializeToString(doc);
       return this._formatXml(xml);
@@ -106,6 +79,30 @@ Beetny.EQ2AA.XmlExporter = Class.extend({
       a.nodeValue = tree.typeNum();
       element.setAttributeNode(a);
 
+      parentElement.appendChild(element);
+      
+      var order = 1;
+      tree.aa.filter(function (aa) {
+         return aa.level > 0;
+      }).forEach(function (aa) {
+         this._exportAA(aa, order++, tree.soe_id, element);
+      }, this);
+   },
+   
+   _exportAA: function (aa, order, treeId, parentElement) {
+      var element = document.createElementNS("", "alternateadvancement");
+      var orderAttr = document.createAttribute("order");
+      orderAttr.nodeValue = order;
+      element.setAttributeNode(orderAttr);
+      
+      var treeIdAttr = document.createAttribute("treeID");
+      treeIdAttr.nodeValue = treeId;
+      element.setAttributeNode(treeIdAttr);
+         
+      var aaIdAttr = document.createAttribute("id");
+      aaIdAttr.nodeValue = aa.soe_id;
+      element.setAttributeNode(aaIdAttr);
+      
       parentElement.appendChild(element);
    }
 });
