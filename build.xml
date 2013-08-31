@@ -44,7 +44,7 @@
       <element name="paths" implicit="true" />
 
       <sequential>
-         <jscomp compilationLevel="whitespace" output="@{destfile}">
+         <jscomp compilationLevel="simple" output="@{destfile}">
             <paths />
          </jscomp>
       </sequential>

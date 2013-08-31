@@ -1,6 +1,6 @@
 import unittest
-from eq2aa_definitions.model.tree_factory import TreeFactory
-from eq2aa_definitions.tests.data_helper import TreeBuilder
+from definitions.model.tree_factory import TreeFactory
+from definitions.tests.data_helper import TreeBuilder
 from unittest.mock import MagicMock, patch, call
 
 class TestTreeFactory(unittest.TestCase):
@@ -10,7 +10,7 @@ class TestTreeFactory(unittest.TestCase):
         self._aa_factory.create.side_effect = lambda nodes: nodes
         self.sut = TreeFactory(self._data_provider, self._aa_factory)
         
-    @patch('eq2aa_definitions.model.tree_factory.Tree')
+    @patch('definitions.model.tree_factory.Tree')
     def test_create_constructs_tree(self, mock_tree):
         def return_name(id_, name, max_points, is_warder_tree, aa):
             return name
@@ -25,7 +25,7 @@ class TestTreeFactory(unittest.TestCase):
         result = self.sut.create(tree_id)
         self.assertEqual(result, tree["name"])
 
-    @patch('eq2aa_definitions.model.tree_factory.Tree')
+    @patch('definitions.model.tree_factory.Tree')
     def test_create_maps_data_properties(self, mock_tree):
         self._aa_factory.create.return_value = []
         
@@ -37,7 +37,7 @@ class TestTreeFactory(unittest.TestCase):
         
         mock_tree.assert_has_calls([call(tree_id, tree["name"], 0, "true", [])])
         
-    @patch('eq2aa_definitions.model.tree_factory.Tree')
+    @patch('definitions.model.tree_factory.Tree')
     def test_create_populates_aa(self, mock_tree):
         aa_nodes = [1,2,3]
         

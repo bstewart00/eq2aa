@@ -1,4 +1,4 @@
-from eq2aa_definitions.model.eq2class import EQ2Class
+from .eq2class import EQ2Class
 
 '''
 api wrapper class

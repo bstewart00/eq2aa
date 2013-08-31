@@ -1,4 +1,4 @@
-from eq2aa_definitions.model.tree import Tree
+from .tree import Tree
 
 class TreeFactory(object):
     def __init__(self, data_provider, aa_factory):
