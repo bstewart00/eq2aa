@@ -34,6 +34,7 @@ class TreeBuilder(object):
         self._name = "SomeTree"
         self._is_warder_tree = False
         self._aa = []
+        self._max_points = 0
     
     def with_id(self, id_):
         self._id = id_
@@ -50,10 +51,15 @@ class TreeBuilder(object):
     def with_aa(self, aa):
         self._aa = aa
         return self
+    
+    def max_points(self, num_points):
+        self._max_points = num_points
+        return self
         
     def build(self):
         return {"id": self._id,
                 "name": self._name,
                 "alternateadvancementnode_list": self._aa,
+                "maxpointsperlevelnode_list": [{"level": -1, "maxpoints": -1}, {"level": 90, "maxpoints": self._max_points }],
                 "iswardertree": "true" if self._is_warder_tree else "false"
                 }

@@ -1,4 +1,4 @@
-from .tree import Tree
+from definitions.model.tree import Tree
 
 class TreeFactory(object):
     def __init__(self, data_provider, aa_factory):
@@ -7,7 +7,7 @@ class TreeFactory(object):
     
     def create(self, id_):
         tree = self._data_provider.tree(id_)
-        aa = self._aa_factory.create(tree["alternateadvancementnode_list"])
+        aa = list([self._aa_factory.create(aa_node) for aa_node in tree["alternateadvancementnode_list"]])
         
         max_points = 0;
         

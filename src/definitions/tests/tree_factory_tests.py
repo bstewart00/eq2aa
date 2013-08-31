@@ -19,7 +19,7 @@ class TestTreeFactory(unittest.TestCase):
         self._aa_factory.create.return_value = []
         
         tree_id = 1
-        tree = TreeBuilder().with_id(tree_id).is_warder_tree().build()
+        tree = TreeBuilder().with_id(tree_id).build()
         self._data_provider.tree.side_effect = lambda id_: tree if id_ == tree_id else None
          
         result = self.sut.create(tree_id)
@@ -27,14 +27,16 @@ class TestTreeFactory(unittest.TestCase):
 
     @patch('definitions.model.tree_factory.Tree')
     def test_create_maps_data_properties(self, mock_tree):
-        self._aa_factory.create.return_value = []
-        
         tree_id = 1
-        tree = TreeBuilder().with_id(tree_id).is_warder_tree().build()
+        tree = TreeBuilder()\
+            .with_id(tree_id)\
+            .is_warder_tree()\
+            .build()
+            
+        self._aa_factory.create.return_value = []
         self._data_provider.tree.side_effect = lambda id_: tree if id_ == tree_id else None
          
         self.sut.create(tree_id)
-        
         mock_tree.assert_has_calls([call(tree_id, tree["name"], 0, "true", [])])
         
     @patch('definitions.model.tree_factory.Tree')
@@ -42,9 +44,13 @@ class TestTreeFactory(unittest.TestCase):
         aa_nodes = [1,2,3]
         
         tree_id = 1
-        tree = TreeBuilder().with_id(tree_id).with_aa(aa_nodes).build()
+        tree = TreeBuilder()\
+            .with_id(tree_id)\
+            .with_aa(aa_nodes)\
+            .build()
+        
         self._data_provider.tree.side_effect = lambda id_: tree if id_ == tree_id else None
-         
+        self._aa_factory.create.side_effect = lambda aa: aa
         self.sut.create(tree_id)
         
         mock_tree.assert_has_calls([call(tree_id, tree["name"], 0, "false", aa_nodes)])
