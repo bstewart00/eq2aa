@@ -9,48 +9,55 @@ class TestTreeFactory(unittest.TestCase):
         self._aa_factory = MagicMock()
         self._aa_factory.create.side_effect = lambda nodes: nodes
         self.sut = TreeFactory(self._data_provider, self._aa_factory)
-        
-    @patch('definitions.model.tree_factory.Tree')
-    def test_create_constructs_tree(self, mock_tree):
-        def return_name(id_, name, max_points, is_warder_tree, aa):
-            return name
-        mock_tree.side_effect = return_name
-        
-        self._aa_factory.create.return_value = []
-        
-        tree_id = 1
-        tree = TreeBuilder().with_id(tree_id).build()
-        self._data_provider.tree.side_effect = lambda id_: tree if id_ == tree_id else None
-         
-        result = self.sut.create(tree_id)
-        self.assertEqual(result, tree["name"])
 
-    @patch('definitions.model.tree_factory.Tree')
-    def test_create_maps_data_properties(self, mock_tree):
+    def test_create_maps_data_properties(self):
         tree_id = 1
         tree = TreeBuilder()\
             .with_id(tree_id)\
             .is_warder_tree()\
             .build()
             
-        self._aa_factory.create.return_value = []
-        self._data_provider.tree.side_effect = lambda id_: tree if id_ == tree_id else None
+        self._data_provider.tree.return_value = tree
          
-        self.sut.create(tree_id)
-        mock_tree.assert_has_calls([call(tree_id, tree["name"], 0, "true", [])])
+        result = self.sut.create(tree_id)
         
-    @patch('definitions.model.tree_factory.Tree')
-    def test_create_populates_aa(self, mock_tree):
+        self.assertEqual(result.id, tree_id)
+        self.assertEqual(result.name, tree["name"])
+        self.assertEqual(result.is_warder_tree, "true")
+        
+    def test_create_populates_aa(self):
         aa_nodes = [1,2,3]
         
-        tree_id = 1
         tree = TreeBuilder()\
-            .with_id(tree_id)\
             .with_aa(aa_nodes)\
             .build()
         
-        self._data_provider.tree.side_effect = lambda id_: tree if id_ == tree_id else None
+        self._data_provider.tree.return_value = tree
         self._aa_factory.create.side_effect = lambda aa: aa
-        self.sut.create(tree_id)
+        result = self.sut.create(0)
         
-        mock_tree.assert_has_calls([call(tree_id, tree["name"], 0, "false", aa_nodes)])
+        self.assertEqual(result.aa, aa_nodes)
+        
+    def test_create_populates_max_points(self):
+        tree = TreeBuilder()\
+            .max_points(150)\
+            .build()
+         
+        self._data_provider.tree.return_value = tree
+        result = self.sut.create(0)
+     
+        self.assertEqual(result.max_points, 150)
+        
+    def test_create_populates_x_y_ratio_and_subclasses(self):
+        tree = TreeBuilder()\
+            .x_subclass("XSubclass")\
+            .y_subclass("YSubclass")\
+            .x_y_ratio(20, 2)\
+            .build()
+        
+        self._data_provider.tree.return_value = tree
+        result = self.sut.create(0)
+        
+        self.assertEqual(result.x_y_ratio, 10)
+        self.assertEqual(result.x_subclass, "XSubclass")
+        self.assertEqual(result.y_subclass, "YSubclass")

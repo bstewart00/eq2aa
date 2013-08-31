@@ -35,6 +35,10 @@ class TreeBuilder(object):
         self._is_warder_tree = False
         self._aa = []
         self._max_points = 0
+        self._x_points = 0
+        self._y_points = 1
+        self._x_subclass = ""
+        self._y_subclass = ""
     
     def with_id(self, id_):
         self._id = id_
@@ -55,11 +59,28 @@ class TreeBuilder(object):
     def max_points(self, num_points):
         self._max_points = num_points
         return self
+    
+    def x_subclass(self, name):
+        self._x_subclass = name
+        return self
+    
+    def y_subclass(self, name):
+        self._y_subclass = name
+        return self
+    
+    def x_y_ratio(self, x, y):
+        self._x_points = x
+        self._y_points = y
+        return self
         
     def build(self):
         return {"id": self._id,
                 "name": self._name,
                 "alternateadvancementnode_list": self._aa,
                 "maxpointsperlevelnode_list": [{"level": -1, "maxpoints": -1}, {"level": 90, "maxpoints": self._max_points }],
+                "foreveryxpoints": self._x_points,
+                "unlocksypoints": self._y_points,
+                "ofxclassification": self._x_subclass,
+                "ofyclassification": self._y_subclass,
                 "iswardertree": "true" if self._is_warder_tree else "false"
                 }

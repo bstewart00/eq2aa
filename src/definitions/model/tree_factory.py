@@ -9,6 +9,9 @@ class TreeFactory(object):
         tree = self._data_provider.tree(id_)
         aa = list([self._aa_factory.create(aa_node) for aa_node in tree["alternateadvancementnode_list"]])
         
-        max_points = 0;
+        max_points = tree["maxpointsperlevelnode_list"][-1]["maxpoints"]
+        x_y_ratio = tree.get("foreveryxpoints", 0) // tree.get("unlocksypoints", 1)
+        x_subclass = tree.get("ofxclassification")
+        y_subclass = tree.get("ofyclassification")
         
-        return Tree(tree["id"], tree["name"], max_points, tree["iswardertree"], aa)
+        return Tree(tree["id"], tree["name"], max_points, tree["iswardertree"], aa, x_y_ratio, x_subclass, y_subclass)
