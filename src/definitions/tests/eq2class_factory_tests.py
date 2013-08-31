@@ -9,18 +9,13 @@ class TestEQ2ClassFactory(unittest.TestCase):
         self._tree_factory = MagicMock()
         self.sut = EQ2ClassFactory(self._data_provider, self._tree_factory)
 
-    @patch('definitions.model.eq2class_factory.EQ2Class')
-    def test_create_constructs_class(self, mock_class):
-        def return_class_name(id_, name, lineage, trees):
-            return name
-        mock_class.side_effect = return_class_name
-
+    def test_create_constructs_class(self):
         class1 = EQ2ClassBuilder().with_id(3).name("Class1").is_subclass().build()
         self._data_provider.classes.return_value = [class1]
 
         result = list(self.sut.create_classes())
 
-        self.assertEquals(result, ["Class1"])
+        self.assertEquals(result[0].name, "Class1")
 
 
     @patch('definitions.model.eq2class_factory.EQ2Class')

@@ -1,7 +1,7 @@
 import unittest
 from definitions.model.tree_factory import TreeFactory
 from definitions.tests.data_helper import TreeBuilder
-from unittest.mock import MagicMock, patch, call
+from unittest.mock import MagicMock
 
 class TestTreeFactory(unittest.TestCase):
     def setUp(self):
@@ -21,7 +21,7 @@ class TestTreeFactory(unittest.TestCase):
          
         result = self.sut.create(tree_id)
         
-        self.assertEqual(result.id, tree_id)
+        self.assertEqual(result.soe_id, tree_id)
         self.assertEqual(result.name, tree["name"])
         self.assertEqual(result.is_warder_tree, "true")
         
