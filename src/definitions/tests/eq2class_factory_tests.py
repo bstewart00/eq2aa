@@ -23,6 +23,7 @@ class TestEQ2ClassFactory(unittest.TestCase):
         def return_class_name(id_, name, lineage, trees):
             return name
         mock_class.side_effect = return_class_name
+        
         family1 = EQ2ClassBuilder().with_id(1).name("Family").build()
         arch1 = EQ2ClassBuilder().with_id(2).name("Archetype").build()
         class1 = EQ2ClassBuilder().with_id(3).name("Class1").is_subclass().build()
@@ -42,10 +43,10 @@ class TestEQ2ClassFactory(unittest.TestCase):
 
         list(self.sut.create_classes())
 
-        mock_class.assert_has_calls([call(3, 'Class1', ['Family', 'Archetype'], []),
-                               call(4, 'Class2', ['Family', 'Archetype'], []),
-                               call(6, 'Class3', ['Family', 'Archetype2'], []),
-                               call(9, 'Class4', ['Family2', 'Archetype3'], [])])
+        mock_class.assert_has_calls([call(3, 'Class1', { 'family': 'Family', 'archetype': 'Archetype' }, []),
+                               call(4, 'Class2', { 'family': 'Family', 'archetype': 'Archetype' }, []),
+                               call(6, 'Class3', { 'family': 'Family', 'archetype': 'Archetype2' }, []),
+                               call(9, 'Class4', { 'family': 'Family2', 'archetype': 'Archetype3' }, [])])
 
     @patch('definitions.model.eq2class_factory.EQ2Class')
     def test_create_populates_trees(self, mock_class):
@@ -55,13 +56,18 @@ class TestEQ2ClassFactory(unittest.TestCase):
 
         tree_id = 0
         some_tree = TreeBuilder().build()
+        family_class = EQ2ClassBuilder().name("Family").build()
+        archetype_class = EQ2ClassBuilder().name("Archetype").build()
         some_class = EQ2ClassBuilder().is_subclass().with_tree_ids([tree_id]).build()
 
-        def return_tree(id_):
+        def return_tree(id_, lineage, class_name):
             return some_tree if id_["id"] == tree_id else None
         self._tree_factory.create.side_effect = return_tree
-        self._data_provider.classes.return_value = [some_class]
+        self._data_provider.classes.return_value = [family_class, archetype_class, some_class]
 
         list(self.sut.create_classes())
+        
+        expected_lineage = {'family': 'Family', 'archetype': 'Archetype'}
 
-        mock_class.assert_has_calls([call(some_class["id"], some_class["name"], [], [some_tree])]),
+        self._tree_factory.create.assert_has_calls([call({ 'id': 0 }, expected_lineage, some_class["name"])])
+        mock_class.assert_has_calls([call(some_class["id"], some_class["name"], expected_lineage, [some_tree])]),
