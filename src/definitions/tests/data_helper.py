@@ -181,6 +181,7 @@ class AABuilder(object):
                 "classification": self._subclass,
                 "classificationpointsrequired": self._subtree_prereqs,
                 "description": self._description,
+                "firstparentid": self._parent_id,
                 "maxtier": self._max_level,
                 "nodeid": self._id,
                 "pointspertier": self._cost,

@@ -1,6 +1,6 @@
 import unittest
 from definitions.model.tree_factory import TreeFactory
-from definitions.tests.data_helper import TreeBuilder
+from definitions.tests.data_helper import AABuilder, TreeBuilder
 from unittest.mock import MagicMock
 
 class TestTreeFactory(unittest.TestCase):
@@ -10,8 +10,18 @@ class TestTreeFactory(unittest.TestCase):
         self._some_lineage = { "family": "", "archetype": "" }
         self._some_class_name = "SomeClass"
         
-        self._aa_factory.create.side_effect = lambda nodes: nodes
+        self._aa_factory.create.side_effect = self._create_aa
         self.sut = TreeFactory(self._data_provider, self._aa_factory)
+        
+    def _create_aa(self, aa_node):
+        class Object(object):
+            pass
+        
+        result = Object()
+        result.id = aa_node["nodeid"]
+        result.parent_id = aa_node["firstparentid"]
+        result.subclass = aa_node["classification"]
+        return result
 
     def test_create_maps_data_properties(self):
         tree_id = 1
@@ -29,17 +39,47 @@ class TestTreeFactory(unittest.TestCase):
         self.assertEqual(result.is_warder_tree, "true")
 
     def test_create_populates_aa(self):
-        aa_nodes = [1, 2, 3]
+        aa_node = AABuilder().with_id(1).name("SomeAA").build()
+        expected_aa = self._create_aa(aa_node)
+        self._aa_factory.create.side_effect = None
+        self._aa_factory.create.return_value = expected_aa 
+
+        tree = TreeBuilder()\
+            .with_aa([aa_node])\
+            .build()
+
+        self._data_provider.tree.return_value = tree
+        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+
+        self.assertEqual(result.aa,  [expected_aa])
+        
+    def test_create_sets_subtrees_to_distinct_aa_subclasses(self):
+        aa_nodes = [AABuilder().subclass("Subclass1").build(),
+                    AABuilder().subclass("Subclass1").build(),
+                    AABuilder().subclass("Subclass2").build()] 
 
         tree = TreeBuilder()\
             .with_aa(aa_nodes)\
             .build()
 
         self._data_provider.tree.return_value = tree
-        self._aa_factory.create.side_effect = lambda aa: aa
         result = self.sut.create(0, self._some_lineage, self._some_class_name)
 
-        self.assertEqual(result.aa, aa_nodes)
+        self.assertEqual(result.subtrees,  ['Subclass1', 'Subclass2'])
+        
+    def test_create_sets_orphans_to_aa_with_no_parents(self):
+        aa_nodes = [AABuilder().with_id(5).parent_id(-1).build(),
+                    AABuilder().with_id(6).parent_id(-1).build(),
+                    AABuilder().with_id(7).parent_id(0).build()] 
+
+        tree = TreeBuilder()\
+            .with_aa(aa_nodes)\
+            .build()
+
+        self._data_provider.tree.return_value = tree
+        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+
+        self.assertEqual(result.orphans, [5, 6])
 
     def test_create_populates_max_points(self):
         tree = TreeBuilder()\
