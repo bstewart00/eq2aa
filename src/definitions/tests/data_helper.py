@@ -177,19 +177,23 @@ class AABuilder(object):
         return self
 
     def build(self):
-        return {"name": self._name,
+        result = {"name": self._name,
                 "classification": self._subclass,
                 "classificationpointsrequired": self._subtree_prereqs,
                 "description": self._description,
-                "firstparentid": self._parent_id,
                 "maxtier": self._max_level,
                 "nodeid": self._id,
                 "pointspertier": self._cost,
                 "pointsspentgloballytounlock": self._global_prereqs,
                 "pointsspentintreetounlock": self._tree_prereqs,
-                "spellsrc": self._spellcrc,
+                "spellcrc": self._spellcrc,
                 "title": self._title,
                 "xcoord": self._coords[0],
                 "ycoord": self._coords[1],
                 "icon": {"backdrop": self._icon_backdrop, "id": self._icon_id }
                 }
+        
+        if self._parent_id > -1:
+            result["firstparentid"] = self._parent_id
+        
+        return result

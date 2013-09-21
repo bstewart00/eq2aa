@@ -23,7 +23,7 @@ class TestTreeFactory(unittest.TestCase):
         result.subclass = aa_node["classification"]
         return result
 
-    def test_create_maps_data_properties(self):
+    def test_create_maps_basic_properties(self):
         tree_id = 1
         tree = TreeBuilder()\
             .with_id(tree_id)\
