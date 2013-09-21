@@ -6,12 +6,15 @@ from unittest.mock import MagicMock
 class TestAAFactory(unittest.TestCase):
     def setUp(self):
         self._data_provider = MagicMock()
+        self._lineage = {"archetype": "SomeArchetype", "family": "SomeFamily"}
+        self._class_name = "SomeClass"
+        self._tree_name = "SomeTree"
         self.sut = AAFactory(self._data_provider)
 
     def test_create_maps_basic_properties(self):
         aa_node = AABuilder().build()
         
-        result = self.sut.create(aa_node)
+        result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
         
         self.assertEqual(result["id"], 0)
         self.assertEqual(result["soe_id"], aa_node["nodeid"])
@@ -26,17 +29,71 @@ class TestAAFactory(unittest.TestCase):
         self.assertEqual(result["cost"], aa_node["pointspertier"])
         self.assertEqual(result["children"], [])
         
-        expected_prereqs = { "parent_subtree": 0,
-                            "global": 0,
-                            "tree": 0,
-                            "subtree": 0,
-                            "parent": 0}
-        self.assertDictEqual(result["prereqs"], expected_prereqs)
-        
     def test_create_sets_parent(self):
         aa_node = AABuilder().parent_id(5).build()
         
-        result = self.sut.create(aa_node)
+        result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
         
         self.assertEqual(result["parent_id"], aa_node["firstparentid"])
+        
+    def test_create_sets_prereqs(self):
+        aa_node = AABuilder().requires_global_points(1)\
+            .requires_parent_points(2)\
+            .requires_subtree_points(3)\
+            .requires_tree_points(4)\
+            .build()
+
+        result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
+            
+        expected_prereqs = { "parent_subtree": 0,
+                            "global": 1,
+                            "tree": 4,
+                            "subtree": 3,
+                            "parent": 2}
+        self.assertDictEqual(result["prereqs"], expected_prereqs)
+        
+    def test_create_shadows_subclass_matches_lineage_archetype_sets_parent_subtree_prereq(self):
+        self._tree_name = "Shadows"
+        
+        aa_node = AABuilder().subclass(self._lineage["archetype"]).build()
+
+        result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
+
+        self.assertEqual(result["prereqs"]["parent_subtree"], 10)
+        
+    def test_create_shadows_subclass_matches_lineage_family_sets_parent_subtree_prereq(self):
+        self._tree_name = "Shadows"
+        
+        aa_node = AABuilder().subclass(self._lineage["family"]).build()
+
+        result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
+
+        self.assertEqual(result["prereqs"]["parent_subtree"], 10)
+        
+    def test_create_shadows_subclass_matches_class_name_sets_parent_subtree_prereq(self):
+        self._tree_name = "Shadows"
+        
+        aa_node = AABuilder().subclass(self._class_name).build()
+
+        result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
+
+        self.assertEqual(result["prereqs"]["parent_subtree"], 10)
+        
+    def test_create_parent_subtree_prereqs_ignored_if_not_shadows_tree(self):
+        self._tree_name = "NonShadowsTree"
+        
+        aa_node = AABuilder().subclass(self._lineage["family"]).build()
+
+        result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
+
+        self.assertEqual(result["prereqs"]["parent_subtree"], 0)
+        
+    def test_create_parent_subtree_prereqs_ignored_if_single_level_aa(self):
+        self._tree_name = "Shadows"
+        
+        aa_node = AABuilder().subclass(self._lineage["family"]).max_level(1).build()
+
+        result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
+
+        self.assertEqual(result["prereqs"]["parent_subtree"], 0)
         

@@ -8,10 +8,6 @@ class TreeFactory(object):
     
     def create(self, soe_id, lineage, class_name):
         tree = self._data_provider.tree(soe_id)
-        aa = list([self._aa_factory.create(aa_node) for aa_node in tree["alternateadvancementnode_list"]])
-        
-        subtrees = OrderedSet([i.subclass for i in aa])
-        orphans = list([i.id for i in aa if i.parent_id == -1])
         
         id_ = self._get_id()
         name = tree["name"]
@@ -23,6 +19,11 @@ class TreeFactory(object):
         x_y_ratio = tree.get("foreveryxpoints", 0) // tree.get("unlocksypoints", 1)
         x_subclass = tree.get("ofxclassification")
         y_subclass = tree.get("ofyclassification")
+        
+        aa = list([self._aa_factory.create(aa_node, lineage, class_name) for aa_node in tree["alternateadvancementnode_list"]])
+        
+        subtrees = OrderedSet([i.subclass for i in aa])
+        orphans = list([i.id for i in aa if i.parent_id == -1])
         
         return Tree(id_, tree["id"], name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio, x_subclass, y_subclass)
     

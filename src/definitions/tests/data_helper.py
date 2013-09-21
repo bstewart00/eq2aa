@@ -94,7 +94,6 @@ class AABuilder(object):
         self._max_level = 2
         self._subclass = "Subclass"
         self._parent_id = -1
-        self._parent_subtree_prereqs = 0
         self._global_prereqs = 0
         self._tree_prereqs = 0
         self._subtree_prereqs = 0
@@ -139,10 +138,6 @@ class AABuilder(object):
         self._parent_prereqs = n
         return self
 
-    def requires_parent_subtree_points(self, n):
-        self._parent_subtree_prereqs = n
-        return self
-
     def requires_global_points(self, n):
         self._global_prereqs = n
         return self
@@ -184,6 +179,7 @@ class AABuilder(object):
                 "maxtier": self._max_level,
                 "nodeid": self._id,
                 "pointspertier": self._cost,
+                "firstparentrequiredtier": self._parent_prereqs,
                 "pointsspentgloballytounlock": self._global_prereqs,
                 "pointsspentintreetounlock": self._tree_prereqs,
                 "spellcrc": self._spellcrc,

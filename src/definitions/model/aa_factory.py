@@ -2,8 +2,8 @@ class AAFactory(object):
     def __init__(self, data_provider):
         self._data_provider = data_provider
     
-    def create(self, aa_node):
-        result = {};
+    def create(self, aa_node, lineage, class_name, tree_name):
+        result = {}
         
         result["id"] = 0
         result["level"] = 0
@@ -18,10 +18,19 @@ class AAFactory(object):
         result["coords"] = [aa_node["xcoord"], aa_node["ycoord"]]
         result["children"] = []
         
-        result["prereqs"] = { "parent_subtree": 0,
-                            "global": 0,
-                            "tree": 0,
-                            "subtree": 0,
-                            "parent": 0}
+        result["prereqs"] = { "parent_subtree": self._calculate_parent_subtree_prereq(result["subclass"], result["max_level"], lineage, class_name, tree_name),
+                            "global": aa_node["pointsspentgloballytounlock"],
+                            "tree": aa_node["pointsspentintreetounlock"],
+                            "subtree": aa_node["classificationpointsrequired"],
+                            "parent": aa_node.get("firstparentrequiredtier", 0)
+                            }
         
         return result
+    
+    def _calculate_parent_subtree_prereq(self, subclass, max_level, lineage, class_name, tree_name):
+        if tree_name == "Shadows" and max_level > 1\
+        and subclass == lineage["family"]\
+        or subclass == lineage["archetype"]\
+        or subclass == class_name:            
+            return 10
+        return 0
