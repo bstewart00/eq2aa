@@ -9,6 +9,7 @@ class TestTreeFactory(unittest.TestCase):
         self._aa_factory = MagicMock()
         self._some_lineage = { "family": "", "archetype": "" }
         self._some_class_name = "SomeClass"
+        self._tree_id = 55
         
         self._aa_factory.create.side_effect = lambda node, lineage, class_name: self._create_aa(node)
         self.sut = TreeFactory(self._data_provider, self._aa_factory)
@@ -23,17 +24,18 @@ class TestTreeFactory(unittest.TestCase):
         return result
 
     def test_create_maps_basic_properties(self):
-        tree_id = 1
+        tree_soe_id = 1
         tree = TreeBuilder()\
-            .with_id(tree_id)\
+            .with_id(tree_soe_id)\
             .is_warder_tree()\
             .build()
 
         self._data_provider.tree.return_value = tree
 
-        result = self.sut.create(tree_id, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, tree_soe_id, self._some_lineage, self._some_class_name)
 
-        self.assertEqual(result.soe_id, tree_id)
+        self.assertEqual(result.id, self._tree_id)
+        self.assertEqual(result.soe_id, tree_soe_id)
         self.assertEqual(result.name, tree["name"])
         self.assertEqual(result.is_warder_tree, "true")
 
@@ -48,7 +50,7 @@ class TestTreeFactory(unittest.TestCase):
             .build()
 
         self._data_provider.tree.return_value = tree
-        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, 0, self._some_lineage, self._some_class_name)
 
         self.assertEqual(result.aa,  [expected_aa])
         
@@ -63,7 +65,7 @@ class TestTreeFactory(unittest.TestCase):
             .build()
 
         self._data_provider.tree.return_value = tree
-        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, 0, self._some_lineage, self._some_class_name)
         
         self.assertEquals(list(map(lambda a: a["coords"], result.aa)), [[0, 0], [1, 0], [0, 1], [1, 1]])
         
@@ -78,7 +80,7 @@ class TestTreeFactory(unittest.TestCase):
             .build()
 
         self._data_provider.tree.return_value = tree
-        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, 0, self._some_lineage, self._some_class_name)
         
         self.assertEquals(list(map(lambda a: a["id"], result.aa)), [0, 1, 2, 3])
         
@@ -92,7 +94,7 @@ class TestTreeFactory(unittest.TestCase):
             .build()
 
         self._data_provider.tree.return_value = tree
-        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, 0, self._some_lineage, self._some_class_name)
 
         self.assertEqual(result.subtrees,  ['Subclass1', 'Subclass2'])
         
@@ -106,7 +108,7 @@ class TestTreeFactory(unittest.TestCase):
             .build()
 
         self._data_provider.tree.return_value = tree
-        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, 0, self._some_lineage, self._some_class_name)
 
         self.assertEqual(result.orphans, [0, 1])
 
@@ -116,7 +118,7 @@ class TestTreeFactory(unittest.TestCase):
             .build()
 
         self._data_provider.tree.return_value = tree
-        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, 0, self._some_lineage, self._some_class_name)
 
         self.assertEqual(result.max_points, 150)
 
@@ -128,7 +130,7 @@ class TestTreeFactory(unittest.TestCase):
             .build()
 
         self._data_provider.tree.return_value = tree
-        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, 0, self._some_lineage, self._some_class_name)
 
         self.assertEqual(result.x_y_ratio, 10)
         self.assertEqual(result.x_subclass, "XSubclass")
@@ -138,7 +140,7 @@ class TestTreeFactory(unittest.TestCase):
         tree = TreeBuilder().name(self._some_lineage["archetype"]).build()
 
         self._data_provider.tree.return_value = tree
-        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, 0, self._some_lineage, self._some_class_name)
         
         self.assertEqual(result.type, "Archetype")
         
@@ -146,7 +148,7 @@ class TestTreeFactory(unittest.TestCase):
         tree = TreeBuilder().name(self._some_class_name).build()
 
         self._data_provider.tree.return_value = tree
-        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, 0, self._some_lineage, self._some_class_name)
         
         self.assertEqual(result.type, "Class")
 
@@ -154,7 +156,7 @@ class TestTreeFactory(unittest.TestCase):
         tree = TreeBuilder().is_warder_tree().build()
 
         self._data_provider.tree.return_value = tree
-        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, 0, self._some_lineage, self._some_class_name)
         
         self.assertEqual(result.type, "Warder")
         
@@ -162,7 +164,7 @@ class TestTreeFactory(unittest.TestCase):
         tree = TreeBuilder().name("Tradeskill Prestige").build()
 
         self._data_provider.tree.return_value = tree
-        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, 0, self._some_lineage, self._some_class_name)
         
         self.assertEqual(result.type, "TradeskillPrestige")
         
@@ -177,7 +179,7 @@ class TestTreeFactory(unittest.TestCase):
             .build()
 
         self._data_provider.tree.return_value = tree
-        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, 0, self._some_lineage, self._some_class_name)
         
         self.assertEqual(list(map(lambda n: n["parent_id"], result.aa)), [-1, 0, 1, -1])
         
@@ -194,6 +196,6 @@ class TestTreeFactory(unittest.TestCase):
             .build()
 
         self._data_provider.tree.return_value = tree
-        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        result = self.sut.create(self._tree_id, 0, self._some_lineage, self._some_class_name)
         
         self.assertEqual(list(map(lambda n: n["children"], result.aa)), [[1, 2], [3, 4], [], [], [], []])

@@ -6,10 +6,9 @@ class TreeFactory(object):
         self._data_provider = data_provider
         self._aa_factory = aa_factory
     
-    def create(self, soe_id, lineage, class_name):
+    def create(self, tree_id, soe_id, lineage, class_name):
         tree = self._data_provider.tree(soe_id)
         
-        id_ = self._get_id()
         name = tree["name"]
         is_warder_tree = tree["iswardertree"]
         
@@ -29,10 +28,7 @@ class TreeFactory(object):
         subtrees = OrderedSet([i["subclass"] for i in aa])
         orphans = self._find_orphans(aa)
         
-        return Tree(id_, tree["id"], name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio, x_subclass, y_subclass)
-    
-    def _get_id(self):
-        return 0
+        return Tree(tree_id, tree["id"], name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio, x_subclass, y_subclass)
     
     def _determine_type(self, tree_name, lineage, class_name, is_warder_tree):
         if tree_name == lineage["archetype"]:

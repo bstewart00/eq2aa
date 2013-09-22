@@ -54,14 +54,16 @@ class TestEQ2ClassFactory(unittest.TestCase):
             return name
         mock_class.side_effect = return_class_name
 
-        tree_id = 0
-        some_tree = TreeBuilder().build()
+        trees = [TreeBuilder().with_id(1).build(), TreeBuilder().with_id(2).build()]
         family_class = EQ2ClassBuilder().name("Family").build()
         archetype_class = EQ2ClassBuilder().name("Archetype").build()
-        some_class = EQ2ClassBuilder().is_subclass().with_tree_ids([tree_id]).build()
+        some_class = EQ2ClassBuilder().is_subclass().with_tree_ids([1, 2]).build()
 
-        def return_tree(id_, lineage, class_name):
-            return some_tree if id_["id"] == tree_id else None
+        def return_tree(tree_id, soe_id, lineage, class_name):
+            for t in trees:
+                if t["id"] == soe_id:
+                    return t
+            return None 
         self._tree_factory.create.side_effect = return_tree
         self._data_provider.classes.return_value = [family_class, archetype_class, some_class]
 
@@ -69,5 +71,6 @@ class TestEQ2ClassFactory(unittest.TestCase):
         
         expected_lineage = {'family': 'Family', 'archetype': 'Archetype'}
 
-        self._tree_factory.create.assert_has_calls([call({ 'id': 0 }, expected_lineage, some_class["name"])])
-        mock_class.assert_has_calls([call(some_class["id"], some_class["name"], expected_lineage, [some_tree])]),
+        self._tree_factory.create.assert_has_calls([call(0, 1, expected_lineage, some_class["name"])])
+        self._tree_factory.create.assert_has_calls([call(1, 2, expected_lineage, some_class["name"])])
+        mock_class.assert_has_calls([call(some_class["id"], some_class["name"], expected_lineage, trees)]),
