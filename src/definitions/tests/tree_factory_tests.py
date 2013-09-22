@@ -15,7 +15,7 @@ class TestTreeFactory(unittest.TestCase):
         
     def _create_aa(self, aa_node):        
         result = {}
-        result["id"] = aa_node["nodeid"]
+        result["soe_id"] = aa_node["nodeid"]
         result["parent_id"] = aa_node.get("firstparentid", -1)
         result["subclass"] = aa_node["classification"]
         result["coords"] = [aa_node["xcoord"], aa_node["ycoord"]]
@@ -165,3 +165,18 @@ class TestTreeFactory(unittest.TestCase):
         result = self.sut.create(0, self._some_lineage, self._some_class_name)
         
         self.assertEqual(result.type, "TradeskillPrestige")
+        
+    def test_replaces_parent_soe_ids(self):
+        aa_nodes = [AABuilder().with_id(5).parent_id(50).build(),
+                    AABuilder().with_id(6).parent_id(60).build(),
+                    AABuilder().with_id(7).parent_id(70).build(),
+                    AABuilder().with_id(8).parent_id(-1).build()]
+
+        tree = TreeBuilder()\
+            .with_aa(aa_nodes)\
+            .build()
+
+        self._data_provider.tree.return_value = tree
+        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        
+        self.assertEqual(list(map(lambda n: n["parent_id"], result.aa)), [0, 1, 2, -1])

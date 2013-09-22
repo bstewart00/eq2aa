@@ -53,8 +53,12 @@ class TreeFactory(object):
             next_id += 1
         return aa
     
-    def _replace_parent_ids(self, aa):
-        # Replace parent_id (initially a soe_id) with the id of the AA that has the same soe_id
+    def _replace_parent_ids(self, aa):        
+        parent_id_map = { soe_id: new_id for soe_id, new_id in map(lambda a: [a["soe_id"], a["id"]], aa)}
+        
+        for i in aa:
+            if i["parent_id"] != -1:
+                i["parent_id"] = parent_id_map[i["soe_id"]]
         return aa
     
     def _populate_aa_children(self, aa):
