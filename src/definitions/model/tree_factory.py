@@ -21,9 +21,13 @@ class TreeFactory(object):
         y_subclass = tree.get("ofyclassification")
         
         aa = list([self._aa_factory.create(aa_node, lineage, class_name) for aa_node in tree["alternateadvancementnode_list"]])
+        aa = self._sort_aa_by_coords(aa)
+        aa = self._reorder_ids(aa)
+        aa = self._replace_parent_ids(aa)
+        aa = self._populate_aa_children(aa)
         
-        subtrees = OrderedSet([i.subclass for i in aa])
-        orphans = list([i.id for i in aa if i.parent_id == -1])
+        subtrees = OrderedSet([i["subclass"] for i in aa])
+        orphans = self._find_orphans(aa)
         
         return Tree(id_, tree["id"], name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio, x_subclass, y_subclass)
     
@@ -38,3 +42,24 @@ class TreeFactory(object):
         elif is_warder_tree == "true":
             return "Warder"
         return tree_name.replace(" ", "")
+    
+    def _sort_aa_by_coords(self, aa):
+        return sorted(aa, key=lambda n: (n["coords"][1], n["coords"][0]))
+    
+    def _reorder_ids(self, aa):
+        next_id = 0
+        for i in aa:
+            i["id"] = next_id
+            next_id += 1
+        return aa
+    
+    def _replace_parent_ids(self, aa):
+        # Replace parent_id (initially a soe_id) with the id of the AA that has the same soe_id
+        return aa
+    
+    def _populate_aa_children(self, aa):
+        # for aa X, X.children == all aa that have parent_id == X.id
+        return aa
+    
+    def _find_orphans(self, aa):
+        return list([i["id"] for i in aa if i["parent_id"] == -1])

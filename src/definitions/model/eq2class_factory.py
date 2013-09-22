@@ -1,29 +1,5 @@
 from definitions.model.eq2class import EQ2Class
 
-'''
-api wrapper class
-icon storage class
-
-
-foreach class
-http://data.soe.com/xml/get/eq2/constants/?c:show=adventureclass_list
-fill lineage
-
-    foreach tree in class
-        foreach aa in tree
-            http://data.soe.com/xml/get/eq2/alternateadvancement/76
-            
-            http://data.soe.com/xml/get/eq2/spell/?c:limit=10&crc=3302918945
-            prereq, rank, location, icon info
-            
-            http://data.soe.com/img/eq2/icons/166/achievement
-            
-            foreach rank in aa
-                fill effect description and indentation
-'''
-
-
-
 class EQ2ClassFactory(object):
     def __init__(self, data_provider, tree_factory):
         self._data_provider = data_provider

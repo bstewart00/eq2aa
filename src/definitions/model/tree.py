@@ -1,13 +1,4 @@
 class Tree(object):
-    '''
-    classdocs
-    
-    
-    sort_aa_by_location
-    to_dict
-    '''
-
-
     def __init__(self, id_, soe_id, name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio=0, x_subclass="", y_subclass=""):
         self.id = id_
         self.soe_id = soe_id
