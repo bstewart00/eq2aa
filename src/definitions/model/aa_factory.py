@@ -1,7 +1,7 @@
 class AAFactory(object):
-    def __init__(self, data_provider, spell_formatter):
+    def __init__(self, data_provider, spell_effect_formatter):
         self._data_provider = data_provider
-        self._spell_formatter = spell_formatter
+        self._spell_effect_formatter = spell_effect_formatter
     
     def create(self, aa_node, lineage, class_name, tree_name):
         result = {}
@@ -26,7 +26,9 @@ class AAFactory(object):
                             "parent": aa_node.get("firstparentrequiredtier", 0)
                             }
         
-        result["effects"] = self._spell_formatter.format(self._data_provider.spells(aa_node["spellcrc"]))
+        spells = self._data_provider.spells(aa_node["spellcrc"])
+        result["icon"] = { "icon": spells[0]["icon"]["id"], "backdrop": spells[0]["icon"]["backdrop"] }
+        result["effects"] = [self._spell_effect_formatter.format(spell["effect_list"]) for spell in spells]
         
         return result
     

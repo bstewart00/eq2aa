@@ -203,7 +203,7 @@ class SpellBuilder(object):
         self._rank = 5
         self._icon_id = 1
         self._backdrop_id = 2
-        self._effects = ["PerRankEffect"]
+        self._effects = []
 
     def with_crc(self, crc):
         self._crc = crc
@@ -225,8 +225,8 @@ class SpellBuilder(object):
         self._backdrop_id = backdrop_id
         return self
     
-    def effects(self, effects):
-        self._effects = effects
+    def add_effect(self, desc, indent):
+        self._effects.append({ "description" : desc, "indentation": indent })
         return self
     
     def build(self):
@@ -234,5 +234,6 @@ class SpellBuilder(object):
                 "name": self._name,
                 "description": self._description,
                 "tier": self._rank,
-                "icon": { "backdrop": self._backdrop_id, "id": self._icon_id }
+                "icon": { "backdrop": self._backdrop_id, "id": self._icon_id },
+                "effect_list": self._effects
                 }

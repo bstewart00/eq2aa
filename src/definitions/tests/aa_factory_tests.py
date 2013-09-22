@@ -9,8 +9,8 @@ class TestAAFactory(unittest.TestCase):
         self._lineage = {"archetype": "SomeArchetype", "family": "SomeFamily"}
         self._class_name = "SomeClass"
         self._tree_name = "SomeTree"
-        self._spell_formatter = MagicMock()
-        self.sut = AAFactory(self._data_provider, self._spell_formatter)
+        self._spell_effect_formatter = MagicMock()
+        self.sut = AAFactory(self._data_provider, self._spell_effect_formatter)
 
     def test_create_maps_basic_properties(self):
         aa_node = AABuilder().build()
@@ -32,16 +32,24 @@ class TestAAFactory(unittest.TestCase):
         
     def test_create_fetches_effects(self):
         aa_node = AABuilder().spellcrc(123).build()
-        
         spell = SpellBuilder().with_crc(123).build()
         self._data_provider.spells.side_effect = lambda crc: [spell] if crc == 123 else None
         
-        formatted_spell = "SomeFormattedEffects"
-        self._spell_formatter.format.side_effect = lambda spells: formatted_spell if spells == [spell] else None 
+        formatted_effects = "SomeFormattedEffects"
+        self._spell_effect_formatter.format.side_effect = lambda effects: formatted_effects if effects == spell["effect_list"] else None 
         
         result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
         
-        self.assertEqual(result["effects"], formatted_spell)
+        self.assertEqual(result["effects"], [formatted_effects])
+        
+    def test_create_sets_icon_ids(self):
+        aa_node = AABuilder().spellcrc(123).build()
+        spell = SpellBuilder().with_crc(123).backdrop(50).icon(100).build()
+        self._data_provider.spells.side_effect = lambda crc: [spell] if crc == 123 else None
+        
+        result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
+        
+        self.assertDictEqual(result["icon"], { "icon": 100, "backdrop": 50 })
         
     def test_create_sets_parent(self):
         aa_node = AABuilder().parent_id(5).build()
