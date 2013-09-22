@@ -99,7 +99,7 @@ class TestTreeFactory(unittest.TestCase):
     def test_create_sets_orphans_to_aa_with_no_parents(self):
         aa_nodes = [AABuilder().with_id(5).parent_id(-1).build(),
                     AABuilder().with_id(6).parent_id(-1).build(),
-                    AABuilder().with_id(7).parent_id(0).build()] 
+                    AABuilder().with_id(7).parent_id(5).build()] 
 
         tree = TreeBuilder()\
             .with_aa(aa_nodes)\
@@ -166,11 +166,11 @@ class TestTreeFactory(unittest.TestCase):
         
         self.assertEqual(result.type, "TradeskillPrestige")
         
-    def test_replaces_parent_soe_ids(self):
-        aa_nodes = [AABuilder().with_id(5).parent_id(50).build(),
-                    AABuilder().with_id(6).parent_id(60).build(),
-                    AABuilder().with_id(7).parent_id(70).build(),
-                    AABuilder().with_id(8).parent_id(-1).build()]
+    def test_create_replaces_parent_soe_ids(self):
+        aa_nodes = [AABuilder().with_id(50).parent_id(-1).build(),
+                    AABuilder().with_id(60).parent_id(50).build(),
+                    AABuilder().with_id(70).parent_id(60).build(),
+                    AABuilder().with_id(80).parent_id(-1).build()]
 
         tree = TreeBuilder()\
             .with_aa(aa_nodes)\
@@ -179,4 +179,21 @@ class TestTreeFactory(unittest.TestCase):
         self._data_provider.tree.return_value = tree
         result = self.sut.create(0, self._some_lineage, self._some_class_name)
         
-        self.assertEqual(list(map(lambda n: n["parent_id"], result.aa)), [0, 1, 2, -1])
+        self.assertEqual(list(map(lambda n: n["parent_id"], result.aa)), [-1, 0, 1, -1])
+        
+    def test_create_populates_children(self):
+        aa_nodes = [AABuilder().with_id(50).parent_id(-1).build(),
+                    AABuilder().with_id(60).parent_id(50).build(),
+                    AABuilder().with_id(70).parent_id(50).build(),
+                    AABuilder().with_id(80).parent_id(60).build(),
+                    AABuilder().with_id(90).parent_id(60).build(),
+                    AABuilder().with_id(100).parent_id(-1).build()]
+
+        tree = TreeBuilder()\
+            .with_aa(aa_nodes)\
+            .build()
+
+        self._data_provider.tree.return_value = tree
+        result = self.sut.create(0, self._some_lineage, self._some_class_name)
+        
+        self.assertEqual(list(map(lambda n: n["children"], result.aa)), [[1, 2], [3, 4], [], [], [], []])

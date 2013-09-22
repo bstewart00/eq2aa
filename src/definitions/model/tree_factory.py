@@ -23,7 +23,7 @@ class TreeFactory(object):
         aa = list([self._aa_factory.create(aa_node, lineage, class_name) for aa_node in tree["alternateadvancementnode_list"]])
         aa = self._sort_aa_by_coords(aa)
         aa = self._reorder_ids(aa)
-        aa = self._replace_parent_ids(aa)
+        aa = self._remap_parent_ids(aa)
         aa = self._populate_aa_children(aa)
         
         subtrees = OrderedSet([i["subclass"] for i in aa])
@@ -53,16 +53,17 @@ class TreeFactory(object):
             next_id += 1
         return aa
     
-    def _replace_parent_ids(self, aa):        
+    def _remap_parent_ids(self, aa):        
         parent_id_map = { soe_id: new_id for soe_id, new_id in map(lambda a: [a["soe_id"], a["id"]], aa)}
         
         for i in aa:
             if i["parent_id"] != -1:
-                i["parent_id"] = parent_id_map[i["soe_id"]]
+                i["parent_id"] = parent_id_map[i["parent_id"]]
         return aa
     
     def _populate_aa_children(self, aa):
-        # for aa X, X.children == all aa that have parent_id == X.id
+        for i in aa:
+            i["children"] = [child["id"] for child in aa if child["parent_id"] == i["id"]]
         return aa
     
     def _find_orphans(self, aa):
