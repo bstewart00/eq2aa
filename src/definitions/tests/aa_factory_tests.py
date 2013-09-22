@@ -1,6 +1,6 @@
 import unittest
 from definitions.model.aa_factory import AAFactory
-from definitions.tests.data_helper import AABuilder
+from definitions.tests.data_helper import AABuilder, SpellBuilder
 from unittest.mock import MagicMock
 
 class TestAAFactory(unittest.TestCase):
@@ -9,7 +9,8 @@ class TestAAFactory(unittest.TestCase):
         self._lineage = {"archetype": "SomeArchetype", "family": "SomeFamily"}
         self._class_name = "SomeClass"
         self._tree_name = "SomeTree"
-        self.sut = AAFactory(self._data_provider)
+        self._spell_formatter = MagicMock()
+        self.sut = AAFactory(self._data_provider, self._spell_formatter)
 
     def test_create_maps_basic_properties(self):
         aa_node = AABuilder().build()
@@ -28,6 +29,19 @@ class TestAAFactory(unittest.TestCase):
         self.assertEqual(result["level"], 0)
         self.assertEqual(result["cost"], aa_node["pointspertier"])
         self.assertEqual(result["children"], [])
+        
+    def test_create_fetches_effects(self):
+        aa_node = AABuilder().spellcrc(123).build()
+        
+        spell = SpellBuilder().with_crc(123).build()
+        self._data_provider.spells.side_effect = lambda crc: [spell] if crc == 123 else None
+        
+        formatted_spell = "SomeFormattedEffects"
+        self._spell_formatter.format.side_effect = lambda spells: formatted_spell if spells == [spell] else None 
+        
+        result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
+        
+        self.assertEqual(result["effects"], formatted_spell)
         
     def test_create_sets_parent(self):
         aa_node = AABuilder().parent_id(5).build()

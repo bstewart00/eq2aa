@@ -1,6 +1,7 @@
 class AAFactory(object):
-    def __init__(self, data_provider):
+    def __init__(self, data_provider, spell_formatter):
         self._data_provider = data_provider
+        self._spell_formatter = spell_formatter
     
     def create(self, aa_node, lineage, class_name, tree_name):
         result = {}
@@ -24,6 +25,8 @@ class AAFactory(object):
                             "subtree": aa_node["classificationpointsrequired"],
                             "parent": aa_node.get("firstparentrequiredtier", 0)
                             }
+        
+        result["effects"] = self._spell_formatter.format(self._data_provider.spells(aa_node["spellcrc"]))
         
         return result
     

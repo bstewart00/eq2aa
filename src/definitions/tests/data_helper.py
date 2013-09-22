@@ -193,3 +193,46 @@ class AABuilder(object):
             result["firstparentid"] = self._parent_id
         
         return result
+
+
+class SpellBuilder(object):
+    def __init__(self):
+        self._crc = 55
+        self._name = "SpellName"
+        self._description = "EffectDesc"
+        self._rank = 5
+        self._icon_id = 1
+        self._backdrop_id = 2
+        self._effects = ["PerRankEffect"]
+
+    def with_crc(self, crc):
+        self._crc = crc
+        return self
+
+    def name(self, name_):
+        self._name = name_
+        return self
+    
+    def rank(self, rank):
+        self._rank = rank
+        return self
+    
+    def icon(self, icon_id):
+        self._icon_id = icon_id
+        return self
+    
+    def backdrop(self, backdrop_id):
+        self._backdrop_id = backdrop_id
+        return self
+    
+    def effects(self, effects):
+        self._effects = effects
+        return self
+    
+    def build(self):
+        return {"crc": self._crc,
+                "name": self._name,
+                "description": self._description,
+                "tier": self._rank,
+                "icon": { "backdrop": self._backdrop_id, "id": self._icon_id }
+                }
