@@ -1,14 +1,20 @@
 class AA(object):
-    def __init__(self, id_, soe_id, name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio=0, x_subclass="", y_subclass=""):
+    def __init__(self, id_, soe_id, parent_id, name, description, cost, max_level, subclass, coords, effects, icon, prereqs, children = [], title = ""):
         self.id = id_
         self.soe_id = soe_id
+        self.parent_id = parent_id
+        
         self.name = name
-        self.type = tree_type
-        self.max_points = max_points
-        self.is_warder_tree = is_warder_tree
-        self.aa = aa
-        self.x_y_ratio = x_y_ratio
-        self.x_subclass = x_subclass
-        self.y_subclass = y_subclass
-        self.subtrees = subtrees
-        self.orphans = orphans
+        self.description = description
+        
+        self.cost = cost
+        self.level = 0
+        self.max_level = max_level
+        
+        self.subclass = subclass
+        self.coords = coords
+        self.effects = effects
+        self.children = children
+        self.prereqs = prereqs
+        self.title = title
+        self.icon = icon
