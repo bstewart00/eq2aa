@@ -73,16 +73,16 @@ class FileDataCache:
     def _get_from_cache(self, filename):
         path = os.path.join(self._cache_dir_path,  filename)
         try:
-            with open(path, 'rb') as f:
-                return pickle.load(f, encoding='utf-8')
+            with open(path, 'r') as f:
+                return json.load(f)
         except IOError:
             return None
     
     def _put_in_cache(self, filename, result):
         path = os.path.join(self._cache_dir_path,  filename)
         try:
-            with open(path, 'wb') as f:
-                pickle.dump(result, f)
+            with open(path, 'w') as f:
+                json.dump(result, f, sort_keys=True, indent=4, separators=(',', ': '))
                 return result
         except IOError as err:
             sys.stderr.write("IOError:" + str(err))

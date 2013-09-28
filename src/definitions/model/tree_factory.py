@@ -24,8 +24,9 @@ class TreeFactory(object):
         aa = self._reorder_ids(aa)
         aa = self._remap_parent_ids(aa)
         aa = self._populate_aa_children(aa)
+        # Move into AAFactory.create_all
         
-        subtrees = OrderedSet([i["subclass"] for i in aa])
+        subtrees = OrderedSet([i.subclass for i in aa])
         orphans = self._find_orphans(aa)
         
         return Tree(tree_id, tree["id"], name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio, x_subclass, y_subclass)

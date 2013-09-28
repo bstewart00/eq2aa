@@ -5,7 +5,7 @@ class EQ2ClassFactory(object):
         self._data_provider = data_provider
         self._tree_factory = tree_factory
 
-    def create_classes(self, class_name_filter=[]):
+    def create_classes(self):
         previous_lineage = []
         new_lineage = []
 
