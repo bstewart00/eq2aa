@@ -125,7 +125,7 @@ class TestAAFactory(unittest.TestCase):
                     AABuilder().with_id(70).parent_id(60).build(),
                     AABuilder().with_id(80).parent_id(-1).build()]
 
-        aa, orphans = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
+        aa, orphans, subtrees = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
         
         self.assertEqual(list(map(lambda n: n.parent_id, aa)), [-1, 0, 1, -1])
         
@@ -137,7 +137,7 @@ class TestAAFactory(unittest.TestCase):
                     AABuilder().with_id(90).parent_id(60).build(),
                     AABuilder().with_id(100).parent_id(-1).build()]
 
-        aa, orphans = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
+        aa, orphans, subtrees = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
         
         self.assertEqual(list(map(lambda n: n.children, aa)), [[1, 2], [3, 4], [], [], [], []])
         
@@ -147,7 +147,7 @@ class TestAAFactory(unittest.TestCase):
                     AABuilder().with_id(70).coords(1, 0).build(),
                     AABuilder().with_id(80).coords(0, 1).build()]
 
-        aa, orphans = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
+        aa, orphans, subtrees = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
         
         self.assertEquals(list(map(lambda a: a.coords, aa)), [[0, 0], [1, 0], [0, 1], [1, 1]])
         
@@ -157,7 +157,7 @@ class TestAAFactory(unittest.TestCase):
                     AABuilder().with_id(70).coords(1, 0).build(),
                     AABuilder().with_id(80).coords(0, 1).build()]
 
-        aa, orphans = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
+        aa, orphans, subtrees = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
         
         self.assertEquals(list(map(lambda a: a.id, aa)), [0, 1, 2, 3])
         
@@ -166,7 +166,16 @@ class TestAAFactory(unittest.TestCase):
                     AABuilder().with_id(6).parent_id(-1).build(),
                     AABuilder().with_id(7).parent_id(5).build()] 
 
-        aa, orphans = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
+        aa, orphans, subtrees = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
 
         self.assertEqual(orphans, [0, 1])
+        
+    def test_create_sets_subtrees_to_distinct_aa_subclasses(self):
+        aa_nodes = [AABuilder().subclass("Subclass1").build(),
+                    AABuilder().subclass("Subclass1").build(),
+                    AABuilder().subclass("Subclass2").build()] 
+
+        aa, orphans, subtrees = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
+
+        self.assertEqual(subtrees,  ['Subclass1', 'Subclass2'])
         

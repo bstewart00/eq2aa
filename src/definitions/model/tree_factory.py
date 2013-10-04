@@ -1,5 +1,4 @@
 from definitions.model.tree import Tree
-from definitions.utils.ordered_set import OrderedSet
 
 class TreeFactory(object):
     def __init__(self, data_provider, aa_factory):
@@ -19,8 +18,7 @@ class TreeFactory(object):
         x_subclass = tree.get("ofxclassification")
         y_subclass = tree.get("ofyclassification")
         
-        aa, orphans = self._aa_factory.create_all(tree["alternateadvancementnode_list"], lineage, class_name)
-        subtrees = OrderedSet([i.subclass for i in aa])
+        aa, orphans, subtrees = self._aa_factory.create_all(tree["alternateadvancementnode_list"], lineage, class_name)
         
         return Tree(tree_id, tree["id"], name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio, x_subclass, y_subclass)
     

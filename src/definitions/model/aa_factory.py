@@ -1,4 +1,5 @@
 from definitions.model.aa import AA
+from definitions.utils.ordered_set import OrderedSet
 
 class AAFactory(object):
     def __init__(self, data_provider, spell_effect_formatter):
@@ -13,8 +14,9 @@ class AAFactory(object):
         aa = self._populate_aa_children(aa)
         
         orphans = self._find_orphans(aa)
+        subtrees = OrderedSet([i.subclass for i in aa])
         
-        return aa, orphans
+        return aa, orphans, subtrees
     
     def _sort_aa_by_coords(self, aa):
         return sorted(aa, key=lambda n: (n.coords[1], n.coords[0]))
