@@ -1,9 +1,10 @@
 from definitions.model.eq2class import EQ2Class
 
 class EQ2ClassFactory(object):
-    def __init__(self, data_provider, tree_factory):
+    def __init__(self, data_provider, tree_factory, logger):
         self._data_provider = data_provider
         self._tree_factory = tree_factory
+        self._logger = logger
 
     def create_classes(self, class_name_filter=[]):
         def _matches_filter(class_name):
@@ -17,6 +18,8 @@ class EQ2ClassFactory(object):
 
         next_id = 0
         for class_node in all_classes:
+            self._logger.log('Processing class {0}...'.format(class_node["name"]))
+            
             if class_node["issubclass"] == "false":
                 new_lineage.append(class_node["name"])
             else:

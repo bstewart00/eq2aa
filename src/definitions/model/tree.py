@@ -12,3 +12,12 @@ class Tree(object):
         self.y_subclass = y_subclass
         self.subtrees = subtrees
         self.orphans = orphans
+        
+    def to_dict(self):
+        return {
+                "id": self.id,
+                "soe_id": self.soe_id,
+                "name": self.name,
+                "lineage": self.lineage,
+                "trees": self.trees
+                }

@@ -1,11 +1,14 @@
 from definitions.model.tree import Tree
 
 class TreeFactory(object):
-    def __init__(self, data_provider, aa_factory):
+    def __init__(self, data_provider, aa_factory, logger):
         self._data_provider = data_provider
         self._aa_factory = aa_factory
+        self._logger = logger
     
     def create(self, tree_id, soe_id, lineage, class_name):
+        self._logger.log('Processing Tree {0}...'.format(tree_id))
+        
         tree_result = self._data_provider.tree(soe_id)
         tree = tree_result["alternateadvancement_list"][0]
         

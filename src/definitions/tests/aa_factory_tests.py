@@ -10,7 +10,7 @@ class TestAAFactory(unittest.TestCase):
         self._class_name = "SomeClass"
         self._tree_name = "SomeTree"
         self._spell_effect_formatter = MagicMock()
-        self.sut = AAFactory(self._data_provider, self._spell_effect_formatter)
+        self.sut = AAFactory(self._data_provider, self._spell_effect_formatter, MagicMock())
         
     def _setup_spells(self, expected_crc, returned_spell):
         def _mock_spells(crc):

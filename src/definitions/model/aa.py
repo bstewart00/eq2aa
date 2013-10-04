@@ -18,3 +18,12 @@ class AA(object):
         self.prereqs = prereqs
         self.title = title
         self.icon = icon
+        
+    def to_dict(self):
+        return {
+                "id": self.id,
+                "soe_id": self.soe_id,
+                "name": self.name,
+                "lineage": self.lineage,
+                "trees": self.trees
+                }

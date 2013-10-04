@@ -2,9 +2,10 @@ from definitions.model.aa import AA
 from definitions.utils.ordered_set import OrderedSet
 
 class AAFactory(object):
-    def __init__(self, data_provider, spell_effect_formatter):
+    def __init__(self, data_provider, spell_effect_formatter, logger):
         self._data_provider = data_provider
         self._spell_effect_formatter = spell_effect_formatter
+        self._logger = logger
         
     def create_all(self, aa_nodes, lineage, class_name, tree_name):
         aa = list([self.create(aa_node, lineage, class_name, tree_name) for aa_node in aa_nodes])
@@ -45,6 +46,8 @@ class AAFactory(object):
         return list([i.id for i in aa if i.parent_id == -1])
 
     def create(self, aa_node, lineage, class_name, tree_name):
+        self._logger.log('Processing AA {0}...'.format(aa_node["name"]))
+        
         id_ = 0
         coords = [aa_node["xcoord"], aa_node["ycoord"]]
         subclass = aa_node["classification"]

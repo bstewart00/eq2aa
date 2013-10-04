@@ -14,7 +14,7 @@ class TestTreeFactory(unittest.TestCase):
         self._orphans = [4,5,6]
         self._subtrees = ["Subtree1", "Subtree2"]
         
-        self.sut = TreeFactory(self._data_provider, self._aa_factory)
+        self.sut = TreeFactory(self._data_provider, self._aa_factory, MagicMock())
         
         
     def _setup_tree(self, tree):

@@ -7,7 +7,7 @@ class TestEQ2ClassFactory(unittest.TestCase):
     def setUp(self):
         self._data_provider = MagicMock()
         self._tree_factory = MagicMock()
-        self.sut = EQ2ClassFactory(self._data_provider, self._tree_factory)
+        self.sut = EQ2ClassFactory(self._data_provider, self._tree_factory, MagicMock())
         
     def _setup_returned_classes(self, class_nodes):
         self._data_provider.classes.return_value = { 
