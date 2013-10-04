@@ -18,11 +18,11 @@ class TestTreeFactory(unittest.TestCase):
         
         
     def _setup_tree(self, tree):
-        def _create_all_aa(aa_nodes, lineage, class_name):
-            if (aa_nodes is tree["alternateadvancementnode_list"] and lineage is self._lineage and class_name is self._class_name):
+        def _create_all_aa(aa_nodes, lineage, class_name, tree_name):
+            if (aa_nodes is tree["alternateadvancementnode_list"] and lineage is self._lineage and class_name == self._class_name and tree_name == tree["name"]):
                 return self._aa, self._orphans, self._subtrees
             
-        self._data_provider.tree.return_value = tree
+        self._data_provider.tree.return_value = { "alternateadvancement_list": [tree]}
         self._aa_factory.create_all.side_effect = _create_all_aa
 
     def test_create_maps_basic_properties(self):
