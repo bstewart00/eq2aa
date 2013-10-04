@@ -8,10 +8,17 @@ class TestEQ2ClassFactory(unittest.TestCase):
         self._data_provider = MagicMock()
         self._tree_factory = MagicMock()
         self.sut = EQ2ClassFactory(self._data_provider, self._tree_factory)
+        
+    def _setup_returned_classes(self, class_nodes):
+        self._data_provider.classes.return_value = { 
+            "constants_list": [{
+                                "adventureclass_list": class_nodes
+                                }]
+                                                    }
 
     def test_create_constructs_class(self):
         class1 = EQ2ClassBuilder().with_id(3).name("Class1").is_subclass().build()
-        self._data_provider.classes.return_value = [class1]
+        self._setup_returned_classes([class1])
 
         result = list(self.sut.create_classes())
 
@@ -36,10 +43,10 @@ class TestEQ2ClassFactory(unittest.TestCase):
         arch3 = EQ2ClassBuilder().with_id(8).name("Archetype3").build()
         class4 = EQ2ClassBuilder().with_id(9).name("Class4").is_subclass().build()
 
-        self._data_provider.classes.return_value = [family1, arch1,
+        self._setup_returned_classes([family1, arch1,
                                                     class1, class2,
                                                     arch2, class3,
-                                                    family2, arch3, class4]
+                                                    family2, arch3, class4])
 
         list(self.sut.create_classes())
 
@@ -65,7 +72,7 @@ class TestEQ2ClassFactory(unittest.TestCase):
                     return t
             return None 
         self._tree_factory.create.side_effect = return_tree
-        self._data_provider.classes.return_value = [family_class, archetype_class, some_class]
+        self._setup_returned_classes([family_class, archetype_class, some_class])
 
         list(self.sut.create_classes())
         
@@ -93,10 +100,10 @@ class TestEQ2ClassFactory(unittest.TestCase):
         arch3 = EQ2ClassBuilder().with_id(8).name("Archetype3").build()
         class4 = EQ2ClassBuilder().with_id(9).name("Class4").is_subclass().build()
 
-        self._data_provider.classes.return_value = [family1, arch1,
+        self._setup_returned_classes([family1, arch1,
                                                     class1, class2,
                                                     arch2, class3,
-                                                    family2, arch3, class4]
+                                                    family2, arch3, class4])
         
         result = list(self.sut.create_classes(['Class1', 'Class4']))
         

@@ -11,8 +11,11 @@ class EQ2ClassFactory(object):
         
         previous_lineage = []
         new_lineage = []
+        
+        classes_list = self._data_provider.classes()
+        all_classes = classes_list["constants_list"][0]["adventureclass_list"]
 
-        for class_node in self._data_provider.classes():
+        for class_node in all_classes:
             if class_node["issubclass"] == "false":
                 new_lineage.append(class_node["name"])
             else:
