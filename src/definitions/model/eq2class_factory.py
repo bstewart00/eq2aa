@@ -5,7 +5,10 @@ class EQ2ClassFactory(object):
         self._data_provider = data_provider
         self._tree_factory = tree_factory
 
-    def create_classes(self):
+    def create_classes(self, class_name_filter=[]):
+        def _matches_filter(class_name):
+            return len(class_name_filter) == 0 or class_name in class_name_filter
+        
         previous_lineage = []
         new_lineage = []
 
@@ -13,22 +16,15 @@ class EQ2ClassFactory(object):
             if class_node["issubclass"] == "false":
                 new_lineage.append(class_node["name"])
             else:
-                def _create_lineage_dict(lineage):
-                    if len(lineage) == 0: return {}
-                    return { "family": lineage[0], "archetype": lineage[1]}    
-                
+                name = class_node["name"]
                 lineage = self._determine_lineage(previous_lineage, new_lineage)
-                lineage_dict = _create_lineage_dict(lineage)
-                
-                trees = self._create_trees(lineage_dict, class_node)
-                result = EQ2Class(class_node["id"], class_node["name"],
-                            lineage_dict,
-                            trees)
-
+                lineage_dict = self._create_lineage_dict(lineage)
                 previous_lineage = list(lineage)
                 new_lineage = []
-
-                yield result
+                
+                if _matches_filter(name):
+                    trees = self._create_trees(lineage_dict, class_node)
+                    yield EQ2Class(class_node["id"], name, lineage_dict, trees)
                 
     def _create_trees(self, lineage_dict, class_node):
         tree_nodes = class_node["alternateadvancementtree_list"]
@@ -41,7 +37,11 @@ class EQ2ClassFactory(object):
             return next_id
         
         return [self._tree_factory.create(_get_next_tree_id(), t["id"], lineage_dict, class_node["name"])
-                 for t in tree_nodes] 
+                 for t in tree_nodes]
+        
+    def _create_lineage_dict(self, lineage):
+        if len(lineage) == 0: return {}
+        return { "family": lineage[0], "archetype": lineage[1]}    
 
     def _determine_lineage(self, previous_lineage, new_lineage):
         if len(previous_lineage) == 0 or len(new_lineage) == 2:
