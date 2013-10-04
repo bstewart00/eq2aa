@@ -1,8 +1,6 @@
 import unittest
-import os
-from unittest.mock import MagicMock
-from definitions.soe.data_provider import SonyDataProvider, CachedDataProvider, FileDataCache
-from definitions.utils.url_reader import UrlReader
+from unittest.mock import MagicMock, call
+from definitions.soe.data_provider import SonyDataProvider, CachedDataProvider
 
 class TestSonyDataProvider(unittest.TestCase):
     def setUp(self):
@@ -54,15 +52,51 @@ class TestSonyDataProvider(unittest.TestCase):
         
 class TestCachedDataProvider(unittest.TestCase):
     def setUp(self):
-        self._url_reader = UrlReader()
-        
-        self._data_provider = SonyDataProvider(self._url_reader)
-        self._cache = FileDataCache(os.path.abspath('../soe/cached_data'))
+        self._data_provider = MagicMock()
+        self._cache = MagicMock()
+        self._cache_result = 'someCacheResult'
         self.sut = CachedDataProvider(self._data_provider, self._cache)
         
-    def test2(self):
-        someicon = self.sut.icon(150)
-        self.assertEqual(self.sut.tree(70), "")
+    def _setup_cache(self, expected_filename):
+        def _get_or_add(filename, func):
+            self.assertEqual(filename, expected_filename)
+            func()
+            return self._cache_result
         
-
-        self.assertEqual(someicon, "")
+        self._cache.get_or_add.side_effect = _get_or_add
+        
+    def _setup_cache_icon(self, expected_filename):
+        def _get_or_add_icon(filename, func):
+            self.assertEqual(filename, expected_filename)
+            func()
+            return self._cache_result
+        
+        self._cache.get_or_add_icon.side_effect = _get_or_add_icon
+        
+    def test_classes_uses_cache(self):
+        self._setup_cache('classes.json')
+        result = self.sut.classes()
+        
+        self.assertEqual(result, self._cache_result)
+        self._data_provider.classes.assert_any_call()
+        
+    def test_tree_uses_cache(self):
+        self._setup_cache('trees/tree_5.json')
+        result = self.sut.tree(5)
+        
+        self.assertEqual(result, self._cache_result)
+        self._data_provider.tree.assert_called_once_with(5)
+        
+    def test_spells_uses_cache(self):
+        self._setup_cache('spells/spell_5.json')
+        result = self.sut.spells(5)
+        
+        self.assertEqual(result, self._cache_result)
+        self._data_provider.spells.assert_called_once_with(5)
+        
+    def test_icon_uses_cache(self):
+        self._setup_cache_icon('icons/5.png')
+        result = self.sut.icon(5)
+        
+        self.assertEqual(result, self._cache_result)
+        self._data_provider.icon.assert_called_once_with(5)
