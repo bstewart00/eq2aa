@@ -33,23 +33,22 @@ class CachedDataProvider(object):
         return self._cache.get_or_add('classes.json', lambda: self._decorated.classes()) 
 
     def tree(self, tree_id):
-        return self._cache.get_or_add('tree_{0}.json'.format(tree_id), lambda: self._decorated.tree(tree_id))
+        return self._cache.get_or_add('trees/tree_{0}.json'.format(tree_id), lambda: self._decorated.tree(tree_id))
 
     def spells(self, spell_crc):
-        return self._cache.get_or_add('spell_{0}.json'.format(spell_crc), lambda: self._decorated.spells(spell_crc)) 
+        return self._cache.get_or_add('spells/spell_{0}.json'.format(spell_crc), lambda: self._decorated.spells(spell_crc)) 
 
     def icon(self, icon_id):
-        return self._cache.get_or_add_icon('{0}.png'.format(icon_id), lambda: self._decorated.icon(icon_id))
+        return self._cache.get_or_add_icon('icons/{0}.png'.format(icon_id), lambda: self._decorated.icon(icon_id))
     
 class FileDataCache(object):
     def __init__(self, cache_dir_path):
         self._cache_dir_path = cache_dir_path
-        self._icons_dir_path = os.path.join(self._cache_dir_path, 'icons')
-        self._init_cache_dir()
+        self._ensure_dir_exists(cache_dir_path)
         
-    def _init_cache_dir(self):
-        if not os.path.exists(self._cache_dir_path):
-            os.makedirs(self._icons_dir_path)
+    def _ensure_dir_exists(self, path):
+        if not os.path.exists(path):
+            os.makedirs(path)
     
     def get_or_add(self, filename, get_value):
         cached = self._get_from_cache(filename)
@@ -59,7 +58,7 @@ class FileDataCache(object):
         return self._put_in_cache(filename, get_value()) 
     
     def get_or_add_icon(self, filename, get_image):
-        icon_path = os.path.join(self._icons_dir_path, filename)
+        icon_path = os.path.join(self._cache_dir_path, filename)
         if os.path.exists(icon_path):
             with open(icon_path, 'rb') as f:
                 return f.read()
@@ -71,6 +70,7 @@ class FileDataCache(object):
     
     def _get_from_cache(self, filename):
         path = os.path.join(self._cache_dir_path,  filename)
+        self._ensure_dir_exists(os.path.dirname(path))
         try:
             with open(path, 'r') as f:
                 return json.load(f)
