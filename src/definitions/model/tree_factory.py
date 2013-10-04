@@ -19,15 +19,8 @@ class TreeFactory(object):
         x_subclass = tree.get("ofxclassification")
         y_subclass = tree.get("ofyclassification")
         
-        aa = list([self._aa_factory.create(aa_node, lineage, class_name) for aa_node in tree["alternateadvancementnode_list"]])
-        aa = self._sort_aa_by_coords(aa)
-        aa = self._reorder_ids(aa)
-        aa = self._remap_parent_ids(aa)
-        aa = self._populate_aa_children(aa)
-        # Move into AAFactory.create_all
-        
+        aa, orphans = self._aa_factory.create_all(tree["alternateadvancementnode_list"], lineage, class_name)
         subtrees = OrderedSet([i.subclass for i in aa])
-        orphans = self._find_orphans(aa)
         
         return Tree(tree_id, tree["id"], name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio, x_subclass, y_subclass)
     
@@ -39,29 +32,3 @@ class TreeFactory(object):
         elif is_warder_tree == "true":
             return "Warder"
         return tree_name.replace(" ", "")
-    
-    def _sort_aa_by_coords(self, aa):
-        return sorted(aa, key=lambda n: (n["coords"][1], n["coords"][0]))
-    
-    def _reorder_ids(self, aa):
-        next_id = 0
-        for i in aa:
-            i["id"] = next_id
-            next_id += 1
-        return aa
-    
-    def _remap_parent_ids(self, aa):        
-        parent_id_map = { soe_id: new_id for soe_id, new_id in map(lambda a: [a["soe_id"], a["id"]], aa)}
-        
-        for i in aa:
-            if i["parent_id"] != -1:
-                i["parent_id"] = parent_id_map[i["parent_id"]]
-        return aa
-    
-    def _populate_aa_children(self, aa):
-        for i in aa:
-            i["children"] = [child["id"] for child in aa if child["parent_id"] == i["id"]]
-        return aa
-    
-    def _find_orphans(self, aa):
-        return list([i["id"] for i in aa if i["parent_id"] == -1])

@@ -4,6 +4,43 @@ class AAFactory(object):
     def __init__(self, data_provider, spell_effect_formatter):
         self._data_provider = data_provider
         self._spell_effect_formatter = spell_effect_formatter
+        
+    def create_all(self, aa_nodes, lineage, class_name, tree_name):
+        aa = list([self.create(aa_node, lineage, class_name, tree_name) for aa_node in aa_nodes])
+        aa = self._sort_aa_by_coords(aa)
+        aa = self._reorder_ids(aa)
+        aa = self._remap_parent_ids(aa)
+        aa = self._populate_aa_children(aa)
+        
+        orphans = self._find_orphans(aa)
+        
+        return aa, orphans
+    
+    def _sort_aa_by_coords(self, aa):
+        return sorted(aa, key=lambda n: (n.coords[1], n.coords[0]))
+    
+    def _reorder_ids(self, aa):
+        next_id = 0
+        for i in aa:
+            i.id = next_id
+            next_id += 1
+        return aa
+    
+    def _remap_parent_ids(self, aa):        
+        parent_id_map = { soe_id: new_id for soe_id, new_id in map(lambda a: [a.soe_id, a.id], aa)}
+        
+        for i in aa:
+            if i.parent_id != -1:
+                i.parent_id = parent_id_map[i.parent_id]
+        return aa
+    
+    def _populate_aa_children(self, aa):
+        for i in aa:
+            i.children = [child.id for child in aa if child.parent_id == i.id]
+        return aa
+    
+    def _find_orphans(self, aa):
+        return list([i.id for i in aa if i.parent_id == -1])
 
     def create(self, aa_node, lineage, class_name, tree_name):
         id_ = 0

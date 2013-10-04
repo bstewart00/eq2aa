@@ -119,3 +119,54 @@ class TestAAFactory(unittest.TestCase):
 
         self.assertEqual(result.prereqs["parent_subtree"], 0)
         
+    def test_create_all_replaces_parent_soe_ids(self):
+        aa_nodes = [AABuilder().with_id(50).parent_id(-1).build(),
+                    AABuilder().with_id(60).parent_id(50).build(),
+                    AABuilder().with_id(70).parent_id(60).build(),
+                    AABuilder().with_id(80).parent_id(-1).build()]
+
+        aa, orphans = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
+        
+        self.assertEqual(list(map(lambda n: n.parent_id, aa)), [-1, 0, 1, -1])
+        
+    def test_create_populates_children(self):
+        aa_nodes = [AABuilder().with_id(50).parent_id(-1).build(),
+                    AABuilder().with_id(60).parent_id(50).build(),
+                    AABuilder().with_id(70).parent_id(50).build(),
+                    AABuilder().with_id(80).parent_id(60).build(),
+                    AABuilder().with_id(90).parent_id(60).build(),
+                    AABuilder().with_id(100).parent_id(-1).build()]
+
+        aa, orphans = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
+        
+        self.assertEqual(list(map(lambda n: n.children, aa)), [[1, 2], [3, 4], [], [], [], []])
+        
+    def test_create_sorts_aa_top_to_bottom_left_to_right(self):
+        aa_nodes = [AABuilder().with_id(50).coords(1, 1).build(),
+                    AABuilder().with_id(60).coords(0, 0).build(),
+                    AABuilder().with_id(70).coords(1, 0).build(),
+                    AABuilder().with_id(80).coords(0, 1).build()]
+
+        aa, orphans = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
+        
+        self.assertEquals(list(map(lambda a: a.coords, aa)), [[0, 0], [1, 0], [0, 1], [1, 1]])
+        
+    def test_create_reorders_aa_by_sorted_order(self):
+        aa_nodes = [AABuilder().with_id(50).coords(1, 1).build(),
+                    AABuilder().with_id(60).coords(0, 0).build(),
+                    AABuilder().with_id(70).coords(1, 0).build(),
+                    AABuilder().with_id(80).coords(0, 1).build()]
+
+        aa, orphans = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
+        
+        self.assertEquals(list(map(lambda a: a.id, aa)), [0, 1, 2, 3])
+        
+    def test_create_sets_orphans_to_aa_with_no_parents(self):
+        aa_nodes = [AABuilder().with_id(5).parent_id(-1).build(),
+                    AABuilder().with_id(6).parent_id(-1).build(),
+                    AABuilder().with_id(7).parent_id(5).build()] 
+
+        aa, orphans = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
+
+        self.assertEqual(orphans, [0, 1])
+        
