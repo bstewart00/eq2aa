@@ -2,7 +2,7 @@ import os
 import json
 import sys
 
-class SonyDataProvider:
+class SonyDataProvider(object):
     def __init__(self, url_reader):
         self._url_reader = url_reader
 
@@ -24,7 +24,7 @@ class SonyDataProvider:
             return None
         return json.loads(response_data.decode('utf-8'))
 
-class CachedDataProvider:
+class CachedDataProvider(object):
     def __init__(self, decorated, cache):
         self._decorated = decorated
         self._cache = cache
@@ -41,7 +41,7 @@ class CachedDataProvider:
     def icon(self, icon_id):
         return self._cache.get_or_add_icon('{0}.png'.format(icon_id), lambda: self._decorated.icon(icon_id))
     
-class FileDataCache:
+class FileDataCache(object):
     def __init__(self, cache_dir_path):
         self._cache_dir_path = cache_dir_path
         self._icons_dir_path = os.path.join(self._cache_dir_path, 'icons')
