@@ -1,7 +1,6 @@
 import os
 import json
 import sys
-import pickle
 
 class SonyDataProvider:
     def __init__(self, url_reader):
