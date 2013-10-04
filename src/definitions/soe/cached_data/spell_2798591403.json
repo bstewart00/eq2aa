@@ -1,0 +1,78 @@
+{
+    "limit": 10,
+    "min_ts": 1366730617.137922,
+    "returned": 1,
+    "seconds": 0.019710063934326172,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 2798591403,
+            "deity": 0,
+            "description": "Stuns and inflicts melee damage on the target enemy. The amount of damage is increased by the amount of Thug's Poison increments on the target. This ability does not work with Double Up.",
+            "description_pvp": "Stuns and inflicts melee damage on the target enemy. The amount of damage is increased by the amount of Thug's Poison increments on the target. This ability does not work with Double Up.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 5,
+                "min_sec_tenths": 5
+            },
+            "effect_list": [
+                {
+                    "description": "The damage is multiplied by the amount of increments of Thug's Poison on the target.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Stuns target",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 3 - 5 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 470
+            },
+            "id": 498420641,
+            "last_update": 1366730617.137922,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Shred",
+            "name_lower": "shred",
+            "recast_secs": 14.822135,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730617.137922,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

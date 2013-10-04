@@ -1,0 +1,78 @@
+{
+    "limit": 10,
+    "min_ts": 1366730570.150542,
+    "returned": 1,
+    "seconds": 0.01423788070678711,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3625960098,
+            "deity": 0,
+            "description": "Nature's Aura empowers the warden with additional healing and their heals will critical for more.  In addition, the recovery time of beneficial spells will be reduced.  As a penalty, hostile spells will have increased casting and reuse time and will do less damage.",
+            "description_pvp": "Nature's Aura empowers the warden with additional healing and their heals will critical for more.  In addition, the recovery time of beneficial spells will be reduced.  As a penalty, hostile spells will have increased casting and reuse time and will do less damage.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the recovery time of beneficial spells by 50%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the heal amount by 10%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the casting and reuse time of hostile spells by 15%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the damage of hostile spells by 20%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the critical heal amount by 5%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "spellscroll",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 889
+            },
+            "id": 3582374808,
+            "last_update": 1366730570.150542,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Nature's Aura",
+            "name_lower": "nature's aura",
+            "recast_secs": 3.952569,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730570.150542,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

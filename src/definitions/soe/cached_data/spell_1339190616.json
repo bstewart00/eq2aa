@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730461.880318,
+    "returned": 1,
+    "seconds": 0.01720404624938965,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1339190616,
+            "deity": 0,
+            "description": "Sandstorm will now grant a chance for allies to become immune to indirect area of effect abilities. The group will receive increased critical damage whenever Sandstorm triggers.",
+            "description_pvp": "Sandstorm will now grant a chance for allies to become immune to indirect area of effect abilities. The group will receive increased critical damage whenever Sandstorm triggers.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Adds a trigger to Sandstorm that makes the target taking or avoiding damage immune to indirect area of effect spells.",
+                    "indentation": 0
+                },
+                {
+                    "description": "When Sandstorm triggers its effects, the group will gain additional Crit Bonus for every trigger.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 509
+            },
+            "id": 3573645825,
+            "last_update": 1366730461.880318,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Blinding Sands",
+            "name_lower": "blinding sands",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730461.880318,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 1
+        }
+    ]
+}

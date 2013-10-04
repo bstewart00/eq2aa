@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730614.495679,
+    "returned": 1,
+    "seconds": 0.014759063720703125,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 10.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 201,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 1,
+                "savagery": 0
+            },
+            "crc": 3462601281,
+            "deity": 0,
+            "description": "Avenging Ancestors deals damage instantly to targets surrounding the shaman. For each target hit, it will trigger additional damage every two seconds to the nearest six targets. The power of this spell increases drastically for each additional target.",
+            "description_pvp": "Avenging Ancestors deals damage instantly to targets surrounding the shaman. For each target hit, it will trigger additional damage every two seconds to the nearest six targets. The power of this spell increases drastically for each additional target.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 100,
+                "min_sec_tenths": 100
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 45 disease damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Avenging Ancestors.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 disease damage on targets in Area of Effect",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 922
+            },
+            "id": 527750897,
+            "last_update": 1366730614.495679,
+            "level": 0,
+            "max_targets": 6,
+            "name": "Avenging Ancestors",
+            "name_lower": "avenging ancestors",
+            "recast_secs": 88.932808,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730614.495679,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730610.686151,
+    "returned": 1,
+    "seconds": 0.014457941055297852,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 35.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 20,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2703476495,
+            "deity": 0,
+            "description": "Causes your group to immediately go Berserk.  This effect stacks with other forms of Berserk.",
+            "description_pvp": "Causes your group to immediately go Berserk.  This effect stacks with other forms of Berserk.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 100,
+                "min_sec_tenths": 100
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of group members (AE) by 11.5",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Attack Speed of group members (AE) by 11.5",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 356
+            },
+            "id": 3521597297,
+            "last_update": 1366730610.686151,
+            "level": 0,
+            "max_targets": -1,
+            "name": "Berserk",
+            "name_lower": "berserk",
+            "recast_secs": 88.932808,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730610.686151,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

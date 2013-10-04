@@ -1,0 +1,82 @@
+{
+    "limit": 10,
+    "min_ts": 1366730454.481776,
+    "returned": 1,
+    "seconds": 0.014403820037841797,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 4,
+                "savagery": 0
+            },
+            "crc": 3659424627,
+            "deity": 0,
+            "description": "Grants the Inquisitor powerful reactive heal and damage shield on a long recast.",
+            "description_pvp": "Grants the Inquisitor powerful reactive heal and damage shield on a long recast.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "When damaged this spell will cast Chilling Vengeance on target's attacker.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 46 - 56 cold damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 10 triggers of the spell.",
+                    "indentation": 1
+                },
+                {
+                    "description": "When any damage is received this spell will cast Chilling Invigoration on target.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Heals target for 28 - 34",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 10 triggers of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 928
+            },
+            "id": 2841201236,
+            "last_update": 1366730454.481776,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Chilling Invigoration",
+            "name_lower": "chilling invigoration",
+            "recast_secs": 177.865616,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730454.481776,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

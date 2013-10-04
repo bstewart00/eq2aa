@@ -1,0 +1,86 @@
+{
+    "limit": 10,
+    "min_ts": 1366730622.944549,
+    "returned": 1,
+    "seconds": 0.018548011779785156,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 15.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 1466149184,
+            "deity": 0,
+            "description": "The Prowler creates a smoke cloud, damaging and interrupting enemies. Hate towards the Prowler by affected enemies is reduced. When the smoke lifts, the Prowler is placed into stealth.",
+            "description_pvp": "The Prowler creates a smoke cloud, damaging and interrupting enemies. Hate towards the Prowler by affected enemies is reduced. When the smoke lifts, the Prowler is placed into stealth.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 1,
+                "min_sec_tenths": 1
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Smoke Stealth.  Lasts for 0.1 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Shroud on termination.  Lasts for 36.0 seconds.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants stealth to caster",
+                    "indentation": 2
+                },
+                {
+                    "description": "Suspends caster's movement speed enhancements",
+                    "indentation": 2
+                },
+                {
+                    "description": "Inflicts 17 - 32 poison damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases threat priority of targets in Area of Effect by 2 positions",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts targets in Area of Effect",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 696
+            },
+            "id": 2966673054,
+            "last_update": 1366730622.944549,
+            "level": 0,
+            "max_targets": 12,
+            "name": "Smoke Bomb",
+            "name_lower": "smoke bomb",
+            "recast_secs": 177.865616,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730622.944549,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730452.023712,
+    "returned": 1,
+    "seconds": 0.018259048461914062,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 482,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3684588517,
+            "deity": 0,
+            "description": "All of your remaining power is converted to pure damage. This spell cannot be outright resisted.",
+            "description_pvp": "All of your remaining power is converted to pure damage. This spell cannot be outright resisted.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 4 points of magic damage to target for each power point consumed. Manaburn's damage cannot exceed 50% of the target's maximum health",
+                    "indentation": 0
+                },
+                {
+                    "description": "Must be hated by your current target.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 3
+            },
+            "id": 2983896931,
+            "last_update": 1366730452.023712,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Manaburn",
+            "name_lower": "manaburn",
+            "recast_secs": 296.442688,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730452.023712,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

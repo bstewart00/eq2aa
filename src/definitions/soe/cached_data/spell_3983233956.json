@@ -1,0 +1,124 @@
+{
+    "limit": 10,
+    "min_ts": 1366730647.755261,
+    "returned": 2,
+    "seconds": 0.015462875366210938,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 3983233956,
+            "deity": 0,
+            "description": "The warrior uses their insight to look for weakness in their enemy's defenses, allowing them a chance to Strikethrough. The final rank adds a taunt effect.",
+            "description_pvp": "The warrior uses their insight to look for weakness in their enemy's defenses, allowing them a chance to Strikethrough. The final rank adds a taunt effect.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Gives caster a 75.0% chance to strikethrough a successful avoidance check",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 924
+            },
+            "id": 207740002,
+            "last_update": 1366730661.144435,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Experienced Insight",
+            "name_lower": "experienced insight",
+            "recast_secs": 296.442688,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730661.144435,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 3983233956,
+            "deity": 0,
+            "description": "The warrior uses their insight to look for weakness in their enemy's defenses, allowing them a chance to Strikethrough. The final rank adds a taunt effect.",
+            "description_pvp": "The warrior uses their insight to look for weakness in their enemy's defenses, allowing them a chance to Strikethrough. The final rank adds a taunt effect.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "On a combat hit this spell will cast Insight on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Threat to target by 48 - 59 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Gives caster a 75.0% chance to strikethrough a successful avoidance check",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 924
+            },
+            "id": 1879112121,
+            "last_update": 1366730647.755261,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Experienced Insight",
+            "name_lower": "experienced insight",
+            "recast_secs": 296.442688,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1366730647.755261,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "limit": 10,
+    "min_ts": 1366730572.661037,
+    "returned": 1,
+    "seconds": 0.0158538818359375,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2079430997,
+            "deity": 0,
+            "description": "A song which grants the target an additional health or damage over time update.  In addition, it improves the casting speed, recovery and reuse time of the target.  This cannot be stacked with the illusionist spell Time Compression.",
+            "description_pvp": "A song which grants the target an additional health or damage over time update.  In addition, it improves the casting speed, recovery and reuse time of the target.  This cannot be stacked with the illusionist spell Time Compression.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ability Reuse Speed of target by 10.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Ability Casting Speed of target by 15.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Ability Recovery Speed of target by 25.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the number of ticks in a spell or combat art by 1.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "spellscroll",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 818
+            },
+            "id": 755924876,
+            "last_update": 1366730572.661037,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Upbeat Tempo",
+            "name_lower": "upbeat tempo",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730572.661037,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

@@ -11,7 +11,13 @@ class TestAAFactory(unittest.TestCase):
         self._tree_name = "SomeTree"
         self._spell_effect_formatter = MagicMock()
         self.sut = AAFactory(self._data_provider, self._spell_effect_formatter)
-
+        
+    def _setup_spells(self, expected_crc, returned_spell):
+        def _mock_spells(crc):
+            if crc == expected_crc:
+                return { "spell_list": [returned_spell] }
+        self._data_provider.spells.side_effect = _mock_spells
+        
     def test_create_maps_basic_properties(self):
         aa_node = AABuilder().build()
         
@@ -32,8 +38,8 @@ class TestAAFactory(unittest.TestCase):
         
     def test_create_fetches_effects(self):
         aa_node = AABuilder().spellcrc(123).build()
-        spell = SpellBuilder().with_crc(123).build()
-        self._data_provider.spells.side_effect = lambda crc: [spell] if crc == 123 else None
+        spell = SpellBuilder().with_crc(123).add_effect('effect1', 1).build()
+        self._setup_spells(123, spell)
         
         formatted_effects = "SomeFormattedEffects"
         self._spell_effect_formatter.format.side_effect = lambda effects: formatted_effects if effects == spell["effect_list"] else None 
@@ -45,7 +51,7 @@ class TestAAFactory(unittest.TestCase):
     def test_create_sets_icon_ids(self):
         aa_node = AABuilder().spellcrc(123).build()
         spell = SpellBuilder().with_crc(123).backdrop(50).icon(100).build()
-        self._data_provider.spells.side_effect = lambda crc: [spell] if crc == 123 else None
+        self._setup_spells(123, spell)
         
         result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
         
@@ -178,4 +184,5 @@ class TestAAFactory(unittest.TestCase):
         aa, orphans, subtrees = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
 
         self.assertEqual(subtrees,  ['Subclass1', 'Subclass2'])
+        
         

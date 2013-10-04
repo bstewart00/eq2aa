@@ -1,0 +1,86 @@
+{
+    "limit": 10,
+    "min_ts": 1366730634.393096,
+    "returned": 1,
+    "seconds": 0.014545917510986328,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 9,
+                "savagery": 0
+            },
+            "crc": 1209975114,
+            "deity": 0,
+            "description": "Staggering Blow is a large direct damage based melee attack which also stuns non epic targets for a short duration.  Staggering Blow also causes the target to increase their hatred to the bruiser by 4 positions.",
+            "description_pvp": "Staggering Blow is a large direct damage based melee attack which also stuns non epic targets for a short duration.  Staggering Blow also causes the target to increase their hatred to the bruiser by 4 positions.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases threat priority of target by 4 positions",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Knockdown on termination.  Lasts for 1.5 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Throws target back",
+                    "indentation": 1
+                },
+                {
+                    "description": "Stuns target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Blurs vision of target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Does not affect Epic targets",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 12 melee damage on target",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 861
+            },
+            "id": 3272157750,
+            "last_update": 1366730634.393096,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Staggering Blow",
+            "name_lower": "staggering blow",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730634.393096,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

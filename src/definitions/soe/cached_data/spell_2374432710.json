@@ -1,0 +1,74 @@
+{
+    "limit": 10,
+    "min_ts": 1366730452.046728,
+    "returned": 1,
+    "seconds": 0.019526004791259766,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2374432710,
+            "deity": 0,
+            "description": "A replacement ability for Coverage. The ranger can execute stealth attacks while out of stealth. All stealth attacks executed will have their damage increased. Additionally, the ranger does not use ammo, cannot be interrupted and can use their abilities while moving.",
+            "description_pvp": "A replacement ability for Coverage. The ranger can execute stealth attacks while out of stealth. All stealth attacks executed will have their damage increased. Additionally, the ranger does not use ammo, cannot be interrupted and can use their abilities while moving.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 100,
+                "min_sec_tenths": 100
+            },
+            "effect_list": [
+                {
+                    "description": "No ammo will be consumed",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases damage of your next stealth attacks by 32%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Prevents the ranger from being interrupted and allows them to execute abilities while moving",
+                    "indentation": 0
+                },
+                {
+                    "description": "The ranger can use stealth strikes when not in stealth.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 189
+            },
+            "id": 2206128291,
+            "last_update": 1366730452.046728,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Wreak Havoc",
+            "name_lower": "wreak havoc",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 0,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730452.046728,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

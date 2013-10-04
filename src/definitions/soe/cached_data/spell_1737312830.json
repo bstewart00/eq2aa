@@ -1,0 +1,62 @@
+{
+    "limit": 10,
+    "min_ts": 1366730556.335661,
+    "returned": 1,
+    "seconds": 0.014297962188720703,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 25.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 1737312830,
+            "deity": 0,
+            "description": "Provides a double-hit stoneskin for every ally in the conjuror's group. Damage greater than 50% of an ally's health maximum still goes through.",
+            "description_pvp": "Provides a double-hit stoneskin for every ally in the conjuror's group. Damage greater than 50% of an ally's health maximum still goes through.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Will absorb all damage when the amount is less than 50% of the target's maximum health. This spell will absorb a total of 2 attacks.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "spellscroll",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 329
+            },
+            "id": 3735576748,
+            "last_update": 1366730556.335661,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Stoneskins",
+            "name_lower": "stoneskins",
+            "recast_secs": 177.865616,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730556.335661,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

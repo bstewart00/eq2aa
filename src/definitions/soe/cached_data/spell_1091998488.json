@@ -1,0 +1,82 @@
+{
+    "limit": 10,
+    "min_ts": 1366730582.206631,
+    "returned": 1,
+    "seconds": 0.01693105697631836,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1091998488,
+            "deity": 0,
+            "description": "The warden will gain additional weapon damage and critically attack for more. In addition, melee attacks will do additional cold damage.  As a penalty, the warden will have heal for less.",
+            "description_pvp": "The warden will gain additional weapon damage and critically attack for more. In addition, melee attacks will do additional cold damage.  As a penalty, the warden will have heal for less.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Weapon Damage Bonus of caster by 25.0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Lowers heal amount by 22.5%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves critical damage of spells and combat arts by 10%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On a melee hit this spell will cast Glacial Assault on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 6 - 9 cold damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Improves base auto attack multiplier of caster by 0.075",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "spellscroll",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 888
+            },
+            "id": 1387922633,
+            "last_update": 1366730582.206631,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Glacial Assault",
+            "name_lower": "glacial assault",
+            "recast_secs": 3.952569,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730582.206631,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

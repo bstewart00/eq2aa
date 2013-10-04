@@ -1,0 +1,62 @@
+{
+    "limit": 10,
+    "min_ts": 1366730464.882941,
+    "returned": 1,
+    "seconds": 0.014105081558227539,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 20,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 982097426,
+            "deity": 0,
+            "description": "The bruiser absorbs the next hit on one of their allies, protecting them from harm.",
+            "description_pvp": "The bruiser absorbs the next hit on one of their allies, protecting them from harm.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Will absorb all damage when the amount is greater than 10% of the target's maximum health. This spell will absorb a total of 1 attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 563
+            },
+            "id": 732415407,
+            "last_update": 1366730464.882941,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Soak Hit",
+            "name_lower": "soak hit",
+            "recast_secs": 148.221344,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730464.882941,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "limit": 10,
+    "min_ts": 1366730442.381492,
+    "returned": 1,
+    "seconds": 0.015232086181640625,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 100.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 501,
+                "savagery": 0
+            },
+            "crc": 133282909,
+            "deity": 0,
+            "description": "Allows the priest to resurrect their group or raid while out of combat.",
+            "description_pvp": "Allows the priest to resurrect their group or raid while out of combat.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Resurrects target with 100% health and power",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Revived Sickness on termination.  Lasts for 1 minute 30 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases All Attributes of target by 20.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not between levels 1 - 6",
+                    "indentation": 2
+                },
+                {
+                    "description": "Decreases Attack Speed of target by 20.0",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not between levels 1 - 6",
+                    "indentation": 2
+                },
+                {
+                    "description": "Decreases All Attributes of target by 5.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "If between levels 1 - 6",
+                    "indentation": 2
+                },
+                {
+                    "description": "Decreases Attack Speed of target by 5.0",
+                    "indentation": 1
+                },
+                {
+                    "description": "If between levels 1 - 6",
+                    "indentation": 2
+                },
+                {
+                    "description": "Must not be engaged in combat",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 873
+            },
+            "id": 2252727452,
+            "last_update": 1366730442.381492,
+            "level": 0,
+            "max_targets": 24,
+            "name": "Supplication of the Fallen",
+            "name_lower": "supplication of the fallen",
+            "recast_secs": 592.885376,
+            "recovery_secs_tenths": 100,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730442.381492,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

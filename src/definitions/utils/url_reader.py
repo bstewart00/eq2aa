@@ -2,7 +2,7 @@ import sys
 import urllib.request
 from urllib.error import URLError
 
-class UrlReader:
+class UrlReader(object):
     def get(self, url):
         try:
             response = urllib.request.urlopen(url)

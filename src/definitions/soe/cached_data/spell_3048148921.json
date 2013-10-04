@@ -1,0 +1,86 @@
+{
+    "limit": 10,
+    "min_ts": 1366730590.133118,
+    "returned": 1,
+    "seconds": 0.014574050903320312,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3048148921,
+            "deity": 0,
+            "description": "For a short duration, target ally is immune to control effects.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "description_pvp": "For a short duration, target ally is immune to control effects.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 150,
+                "min_sec_tenths": 150
+            },
+            "effect_list": [
+                {
+                    "description": "Makes target immune to Root effects",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes target immune to Stifle effects",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes target immune to Fear effects",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes target immune to Daze effects",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes target immune to Stun effects",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes target immune to Charm effects",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes target immune to Mesmerize effects",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "spellscroll",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 74
+            },
+            "id": 3355050327,
+            "last_update": 1366730590.133118,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Immunization",
+            "name_lower": "immunization",
+            "recast_secs": 118.57708,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730590.133118,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

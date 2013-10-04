@@ -1,0 +1,86 @@
+{
+    "limit": 10,
+    "min_ts": 1366730574.109064,
+    "returned": 1,
+    "seconds": 0.014294862747192383,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 417860132,
+            "deity": 0,
+            "description": "Soulburn uses the summoner's companion's health to inflict damage on their current target. Plane Shift's magic interferes with Soulburn and prevents it from being cast.",
+            "description_pvp": "Soulburn uses the summoner's companion's health to inflict damage on their current target. Plane Shift's magic interferes with Soulburn and prevents it from being cast.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Soulburn.",
+                    "indentation": 0
+                },
+                {
+                    "description": "This spell takes the pet 5 seconds to cast",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 75% of the consumed health as instant damage on the pet's target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Sets the pet's health to 1",
+                    "indentation": 1
+                },
+                {
+                    "description": "Must be hated by your current target.",
+                    "indentation": 1
+                },
+                {
+                    "description": "You cannot cast Soulburn if Plane Shift is active.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Must be engaged in combat",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "spellscroll",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 926
+            },
+            "id": 2096499906,
+            "last_update": 1366730574.109064,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Soulburn",
+            "name_lower": "soulburn",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730574.109064,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

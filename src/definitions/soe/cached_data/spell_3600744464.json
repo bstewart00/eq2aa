@@ -1,0 +1,78 @@
+{
+    "limit": 10,
+    "min_ts": 1366730648.5598,
+    "returned": 1,
+    "seconds": 0.015067815780639648,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 241,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 109,
+                "per_tick": {
+                    "health": 109,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3600744464,
+            "deity": 0,
+            "description": "All hostile spells that damage a target also heal the Shadowknight. This spell has a persistent health cost.  Any profession spell found in the spell book will also have its damage increased.",
+            "description_pvp": "All hostile spells that damage a target also heal the Shadowknight. This spell has a persistent health cost.  Any profession spell found in the spell book will also have its damage increased.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Increases damage of spells by 5%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On a hostile spell cast this spell will cast Reaver's Mania on caster.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Heals caster for 4.0% of max health",
+                    "indentation": 1
+                },
+                {
+                    "description": "This effect cannot be critically applied.",
+                    "indentation": 2
+                },
+                {
+                    "description": "The healing of this spell cannot be modified except by direct means",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 240
+            },
+            "id": 2199176765,
+            "last_update": 1366730648.5598,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Reaver",
+            "name_lower": "reaver",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730648.5598,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

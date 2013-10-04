@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730620.223854,
+    "returned": 1,
+    "seconds": 0.01587200164794922,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 1112122823,
+            "deity": 0,
+            "description": "Howling with the Pack makes the druid immune to certain control effects and heals the druid's group every time the druid deals direct damage. The druid takes less damage while Howling with the Pack is active.",
+            "description_pvp": "Howling with the Pack makes the druid immune to certain control effects and heals the druid's group every time the druid deals direct damage. The druid takes less damage while Howling with the Pack is active.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces all damage done to caster by 30%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes the caster immune to Root, Stifle, Stun, Fear, Daze, Mesmerize and Interrupt effects",
+                    "indentation": 0
+                },
+                {
+                    "description": "Heals the group by 25% of the direct damage done by the druid",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 880
+            },
+            "id": 936741596,
+            "last_update": 1366730620.223854,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Howling with the Pack",
+            "name_lower": "howling with the pack",
+            "recast_secs": 177.865616,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730620.223854,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

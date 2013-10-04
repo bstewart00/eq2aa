@@ -1,0 +1,78 @@
+{
+    "limit": 10,
+    "min_ts": 1366730640.174284,
+    "returned": 1,
+    "seconds": 0.020383119583129883,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3759514959,
+            "deity": 0,
+            "description": "Whenever the bruiser ripostes, they will gain maximum health and a small increase to their riposte chance for a short duration. This can increment up to 10 times, with each increment increasing the effects.",
+            "description_pvp": "Whenever the bruiser ripostes, they will gain maximum health and a small increase to their riposte chance for a short duration. This can increment up to 10 times, with each increment increasing the effects.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a riposte this spell will cast Martial Retaliation on target.  Lasts for 30.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Caster will Riposte 0.3% of incoming frontal attacks.  Attacks from other quadrants have the same chance of being Parried",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Max Health of caster by 1.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "The effects are multiplied by the increment count.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 851
+            },
+            "id": 2440760223,
+            "last_update": 1366730640.174284,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Martial Retaliation",
+            "name_lower": "martial retaliation",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730640.174284,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 1
+        }
+    ]
+}

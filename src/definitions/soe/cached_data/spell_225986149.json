@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730440.710107,
+    "returned": 1,
+    "seconds": 0.017539024353027344,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 225986149,
+            "deity": 0,
+            "description": "A replacement for Shenanigans. The brigand strong-arms their target, inflicting a powerful attack and increasing the target's hate towards the brigand if the brigand is in a defensive stance.",
+            "description_pvp": "A replacement for Shenanigans. The brigand strong-arms their target, inflicting a powerful attack and increasing the target's hate towards the brigand if the brigand is in a defensive stance.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases threat priority of target by 2 positions",
+                    "indentation": 0
+                },
+                {
+                    "description": "If the brigand is in a defensive stance.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 27 - 46 melee damage on target",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 333
+            },
+            "id": 2674400981,
+            "last_update": 1366730440.710107,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Strongarm",
+            "name_lower": "strongarm",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730440.710107,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

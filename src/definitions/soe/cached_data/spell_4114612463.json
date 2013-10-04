@@ -1,0 +1,74 @@
+{
+    "limit": 10,
+    "min_ts": 1366730464.588815,
+    "returned": 1,
+    "seconds": 0.01872420310974121,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 241,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 1,
+                    "savagery": 0
+                },
+                "power": 1,
+                "savagery": 0
+            },
+            "crc": 4114612463,
+            "deity": 0,
+            "description": "A replacement for Netherealm. Creates a powerful negative energy field around the warlock that continously radiates. Anyone affected by the radiation will be dealt additional poison damage when struck with noxious spells, and targets near will also be damaged. This spell has a recurrent power cost.",
+            "description_pvp": "A replacement for Netherealm. Creates a powerful negative energy field around the warlock that continously radiates. Anyone affected by the radiation will be dealt additional poison damage when struck with noxious spells, and targets near will also be damaged. This spell has a recurrent power cost.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Cascade of Damnation.  Lasts for 5.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "When damaged with a spell this spell will cast Void of Damnation on target.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 15 - 18 poison damage on targets in Area of Effect",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 20
+            },
+            "id": 2248082090,
+            "last_update": 1366730464.588815,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Eternal Damnation",
+            "name_lower": "eternal damnation",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730464.588815,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "limit": 10,
+    "min_ts": 1366730647.647944,
+    "returned": 1,
+    "seconds": 0.027745962142944336,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 6,
+                "savagery": 0
+            },
+            "crc": 3109076540,
+            "deity": 0,
+            "description": "In Feral Stance, all Primals used while Primal Assault is active will inflict additional damage. In Spiritual Stance, all Primals used will restore health and power to the group.",
+            "description_pvp": "In Feral Stance, all Primals used while Primal Assault is active will inflict additional damage. In Spiritual Stance, all Primals used will restore health and power to the group.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "When using a Primal ability. this spell will cast Primal Assault on target of spell cast.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 45 - 75 cold damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "If in Feral Stance",
+                    "indentation": 1
+                },
+                {
+                    "description": "When using a Primal ability. this spell will cast Primal Assault on target.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "If in Spiritual Stance",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases power of group members (AE) by 4 - 5",
+                    "indentation": 1
+                },
+                {
+                    "description": "Heals group members (AE) for 12 - 19",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 897
+            },
+            "id": 3067650152,
+            "last_update": 1366730647.647944,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Primal Assault",
+            "name_lower": "primal assault",
+            "recast_secs": 296.442688,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730647.647944,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

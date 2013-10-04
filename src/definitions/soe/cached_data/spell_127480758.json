@@ -1,0 +1,78 @@
+{
+    "limit": 10,
+    "min_ts": 1366730630.66672,
+    "returned": 1,
+    "seconds": 0.015772104263305664,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 35.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 127480758,
+            "deity": 0,
+            "description": "Unshakable Grip allows the warrior to protect their allies from disarm, taunt and interrupt effects while increasing the warrior's chance to riposte.  In PVP combat, this will also make the caster's group immune to taunt effects.",
+            "description_pvp": "Unshakable Grip allows the warrior to protect their allies from disarm, taunt and interrupt effects while increasing the warrior's chance to riposte.  In PVP combat, this will also make the caster's group immune to taunt effects.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 180,
+                "min_sec_tenths": 180
+            },
+            "effect_list": [
+                {
+                    "description": "Caster will Riposte 20.0% of incoming frontal attacks.  Attacks from other quadrants have the same chance of being Parried",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes group members (AE) immune to effects that prevent changing targets",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes group members (AE) immune to disarm effects",
+                    "indentation": 0
+                },
+                {
+                    "description": "Prevents group members (AE) from being Interrupted",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes Group members (AE) immune to taunt effects.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 470
+            },
+            "id": 3256746590,
+            "last_update": 1366730630.66672,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Unshakable Grip",
+            "name_lower": "unshakable grip",
+            "recast_secs": 177.865616,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730630.66672,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

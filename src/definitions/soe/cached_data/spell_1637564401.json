@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730635.611008,
+    "returned": 1,
+    "seconds": 0.017402172088623047,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 1637564401,
+            "deity": 0,
+            "description": "Crane Flock causes all auto-attacks made to attack up to 4 enemies surrounding the Crane Sensei. The Crane Sensei's primary target will be hit twice.",
+            "description_pvp": "Crane Flock causes all auto-attacks made to attack up to 4 enemies surrounding the Crane Sensei. The Crane Sensei's primary target will be hit twice.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 160,
+                "min_sec_tenths": 160
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 100.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 100.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 677
+            },
+            "id": 3723595279,
+            "last_update": 1366730635.611008,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Crane Flock",
+            "name_lower": "crane flock",
+            "recast_secs": 118.57708,
+            "recovery_secs_tenths": 0,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730635.611008,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

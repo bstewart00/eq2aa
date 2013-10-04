@@ -1,0 +1,86 @@
+{
+    "limit": 10,
+    "min_ts": 1366730633.832156,
+    "returned": 1,
+    "seconds": 0.014136075973510742,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3680992079,
+            "deity": 0,
+            "description": "Spiritual Ally grants the defiler's pet a disease damage proc and grants the defiler improved spell damage and critical spell damage.  In return, the casting speed of beneficial spells will be increased along with reduced healing and warding.",
+            "description_pvp": "Spiritual Ally grants the defiler's pet a disease damage proc and grants the defiler improved spell damage and critical spell damage.  In return, the casting speed of beneficial spells will be increased along with reduced healing and warding.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage of hostile spells and combat arts by 10%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Spiritual Ally to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On a melee hit this spell has a 25% chance to cast Spirit Claw on target of attack.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 10 - 15 disease damage on caster",
+                    "indentation": 2
+                },
+                {
+                    "description": "Improves the critical damage of hostile spells and combat arts by 5%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the defilers heal and ward amounts by 10%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the casting time of beneficial spells by 15%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 883
+            },
+            "id": 3617833653,
+            "last_update": 1366730633.832156,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Spiritual Ally",
+            "name_lower": "spiritual ally",
+            "recast_secs": 3.952569,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730633.832156,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

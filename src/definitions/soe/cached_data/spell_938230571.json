@@ -1,0 +1,82 @@
+{
+    "limit": 10,
+    "min_ts": 1366730644.974951,
+    "returned": 1,
+    "seconds": 0.014513015747070312,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 938230571,
+            "deity": 0,
+            "description": "Sends multiple fireballs to the target. This spell hits once per increment of Incineration on the target up to a maximum of five strikes.",
+            "description_pvp": "Sends multiple fireballs to the target. This spell hits once per increment of Incineration on the target up to a maximum of five strikes.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 5 - 10 heat damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 5 - 10 heat damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 5 - 10 heat damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 5 - 10 heat damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 5 - 10 heat damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Your target must be inflicted with Incineration.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 852
+            },
+            "id": 2864909429,
+            "last_update": 1366730644.974951,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Hellfire",
+            "name_lower": "hellfire",
+            "recast_secs": 14.822135,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730644.974951,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "limit": 10,
+    "min_ts": 1366730636.783102,
+    "returned": 1,
+    "seconds": 0.016063213348388672,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 12,
+                "savagery": 0
+            },
+            "crc": 2257491913,
+            "deity": 0,
+            "description": "Songspinner's Note deals minor piercing damage to the target. The bard's group will receive an augmentation based on the bard's position relative to their target. If the bard is outside of 15 meters, the group will receive an augmentation that increases Wisdom and Intelligence. If the bard is behind the target, the group will receive an augmentation that increases Multi-Attack. If the bard is in front of the target, the group will have increased healing received.",
+            "description_pvp": "Songspinner's Note deals minor piercing damage to the target. The bard's group will receive an augmentation based on the bard's position relative to their target. If the bard is outside of 15 meters, the group will receive an augmentation that increases Wisdom and Intelligence. If the bard is behind the target, the group will receive an augmentation that increases Multi-Attack. If the bard is in front of the target, the group will have increased healing received.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Songspinner's Intelligence to the group: Increases Wisdom and Intelligence by 196",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is between 15 and 70 meters away",
+                    "indentation": 1
+                },
+                {
+                    "description": "Applies Songspinner's Cunning to the group: Increases Multi-Attack by 15%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Must be flanking or behind",
+                    "indentation": 1
+                },
+                {
+                    "description": "If Target is closer than 15 meters",
+                    "indentation": 1
+                },
+                {
+                    "description": "Applies Songspinner's Defiance to the group: Increases Healing Received by 10%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Must be in front of",
+                    "indentation": 1
+                },
+                {
+                    "description": "If Target is closer than 15 meters",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 2 - 4 piercing damage on target",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 891
+            },
+            "id": 744102655,
+            "last_update": 1366730636.783102,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Songspinner's Note",
+            "name_lower": "songspinner's note",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730636.783102,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

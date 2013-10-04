@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730626.32756,
+    "returned": 1,
+    "seconds": 0.016202926635742188,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 4212272037,
+            "deity": 0,
+            "description": "Every time the Stormcaller casts a beneficial spell on an ally, Infusion deals magic damage to a nearby enemy. This costs a small amount of power every time it triggers.",
+            "description_pvp": "Every time the Stormcaller casts a beneficial spell on an ally, Infusion deals magic damage to a nearby enemy. This costs a small amount of power every time it triggers.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 432000,
+                "min_sec_tenths": 432000
+            },
+            "effect_list": [
+                {
+                    "description": "On a beneficial spell cast this spell will cast Infusive Wrath on target.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 5 - 8 magic damage on a target in Area of Effect",
+                    "indentation": 1
+                },
+                {
+                    "description": "Must be engaged in combat",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 550
+            },
+            "id": 3059754083,
+            "last_update": 1366730626.32756,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Infusion",
+            "name_lower": "infusion",
+            "recast_secs": 9.881423,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730626.32756,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

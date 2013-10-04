@@ -1,0 +1,82 @@
+{
+    "limit": 10,
+    "min_ts": 1366730633.046119,
+    "returned": 1,
+    "seconds": 0.020032882690429688,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2335734864,
+            "deity": 0,
+            "description": "When the assassin uses stealth attacks, they will gain increments of Nightblade's Intensity. Once Nightblade's Intensity reaches 12 increments, the assassin will have their potency increased by 20% of their base potency.",
+            "description_pvp": "When the assassin uses stealth attacks, they will gain increments of Nightblade's Intensity. Once Nightblade's Intensity reaches 12 increments, the assassin will have their potency increased by 20% of their base potency.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Only triggers when using stealth attacks",
+                    "indentation": 0
+                },
+                {
+                    "description": "When a combat art is used this spell will cast Nightblade's Intensity on target.  Lasts for 1 minute.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Concealer's Pain on termination.  Lasts for 10.0 seconds.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Applies when reaching 12 increments of Nightblade's Intensity",
+                    "indentation": 2
+                },
+                {
+                    "description": "Increases the assassin's potency by 20% of their base potency",
+                    "indentation": 2
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 804
+            },
+            "id": 1103947132,
+            "last_update": 1366730633.046119,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Nightblade's Intensity",
+            "name_lower": "nightblade's intensity",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730633.046119,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 1
+        }
+    ]
+}

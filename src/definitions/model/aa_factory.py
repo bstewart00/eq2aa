@@ -57,10 +57,11 @@ class AAFactory(object):
                             "parent": aa_node.get("firstparentrequiredtier", 0)
                             }
 
-        spells = self._data_provider.spells(aa_node["spellcrc"])
+        spells_result = self._data_provider.spells(aa_node["spellcrc"])
+        spells = spells_result["spell_list"]
         icon = { "icon": spells[0]["icon"]["id"], "backdrop": spells[0]["icon"]["backdrop"] }
-        effects = [self._spell_effect_formatter.format(spell["effect_list"]) for spell in spells]
-
+        effects = list(self._get_effects(spells))
+                   
         return AA(id_,
                   aa_node["nodeid"],
                   aa_node.get("firstparentid", -1),
@@ -74,6 +75,11 @@ class AAFactory(object):
                   icon,
                   prereqs,
                   title=aa_node["title"])
+        
+    def _get_effects(self, spells):
+        for spell in spells:
+            if 'effect_list' in spell:
+                yield self._spell_effect_formatter.format(spell["effect_list"])
 
     def _calculate_parent_subtree_prereq(self, subclass, max_level, lineage, class_name, tree_name):
         if tree_name == "Shadows" and max_level > 1\

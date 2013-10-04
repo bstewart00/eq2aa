@@ -1,0 +1,86 @@
+{
+    "limit": 10,
+    "min_ts": 1366730631.896988,
+    "returned": 1,
+    "seconds": 0.013916015625,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 7.5,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 5,
+                "savagery": 0
+            },
+            "crc": 4093775878,
+            "deity": 0,
+            "description": "A powerful, frontal melee attack that cannot be riposted and damages all targets in front of the crusader. It deals additional damage over time and snares the crusader's opponent.",
+            "description_pvp": "A powerful, frontal melee attack that cannot be riposted and damages all targets in front of the crusader. It deals additional damage over time and snares the crusader's opponent.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 360,
+                "min_sec_tenths": 360
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 7 - 12 melee damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 2 - 3 piercing damage on targets in Area of Effect every 4 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Snare.  Lasts for 24.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Slows target by 27.2%",
+                    "indentation": 1
+                },
+                {
+                    "description": "5% chance to dispel when target receives hostile action",
+                    "indentation": 1
+                },
+                {
+                    "description": "5% chance to dispel when target takes damage",
+                    "indentation": 1
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 558
+            },
+            "id": 3671997635,
+            "last_update": 1366730631.896988,
+            "level": 0,
+            "max_targets": 8,
+            "name": "Lance",
+            "name_lower": "lance",
+            "recast_secs": 44.466404,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730631.896988,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

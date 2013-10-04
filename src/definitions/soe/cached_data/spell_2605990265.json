@@ -1,0 +1,78 @@
+{
+    "limit": 10,
+    "min_ts": 1366730442.612747,
+    "returned": 1,
+    "seconds": 0.018290996551513672,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2605990265,
+            "deity": 0,
+            "description": "Ritual of Protection allows the mystic to cast faster for beneficial spells.  In addition, they will heal and ward for more.  As a penalty, hostile spells will use additional power, have a longer recast and do less damage.",
+            "description_pvp": "Ritual of Protection allows the mystic to cast faster for beneficial spells.  In addition, they will heal and ward for more.  As a penalty, hostile spells will use additional power, have a longer recast and do less damage.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves heals and wards by 10%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the casting time of beneficial spells by 15%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the critical amount of heals and wards by 5%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the damage of hostile spells and combat arts by 13.5%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the power and reuse speed of damage based spells and combat arts by 20%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 881
+            },
+            "id": 10288150,
+            "last_update": 1366730442.612747,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ritual of Protection",
+            "name_lower": "ritual of protection",
+            "recast_secs": 3.952569,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730442.612747,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

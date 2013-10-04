@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730441.683831,
+    "returned": 1,
+    "seconds": 0.01606893539428711,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 25.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 1,
+                    "savagery": 0
+                },
+                "power": 1,
+                "savagery": 0
+            },
+            "crc": 2171059379,
+            "deity": 0,
+            "description": "Reduces the duration of target encounter's non-damaging hostile abilities while dealing damage over time and granting a chance to interrupt.",
+            "description_pvp": "Reduces the duration of target encounter's non-damaging hostile abilities while dealing damage over time and granting a chance to interrupt.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 1 mental damage on target encounter instantly and every 6 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces non-damage hostile spell duration by 30%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Has a 50% chance to interrupt the target encounter on each spell tick.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 255
+            },
+            "id": 351230155,
+            "last_update": 1366730441.683831,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Sonic Interference",
+            "name_lower": "sonic interference",
+            "recast_secs": 3.952569,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730441.683831,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

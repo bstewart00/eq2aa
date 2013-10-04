@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730647.678434,
+    "returned": 1,
+    "seconds": 0.014492034912109375,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 25.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 20,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 5,
+                "savagery": 0
+            },
+            "crc": 1466584059,
+            "deity": 0,
+            "description": "Totemic Protection heals the group based on the amount of damage the target group member receives. Unless the target of Totemic Protection is the shaman, the target does not receive the heal.",
+            "description_pvp": "Totemic Protection heals the group based on the amount of damage the target group member receives. Unless the target of Totemic Protection is the shaman, the target does not receive the heal.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 150,
+                "min_sec_tenths": 150
+            },
+            "effect_list": [
+                {
+                    "description": "The target of Totemic Protection does not receive the heal unless the target is the shaman",
+                    "indentation": 0
+                },
+                {
+                    "description": "Heals the group for 25% of the damage the target receives before mitigation and wards",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 868
+            },
+            "id": 3590703507,
+            "last_update": 1366730647.678434,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Totemic Protection",
+            "name_lower": "totemic protection",
+            "recast_secs": 118.57708,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730647.678434,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

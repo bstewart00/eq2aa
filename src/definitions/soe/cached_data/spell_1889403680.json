@@ -1,0 +1,74 @@
+{
+    "limit": 10,
+    "min_ts": 1366730440.312008,
+    "returned": 1,
+    "seconds": 0.016609907150268555,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 15.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 6,
+                "savagery": 0
+            },
+            "crc": 1889403680,
+            "deity": 0,
+            "description": "Inflicts damage in area of effect. For every target hit by the attack, the warrior gains a small amount of Crit Bonus and damage reduction for a short duration.",
+            "description_pvp": "Inflicts damage in area of effect. For every target hit by the attack, the warrior gains a small amount of Crit Bonus and damage reduction for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Partisan's Glory.  Lasts for 1 minute.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces all damage done to caster by 1%",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Crit Bonus of caster by 2.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 20 - 38 melee damage on targets in Area of Effect",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 884
+            },
+            "id": 2113356506,
+            "last_update": 1366730440.312008,
+            "level": 0,
+            "max_targets": 8,
+            "name": "Partisan Cleave",
+            "name_lower": "partisan cleave",
+            "recast_secs": 118.57708,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730440.312008,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

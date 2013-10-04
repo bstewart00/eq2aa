@@ -1,0 +1,82 @@
+{
+    "limit": 10,
+    "min_ts": 1366730443.721432,
+    "returned": 1,
+    "seconds": 0.014184951782226562,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3634303060,
+            "deity": 0,
+            "description": "Overconfidence reduces target encounter's chance of responding to other encounters' calls for help. If that encounter is in combat while Overconfidence is active, any attacks made against non-fighter allies causes the opponent to hate your allies less.  This spell does not cause any aggression.",
+            "description_pvp": "Overconfidence reduces target encounter's chance of responding to other encounters' calls for help. If that encounter is in combat while Overconfidence is active, any attacks made against non-fighter allies causes the opponent to hate your allies less.  This spell does not cause any aggression.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces Awareness of Other Encounters Calling for Help ",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell will cast Overconfidence on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases threat priority of target by 2 positions",
+                    "indentation": 1
+                },
+                {
+                    "description": "Decreases Threat to target by 5 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If profession other than Fighter",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 184
+            },
+            "id": 175527271,
+            "last_update": 1366730443.721432,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Overconfidence",
+            "name_lower": "overconfidence",
+            "recast_secs": 118.57708,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730443.721432,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

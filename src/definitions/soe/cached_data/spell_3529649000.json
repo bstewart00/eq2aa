@@ -1,0 +1,86 @@
+{
+    "limit": 10,
+    "min_ts": 1366730650.986546,
+    "returned": 1,
+    "seconds": 0.02005910873413086,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 1000,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3529649000,
+            "deity": 0,
+            "description": "Allows the beastlord to tame an exotic warder. The warder spell is added to the beastlord's knowledge book and takes the appearance of the targeted creature. Using this ability on the same type of creature updates the appearance of the associated warder. Tame Exotic Warder can only be used on specific creature types. This ability also allows the beastlord to summon Exotic Warders and use Exotic Primal abilities.",
+            "description_pvp": "Allows the beastlord to tame an exotic warder. The warder spell is added to the beastlord's knowledge book and takes the appearance of the targeted creature. Using this ability on the same type of creature updates the appearance of the associated warder. Tame Exotic Warder can only be used on specific creature types. This ability also allows the beastlord to summon Exotic Warders and use Exotic Primal abilities.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Allows the beastlord to tame exotic creatures.",
+                    "indentation": 0
+                },
+                {
+                    "description": "You cannot tame while you have a warder summoned.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Must be engaged in combat",
+                    "indentation": 0
+                },
+                {
+                    "description": "If under 25% Health",
+                    "indentation": 0
+                },
+                {
+                    "description": "Certain enemies cannot be tamed.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Does not affect Epic targets",
+                    "indentation": 0
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 931
+            },
+            "id": 36468845,
+            "last_update": 1366730650.986546,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Tame Exotic Warder",
+            "name_lower": "tame exotic warder",
+            "recast_secs": 2.0,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730650.986546,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

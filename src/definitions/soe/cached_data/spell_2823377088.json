@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730618.212831,
+    "returned": 1,
+    "seconds": 0.016575098037719727,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2823377088,
+            "deity": 0,
+            "description": "Grants the Warden's group immunity to Root and reduction to all movement speed penalties.",
+            "description_pvp": "Grants the Warden's group immunity to Root and reduction to all movement speed penalties.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 1800,
+                "min_sec_tenths": 1800
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces slow effects on group members (AE) by 50.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes group members (AE) immune to Root effects",
+                    "indentation": 0
+                },
+                {
+                    "description": "Must not be engaged in pvp combat",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 6
+            },
+            "id": 2304849184,
+            "last_update": 1366730618.212831,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Nature Walk",
+            "name_lower": "nature walk",
+            "recast_secs": 9.881423,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730618.212831,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

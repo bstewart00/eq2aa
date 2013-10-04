@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730443.314274,
+    "returned": 1,
+    "seconds": 0.014442920684814453,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2336841152,
+            "deity": 0,
+            "description": "The brawler and target will both dodge all attacks for 8 seconds. If the brawler is alone or uses Tag Team on him or herself, he or she will be healed for 50% of his or her max health.",
+            "description_pvp": "The brawler and target will both dodge all attacks for 8 seconds. If the brawler is alone or uses Tag Team on him or herself, he or she will be healed for 50% of his or her max health.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "The target and brawler gain 100% Extra Dodge Chance for 8 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "If the brawler casts this spell on him or herself, he or she is healed for 50% of his or her max health and gains 100% Extra Dodge Chance for 8 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 851
+            },
+            "id": 3373509743,
+            "last_update": 1366730443.314274,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Tag Team",
+            "name_lower": "tag team",
+            "recast_secs": 118.57708,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730443.314274,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

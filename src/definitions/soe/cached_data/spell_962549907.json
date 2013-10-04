@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730466.267454,
+    "returned": 1,
+    "seconds": 0.018913984298706055,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 4,
+                "savagery": 0
+            },
+            "crc": 962549907,
+            "deity": 0,
+            "description": "A melee attack that counters the next spell cast if it successfully hits.",
+            "description_pvp": "A melee attack that counters the next spell cast if it successfully hits.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 120,
+                "min_sec_tenths": 120
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 10 - 17 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Provides a 100% chance to counter the effects of spells 1 time. Applies to Profession and NPC racial spells only.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 606
+            },
+            "id": 994456811,
+            "last_update": 1366730466.267454,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Counterblade",
+            "name_lower": "counterblade",
+            "recast_secs": 11.857708,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730466.267454,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

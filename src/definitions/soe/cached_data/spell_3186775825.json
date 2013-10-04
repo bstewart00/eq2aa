@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730627.068361,
+    "returned": 1,
+    "seconds": 0.01582193374633789,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 25.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3186775825,
+            "deity": 0,
+            "description": "All enemies in target encounter that are not targeting a fighter ally are forced to target a random fighter ally for a short duration.",
+            "description_pvp": "All enemies in target encounter that are not targeting a fighter ally are forced to target a random fighter ally for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 70,
+                "min_sec_tenths": 70
+            },
+            "effect_list": [
+                {
+                    "description": "Target encounter is forced to target a random fighter from the caster's group",
+                    "indentation": 0
+                },
+                {
+                    "description": "Prevents target encounter from changing targets",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 51
+            },
+            "id": 2989331512,
+            "last_update": 1366730627.068361,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Thought Snap",
+            "name_lower": "thought snap",
+            "recast_secs": 88.932808,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730627.068361,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730640.692433,
+    "returned": 1,
+    "seconds": 0.014159917831420898,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 35.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 8,
+                "savagery": 0
+            },
+            "crc": 3794855887,
+            "deity": 0,
+            "description": "Shapechanges the Mystic's group into stags and grants additional crushing damage to every melee attack for a short duration.  In PVP combat, this will also make the caster's group immune to taunt effects.",
+            "description_pvp": "Shapechanges the Mystic's group into stags and grants additional crushing damage to every melee attack for a short duration.  In PVP combat, this will also make the caster's group immune to taunt effects.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "On a combat hit this spell will cast Stampede on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 23 - 28 crushing damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Shapechanges group members (AE) into a stag",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 830
+            },
+            "id": 91591702,
+            "last_update": 1366730640.692433,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Stampede of the Herd",
+            "name_lower": "stampede of the herd",
+            "recast_secs": 296.442688,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730640.692433,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "limit": 10,
+    "min_ts": 1366730638.117822,
+    "returned": 1,
+    "seconds": 0.014557123184204102,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 6,
+                "savagery": 0
+            },
+            "crc": 1601808198,
+            "deity": 0,
+            "description": "Inflicts moderate damage to the target. If the rogue is in front of the target, the target's attributes are reduced. If the rogue is behind the target, the target's maximum health is reduced.",
+            "description_pvp": "Inflicts moderate damage to the target. If the rogue is in front of the target, the target's attributes are reduced. If the rogue is behind the target, the target's maximum health is reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Distracting Disarm.  Lasts for 45.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases WIS, AGI, STR and INT of target by 18.5",
+                    "indentation": 1
+                },
+                {
+                    "description": "Must be in front of",
+                    "indentation": 1
+                },
+                {
+                    "description": "Applies Swift Puncture on termination.  Lasts for 45.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Max Health of target by 4.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "Must be flanking or behind",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 14 melee damage on target",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 928
+            },
+            "id": 3883082774,
+            "last_update": 1366730638.117822,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Change of Engagement",
+            "name_lower": "change of engagement",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730638.117822,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

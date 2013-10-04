@@ -1,0 +1,74 @@
+{
+    "limit": 10,
+    "min_ts": 1366730647.095071,
+    "returned": 1,
+    "seconds": 0.01494598388671875,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 8,
+                "savagery": 0
+            },
+            "crc": 4280020453,
+            "deity": 0,
+            "description": "The Fencer's strike deals damage and reduces the accuracy and auto-attack damage of the target for a short duration.",
+            "description_pvp": "The Fencer's strike deals damage and reduces the accuracy and auto-attack damage of the target for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Decreases Weapon Damage Bonus of target by 5.0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 6 - 11 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Target will have their chance to hit with a weapon lowered by 30.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Must be in front of or flanking",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 690
+            },
+            "id": 1202652114,
+            "last_update": 1366730647.095071,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Coule",
+            "name_lower": "coule",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730647.095071,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

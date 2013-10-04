@@ -1,0 +1,74 @@
+{
+    "limit": 10,
+    "min_ts": 1366730461.442724,
+    "returned": 1,
+    "seconds": 0.07565093040466309,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3633058267,
+            "deity": 0,
+            "description": "A replacement for Concealment. Allows the assassin to use stealth attacks when not in stealth and inflict additional damage with each combat art. Additionally, the assassin generates less hate for the duration of the ability.",
+            "description_pvp": "A replacement for Concealment. Allows the assassin to use stealth attacks when not in stealth and inflict additional damage with each combat art. Additionally, the assassin generates less hate for the duration of the ability.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 70,
+                "min_sec_tenths": 70
+            },
+            "effect_list": [
+                {
+                    "description": "When a combat art is used this spell will cast Direct Assault on target of combat art.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 11 - 18 piercing damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "The assassin can use stealth strikes when not in stealth.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Hate Gain of caster by 40.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": 38,
+                "id": 231
+            },
+            "id": 3410252027,
+            "last_update": 1366730461.442724,
+            "level": 0,
+            "max_targets": 0,
+            "name": "In Plain Sight",
+            "name_lower": "in plain sight",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730461.442724,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

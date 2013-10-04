@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730644.709986,
+    "returned": 1,
+    "seconds": 0.016813993453979492,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 25.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 268515495,
+            "deity": 0,
+            "description": "Reduces target encounter's spell range and radius, and adds it to the warlock's own benefit.",
+            "description_pvp": "Reduces target encounter's spell range and radius, and adds it to the warlock's own benefit.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Increases caster's spell range and radius by 20%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces target's spell range and radius by 20%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 540
+            },
+            "id": 2822868102,
+            "last_update": 1366730644.709986,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Volatility",
+            "name_lower": "volatility",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730644.709986,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

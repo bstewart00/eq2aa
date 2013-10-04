@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730647.317051,
+    "returned": 1,
+    "seconds": 0.014137029647827148,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 400,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1924311002,
+            "deity": 0,
+            "description": "When the berserker drops below 75%, 50% and 25% health thresholds, they get damage reduction for a short duration. This increments up to 3 times and each threshold can only trigger once every 15 seconds. Additional increments increase the amount of damage reduced and do not refresh the duration.",
+            "description_pvp": "When the berserker drops below 75%, 50% and 25% health thresholds, they get damage reduction for a short duration. This increments up to 3 times and each threshold can only trigger once every 15 seconds. Additional increments increase the amount of damage reduced and do not refresh the duration.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "When the berserker falls below 75%, 50% and 25% they gain 5% Damage Reduction per increment. Each threshold can only trigger once every 15 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 849
+            },
+            "id": 850226564,
+            "last_update": 1366730647.317051,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Rampager's Grit",
+            "name_lower": "rampager's grit",
+            "recast_secs": 2.0,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730647.317051,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 1
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730459.695946,
+    "returned": 1,
+    "seconds": 0.01783895492553711,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 3783315302,
+            "deity": 0,
+            "description": "Wards the target based on the number of increments of Ferocity of Spirits. This spell can be cast while casting other spells.",
+            "description_pvp": "Wards the target based on the number of increments of Ferocity of Spirits. This spell can be cast while casting other spells.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "The ward value is multiplied by the number of increments of Ferocity of Spirits. Casting this spell will prevent Ferocity of Spirits from triggering for 30 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Wards target against 22 points of all damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "You must be maintaining Ferocity of Spirits to cast this spell!",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 925
+            },
+            "id": 668560739,
+            "last_update": 1366730459.695946,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Barrier of the Spirits",
+            "name_lower": "barrier of the spirits",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730459.695946,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

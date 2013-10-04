@@ -1,0 +1,78 @@
+{
+    "limit": 10,
+    "min_ts": 1366730619.780287,
+    "returned": 1,
+    "seconds": 0.01628899574279785,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 20,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3941090027,
+            "deity": 0,
+            "description": "Safehouse is placed on an ally. When the Brigand receives enough damage to die while in combat or cancels Safehouse, they are instantly teleported to that ally in stealth. If Safehouse was used without a target, they are teleported to that location instead. Safehouse will fail to trigger the teleport if the location is greater than 200 meters away.",
+            "description_pvp": "Safehouse is placed on an ally. When the Brigand receives enough damage to die while in combat or cancels Safehouse, they are instantly teleported to that ally in stealth. If Safehouse was used without a target, they are teleported to that location instead. Safehouse will fail to trigger the teleport if the location is greater than 200 meters away.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 900,
+                "min_sec_tenths": 900
+            },
+            "effect_list": [
+                {
+                    "description": "On death this spell will cast Safehouse Immunity on target's attacker.  Lasts for 5 minutes.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases threat priority of target by 1 position",
+                    "indentation": 1
+                },
+                {
+                    "description": "Prevents you from recasting Safehouse for 5 minutes.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Marks target ally or your current location. Cancelling this spell teleports you to your ally or your previous location. You cannot use this in battlegrounds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 34
+            },
+            "id": 3993719710,
+            "last_update": 1366730619.780287,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Safehouse",
+            "name_lower": "safehouse",
+            "recast_secs": 88.932808,
+            "recovery_secs_tenths": 25,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730619.780287,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

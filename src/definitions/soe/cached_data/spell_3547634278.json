@@ -1,0 +1,254 @@
+{
+    "limit": 10,
+    "min_ts": 1366730614.610329,
+    "returned": 3,
+    "seconds": 0.015618085861206055,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 150,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 3547634278,
+            "deity": 0,
+            "description": "Grants Champion's Watch and Champion's Interception. Champion's Watch is a group spell that increments Champion's Sight whenever a non-fighter is hit by an enemy. Champion's Sight increments to 50. Champion's Interception consumes Champion's Sight and applies damage reduction to non-fighters in the group based on the number of increments of Champion's Sight consumed. This spell can be toggled off early to gain some Champion's Sight increments back. Champion's Interception can be used through most control effects. Higher ranks lower the base reuse time.",
+            "description_pvp": "Grants Champion's Watch and Champion's Interception. Champion's Watch is a group spell that increments Champion's Sight whenever a non-fighter is hit by an enemy. Champion's Sight increments to 50. Champion's Interception consumes Champion's Sight and applies damage reduction to non-fighters in the group based on the number of increments of Champion's Sight consumed. This spell can be toggled off early to gain some Champion's Sight increments back. Champion's Interception can be used through most control effects. Higher ranks lower the base reuse time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 120,
+                "min_sec_tenths": 120
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Champion's Interception.  Lasts for 12.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces damage to group members by 1% per increment",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Increments up to 50 times",
+                    "indentation": 1
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 1
+                },
+                {
+                    "description": "If toggled off early, returns up to 50% of the increments of Champion's Sight used",
+                    "indentation": 0
+                },
+                {
+                    "description": "You must have Champion's Sight active to use Champion's Interception",
+                    "indentation": 0
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 858
+            },
+            "id": 2001076300,
+            "last_update": 1366730635.087166,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Champion's Interception",
+            "name_lower": "champion's interception",
+            "recast_secs": 36.0,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1366730635.087166,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 150,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 3547634278,
+            "deity": 0,
+            "description": "Grants Champion's Watch and Champion's Interception. Champion's Watch is a group spell that increments Champion's Sight whenever a non-fighter is hit by an enemy. Champion's Sight increments to 50. Champion's Interception consumes Champion's Sight and applies damage reduction to non-fighters in the group based on the number of increments of Champion's Sight consumed. This spell can be toggled off early to gain some Champion's Sight increments back. Champion's Interception can be used through most control effects. Higher ranks lower the base reuse time.",
+            "description_pvp": "Grants Champion's Watch and Champion's Interception. Champion's Watch is a group spell that increments Champion's Sight whenever a non-fighter is hit by an enemy. Champion's Sight increments to 50. Champion's Interception consumes Champion's Sight and applies damage reduction to non-fighters in the group based on the number of increments of Champion's Sight consumed. This spell can be toggled off early to gain some Champion's Sight increments back. Champion's Interception can be used through most control effects. Higher ranks lower the base reuse time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 120,
+                "min_sec_tenths": 120
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Champion's Interception.  Lasts for 12.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces damage to group members by 1% per increment",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Increments up to 50 times",
+                    "indentation": 1
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 1
+                },
+                {
+                    "description": "If toggled off early, returns up to 50% of the increments of Champion's Sight used",
+                    "indentation": 0
+                },
+                {
+                    "description": "You must have Champion's Sight active to use Champion's Interception",
+                    "indentation": 0
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 858
+            },
+            "id": 3930710330,
+            "last_update": 1366730617.215463,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Champion's Interception",
+            "name_lower": "champion's interception",
+            "recast_secs": 36.0,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1366730617.215463,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 150,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 3547634278,
+            "deity": 0,
+            "description": "Grants Champion's Watch and Champion's Interception. Champion's Watch is a group spell that increments Champion's Sight whenever a non-fighter is hit by an enemy. Champion's Sight increments to 50. Champion's Interception consumes Champion's Sight and applies damage reduction to non-fighters in the group based on the number of increments of Champion's Sight consumed. This spell can be toggled off early to gain some Champion's Sight increments back. Champion's Interception can be used through most control effects. Higher ranks lower the base reuse time.",
+            "description_pvp": "Grants Champion's Watch and Champion's Interception. Champion's Watch is a group spell that increments Champion's Sight whenever a non-fighter is hit by an enemy. Champion's Sight increments to 50. Champion's Interception consumes Champion's Sight and applies damage reduction to non-fighters in the group based on the number of increments of Champion's Sight consumed. This spell can be toggled off early to gain some Champion's Sight increments back. Champion's Interception can be used through most control effects. Higher ranks lower the base reuse time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 120,
+                "min_sec_tenths": 120
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Champion's Interception.  Lasts for 12.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces damage to group members by 1% per increment",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Increments up to 50 times",
+                    "indentation": 1
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 1
+                },
+                {
+                    "description": "If toggled off early, returns up to 50% of the increments of Champion's Sight used",
+                    "indentation": 0
+                },
+                {
+                    "description": "You must have Champion's Sight active to use Champion's Interception",
+                    "indentation": 0
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 858
+            },
+            "id": 2519254241,
+            "last_update": 1366730614.610329,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Champion's Interception",
+            "name_lower": "champion's interception",
+            "recast_secs": 36.0,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730614.610329,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

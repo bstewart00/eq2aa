@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730645.684071,
+    "returned": 1,
+    "seconds": 0.01570606231689453,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4132876975,
+            "deity": 0,
+            "description": "The Knight gains immunity to fear, and all group members gain 2% more to their melee damage, spell damage, health replenishment and wards.",
+            "description_pvp": "The Knight gains immunity to fear, and all group members gain 2% more to their melee damage, spell damage, health replenishment and wards.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 432000,
+                "min_sec_tenths": 432000
+            },
+            "effect_list": [
+                {
+                    "description": "Makes caster immune to Fear effects",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Potency of group members (AE) by 2.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 268
+            },
+            "id": 1719809101,
+            "last_update": 1366730645.684071,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Fearless Morale",
+            "name_lower": "fearless morale",
+            "recast_secs": 9.881423,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730645.684071,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730442.957827,
+    "returned": 1,
+    "seconds": 0.014927148818969727,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 7.5,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 642799143,
+            "deity": 0,
+            "description": "A replacement for Darksong Blade. This attack inflicts two quick disease attacks to targets surrounding the dirge. Targets who are hit with the melee attacks suffer additional disease damage over time.",
+            "description_pvp": "A replacement for Darksong Blade. This attack inflicts two quick disease attacks to targets surrounding the dirge. Targets who are hit with the melee attacks suffer additional disease damage over time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 4 - 7 disease damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 7 disease damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 2 disease damage on targets in Area of Effect instantly and every 6 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": 38,
+                "id": 366
+            },
+            "id": 2123417944,
+            "last_update": 1366730442.957827,
+            "level": 0,
+            "max_targets": 8,
+            "name": "Darksong Spin",
+            "name_lower": "darksong spin",
+            "recast_secs": 19.762846,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730442.957827,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

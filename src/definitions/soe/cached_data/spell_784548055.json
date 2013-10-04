@@ -1,0 +1,82 @@
+{
+    "limit": 10,
+    "min_ts": 1366730571.199531,
+    "returned": 1,
+    "seconds": 0.018554210662841797,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 241,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 784548055,
+            "deity": 0,
+            "description": "The Nightshade applies an extremely intoxicating poison. The next melee attack that lands will cause a victim severe disorientation, causing damage and reducing all of their combat and casting skills.",
+            "description_pvp": "The Nightshade applies an extremely intoxicating poison. The next melee attack that lands will cause a victim severe disorientation, causing damage and reducing all of their combat and casting skills.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 1200,
+                "min_sec_tenths": 1200
+            },
+            "effect_list": [
+                {
+                    "description": "On a hit this spell will cast Noxious Venom on target of attack.  Lasts for 48.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Blurs vision of target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Decreases Subjugation, Piercing and Crushing of target by 1.2",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 11 - 18 poison damage on target instantly and every 6 seconds",
+                    "indentation": 1
+                },
+                {
+                    "description": "Decreases Focus, Ministration, Disruption, Slashing and Ordination of target by 1.2",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "spellscroll",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 651
+            },
+            "id": 2714370546,
+            "last_update": 1366730571.199531,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Intoxication",
+            "name_lower": "intoxication",
+            "recast_secs": 88.932808,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730571.199531,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

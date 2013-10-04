@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730585.93925,
+    "returned": 1,
+    "seconds": 0.01802802085876465,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 828835320,
+            "deity": 0,
+            "description": "Cures non-physical impairments on target ally. For each one removed, hate is increased towards the paladin by all nearby enemies.",
+            "description_pvp": "Cures non-physical impairments on target ally. For each one removed, hate is increased towards the paladin by all nearby enemies.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Dispels 6 levels of elemental, noxious and arcane hostile effects on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Casts Hate for each successful Dispel.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Threat to targets in Area of Effect by 12 ",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "spellscroll",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 150
+            },
+            "id": 3920262045,
+            "last_update": 1366730585.93925,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Cure Spells",
+            "name_lower": "cure spells",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730585.93925,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

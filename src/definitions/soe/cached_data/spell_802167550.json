@@ -1,0 +1,82 @@
+{
+    "limit": 10,
+    "min_ts": 1366730459.420872,
+    "returned": 1,
+    "seconds": 0.01576709747314453,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 802167550,
+            "deity": 0,
+            "description": "Perseverance of the Divine protects the target from harm, providing a two trigger stoneskin. Upon expiration, the target is granted a reactive heal based on the amount of damage prevented.",
+            "description_pvp": "Perseverance of the Divine protects the target from harm, providing a two trigger stoneskin. Upon expiration, the target is granted a reactive heal based on the amount of damage prevented.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 150,
+                "min_sec_tenths": 150
+            },
+            "effect_list": [
+                {
+                    "description": "Will absorb all damage when the amount is greater than 10% of the target's maximum health. This spell will absorb a total of 2 attacks.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Perseverance of Divinity on termination.  Lasts for 15.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "When any damage is received this spell will cast Divine Perseverance on target.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Heals the target based on the amount of damage absorbed.",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 2 triggers of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 843
+            },
+            "id": 30791656,
+            "last_update": 1366730459.420872,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Perseverance of the Divine",
+            "name_lower": "perseverance of the divine",
+            "recast_secs": 177.865616,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730459.420872,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

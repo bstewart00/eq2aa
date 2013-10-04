@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730641.990118,
+    "returned": 1,
+    "seconds": 0.017959117889404297,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 4141876579,
+            "deity": 0,
+            "description": "The enchanter inflicts mental trauma upon their targets, inflicting up to 20 hits (up to 10 hits in PVP combat) on their current target. This spell cannot be canceled once it begins.",
+            "description_pvp": "The enchanter inflicts mental trauma upon their targets, inflicting up to 20 hits (up to 10 hits in PVP combat) on their current target. This spell cannot be canceled once it begins.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 100,
+                "min_sec_tenths": 100
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 12 - 18 mental damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Psychic Trauma has an 85% chance to trigger its damage again. It can inflict its damage up to 20 times.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 474
+            },
+            "id": 1560515206,
+            "last_update": 1366730641.990118,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Psychic Trauma",
+            "name_lower": "psychic trauma",
+            "recast_secs": 39.525692,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730641.990118,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "limit": 10,
+    "min_ts": 1366730643.029273,
+    "returned": 1,
+    "seconds": 0.014410972595214844,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 583582162,
+            "deity": 0,
+            "description": "Whenever the raid strikes a death blow, the caster's group will gain increased Spell Weapon AE Auto Attack and Spell Weapon Attack Speed. This also has a very small chance to increment when attacking. This increments up to 25 times. It is dispelled when any group member dies. Does not persist through zoning.",
+            "description_pvp": "Whenever the raid strikes a death blow, the caster's group will gain increased Spell Weapon AE Auto Attack and Spell Weapon Attack Speed. This also has a very small chance to increment when attacking. This increments up to 25 times. It is dispelled when any group member dies. Does not persist through zoning.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 10,
+                "min_sec_tenths": 10
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell may cast Blazing Energy on target.  Lasts for 15 minutes.  Triggers about 0.2 times per minute. ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Spell Weapon Attack Speed of group members (AE) by 1.0",
+                    "indentation": 1
+                },
+                {
+                    "description": "Group members (AE) has a 1.0% chance of having one of their spell weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Dispelled when a group member dies.",
+                    "indentation": 1
+                },
+                {
+                    "description": "On a death blow this spell will cast Blazing Energy on target.  Lasts for 15 minutes.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Spell Weapon Attack Speed of group members (AE) by 1.0",
+                    "indentation": 1
+                },
+                {
+                    "description": "Group members (AE) has a 1.0% chance of having one of their spell weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Dispelled when a group member dies.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 273
+            },
+            "id": 1415427784,
+            "last_update": 1366730643.029273,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Blazing Energy",
+            "name_lower": "blazing energy",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730643.029273,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

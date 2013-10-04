@@ -1,0 +1,86 @@
+{
+    "limit": 10,
+    "min_ts": 1366730442.661468,
+    "returned": 1,
+    "seconds": 0.01689600944519043,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 35.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 528991859,
+            "deity": 0,
+            "description": "Reduces snare effects, increases In-Combat Run Speed and makes the bard's group immune to root and interrupts, including motion. The bard's hostile spells will increase the damage of combat arts and spells of their nearby group members.",
+            "description_pvp": "Reduces snare effects, increases In-Combat Run Speed and makes the bard's group immune to root and interrupts, including motion. The bard's hostile spells will increase the damage of combat arts and spells of their nearby group members.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces slow effects on group members (AE) by 50.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "On a hostile spell cast this spell will cast Pulse of Oblivion on the group.  Lasts for 5.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Can only be triggered by the caster of Deadly Dance",
+                    "indentation": 1
+                },
+                {
+                    "description": "Group Members (AE) within 7.5 meters of the bard will have their Spell and Combat Art damage increased by 20%.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases in-combat movement speed of group members (AE) by 15.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes group members (AE) immune to Root effects",
+                    "indentation": 0
+                },
+                {
+                    "description": "Prevents group members (AE) from being interrupted, including movement",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 900
+            },
+            "id": 748882203,
+            "last_update": 1366730442.661468,
+            "level": 0,
+            "max_targets": -1,
+            "name": "Deadly Dance",
+            "name_lower": "deadly dance",
+            "recast_secs": 237.15416,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730442.661468,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

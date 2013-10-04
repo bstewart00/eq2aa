@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730443.372148,
+    "returned": 1,
+    "seconds": 0.01513814926147461,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1062741221,
+            "deity": 0,
+            "description": "Grants the conjuror a chance to trigger Crystalline Destruction. If Crystal Blast is cast while Crystalline Destruction is active, it does massive bonus damage.",
+            "description_pvp": "Grants the conjuror a chance to trigger Crystalline Destruction. If Crystal Blast is cast while Crystalline Destruction is active, it does massive bonus damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a hostile spell cast this spell may cast Crystalline Destruction on caster.  Lasts for 10.0 seconds.  Triggers about 1.2 times per minute. ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Crystal Blast will do additional damage! Crystal Blast itself cannot trigger this effect.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Crystal Blast will inflict massive damage when Crystalline Destruction is active.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 161
+            },
+            "id": 2187250223,
+            "last_update": 1366730443.372148,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Crystalline Destruction",
+            "name_lower": "crystalline destruction",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730443.372148,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 1
+        }
+    ]
+}

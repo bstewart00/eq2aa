@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730464.001698,
+    "returned": 1,
+    "seconds": 0.0155029296875,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 6,
+                "savagery": 0
+            },
+            "crc": 182072522,
+            "deity": 0,
+            "description": "Inflicts melee damage to the target. Whenever the target takes damage, Sunder has a chance to inflict additional melee damage to that target.",
+            "description_pvp": "Inflicts melee damage to the target. Whenever the target takes damage, Sunder has a chance to inflict additional melee damage to that target.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "When damaged this spell has a 10% chance to cast Sunder on caster.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 10 - 19 piercing damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 14 - 27 melee damage on target",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 927
+            },
+            "id": 507414474,
+            "last_update": 1366730464.001698,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Sunder",
+            "name_lower": "sunder",
+            "recast_secs": 118.57708,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730464.001698,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

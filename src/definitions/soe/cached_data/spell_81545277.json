@@ -1,0 +1,86 @@
+{
+    "limit": 10,
+    "min_ts": 1366730641.463916,
+    "returned": 1,
+    "seconds": 0.11920690536499023,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 35.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 25,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 81545277,
+            "deity": 0,
+            "description": "Disables Energizing Aura to increase the health and mitigation of scout and mage group members. Additionally, all mages and scouts will automatically reduce their threat by a percentage of the damage they inflict.",
+            "description_pvp": "Disables Energizing Aura to increase the health and mitigation of scout and mage group members. Additionally, all mages and scouts will automatically reduce their threat by a percentage of the damage they inflict.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 100,
+                "min_sec_tenths": 100
+            },
+            "effect_list": [
+                {
+                    "description": "Disables Energizing Aura",
+                    "indentation": 0
+                },
+                {
+                    "description": "Only applies to scouts and mages",
+                    "indentation": 0
+                },
+                {
+                    "description": "The group's threat with their target will be reduced by 30% of the damage they inflict.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Max Health of group members (AE) by 10.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Mitigation of group members (AE) vs physical damage by 0",
+                    "indentation": 0
+                },
+                {
+                    "description": "You must be maintaining Energizing Aura!",
+                    "indentation": 0
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 153
+            },
+            "id": 3044160678,
+            "last_update": 1366730641.463916,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Illusionary Platemail",
+            "name_lower": "illusionary platemail",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730641.463916,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730654.962792,
+    "returned": 1,
+    "seconds": 0.01752495765686035,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 10.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2781865393,
+            "deity": 0,
+            "description": "The ranger fires a barrage of arrows into the air, raining down upon the target encounter.",
+            "description_pvp": "The ranger fires a barrage of arrows into the air, raining down upon the target encounter.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 120,
+                "min_sec_tenths": 120
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 10 - 15 ranged damage on target encounter",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 10 - 15 piercing damage on target encounter instantly and every 3 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Bow equipped in Ranged",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 811
+            },
+            "id": 564572280,
+            "last_update": 1366730654.962792,
+            "level": 0,
+            "max_targets": -1,
+            "name": "Arrow Barrage",
+            "name_lower": "arrow barrage",
+            "recast_secs": 177.865616,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730654.962792,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

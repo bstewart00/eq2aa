@@ -1,0 +1,74 @@
+{
+    "limit": 10,
+    "min_ts": 1366730589.650677,
+    "returned": 1,
+    "seconds": 0.014213085174560547,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 4,
+                "savagery": 0
+            },
+            "crc": 2123880489,
+            "deity": 0,
+            "description": "Rebirth will resurrect the Hierophant automatically after their death (Except for falling deaths). The automatic resurrection can be cancelled after death by cancelling the flashing Regenesis icon that appears after dying.",
+            "description_pvp": "Rebirth will resurrect the Hierophant automatically after their death (Except for falling deaths). The automatic resurrection can be cancelled after death by cancelling the flashing Regenesis icon that appears after dying.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 432000,
+                "min_sec_tenths": 432000
+            },
+            "effect_list": [
+                {
+                    "description": "On death this spell will cast Regenesis on target.  Lasts for 5.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Regenesis on termination.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Resurrects target with 40% health and power",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "spellscroll",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 545
+            },
+            "id": 546063514,
+            "last_update": 1366730589.650677,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Rebirth",
+            "name_lower": "rebirth",
+            "recast_secs": 296.442688,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730589.650677,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

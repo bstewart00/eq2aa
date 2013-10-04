@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730581.98865,
+    "returned": 1,
+    "seconds": 0.016546964645385742,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2915932953,
+            "deity": 0,
+            "description": "Battle Cry grants the target improved chance to double attack and a chance to flurry.  This will not stack with the Illusionist's Illusory Arm spell.",
+            "description_pvp": "Battle Cry grants the target improved chance to double attack and a chance to flurry.  This will not stack with the Illusionist's Illusory Arm spell.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Target has a 5.0% chance of having one of their weapons' autoattack strike the target multiple times.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Multi Attack Chance of target by 15.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "spellscroll",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 819
+            },
+            "id": 1026423396,
+            "last_update": 1366730581.98865,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Battle Cry",
+            "name_lower": "battle cry",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730581.98865,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

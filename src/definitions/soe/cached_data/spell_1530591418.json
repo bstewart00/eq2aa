@@ -1,0 +1,82 @@
+{
+    "limit": 10,
+    "min_ts": 1366730570.538751,
+    "returned": 1,
+    "seconds": 0.0175018310546875,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1530591418,
+            "deity": 0,
+            "description": "Instant stealth that can be used in combat that will also prevent the assassin from indirect area effects. When the stealth expires, the assassin's movement speed is increased for a short duration.",
+            "description_pvp": "Instant stealth that can be used in combat that will also prevent the assassin from indirect area effects. When the stealth expires, the assassin's movement speed is increased for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Prevents AOE (except when direct) ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Getaway Speed on termination.  Lasts for 10.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases in-combat movement speed of caster by 50.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants stealth to caster",
+                    "indentation": 0
+                },
+                {
+                    "description": "Suspends caster's movement speed enhancements",
+                    "indentation": 0
+                },
+                {
+                    "description": "Dispelled when target takes damage",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "spellscroll",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 557
+            },
+            "id": 4103234114,
+            "last_update": 1366730570.538751,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Getaway",
+            "name_lower": "getaway",
+            "recast_secs": 44.466404,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730570.538751,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

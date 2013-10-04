@@ -1,0 +1,66 @@
+{
+    "limit": 10,
+    "min_ts": 1366730645.097724,
+    "returned": 1,
+    "seconds": 0.014883041381835938,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 784965358,
+            "deity": 0,
+            "description": "Applies a powerful ward of mana on your ally.  The coercer will apply the ward with any mana remaining over 5% of their maximum mana.  The total amount of mana applied is then reduced by 1.5.  This spell can only be cast in combat.",
+            "description_pvp": "Applies a powerful ward of mana on your ally.  The coercer will apply the ward with any mana remaining over 5% of their maximum mana.  The total amount of mana applied is then reduced by 1.5.  This spell can only be cast in combat.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Applies a mana based ward on the target ally.  It protects the ally for a ratio of 1 health to 1.5 points of power.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Must be engaged in combat",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 48
+            },
+            "id": 576030928,
+            "last_update": 1366730645.097724,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Manaward",
+            "name_lower": "manaward",
+            "recast_secs": 296.442688,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730645.097724,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

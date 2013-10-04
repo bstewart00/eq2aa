@@ -1,0 +1,70 @@
+{
+    "limit": 10,
+    "min_ts": 1366730660.019701,
+    "returned": 1,
+    "seconds": 0.014679908752441406,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3459252131,
+            "deity": 0,
+            "description": "As long as the Bishop remains in place, they are immune to interruptions, and sometimes stifles.",
+            "description_pvp": "As long as the Bishop remains in place, they are immune to interruptions, and sometimes stifles.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Steadfast.  Lasts for 2.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Prevents caster from being Interrupted",
+                    "indentation": 1
+                },
+                {
+                    "description": "Makes caster immune to Stifle effects (50% chance)",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 619
+            },
+            "id": 864714994,
+            "last_update": 1366730660.019701,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Steadfast",
+            "name_lower": "steadfast",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730660.019701,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 1
+        }
+    ]
+}

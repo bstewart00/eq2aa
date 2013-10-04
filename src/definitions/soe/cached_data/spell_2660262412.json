@@ -1,0 +1,82 @@
+{
+    "limit": 10,
+    "min_ts": 1366730560.293543,
+    "returned": 1,
+    "seconds": 0.014723062515258789,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 2660262412,
+            "deity": 0,
+            "description": "Perfect Counter applies a stoneskin to the warrior. When the stoneskin is triggered, the warrior gains the ability to inflict a portion of that damage back on their target.",
+            "description_pvp": "Perfect Counter applies a stoneskin to the warrior. When the stoneskin is triggered, the warrior gains the ability to inflict a portion of that damage back on their target.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "Will absorb all damage when the amount is greater than 10% of the target's maximum health. This spell will absorb a total of 3 attacks.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Perfect Counterattack on termination.  Lasts for 30.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell will cast Perfect Counterattack on target of attack.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts the amount of damage absorbed by the stoneskin to the target.",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "spellscroll",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 905
+            },
+            "id": 66914937,
+            "last_update": 1366730560.293543,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Perfect Counter",
+            "name_lower": "perfect counter",
+            "recast_secs": 237.15416,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730560.293543,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

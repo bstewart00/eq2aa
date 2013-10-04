@@ -1,0 +1,74 @@
+{
+    "limit": 10,
+    "min_ts": 1366730630.332209,
+    "returned": 1,
+    "seconds": 0.014672994613647461,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 322658218,
+            "deity": 0,
+            "description": "Redemption of Faith allows the inquisitor to cast faster and improves the amount their spells heal for.  In return, hostile spells have increased power and lower damage.",
+            "description_pvp": "Redemption of Faith allows the inquisitor to cast faster and improves the amount their spells heal for.  In return, hostile spells have increased power and lower damage.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the damage of hostile spells by 20%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases power of hostile spells by 10%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves casting time and reuse speed of heal spells by 15%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases critical heal amount by 5% and base heal amount by 10%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 866
+            },
+            "id": 2895859653,
+            "last_update": 1366730630.332209,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Redemption of Faith",
+            "name_lower": "redemption of faith",
+            "recast_secs": 3.952569,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730630.332209,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

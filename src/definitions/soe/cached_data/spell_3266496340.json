@@ -1,0 +1,82 @@
+{
+    "limit": 10,
+    "min_ts": 1366730439.273424,
+    "returned": 1,
+    "seconds": 0.019565105438232422,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 9,
+                    "savagery": 0
+                },
+                "power": 9,
+                "savagery": 0
+            },
+            "crc": 3266496340,
+            "deity": 0,
+            "description": "Mystical Field surrounds the sorcerer in arcane magicks, preventing them from being hit with Area of Effect abilities and being interrupted and allowing them to cast while moving for a short duration. Any enemy entering the field around the sorcerer will take magic damage. This spell drains power at a prodigious rate and can be toggled off early.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "description_pvp": "Mystical Field surrounds the sorcerer in arcane magicks, preventing them from being hit with Area of Effect abilities and being interrupted and allowing them to cast while moving for a short duration. Any enemy entering the field around the sorcerer will take magic damage. This spell drains power at a prodigious rate and can be toggled off early.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 180,
+                "min_sec_tenths": 180
+            },
+            "effect_list": [
+                {
+                    "description": "Prevents AOE (except when direct) ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Prevents caster from being Interrupted due to movement",
+                    "indentation": 0
+                },
+                {
+                    "description": "Prevents caster from being Interrupted",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Mystical Field.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 36 magic damage on targets in Area of Effect",
+                    "indentation": 1
+                },
+                {
+                    "description": "Hits a maximum of 8 targets at 15 meters base radius",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 511
+            },
+            "id": 2673763590,
+            "last_update": 1366730439.273424,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Mystical Field",
+            "name_lower": "mystical field",
+            "recast_secs": 177.865616,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730439.273424,
+            "type": "spells",
+            "typeid": 0,
+            "version": 1
+        }
+    ]
+}

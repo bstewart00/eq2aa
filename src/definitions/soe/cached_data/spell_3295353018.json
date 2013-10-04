@@ -1,0 +1,82 @@
+{
+    "limit": 10,
+    "min_ts": 1366730592.874009,
+    "returned": 1,
+    "seconds": 0.014409065246582031,
+    "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "health": 0,
+                "per_tick": {
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3295353018,
+            "deity": 0,
+            "description": "Harbinger of Justice is a single target alternate attack for Divine Territory. Inflicts divine damage to the target based on the number of charges of Divine Justice the paladin has active. Applies three increments of True Territory.",
+            "description_pvp": "Harbinger of Justice is a single target alternate attack for Divine Territory. Inflicts divine damage to the target based on the number of charges of Divine Justice the paladin has active. Applies three increments of True Territory.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies True Territory.  Lasts for 30.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Attack Speed of caster by 6.0",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Damage Per Second of caster by 6.0",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts up to 7 times the listed damage, based on the amount of increments of Divine Justice the paladin has active. Consumes all Divine Justice charges when used.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 1 - 2 divine damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "You must have Divine Justice to use Harbinger of Justice!",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "spellscroll",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 844
+            },
+            "id": 3914826386,
+            "last_update": 1366730592.874009,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Harbinger of Justice",
+            "name_lower": "harbinger of justice",
+            "recast_secs": 19.762846,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1366730592.874009,
+            "type": "arts",
+            "typeid": 1,
+            "version": 1
+        }
+    ]
+}

@@ -230,10 +230,14 @@ class SpellBuilder(object):
         return self
     
     def build(self):
-        return {"crc": self._crc,
+        result = {"crc": self._crc,
                 "name": self._name,
                 "description": self._description,
                 "tier": self._rank,
                 "icon": { "backdrop": self._backdrop_id, "id": self._icon_id },
-                "effect_list": self._effects
                 }
+        
+        if len(self._effects) > 0:
+            result["effect_list"] = self._effects
+            
+        return result
