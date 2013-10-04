@@ -15,6 +15,7 @@ class EQ2ClassFactory(object):
         classes_list = self._data_provider.classes()
         all_classes = classes_list["constants_list"][0]["adventureclass_list"]
 
+        next_id = 0
         for class_node in all_classes:
             if class_node["issubclass"] == "false":
                 new_lineage.append(class_node["name"])
@@ -27,7 +28,9 @@ class EQ2ClassFactory(object):
                 
                 if _matches_filter(name):
                     trees = self._create_trees(lineage_dict, class_node)
-                    yield EQ2Class(class_node["id"], name, lineage_dict, trees)
+                    result = EQ2Class(next_id, class_node["id"], name, lineage_dict, trees)
+                    next_id = next_id + 1
+                    yield result
                 
     def _create_trees(self, lineage_dict, class_node):
         tree_nodes = class_node["alternateadvancementtree_list"]

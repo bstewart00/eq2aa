@@ -15,6 +15,12 @@ class TestEQ2ClassFactory(unittest.TestCase):
                                 "adventureclass_list": class_nodes
                                 }]
                                                     }
+        
+    def _return_class_name(self, id_, soe_id, name, lineage, trees):
+        return name
+    
+    def _return_class(self, id_, soe_id, name, lineage, trees):
+        return name + ',' + lineage["family"] + ',' + lineage["archetype"]
 
     def test_create_constructs_class(self):
         class1 = EQ2ClassBuilder().with_id(3).name("Class1").is_subclass().build()
@@ -27,9 +33,7 @@ class TestEQ2ClassFactory(unittest.TestCase):
 
     @patch('definitions.model.eq2class_factory.EQ2Class')
     def test_create_populates_lineage(self, mock_class):
-        def return_class_name(id_, name, lineage, trees):
-            return name
-        mock_class.side_effect = return_class_name
+        mock_class.side_effect = self._return_class_name
         
         family1 = EQ2ClassBuilder().with_id(1).name("Family").build()
         arch1 = EQ2ClassBuilder().with_id(2).name("Archetype").build()
@@ -50,16 +54,14 @@ class TestEQ2ClassFactory(unittest.TestCase):
 
         list(self.sut.create_classes())
 
-        mock_class.assert_has_calls([call(3, 'Class1', { 'family': 'Family', 'archetype': 'Archetype' }, []),
-                               call(4, 'Class2', { 'family': 'Family', 'archetype': 'Archetype' }, []),
-                               call(6, 'Class3', { 'family': 'Family', 'archetype': 'Archetype2' }, []),
-                               call(9, 'Class4', { 'family': 'Family2', 'archetype': 'Archetype3' }, [])])
+        mock_class.assert_has_calls([call(0, 3, 'Class1', { 'family': 'Family', 'archetype': 'Archetype' }, []),
+                               call(1, 4, 'Class2', { 'family': 'Family', 'archetype': 'Archetype' }, []),
+                               call(2, 6, 'Class3', { 'family': 'Family', 'archetype': 'Archetype2' }, []),
+                               call(3, 9, 'Class4', { 'family': 'Family2', 'archetype': 'Archetype3' }, [])])
 
     @patch('definitions.model.eq2class_factory.EQ2Class')
     def test_create_populates_trees(self, mock_class):
-        def return_class_name(id_, name, lineage, trees):
-            return name
-        mock_class.side_effect = return_class_name
+        mock_class.side_effect = self._return_class_name
 
         trees = [TreeBuilder().with_id(1).build(), TreeBuilder().with_id(2).build()]
         family_class = EQ2ClassBuilder().name("Family").build()
@@ -80,13 +82,11 @@ class TestEQ2ClassFactory(unittest.TestCase):
 
         self._tree_factory.create.assert_has_calls([call(0, 1, expected_lineage, some_class["name"])])
         self._tree_factory.create.assert_has_calls([call(1, 2, expected_lineage, some_class["name"])])
-        mock_class.assert_has_calls([call(some_class["id"], some_class["name"], expected_lineage, trees)])
+        mock_class.assert_has_calls([call(0, some_class["id"], some_class["name"], expected_lineage, trees)])
 
     @patch('definitions.model.eq2class_factory.EQ2Class')
     def test_create_only_creates_classes_matching_filter(self, mock_class):
-        def return_class(id_, name, lineage, trees):
-            return name + ',' + lineage["family"] + ',' + lineage["archetype"]
-        mock_class.side_effect = return_class
+        mock_class.side_effect = self._return_class
         
         family1 = EQ2ClassBuilder().with_id(1).name("Family").build()
         arch1 = EQ2ClassBuilder().with_id(2).name("Archetype").build()
