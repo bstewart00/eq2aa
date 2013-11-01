@@ -11,6 +11,7 @@ class TreeFactory(object):
         
         tree_result = self._data_provider.tree(soe_id)
         tree = tree_result["alternateadvancement_list"][0]
+        self._logger.log('Tree Name: ' + tree["name"])
         
         name = tree["name"]
         is_warder_tree = tree["iswardertree"]

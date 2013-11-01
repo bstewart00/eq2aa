@@ -1,3 +1,6 @@
-class Logger(object):
+import datetime
+
+class ConsoleLogger(object):
     def log(self, message):
-        print(message)
+        timestamp = str(datetime.datetime.now())
+        print(timestamp + ':' + message)
