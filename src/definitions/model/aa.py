@@ -27,6 +27,7 @@ class AA(object):
                 "name": self.name,
                 "description": self.description,
                 "cost": self.cost,
+                "level": self.level,
                 "max_level": self.max_level,
                 "subclass": self.subclass,
                 "coords": self.coords,

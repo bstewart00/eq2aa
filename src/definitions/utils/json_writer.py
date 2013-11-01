@@ -16,4 +16,4 @@ class JsonFileWriter:
         
         self._logger.log('Writing to {0}'.format(fullpath))
         with open(fullpath, mode='w', encoding='utf8') as file:
-            json.dump(obj, file, sort_keys=False, indent=3)
+            json.dump(obj, file, sort_keys=True, indent=3)
