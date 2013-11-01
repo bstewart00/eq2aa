@@ -24,7 +24,7 @@ class Tree(object):
                 "x_y_ratio": self.x_y_ratio,
                 "x_subclass": self.x_subclass,
                 "y_subclass": self.y_subclass,
-                "subtrees": self.subtrees,
-                "orphans": self.prereqs,
-                "aa", [aa.to_dict() for aa in self.aa]
+                "subtrees": list(self.subtrees),
+                "orphans": self.orphans,
+                "aa": [aa.to_dict() for aa in self.aa]
                 }

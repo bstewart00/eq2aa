@@ -34,5 +34,5 @@ class AA(object):
                 "children": self.children,
                 "prereqs": self.prereqs,
                 "title": self.title,
-                "icon": self.icon,
+                "icon": self.icon
                 }

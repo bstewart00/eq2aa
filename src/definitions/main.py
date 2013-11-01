@@ -7,6 +7,8 @@ from definitions.utils.url_reader import UrlReader
 from definitions.utils.logger import ConsoleLogger
 import os
 import datetime
+import json
+import io
 
 class AADefinitionApplication:
     """
@@ -32,6 +34,11 @@ class AADefinitionApplication:
         class_factory = EQ2ClassFactory(data_provider, tree_factory, logger)
         
         classes = list(class_factory.create_classes())
+        
+        for c in classes:
+            logger.log('Serializing ' + c.name)
+            with open('output/{0}.json'.format(c.name), mode='w', encoding='utf8') as file:
+                json.dump(c.to_dict(), file)
         
         end_time = datetime.datetime.now()
         logger.log('Done in {0}'.format(end_time - start_time))
