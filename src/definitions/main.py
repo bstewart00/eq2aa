@@ -5,10 +5,9 @@ from definitions.model.spell_effect_formatter import SpellEffectFormatter
 from definitions.soe.data_provider import CachedDataProvider, FileDataCache, SonyDataProvider
 from definitions.utils.url_reader import UrlReader
 from definitions.utils.logger import ConsoleLogger
+from definitions.utils.json_writer import JsonFileWriter
 import os
 import datetime
-import json
-import io
 
 class AADefinitionApplication:
     """
@@ -33,12 +32,12 @@ class AADefinitionApplication:
         tree_factory = TreeFactory(data_provider, aa_factory, logger)
         class_factory = EQ2ClassFactory(data_provider, tree_factory, logger)
         
+        json_writer = JsonFileWriter('./output/', logger)
+        
         classes = list(class_factory.create_classes())
         
         for c in classes:
-            logger.log('Serializing ' + c.name)
-            with open('output/{0}.json'.format(c.name), mode='w', encoding='utf8') as file:
-                json.dump(c.to_dict(), file)
+            json_writer.write(c.to_dict(), c.name)
         
         end_time = datetime.datetime.now()
         logger.log('Done in {0}'.format(end_time - start_time))
