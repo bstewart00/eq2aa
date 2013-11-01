@@ -18,6 +18,13 @@ class Tree(object):
                 "id": self.id,
                 "soe_id": self.soe_id,
                 "name": self.name,
-                "lineage": self.lineage,
-                "trees": self.trees
+                "type": self.type,
+                "max_points": self.max_points,
+                "is_warder_tree": self.is_warder_tree,
+                "x_y_ratio": self.x_y_ratio,
+                "x_subclass": self.x_subclass,
+                "y_subclass": self.y_subclass,
+                "subtrees": self.subtrees,
+                "orphans": self.prereqs,
+                "aa", [aa.to_dict() for aa in self.aa]
                 }

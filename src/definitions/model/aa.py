@@ -23,7 +23,16 @@ class AA(object):
         return {
                 "id": self.id,
                 "soe_id": self.soe_id,
+                "parent_id": self.parent_id,
                 "name": self.name,
-                "lineage": self.lineage,
-                "trees": self.trees
+                "description": self.description,
+                "cost": self.cost,
+                "max_level": self.max_level,
+                "subclass": self.subclass,
+                "coords": self.coords,
+                "effects": self.effects,
+                "children": self.children,
+                "prereqs": self.prereqs,
+                "title": self.title,
+                "icon": self.icon,
                 }

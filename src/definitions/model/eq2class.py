@@ -12,5 +12,5 @@ class EQ2Class(object):
                 "soe_id": self.soe_id,
                 "name": self.name,
                 "lineage": self.lineage,
-                "trees": self.trees
+                "trees": [tree.to_dict() for tree in self.trees]
                 }
