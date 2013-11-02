@@ -10,7 +10,11 @@ class TestAAFactory(unittest.TestCase):
         self._class_name = "SomeClass"
         self._tree_name = "SomeTree"
         self._spell_effect_formatter = MagicMock()
-        self.sut = AAFactory(self._data_provider, self._spell_effect_formatter, MagicMock())
+        self._coord_mapper = MagicMock()
+        self._logger = MagicMock()
+        self.sut = AAFactory(self._data_provider, self._spell_effect_formatter, self._coord_mapper, self._logger)
+        
+        self._coord_mapper.map_coords.side_effect = lambda x: x
         
     def _setup_spells(self, expected_crc, returned_spells):
         def _mock_spells(crc):
@@ -183,6 +187,6 @@ class TestAAFactory(unittest.TestCase):
 
         aa, orphans, subtrees = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name)
 
-        self.assertEqual(subtrees,  ['Subclass1', 'Subclass2'])
+        self.assertEqual(subtrees,  { 'Subclass1': 0, 'Subclass2': 0 })
         
         

@@ -2,9 +2,10 @@ from definitions.model.aa import AA
 from definitions.utils.ordered_set import OrderedSet
 
 class AAFactory(object):
-    def __init__(self, data_provider, spell_effect_formatter, logger):
+    def __init__(self, data_provider, spell_effect_formatter, coord_mapper, logger):
         self._data_provider = data_provider
         self._spell_effect_formatter = spell_effect_formatter
+        self._coord_mapper = coord_mapper
         self._logger = logger
         
     def create_all(self, aa_nodes, lineage, class_name, tree_name):
@@ -13,6 +14,7 @@ class AAFactory(object):
         aa = self._reorder_ids(aa)
         aa = self._remap_parent_ids(aa)
         aa = self._populate_aa_children(aa)
+        aa = self._map_coords(aa)
         
         orphans = self._find_orphans(aa)
         subtrees = { subclass: 0 for subclass in OrderedSet([i.subclass for i in aa]) }
@@ -91,3 +93,6 @@ class AAFactory(object):
         or subclass == class_name:
             return 10
         return 0
+    
+    def _map_coords(self, aa):
+        return list([self._coord_mapper.map_coords(a) for a in aa])
