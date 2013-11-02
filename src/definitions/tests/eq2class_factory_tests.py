@@ -37,6 +37,19 @@ class TestEQ2ClassFactory(unittest.TestCase):
         result = list(self.sut.create_classes())
 
         self.assertEquals(result[0].name, "Class1")
+        
+    def test_create_name_is_capitalized(self):
+        family1 = EQ2ClassBuilder().with_id(1).name("family").build()
+        arch1 = EQ2ClassBuilder().with_id(2).name("archetype").build()
+        class1 = EQ2ClassBuilder().with_id(3).name("class1").is_subclass().build()
+        self._setup_returned_classes([family1, arch1, class1])
+
+        result = list(self.sut.create_classes())
+
+        self.assertEquals(result[0].lineage["family"], "Family")
+        self.assertEquals(result[0].lineage["archetype"], "Archetype")
+        self.assertEquals(result[0].name, "Class1")
+        
 
 
     @patch('definitions.model.eq2class_factory.EQ2Class')

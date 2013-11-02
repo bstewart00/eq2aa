@@ -5,7 +5,7 @@ class Tree(object):
         self.name = name
         self.type = tree_type
         self.max_points = max_points
-        self.is_warder_tree = is_warder_tree
+        self.is_warder_tree = True if is_warder_tree == "true" else False
         self.aa = aa
         self.x_y_ratio = x_y_ratio
         self.x_subclass = x_subclass
@@ -20,7 +20,7 @@ class Tree(object):
                 "name": self.name,
                 "type": self.type,
                 "max_points": self.max_points,
-                "is_warder_tree": self.is_warder_tree,
+                "is_warder_tree": "true" if self.is_warder_tree else "false",
                 "x_y_ratio": self.x_y_ratio,
                 "x_subclass": self.x_subclass,
                 "y_subclass": self.y_subclass,

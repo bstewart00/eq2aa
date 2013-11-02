@@ -21,10 +21,13 @@ class EQ2ClassFactory(object):
         for class_node in all_classes:
             self._logger.log('Processing class {0}...'.format(class_node["name"]))
             
+            capitalized_name = class_node["name"].capitalize()
+            
             if class_node["issubclass"] == "false":
-                new_lineage.append(class_node["name"])
+                new_lineage.append(capitalized_name)
             else:
-                name = class_node["name"]
+                name = capitalized_name
+                
                 lineage = self._determine_lineage(previous_lineage, new_lineage)
                 lineage_dict = self._create_lineage_dict(lineage)
                 previous_lineage = list(lineage)

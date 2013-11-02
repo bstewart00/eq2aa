@@ -4,9 +4,31 @@
       "archetype": "shaman", 
       "family": "priest"
    }, 
-   "name": "mystic", 
-   "ordered_point_pools": [], 
-   "points": [], 
+   "name": "Mystic", 
+   "ordered_point_pools": [
+      "AA", 
+      "Prestige", 
+      "Tradeskill", 
+      "TradeskillPrestige"
+   ], 
+   "points": {
+      "AA": {
+         "max": 320, 
+         "name": "AA"
+      }, 
+      "Prestige": {
+         "max": 25, 
+         "name": "Prestige"
+      }, 
+      "Tradeskill": {
+         "max": 40, 
+         "name": "Tradeskill"
+      }, 
+      "TradeskillPrestige": {
+         "max": 25, 
+         "name": "TradeskillPrestige"
+      }
+   }, 
    "soe_id": 19, 
    "trees": [
       {

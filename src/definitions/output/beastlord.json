@@ -4,9 +4,109 @@
       "archetype": "animalist", 
       "family": "scout"
    }, 
-   "name": "beastlord", 
-   "ordered_point_pools": [], 
-   "points": [], 
+   "name": "Beastlord", 
+   "ordered_point_pools": [
+      "AA", 
+      "Prestige", 
+      "Tradeskill", 
+      "TradeskillPrestige", 
+      "Warder"
+   ], 
+   "points": {
+      "AA": {
+         "max": 320, 
+         "name": "AA"
+      }, 
+      "Prestige": {
+         "max": 25, 
+         "name": "Prestige"
+      }, 
+      "Tradeskill": {
+         "max": 40, 
+         "name": "Tradeskill"
+      }, 
+      "TradeskillPrestige": {
+         "max": 25, 
+         "name": "TradeskillPrestige"
+      }, 
+      "Warder": {
+         "child_pools": {
+            "Amphibian": {
+               "max": 40, 
+               "name": "Amphibian"
+            }, 
+            "Aquatic": {
+               "max": 40, 
+               "name": "Aquatic"
+            }, 
+            "Avian": {
+               "max": 40, 
+               "name": "Avian"
+            }, 
+            "Bat": {
+               "max": 40, 
+               "name": "Bat"
+            }, 
+            "Bear": {
+               "max": 40, 
+               "name": "Bear"
+            }, 
+            "Boar": {
+               "max": 40, 
+               "name": "Boar"
+            }, 
+            "Bovid": {
+               "max": 40, 
+               "name": "Bovid"
+            }, 
+            "Canine": {
+               "max": 40, 
+               "name": "Canine"
+            }, 
+            "Dire": {
+               "max": 40, 
+               "name": "Dire"
+            }, 
+            "Drake": {
+               "max": 40, 
+               "name": "Drake"
+            }, 
+            "Enchanted": {
+               "max": 40, 
+               "name": "Enchanted"
+            }, 
+            "Feline": {
+               "max": 40, 
+               "name": "Feline"
+            }, 
+            "Insect": {
+               "max": 40, 
+               "name": "Insect"
+            }, 
+            "Mystical": {
+               "max": 40, 
+               "name": "Mystical"
+            }, 
+            "Reptile": {
+               "max": 40, 
+               "name": "Reptile"
+            }, 
+            "Rodent": {
+               "max": 40, 
+               "name": "Rodent"
+            }, 
+            "Simian": {
+               "max": 40, 
+               "name": "Simian"
+            }, 
+            "War Boar": {
+               "max": 40, 
+               "name": "War Boar"
+            }
+         }, 
+         "name": "Warder"
+      }
+   }, 
    "soe_id": 42, 
    "trees": [
       {

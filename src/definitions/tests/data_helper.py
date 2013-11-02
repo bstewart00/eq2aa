@@ -1,7 +1,7 @@
 class EQ2ClassBuilder(object):
     def __init__(self):
         self._id = 0
-        self._name = "SomeClass"
+        self._name = "Class"
         self._is_subclass = False
         self._tree_ids = []
 
