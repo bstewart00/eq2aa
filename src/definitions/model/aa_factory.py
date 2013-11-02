@@ -8,13 +8,13 @@ class AAFactory(object):
         self._coord_mapper = coord_mapper
         self._logger = logger
         
-    def create_all(self, aa_nodes, lineage, class_name, tree_name):
+    def create_all(self, aa_nodes, lineage, class_name, tree_name, tree_type):
         aa = list([self.create(aa_node, lineage, class_name, tree_name) for aa_node in aa_nodes])
         aa = self._sort_aa_by_coords(aa)
         aa = self._reorder_ids(aa)
         aa = self._remap_parent_ids(aa)
         aa = self._populate_aa_children(aa)
-        aa = self._map_coords(aa)
+        aa = self._map_coords(aa, tree_type)
         
         orphans = self._find_orphans(aa)
         subtrees = { subclass: 0 for subclass in OrderedSet([i.subclass for i in aa]) }
@@ -94,5 +94,5 @@ class AAFactory(object):
             return 10
         return 0
     
-    def _map_coords(self, aa):
-        return list([self._coord_mapper.map_coords(a) for a in aa])
+    def _map_coords(self, aa, tree_type):
+        return list([self._coord_mapper.map_coords(a, tree_type) for a in aa])

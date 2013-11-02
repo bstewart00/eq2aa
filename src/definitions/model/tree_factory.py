@@ -48,7 +48,7 @@ class TreeFactory(object):
         x_subclass = tree.get("ofxclassification")
         y_subclass = tree.get("ofyclassification")
         
-        aa, orphans, subtrees = self._aa_factory.create_all(tree["alternateadvancementnode_list"], lineage, class_name, name)
+        aa, orphans, subtrees = self._aa_factory.create_all(tree["alternateadvancementnode_list"], lineage, class_name, name, tree_type)
         
         return Tree(-1, tree["id"], name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio, x_subclass, y_subclass)
     

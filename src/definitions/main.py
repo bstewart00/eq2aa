@@ -3,6 +3,7 @@ from definitions.model.eq2class_factory import EQ2ClassFactory
 from definitions.model.tree_factory import TreeFactory
 from definitions.model.spell_effect_formatter import SpellEffectFormatter
 from definitions.model.point_pool_factory import PointPoolFactory
+from definitions.model.aa_coord_mapper import AACoordMapper
 from definitions.soe.data_provider import CachedDataProvider, FileDataCache, SonyDataProvider
 from definitions.utils.url_reader import UrlReader
 from definitions.utils.logger import ConsoleLogger
@@ -29,7 +30,9 @@ class AADefinitionApplication:
         
         data_provider = CachedDataProvider(SonyDataProvider(UrlReader(logger)), FileDataCache(cache_dir_path))
         spell_effect_formatter = SpellEffectFormatter()  
-        aa_factory = AAFactory(data_provider, spell_effect_formatter, logger)
+        coord_mapper = AACoordMapper()
+        
+        aa_factory = AAFactory(data_provider, spell_effect_formatter, coord_mapper, logger)
         tree_factory = TreeFactory(data_provider, aa_factory, logger)
         point_pool_factory = PointPoolFactory()
         class_factory = EQ2ClassFactory(data_provider, tree_factory, point_pool_factory, logger)
