@@ -122,10 +122,10 @@ class TestAAFactory(unittest.TestCase):
 
         self.assertEqual(result.prereqs["parent_subtree"], 0)
         
-    def test_create_parent_subtree_prereqs_ignored_if_single_level_aa(self):
+    def test_create_parent_subtree_prereqs_ignored_if_subclass_prereq_present(self):
         self._tree_name = "Shadows"
         
-        aa_node = AABuilder().subclass(self._lineage["family"]).max_level(1).build()
+        aa_node = AABuilder().subclass(self._lineage["family"]).requires_subtree_points(10).build()
 
         result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
 

@@ -55,12 +55,12 @@ class AAFactory(object):
         subclass = aa_node["classification"]
         max_level = aa_node["maxtier"]
 
-        prereqs = { "parent_subtree": self._calculate_parent_subtree_prereq(subclass, max_level, lineage, class_name, tree_name),
-                            "global": aa_node["pointsspentgloballytounlock"],
-                            "tree": aa_node["pointsspentintreetounlock"],
-                            "subtree": aa_node["classificationpointsrequired"],
-                            "parent": aa_node.get("firstparentrequiredtier", 0)
-                            }
+        prereqs = {"global": aa_node["pointsspentgloballytounlock"],
+                   "tree": aa_node["pointsspentintreetounlock"],
+                   "subtree": aa_node["classificationpointsrequired"],
+                   "parent": aa_node.get("firstparentrequiredtier", 0)
+                   }
+        prereqs[ "parent_subtree"] = self._calculate_parent_subtree_prereq(subclass, max_level, lineage, class_name, tree_name, prereqs)
 
         spells = self._data_provider.spells(aa_node["spellcrc"])["spell_list"]
         
@@ -86,11 +86,10 @@ class AAFactory(object):
             if 'effect_list' in spell:
                 yield self._spell_effect_formatter.format(spell["effect_list"])
 
-    def _calculate_parent_subtree_prereq(self, subclass, max_level, lineage, class_name, tree_name):
-        if tree_name == "Shadows" and max_level > 1\
-        and subclass == lineage["family"]\
-        or subclass == lineage["archetype"]\
-        or subclass == class_name:
+    def _calculate_parent_subtree_prereq(self, subclass, max_level, lineage, class_name, tree_name, prereqs):
+        is_above_general = subclass == lineage["family"] or subclass == lineage["archetype"] or subclass == class_name
+        
+        if tree_name == "Shadows" and prereqs["subtree"] == 0 and is_above_general:
             return 10
         return 0
     
