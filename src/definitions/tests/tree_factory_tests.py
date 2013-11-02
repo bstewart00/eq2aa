@@ -13,12 +13,13 @@ class TestTreeFactory(unittest.TestCase):
         self._aa = [1,2,3]
         self._orphans = [4,5,6]
         self._subtrees = ["Subtree1", "Subtree2"]
+        self._tree_type = "TreeType"
         
         self.sut = TreeFactory(self._data_provider, self._aa_factory, self._logger)
         
         
     def _setup_tree(self, tree):
-        def _create_all_aa(aa_nodes, lineage, class_name, tree_name):
+        def _create_all_aa(aa_nodes, lineage, class_name, tree_name, tree_type):
             if (aa_nodes is tree["alternateadvancementnode_list"] and lineage is self._lineage and class_name == self._class_name and tree_name == tree["name"]):
                 return self._aa, self._orphans, self._subtrees
             
