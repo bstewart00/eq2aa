@@ -1,9 +1,10 @@
 from definitions.model.eq2class import EQ2Class
 
 class EQ2ClassFactory(object):
-    def __init__(self, data_provider, tree_factory, logger):
+    def __init__(self, data_provider, tree_factory, point_pool_factory, logger):
         self._data_provider = data_provider
         self._tree_factory = tree_factory
+        self._point_pool_factory = point_pool_factory
         self._logger = logger
 
     def create_classes(self, class_name_filter=[]):
@@ -31,7 +32,9 @@ class EQ2ClassFactory(object):
                 
                 if _matches_filter(name):
                     trees = self._create_trees(lineage_dict, class_node)
-                    result = EQ2Class(next_id, class_node["id"], name, lineage_dict, trees)
+                    point_pools, ordered_point_pools = self._point_pool_factory.create(trees)
+                    
+                    result = EQ2Class(next_id, class_node["id"], name, lineage_dict, trees, point_pools, ordered_point_pools)
                     next_id = next_id + 1
                     yield result
                 
@@ -59,10 +62,4 @@ class EQ2ClassFactory(object):
             return [previous_lineage[0], new_lineage[0]]
         else:
             return previous_lineage
-        
-    def _get_ordered_point_pools(self):
-        pass
-    
-    def _get_point_pools(self):
-        pass
 
