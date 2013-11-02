@@ -15,7 +15,7 @@ class AAFactory(object):
         aa = self._populate_aa_children(aa)
         
         orphans = self._find_orphans(aa)
-        subtrees = OrderedSet([i.subclass for i in aa])
+        subtrees = { subclass: 0 for subclass in OrderedSet([i.subclass for i in aa]) }
         
         return aa, orphans, subtrees
     

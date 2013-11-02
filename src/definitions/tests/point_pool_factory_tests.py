@@ -24,13 +24,13 @@ class TestPointPoolFactory(unittest.TestCase):
         self.assertEqual(points["TradeskillPrestige"], { "name": "Tradeskill Prestige", "max": 50 })
         
     def test_points_warder_has_child_pools(self):
-        trees = list(self._create_warder_trees([("Mystical", 20), ("Avian", 30), ("Aquatic", 40)]))
+        trees = list(self._create_warder_trees([("War Boar", 20), ("Avian", 30), ("Aquatic", 40)]))
         
         points, ordered_point_pools = self.sut.create(trees)
         
         expected_child_pools = {'Aquatic': {'max': 40, 'name': 'Aquatic'},
                                 'Avian': {'max': 30, 'name': 'Avian'},
-                                'Mystical': {'max': 20, 'name': 'Mystical'}}
+                                'WarBoar': {'max': 20, 'name': 'War Boar'}}
         
         self.assertEqual(points["Warder"], { "name": "Warder", "child_pools": expected_child_pools })
         

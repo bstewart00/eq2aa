@@ -25,7 +25,7 @@ class PointPoolFactory:
         
         for t in trees:
             if t.type in ["Prestige", "Tradeskill", "TradeskillPrestige"]:
-                pools[t.type] = self._make_pool(t.type, t.max_points)
+                pools[t.type.replace(' ', '')] = self._make_pool(t.type, t.max_points)
             elif t.type == "Warder":
                 continue
             else:
@@ -52,6 +52,6 @@ class PointPoolFactory:
     def _get_child_pools(self, warder_trees):
         pools = {}
         for warder_tree in warder_trees:
-            pools[warder_tree.name] = self._make_pool(warder_tree.name, warder_tree.max_points)
+            pools[warder_tree.name.replace(' ', '')] = self._make_pool(warder_tree.name, warder_tree.max_points)
         return pools
         

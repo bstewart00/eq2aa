@@ -1,8 +1,8 @@
 {
    "id": 8, 
    "lineage": {
-      "archetype": "druid", 
-      "family": "priest"
+      "archetype": "Druid", 
+      "family": "Priest"
    }, 
    "name": "Warden", 
    "ordered_point_pools": [
@@ -26,7 +26,7 @@
       }, 
       "TradeskillPrestige": {
          "max": 25, 
-         "name": "TradeskillPrestige"
+         "name": "Tradeskill Prestige"
       }
    }, 
    "soe_id": 16, 
@@ -48,10 +48,6 @@
                "cost": 1, 
                "description": "Grants the Druid the ability to shapechange into one of three animal forms they can select from in their abilities. This also adds physical mitigation along with 4 wisdom and stamina passively per point spent.", 
                "effects": [], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 241
-               }, 
                "id": 0, 
                "level": 0, 
                "max_level": 10, 
@@ -90,10 +86,6 @@
                   "<ul><li>Increases Attack Speed of caster by 40.0</li><li>Inflicts 4 - 8 melee damage on target</li></ul>", 
                   "<ul><li>Increases Attack Speed of caster by 41.2</li><li>Inflicts 5 - 8 melee damage on target</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 643
-               }, 
                "id": 1, 
                "level": 0, 
                "max_level": 10, 
@@ -132,10 +124,6 @@
                   "<ul><li>Mesmerizes target</li><li>Prevents AOE (except when direct) </li><li>Dispelled when target takes damage</li><li>Does not affect Epic targets</li><li>Resistibility increases against targets higher than level 29.</li></ul>", 
                   "<ul><li>Mesmerizes target</li><li>Prevents AOE (except when direct) </li><li>Dispelled when target takes damage</li><li>Does not affect Epic targets</li><li>Resistibility increases against targets higher than level 29.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 312, 
-                  "icon": 679
-               }, 
                "id": 2, 
                "level": 0, 
                "max_level": 10, 
@@ -174,10 +162,6 @@
                   "<ul><li>Dispels 9 levels of elemental, noxious and arcane beneficial effects on target</li><li>Casts Mana Drain for each successful Dispel.</li><ul><li>Drains 2% of caster's power for each effect dispelled.</li></ul></ul>", 
                   "<ul><li>Dispels 9 levels of elemental, noxious and arcane beneficial effects on target</li><li>Casts Mana Drain for each successful Dispel.</li><ul><li>Drains 2% of caster's power for each effect dispelled.</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 13
-               }, 
                "id": 3, 
                "level": 0, 
                "max_level": 10, 
@@ -216,10 +200,6 @@
                   "<ul><li>Roots targets in Area of Effect</li><ul><li>If Target is not Epic</li></ul><li>Applies Hierophant Breakaway.</li><ul><li>Dispels 10 levels of hostile Root effects on caster</li></ul><li>Inflicts 4 - 6 melee damage on targets in Area of Effect</li><li>10% chance to dispel when target takes damage</li><li>Resistibility increases against targets higher than level 29.</li></ul>", 
                   "<ul><li>Roots targets in Area of Effect</li><ul><li>If Target is not Epic</li></ul><li>Applies Hierophant Breakaway.</li><ul><li>Dispels 10 levels of hostile Root effects on caster</li></ul><li>Inflicts 4 - 6 melee damage on targets in Area of Effect</li><li>10% chance to dispel when target takes damage</li><li>Resistibility increases against targets higher than level 29.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 559
-               }, 
                "id": 4, 
                "level": 0, 
                "max_level": 10, 
@@ -258,10 +238,6 @@
                   "<ul><li>Inflicts 1 - 2 melee damage on target</li><li>Inflicts 4 - 6 magic damage on target</li></ul>", 
                   "<ul><li>Inflicts 1 - 3 melee damage on target</li><li>Inflicts 4 - 6 magic damage on target</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 607
-               }, 
                "id": 5, 
                "level": 0, 
                "max_level": 10, 
@@ -300,10 +276,6 @@
                   "<ul><li>Increases Multi Attack Chance of caster by 36.0</li></ul>", 
                   "<ul><li>Increases Multi Attack Chance of caster by 40.0</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 649
-               }, 
                "id": 6, 
                "level": 0, 
                "max_level": 10, 
@@ -342,10 +314,6 @@
                   "<ul><li>Charms target</li><li>Applies Disorientation on termination.  Lasts for 3.0 seconds.</li><ul><li>Mesmerizes target</li><li>Dispelled when target takes damage</li><li>Epic targets gain an immunity to Mesmerize effects of 9.0 seconds and duration is reduced to 1.0 second.</li></ul><li>Applies Warning on termination.  Lasts for 0.5 seconds.</li><ul><li>Grants Sonic Vision to caster</li></ul><li>Increases Out-of-Combat Power Regeneration of target by 2.0</li><li>Increases Out-of-Combat Health Regeneration of target by 4.0</li><li>Certain enemies cannot be charmed</li><li>Does not affect Epic targets</li></ul>", 
                   "<ul><li>Charms target</li><li>Applies Disorientation on termination.  Lasts for 3.0 seconds.</li><ul><li>Mesmerizes target</li><li>Dispelled when target takes damage</li><li>Epic targets gain an immunity to Mesmerize effects of 9.0 seconds and duration is reduced to 1.0 second.</li></ul><li>Applies Warning on termination.  Lasts for 0.5 seconds.</li><ul><li>Grants Sonic Vision to caster</li></ul><li>Increases Out-of-Combat Power Regeneration of target by 2.0</li><li>Increases Out-of-Combat Health Regeneration of target by 4.0</li><li>Certain enemies cannot be charmed</li><li>Does not affect Epic targets</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 313, 
-                  "icon": 668
-               }, 
                "id": 7, 
                "level": 0, 
                "max_level": 10, 
@@ -384,10 +352,6 @@
                   "<ul><li>On a beneficial spell cast this spell has a 18% chance to cast Serene Knowledge on target of spell cast.  Lasts for 3.0 seconds.  </li><ul><li>Makes target immune to Stun effects</li><li>Prevents target from being Interrupted</li></ul></ul>", 
                   "<ul><li>On a beneficial spell cast this spell has a 20% chance to cast Serene Knowledge on target of spell cast.  Lasts for 3.0 seconds.  </li><ul><li>Makes target immune to Stun effects</li><li>Prevents target from being Interrupted</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 622
-               }, 
                "id": 8, 
                "level": 0, 
                "max_level": 10, 
@@ -426,10 +390,6 @@
                   "<ul><li>Increases in-combat movement speed of caster by 11.3%</li><li>Increases speed of caster by 11.3%</li></ul>", 
                   "<ul><li>Increases in-combat movement speed of caster by 12.5%</li><li>Increases speed of caster by 12.5%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 313, 
-                  "icon": 557
-               }, 
                "id": 9, 
                "level": 0, 
                "max_level": 10, 
@@ -468,10 +428,6 @@
                   "<ul><li>Increases the base damage of spells by 9%</li></ul>", 
                   "<ul><li>Increases the base damage of spells by 10%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 630
-               }, 
                "id": 10, 
                "level": 0, 
                "max_level": 10, 
@@ -508,10 +464,6 @@
                   "<ul><li>On a melee hit this spell has a 36% chance to cast Natural Boon on target.  </li><ul><li>Heals group members (AE) for 8</li></ul></ul>", 
                   "<ul><li>On a melee hit this spell has a 40% chance to cast Natural Boon on target.  </li><ul><li>Heals group members (AE) for 8</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": 313, 
-                  "icon": 24
-               }, 
                "id": 11, 
                "level": 0, 
                "max_level": 10, 
@@ -548,10 +500,6 @@
                   "<ul><li>Increases the healing of the initial tick on your primary target and group regeneration spells by 27%</li><li>Reduces the duration of primary target and group regeneration spells by 2.25 seconds</li></ul>", 
                   "<ul><li>Increases the healing of the initial tick on your primary target and group regeneration spells by 30%</li><li>Reduces the duration of primary target and group regeneration spells by 2.5 seconds</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 609
-               }, 
                "id": 12, 
                "level": 0, 
                "max_level": 10, 
@@ -588,10 +536,6 @@
                   "<ul><li>Increases Crit Chance of caster by 14.4</li></ul>", 
                   "<ul><li>Increases Crit Chance of caster by 16.0</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 596
-               }, 
                "id": 13, 
                "level": 0, 
                "max_level": 10, 
@@ -628,10 +572,6 @@
                   "<ul><li>Has a 13.5% chance to absorb a level 50 effect. Applies to Profession and NPC racial spells only.</li></ul>", 
                   "<ul><li>Has a 15% chance to absorb a level 50 effect. Applies to Profession and NPC racial spells only.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 313, 
-                  "icon": 542
-               }, 
                "id": 14, 
                "level": 0, 
                "max_level": 10, 
@@ -668,10 +608,6 @@
                   "<ul><li>Increases Ordination, Disruption and Focus of caster by 0.0</li></ul>", 
                   "<ul><li>Increases Ordination, Disruption and Focus of caster by 0.0</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 313, 
-                  "icon": 568
-               }, 
                "id": 15, 
                "level": 0, 
                "max_level": 10, 
@@ -699,10 +635,6 @@
                "effects": [
                   "<ul><li>Inflicts 3 - 6 melee damage on target</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 669
-               }, 
                "id": 16, 
                "level": 0, 
                "max_level": 1, 
@@ -730,10 +662,6 @@
                "effects": [
                   "<ul><li>Increases In-Combat Health Regeneration of group members (AE) by 4.0</li><li>Increases Combat HP Regen of group members (AE) by 50.0%</li><li>Increases group members (AE)'s chance to block by 100.0%</li><li>Prevents AOE (except when direct) </li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 313, 
-                  "icon": 657
-               }, 
                "id": 17, 
                "level": 0, 
                "max_level": 1, 
@@ -761,10 +689,6 @@
                "effects": [
                   "<ul><li>Makes caster immune to Stun effects</li><li>Prevents caster from being Interrupted</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 243
-               }, 
                "id": 18, 
                "level": 0, 
                "max_level": 1, 
@@ -792,10 +716,6 @@
                "effects": [
                   "<ul><li>On death this spell will cast Regenesis on target.  Lasts for 5.0 seconds.  </li><ul><li>Applies Regenesis on termination.</li><ul><li>Resurrects target with 40% health and power</li></ul><li>Grants a total of 1 trigger of the spell.</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 545
-               }, 
                "id": 19, 
                "level": 0, 
                "max_level": 1, 
@@ -823,10 +743,6 @@
                "effects": [
                   "<ul><li>On a beneficial spell cast this spell will cast Infusive Wrath on target.  </li><ul><li>Inflicts 5 - 8 magic damage on a target in Area of Effect</li><li>Must be engaged in combat</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": 313, 
-                  "icon": 550
-               }, 
                "id": 20, 
                "level": 0, 
                "max_level": 1, 
@@ -861,10 +777,6 @@
                   "<ul><li>Caster will have their chance to hit with a weapon increased by 7.0%</li></ul>", 
                   "<ul><li>Caster will have their chance to hit with a weapon increased by 8.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 8
-               }, 
                "id": 21, 
                "level": 0, 
                "max_level": 8, 
@@ -899,10 +811,6 @@
                   "<ul><li>Reduces damage taken by 1.75%.</li></ul>", 
                   "<ul><li>Reduces damage taken by 2%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 232
-               }, 
                "id": 22, 
                "level": 0, 
                "max_level": 8, 
@@ -937,10 +845,6 @@
                   "<ul><li>Reduces the recast of Serenity by 70 seconds.</li></ul>", 
                   "<ul><li>Reduces the recast of Serenity by 80 seconds.</li><li>Makes caster immune to stifle effects.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 243
-               }, 
                "id": 23, 
                "level": 0, 
                "max_level": 8, 
@@ -975,10 +879,6 @@
                   "<ul><li>Increases health and power restoration of Rebirth by 52.5%</li><li>Makes caster immune to AOE (except when direct) for a short duration when Rebirth triggers.</li></ul>", 
                   "<ul><li>Increases health and power restoration of Rebirth by 60%</li><li>Makes caster immune to AOE (except when direct) for a short duration when Rebirth triggers.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 7
-               }, 
                "id": 24, 
                "level": 0, 
                "max_level": 8, 
@@ -1013,10 +913,6 @@
                   "<ul><li>On a hostile spell cast this spell may cast Stormcaller's Renewal on the group.  Triggers about 3.2 times per minute. </li><ul><li>Heals group members (AE) for 14 - 20</li></ul></ul>", 
                   "<ul><li>On a hostile spell cast this spell may cast Stormcaller's Renewal on the group.  Triggers about 3.2 times per minute. </li><ul><li>Heals group members (AE) for 16 - 23</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 191
-               }, 
                "id": 25, 
                "level": 0, 
                "max_level": 8, 
@@ -1045,10 +941,6 @@
                   "<ul><li>Dispels 2 levels of any hostile effects on group members (AE)</li><li>Casts Fury of the Storm for each successful Dispel.  Lasts for 10.0 seconds.</li><ul><li>On any combat or spell hit this spell will cast Fury of the Storm on target of attack.  </li><ul><li>Inflicts 11 magic damage on target</li><ul><li>Grants a total of 3 triggers of the spell.</li></ul></ul></ul></ul>", 
                   "<ul><li>Dispels 3 levels of any hostile effects on group members (AE)</li><li>Casts Fury of the Storm for each successful Dispel.  Lasts for 10.0 seconds.</li><ul><li>On any combat or spell hit this spell will cast Fury of the Storm on target of attack.  </li><ul><li>Inflicts 22 magic damage on target</li><ul><li>Grants a total of 3 triggers of the spell.</li></ul></ul></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 497
-               }, 
                "id": 26, 
                "level": 0, 
                "max_level": 2, 
@@ -1067,7 +959,7 @@
             }
          ], 
          "id": 0, 
-         "is_warder_tree": "false", 
+         "is_warder_tree": false, 
          "max_points": 100, 
          "name": "Druid", 
          "orphans": [
@@ -1085,19 +977,19 @@
             26
          ], 
          "soe_id": 5, 
-         "subtrees": [
-            "Starter", 
-            "Strength", 
-            "Agility", 
-            "Stamina", 
-            "Wisdom", 
-            "Intelligence", 
-            "Sentinel's Fate Attributes"
-         ], 
-         "type": "Druid", 
-         "x_subclass": null, 
+         "subtrees": {
+            "Agility": 0, 
+            "Intelligence": 0, 
+            "Sentinel's Fate Attributes": 0, 
+            "Stamina": 0, 
+            "Starter": 0, 
+            "Strength": 0, 
+            "Wisdom": 0
+         }, 
+         "type": "Archetype", 
+         "x_subclass": "", 
          "x_y_ratio": 0, 
-         "y_subclass": null
+         "y_subclass": ""
       }, 
       {
          "aa": [
@@ -1116,10 +1008,6 @@
                   "<ul><li>Reduces resistibility by 12%</li><li>Improves casting speed by 0.8 seconds</li></ul>", 
                   "<ul><li>Reduces resistibility by 15%</li><li>Improves casting speed by 1 seconds</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 308
-               }, 
                "id": 0, 
                "level": 0, 
                "max_level": 5, 
@@ -1151,10 +1039,6 @@
                   "<ul><li>Inflicts 7 - 8 heat damage on target</li></ul>", 
                   "<ul><li>Inflicts 7 - 9 heat damage on target</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 276
-               }, 
                "id": 1, 
                "level": 0, 
                "max_level": 5, 
@@ -1186,10 +1070,6 @@
                   "<ul><li>Inflicts 9 - 11 cold damage on target</li><li>Inflicts 9 - 11 cold damage on target</li><ul><li>If target is elemental</li></ul></ul>", 
                   "<ul><li>Inflicts 10 - 12 cold damage on target</li><li>Inflicts 10 - 12 cold damage on target</li><ul><li>If target is elemental</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 256
-               }, 
                "id": 2, 
                "level": 0, 
                "max_level": 5, 
@@ -1221,10 +1101,6 @@
                   "<ul><li>Adds a small heal over time on a successful cure.</li></ul>", 
                   "<ul><li>Adds a small heal over time on a successful cure.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 148
-               }, 
                "id": 3, 
                "level": 0, 
                "max_level": 5, 
@@ -1254,10 +1130,6 @@
                   "<ul><li>Improves reuse speed by 3 seconds</li><li>Reduces resistibility by 10% and slightly less per tick after the initial application.</li></ul>", 
                   "<ul><li>Improves reuse speed by 4.5 seconds</li><li>Reduces resistibility by 15% and slightly less per tick after the initial application.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 166
-               }, 
                "id": 4, 
                "level": 0, 
                "max_level": 3, 
@@ -1289,10 +1161,6 @@
                   "<ul><li>Increases out of combat movement speed by 20%</li><li>Increases duration by 40%</li></ul>", 
                   "<ul><li>Increases out of combat movement speed by 25%</li><li>Increases duration by 50%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 8
-               }, 
                "id": 5, 
                "level": 0, 
                "max_level": 5, 
@@ -1324,10 +1192,6 @@
                   "<ul><li>Improves reuse speed by 80 seconds</li></ul>", 
                   "<ul><li>Adds a positional detaunt to Willow Wisp</li><li>Improves reuse speed by 100 seconds</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 313, 
-                  "icon": 157
-               }, 
                "id": 6, 
                "level": 0, 
                "max_level": 5, 
@@ -1359,10 +1223,6 @@
                   "<ul><li>Increases health and power by an additional 12%</li></ul>", 
                   "<ul><li>Increases health and power by an additional 15%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 156
-               }, 
                "id": 7, 
                "level": 0, 
                "max_level": 5, 
@@ -1394,10 +1254,6 @@
                   "<ul><li>Grants a small damage shield on a successful cure.</li></ul>", 
                   "<ul><li>Grants a small damage shield on a successful cure.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 147
-               }, 
                "id": 8, 
                "level": 0, 
                "max_level": 5, 
@@ -1429,10 +1285,6 @@
                   "<ul><li>Increases mitigation by 40%</li></ul>", 
                   "<ul><li>Increases mitigation by 50%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 226
-               }, 
                "id": 9, 
                "level": 0, 
                "max_level": 5, 
@@ -1464,10 +1316,6 @@
                   "<ul><li>Increases Mitigation of target vs elemental damage by 0</li><li>Inflicts 4 - 5 cold damage on target</li><li>Inflicts 4 cold damage on target every 4 seconds</li><li>Inflicts 2 cold damage on target every 4 seconds</li></ul>", 
                   "<ul><li>Increases Mitigation of target vs elemental damage by 0</li><li>Inflicts 5 - 6 cold damage on target</li><li>Inflicts 4 - 5 cold damage on target every 4 seconds</li><li>Inflicts 2 cold damage on target every 4 seconds</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 229
-               }, 
                "id": 10, 
                "level": 0, 
                "max_level": 5, 
@@ -1499,10 +1347,6 @@
                   "<ul><li>Improves reuse speed by 40%</li><li>Improves the Crit Bonus by 10%</li></ul>", 
                   "<ul><li>Improves reuse speed by 50%</li><li>Improves the Crit Bonus by 12.5%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 219
-               }, 
                "id": 11, 
                "level": 0, 
                "max_level": 5, 
@@ -1533,10 +1377,6 @@
                   "<ul><li>Increases trigger percentage by 3%</li></ul>", 
                   "<ul><li>Increases trigger percentage by 4%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 227
-               }, 
                "id": 12, 
                "level": 0, 
                "max_level": 4, 
@@ -1568,10 +1408,6 @@
                   "<ul><li>Increases agility by 40%</li><li>Increases power regeneration by 8</li></ul>", 
                   "<ul><li>Increases agility by 50%</li><li>Increases power regeneration by 10</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 196
-               }, 
                "id": 13, 
                "level": 0, 
                "max_level": 5, 
@@ -1603,10 +1439,6 @@
                   "<ul><li>When the target is below 30% health, a successful cure will place an additional heal over time on them.</li></ul>", 
                   "<ul><li>When the target is below 30% health, a successful cure will place an additional heal over time on them.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 149
-               }, 
                "id": 14, 
                "level": 0, 
                "max_level": 5, 
@@ -1638,10 +1470,6 @@
                   "<ul><li>Improves the agility reduction by 28%</li><li>Improves casting speed by 0.8 seconds</li></ul>", 
                   "<ul><li>Improves the agility reduction by 35%</li><li>Improves casting speed by 1 seconds</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 312, 
-                  "icon": 308
-               }, 
                "id": 15, 
                "level": 0, 
                "max_level": 5, 
@@ -1673,10 +1501,6 @@
                   "<ul><li>Decreases Piercing and Slashing of targets in Area of Effect by 1.1</li><li>Inflicts 11 - 13 cold damage on targets in Area of Effect</li><li>Decreases Crushing of targets in Area of Effect by 1.1</li></ul>", 
                   "<ul><li>Decreases Piercing and Slashing of targets in Area of Effect by 1.2</li><li>Inflicts 12 - 14 cold damage on targets in Area of Effect</li><li>Decreases Crushing of targets in Area of Effect by 1.2</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 313, 
-                  "icon": 256
-               }, 
                "id": 16, 
                "level": 0, 
                "max_level": 5, 
@@ -1708,10 +1532,6 @@
                   "<ul><li>Improves reuse speed by 12 seconds</li></ul>", 
                   "<ul><li>Improves reuse speed by 15 seconds</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 313, 
-                  "icon": 187
-               }, 
                "id": 17, 
                "level": 0, 
                "max_level": 5, 
@@ -1743,10 +1563,6 @@
                   "<ul><li>Improves the Crit Bonus by 8%</li><li>Improves reuse speed by 12 seconds</li></ul>", 
                   "<ul><li>Improves the Crit Bonus by 10%</li><li>Improves reuse speed by 15 seconds</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 488
-               }, 
                "id": 18, 
                "level": 0, 
                "max_level": 5, 
@@ -1778,10 +1594,6 @@
                   "<ul><li>Adds an effect that provides a heal over time with a successful cure.</li></ul>", 
                   "<ul><li>Adds an effect that provides a heal over time with a successful cure.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 747
-               }, 
                "id": 19, 
                "level": 0, 
                "max_level": 5, 
@@ -1813,10 +1625,6 @@
                   "<ul><li>Improves the casting speed by 80%.</li></ul>", 
                   "<ul><li>Improves the casting speed by 100%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 785
-               }, 
                "id": 20, 
                "level": 0, 
                "max_level": 5, 
@@ -1844,10 +1652,6 @@
                "effects": [
                   "<ul><li>Reduces slow effects on group members (AE) by 50.0%</li><li>Makes group members (AE) immune to Root effects</li><li>Must not be engaged in pvp combat</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 6
-               }, 
                "id": 21, 
                "level": 0, 
                "max_level": 1, 
@@ -1875,10 +1679,6 @@
                "effects": [
                   "<ul><li>Improves base auto attack multiplier of caster by 0.300</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 679
-               }, 
                "id": 22, 
                "level": 0, 
                "max_level": 1, 
@@ -1906,10 +1706,6 @@
                "effects": [
                   "<ul><li>Your death intervention spells (those that trigger when an ally would have died) gain an additional trigger after the first expires. Their healing effect is also increased by 30%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 497
-               }, 
                "id": 23, 
                "level": 0, 
                "max_level": 1, 
@@ -1937,10 +1733,6 @@
                "effects": [
                   "<ul><li>Dispels 12 levels of any hostile effects on group members (AE) instantly and every 1 seconds</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 84
-               }, 
                "id": 24, 
                "level": 0, 
                "max_level": 1, 
@@ -1972,10 +1764,6 @@
                   "<ul><li>Adds an additional strength reduction component to the Frostbite line.</li></ul>", 
                   "<ul><li>Adds an additional strength reduction component to the Frostbite line.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 229
-               }, 
                "id": 25, 
                "level": 0, 
                "max_level": 5, 
@@ -2007,10 +1795,6 @@
                   "<ul><li>On a melee hit this spell may cast Animal Instinct on caster.  Lasts for 18.0 seconds.  Triggers about 2.4 times per minute. </li><ul><li>Improves the damage of the warden's combat arts by 12%.</li><li>Increases Damage Per Second of caster by 19.2</li></ul></ul>", 
                   "<ul><li>On a melee hit this spell may cast Animal Instinct on caster.  Lasts for 18.0 seconds.  Triggers about 3.0 times per minute. </li><ul><li>Improves the damage of the warden's combat arts by 15%.</li><li>Increases Damage Per Second of caster by 24.0</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 184
-               }, 
                "id": 26, 
                "level": 0, 
                "max_level": 5, 
@@ -2042,10 +1826,6 @@
                   "<ul><li>Improves the hit points granted by 40%.</li><li>Adds a small Block Chance component to Essence of the Great Bear.</li></ul>", 
                   "<ul><li>Improves the hit points granted by 50%.</li><li>Adds a small Block Chance component to Essence of the Great Bear.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 203
-               }, 
                "id": 27, 
                "level": 0, 
                "max_level": 5, 
@@ -2077,10 +1857,6 @@
                   "<ul><li>Adds a ward which protects the ally from physical attacks.</li></ul>", 
                   "<ul><li>Adds a ward which protects the ally from physical attacks.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 158
-               }, 
                "id": 28, 
                "level": 0, 
                "max_level": 5, 
@@ -2112,10 +1888,6 @@
                   "<ul><li>Reduces power cost by 40%.</li><li>Improves the base heal amount of Hierophantic Genesis by 24%.</li></ul>", 
                   "<ul><li>Reduces power cost by 50%.</li><li>Improves the base heal amount of Hierophantic Genesis by 30%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 487
-               }, 
                "id": 29, 
                "level": 0, 
                "max_level": 5, 
@@ -2141,10 +1913,6 @@
                "cost": 1, 
                "description": "Adds an effect to the Instinct line of spells which gives the target a chance to add or reduce their hate with their current target on a successful melee or ranged attack.", 
                "effects": [], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 241
-               }, 
                "id": 30, 
                "level": 0, 
                "max_level": 5, 
@@ -2172,10 +1940,6 @@
                "effects": [
                   "<ul><li>Will absorb all damage. </li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 511
-               }, 
                "id": 31, 
                "level": 0, 
                "max_level": 1, 
@@ -2194,7 +1958,7 @@
             }
          ], 
          "id": 1, 
-         "is_warder_tree": "false", 
+         "is_warder_tree": false, 
          "max_points": 100, 
          "name": "Warden", 
          "orphans": [
@@ -2232,11 +1996,11 @@
             31
          ], 
          "soe_id": 27, 
-         "subtrees": [
-            "Warden", 
-            "Expertise", 
-            "Sentinel's Fate"
-         ], 
+         "subtrees": {
+            "Expertise": 0, 
+            "Sentinel's Fate": 0, 
+            "Warden": 0
+         }, 
          "type": "Warden", 
          "x_subclass": "Warden", 
          "x_y_ratio": 20, 
@@ -2259,10 +2023,6 @@
                   "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 40%</li></ul>", 
                   "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 50%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 319, 
-                  "icon": 799
-               }, 
                "id": 0, 
                "level": 0, 
                "max_level": 5, 
@@ -2294,10 +2054,6 @@
                   "<ul><li>Improves the duration of food and drink by 10%</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 12.5%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 318, 
-                  "icon": 151
-               }, 
                "id": 1, 
                "level": 0, 
                "max_level": 5, 
@@ -2329,10 +2085,6 @@
                   "<ul><li>Increases speed of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 5.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 794
-               }, 
                "id": 2, 
                "level": 0, 
                "max_level": 5, 
@@ -2364,10 +2116,6 @@
                   "<ul><li>Increases Max Health of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 2.5%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 318, 
-                  "icon": 795
-               }, 
                "id": 3, 
                "level": 0, 
                "max_level": 5, 
@@ -2399,10 +2147,6 @@
                   "<ul><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 318, 
-                  "icon": 793
-               }, 
                "id": 4, 
                "level": 0, 
                "max_level": 5, 
@@ -2434,10 +2178,6 @@
                   "<ul><li>Increases Max Power of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 2.5%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 318, 
-                  "icon": 796
-               }, 
                "id": 5, 
                "level": 0, 
                "max_level": 5, 
@@ -2463,10 +2203,6 @@
                "cost": 1, 
                "description": "Grants additional spells which increase spell damage, increase melee damage or buffs the priest's pet.  These spells will suspend while the priest is in their healing based stances.", 
                "effects": [], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 11
-               }, 
                "id": 6, 
                "level": 0, 
                "max_level": 5, 
@@ -2475,7 +2211,7 @@
                "prereqs": {
                   "global": 60, 
                   "parent": 0, 
-                  "parent_subtree": 0, 
+                  "parent_subtree": 10, 
                   "subtree": 0, 
                   "tree": 0
                }, 
@@ -2498,10 +2234,6 @@
                   "<ul><li>Improves the reuse speed of in combat resurrection spells by 48 seconds.</li></ul>", 
                   "<ul><li>Improves the reuse speed of in combat resurrection spells by 60 seconds.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 156
-               }, 
                "id": 7, 
                "level": 0, 
                "max_level": 5, 
@@ -2510,7 +2242,7 @@
                "prereqs": {
                   "global": 60, 
                   "parent": 0, 
-                  "parent_subtree": 0, 
+                  "parent_subtree": 10, 
                   "subtree": 0, 
                   "tree": 0
                }, 
@@ -2533,10 +2265,6 @@
                   "<ul><li>Improves the heal amount by 8%</li><li>Improves the critical amount by 12%.</li></ul>", 
                   "<ul><li>Improves the heal amount by 10%</li><li>Improves the critical amount by 15%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 158
-               }, 
                "id": 8, 
                "level": 0, 
                "max_level": 5, 
@@ -2545,7 +2273,7 @@
                "prereqs": {
                   "global": 60, 
                   "parent": 0, 
-                  "parent_subtree": 0, 
+                  "parent_subtree": 10, 
                   "subtree": 0, 
                   "tree": 0
                }, 
@@ -2568,10 +2296,6 @@
                   "<ul><li>Improves the physical mitigation by 12%.</li></ul>", 
                   "<ul><li>Improves the physical mitigation by 15%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 146
-               }, 
                "id": 9, 
                "level": 0, 
                "max_level": 5, 
@@ -2580,7 +2304,7 @@
                "prereqs": {
                   "global": 60, 
                   "parent": 0, 
-                  "parent_subtree": 0, 
+                  "parent_subtree": 10, 
                   "subtree": 0, 
                   "tree": 0
                }, 
@@ -2603,10 +2327,6 @@
                   "<ul><li>Improves the mitigation values by 20%.</li></ul>", 
                   "<ul><li>Improves the mitigation values by 25%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 245
-               }, 
                "id": 10, 
                "level": 0, 
                "max_level": 5, 
@@ -2615,7 +2335,7 @@
                "prereqs": {
                   "global": 60, 
                   "parent": 0, 
-                  "parent_subtree": 0, 
+                  "parent_subtree": 10, 
                   "subtree": 0, 
                   "tree": 0
                }, 
@@ -2638,10 +2358,6 @@
                   "<ul><li>Increases caster's chance to block by 8.0%</li></ul>", 
                   "<ul><li>Increases caster's chance to block by 10.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 872
-               }, 
                "id": 11, 
                "level": 0, 
                "max_level": 5, 
@@ -2650,7 +2366,7 @@
                "prereqs": {
                   "global": 60, 
                   "parent": 0, 
-                  "parent_subtree": 0, 
+                  "parent_subtree": 10, 
                   "subtree": 0, 
                   "tree": 0
                }, 
@@ -2669,10 +2385,6 @@
                "effects": [
                   "<ul><li>Resurrects target with 100% health and power</li><li>Applies Revived Sickness on termination.  Lasts for 1 minute 30 seconds.</li><ul><li>Decreases All Attributes of target by 20.0%</li><ul><li>If not between levels 1 - 6</li></ul><li>Decreases Attack Speed of target by 20.0</li><ul><li>If not between levels 1 - 6</li></ul><li>Decreases All Attributes of target by 5.0%</li><ul><li>If between levels 1 - 6</li></ul><li>Decreases Attack Speed of target by 5.0</li><ul><li>If between levels 1 - 6</li></ul><li>Must not be engaged in combat</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 873
-               }, 
                "id": 12, 
                "level": 0, 
                "max_level": 1, 
@@ -2704,10 +2416,6 @@
                   "<ul><li>Improves the damage of the druid's heat and cold spells by 8%</li></ul>", 
                   "<ul><li>Improves the damage of the druid's heat and cold spells by 10%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 877
-               }, 
                "id": 13, 
                "level": 0, 
                "max_level": 5, 
@@ -2716,7 +2424,7 @@
                "prereqs": {
                   "global": 120, 
                   "parent": 0, 
-                  "parent_subtree": 0, 
+                  "parent_subtree": 10, 
                   "subtree": 0, 
                   "tree": 0
                }, 
@@ -2739,10 +2447,6 @@
                   "<ul><li>Improves the hitpoint bonus by 12%.</li></ul>", 
                   "<ul><li>Improves the hitpoint bonus by 15%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 211
-               }, 
                "id": 14, 
                "level": 0, 
                "max_level": 5, 
@@ -2751,7 +2455,7 @@
                "prereqs": {
                   "global": 120, 
                   "parent": 0, 
-                  "parent_subtree": 0, 
+                  "parent_subtree": 10, 
                   "subtree": 0, 
                   "tree": 0
                }, 
@@ -2774,10 +2478,6 @@
                   "<ul><li>Improves the damage by 16%</li><li>Improves the critical damage by 8%.</li></ul>", 
                   "<ul><li>Improves the damage by 20%</li><li>Improves the critical damage by 10%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 229
-               }, 
                "id": 15, 
                "level": 0, 
                "max_level": 5, 
@@ -2786,7 +2486,7 @@
                "prereqs": {
                   "global": 120, 
                   "parent": 0, 
-                  "parent_subtree": 0, 
+                  "parent_subtree": 10, 
                   "subtree": 0, 
                   "tree": 0
                }, 
@@ -2809,10 +2509,6 @@
                   "<ul><li>Improves the critical amount by 16%.</li><li>Improves the instant heal amount by 12%.</li></ul>", 
                   "<ul><li>Improves the critical amount by 20%.</li><li>Improves the instant heal amount by 15%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 293
-               }, 
                "id": 16, 
                "level": 0, 
                "max_level": 5, 
@@ -2821,7 +2517,7 @@
                "prereqs": {
                   "global": 120, 
                   "parent": 0, 
-                  "parent_subtree": 0, 
+                  "parent_subtree": 10, 
                   "subtree": 0, 
                   "tree": 0
                }, 
@@ -2844,10 +2540,6 @@
                   "<ul><li>Increases the heal amount by 12%.</li><li>Increases the critical heal amount by 8%.</li></ul>", 
                   "<ul><li>Increases the heal amount by 15%.</li><li>Increases the critical heal amount by 10%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 191
-               }, 
                "id": 17, 
                "level": 0, 
                "max_level": 5, 
@@ -2856,7 +2548,7 @@
                "prereqs": {
                   "global": 120, 
                   "parent": 0, 
-                  "parent_subtree": 0, 
+                  "parent_subtree": 10, 
                   "subtree": 0, 
                   "tree": 0
                }, 
@@ -2879,10 +2571,6 @@
                   "<ul><li>Increases Multi Attack Chance of caster by 16.0</li></ul>", 
                   "<ul><li>Increases Multi Attack Chance of caster by 20.0</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 302
-               }, 
                "id": 18, 
                "level": 0, 
                "max_level": 5, 
@@ -2891,7 +2579,7 @@
                "prereqs": {
                   "global": 120, 
                   "parent": 0, 
-                  "parent_subtree": 0, 
+                  "parent_subtree": 10, 
                   "subtree": 0, 
                   "tree": 0
                }, 
@@ -2910,10 +2598,6 @@
                "effects": [
                   "<ul><li>Inflicts 11 - 16 magic damage on target encounter</li><li>Inflicts 3 - 5 magic damage on target encounter every 4 seconds</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 312, 
-                  "icon": 878
-               }, 
                "id": 19, 
                "level": 0, 
                "max_level": 1, 
@@ -2922,7 +2606,7 @@
                "prereqs": {
                   "global": 120, 
                   "parent": 0, 
-                  "parent_subtree": 0, 
+                  "parent_subtree": 10, 
                   "subtree": 10, 
                   "tree": 0
                }, 
@@ -2945,10 +2629,6 @@
                   "<ul><li>Increases the elemental mitigation reduction by 20%</li></ul>", 
                   "<ul><li>Increases the elemental mitigation reduction by 25%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 229
-               }, 
                "id": 20, 
                "level": 0, 
                "max_level": 5, 
@@ -2980,10 +2660,6 @@
                   "<ul><li>Increases Max Health of target by 4.0%</li></ul>", 
                   "<ul><li>Increases Max Health of target by 5.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 885
-               }, 
                "id": 21, 
                "level": 0, 
                "max_level": 5, 
@@ -3015,10 +2691,6 @@
                   "<ul><li>Improves the damage by 8%</li><li>Improves the critical chance and critical damage by 12%</li></ul>", 
                   "<ul><li>Improves the damage by 10%</li><li>Improves the critical chance and critical damage by 15%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 256
-               }, 
                "id": 22, 
                "level": 0, 
                "max_level": 5, 
@@ -3050,10 +2722,6 @@
                   "<ul><li>Improves the ward amount by 16%.</li><li>Improves the elemental mitigation by 20%.</li></ul>", 
                   "<ul><li>Improves the ward amount by 20%.</li><li>Improves the elemental mitigation by 25%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 228
-               }, 
                "id": 23, 
                "level": 0, 
                "max_level": 5, 
@@ -3085,10 +2753,6 @@
                   "<ul><li>Improves the heal amount by 8%.</li><li>Improves the critical heal amount by 16%.</li></ul>", 
                   "<ul><li>Improves the heal amount by 10%.</li><li>Improves the critical heal amount by 20%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 468
-               }, 
                "id": 24, 
                "level": 0, 
                "max_level": 5, 
@@ -3120,10 +2784,6 @@
                   "<ul><li>Improves the overtime heal amount by 16%</li><li>Improves the critical heal amount by 12%</li></ul>", 
                   "<ul><li>Improves the overtime heal amount by 20%</li><li>Improves the critical heal amount by 15%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 189
-               }, 
                "id": 25, 
                "level": 0, 
                "max_level": 5, 
@@ -3151,10 +2811,6 @@
                "effects": [
                   "<ul><li>Increases Weapon Damage Bonus of caster by 25.0</li><li>Lowers heal amount by 22.5%</li><li>Improves critical damage of spells and combat arts by 10%.</li><li>On a melee hit this spell will cast Glacial Assault on target of attack.  </li><ul><li>Inflicts 6 - 9 cold damage on target</li></ul><li>Improves base auto attack multiplier of caster by 0.075</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 888
-               }, 
                "id": 26, 
                "level": 0, 
                "max_level": 1, 
@@ -3182,10 +2838,6 @@
                "effects": [
                   "<ul><li>Reduces the recovery time of beneficial spells by 50%</li><li>Improves the heal amount by 10%.</li><li>Increases the casting and reuse time of hostile spells by 15%</li><li>Reduces the damage of hostile spells by 20%.</li><li>Improves the critical heal amount by 5%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 889
-               }, 
                "id": 27, 
                "level": 0, 
                "max_level": 1, 
@@ -3204,7 +2856,7 @@
             }
          ], 
          "id": 2, 
-         "is_warder_tree": "false", 
+         "is_warder_tree": false, 
          "max_points": 70, 
          "name": "Shadows", 
          "orphans": [
@@ -3238,16 +2890,16 @@
             27
          ], 
          "soe_id": 51, 
-         "subtrees": [
-            "General", 
-            "Priest", 
-            "Druid", 
-            "Warden "
-         ], 
+         "subtrees": {
+            "Druid": 0, 
+            "General": 0, 
+            "Priest": 0, 
+            "Warden ": 0
+         }, 
          "type": "Shadows", 
-         "x_subclass": null, 
+         "x_subclass": "", 
          "x_y_ratio": 0, 
-         "y_subclass": null
+         "y_subclass": ""
       }, 
       {
          "aa": [
@@ -3271,10 +2923,6 @@
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 5.4</li></ul>", 
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 6.0</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 43
-               }, 
                "id": 0, 
                "level": 0, 
                "max_level": 10, 
@@ -3311,10 +2959,6 @@
                   "<ul><li>Increases Ability Modifier of caster by 93.2</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 103.5</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 566
-               }, 
                "id": 1, 
                "level": 0, 
                "max_level": 10, 
@@ -3351,10 +2995,6 @@
                   "<ul><li>Increases Max Power of caster by 4.5%</li><li>Increases Max Health of caster by 4.5%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 5.0%</li><li>Increases Max Health of caster by 5.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 249
-               }, 
                "id": 2, 
                "level": 0, 
                "max_level": 10, 
@@ -3391,10 +3031,6 @@
                   "<ul><li>Increases Potency of caster by 9.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 10.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 852
-               }, 
                "id": 3, 
                "level": 0, 
                "max_level": 10, 
@@ -3431,10 +3067,6 @@
                   "<ul><li>Increases Crit Bonus of caster by 9.0%</li></ul>", 
                   "<ul><li>Increases Crit Bonus of caster by 10.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 21
-               }, 
                "id": 4, 
                "level": 0, 
                "max_level": 10, 
@@ -3471,10 +3103,6 @@
                   "<ul><li>Increases Ability Reuse Speed of caster by 9.0%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 10.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 14
-               }, 
                "id": 5, 
                "level": 0, 
                "max_level": 10, 
@@ -3511,10 +3139,6 @@
                   "<ul><li>Increases the duration of Fury of the Storm by 9 seconds.</li><li>Improves the cure amount and radius by 45%</li></ul>", 
                   "<ul><li>Increases the duration of Fury of the Storm by 10 seconds.</li><li>Improves the cure amount and radius by 50%</li><li>Adds an additional trigger to Fury of the Storm.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 497
-               }, 
                "id": 6, 
                "level": 0, 
                "max_level": 10, 
@@ -3551,10 +3175,6 @@
                   "<ul><li>Improves the reuse speed of Wrath of Nature by 45%.</li><li>Reduces the duration of Wrath of Nature by 9 seconds.</li></ul>", 
                   "<ul><li>Adds an additional tick to Wrath of Nature.</li><li>Improves the reuse speed of Wrath of Nature by 50%.</li><li>Reduces the duration of Wrath of Nature by 10 seconds.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 878
-               }, 
                "id": 7, 
                "level": 0, 
                "max_level": 10, 
@@ -3580,10 +3200,6 @@
                "cost": 1, 
                "description": "Enhances the druid's heal stance with additional effects.", 
                "effects": [], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 889
-               }, 
                "id": 8, 
                "level": 0, 
                "max_level": 10, 
@@ -3620,10 +3236,6 @@
                   "<ul><li>On any combat or spell hit this spell may cast Spirit of Druidism on target.  Lasts for 10.0 seconds.  Triggers about 3.0 times per minute. </li><ul><li>Increases Ability Casting Speed of group members (AE) by 9.0%</li><li>Increases Ability Modifier of group members (AE) by 7.6</li><li>Wards group members (AE) against 9 points of all damage</li></ul></ul>", 
                   "<ul><li>On any combat or spell hit this spell may cast Spirit of Druidism on target.  Lasts for 10.0 seconds.  Triggers about 3.0 times per minute. </li><ul><li>Increases Ability Casting Speed of group members (AE) by 10.0%</li><li>Increases Ability Modifier of group members (AE) by 8.4</li><li>Wards group members (AE) against 11 points of all damage</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 868
-               }, 
                "id": 9, 
                "level": 0, 
                "max_level": 10, 
@@ -3651,10 +3263,6 @@
                "effects": [
                   "<ul><li>Monitors the damage done by the druid for 10 seconds after the cast and converts a portion of that damage into a ward for the druid's group once the spell expires or is toggled off.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 900
-               }, 
                "id": 10, 
                "level": 0, 
                "max_level": 1, 
@@ -3682,10 +3290,6 @@
                "effects": [
                   "<ul><li>Completely heals the target and applies a ward equal to the amount healed.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 873
-               }, 
                "id": 11, 
                "level": 0, 
                "max_level": 1, 
@@ -3713,10 +3317,6 @@
                "effects": [
                   "<ul><li>Reduces all damage done to caster by 30%</li><li>Makes the caster immune to Root, Stifle, Stun, Fear, Daze, Mesmerize and Interrupt effects</li><li>Heals the group by 25% of the direct damage done by the druid</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 880
-               }, 
                "id": 12, 
                "level": 0, 
                "max_level": 1, 
@@ -3735,7 +3335,7 @@
             }
          ], 
          "id": 3, 
-         "is_warder_tree": "false", 
+         "is_warder_tree": false, 
          "max_points": 50, 
          "name": "Heroic", 
          "orphans": [
@@ -3754,13 +3354,13 @@
             12
          ], 
          "soe_id": 65, 
-         "subtrees": [
-            "Heroic"
-         ], 
+         "subtrees": {
+            "Heroic": 0
+         }, 
          "type": "Heroic", 
-         "x_subclass": null, 
+         "x_subclass": "", 
          "x_y_ratio": 0, 
-         "y_subclass": null
+         "y_subclass": ""
       }, 
       {
          "aa": [
@@ -3779,10 +3379,6 @@
                   "<ul><li>Increases Ground Mount Speed of caster by 8.0%</li><li>Caster will harvest a second time on 12.0% of harvests.</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li><li>Caster will harvest a second time on 15.0% of harvests.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 797
-               }, 
                "id": 0, 
                "level": 0, 
                "max_level": 5, 
@@ -3814,10 +3410,6 @@
                   "<ul><li>Increases speed of caster by 4.0%</li><li>Increases the amount of progress gained by 8.0%.</li></ul>", 
                   "<ul><li>Increases speed of caster by 5.0%</li><li>Increases the amount of progress gained by 10.0%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 798
-               }, 
                "id": 1, 
                "level": 0, 
                "max_level": 5, 
@@ -3849,10 +3441,6 @@
                   "<ul><li>Improves the duration of food and drink by 10%</li><li>Increases the durability gain by 8.0%.</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 12.5%</li><li>Increases the durability gain by 10.0%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 874
-               }, 
                "id": 2, 
                "level": 0, 
                "max_level": 5, 
@@ -3884,10 +3472,6 @@
                   "<ul><li>Increases progress by 8.0</li></ul>", 
                   "<ul><li>Increases progress by 10.0</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 864
-               }, 
                "id": 3, 
                "level": 0, 
                "max_level": 5, 
@@ -3919,10 +3503,6 @@
                   "<ul><li>Increases the amount of durability gained by 8.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 10.0.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 869
-               }, 
                "id": 4, 
                "level": 0, 
                "max_level": 5, 
@@ -3954,10 +3534,6 @@
                   "<ul><li>Increases success chance by 8.0%</li></ul>", 
                   "<ul><li>Increases success chance by 10.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 860
-               }, 
                "id": 5, 
                "level": 0, 
                "max_level": 5, 
@@ -3989,10 +3565,6 @@
                   "<ul><li>Increases critical success chance by 8.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 10.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 848
-               }, 
                "id": 6, 
                "level": 0, 
                "max_level": 5, 
@@ -4024,10 +3596,6 @@
                   "<ul><li>Increases rare harvest chance by 0.8%</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 1.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 263
-               }, 
                "id": 7, 
                "level": 0, 
                "max_level": 5, 
@@ -4059,10 +3627,6 @@
                   "<ul><li>When completing a pristine crafted item. this spell has a 4% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
                   "<ul><li>When completing a pristine crafted item. this spell has a 5% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 839
-               }, 
                "id": 8, 
                "level": 0, 
                "max_level": 5, 
@@ -4081,7 +3645,7 @@
             }
          ], 
          "id": 4, 
-         "is_warder_tree": "false", 
+         "is_warder_tree": false, 
          "max_points": 40, 
          "name": "Tradeskill", 
          "orphans": [
@@ -4096,13 +3660,13 @@
             8
          ], 
          "soe_id": 73, 
-         "subtrees": [
-            "Crafting Expertise"
-         ], 
+         "subtrees": {
+            "Crafting Expertise": 0
+         }, 
          "type": "Tradeskill", 
-         "x_subclass": null, 
+         "x_subclass": "", 
          "x_y_ratio": 0, 
-         "y_subclass": null
+         "y_subclass": ""
       }, 
       {
          "aa": [
@@ -4119,10 +3683,6 @@
                   "<ul><li>On a healing spell cast this spell may cast Invigorated on target of spell cast.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Increases Doublecast Chance of target by 3.0%</li><li>Target has a 10.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>", 
                   "<ul><li>On a healing spell cast this spell may cast Invigorated on target of spell cast.  Lasts for 10.0 seconds.  Triggers about 3.0 times per minute. </li><ul><li>Increases Doublecast Chance of target by 3.0%</li><li>Target has a 10.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 913
-               }, 
                "id": 0, 
                "level": 0, 
                "max_level": 3, 
@@ -4152,10 +3712,6 @@
                   "<ul><li>Primary heal over time spells grant increased mitigation to their targets.</li></ul>", 
                   "<ul><li>Primary heal over time spells grant increased mitigation to their targets.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 278
-               }, 
                "id": 1, 
                "level": 0, 
                "max_level": 3, 
@@ -4185,10 +3741,6 @@
                   "<ul><li>Increases the trigger chance of all spells by 24% of their base values.</li></ul>", 
                   "<ul><li>Increases the trigger chance of all spells by 36% of their base values.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 480
-               }, 
                "id": 2, 
                "level": 0, 
                "max_level": 3, 
@@ -4218,10 +3770,6 @@
                   "<ul><li>On a hostile spell hit this spell may cast Storming Thoughts on target.  Lasts for 20.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Reduces all damage done to group members (AE) by 3%</li></ul><li>When a combat art is used this spell has a 10% chance to cast Storming Thoughts on target.  Lasts for 20.0 seconds.  </li><ul><li>Reduces all damage done to group members (AE) by 3%</li></ul></ul>", 
                   "<ul><li>On a hostile spell hit this spell may cast Storming Thoughts on target.  Lasts for 30.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Reduces all damage done to group members (AE) by 3%</li></ul><li>When a combat art is used this spell has a 10% chance to cast Storming Thoughts on target.  Lasts for 30.0 seconds.  </li><ul><li>Reduces all damage done to group members (AE) by 3%</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 27
-               }, 
                "id": 3, 
                "level": 0, 
                "max_level": 3, 
@@ -4252,10 +3800,6 @@
                   "<ul><li>Photosynthesis has a 5% chance to clear the reuse on Heirophantic Genesis.</li><li>Sylvan Touch has a 50% chance to clear the reuse on Heirophantic Genesis.</li></ul>", 
                   "<ul><li>Photosynthesis has a 10% chance to clear the reuse on Heirophantic Genesis.</li><li>Sylvan Touch has a 100% chance to clear the reuse on Heirophantic Genesis.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 187
-               }, 
                "id": 4, 
                "level": 0, 
                "max_level": 2, 
@@ -4285,10 +3829,6 @@
                "effects": [
                   "<ul><li>Photosynthesis will now heal the two nearest allies every time it updates.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 191
-               }, 
                "id": 5, 
                "level": 0, 
                "max_level": 1, 
@@ -4318,10 +3858,6 @@
                "effects": [
                   "<ul><li>Adds a trigger to Sandstorm that makes the target taking or avoiding damage immune to indirect area of effect spells.</li><li>When Sandstorm triggers its effects, the group will gain additional Crit Bonus for every trigger.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 509
-               }, 
                "id": 6, 
                "level": 0, 
                "max_level": 1, 
@@ -4352,10 +3888,6 @@
                   "<ul><li>Blinding Sands' triggers has a 15% chance to clear the reuse on Winds of Permafrost and Whirl of Permafrost, Icefall and Icefall Strike or Frostbite and Frostbite Slice.</li></ul>", 
                   "<ul><li>Blinding Sands' triggers has a 30% chance to clear the reuse on Winds of Permafrost and Whirl of Permafrost, Icefall and Icefall Strike or Frostbite and Frostbite Slice.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 244
-               }, 
                "id": 7, 
                "level": 0, 
                "max_level": 2, 
@@ -4385,10 +3917,6 @@
                "effects": [
                   "<ul><li>For every 12 points of Potency, the caster gains 1% Crit Bonus.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 272
-               }, 
                "id": 8, 
                "level": 0, 
                "max_level": 1, 
@@ -4418,10 +3946,6 @@
                "effects": [
                   "<ul><li>For every 15 points of Attack Speed, the caster gains 1% potency.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": -1, 
-                  "icon": 41
-               }, 
                "id": 9, 
                "level": 0, 
                "max_level": 1, 
@@ -4455,10 +3979,6 @@
                   "<ul><li>Applies Clearwater Current.  Lasts for 24.0 seconds.</li><ul><li>Heals target for 2 instantly and every 3 seconds</li><li>The heal of this spell is multiplied by the tick number, up to 9.</li></ul></ul>", 
                   "<ul><li>Applies Clearwater Current.  Lasts for 24.0 seconds.</li><ul><li>Heals target for 2 instantly and every 3 seconds</li><li>The heal of this spell is multiplied by the tick number, up to 9.</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 881
-               }, 
                "id": 10, 
                "level": 0, 
                "max_level": 3, 
@@ -4488,10 +4008,6 @@
                   "<ul><li>Applies Winds of Growth.  Lasts for 8.0 seconds.</li><ul><li>Heals target for 32 - 39</li><li>Heals target for 4 - 5 every 2 seconds</li><li>Applies to the two allies with the lowest health. Cannot apply to the same target twice.</li></ul></ul>", 
                   "<ul><li>Applies Winds of Growth.  Lasts for 8.0 seconds.</li><ul><li>Heals target for 48 - 58</li><li>Heals target for 6 - 7 every 2 seconds</li><li>Applies to the two allies with the lowest health. Cannot apply to the same target twice.</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 876
-               }, 
                "id": 11, 
                "level": 0, 
                "max_level": 3, 
@@ -4525,10 +4041,6 @@
                   "<ul><li>On any combat or spell hit this spell may cast Windblade on target of attack.  Triggers about 1.2 times per minute. </li><ul><li>Inflicts 10 - 12 slashing damage on target</li></ul></ul>", 
                   "<ul><li>On any combat or spell hit this spell may cast Windblade on target of attack.  Triggers about 1.8 times per minute. </li><ul><li>Inflicts 10 - 12 slashing damage on target</li></ul></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 470
-               }, 
                "id": 12, 
                "level": 0, 
                "max_level": 3, 
@@ -4558,10 +4070,6 @@
                   "<ul><li>Lowers the duration of Clearwater Current by 8 seconds.</li></ul>", 
                   "<ul><li>Lowers the duration of Clearwater Current by 12 seconds.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 879
-               }, 
                "id": 13, 
                "level": 0, 
                "max_level": 3, 
@@ -4591,10 +4099,6 @@
                   "<ul><li>Upon natural expiration, Clearwater Current will ward the target.</li></ul>", 
                   "<ul><li>Upon natural expiration, Clearwater Current will ward the target.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 20
-               }, 
                "id": 14, 
                "level": 0, 
                "max_level": 3, 
@@ -4624,10 +4128,6 @@
                   "<ul><li>Applies a limited trigger damage shield to the target of Clearwater Current.</li></ul>", 
                   "<ul><li>Applies a limited trigger damage shield to the target of Clearwater Current.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 253
-               }, 
                "id": 15, 
                "level": 0, 
                "max_level": 3, 
@@ -4657,10 +4157,6 @@
                   "<ul><li>Windblade will hit a second time for 66% of the damage of the initial attack.</li></ul>", 
                   "<ul><li>Windblade will hit a second time for 100% of the damage of the initial attack.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 337
-               }, 
                "id": 16, 
                "level": 0, 
                "max_level": 3, 
@@ -4690,10 +4186,6 @@
                   "<ul><li>Windblade gains an additional trigger that heals the target.</li></ul>", 
                   "<ul><li>Windblade gains an additional trigger that heals the target.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 211
-               }, 
                "id": 17, 
                "level": 0, 
                "max_level": 3, 
@@ -4723,10 +4215,6 @@
                   "<ul><li>Windblade grants an additional trigger that increases Crit Bonus by 1.4%. Increments up to 10 times.</li></ul>", 
                   "<ul><li>Windblade grants an additional trigger that increases Crit Bonus by 2.1%. Increments up to 10 times.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 552
-               }, 
                "id": 18, 
                "level": 0, 
                "max_level": 3, 
@@ -4754,10 +4242,6 @@
                "effects": [
                   "<ul><li>Adds two triggers to Infuriating Thorns and grants it a 10% chance to clear the reuse of Cyclone</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 316, 
-                  "icon": 188
-               }, 
                "id": 19, 
                "level": 0, 
                "max_level": 1, 
@@ -4785,10 +4269,6 @@
                "effects": [
                   "<ul><li>Makes Instinct apply to the warden's group.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 314, 
-                  "icon": 634
-               }, 
                "id": 20, 
                "level": 0, 
                "max_level": 1, 
@@ -4816,10 +4296,6 @@
                "effects": [
                   "<ul><li>Icefall and Icefall Strike, Frostbite and Frostbite Slice and Dawnstrike will all do bonus damage.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 315, 
-                  "icon": 191
-               }, 
                "id": 21, 
                "level": 0, 
                "max_level": 1, 
@@ -4838,7 +4314,7 @@
             }
          ], 
          "id": 5, 
-         "is_warder_tree": "false", 
+         "is_warder_tree": false, 
          "max_points": 25, 
          "name": "Prestige", 
          "orphans": [
@@ -4854,16 +4330,16 @@
             21
          ], 
          "soe_id": 99, 
-         "subtrees": [
-            "Prestige", 
-            "Prestige Enhancement", 
-            "Prestige Expertise", 
-            "Prestige Conversion", 
-            "Prestige Access", 
-            "Prestige Mastery", 
-            "Currents", 
-            "Tempests"
-         ], 
+         "subtrees": {
+            "Currents": 0, 
+            "Prestige": 0, 
+            "Prestige Access": 0, 
+            "Prestige Conversion": 0, 
+            "Prestige Enhancement": 0, 
+            "Prestige Expertise": 0, 
+            "Prestige Mastery": 0, 
+            "Tempests": 0
+         }, 
          "type": "Prestige", 
          "x_subclass": "Prestige", 
          "x_y_ratio": 6, 
@@ -4889,10 +4365,6 @@
                   "<ul><li>Increases rare harvest chance by 4.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 5.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 777
-               }, 
                "id": 0, 
                "level": 0, 
                "max_level": 5, 
@@ -4927,10 +4399,6 @@
                   "<ul><li>Increases the amount of durability gained by 4.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 5.0.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 468
-               }, 
                "id": 1, 
                "level": 0, 
                "max_level": 5, 
@@ -4965,10 +4433,6 @@
                   "<ul><li>Increases success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases success chance by 5.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 24
-               }, 
                "id": 2, 
                "level": 0, 
                "max_level": 5, 
@@ -5002,10 +4466,6 @@
                   "<ul><li>Summons a pet Artisan's Gathering Goblin</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Summons a pet Artisan's Gathering Goblin</li><li>Cannot be modified except by direct means</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 565
-               }, 
                "id": 3, 
                "level": 0, 
                "max_level": 5, 
@@ -5031,10 +4491,6 @@
                "cost": 1, 
                "description": "Grants the ability to summon mobile crafting stations.  Higher ranks of this ability lower the cooldown on the station summons.", 
                "effects": [], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 561
-               }, 
                "id": 4, 
                "level": 0, 
                "max_level": 5, 
@@ -5066,10 +4522,6 @@
                   "<ul><li>Increases the durability gain by 4.0%.</li></ul>", 
                   "<ul><li>Increases the durability gain by 5.0%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 27
-               }, 
                "id": 5, 
                "level": 0, 
                "max_level": 5, 
@@ -5103,10 +4555,6 @@
                   "<ul><li>Improves the duration of food and drink by 20%</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 25%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 809
-               }, 
                "id": 6, 
                "level": 0, 
                "max_level": 5, 
@@ -5140,10 +4588,6 @@
                   "<ul><li>Increases critical success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 5.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 34
-               }, 
                "id": 7, 
                "level": 0, 
                "max_level": 5, 
@@ -5175,10 +4619,6 @@
                   "<ul><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
                   "<ul><li>Increases the amount of progress gained by 5.0%.</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 89
-               }, 
                "id": 8, 
                "level": 0, 
                "max_level": 5, 
@@ -5210,10 +4650,6 @@
                   "<ul><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Cannot be modified except by direct means</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 540
-               }, 
                "id": 9, 
                "level": 0, 
                "max_level": 5, 
@@ -5245,10 +4681,6 @@
                   "<ul><li>Increases speed of caster by 8.0%</li><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 10.0%</li><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 304
-               }, 
                "id": 10, 
                "level": 0, 
                "max_level": 5, 
@@ -5280,10 +4712,6 @@
                   "<ul><li>Increases build components returned by 16.0%</li></ul>", 
                   "<ul><li>Increases build components returned by 20.0%</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 45
-               }, 
                "id": 11, 
                "level": 0, 
                "max_level": 5, 
@@ -5315,10 +4743,6 @@
                   "<ul><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Cannot be modified except by direct means</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 906
-               }, 
                "id": 12, 
                "level": 0, 
                "max_level": 5, 
@@ -5350,10 +4774,6 @@
                   "<ul><li>Increases number of times experimentation can be applied to an item by 4.0</li></ul>", 
                   "<ul><li>Increases number of times experimentation can be applied to an item by 5.0</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 896
-               }, 
                "id": 13, 
                "level": 0, 
                "max_level": 5, 
@@ -5385,10 +4805,6 @@
                   "<ul><li>Increases max crafting quantity by 50.0</li></ul>", 
                   "<ul><li>Increases max crafting quantity by 100.0</li></ul>"
                ], 
-               "icon": {
-                  "backdrop": 317, 
-                  "icon": 31
-               }, 
                "id": 14, 
                "level": 0, 
                "max_level": 5, 
@@ -5407,7 +4823,7 @@
             }
          ], 
          "id": 6, 
-         "is_warder_tree": "false", 
+         "is_warder_tree": false, 
          "max_points": 25, 
          "name": "Tradeskill Prestige", 
          "orphans": [
@@ -5419,15 +4835,15 @@
             14
          ], 
          "soe_id": 121, 
-         "subtrees": [
-            "Refining", 
-            "Experimentation", 
-            "Mass Production"
-         ], 
+         "subtrees": {
+            "Experimentation": 0, 
+            "Mass Production": 0, 
+            "Refining": 0
+         }, 
          "type": "TradeskillPrestige", 
-         "x_subclass": null, 
+         "x_subclass": "", 
          "x_y_ratio": 0, 
-         "y_subclass": null
+         "y_subclass": ""
       }
    ]
 }

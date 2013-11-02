@@ -34,6 +34,5 @@ class AA(object):
                 "effects": self.effects,
                 "children": self.children,
                 "prereqs": self.prereqs,
-                "title": self.title,
-                "icon": self.icon
+                "title": self.title
                 }

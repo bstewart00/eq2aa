@@ -20,11 +20,11 @@ class Tree(object):
                 "name": self.name,
                 "type": self.type,
                 "max_points": self.max_points,
-                "is_warder_tree": "true" if self.is_warder_tree else "false",
+                "is_warder_tree": self.is_warder_tree,
                 "x_y_ratio": self.x_y_ratio,
-                "x_subclass": self.x_subclass,
-                "y_subclass": self.y_subclass,
-                "subtrees": list(self.subtrees),
+                "x_subclass": self.x_subclass or "",
+                "y_subclass": self.y_subclass or "",
+                "subtrees": self.subtrees,
                 "orphans": self.orphans,
                 "aa": [aa.to_dict() for aa in self.aa]
                 }
