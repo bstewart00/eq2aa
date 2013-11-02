@@ -11,7 +11,11 @@ class TestEQ2ClassFactory(unittest.TestCase):
         self._logger = MagicMock()
         self.sut = EQ2ClassFactory(self._data_provider, self._tree_factory, self._point_pool_factory, self._logger)
         
-        self._point_pool_factory.create.return_value = ([], [])
+        self._trees = [TreeBuilder().with_id(1).build(), TreeBuilder().with_id(2).build()]
+        self._points = ["point pool"]
+        self._ordered_point_pools = ["ordered points"]
+        self._point_pool_factory.create.side_effect = lambda trees: (self._points, self._ordered_point_pools) if trees == self._trees else ([], [])
+        self._tree_factory.return_value = self._trees
         
     def _setup_returned_classes(self, class_nodes):
         self._data_provider.classes.return_value = { 
@@ -56,7 +60,7 @@ class TestEQ2ClassFactory(unittest.TestCase):
                                                     arch2, class3,
                                                     family2, arch3, class4])
 
-        list(self.sut.create_classes())
+        result = list(self.sut.create_classes())
 
         mock_class.assert_has_calls([call(0, 3, 'Class1', { 'family': 'Family', 'archetype': 'Archetype' }, [], [], []),
                                call(1, 4, 'Class2', { 'family': 'Family', 'archetype': 'Archetype' }, [], [], []),
@@ -67,13 +71,13 @@ class TestEQ2ClassFactory(unittest.TestCase):
     def test_create_populates_trees(self, mock_class):
         mock_class.side_effect = self._return_class_name
 
-        trees = [TreeBuilder().with_id(1).build(), TreeBuilder().with_id(2).build()]
+        
         family_class = EQ2ClassBuilder().name("Family").build()
         archetype_class = EQ2ClassBuilder().name("Archetype").build()
         some_class = EQ2ClassBuilder().is_subclass().with_tree_ids([1, 2]).build()
 
         def return_tree(tree_id, soe_id, lineage, class_name):
-            for t in trees:
+            for t in self._trees:
                 if t["id"] == soe_id:
                     return t
             return None 
@@ -86,7 +90,7 @@ class TestEQ2ClassFactory(unittest.TestCase):
 
         self._tree_factory.create.assert_has_calls([call(0, 1, expected_lineage, some_class["name"])])
         self._tree_factory.create.assert_has_calls([call(1, 2, expected_lineage, some_class["name"])])
-        mock_class.assert_has_calls([call(0, some_class["id"], some_class["name"], expected_lineage, trees, [], [])])
+        mock_class.assert_has_calls([call(0, some_class["id"], some_class["name"], expected_lineage, self._trees, self._points, self._ordered_point_pools)])
 
     @patch('definitions.model.eq2class_factory.EQ2Class')
     def test_create_only_creates_classes_matching_filter(self, mock_class):
