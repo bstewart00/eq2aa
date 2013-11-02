@@ -5,6 +5,27 @@ class TreeFactory(object):
         self._data_provider = data_provider
         self._aa_factory = aa_factory
         self._logger = logger
+        
+    def create_all(self, lineage_dict, class_node):
+        tree_nodes = class_node["alternateadvancementtree_list"]
+        
+        next_tree_id = 0
+        def _get_next_tree_id():
+            nonlocal next_tree_id
+            next_id = next_tree_id
+            next_tree_id += 1
+            return next_id
+        
+        def _get_tree_sort_order(tree):
+            type_ordering = ["Archetype", "Class", "Shadows", "Heroic", "Tradeskill", "Prestige", "TradeskillPrestige"]
+            if tree.type in type_ordering:
+                return type_ordering.index(tree.type)
+            return len(type_ordering)
+        
+        result = [self._tree_factory.create(_get_next_tree_id(), t["id"], lineage_dict, class_node["name"])
+                 for t in tree_nodes]
+        
+        return sorted(result, key=_get_tree_sort_order)
     
     def create(self, tree_id, soe_id, lineage, class_name):
         self._logger.log('Processing Tree {0}...'.format(tree_id))

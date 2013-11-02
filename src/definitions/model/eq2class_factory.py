@@ -34,25 +34,12 @@ class EQ2ClassFactory(object):
                 new_lineage = []
                 
                 if _matches_filter(name):
-                    trees = self._create_trees(lineage_dict, class_node)
+                    trees = self._tree_factory.create_all(lineage_dict, class_node)
                     point_pools, ordered_point_pools = self._point_pool_factory.create(trees)
                     
                     result = EQ2Class(next_id, class_node["id"], name, lineage_dict, trees, point_pools, ordered_point_pools)
                     next_id = next_id + 1
                     yield result
-                
-    def _create_trees(self, lineage_dict, class_node):
-        tree_nodes = class_node["alternateadvancementtree_list"]
-        
-        next_tree_id = 0
-        def _get_next_tree_id():
-            nonlocal next_tree_id
-            next_id = next_tree_id
-            next_tree_id += 1
-            return next_id
-        
-        return [self._tree_factory.create(_get_next_tree_id(), t["id"], lineage_dict, class_node["name"])
-                 for t in tree_nodes]
         
     def _create_lineage_dict(self, lineage):
         if len(lineage) == 0: return {}
