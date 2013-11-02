@@ -1,3 +1,5 @@
+import re
+
 class PointPoolFactory:
     def __init__(self):
         self._pool_order = { "AA": 0, "Prestige": 1, "Tradeskill": 2, "TradeskillPrestige": 3, "Warder": 4 }
@@ -12,7 +14,9 @@ class PointPoolFactory:
         return points, ordered_point_pools
     
     def _make_pool(self, name, max_points):
-        return { "name": name, "max": max_points }
+        spaced_name = "Tradeskill Prestige" if name == "TradeskillPrestige" else name
+        
+        return { "name": spaced_name, "max": max_points }
     
     def _get_point_pools(self, trees):
         pools = {}
