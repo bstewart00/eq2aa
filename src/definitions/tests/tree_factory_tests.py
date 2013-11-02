@@ -7,14 +7,14 @@ class TestTreeFactory(unittest.TestCase):
     def setUp(self):
         self._data_provider = MagicMock()
         self._aa_factory = MagicMock()
-        self._lineage = { "family": "", "archetype": "" }
+        self._logger = MagicMock()
+        self._lineage = { "family": "Family", "archetype": "Archetype" }
         self._class_name = "SomeClass"
-        self._tree_id = 55
         self._aa = [1,2,3]
         self._orphans = [4,5,6]
         self._subtrees = ["Subtree1", "Subtree2"]
         
-        self.sut = TreeFactory(self._data_provider, self._aa_factory, MagicMock())
+        self.sut = TreeFactory(self._data_provider, self._aa_factory, self._logger)
         
         
     def _setup_tree(self, tree):
@@ -34,9 +34,9 @@ class TestTreeFactory(unittest.TestCase):
 
         self._setup_tree(tree)
 
-        result = self.sut.create(self._tree_id, tree_soe_id, self._lineage, self._class_name)
+        result = self.sut.create(tree_soe_id, self._lineage, self._class_name)
 
-        self.assertEqual(result.id, self._tree_id)
+        self.assertEqual(result.id, -1)
         self.assertEqual(result.soe_id, tree_soe_id)
         self.assertEqual(result.name, tree["name"])
         self.assertEqual(result.is_warder_tree, True)
@@ -48,7 +48,7 @@ class TestTreeFactory(unittest.TestCase):
             .build()
         
         self._setup_tree(tree)
-        result = self.sut.create(self._tree_id, 0, self._lineage, self._class_name)
+        result = self.sut.create(0, self._lineage, self._class_name)
 
         self.assertEqual(result.aa,  self._aa)
 
@@ -58,7 +58,7 @@ class TestTreeFactory(unittest.TestCase):
             .build()
 
         self._setup_tree(tree)
-        result = self.sut.create(self._tree_id, 0, self._lineage, self._class_name)
+        result = self.sut.create(0, self._lineage, self._class_name)
 
         self.assertEqual(result.max_points, 150)
 
@@ -70,7 +70,7 @@ class TestTreeFactory(unittest.TestCase):
             .build()
 
         self._setup_tree(tree)
-        result = self.sut.create(self._tree_id, 0, self._lineage, self._class_name)
+        result = self.sut.create(0, self._lineage, self._class_name)
 
         self.assertEqual(result.x_y_ratio, 10)
         self.assertEqual(result.x_subclass, "XSubclass")
@@ -80,7 +80,7 @@ class TestTreeFactory(unittest.TestCase):
         tree = TreeBuilder().name(self._lineage["archetype"]).build()
 
         self._setup_tree(tree)
-        result = self.sut.create(self._tree_id, 0, self._lineage, self._class_name)
+        result = self.sut.create(0, self._lineage, self._class_name)
         
         self.assertEqual(result.type, "Archetype")
         
@@ -88,7 +88,7 @@ class TestTreeFactory(unittest.TestCase):
         tree = TreeBuilder().name(self._class_name).build()
 
         self._setup_tree(tree)
-        result = self.sut.create(self._tree_id, 0, self._lineage, self._class_name)
+        result = self.sut.create(0, self._lineage, self._class_name)
         
         self.assertEqual(result.type, "Class")
 
@@ -96,7 +96,7 @@ class TestTreeFactory(unittest.TestCase):
         tree = TreeBuilder().is_warder_tree().build()
 
         self._setup_tree(tree)
-        result = self.sut.create(self._tree_id, 0, self._lineage, self._class_name)
+        result = self.sut.create(0, self._lineage, self._class_name)
         
         self.assertEqual(result.type, "Warder")
         
@@ -104,6 +104,37 @@ class TestTreeFactory(unittest.TestCase):
         tree = TreeBuilder().name("Tradeskill Prestige").build()
 
         self._setup_tree(tree)
-        result = self.sut.create(self._tree_id, 0, self._lineage, self._class_name)
+        result = self.sut.create(0, self._lineage, self._class_name)
         
         self.assertEqual(result.type, "TradeskillPrestige")
+        
+    def test_create_all_sorts_trees_and_sets_ids(self):
+        archetype = TreeBuilder().with_id(0).name("Archetype").build()
+        class_tree = TreeBuilder().with_id(1).name("Class").build()
+        shadows = TreeBuilder().with_id(2).name("Shadows").build()
+        heroic = TreeBuilder().with_id(3).name("Heroic").build()
+        tradeskill = TreeBuilder().with_id(4).name("Tradeskill").build()
+        prestige = TreeBuilder().with_id(5).name("Prestige").build()
+        tradeskill_prestige = TreeBuilder().with_id(6).name("Tradeskill Prestige").build()
+        warder1 = TreeBuilder().with_id(7).name("Aquatic").build()
+        warder2 = TreeBuilder().with_id(8).name("War Boar").build()
+        
+        tree_nodes = [archetype, class_tree, shadows, heroic, tradeskill, prestige,
+                      tradeskill_prestige, warder1, warder2]
+        reversed_tree_nodes = sorted(tree_nodes, key=lambda t: -t["id"])
+        
+        self._data_provider.tree.side_effect = lambda tree_id: { "alternateadvancement_list": [tree_nodes[tree_id]] }
+        self._aa_factory.create_all.return_value = ([], [], [])
+        
+        result = self.sut.create_all(self._lineage, reversed_tree_nodes, self._class_name)
+        result = list(map(lambda t: [t.name, t.id], result))
+        
+        self.assertEqual(result[0], ["Archetype", 0])
+        self.assertEqual(result[1], ["Class", 1])
+        self.assertEqual(result[2], ["Shadows", 2])
+        self.assertEqual(result[3], ["Heroic", 3])
+        self.assertEqual(result[4], ["Tradeskill", 4])
+        self.assertEqual(result[5], ["Prestige", 5])
+        self.assertEqual(result[6], ["Tradeskill Prestige", 6])
+        self.assertEqual(result[7], ["Aquatic", 7])
+        self.assertEqual(result[8], ["War Boar", 8])        
