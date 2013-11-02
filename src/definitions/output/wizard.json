@@ -29,6 +29,7 @@
                   "icon": 595
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Summon Familiar", 
                "parent_id": -1, 
@@ -54,22 +55,23 @@
                "cost": 1, 
                "description": "Fires a cone of lightning in a frontal arc from the Invoker that can strike up to 4 enemies.", 
                "effects": [
-                  "<ul><li>Inflicts 6 - 10 magic damage on targets in Area of Effect</li></ul>", 
-                  "<ul><li>Inflicts 5 - 8 magic damage on targets in Area of Effect</li></ul>", 
                   "<ul><li>Inflicts 4 - 6 magic damage on targets in Area of Effect</li></ul>", 
+                  "<ul><li>Inflicts 4 - 6 magic damage on targets in Area of Effect</li></ul>", 
+                  "<ul><li>Inflicts 4 - 6 magic damage on targets in Area of Effect</li></ul>", 
+                  "<ul><li>Inflicts 4 - 7 magic damage on targets in Area of Effect</li></ul>", 
+                  "<ul><li>Inflicts 5 - 8 magic damage on targets in Area of Effect</li></ul>", 
+                  "<ul><li>Inflicts 5 - 8 magic damage on targets in Area of Effect</li></ul>", 
                   "<ul><li>Inflicts 5 - 9 magic damage on targets in Area of Effect</li></ul>", 
-                  "<ul><li>Inflicts 6 - 11 magic damage on targets in Area of Effect</li></ul>", 
-                  "<ul><li>Inflicts 4 - 6 magic damage on targets in Area of Effect</li></ul>", 
-                  "<ul><li>Inflicts 5 - 8 magic damage on targets in Area of Effect</li></ul>", 
-                  "<ul><li>Inflicts 4 - 6 magic damage on targets in Area of Effect</li></ul>", 
                   "<ul><li>Inflicts 6 - 10 magic damage on targets in Area of Effect</li></ul>", 
-                  "<ul><li>Inflicts 4 - 7 magic damage on targets in Area of Effect</li></ul>"
+                  "<ul><li>Inflicts 6 - 10 magic damage on targets in Area of Effect</li></ul>", 
+                  "<ul><li>Inflicts 6 - 11 magic damage on targets in Area of Effect</li></ul>"
                ], 
                "icon": {
                   "backdrop": 313, 
                   "icon": 560
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Static Discharge", 
                "parent_id": 0, 
@@ -95,22 +97,23 @@
                "cost": 1, 
                "description": "A melee attack that can be executed while casting a spell. It interrupts the target if it strikes.", 
                "effects": [
-                  "<ul><li>Inflicts 2 - 4 melee damage on target</li><li>Interrupts target</li></ul>", 
-                  "<ul><li>Inflicts 3 - 6 melee damage on target</li><li>Interrupts target</li></ul>", 
                   "<ul><li>Inflicts 2 - 3 melee damage on target</li><li>Interrupts target</li></ul>", 
-                  "<ul><li>Inflicts 3 - 5 melee damage on target</li><li>Interrupts target</li></ul>", 
                   "<ul><li>Inflicts 2 - 3 melee damage on target</li><li>Interrupts target</li></ul>", 
-                  "<ul><li>Inflicts 3 - 5 melee damage on target</li><li>Interrupts target</li></ul>", 
                   "<ul><li>Inflicts 2 - 3 melee damage on target</li><li>Interrupts target</li></ul>", 
                   "<ul><li>Inflicts 2 - 4 melee damage on target</li><li>Interrupts target</li></ul>", 
+                  "<ul><li>Inflicts 2 - 4 melee damage on target</li><li>Interrupts target</li></ul>", 
+                  "<ul><li>Inflicts 2 - 4 melee damage on target</li><li>Interrupts target</li></ul>", 
                   "<ul><li>Inflicts 3 - 5 melee damage on target</li><li>Interrupts target</li></ul>", 
-                  "<ul><li>Inflicts 2 - 4 melee damage on target</li><li>Interrupts target</li></ul>"
+                  "<ul><li>Inflicts 3 - 5 melee damage on target</li><li>Interrupts target</li></ul>", 
+                  "<ul><li>Inflicts 3 - 5 melee damage on target</li><li>Interrupts target</li></ul>", 
+                  "<ul><li>Inflicts 3 - 6 melee damage on target</li><li>Interrupts target</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 658
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Ambidexterous Casting", 
                "parent_id": 0, 
@@ -136,22 +139,23 @@
                "cost": 1, 
                "description": "Enemies who strike you will receive magic damage.", 
                "effects": [
-                  "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 2 - 3 magic damage on target</li></ul></ul>", 
-                  "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 3 - 4 magic damage on target</li></ul></ul>", 
-                  "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 2 - 4 magic damage on target</li></ul></ul>", 
-                  "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 2 - 4 magic damage on target</li></ul></ul>", 
                   "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 1 - 2 magic damage on target</li></ul></ul>", 
                   "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 2 - 3 magic damage on target</li></ul></ul>", 
                   "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 2 - 3 magic damage on target</li></ul></ul>", 
-                  "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 3 - 5 magic damage on target</li></ul></ul>", 
+                  "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 2 - 3 magic damage on target</li></ul></ul>", 
+                  "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 2 - 3 magic damage on target</li></ul></ul>", 
                   "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 2 - 4 magic damage on target</li></ul></ul>", 
-                  "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 2 - 3 magic damage on target</li></ul></ul>"
+                  "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 2 - 4 magic damage on target</li></ul></ul>", 
+                  "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 2 - 4 magic damage on target</li></ul></ul>", 
+                  "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 3 - 4 magic damage on target</li></ul></ul>", 
+                  "<ul><li>When damaged with a melee weapon this spell will cast Static Discharge on target's attacker.  </li><ul><li>Inflicts 3 - 5 magic damage on target</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 272
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Static Shield", 
                "parent_id": 0, 
@@ -177,22 +181,23 @@
                "cost": 1, 
                "description": "The Sage's next hostile spell will have its damage increased.", 
                "effects": [
-                  "<ul><li>Your next spell will deal 26% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
+                  "<ul><li>Your next spell will deal 10% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
+                  "<ul><li>Your next spell will deal 12% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
+                  "<ul><li>Your next spell will deal 14% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
+                  "<ul><li>Your next spell will deal 16% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
                   "<ul><li>Your next spell will deal 18% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
                   "<ul><li>Your next spell will deal 20% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
-                  "<ul><li>Your next spell will deal 12% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
                   "<ul><li>Your next spell will deal 22% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
-                  "<ul><li>Your next spell will deal 28% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
-                  "<ul><li>Your next spell will deal 10% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
-                  "<ul><li>Your next spell will deal 16% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
                   "<ul><li>Your next spell will deal 24% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
-                  "<ul><li>Your next spell will deal 14% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>"
+                  "<ul><li>Your next spell will deal 26% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>", 
+                  "<ul><li>Your next spell will deal 28% additional damage.</li><li>Dispelled when target casts a hostile spell</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 654
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Freehand Sorcery", 
                "parent_id": 0, 
@@ -218,22 +223,23 @@
                "cost": 1, 
                "description": "A ranged kinetic attack that damages the target using your melee weapon and reduces its hate towards the Kineticist.", 
                "effects": [
-                  "<ul><li>Decreases Threat to target by 53 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 54 </li><li>Inflicts 1 - 3 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 49 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 33 </li><li>Inflicts 1 melee damage on target</li></ul>", 
                   "<ul><li>Decreases Threat to target by 29 </li><li>Inflicts 1 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 39 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
                   "<ul><li>Decreases Threat to target by 31 </li><li>Inflicts 1 melee damage on target</li></ul>", 
+                  "<ul><li>Decreases Threat to target by 33 </li><li>Inflicts 1 melee damage on target</li></ul>", 
+                  "<ul><li>Decreases Threat to target by 36 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
+                  "<ul><li>Decreases Threat to target by 39 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
                   "<ul><li>Decreases Threat to target by 43 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
                   "<ul><li>Decreases Threat to target by 46 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 36 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>"
+                  "<ul><li>Decreases Threat to target by 49 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
+                  "<ul><li>Decreases Threat to target by 53 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
+                  "<ul><li>Decreases Threat to target by 54 </li><li>Inflicts 1 - 3 melee damage on target</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 559
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Confounding", 
                "parent_id": 0, 
@@ -261,20 +267,21 @@
                "effects": [
                   "<ul><li>Caster will Parry 1.0% of incoming attacks</li></ul>", 
                   "<ul><li>Caster will Parry 2.0% of incoming attacks</li></ul>", 
-                  "<ul><li>Caster will Parry 9.0% of incoming attacks</li></ul>", 
-                  "<ul><li>Caster will Parry 10.0% of incoming attacks</li></ul>", 
-                  "<ul><li>Caster will Parry 8.0% of incoming attacks</li></ul>", 
-                  "<ul><li>Caster will Parry 6.0% of incoming attacks</li></ul>", 
-                  "<ul><li>Caster will Parry 4.0% of incoming attacks</li></ul>", 
-                  "<ul><li>Caster will Parry 7.0% of incoming attacks</li></ul>", 
                   "<ul><li>Caster will Parry 3.0% of incoming attacks</li></ul>", 
-                  "<ul><li>Caster will Parry 5.0% of incoming attacks</li></ul>"
+                  "<ul><li>Caster will Parry 4.0% of incoming attacks</li></ul>", 
+                  "<ul><li>Caster will Parry 5.0% of incoming attacks</li></ul>", 
+                  "<ul><li>Caster will Parry 6.0% of incoming attacks</li></ul>", 
+                  "<ul><li>Caster will Parry 7.0% of incoming attacks</li></ul>", 
+                  "<ul><li>Caster will Parry 8.0% of incoming attacks</li></ul>", 
+                  "<ul><li>Caster will Parry 9.0% of incoming attacks</li></ul>", 
+                  "<ul><li>Caster will Parry 10.0% of incoming attacks</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 246
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Deflecting Staff", 
                "parent_id": 1, 
@@ -300,22 +307,23 @@
                "cost": 1, 
                "description": "Increases the Spellshifter's movement speed.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 6.2%</li><li>Increases in-combat movement speed of caster by 6.2%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 11.3%</li><li>Increases in-combat movement speed of caster by 11.3%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 12.5%</li><li>Increases in-combat movement speed of caster by 12.5%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 7.5%</li><li>Increases in-combat movement speed of caster by 7.5%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 5.0%</li><li>Increases in-combat movement speed of caster by 5.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 1.3%</li><li>Increases in-combat movement speed of caster by 1.3%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 10.0%</li><li>Increases in-combat movement speed of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 8.8%</li><li>Increases in-combat movement speed of caster by 8.8%</li></ul>", 
                   "<ul><li>Increases speed of caster by 2.5%</li><li>Increases in-combat movement speed of caster by 2.5%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 3.7%</li><li>Increases in-combat movement speed of caster by 3.7%</li></ul>"
+                  "<ul><li>Increases speed of caster by 3.7%</li><li>Increases in-combat movement speed of caster by 3.7%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 5.0%</li><li>Increases in-combat movement speed of caster by 5.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 6.2%</li><li>Increases in-combat movement speed of caster by 6.2%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 7.5%</li><li>Increases in-combat movement speed of caster by 7.5%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 8.8%</li><li>Increases in-combat movement speed of caster by 8.8%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 10.0%</li><li>Increases in-combat movement speed of caster by 10.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 11.3%</li><li>Increases in-combat movement speed of caster by 11.3%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 12.5%</li><li>Increases in-combat movement speed of caster by 12.5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 557
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Shift Momentum", 
                "parent_id": 2, 
@@ -357,6 +365,7 @@
                   "icon": 622
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Battlemage Armor", 
                "parent_id": 3, 
@@ -382,15 +391,15 @@
                "cost": 1, 
                "description": "Provides the Sage with a regenerating ward that absorbs all non-physical damage.", 
                "effects": [
-                  "<ul><li>Wards caster against 4 points of elemental, noxious and arcane damage</li></ul>", 
-                  "<ul><li>Wards caster against 1 points of elemental, noxious and arcane damage</li></ul>", 
-                  "<ul><li>Wards caster against 3 points of elemental, noxious and arcane damage</li></ul>", 
-                  "<ul><li>Wards caster against 1 points of elemental, noxious and arcane damage</li></ul>", 
-                  "<ul><li>Wards caster against 3 points of elemental, noxious and arcane damage</li></ul>", 
                   "<ul><li>Wards caster against 0 points of elemental, noxious and arcane damage</li></ul>", 
+                  "<ul><li>Wards caster against 1 points of elemental, noxious and arcane damage</li></ul>", 
+                  "<ul><li>Wards caster against 1 points of elemental, noxious and arcane damage</li></ul>", 
                   "<ul><li>Wards caster against 2 points of elemental, noxious and arcane damage</li></ul>", 
+                  "<ul><li>Wards caster against 2 points of elemental, noxious and arcane damage</li></ul>", 
+                  "<ul><li>Wards caster against 3 points of elemental, noxious and arcane damage</li></ul>", 
+                  "<ul><li>Wards caster against 3 points of elemental, noxious and arcane damage</li></ul>", 
                   "<ul><li>Wards caster against 4 points of elemental, noxious and arcane damage</li></ul>", 
-                  "<ul><li>Wards caster against 2 points of elemental, noxious and arcane damage</li></ul>", 
+                  "<ul><li>Wards caster against 4 points of elemental, noxious and arcane damage</li></ul>", 
                   "<ul><li>Wards caster against 5 points of elemental, noxious and arcane damage</li></ul>"
                ], 
                "icon": {
@@ -398,6 +407,7 @@
                   "icon": 203
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Ward of Sages", 
                "parent_id": 4, 
@@ -439,6 +449,7 @@
                   "icon": 543
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Kinetic Evasion", 
                "parent_id": 5, 
@@ -462,15 +473,15 @@
                "cost": 1, 
                "description": "Grants the Invoker an improved chance to critical hit with offensive spells.", 
                "effects": [
-                  "<ul><li>Increases Crit Chance of caster by 10.5</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 4.7</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 3.5</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 7.0</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 5.8</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 8.2</li></ul>", 
                   "<ul><li>Increases Crit Chance of caster by 1.2</li></ul>", 
                   "<ul><li>Increases Crit Chance of caster by 2.3</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 3.5</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 4.7</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 5.8</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 7.0</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 8.2</li></ul>", 
                   "<ul><li>Increases Crit Chance of caster by 9.3</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 10.5</li></ul>", 
                   "<ul><li>Increases Crit Chance of caster by 11.7</li></ul>"
                ], 
                "icon": {
@@ -478,6 +489,7 @@
                   "icon": 568
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Spell Expertise", 
                "parent_id": 6, 
@@ -501,22 +513,23 @@
                "cost": 1, 
                "description": "Increases the Spellshifter's casting speed.", 
                "effects": [
+                  "<ul><li>Increases Ability Casting Speed of caster by 1.4%</li></ul>", 
                   "<ul><li>Increases Ability Casting Speed of caster by 2.9%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of caster by 4.3%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of caster by 5.8%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of caster by 7.2%</li></ul>", 
                   "<ul><li>Increases Ability Casting Speed of caster by 8.6%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of caster by 10.1%</li></ul>", 
                   "<ul><li>Increases Ability Casting Speed of caster by 11.5%</li></ul>", 
                   "<ul><li>Increases Ability Casting Speed of caster by 13.0%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of caster by 7.2%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of caster by 10.1%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of caster by 1.4%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of caster by 5.8%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of caster by 14.4%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of caster by 4.3%</li></ul>"
+                  "<ul><li>Increases Ability Casting Speed of caster by 14.4%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 626
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Spellshaping", 
                "parent_id": 7, 
@@ -556,6 +569,7 @@
                   "icon": 584
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Battlemage's Fervor", 
                "parent_id": 8, 
@@ -579,22 +593,23 @@
                "cost": 1, 
                "description": "All of the Sage's spells have their base damage numbers increased.", 
                "effects": [
-                  "<ul><li>Increases the base damage of all spells by 1.2%.</li></ul>", 
-                  "<ul><li>Increases the base damage of all spells by 2.4%.</li></ul>", 
-                  "<ul><li>Increases the base damage of all spells by 4%.</li></ul>", 
-                  "<ul><li>Increases the base damage of all spells by 2%.</li></ul>", 
-                  "<ul><li>Increases the base damage of all spells by 2.8%.</li></ul>", 
-                  "<ul><li>Increases the base damage of all spells by 3.2%.</li></ul>", 
                   "<ul><li>Increases the base damage of all spells by 0.4%.</li></ul>", 
                   "<ul><li>Increases the base damage of all spells by 0.8%.</li></ul>", 
+                  "<ul><li>Increases the base damage of all spells by 1.2%.</li></ul>", 
                   "<ul><li>Increases the base damage of all spells by 1.6%.</li></ul>", 
-                  "<ul><li>Increases the base damage of all spells by 3.6%.</li></ul>"
+                  "<ul><li>Increases the base damage of all spells by 2%.</li></ul>", 
+                  "<ul><li>Increases the base damage of all spells by 2.4%.</li></ul>", 
+                  "<ul><li>Increases the base damage of all spells by 2.8%.</li></ul>", 
+                  "<ul><li>Increases the base damage of all spells by 3.2%.</li></ul>", 
+                  "<ul><li>Increases the base damage of all spells by 3.6%.</li></ul>", 
+                  "<ul><li>Increases the base damage of all spells by 4%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 583
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Brainstorm", 
                "parent_id": 9, 
@@ -618,22 +633,23 @@
                "cost": 1, 
                "description": "All hate that the Kineticist accrues with enemies is reduced, allowing the Kineticist to get away with causing more damage without attracting the attention of enemies.", 
                "effects": [
-                  "<ul><li>Decreases Hate Gain of caster by 6.0%</li></ul>", 
-                  "<ul><li>Decreases Hate Gain of caster by 10.0%</li></ul>", 
-                  "<ul><li>Decreases Hate Gain of caster by 20.0%</li></ul>", 
-                  "<ul><li>Decreases Hate Gain of caster by 14.0%</li></ul>", 
-                  "<ul><li>Decreases Hate Gain of caster by 18.0%</li></ul>", 
-                  "<ul><li>Decreases Hate Gain of caster by 12.0%</li></ul>", 
-                  "<ul><li>Decreases Hate Gain of caster by 8.0%</li></ul>", 
                   "<ul><li>Decreases Hate Gain of caster by 2.0%</li></ul>", 
+                  "<ul><li>Decreases Hate Gain of caster by 4.0%</li></ul>", 
+                  "<ul><li>Decreases Hate Gain of caster by 6.0%</li></ul>", 
+                  "<ul><li>Decreases Hate Gain of caster by 8.0%</li></ul>", 
+                  "<ul><li>Decreases Hate Gain of caster by 10.0%</li></ul>", 
+                  "<ul><li>Decreases Hate Gain of caster by 12.0%</li></ul>", 
+                  "<ul><li>Decreases Hate Gain of caster by 14.0%</li></ul>", 
                   "<ul><li>Decreases Hate Gain of caster by 16.0%</li></ul>", 
-                  "<ul><li>Decreases Hate Gain of caster by 4.0%</li></ul>"
+                  "<ul><li>Decreases Hate Gain of caster by 18.0%</li></ul>", 
+                  "<ul><li>Decreases Hate Gain of caster by 20.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 556
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Kinetic Avoidance", 
                "parent_id": 10, 
@@ -664,6 +680,7 @@
                   "icon": 621
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Catalyst", 
                "parent_id": -1, 
@@ -694,6 +711,7 @@
                   "icon": 627
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Spellshifting", 
                "parent_id": -1, 
@@ -724,6 +742,7 @@
                   "icon": 581
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Manashield", 
                "parent_id": -1, 
@@ -754,6 +773,7 @@
                   "icon": 269
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Sagacity", 
                "parent_id": -1, 
@@ -784,6 +804,7 @@
                   "icon": 561
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Concussive Blast", 
                "parent_id": -1, 
@@ -807,20 +828,21 @@
                "cost": 1, 
                "description": "Reduces the recast time of Catalyst and reduces resistibility while Catalyst is active.", 
                "effects": [
-                  "<ul><li>Reduces the reuse time of Catalyst by 24 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 16%</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Catalyst by 9 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 6%</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Catalyst by 21 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 14%</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Catalyst by 12 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 8%</li></ul>", 
                   "<ul><li>Reduces the reuse time of Catalyst by 3 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 2%</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Catalyst by 18 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 12%</li></ul>", 
                   "<ul><li>Reduces the reuse time of Catalyst by 6 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 4%</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Catalyst by 15 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 10%</li></ul>"
+                  "<ul><li>Reduces the reuse time of Catalyst by 9 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 6%</li></ul>", 
+                  "<ul><li>Reduces the reuse time of Catalyst by 12 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 8%</li></ul>", 
+                  "<ul><li>Reduces the reuse time of Catalyst by 15 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 10%</li></ul>", 
+                  "<ul><li>Reduces the reuse time of Catalyst by 18 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 12%</li></ul>", 
+                  "<ul><li>Reduces the reuse time of Catalyst by 21 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 14%</li></ul>", 
+                  "<ul><li>Reduces the reuse time of Catalyst by 24 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 16%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 216
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Focused Catalyst", 
                "parent_id": -1, 
@@ -844,20 +866,21 @@
                "cost": 1, 
                "description": "Improves the recovery time of the sorcerer between casting individual spells.", 
                "effects": [
-                  "<ul><li>Increases Ability Recovery Speed of caster by 35.0%</li></ul>", 
-                  "<ul><li>Increases Ability Recovery Speed of caster by 28.0%</li></ul>", 
-                  "<ul><li>Increases Ability Recovery Speed of caster by 56.0%</li></ul>", 
                   "<ul><li>Increases Ability Recovery Speed of caster by 7.0%</li></ul>", 
-                  "<ul><li>Increases Ability Recovery Speed of caster by 49.0%</li></ul>", 
                   "<ul><li>Increases Ability Recovery Speed of caster by 14.0%</li></ul>", 
+                  "<ul><li>Increases Ability Recovery Speed of caster by 21.0%</li></ul>", 
+                  "<ul><li>Increases Ability Recovery Speed of caster by 28.0%</li></ul>", 
+                  "<ul><li>Increases Ability Recovery Speed of caster by 35.0%</li></ul>", 
                   "<ul><li>Increases Ability Recovery Speed of caster by 42.0%</li></ul>", 
-                  "<ul><li>Increases Ability Recovery Speed of caster by 21.0%</li></ul>"
+                  "<ul><li>Increases Ability Recovery Speed of caster by 49.0%</li></ul>", 
+                  "<ul><li>Increases Ability Recovery Speed of caster by 56.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 367
                }, 
                "id": 22, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Mental Recovery", 
                "parent_id": -1, 
@@ -881,13 +904,13 @@
                "cost": 1, 
                "description": "Absorbs a portion of physical damage done to the sorcerer.", 
                "effects": [
-                  "<ul><li>Reduces physical damage done to caster by 1.5%</li></ul>", 
-                  "<ul><li>Reduces physical damage done to caster by 4.5%</li></ul>", 
                   "<ul><li>Reduces physical damage done to caster by 0.75%</li></ul>", 
+                  "<ul><li>Reduces physical damage done to caster by 1.5%</li></ul>", 
                   "<ul><li>Reduces physical damage done to caster by 2.25%</li></ul>", 
-                  "<ul><li>Reduces physical damage done to caster by 5.25%</li></ul>", 
                   "<ul><li>Reduces physical damage done to caster by 3%</li></ul>", 
                   "<ul><li>Reduces physical damage done to caster by 3.75%</li></ul>", 
+                  "<ul><li>Reduces physical damage done to caster by 4.5%</li></ul>", 
+                  "<ul><li>Reduces physical damage done to caster by 5.25%</li></ul>", 
                   "<ul><li>Reduces physical damage done to caster by 6%</li></ul>"
                ], 
                "icon": {
@@ -895,6 +918,7 @@
                   "icon": 245
                }, 
                "id": 23, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Runic Barrier", 
                "parent_id": -1, 
@@ -918,20 +942,21 @@
                "cost": 1, 
                "description": "Adds critical bonus to Freehand Sorcery.", 
                "effects": [
-                  "<ul><li>Adds 9% Crit Bonus to Freehand Sorcery.</li></ul>", 
                   "<ul><li>Adds 3% Crit Bonus to Freehand Sorcery.</li></ul>", 
-                  "<ul><li>Adds 24% Crit Bonus to Freehand Sorcery.</li></ul>", 
-                  "<ul><li>Adds 18% Crit Bonus to Freehand Sorcery.</li></ul>", 
                   "<ul><li>Adds 6% Crit Bonus to Freehand Sorcery.</li></ul>", 
-                  "<ul><li>Adds 15% Crit Bonus to Freehand Sorcery.</li></ul>", 
+                  "<ul><li>Adds 9% Crit Bonus to Freehand Sorcery.</li></ul>", 
                   "<ul><li>Adds 12% Crit Bonus to Freehand Sorcery.</li></ul>", 
-                  "<ul><li>Adds 21% Crit Bonus to Freehand Sorcery.</li></ul>"
+                  "<ul><li>Adds 15% Crit Bonus to Freehand Sorcery.</li></ul>", 
+                  "<ul><li>Adds 18% Crit Bonus to Freehand Sorcery.</li></ul>", 
+                  "<ul><li>Adds 21% Crit Bonus to Freehand Sorcery.</li></ul>", 
+                  "<ul><li>Adds 24% Crit Bonus to Freehand Sorcery.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 654
                }, 
                "id": 24, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Mental Acuity", 
                "parent_id": -1, 
@@ -955,20 +980,21 @@
                "cost": 1, 
                "description": "Reduces the recast time of threat and hate position reduction spells.  Also any threat reduction on a spell will be improved.", 
                "effects": [
-                  "<ul><li>Improves the hate reduction of spells by 15%.</li><li>Improves the reuse speed of any hate modifying spell by 37.5%.</li></ul>", 
-                  "<ul><li>Improves the hate reduction of spells by 30%.</li><li>Improves the reuse speed of any hate modifying spell by 75%.</li></ul>", 
-                  "<ul><li>Improves the hate reduction of spells by 20%.</li><li>Improves the reuse speed of any hate modifying spell by 50%.</li></ul>", 
-                  "<ul><li>Improves the hate reduction of spells by 10%.</li><li>Improves the reuse speed of any hate modifying spell by 25%.</li></ul>", 
-                  "<ul><li>Improves the hate reduction of spells by 25%.</li><li>Improves the reuse speed of any hate modifying spell by 62.5%.</li></ul>", 
-                  "<ul><li>Improves the hate reduction of spells by 40%.</li><li>Improves the reuse speed of any hate modifying spell by 100%.</li></ul>", 
                   "<ul><li>Improves the hate reduction of spells by 5%.</li><li>Improves the reuse speed of any hate modifying spell by 12.5%.</li></ul>", 
-                  "<ul><li>Improves the hate reduction of spells by 35%.</li><li>Improves the reuse speed of any hate modifying spell by 87.5%.</li></ul>"
+                  "<ul><li>Improves the hate reduction of spells by 10%.</li><li>Improves the reuse speed of any hate modifying spell by 25%.</li></ul>", 
+                  "<ul><li>Improves the hate reduction of spells by 15%.</li><li>Improves the reuse speed of any hate modifying spell by 37.5%.</li></ul>", 
+                  "<ul><li>Improves the hate reduction of spells by 20%.</li><li>Improves the reuse speed of any hate modifying spell by 50%.</li></ul>", 
+                  "<ul><li>Improves the hate reduction of spells by 25%.</li><li>Improves the reuse speed of any hate modifying spell by 62.5%.</li></ul>", 
+                  "<ul><li>Improves the hate reduction of spells by 30%.</li><li>Improves the reuse speed of any hate modifying spell by 75%.</li></ul>", 
+                  "<ul><li>Improves the hate reduction of spells by 35%.</li><li>Improves the reuse speed of any hate modifying spell by 87.5%.</li></ul>", 
+                  "<ul><li>Improves the hate reduction of spells by 40%.</li><li>Improves the reuse speed of any hate modifying spell by 100%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 579
                }, 
                "id": 25, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Hateful Respite", 
                "parent_id": -1, 
@@ -992,14 +1018,15 @@
                "cost": 2, 
                "description": "The sorcerer focuses their energies into a frontal blast of energy which can damage up to 8 targets.", 
                "effects": [
-                  "<ul><li>Inflicts 36 - 59 magic damage on targets in Area of Effect</li></ul>", 
-                  "<ul><li>Inflicts 22 - 37 magic damage on targets in Area of Effect</li></ul>"
+                  "<ul><li>Inflicts 22 - 37 magic damage on targets in Area of Effect</li></ul>", 
+                  "<ul><li>Inflicts 36 - 59 magic damage on targets in Area of Effect</li></ul>"
                ], 
                "icon": {
                   "backdrop": 313, 
                   "icon": 29
                }, 
                "id": 26, 
+               "level": 0, 
                "max_level": 2, 
                "name": "Blast of Devastation", 
                "parent_id": -1, 
@@ -1060,16 +1087,17 @@
                "description": "Improves the critical damage and hastens the casting speed and reduces the power cost of Solar Flare and its upgrades.", 
                "effects": [
                   "<ul><li>Improves casting speed by 0.1 seconds</li><li>Reduces power cost by 3%</li><li>Improves the Crit Bonus by 1%</li></ul>", 
-                  "<ul><li>Improves casting speed by 0.5 seconds</li><li>Reduces power cost by 15%</li><li>Improves the Crit Bonus by 5%</li></ul>", 
                   "<ul><li>Improves casting speed by 0.2 seconds</li><li>Reduces power cost by 6%</li><li>Improves the Crit Bonus by 2%</li></ul>", 
+                  "<ul><li>Improves casting speed by 0.3 seconds</li><li>Reduces power cost by 9%</li><li>Improves the Crit Bonus by 3%</li></ul>", 
                   "<ul><li>Improves casting speed by 0.4 seconds</li><li>Reduces power cost by 12%</li><li>Improves the Crit Bonus by 4%</li></ul>", 
-                  "<ul><li>Improves casting speed by 0.3 seconds</li><li>Reduces power cost by 9%</li><li>Improves the Crit Bonus by 3%</li></ul>"
+                  "<ul><li>Improves casting speed by 0.5 seconds</li><li>Reduces power cost by 15%</li><li>Improves the Crit Bonus by 5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 161
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Solar Flare", 
                "parent_id": -1, 
@@ -1093,17 +1121,18 @@
                "cost": 1, 
                "description": "Increases the maximum power increased by Fortify Elements and its upgrades.", 
                "effects": [
-                  "<ul><li>Increases maximum power by 12%</li></ul>", 
                   "<ul><li>Increases maximum power by 4%</li></ul>", 
-                  "<ul><li>Increases maximum power by 20%</li></ul>", 
+                  "<ul><li>Increases maximum power by 8%</li></ul>", 
+                  "<ul><li>Increases maximum power by 12%</li></ul>", 
                   "<ul><li>Increases maximum power by 16%</li></ul>", 
-                  "<ul><li>Increases maximum power by 8%</li></ul>"
+                  "<ul><li>Increases maximum power by 20%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 203
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Fortify Elements", 
                "parent_id": -1, 
@@ -1143,6 +1172,7 @@
                   "icon": 163
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Enhance: Magi's Shielding", 
                "parent_id": -1, 
@@ -1166,17 +1196,18 @@
                "cost": 1, 
                "description": "Reduces the resistibility of Ice Spears and its upgrades and improves their ability to reduce enemies' resistances.", 
                "effects": [
-                  "<ul><li>Improves cold and heat resistance reduction by 14%</li><li>Reduces resistibility by 6%</li></ul>", 
-                  "<ul><li>Improves cold and heat resistance reduction by 35%</li><li>Reduces resistibility by 15%</li></ul>", 
                   "<ul><li>Improves cold and heat resistance reduction by 7%</li><li>Reduces resistibility by 3%</li></ul>", 
+                  "<ul><li>Improves cold and heat resistance reduction by 14%</li><li>Reduces resistibility by 6%</li></ul>", 
+                  "<ul><li>Improves cold and heat resistance reduction by 21%</li><li>Reduces resistibility by 9%</li></ul>", 
                   "<ul><li>Improves cold and heat resistance reduction by 28%</li><li>Reduces resistibility by 12%</li></ul>", 
-                  "<ul><li>Improves cold and heat resistance reduction by 21%</li><li>Reduces resistibility by 9%</li></ul>"
+                  "<ul><li>Improves cold and heat resistance reduction by 35%</li><li>Reduces resistibility by 15%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 505
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Ice Spears", 
                "parent_id": -1, 
@@ -1200,17 +1231,18 @@
                "cost": 1, 
                "description": "Improves the critical damage and hastens the casting speed and reduces the power cost of Immolation and its upgrades.", 
                "effects": [
-                  "<ul><li>Reduces power cost by 12%</li><li>Improves the Crit Bonus by 8%</li><li>Improves casting speed by 0.4 seconds</li></ul>", 
                   "<ul><li>Reduces power cost by 3%</li><li>Improves the Crit Bonus by 2%</li><li>Improves casting speed by 0.1 seconds</li></ul>", 
-                  "<ul><li>Reduces power cost by 15%</li><li>Improves the Crit Bonus by 10%</li><li>Improves casting speed by 0.5 seconds</li></ul>", 
                   "<ul><li>Reduces power cost by 6%</li><li>Improves the Crit Bonus by 4%</li><li>Improves casting speed by 0.2 seconds</li></ul>", 
-                  "<ul><li>Reduces power cost by 9%</li><li>Improves the Crit Bonus by 6%</li><li>Improves casting speed by 0.3 seconds</li></ul>"
+                  "<ul><li>Reduces power cost by 9%</li><li>Improves the Crit Bonus by 6%</li><li>Improves casting speed by 0.3 seconds</li></ul>", 
+                  "<ul><li>Reduces power cost by 12%</li><li>Improves the Crit Bonus by 8%</li><li>Improves casting speed by 0.4 seconds</li></ul>", 
+                  "<ul><li>Reduces power cost by 15%</li><li>Improves the Crit Bonus by 10%</li><li>Improves casting speed by 0.5 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 482
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Immolation", 
                "parent_id": -1, 
@@ -1234,17 +1266,18 @@
                "cost": 1, 
                "description": "Improves the critical damage and hastens the reuse speed and reduces the power cost of Magma Chamber and its upgrades.", 
                "effects": [
-                  "<ul><li>Reduces power cost by 15%</li><li>Improves reuse speed by 5 seconds</li><li>Improves the Crit Bonus by 10%</li></ul>", 
-                  "<ul><li>Reduces power cost by 12%</li><li>Improves reuse speed by 4 seconds</li><li>Improves the Crit Bonus by 8%</li></ul>", 
                   "<ul><li>Reduces power cost by 3%</li><li>Improves reuse speed by 1 seconds</li><li>Improves the Crit Bonus by 2%</li></ul>", 
+                  "<ul><li>Reduces power cost by 6%</li><li>Improves reuse speed by 2 seconds</li><li>Improves the Crit Bonus by 4%</li></ul>", 
                   "<ul><li>Reduces power cost by 9%</li><li>Improves reuse speed by 3 seconds</li><li>Improves the Crit Bonus by 6%</li></ul>", 
-                  "<ul><li>Reduces power cost by 6%</li><li>Improves reuse speed by 2 seconds</li><li>Improves the Crit Bonus by 4%</li></ul>"
+                  "<ul><li>Reduces power cost by 12%</li><li>Improves reuse speed by 4 seconds</li><li>Improves the Crit Bonus by 8%</li></ul>", 
+                  "<ul><li>Reduces power cost by 15%</li><li>Improves reuse speed by 5 seconds</li><li>Improves the Crit Bonus by 10%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 160
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Magma Chamber", 
                "parent_id": -1, 
@@ -1269,8 +1302,8 @@
                "description": "Increases the trigger chance of Converge and its upgrades.", 
                "effects": [
                   "<ul><li>Increases trigger chance by 1%</li></ul>", 
-                  "<ul><li>Increases trigger chance by 3%</li></ul>", 
                   "<ul><li>Increases trigger chance by 2%</li></ul>", 
+                  "<ul><li>Increases trigger chance by 3%</li></ul>", 
                   "<ul><li>Increases trigger chance by 4%</li></ul>", 
                   "<ul><li>Increases trigger chance by 5%</li></ul>"
                ], 
@@ -1279,6 +1312,7 @@
                   "icon": 243
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Converge", 
                "parent_id": -1, 
@@ -1302,17 +1336,18 @@
                "cost": 1, 
                "description": "Improves the critical amount and hastens the reuse speed of Cease and its upgrades.", 
                "effects": [
-                  "<ul><li>Improves the Crit Bonus by 20%</li><li>Improves reuse speed by 4 seconds</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 15%</li><li>Improves reuse speed by 3 seconds</li></ul>", 
                   "<ul><li>Improves the Crit Bonus by 5%</li><li>Improves reuse speed by 1 seconds</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 25%</li><li>Improves reuse speed by 5 seconds</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 10%</li><li>Improves reuse speed by 2 seconds</li></ul>"
+                  "<ul><li>Improves the Crit Bonus by 10%</li><li>Improves reuse speed by 2 seconds</li></ul>", 
+                  "<ul><li>Improves the Crit Bonus by 15%</li><li>Improves reuse speed by 3 seconds</li></ul>", 
+                  "<ul><li>Improves the Crit Bonus by 20%</li><li>Improves reuse speed by 4 seconds</li></ul>", 
+                  "<ul><li>Improves the Crit Bonus by 25%</li><li>Improves reuse speed by 5 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 476
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Cease", 
                "parent_id": -1, 
@@ -1336,17 +1371,18 @@
                "cost": 1, 
                "description": "Increases the damage and reduces the resistibility of Storm of Lightning and its upgrades.", 
                "effects": [
-                  "<ul><li>Reduces resistibility by 12%</li><li>Increases damage by 12%</li></ul>", 
                   "<ul><li>Reduces resistibility by 3%</li><li>Increases damage by 3%</li></ul>", 
                   "<ul><li>Reduces resistibility by 6%</li><li>Increases damage by 6%</li></ul>", 
-                  "<ul><li>Reduces resistibility by 15%</li><li>Increases damage by 15%</li></ul>", 
-                  "<ul><li>Reduces resistibility by 9%</li><li>Increases damage by 9%</li></ul>"
+                  "<ul><li>Reduces resistibility by 9%</li><li>Increases damage by 9%</li></ul>", 
+                  "<ul><li>Reduces resistibility by 12%</li><li>Increases damage by 12%</li></ul>", 
+                  "<ul><li>Reduces resistibility by 15%</li><li>Increases damage by 15%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 312, 
                   "icon": 169
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Storm of Lightning", 
                "parent_id": -1, 
@@ -1370,10 +1406,10 @@
                "cost": 1, 
                "description": "Increases the radius and reduces the power cost of Firestorm and its upgrades.", 
                "effects": [
-                  "<ul><li>Reduces power cost by 9%</li><li>Increases radius by 60%</li></ul>", 
-                  "<ul><li>Reduces power cost by 12%</li><li>Increases radius by 80%</li></ul>", 
                   "<ul><li>Reduces power cost by 3%</li><li>Increases radius by 20%</li></ul>", 
                   "<ul><li>Reduces power cost by 6%</li><li>Increases radius by 40%</li></ul>", 
+                  "<ul><li>Reduces power cost by 9%</li><li>Increases radius by 60%</li></ul>", 
+                  "<ul><li>Reduces power cost by 12%</li><li>Increases radius by 80%</li></ul>", 
                   "<ul><li>Reduces power cost by 15%</li><li>Increases radius by 100%</li></ul>"
                ], 
                "icon": {
@@ -1381,6 +1417,7 @@
                   "icon": 481
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Firestorm", 
                "parent_id": -1, 
@@ -1404,8 +1441,8 @@
                "cost": 1, 
                "description": "Improves the critical damage and hastens the casting speed and reduces the power cost of Ball of Fire and its upgrades.", 
                "effects": [
-                  "<ul><li>Improves casting speed by 0.2 seconds</li><li>Improves the Crit Bonus by 2%</li><li>Reduces power cost by 6%</li></ul>", 
                   "<ul><li>Improves casting speed by 0.1 seconds</li><li>Improves the Crit Bonus by 1%</li><li>Reduces power cost by 3%</li></ul>", 
+                  "<ul><li>Improves casting speed by 0.2 seconds</li><li>Improves the Crit Bonus by 2%</li><li>Reduces power cost by 6%</li></ul>", 
                   "<ul><li>Improves casting speed by 0.3 seconds</li><li>Improves the Crit Bonus by 3%</li><li>Reduces power cost by 9%</li></ul>", 
                   "<ul><li>Improves casting speed by 0.4 seconds</li><li>Improves the Crit Bonus by 4%</li><li>Reduces power cost by 12%</li></ul>", 
                   "<ul><li>Improves casting speed by 0.5 seconds</li><li>Improves the Crit Bonus by 5%</li><li>Reduces power cost by 15%</li></ul>"
@@ -1415,6 +1452,7 @@
                   "icon": 242
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Ball of Fire", 
                "parent_id": -1, 
@@ -1438,17 +1476,18 @@
                "cost": 1, 
                "description": "Reduces the duration and power cost of Incinerate and its upgrades.", 
                "effects": [
-                  "<ul><li>Reduces duration by 4 seconds</li><li>Reduces power cost by 12%</li></ul>", 
-                  "<ul><li>Reduces duration by 2 seconds</li><li>Reduces power cost by 6%</li></ul>", 
-                  "<ul><li>Reduces duration by 5 seconds</li><li>Reduces power cost by 15%</li></ul>", 
                   "<ul><li>Reduces duration by 1 seconds</li><li>Reduces power cost by 3%</li></ul>", 
-                  "<ul><li>Reduces duration by 3 seconds</li><li>Reduces power cost by 9%</li></ul>"
+                  "<ul><li>Reduces duration by 2 seconds</li><li>Reduces power cost by 6%</li></ul>", 
+                  "<ul><li>Reduces duration by 3 seconds</li><li>Reduces power cost by 9%</li></ul>", 
+                  "<ul><li>Reduces duration by 4 seconds</li><li>Reduces power cost by 12%</li></ul>", 
+                  "<ul><li>Reduces duration by 5 seconds</li><li>Reduces power cost by 15%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 168
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Incinerate", 
                "parent_id": -1, 
@@ -1472,17 +1511,18 @@
                "cost": 1, 
                "description": "Improves the casting speed and reduces the health cost of Mana Intromission and its upgrades.", 
                "effects": [
-                  "<ul><li>Reduces health cost by 20%</li><li>Improves casting speed by 0.4 seconds</li></ul>", 
-                  "<ul><li>Reduces health cost by 50%</li><li>Improves casting speed by 1 seconds</li></ul>", 
-                  "<ul><li>Reduces health cost by 30%</li><li>Improves casting speed by 0.6 seconds</li></ul>", 
                   "<ul><li>Reduces health cost by 10%</li><li>Improves casting speed by 0.2 seconds</li></ul>", 
-                  "<ul><li>Reduces health cost by 40%</li><li>Improves casting speed by 0.8 seconds</li></ul>"
+                  "<ul><li>Reduces health cost by 20%</li><li>Improves casting speed by 0.4 seconds</li></ul>", 
+                  "<ul><li>Reduces health cost by 30%</li><li>Improves casting speed by 0.6 seconds</li></ul>", 
+                  "<ul><li>Reduces health cost by 40%</li><li>Improves casting speed by 0.8 seconds</li></ul>", 
+                  "<ul><li>Reduces health cost by 50%</li><li>Improves casting speed by 1 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 480
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Mana Intromission", 
                "parent_id": -1, 
@@ -1506,17 +1546,18 @@
                "cost": 1, 
                "description": "Hastens the reuse speed of Concussive.", 
                "effects": [
+                  "<ul><li>Improves the reuse speed by 1 seconds.</li><li>Improves threat reduction by 2%.</li></ul>", 
                   "<ul><li>Improves the reuse speed by 2 seconds.</li><li>Improves threat reduction by 4%.</li></ul>", 
                   "<ul><li>Improves the reuse speed by 3 seconds.</li><li>Improves threat reduction by 6%.</li></ul>", 
                   "<ul><li>Improves the reuse speed by 4 seconds.</li><li>Improves threat reduction by 8%.</li></ul>", 
-                  "<ul><li>Improves the reuse speed by 5 seconds.</li><li>Improves threat reduction by 10%.</li></ul>", 
-                  "<ul><li>Improves the reuse speed by 1 seconds.</li><li>Improves threat reduction by 2%.</li></ul>"
+                  "<ul><li>Improves the reuse speed by 5 seconds.</li><li>Improves threat reduction by 10%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 312, 
                   "icon": 270
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Concussive", 
                "parent_id": -1, 
@@ -1540,17 +1581,18 @@
                "cost": 1, 
                "description": "Improves the critical damage; hastens reuse speed and reduces the resistibility of Glacial Wind and its upgrades.", 
                "effects": [
-                  "<ul><li>Improves the Crit Bonus by 2%</li><li>Improves reuse speed by 2 seconds</li><li>Reduces resistibility by 6%</li></ul>", 
                   "<ul><li>Improves the Crit Bonus by 1%</li><li>Improves reuse speed by 1 seconds</li><li>Reduces resistibility by 3%</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 5%</li><li>Improves reuse speed by 5 seconds</li><li>Reduces resistibility by 15%</li></ul>", 
+                  "<ul><li>Improves the Crit Bonus by 2%</li><li>Improves reuse speed by 2 seconds</li><li>Reduces resistibility by 6%</li></ul>", 
                   "<ul><li>Improves the Crit Bonus by 3%</li><li>Improves reuse speed by 3 seconds</li><li>Reduces resistibility by 9%</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 4%</li><li>Improves reuse speed by 4 seconds</li><li>Reduces resistibility by 12%</li></ul>"
+                  "<ul><li>Improves the Crit Bonus by 4%</li><li>Improves reuse speed by 4 seconds</li><li>Reduces resistibility by 12%</li></ul>", 
+                  "<ul><li>Improves the Crit Bonus by 5%</li><li>Improves reuse speed by 5 seconds</li><li>Reduces resistibility by 15%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 312, 
                   "icon": 256
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Glacial Wind", 
                "parent_id": -1, 
@@ -1574,17 +1616,18 @@
                "cost": 1, 
                "description": "Increases the duration of Surge of Ro and its upgrades.", 
                "effects": [
-                  "<ul><li>Increases duration by 12 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 20 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 8 seconds</li></ul>", 
                   "<ul><li>Increases duration by 4 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 16 seconds</li></ul>"
+                  "<ul><li>Increases duration by 8 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 12 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 16 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 20 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 222
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Surge of Ro", 
                "parent_id": -1, 
@@ -1609,15 +1652,16 @@
                "description": "This ability hastens the damage effect of Storming Tempest, causing damage to occur faster.  The spell becomes less resistable as well.", 
                "effects": [
                   "<ul><li>Reduces duration by 2.4 seconds</li><li>Reduces resistibility by 3%</li></ul>", 
+                  "<ul><li>Reduces duration by 4.8 seconds</li><li>Reduces resistibility by 6%</li></ul>", 
                   "<ul><li>Reduces duration by 7.2 seconds</li><li>Reduces resistibility by 9%</li></ul>", 
-                  "<ul><li>Reduces duration by 9.6 seconds</li><li>Reduces resistibility by 12%</li></ul>", 
-                  "<ul><li>Reduces duration by 4.8 seconds</li><li>Reduces resistibility by 6%</li></ul>"
+                  "<ul><li>Reduces duration by 9.6 seconds</li><li>Reduces resistibility by 12%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 14
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 4, 
                "name": "Enhance: Storming Tempest", 
                "parent_id": -1, 
@@ -1641,22 +1685,23 @@
                "cost": 1, 
                "description": "Increases the strength of the Warding effect of your Mail of Frost.", 
                "effects": [
-                  "<ul><li>Increases ward by 40%</li></ul>", 
-                  "<ul><li>Increases ward by 80%</li></ul>", 
-                  "<ul><li>Increases ward by 72%</li></ul>", 
-                  "<ul><li>Increases ward by 24%</li></ul>", 
-                  "<ul><li>Increases ward by 56%</li></ul>", 
                   "<ul><li>Increases ward by 8%</li></ul>", 
                   "<ul><li>Increases ward by 16%</li></ul>", 
+                  "<ul><li>Increases ward by 24%</li></ul>", 
                   "<ul><li>Increases ward by 32%</li></ul>", 
+                  "<ul><li>Increases ward by 40%</li></ul>", 
                   "<ul><li>Increases ward by 48%</li></ul>", 
-                  "<ul><li>Increases ward by 64%</li></ul>"
+                  "<ul><li>Increases ward by 56%</li></ul>", 
+                  "<ul><li>Increases ward by 64%</li></ul>", 
+                  "<ul><li>Increases ward by 72%</li></ul>", 
+                  "<ul><li>Increases ward by 80%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 253
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Enhance: Mail of Frost", 
                "parent_id": -1, 
@@ -1681,16 +1726,17 @@
                "description": "Improves the critical damage; hastens the reuse speed and reduces the resistibility of Ice Comet and its upgrades.", 
                "effects": [
                   "<ul><li>Improves the Crit Bonus by 1%</li><li>Improves reuse speed by 1 seconds</li><li>Reduces resistibility by 3%</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 5%</li><li>Improves reuse speed by 5 seconds</li><li>Reduces resistibility by 15%</li></ul>", 
                   "<ul><li>Improves the Crit Bonus by 2%</li><li>Improves reuse speed by 2 seconds</li><li>Reduces resistibility by 6%</li></ul>", 
+                  "<ul><li>Improves the Crit Bonus by 3%</li><li>Improves reuse speed by 3 seconds</li><li>Reduces resistibility by 9%</li></ul>", 
                   "<ul><li>Improves the Crit Bonus by 4%</li><li>Improves reuse speed by 4 seconds</li><li>Reduces resistibility by 12%</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 3%</li><li>Improves reuse speed by 3 seconds</li><li>Reduces resistibility by 9%</li></ul>"
+                  "<ul><li>Improves the Crit Bonus by 5%</li><li>Improves reuse speed by 5 seconds</li><li>Reduces resistibility by 15%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 252
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Ice Comet", 
                "parent_id": -1, 
@@ -1714,17 +1760,18 @@
                "cost": 1, 
                "description": "Increases Fusion's range and radius, and reduces its resistibility as well.", 
                "effects": [
-                  "<ul><li>Reduces resistibility by 6%</li><li>Increases range and radius by 2</li></ul>", 
-                  "<ul><li>Reduces resistibility by 15%</li><li>Increases range and radius by 5</li></ul>", 
-                  "<ul><li>Reduces resistibility by 9%</li><li>Increases range and radius by 3</li></ul>", 
                   "<ul><li>Reduces resistibility by 3%</li><li>Increases range and radius by 1</li></ul>", 
-                  "<ul><li>Reduces resistibility by 12%</li><li>Increases range and radius by 4</li></ul>"
+                  "<ul><li>Reduces resistibility by 6%</li><li>Increases range and radius by 2</li></ul>", 
+                  "<ul><li>Reduces resistibility by 9%</li><li>Increases range and radius by 3</li></ul>", 
+                  "<ul><li>Reduces resistibility by 12%</li><li>Increases range and radius by 4</li></ul>", 
+                  "<ul><li>Reduces resistibility by 15%</li><li>Increases range and radius by 5</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 85
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Fusion", 
                "parent_id": -1, 
@@ -1749,16 +1796,17 @@
                "description": "Increases the duration of Frigid Gift and its upgrades.", 
                "effects": [
                   "<ul><li>Increases duration by 1 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 3 seconds</li></ul>", 
                   "<ul><li>Increases duration by 2 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 5 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 4 seconds</li></ul>"
+                  "<ul><li>Increases duration by 3 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 4 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 5 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 229
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Frigid Gift", 
                "parent_id": -1, 
@@ -1789,6 +1837,7 @@
                   "icon": 221
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Fireshape", 
                "parent_id": -1, 
@@ -1819,6 +1868,7 @@
                   "icon": 3
                }, 
                "id": 22, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Manaburn", 
                "parent_id": -1, 
@@ -1849,6 +1899,7 @@
                   "icon": 540
                }, 
                "id": 23, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Spell Reach", 
                "parent_id": -1, 
@@ -1879,6 +1930,7 @@
                   "icon": 507
                }, 
                "id": 24, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Iceshape", 
                "parent_id": -1, 
@@ -1902,10 +1954,10 @@
                "cost": 1, 
                "description": "Improves the base damage of the Ice Shield line of spells.", 
                "effects": [
-                  "<ul><li>Improves the damage by 12%.</li></ul>", 
                   "<ul><li>Improves the damage by 3%.</li></ul>", 
                   "<ul><li>Improves the damage by 6%.</li></ul>", 
                   "<ul><li>Improves the damage by 9%.</li></ul>", 
+                  "<ul><li>Improves the damage by 12%.</li></ul>", 
                   "<ul><li>Improves the damage by 15%.</li></ul>"
                ], 
                "icon": {
@@ -1913,6 +1965,7 @@
                   "icon": 253
                }, 
                "id": 25, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Shield of Icicles", 
                "parent_id": -1, 
@@ -1936,17 +1989,18 @@
                "cost": 1, 
                "description": "Improves the base damage of Firestorm and its upgrades.", 
                "effects": [
-                  "<ul><li>Improves the base damage by 16%.</li></ul>", 
                   "<ul><li>Improves the base damage by 4%.</li></ul>", 
+                  "<ul><li>Improves the base damage by 8%.</li></ul>", 
                   "<ul><li>Improves the base damage by 12%.</li></ul>", 
-                  "<ul><li>Improves the base damage by 20%.</li></ul>", 
-                  "<ul><li>Improves the base damage by 8%.</li></ul>"
+                  "<ul><li>Improves the base damage by 16%.</li></ul>", 
+                  "<ul><li>Improves the base damage by 20%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 313, 
                   "icon": 481
                }, 
                "id": 26, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Burning Storms", 
                "parent_id": -1, 
@@ -1970,17 +2024,18 @@
                "cost": 1, 
                "description": "Improves the base damage of Ball of Fire and its upgrades.", 
                "effects": [
+                  "<ul><li>Improves the base damage by 2%.</li></ul>", 
                   "<ul><li>Improves the base damage by 4%.</li></ul>", 
-                  "<ul><li>Improves the base damage by 8%.</li></ul>", 
                   "<ul><li>Improves the base damage by 6%.</li></ul>", 
-                  "<ul><li>Improves the base damage by 10%.</li></ul>", 
-                  "<ul><li>Improves the base damage by 2%.</li></ul>"
+                  "<ul><li>Improves the base damage by 8%.</li></ul>", 
+                  "<ul><li>Improves the base damage by 10%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 242
                }, 
                "id": 27, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Ball of Flames", 
                "parent_id": -1, 
@@ -2005,8 +2060,8 @@
                "description": "Improves the stun duration of the Magma Chamber line of spells.", 
                "effects": [
                   "<ul><li>Improves the duration by 20%</li></ul>", 
-                  "<ul><li>Improves the duration by 60%</li></ul>", 
                   "<ul><li>Improves the duration by 40%</li></ul>", 
+                  "<ul><li>Improves the duration by 60%</li></ul>", 
                   "<ul><li>Improves the duration by 80%</li></ul>", 
                   "<ul><li>Improves the duration by 100%</li></ul>"
                ], 
@@ -2015,6 +2070,7 @@
                   "icon": 160
                }, 
                "id": 28, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Magmatic Incapacitation", 
                "parent_id": -1, 
@@ -2049,6 +2105,7 @@
                   "icon": 229
                }, 
                "id": 29, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Frostsword", 
                "parent_id": -1, 
@@ -2073,16 +2130,17 @@
                "description": "If the target is above 80% health, the wizard gains additional damage to any spell based attack.", 
                "effects": [
                   "<ul><li>Improves the damage by 2% when the target is above 80% health.</li></ul>", 
-                  "<ul><li>Improves the damage by 6% when the target is above 80% health.</li></ul>", 
-                  "<ul><li>Improves the damage by 10% when the target is above 80% health.</li></ul>", 
                   "<ul><li>Improves the damage by 4% when the target is above 80% health.</li></ul>", 
-                  "<ul><li>Improves the damage by 8% when the target is above 80% health.</li></ul>"
+                  "<ul><li>Improves the damage by 6% when the target is above 80% health.</li></ul>", 
+                  "<ul><li>Improves the damage by 8% when the target is above 80% health.</li></ul>", 
+                  "<ul><li>Improves the damage by 10% when the target is above 80% health.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 184
                }, 
                "id": 30, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Elemental Surprise", 
                "parent_id": -1, 
@@ -2113,6 +2171,7 @@
                   "icon": 930
                }, 
                "id": 31, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Fiery Blast", 
                "parent_id": -1, 
@@ -2188,17 +2247,18 @@
                "cost": 1, 
                "description": "Improves the casting speed and bonuses of your deity pet.", 
                "effects": [
-                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 40%</li></ul>", 
-                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 50%</li></ul>", 
                   "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 10%</li></ul>", 
+                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 20%</li></ul>", 
                   "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 30%</li></ul>", 
-                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 20%</li></ul>"
+                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 40%</li></ul>", 
+                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 50%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 319, 
                   "icon": 799
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Pet of the Gods", 
                "parent_id": -1, 
@@ -2222,17 +2282,18 @@
                "cost": 1, 
                "description": "Increases the duration of your food and drink spells.", 
                "effects": [
-                  "<ul><li>Improves the duration of food and drink by 5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 10%</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 2.5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 12.5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 7.5%</li></ul>"
+                  "<ul><li>Improves the duration of food and drink by 5%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 7.5%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 10%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 12.5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 318, 
                   "icon": 151
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Bountiful Feast", 
                "parent_id": -1, 
@@ -2256,17 +2317,18 @@
                "cost": 1, 
                "description": "Increases your base run speed while out of combat.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 1.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 2.0%</li></ul>"
+                  "<ul><li>Increases speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 794
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Swift Strides", 
                "parent_id": -1, 
@@ -2290,10 +2352,10 @@
                "cost": 1, 
                "description": "Increases your character's maximum health.", 
                "effects": [
-                  "<ul><li>Increases Max Health of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases Max Health of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 0.5%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 1.5%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 2.5%</li></ul>"
                ], 
                "icon": {
@@ -2301,6 +2363,7 @@
                   "icon": 795
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Hearty Constitution", 
                "parent_id": -1, 
@@ -2324,17 +2387,18 @@
                "cost": 1, 
                "description": "Allows you to move faster while on a mount.", 
                "effects": [
-                  "<ul><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li></ul>"
+                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 318, 
                   "icon": 793
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Swift Journey", 
                "parent_id": -1, 
@@ -2359,16 +2423,17 @@
                "description": "Increases your character's maximum power", 
                "effects": [
                   "<ul><li>Increases Max Power of caster by 0.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 1.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 1.0%</li></ul>"
+                  "<ul><li>Increases Max Power of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 2.5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 318, 
                   "icon": 796
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhanced Mind", 
                "parent_id": -1, 
@@ -2392,10 +2457,10 @@
                "cost": 1, 
                "description": "Improves the duration and resistibility of the mage's single target root spell.", 
                "effects": [
-                  "<ul><li>Reduces the chance to be resisted by 4% and increases the duration by 4 seconds.</li></ul>", 
-                  "<ul><li>Reduces the chance to be resisted by 8% and increases the duration by 8 seconds.</li></ul>", 
-                  "<ul><li>Reduces the chance to be resisted by 6% and increases the duration by 6 seconds.</li></ul>", 
                   "<ul><li>Reduces the chance to be resisted by 2% and increases the duration by 2 seconds.</li></ul>", 
+                  "<ul><li>Reduces the chance to be resisted by 4% and increases the duration by 4 seconds.</li></ul>", 
+                  "<ul><li>Reduces the chance to be resisted by 6% and increases the duration by 6 seconds.</li></ul>", 
+                  "<ul><li>Reduces the chance to be resisted by 8% and increases the duration by 8 seconds.</li></ul>", 
                   "<ul><li>Reduces the chance to be resisted by 10% and increases the duration by 10 seconds.</li></ul>"
                ], 
                "icon": {
@@ -2403,6 +2468,7 @@
                   "icon": 166
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Root Mastery", 
                "parent_id": -1, 
@@ -2426,17 +2492,18 @@
                "cost": 1, 
                "description": "Adds some additional mitigation to Magi's Shielding.", 
                "effects": [
-                  "<ul><li>Increases the hit points and defense by 24%.</li></ul>", 
-                  "<ul><li>Increases the hit points and defense by 40%.</li></ul>", 
                   "<ul><li>Increases the hit points and defense by 8%.</li></ul>", 
+                  "<ul><li>Increases the hit points and defense by 16%.</li></ul>", 
+                  "<ul><li>Increases the hit points and defense by 24%.</li></ul>", 
                   "<ul><li>Increases the hit points and defense by 32%.</li></ul>", 
-                  "<ul><li>Increases the hit points and defense by 16%.</li></ul>"
+                  "<ul><li>Increases the hit points and defense by 40%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 163
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Runic Protection", 
                "parent_id": -1, 
@@ -2460,17 +2527,18 @@
                "cost": 1, 
                "description": "Improves the base and critical damage of the Solar Flare, Dissolve, Crystal Blast, Soulrot, Hemorrhage, and Ultraviolet Beam lines of spells.", 
                "effects": [
-                  "<ul><li>Improves the base and critical damage by 6%</li></ul>", 
-                  "<ul><li>Improves the base and critical damage by 10%</li></ul>", 
-                  "<ul><li>Improves the base and critical damage by 8%</li></ul>", 
                   "<ul><li>Improves the base and critical damage by 2%</li></ul>", 
-                  "<ul><li>Improves the base and critical damage by 4%</li></ul>"
+                  "<ul><li>Improves the base and critical damage by 4%</li></ul>", 
+                  "<ul><li>Improves the base and critical damage by 6%</li></ul>", 
+                  "<ul><li>Improves the base and critical damage by 8%</li></ul>", 
+                  "<ul><li>Improves the base and critical damage by 10%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 161
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Strike of the Mage", 
                "parent_id": -1, 
@@ -2494,17 +2562,18 @@
                "cost": 1, 
                "description": "Improves the reuse time of Master's Strike.", 
                "effects": [
-                  "<ul><li>Reduces the reuse time of Master's Strike by 30 seconds.</li></ul>", 
                   "<ul><li>Reduces the reuse time of Master's Strike by 6 seconds.</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Master's Strike by 24 seconds.</li></ul>", 
                   "<ul><li>Reduces the reuse time of Master's Strike by 12 seconds.</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Master's Strike by 18 seconds.</li></ul>"
+                  "<ul><li>Reduces the reuse time of Master's Strike by 18 seconds.</li></ul>", 
+                  "<ul><li>Reduces the reuse time of Master's Strike by 24 seconds.</li></ul>", 
+                  "<ul><li>Reduces the reuse time of Master's Strike by 30 seconds.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 152
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Masters Strike", 
                "parent_id": -1, 
@@ -2528,17 +2597,18 @@
                "cost": 1, 
                "description": "Increases the resistances of the mage's group buffs.", 
                "effects": [
-                  "<ul><li>Increases the magical resistances by 16%.</li><li>Increases the power by 16%</li></ul>", 
-                  "<ul><li>Increases the magical resistances by 12%.</li><li>Increases the power by 12%</li></ul>", 
                   "<ul><li>Increases the magical resistances by 4%.</li><li>Increases the power by 4%</li></ul>", 
-                  "<ul><li>Increases the magical resistances by 20%.</li><li>Increases the power by 20%</li></ul>", 
-                  "<ul><li>Increases the magical resistances by 8%.</li><li>Increases the power by 8%</li></ul>"
+                  "<ul><li>Increases the magical resistances by 8%.</li><li>Increases the power by 8%</li></ul>", 
+                  "<ul><li>Increases the magical resistances by 12%.</li><li>Increases the power by 12%</li></ul>", 
+                  "<ul><li>Increases the magical resistances by 16%.</li><li>Increases the power by 16%</li></ul>", 
+                  "<ul><li>Increases the magical resistances by 20%.</li><li>Increases the power by 20%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 203
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Arcane Barrier", 
                "parent_id": -1, 
@@ -2562,17 +2632,18 @@
                "cost": 1, 
                "description": "Gives the mage additional run speed while invisible.", 
                "effects": [
-                  "<ul><li>Increases stealth or invisible movement speed of caster by 4.0%</li></ul>", 
-                  "<ul><li>Increases stealth or invisible movement speed of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases stealth or invisible movement speed of caster by 5.0%</li></ul>", 
                   "<ul><li>Increases stealth or invisible movement speed of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases stealth or invisible movement speed of caster by 3.0%</li></ul>"
+                  "<ul><li>Increases stealth or invisible movement speed of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases stealth or invisible movement speed of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases stealth or invisible movement speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases stealth or invisible movement speed of caster by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 165
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Shadow Step", 
                "parent_id": -1, 
@@ -2603,6 +2674,7 @@
                   "icon": 890
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Arcane Bewilderment", 
                "parent_id": -1, 
@@ -2637,6 +2709,7 @@
                   "icon": 163
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Sorcerer's Shielding", 
                "parent_id": -1, 
@@ -2660,17 +2733,18 @@
                "cost": 1, 
                "description": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.", 
                "effects": [
-                  "<ul><li>Increases the critical damage by 5%.</li><li>Increases the base damage by 10%</li></ul>", 
-                  "<ul><li>Increases the critical damage by 3%.</li><li>Increases the base damage by 6%</li></ul>", 
-                  "<ul><li>Increases the critical damage by 2%.</li><li>Increases the base damage by 4%</li></ul>", 
                   "<ul><li>Increases the critical damage by 1%.</li><li>Increases the base damage by 2%</li></ul>", 
-                  "<ul><li>Increases the critical damage by 4%.</li><li>Increases the base damage by 8%</li></ul>"
+                  "<ul><li>Increases the critical damage by 2%.</li><li>Increases the base damage by 4%</li></ul>", 
+                  "<ul><li>Increases the critical damage by 3%.</li><li>Increases the base damage by 6%</li></ul>", 
+                  "<ul><li>Increases the critical damage by 4%.</li><li>Increases the base damage by 8%</li></ul>", 
+                  "<ul><li>Increases the critical damage by 5%.</li><li>Increases the base damage by 10%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 228
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Flames of Velious", 
                "parent_id": -1, 
@@ -2695,16 +2769,17 @@
                "description": "The sorcerer gains additional mastery to the Ice Comet and Apocalypse line of spells.", 
                "effects": [
                   "<ul><li>Increases base and critical damage by 2%</li></ul>", 
-                  "<ul><li>Increases base and critical damage by 10%</li></ul>", 
-                  "<ul><li>Increases base and critical damage by 8%</li></ul>", 
+                  "<ul><li>Increases base and critical damage by 4%</li></ul>", 
                   "<ul><li>Increases base and critical damage by 6%</li></ul>", 
-                  "<ul><li>Increases base and critical damage by 4%</li></ul>"
+                  "<ul><li>Increases base and critical damage by 8%</li></ul>", 
+                  "<ul><li>Increases base and critical damage by 10%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 909
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Sorcery Mastery", 
                "parent_id": -1, 
@@ -2728,17 +2803,18 @@
                "cost": 1, 
                "description": "Allows the sorcerer to transfer additional hate to their target.", 
                "effects": [
-                  "<ul><li>Improves the hate transfer amount by 5%.</li></ul>", 
                   "<ul><li>Improves the hate transfer amount by 1%.</li></ul>", 
                   "<ul><li>Improves the hate transfer amount by 2%.</li></ul>", 
+                  "<ul><li>Improves the hate transfer amount by 3%.</li></ul>", 
                   "<ul><li>Improves the hate transfer amount by 4%.</li></ul>", 
-                  "<ul><li>Improves the hate transfer amount by 3%.</li></ul>"
+                  "<ul><li>Improves the hate transfer amount by 5%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 243
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Essence of Hatred", 
                "parent_id": -1, 
@@ -2762,17 +2838,18 @@
                "cost": 1, 
                "description": "The sorcerer's professional spells will all do additional critical damage.", 
                "effects": [
-                  "<ul><li>Improves critical damage by 5%.</li></ul>", 
                   "<ul><li>Improves critical damage by 1%.</li></ul>", 
+                  "<ul><li>Improves critical damage by 2%.</li></ul>", 
                   "<ul><li>Improves critical damage by 3%.</li></ul>", 
                   "<ul><li>Improves critical damage by 4%.</li></ul>", 
-                  "<ul><li>Improves critical damage by 2%.</li></ul>"
+                  "<ul><li>Improves critical damage by 5%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 802
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Critical Mastery", 
                "parent_id": -1, 
@@ -2797,16 +2874,17 @@
                "description": "Intromission Mastery improves the amount of power fed  to the target by the Mana Intromission and Mana Trickle line of spells.", 
                "effects": [
                   "<ul><li>Improves the mana replenishment by 3%.</li></ul>", 
-                  "<ul><li>Improves the mana replenishment by 15%.</li></ul>", 
                   "<ul><li>Improves the mana replenishment by 6%.</li></ul>", 
                   "<ul><li>Improves the mana replenishment by 9%.</li></ul>", 
-                  "<ul><li>Improves the mana replenishment by 12%.</li></ul>"
+                  "<ul><li>Improves the mana replenishment by 12%.</li></ul>", 
+                  "<ul><li>Improves the mana replenishment by 15%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 480
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Intromission Mastery", 
                "parent_id": -1, 
@@ -2837,6 +2915,7 @@
                   "icon": 878
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Thunderclap", 
                "parent_id": -1, 
@@ -2871,6 +2950,7 @@
                   "icon": 482
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Warm Blooded", 
                "parent_id": -1, 
@@ -2905,6 +2985,7 @@
                   "icon": 900
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Battle Hardened", 
                "parent_id": -1, 
@@ -2929,16 +3010,17 @@
                "description": "Increases the damage done by Ice Lash when triggered by Frigid Gift and its upgrades.", 
                "effects": [
                   "<ul><li>Increases the damage of Ice Lash by 5%.</li></ul>", 
-                  "<ul><li>Increases the damage of Ice Lash by 25%.</li></ul>", 
-                  "<ul><li>Increases the damage of Ice Lash by 20%.</li></ul>", 
+                  "<ul><li>Increases the damage of Ice Lash by 10%.</li></ul>", 
                   "<ul><li>Increases the damage of Ice Lash by 15%.</li></ul>", 
-                  "<ul><li>Increases the damage of Ice Lash by 10%.</li></ul>"
+                  "<ul><li>Increases the damage of Ice Lash by 20%.</li></ul>", 
+                  "<ul><li>Increases the damage of Ice Lash by 25%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 229
                }, 
                "id": 22, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Icicle Lash", 
                "parent_id": -1, 
@@ -2962,17 +3044,18 @@
                "cost": 1, 
                "description": "Atomic Reaction improves the base damage and reuse speed of the Fusion line of spells.", 
                "effects": [
-                  "<ul><li>Improves the base damage by 15%.</li><li>Improves the reuse speed by 30 seconds.</li></ul>", 
-                  "<ul><li>Improves the base damage by 6%.</li><li>Improves the reuse speed by 12 seconds.</li></ul>", 
-                  "<ul><li>Improves the base damage by 12%.</li><li>Improves the reuse speed by 24 seconds.</li></ul>", 
                   "<ul><li>Improves the base damage by 3%.</li><li>Improves the reuse speed by 6 seconds.</li></ul>", 
-                  "<ul><li>Improves the base damage by 9%.</li><li>Improves the reuse speed by 18 seconds.</li></ul>"
+                  "<ul><li>Improves the base damage by 6%.</li><li>Improves the reuse speed by 12 seconds.</li></ul>", 
+                  "<ul><li>Improves the base damage by 9%.</li><li>Improves the reuse speed by 18 seconds.</li></ul>", 
+                  "<ul><li>Improves the base damage by 12%.</li><li>Improves the reuse speed by 24 seconds.</li></ul>", 
+                  "<ul><li>Improves the base damage by 15%.</li><li>Improves the reuse speed by 30 seconds.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 85
                }, 
                "id": 23, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Atomic Reaction", 
                "parent_id": -1, 
@@ -2997,16 +3080,17 @@
                "description": "The Ice Spears line of spells will increase in damage exponentially for its damage over time ticks.", 
                "effects": [
                   "<ul><li>Improves the damage by 6% and increases exponentially over time.</li></ul>", 
-                  "<ul><li>Improves the damage by 24% and increases exponentially over time.</li></ul>", 
                   "<ul><li>Improves the damage by 12% and increases exponentially over time.</li></ul>", 
-                  "<ul><li>Improves the damage by 30% and increases exponentially over time.</li></ul>", 
-                  "<ul><li>Improves the damage by 18% and increases exponentially over time.</li></ul>"
+                  "<ul><li>Improves the damage by 18% and increases exponentially over time.</li></ul>", 
+                  "<ul><li>Improves the damage by 24% and increases exponentially over time.</li></ul>", 
+                  "<ul><li>Improves the damage by 30% and increases exponentially over time.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 505
                }, 
                "id": 24, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Icicle Flurry", 
                "parent_id": -1, 
@@ -3031,16 +3115,17 @@
                "description": "This achievement improves the base damage of Storming Tempest while also reducing its duration.", 
                "effects": [
                   "<ul><li>Improves the damage by 4%</li><li>Reduces the duration by 3 seconds.</li></ul>", 
-                  "<ul><li>Improves the damage by 20%</li><li>Reduces the duration by 15 seconds.</li></ul>", 
                   "<ul><li>Improves the damage by 8%</li><li>Reduces the duration by 6 seconds.</li></ul>", 
                   "<ul><li>Improves the damage by 12%</li><li>Reduces the duration by 9 seconds.</li></ul>", 
-                  "<ul><li>Improves the damage by 16%</li><li>Reduces the duration by 12 seconds.</li></ul>"
+                  "<ul><li>Improves the damage by 16%</li><li>Reduces the duration by 12 seconds.</li></ul>", 
+                  "<ul><li>Improves the damage by 20%</li><li>Reduces the duration by 15 seconds.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 14
                }, 
                "id": 25, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Void Tempest", 
                "parent_id": -1, 
@@ -3071,6 +3156,7 @@
                   "icon": 901
                }, 
                "id": 26, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Heat Mastery", 
                "parent_id": -1, 
@@ -3101,6 +3187,7 @@
                   "icon": 902
                }, 
                "id": 27, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Hail Storm", 
                "parent_id": -1, 
@@ -3173,22 +3260,23 @@
                "cost": 1, 
                "description": "Increases all stats except for Stamina.", 
                "effects": [
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 2.4</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.8</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 6.0</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.2</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.2</li></ul>", 
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 0.6</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.6</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.2</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.8</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 2.4</li></ul>", 
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.0</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.6</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.2</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.8</li></ul>", 
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 5.4</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.8</li></ul>"
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 6.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 43
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Attribute Prowess", 
                "parent_id": -1, 
@@ -3212,15 +3300,15 @@
                "cost": 1, 
                "description": "Increases Ability Modifier.", 
                "effects": [
-                  "<ul><li>Increases Ability Modifier of caster by 20.7</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 10.4</li></ul>", 
-                  "<ul><li>Increases Ability Modifier of caster by 72.5</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 20.7</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 31.1</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 41.4</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 51.7</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 62.1</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 72.5</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 82.8</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 93.2</li></ul>", 
-                  "<ul><li>Increases Ability Modifier of caster by 41.4</li></ul>", 
-                  "<ul><li>Increases Ability Modifier of caster by 62.1</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 103.5</li></ul>"
                ], 
                "icon": {
@@ -3228,6 +3316,7 @@
                   "icon": 566
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Ability Aptitude", 
                "parent_id": -1, 
@@ -3251,22 +3340,23 @@
                "cost": 1, 
                "description": "Increases Maximum Health and Power.", 
                "effects": [
-                  "<ul><li>Increases Max Power of caster by 1.5%</li><li>Increases Max Health of caster by 1.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.5%</li><li>Increases Max Health of caster by 2.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.0%</li><li>Increases Max Health of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 3.5%</li><li>Increases Max Health of caster by 3.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 3.0%</li><li>Increases Max Health of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 1.0%</li><li>Increases Max Health of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 0.5%</li><li>Increases Max Health of caster by 0.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 5.0%</li><li>Increases Max Health of caster by 5.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 1.0%</li><li>Increases Max Health of caster by 1.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 1.5%</li><li>Increases Max Health of caster by 1.5%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 2.0%</li><li>Increases Max Health of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 2.5%</li><li>Increases Max Health of caster by 2.5%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 3.0%</li><li>Increases Max Health of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 3.5%</li><li>Increases Max Health of caster by 3.5%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 4.0%</li><li>Increases Max Health of caster by 4.0%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 4.5%</li><li>Increases Max Health of caster by 4.5%</li></ul>"
+                  "<ul><li>Increases Max Power of caster by 4.5%</li><li>Increases Max Health of caster by 4.5%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 5.0%</li><li>Increases Max Health of caster by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 249
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Spirit and Body", 
                "parent_id": -1, 
@@ -3290,22 +3380,23 @@
                "cost": 1, 
                "description": "Increases Potency.", 
                "effects": [
+                  "<ul><li>Increases Potency of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 5.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 9.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 7.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 7.0%</li></ul>"
+                  "<ul><li>Increases Potency of caster by 9.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 852
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Expertise", 
                "parent_id": -1, 
@@ -3329,22 +3420,23 @@
                "cost": 1, 
                "description": "Increases Crit Bonus.", 
                "effects": [
-                  "<ul><li>Increases Crit Bonus of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Crit Bonus of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Crit Bonus of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 7.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 9.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 1.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases Crit Bonus of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 4.0%</li></ul>"
+                  "<ul><li>Increases Crit Bonus of caster by 6.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 7.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 9.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 21
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Critical Genius", 
                "parent_id": -1, 
@@ -3368,22 +3460,23 @@
                "cost": 1, 
                "description": "Increases Ability Reuse Speed.", 
                "effects": [
-                  "<ul><li>Increases Ability Reuse Speed of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 7.0%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 9.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 5.0%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 4.0%</li></ul>"
+                  "<ul><li>Increases Ability Reuse Speed of caster by 7.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 9.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 14
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Lightning Reflexes", 
                "parent_id": -1, 
@@ -3407,22 +3500,23 @@
                "cost": 1, 
                "description": "Improves the radius and damage of Blast of Devastation.", 
                "effects": [
-                  "<ul><li>Improves the damage of Blast of Devastation by 70%.</li><li>Increases the radius of Blast of Devastation by 3.5.</li></ul>", 
-                  "<ul><li>Improves the damage of Blast of Devastation by 30%.</li><li>Increases the radius of Blast of Devastation by 1.5.</li></ul>", 
-                  "<ul><li>Improves the damage of Blast of Devastation by 100%.</li><li>Increases the radius of Blast of Devastation by 5.</li></ul>", 
                   "<ul><li>Improves the damage of Blast of Devastation by 10%.</li><li>Increases the radius of Blast of Devastation by 0.5.</li></ul>", 
-                  "<ul><li>Improves the damage of Blast of Devastation by 90%.</li><li>Increases the radius of Blast of Devastation by 4.5.</li></ul>", 
-                  "<ul><li>Improves the damage of Blast of Devastation by 40%.</li><li>Increases the radius of Blast of Devastation by 2.</li></ul>", 
-                  "<ul><li>Improves the damage of Blast of Devastation by 80%.</li><li>Increases the radius of Blast of Devastation by 4.</li></ul>", 
                   "<ul><li>Improves the damage of Blast of Devastation by 20%.</li><li>Increases the radius of Blast of Devastation by 1.</li></ul>", 
+                  "<ul><li>Improves the damage of Blast of Devastation by 30%.</li><li>Increases the radius of Blast of Devastation by 1.5.</li></ul>", 
+                  "<ul><li>Improves the damage of Blast of Devastation by 40%.</li><li>Increases the radius of Blast of Devastation by 2.</li></ul>", 
+                  "<ul><li>Improves the damage of Blast of Devastation by 50%.</li><li>Increases the radius of Blast of Devastation by 2.5.</li></ul>", 
                   "<ul><li>Improves the damage of Blast of Devastation by 60%.</li><li>Increases the radius of Blast of Devastation by 3.</li></ul>", 
-                  "<ul><li>Improves the damage of Blast of Devastation by 50%.</li><li>Increases the radius of Blast of Devastation by 2.5.</li></ul>"
+                  "<ul><li>Improves the damage of Blast of Devastation by 70%.</li><li>Increases the radius of Blast of Devastation by 3.5.</li></ul>", 
+                  "<ul><li>Improves the damage of Blast of Devastation by 80%.</li><li>Increases the radius of Blast of Devastation by 4.</li></ul>", 
+                  "<ul><li>Improves the damage of Blast of Devastation by 90%.</li><li>Increases the radius of Blast of Devastation by 4.5.</li></ul>", 
+                  "<ul><li>Improves the damage of Blast of Devastation by 100%.</li><li>Increases the radius of Blast of Devastation by 5.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 313, 
                   "icon": 29
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Enhance: Blast of Devastation", 
                "parent_id": -1, 
@@ -3446,22 +3540,23 @@
                "cost": 1, 
                "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.", 
                "effects": [
-                  "<ul><li>Improves the damage of Thunderclap by 24%.</li></ul>", 
+                  "<ul><li>Improves the damage of Thunderclap by 6%.</li></ul>", 
+                  "<ul><li>Improves the damage of Thunderclap by 12%.</li></ul>", 
                   "<ul><li>Improves the damage of Thunderclap by 18%.</li></ul>", 
-                  "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Improves the damage of Thunderclap by 54%.</li></ul>", 
+                  "<ul><li>Improves the damage of Thunderclap by 24%.</li></ul>", 
+                  "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Improves the damage of Thunderclap by 30%.</li></ul>", 
                   "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Improves the damage of Thunderclap by 36%.</li></ul>", 
                   "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Improves the damage of Thunderclap by 42%.</li></ul>", 
                   "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Improves the damage of Thunderclap by 48%.</li></ul>", 
-                  "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Adds an additional strike to Thunderclap if the target is within 10 meters.</li><li>Improves the damage of Thunderclap by 60%.</li></ul>", 
-                  "<ul><li>Improves the damage of Thunderclap by 12%.</li></ul>", 
-                  "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Improves the damage of Thunderclap by 30%.</li></ul>", 
-                  "<ul><li>Improves the damage of Thunderclap by 6%.</li></ul>"
+                  "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Improves the damage of Thunderclap by 54%.</li></ul>", 
+                  "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Adds an additional strike to Thunderclap if the target is within 10 meters.</li><li>Improves the damage of Thunderclap by 60%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 878
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Enhance: Thunderclap", 
                "parent_id": -1, 
@@ -3485,22 +3580,23 @@
                "cost": 1, 
                "description": "Improves the duration and damage of Plaguebringer and Hailstorm.", 
                "effects": [
-                  "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 10%.</li></ul>", 
-                  "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 30%.</li></ul>", 
-                  "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 50%.</li></ul>", 
-                  "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 35%.</li></ul>", 
                   "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 5%.</li></ul>", 
-                  "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 40%.</li></ul>", 
+                  "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 10%.</li></ul>", 
                   "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 15%.</li></ul>", 
+                  "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 20%.</li></ul>", 
                   "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 25%.</li></ul>", 
+                  "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 30%.</li></ul>", 
+                  "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 35%.</li></ul>", 
+                  "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 40%.</li></ul>", 
                   "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 45%.</li></ul>", 
-                  "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 20%.</li></ul>"
+                  "<ul><li>Improves the damage and duration of Plaguebringer and Hailstorm by 50%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 896
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Expunger", 
                "parent_id": -1, 
@@ -3524,22 +3620,23 @@
                "cost": 1, 
                "description": "Inflicts additional magic damage on targets within a small radius of the target when a damage spell is cast. Mystical Overflow can hit targets that are not currently engaged and should be toggled off in situations where that effect is undesirable.", 
                "effects": [
-                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 13 - 25 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
-                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 10 - 18 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
-                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 20 - 37 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
-                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 30 - 55 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
-                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 23 - 43 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
-                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 7 - 12 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
-                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 27 - 49 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
-                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 33 - 62 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
                   "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 3 - 6 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
-                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 17 - 31 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>"
+                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 7 - 12 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 10 - 18 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 13 - 25 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 17 - 31 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 20 - 37 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 23 - 43 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 27 - 49 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 30 - 55 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell may cast Mystical Overflow on target of spell.  Triggers about 3.0 times per minute. </li><ul><li>Inflicts 33 - 62 magic damage on targets in Area of Effect</li><li>Hits a maximum of 8 targets at 10 meters base radius</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 152
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Mystical Overflow", 
                "parent_id": -1, 
@@ -3570,6 +3667,7 @@
                   "icon": 828
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Ethernere Chains", 
                "parent_id": -1, 
@@ -3600,6 +3698,7 @@
                   "icon": 511
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Mystical Field", 
                "parent_id": -1, 
@@ -3630,6 +3729,7 @@
                   "icon": 928
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Sanguine Sacrifice", 
                "parent_id": -1, 
@@ -3684,17 +3784,18 @@
                "cost": 1, 
                "description": "Grants you a chance to harvest a second time. Additionally, you move faster while on a mount.", 
                "effects": [
+                  "<ul><li>Increases Ground Mount Speed of caster by 2.0%</li><li>Caster will harvest a second time on 3.0% of harvests.</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li><li>Caster will harvest a second time on 6.0% of harvests.</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 6.0%</li><li>Caster will harvest a second time on 9.0% of harvests.</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 8.0%</li><li>Caster will harvest a second time on 12.0% of harvests.</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li><li>Caster will harvest a second time on 15.0% of harvests.</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li><li>Caster will harvest a second time on 6.0% of harvests.</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 2.0%</li><li>Caster will harvest a second time on 3.0% of harvests.</li></ul>"
+                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li><li>Caster will harvest a second time on 15.0% of harvests.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 797
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Ample Harvest", 
                "parent_id": -1, 
@@ -3718,17 +3819,18 @@
                "cost": 1, 
                "description": "Improves the rate at which you gain progress while crafting.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 4.0%</li><li>Increases the amount of progress gained by 8.0%.</li></ul>", 
-                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
                   "<ul><li>Increases speed of caster by 1.0%</li><li>Increases the amount of progress gained by 2.0%.</li></ul>", 
-                  "<ul><li>Increases speed of caster by 5.0%</li><li>Increases the amount of progress gained by 10.0%.</li></ul>", 
-                  "<ul><li>Increases speed of caster by 3.0%</li><li>Increases the amount of progress gained by 6.0%.</li></ul>"
+                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
+                  "<ul><li>Increases speed of caster by 3.0%</li><li>Increases the amount of progress gained by 6.0%.</li></ul>", 
+                  "<ul><li>Increases speed of caster by 4.0%</li><li>Increases the amount of progress gained by 8.0%.</li></ul>", 
+                  "<ul><li>Increases speed of caster by 5.0%</li><li>Increases the amount of progress gained by 10.0%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 798
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Swift Creation", 
                "parent_id": -1, 
@@ -3752,10 +3854,10 @@
                "cost": 1, 
                "description": "Using the best materials increases the percentage of durability gained while crafting. Additionally, the duration of food and drinks is improved.", 
                "effects": [
-                  "<ul><li>Improves the duration of food and drink by 5%</li><li>Increases the durability gain by 4.0%.</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 2.5%</li><li>Increases the durability gain by 2.0%.</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 10%</li><li>Increases the durability gain by 8.0%.</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 5%</li><li>Increases the durability gain by 4.0%.</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 7.5%</li><li>Increases the durability gain by 6.0%.</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 10%</li><li>Increases the durability gain by 8.0%.</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 12.5%</li><li>Increases the durability gain by 10.0%.</li></ul>"
                ], 
                "icon": {
@@ -3763,6 +3865,7 @@
                   "icon": 874
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "High Quality Materials", 
                "parent_id": -1, 
@@ -3786,17 +3889,18 @@
                "cost": 1, 
                "description": "Improves the rate at which you gain progress while crafting.", 
                "effects": [
-                  "<ul><li>Increases progress by 8.0</li></ul>", 
                   "<ul><li>Increases progress by 2.0</li></ul>", 
+                  "<ul><li>Increases progress by 4.0</li></ul>", 
                   "<ul><li>Increases progress by 6.0</li></ul>", 
-                  "<ul><li>Increases progress by 10.0</li></ul>", 
-                  "<ul><li>Increases progress by 4.0</li></ul>"
+                  "<ul><li>Increases progress by 8.0</li></ul>", 
+                  "<ul><li>Increases progress by 10.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 864
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Rapid Manufacturing", 
                "parent_id": -1, 
@@ -3820,17 +3924,18 @@
                "cost": 1, 
                "description": "Using the most resilient materials increases the amount of durability gained while crafting.", 
                "effects": [
-                  "<ul><li>Increases the amount of durability gained by 10.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 8.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 2.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 4.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 6.0.</li></ul>"
+                  "<ul><li>Increases the amount of durability gained by 6.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 8.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 10.0.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 869
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Resilient Materials", 
                "parent_id": -1, 
@@ -3854,10 +3959,10 @@
                "cost": 1, 
                "description": "Using an effective method of crafting improves your success chance.", 
                "effects": [
-                  "<ul><li>Increases success chance by 8.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases success chance by 2.0%</li></ul>", 
+                  "<ul><li>Increases success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases success chance by 6.0%</li></ul>", 
+                  "<ul><li>Increases success chance by 8.0%</li></ul>", 
                   "<ul><li>Increases success chance by 10.0%</li></ul>"
                ], 
                "icon": {
@@ -3865,6 +3970,7 @@
                   "icon": 860
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Effective Method", 
                "parent_id": -1, 
@@ -3888,17 +3994,18 @@
                "cost": 1, 
                "description": "Using a tried and true method of practice your chance of critical success increases.", 
                "effects": [
-                  "<ul><li>Increases critical success chance by 10.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 8.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 6.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 2.0%</li></ul>"
+                  "<ul><li>Increases critical success chance by 8.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 848
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Advantageous Practice", 
                "parent_id": -1, 
@@ -3922,17 +4029,18 @@
                "cost": 1, 
                "description": "By neatly harvesting you increase your chances of finding rare items.", 
                "effects": [
-                  "<ul><li>Increases rare harvest chance by 0.6%</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 1.0%</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 0.2%</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 0.4%</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 0.6%</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 0.8%</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 0.2%</li></ul>"
+                  "<ul><li>Increases rare harvest chance by 1.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 263
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Trim Reaver", 
                "parent_id": -1, 
@@ -3956,17 +4064,18 @@
                "cost": 1, 
                "description": "Your ability to create items transcends accepted laws of nature, and you can sometimes create items without using the materials used in creating them.", 
                "effects": [
-                  "<ul><li>When completing a pristine crafted item. this spell has a 2% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
                   "<ul><li>When completing a pristine crafted item. this spell has a 1% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
-                  "<ul><li>When completing a pristine crafted item. this spell has a 5% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
+                  "<ul><li>When completing a pristine crafted item. this spell has a 2% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
+                  "<ul><li>When completing a pristine crafted item. this spell has a 3% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
                   "<ul><li>When completing a pristine crafted item. this spell has a 4% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
-                  "<ul><li>When completing a pristine crafted item. this spell has a 3% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>"
+                  "<ul><li>When completing a pristine crafted item. this spell has a 5% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 839
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Conservation of Mass", 
                "parent_id": -1, 
@@ -4017,8 +4126,8 @@
                "cost": 1, 
                "description": "When casting hostile spells, the mage has a chance to increase the group's maximum health, power and the amount they are healed for when a healing spell is cast.", 
                "effects": [
-                  "<ul><li>On a hostile spell cast this spell may cast Enchanted Overflow on caster.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Increases Max Power of group members (AE) by 2.0%</li><li>Increases healing received by 2.00%</li><li>Increases Max Health of group members (AE) by 2.0%</li><li>This effect can be stacked by multiple casters.</li></ul></ul>", 
                   "<ul><li>On a hostile spell cast this spell may cast Enchanted Overflow on caster.  Lasts for 10.0 seconds.  Triggers about 1.0 times per minute. </li><ul><li>Increases Max Power of group members (AE) by 2.0%</li><li>Increases healing received by 2.00%</li><li>Increases Max Health of group members (AE) by 2.0%</li><li>This effect can be stacked by multiple casters.</li></ul></ul>", 
+                  "<ul><li>On a hostile spell cast this spell may cast Enchanted Overflow on caster.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Increases Max Power of group members (AE) by 2.0%</li><li>Increases healing received by 2.00%</li><li>Increases Max Health of group members (AE) by 2.0%</li><li>This effect can be stacked by multiple casters.</li></ul></ul>", 
                   "<ul><li>On a hostile spell cast this spell may cast Enchanted Overflow on caster.  Lasts for 10.0 seconds.  Triggers about 3.0 times per minute. </li><ul><li>Increases Max Power of group members (AE) by 2.0%</li><li>Increases healing received by 2.00%</li><li>Increases Max Health of group members (AE) by 2.0%</li><li>This effect can be stacked by multiple casters.</li></ul></ul>"
                ], 
                "icon": {
@@ -4026,6 +4135,7 @@
                   "icon": 636
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Energy Redirection", 
                "parent_id": -1, 
@@ -4049,15 +4159,16 @@
                "cost": 1, 
                "description": "Improves the damage dealt by Fiery Blast.", 
                "effects": [
-                  "<ul><li>Increases the damage modifier of Fiery Blast by 30%.</li></ul>", 
                   "<ul><li>Increases the damage modifier of Fiery Blast by 10%.</li></ul>", 
-                  "<ul><li>Increases the damage modifier of Fiery Blast by 20%.</li></ul>"
+                  "<ul><li>Increases the damage modifier of Fiery Blast by 20%.</li></ul>", 
+                  "<ul><li>Increases the damage modifier of Fiery Blast by 30%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 276
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Superheated", 
                "parent_id": -1, 
@@ -4081,8 +4192,8 @@
                "cost": 1, 
                "description": "Enhances certain wizard encounter and area of effect abilities so they do more base damage. This modification comes before all other stats and enhancements.", 
                "effects": [
-                  "<ul><li>Firestorm, Glacial Wind and Storm of Lightning have their base damage before modifications improved by 20%.</li></ul>", 
                   "<ul><li>Firestorm, Glacial Wind and Storm of Lightning have their base damage before modifications improved by 10%.</li></ul>", 
+                  "<ul><li>Firestorm, Glacial Wind and Storm of Lightning have their base damage before modifications improved by 20%.</li></ul>", 
                   "<ul><li>Firestorm, Glacial Wind and Storm of Lightning have their base damage before modifications improved by 30%.</li></ul>"
                ], 
                "icon": {
@@ -4090,6 +4201,7 @@
                   "icon": 550
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Arcane Stormbringer", 
                "parent_id": -1, 
@@ -4113,8 +4225,8 @@
                "cost": 1, 
                "description": "When casting hostile spells, the mage has a chance to increase the group's chance to Doublecast.", 
                "effects": [
-                  "<ul><li>On a hostile spell cast this spell may cast Mystical Leadership on caster.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>This effect can be stacked by multiple casters.</li><li>Increases Doublecast Chance of group members (AE) by 1.0%</li></ul></ul>", 
                   "<ul><li>On a hostile spell cast this spell may cast Mystical Leadership on caster.  Lasts for 10.0 seconds.  Triggers about 1.0 times per minute. </li><ul><li>This effect can be stacked by multiple casters.</li><li>Increases Doublecast Chance of group members (AE) by 1.0%</li></ul></ul>", 
+                  "<ul><li>On a hostile spell cast this spell may cast Mystical Leadership on caster.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>This effect can be stacked by multiple casters.</li><li>Increases Doublecast Chance of group members (AE) by 1.0%</li></ul></ul>", 
                   "<ul><li>On a hostile spell cast this spell may cast Mystical Leadership on caster.  Lasts for 10.0 seconds.  Triggers about 3.0 times per minute. </li><ul><li>This effect can be stacked by multiple casters.</li><li>Increases Doublecast Chance of group members (AE) by 1.0%</li></ul></ul>"
                ], 
                "icon": {
@@ -4122,6 +4234,7 @@
                   "icon": 17
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Mystical Leadership", 
                "parent_id": -1, 
@@ -4147,14 +4260,15 @@
                "cost": 1, 
                "description": "Ball of Fire has a chance to finish the reuse of Rays of Disintegration.", 
                "effects": [
-                  "<ul><li>Ball of Fire has a 32% chance to clear the reuse on Rays of Disintegration.</li></ul>", 
-                  "<ul><li>Ball of Fire has a 16% chance to clear the reuse on Rays of Disintegration.</li></ul>"
+                  "<ul><li>Ball of Fire has a 16% chance to clear the reuse on Rays of Disintegration.</li></ul>", 
+                  "<ul><li>Ball of Fire has a 32% chance to clear the reuse on Rays of Disintegration.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 172
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 2, 
                "name": "Disintegrating Fire", 
                "parent_id": 5, 
@@ -4187,6 +4301,7 @@
                   "icon": 228
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Frozen Burst", 
                "parent_id": -1, 
@@ -4219,6 +4334,7 @@
                   "icon": 252
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 1, 
                "name": "E'ci's Frozen Wrath", 
                "parent_id": -1, 
@@ -4252,6 +4368,7 @@
                   "icon": 256
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 2, 
                "name": "Frozen Thoughts", 
                "parent_id": 6, 
@@ -4284,6 +4401,7 @@
                   "icon": 586
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Arcane Force", 
                "parent_id": 4, 
@@ -4316,6 +4434,7 @@
                   "icon": 24
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Lord of Arcana", 
                "parent_id": 7, 
@@ -4352,6 +4471,7 @@
                   "icon": 276
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Incineration", 
                "parent_id": 8, 
@@ -4375,15 +4495,16 @@
                "cost": 1, 
                "description": "Surge of Ro will gain an additional chance to apply extra magic damage when the wizard attacks. This can trigger off of any spell rather than just heat spells.", 
                "effects": [
-                  "<ul><li>Surge of Ro gains a 45% chance to inflict magic damage to the encounter when the wizard attacks.</li></ul>", 
+                  "<ul><li>Surge of Ro gains a 15% chance to inflict magic damage to the encounter when the wizard attacks.</li></ul>", 
                   "<ul><li>Surge of Ro gains a 30% chance to inflict magic damage to the encounter when the wizard attacks.</li></ul>", 
-                  "<ul><li>Surge of Ro gains a 15% chance to inflict magic damage to the encounter when the wizard attacks.</li></ul>"
+                  "<ul><li>Surge of Ro gains a 45% chance to inflict magic damage to the encounter when the wizard attacks.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 222
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Arcane Surge", 
                "parent_id": -1, 
@@ -4420,6 +4541,7 @@
                   "icon": 256
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Frozen Rain", 
                "parent_id": 9, 
@@ -4443,15 +4565,16 @@
                "cost": 1, 
                "description": "When Incineration hits 3 increments, the wizard will gain some power and Manaburn's base reuse and casting times will be reduced.", 
                "effects": [
-                  "<ul><li>Restores 0.9% power to the wizard over time and reduces the base reuse time of Manaburn to 150 seconds and its casting time to 3 seconds when the wizard reaches 5 increments of Incineration.</li></ul>", 
                   "<ul><li>Restores 0.3% power to the wizard over time and reduces the base reuse time of Manaburn to 250 seconds and its casting time to 5 seconds when the wizard reaches 5 increments of Incineration.</li></ul>", 
-                  "<ul><li>Restores 0.6% power to the wizard over time and reduces the base reuse time of Manaburn to 200 seconds and its casting time to 4 seconds when the wizard reaches 5 increments of Incineration.</li></ul>"
+                  "<ul><li>Restores 0.6% power to the wizard over time and reduces the base reuse time of Manaburn to 200 seconds and its casting time to 4 seconds when the wizard reaches 5 increments of Incineration.</li></ul>", 
+                  "<ul><li>Restores 0.9% power to the wizard over time and reduces the base reuse time of Manaburn to 150 seconds and its casting time to 3 seconds when the wizard reaches 5 increments of Incineration.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 221
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Mystical Heat", 
                "parent_id": 10, 
@@ -4475,15 +4598,16 @@
                "cost": 1, 
                "description": "Increases the base damage of Incineration. This applies before potency.", 
                "effects": [
-                  "<ul><li>Increases the base damage of Incineration by 100%</li></ul>", 
+                  "<ul><li>Increases the base damage of Incineration by 33%</li></ul>", 
                   "<ul><li>Increases the base damage of Incineration by 66%</li></ul>", 
-                  "<ul><li>Increases the base damage of Incineration by 33%</li></ul>"
+                  "<ul><li>Increases the base damage of Incineration by 100%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 510
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Ro's Power", 
                "parent_id": 10, 
@@ -4516,6 +4640,7 @@
                   "icon": 242
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Fire Chains", 
                "parent_id": 10, 
@@ -4540,14 +4665,15 @@
                "description": "Improves the rate at which Frozen Solid increments.", 
                "effects": [
                   "<ul><li>Improves the amount of increments Frozen Solid applies by 1</li></ul>", 
-                  "<ul><li>Improves the amount of increments Frozen Solid applies by 3</li></ul>", 
-                  "<ul><li>Improves the amount of increments Frozen Solid applies by 2</li></ul>"
+                  "<ul><li>Improves the amount of increments Frozen Solid applies by 2</li></ul>", 
+                  "<ul><li>Improves the amount of increments Frozen Solid applies by 3</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 229
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Cryomaster", 
                "parent_id": 12, 
@@ -4572,14 +4698,15 @@
                "description": "Frozen Solid will automatically reduce threat to the targets the wizard is attacking by a percentage of the damage the wizard inflicts.", 
                "effects": [
                   "<ul><li>Frozen Solid will allow the wizard to reduce their threat by 0.15% of their damage inflicted per increment.</li></ul>", 
-                  "<ul><li>Frozen Solid will allow the wizard to reduce their threat by 0.45% of their damage inflicted per increment.</li></ul>", 
-                  "<ul><li>Frozen Solid will allow the wizard to reduce their threat by 0.3% of their damage inflicted per increment.</li></ul>"
+                  "<ul><li>Frozen Solid will allow the wizard to reduce their threat by 0.3% of their damage inflicted per increment.</li></ul>", 
+                  "<ul><li>Frozen Solid will allow the wizard to reduce their threat by 0.45% of their damage inflicted per increment.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 253
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Iced Anger", 
                "parent_id": 12, 
@@ -4603,15 +4730,16 @@
                "cost": 1, 
                "description": "Frozen Solid will reduce the casting time of E'Ci's Frozen Wrath and Blast of Devastation as it increments.", 
                "effects": [
-                  "<ul><li>At 36 increments of Frozen Solid, Blast of Devastation and Hail Storm will have their base cast times reduced by 20%</li><li>At 72 increments of Frozen Solid, Blast of Devastation and Hail Storm will have their base cast times reduced by 40% and by 60% at 108 increments.</li><li>At 144 increments of Frozen Solid, Blast of Devastation and Hail Storm will have their base cast times reduced by 80% and removed at 180 increments.</li></ul>", 
                   "<ul><li>At 36 increments of Frozen Solid, Blast of Devastation and Hail Storm will have their base cast times reduced by 20%</li></ul>", 
-                  "<ul><li>At 36 increments of Frozen Solid, Blast of Devastation and Hail Storm will have their base cast times reduced by 20%</li><li>At 72 increments of Frozen Solid, Blast of Devastation and Hail Storm will have their base cast times reduced by 40% and by 60% at 108 increments.</li></ul>"
+                  "<ul><li>At 36 increments of Frozen Solid, Blast of Devastation and Hail Storm will have their base cast times reduced by 20%</li><li>At 72 increments of Frozen Solid, Blast of Devastation and Hail Storm will have their base cast times reduced by 40% and by 60% at 108 increments.</li></ul>", 
+                  "<ul><li>At 36 increments of Frozen Solid, Blast of Devastation and Hail Storm will have their base cast times reduced by 20%</li><li>At 72 increments of Frozen Solid, Blast of Devastation and Hail Storm will have their base cast times reduced by 40% and by 60% at 108 increments.</li><li>At 144 increments of Frozen Solid, Blast of Devastation and Hail Storm will have their base cast times reduced by 80% and removed at 180 increments.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 155
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Velium Chill", 
                "parent_id": 12, 
@@ -4642,6 +4770,7 @@
                   "icon": 852
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Hellfire", 
                "parent_id": -1, 
@@ -4672,6 +4801,7 @@
                   "icon": 479
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Arcane Tyrant", 
                "parent_id": -1, 
@@ -4702,6 +4832,7 @@
                   "icon": 902
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Frozen Detonation", 
                "parent_id": -1, 
@@ -4763,17 +4894,18 @@
                "cost": 1, 
                "description": "Increases your ability to get a bonus rare harvest.  This also grants the ability to track harvesting nodes.  Higher ranks of this ability lower the cooldown on the Track Harvestables ability.", 
                "effects": [
-                  "<ul><li>Increases rare harvest chance by 2.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 1.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 2.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 3.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 4.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 5.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 3.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>"
+                  "<ul><li>Increases rare harvest chance by 5.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 777
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Seasoned Harvesting", 
                "parent_id": -1, 
@@ -4800,17 +4932,18 @@
                "cost": 1, 
                "description": "Increases the artisan's durability gain.", 
                "effects": [
-                  "<ul><li>Increases the amount of durability gained by 5.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 1.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 2.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 3.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 1.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 4.0.</li></ul>"
+                  "<ul><li>Increases the amount of durability gained by 4.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 5.0.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 468
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Steady Hands", 
                "parent_id": -1, 
@@ -4837,17 +4970,18 @@
                "cost": 1, 
                "description": "Increases the Artisan's Success Rate.", 
                "effects": [
+                  "<ul><li>Increases success chance by 1.0%</li></ul>", 
+                  "<ul><li>Increases success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases success chance by 3.0%</li></ul>", 
                   "<ul><li>Increases success chance by 4.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 1.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 5.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 2.0%</li></ul>"
+                  "<ul><li>Increases success chance by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 24
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Brilliant Technique", 
                "parent_id": -1, 
@@ -4884,6 +5018,7 @@
                   "icon": 565
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Summon Artisan's Gathering Goblin", 
                "parent_id": 0, 
@@ -4912,6 +5047,7 @@
                   "icon": 561
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Summon Crafting Stations", 
                "parent_id": 0, 
@@ -4935,10 +5071,10 @@
                "cost": 1, 
                "description": "Further increases the artisan's durability gain.", 
                "effects": [
-                  "<ul><li>Increases the durability gain by 4.0%.</li></ul>", 
-                  "<ul><li>Increases the durability gain by 3.0%.</li></ul>", 
                   "<ul><li>Increases the durability gain by 1.0%.</li></ul>", 
                   "<ul><li>Increases the durability gain by 2.0%.</li></ul>", 
+                  "<ul><li>Increases the durability gain by 3.0%.</li></ul>", 
+                  "<ul><li>Increases the durability gain by 4.0%.</li></ul>", 
                   "<ul><li>Increases the durability gain by 5.0%.</li></ul>"
                ], 
                "icon": {
@@ -4946,6 +5082,7 @@
                   "icon": 27
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Grandmaster's Will", 
                "parent_id": 1, 
@@ -4972,16 +5109,17 @@
                "description": "Greatly increases the artisan's food and drink duration.", 
                "effects": [
                   "<ul><li>Improves the duration of food and drink by 5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 25%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 15%</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 10%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 20%</li></ul>"
+                  "<ul><li>Improves the duration of food and drink by 15%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 20%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 25%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 809
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Experimental Preservatives", 
                "parent_id": 1, 
@@ -5007,17 +5145,18 @@
                "cost": 1, 
                "description": "Increases the artisan's critical success rate.", 
                "effects": [
-                  "<ul><li>Increases critical success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 1.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 3.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 5.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 4.0%</li></ul>"
+                  "<ul><li>Increases critical success chance by 4.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 34
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Grandmaster's Design", 
                "parent_id": 2, 
@@ -5041,17 +5180,18 @@
                "cost": 1, 
                "description": "Increases the artisan's rate of progress.", 
                "effects": [
-                  "<ul><li>Increases the amount of progress gained by 3.0%.</li></ul>", 
-                  "<ul><li>Increases the amount of progress gained by 5.0%.</li></ul>", 
-                  "<ul><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
                   "<ul><li>Increases the amount of progress gained by 1.0%.</li></ul>", 
-                  "<ul><li>Increases the amount of progress gained by 2.0%.</li></ul>"
+                  "<ul><li>Increases the amount of progress gained by 2.0%.</li></ul>", 
+                  "<ul><li>Increases the amount of progress gained by 3.0%.</li></ul>", 
+                  "<ul><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
+                  "<ul><li>Increases the amount of progress gained by 5.0%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 89
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Artisan's Discipline", 
                "parent_id": 2, 
@@ -5086,6 +5226,7 @@
                   "icon": 540
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Salvage", 
                "parent_id": 3, 
@@ -5109,17 +5250,18 @@
                "cost": 1, 
                "description": "Increases the Artisan's Ground and Mount Speed.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 8.0%</li><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 6.0%</li><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 10.0%</li><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases Ground Mount Speed of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 4.0%</li><li>Increases Ground Mount Speed of caster by 4.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases Ground Mount Speed of caster by 2.0%</li></ul>"
+                  "<ul><li>Increases speed of caster by 6.0%</li><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 8.0%</li><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 10.0%</li><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 304
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Innovative Insoles", 
                "parent_id": 6, 
@@ -5143,17 +5285,18 @@
                "cost": 1, 
                "description": "Refunds a portion of a recipes build components upon recipe completion.", 
                "effects": [
-                  "<ul><li>Increases build components returned by 12.0%</li></ul>", 
-                  "<ul><li>Increases build components returned by 20.0%</li></ul>", 
-                  "<ul><li>Increases build components returned by 16.0%</li></ul>", 
                   "<ul><li>Increases build components returned by 4.0%</li></ul>", 
-                  "<ul><li>Increases build components returned by 8.0%</li></ul>"
+                  "<ul><li>Increases build components returned by 8.0%</li></ul>", 
+                  "<ul><li>Increases build components returned by 12.0%</li></ul>", 
+                  "<ul><li>Increases build components returned by 16.0%</li></ul>", 
+                  "<ul><li>Increases build components returned by 20.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 45
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Systematic Conservation", 
                "parent_id": 7, 
@@ -5188,6 +5331,7 @@
                   "icon": 906
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Refine", 
                "parent_id": -1, 
@@ -5211,17 +5355,18 @@
                "cost": 1, 
                "description": "Allows the artisan to experiment on an item.  Experimentation can either add a proc, add a decoration, or boost the stats of an item.  Higher ranks of this ability increase the total amount of times you can experiment on an item.  Additionally, higher ranks of this ability will improve your experimentation reaction arts.", 
                "effects": [
+                  "<ul><li>Increases number of times experimentation can be applied to an item by 1.0</li></ul>", 
                   "<ul><li>Increases number of times experimentation can be applied to an item by 2.0</li></ul>", 
                   "<ul><li>Increases number of times experimentation can be applied to an item by 3.0</li></ul>", 
-                  "<ul><li>Increases number of times experimentation can be applied to an item by 1.0</li></ul>", 
-                  "<ul><li>Increases number of times experimentation can be applied to an item by 5.0</li></ul>", 
-                  "<ul><li>Increases number of times experimentation can be applied to an item by 4.0</li></ul>"
+                  "<ul><li>Increases number of times experimentation can be applied to an item by 4.0</li></ul>", 
+                  "<ul><li>Increases number of times experimentation can be applied to an item by 5.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 896
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Experimentation", 
                "parent_id": -1, 
@@ -5245,17 +5390,18 @@
                "cost": 1, 
                "description": "Enables the artisan to craft multiple items at a time.  Higher tiers of this ability increase the maximum crafting quantity.  Conservation of Mass does not apply when Mass Producing, and Mass Produced items will not count for quest updates.", 
                "effects": [
-                  "<ul><li>Increases max crafting quantity by 50.0</li></ul>", 
-                  "<ul><li>Increases max crafting quantity by 25.0</li></ul>", 
                   "<ul><li>Increases max crafting quantity by 5.0</li></ul>", 
-                  "<ul><li>Increases max crafting quantity by 100.0</li></ul>", 
-                  "<ul><li>Increases max crafting quantity by 10.0</li></ul>"
+                  "<ul><li>Increases max crafting quantity by 10.0</li></ul>", 
+                  "<ul><li>Increases max crafting quantity by 25.0</li></ul>", 
+                  "<ul><li>Increases max crafting quantity by 50.0</li></ul>", 
+                  "<ul><li>Increases max crafting quantity by 100.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 31
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Mass Production", 
                "parent_id": -1, 

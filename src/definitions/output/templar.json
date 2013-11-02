@@ -40,6 +40,7 @@
                   "icon": 608
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Yaulp", 
                "parent_id": -1, 
@@ -65,22 +66,23 @@
                "cost": 1, 
                "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.", 
                "effects": [
-                  "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.6</li><li>Interrupts target</li><li>Inflicts 4 - 7 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.5</li><li>Interrupts target</li><li>Inflicts 4 - 6 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.3</li><li>Interrupts target</li><li>Inflicts 3 - 6 melee damage on target</li></ul>", 
+                  "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 0.9</li><li>Interrupts target</li><li>Inflicts 2 - 4 melee damage on target</li></ul>", 
                   "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 0.9</li><li>Interrupts target</li><li>Inflicts 2 - 4 melee damage on target</li></ul>", 
                   "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.0</li><li>Interrupts target</li><li>Inflicts 2 - 4 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 0.9</li><li>Interrupts target</li><li>Inflicts 2 - 4 melee damage on target</li></ul>", 
+                  "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.1</li><li>Interrupts target</li><li>Inflicts 3 - 5 melee damage on target</li></ul>", 
                   "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.2</li><li>Interrupts target</li><li>Inflicts 3 - 5 melee damage on target</li></ul>", 
+                  "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.3</li><li>Interrupts target</li><li>Inflicts 3 - 6 melee damage on target</li></ul>", 
                   "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.4</li><li>Interrupts target</li><li>Inflicts 3 - 6 melee damage on target</li></ul>", 
+                  "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.5</li><li>Interrupts target</li><li>Inflicts 4 - 6 melee damage on target</li></ul>", 
                   "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.6</li><li>Interrupts target</li><li>Inflicts 4 - 7 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.1</li><li>Interrupts target</li><li>Inflicts 3 - 5 melee damage on target</li></ul>"
+                  "<ul><li>Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.6</li><li>Interrupts target</li><li>Inflicts 4 - 7 melee damage on target</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 591
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Skull Crack", 
                "parent_id": 0, 
@@ -122,6 +124,7 @@
                   "icon": 563
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Wondrous Distraction", 
                "parent_id": 0, 
@@ -147,22 +150,23 @@
                "cost": 1, 
                "description": "A melee attack that knocks down the target on a successful hit.", 
                "effects": [
-                  "<ul><li>Inflicts 4 - 7 divine damage on target</li><li>Applies Knockdown.  Lasts for 3.0 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
-                  "<ul><li>Inflicts 4 - 8 divine damage on target</li><li>Applies Knockdown.  Lasts for 3.2 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
-                  "<ul><li>Inflicts 4 - 7 divine damage on target</li><li>Applies Knockdown.  Lasts for 2.8 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
-                  "<ul><li>Inflicts 3 - 6 divine damage on target</li><li>Applies Knockdown.  Lasts for 2.4 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
                   "<ul><li>Inflicts 2 - 4 divine damage on target</li><li>Applies Knockdown.  Lasts for 1.8 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
                   "<ul><li>Inflicts 2 - 4 divine damage on target</li><li>Applies Knockdown.  Lasts for 1.9 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
-                  "<ul><li>Inflicts 5 - 8 divine damage on target</li><li>Applies Knockdown.  Lasts for 3.3 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
                   "<ul><li>Inflicts 3 - 5 divine damage on target</li><li>Applies Knockdown.  Lasts for 2.0 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
                   "<ul><li>Inflicts 3 - 5 divine damage on target</li><li>Applies Knockdown.  Lasts for 2.2 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
-                  "<ul><li>Inflicts 3 - 6 divine damage on target</li><li>Applies Knockdown.  Lasts for 2.6 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>"
+                  "<ul><li>Inflicts 3 - 6 divine damage on target</li><li>Applies Knockdown.  Lasts for 2.4 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>Inflicts 3 - 6 divine damage on target</li><li>Applies Knockdown.  Lasts for 2.6 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>Inflicts 4 - 7 divine damage on target</li><li>Applies Knockdown.  Lasts for 2.8 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>Inflicts 4 - 7 divine damage on target</li><li>Applies Knockdown.  Lasts for 3.0 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>Inflicts 4 - 8 divine damage on target</li><li>Applies Knockdown.  Lasts for 3.2 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>Inflicts 5 - 8 divine damage on target</li><li>Applies Knockdown.  Lasts for 3.3 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 621
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Hammer Divine Smite", 
                "parent_id": 0, 
@@ -188,22 +192,23 @@
                "cost": 1, 
                "description": "Inflict damage on the target encounter that cannot be outright resisted.", 
                "effects": [
-                  "<ul><li>Inflicts 6 - 10 divine damage on target encounter</li></ul>", 
+                  "<ul><li>Inflicts 4 - 7 divine damage on target encounter</li></ul>", 
+                  "<ul><li>Inflicts 4 - 7 divine damage on target encounter</li></ul>", 
                   "<ul><li>Inflicts 4 - 7 divine damage on target encounter</li></ul>", 
                   "<ul><li>Inflicts 5 - 8 divine damage on target encounter</li></ul>", 
-                  "<ul><li>Inflicts 7 - 12 divine damage on target encounter</li></ul>", 
-                  "<ul><li>Inflicts 7 - 11 divine damage on target encounter</li></ul>", 
                   "<ul><li>Inflicts 5 - 9 divine damage on target encounter</li></ul>", 
-                  "<ul><li>Inflicts 4 - 7 divine damage on target encounter</li></ul>", 
                   "<ul><li>Inflicts 6 - 10 divine damage on target encounter</li></ul>", 
+                  "<ul><li>Inflicts 6 - 10 divine damage on target encounter</li></ul>", 
+                  "<ul><li>Inflicts 7 - 11 divine damage on target encounter</li></ul>", 
                   "<ul><li>Inflicts 7 - 12 divine damage on target encounter</li></ul>", 
-                  "<ul><li>Inflicts 4 - 7 divine damage on target encounter</li></ul>"
+                  "<ul><li>Inflicts 7 - 12 divine damage on target encounter</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 645
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Divine Demonstration", 
                "parent_id": 0, 
@@ -229,15 +234,15 @@
                "cost": 1, 
                "description": "Inflicts divine damage to your target.", 
                "effects": [
-                  "<ul><li>Inflicts 6 - 10 divine damage on target</li></ul>", 
-                  "<ul><li>Inflicts 7 - 11 divine damage on target</li></ul>", 
+                  "<ul><li>Inflicts 4 - 7 divine damage on target</li></ul>", 
+                  "<ul><li>Inflicts 4 - 7 divine damage on target</li></ul>", 
+                  "<ul><li>Inflicts 5 - 8 divine damage on target</li></ul>", 
                   "<ul><li>Inflicts 5 - 9 divine damage on target</li></ul>", 
                   "<ul><li>Inflicts 6 - 9 divine damage on target</li></ul>", 
-                  "<ul><li>Inflicts 4 - 7 divine damage on target</li></ul>", 
-                  "<ul><li>Inflicts 4 - 7 divine damage on target</li></ul>", 
-                  "<ul><li>Inflicts 8 - 13 divine damage on target</li></ul>", 
-                  "<ul><li>Inflicts 5 - 8 divine damage on target</li></ul>", 
+                  "<ul><li>Inflicts 6 - 10 divine damage on target</li></ul>", 
+                  "<ul><li>Inflicts 7 - 11 divine damage on target</li></ul>", 
                   "<ul><li>Inflicts 7 - 12 divine damage on target</li></ul>", 
+                  "<ul><li>Inflicts 8 - 13 divine damage on target</li></ul>", 
                   "<ul><li>Inflicts 8 - 13 divine damage on target</li></ul>"
                ], 
                "icon": {
@@ -245,6 +250,7 @@
                   "icon": 559
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Divine Castigation", 
                "parent_id": 0, 
@@ -271,21 +277,22 @@
                "description": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.", 
                "effects": [
                   "<ul><li>On any combat or spell hit this spell has a 5% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
-                  "<ul><li>On any combat or spell hit this spell has a 25% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
-                  "<ul><li>On any combat or spell hit this spell has a 50% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
-                  "<ul><li>On any combat or spell hit this spell has a 45% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
-                  "<ul><li>On any combat or spell hit this spell has a 40% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
-                  "<ul><li>On any combat or spell hit this spell has a 20% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
-                  "<ul><li>On any combat or spell hit this spell has a 30% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
+                  "<ul><li>On any combat or spell hit this spell has a 10% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
                   "<ul><li>On any combat or spell hit this spell has a 15% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
+                  "<ul><li>On any combat or spell hit this spell has a 20% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
+                  "<ul><li>On any combat or spell hit this spell has a 25% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
+                  "<ul><li>On any combat or spell hit this spell has a 30% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
                   "<ul><li>On any combat or spell hit this spell has a 35% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
-                  "<ul><li>On any combat or spell hit this spell has a 10% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>"
+                  "<ul><li>On any combat or spell hit this spell has a 40% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
+                  "<ul><li>On any combat or spell hit this spell has a 45% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>", 
+                  "<ul><li>On any combat or spell hit this spell has a 50% chance to cast Bolt of Power on target of attack.  </li><ul><li>Inflicts 4 - 6 divine damage on target</li><li>Interrupts target</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 581
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Bolt of Power", 
                "parent_id": 1, 
@@ -311,22 +318,23 @@
                "cost": 1, 
                "description": "Increases the Protector's chances at blocking and striking twice in melee combat.", 
                "effects": [
-                  "<ul><li>Increases caster's chance to block by 32.0%</li><li>Increases Multi Attack Chance of caster by 32.0</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 19.2%</li><li>Increases Multi Attack Chance of caster by 19.2</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 28.8%</li><li>Increases Multi Attack Chance of caster by 28.8</li></ul>", 
                   "<ul><li>Increases caster's chance to block by 3.2%</li><li>Increases Multi Attack Chance of caster by 3.2</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 16.0%</li><li>Increases Multi Attack Chance of caster by 16.0</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 12.8%</li><li>Increases Multi Attack Chance of caster by 12.8</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 22.4%</li><li>Increases Multi Attack Chance of caster by 22.4</li></ul>", 
                   "<ul><li>Increases caster's chance to block by 6.4%</li><li>Increases Multi Attack Chance of caster by 6.4</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 9.6%</li><li>Increases Multi Attack Chance of caster by 9.6</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 12.8%</li><li>Increases Multi Attack Chance of caster by 12.8</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 16.0%</li><li>Increases Multi Attack Chance of caster by 16.0</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 19.2%</li><li>Increases Multi Attack Chance of caster by 19.2</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 22.4%</li><li>Increases Multi Attack Chance of caster by 22.4</li></ul>", 
                   "<ul><li>Increases caster's chance to block by 25.6%</li><li>Increases Multi Attack Chance of caster by 25.6</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 9.6%</li><li>Increases Multi Attack Chance of caster by 9.6</li></ul>"
+                  "<ul><li>Increases caster's chance to block by 28.8%</li><li>Increases Multi Attack Chance of caster by 28.8</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 32.0%</li><li>Increases Multi Attack Chance of caster by 32.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 642
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Battle Fervor", 
                "parent_id": 2, 
@@ -352,22 +360,23 @@
                "cost": 1, 
                "description": "Increases the Deacon's damage in melee combat.", 
                "effects": [
-                  "<ul><li>Improves base auto attack multiplier of caster by 0.096</li></ul>", 
-                  "<ul><li>Improves base auto attack multiplier of caster by 0.160</li></ul>", 
-                  "<ul><li>Improves base auto attack multiplier of caster by 0.224</li></ul>", 
-                  "<ul><li>Improves base auto attack multiplier of caster by 0.288</li></ul>", 
-                  "<ul><li>Improves base auto attack multiplier of caster by 0.320</li></ul>", 
                   "<ul><li>Improves base auto attack multiplier of caster by 0.032</li></ul>", 
-                  "<ul><li>Improves base auto attack multiplier of caster by 0.256</li></ul>", 
                   "<ul><li>Improves base auto attack multiplier of caster by 0.064</li></ul>", 
+                  "<ul><li>Improves base auto attack multiplier of caster by 0.096</li></ul>", 
                   "<ul><li>Improves base auto attack multiplier of caster by 0.128</li></ul>", 
-                  "<ul><li>Improves base auto attack multiplier of caster by 0.192</li></ul>"
+                  "<ul><li>Improves base auto attack multiplier of caster by 0.160</li></ul>", 
+                  "<ul><li>Improves base auto attack multiplier of caster by 0.192</li></ul>", 
+                  "<ul><li>Improves base auto attack multiplier of caster by 0.224</li></ul>", 
+                  "<ul><li>Improves base auto attack multiplier of caster by 0.256</li></ul>", 
+                  "<ul><li>Improves base auto attack multiplier of caster by 0.288</li></ul>", 
+                  "<ul><li>Improves base auto attack multiplier of caster by 0.320</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 649
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Severe Judgment", 
                "parent_id": 3, 
@@ -396,19 +405,20 @@
                   "<ul><li>On any combat or spell hit this spell has a 10% chance to cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>", 
                   "<ul><li>On any combat or spell hit this spell has a 20% chance to cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>", 
                   "<ul><li>On any combat or spell hit this spell has a 30% chance to cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>", 
-                  "<ul><li>On any combat or spell hit this spell has a 90% chance to cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>", 
+                  "<ul><li>On any combat or spell hit this spell has a 40% chance to cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>", 
                   "<ul><li>On any combat or spell hit this spell has a 50% chance to cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>", 
-                  "<ul><li>On any combat or spell hit this spell will cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>", 
+                  "<ul><li>On any combat or spell hit this spell has a 60% chance to cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>", 
                   "<ul><li>On any combat or spell hit this spell has a 70% chance to cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>", 
                   "<ul><li>On any combat or spell hit this spell has a 80% chance to cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>", 
-                  "<ul><li>On any combat or spell hit this spell has a 60% chance to cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>", 
-                  "<ul><li>On any combat or spell hit this spell has a 40% chance to cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>"
+                  "<ul><li>On any combat or spell hit this spell has a 90% chance to cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>", 
+                  "<ul><li>On any combat or spell hit this spell will cast Cleanse on target of attack.  </li><ul><li>Inflicts 2 - 4 divine damage on target</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 549
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Blessed Armament", 
                "parent_id": 4, 
@@ -434,22 +444,23 @@
                "cost": 1, 
                "description": "Increases the Arbiter's spell damage.", 
                "effects": [
-                  "<ul><li>Increases the base spell damage of the cleric by 4%</li></ul>", 
-                  "<ul><li>Increases the base spell damage of the cleric by 2%</li></ul>", 
-                  "<ul><li>Increases the base spell damage of the cleric by 9%</li></ul>", 
-                  "<ul><li>Increases the base spell damage of the cleric by 5%</li></ul>", 
-                  "<ul><li>Increases the base spell damage of the cleric by 3%</li></ul>", 
                   "<ul><li>Increases the base spell damage of the cleric by 1%</li></ul>", 
+                  "<ul><li>Increases the base spell damage of the cleric by 2%</li></ul>", 
+                  "<ul><li>Increases the base spell damage of the cleric by 3%</li></ul>", 
+                  "<ul><li>Increases the base spell damage of the cleric by 4%</li></ul>", 
+                  "<ul><li>Increases the base spell damage of the cleric by 5%</li></ul>", 
                   "<ul><li>Increases the base spell damage of the cleric by 6%</li></ul>", 
+                  "<ul><li>Increases the base spell damage of the cleric by 7%</li></ul>", 
                   "<ul><li>Increases the base spell damage of the cleric by 8%</li></ul>", 
-                  "<ul><li>Increases the base spell damage of the cleric by 10%</li></ul>", 
-                  "<ul><li>Increases the base spell damage of the cleric by 7%</li></ul>"
+                  "<ul><li>Increases the base spell damage of the cleric by 9%</li></ul>", 
+                  "<ul><li>Increases the base spell damage of the cleric by 10%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 568
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Pact of the Faithful", 
                "parent_id": 5, 
@@ -473,15 +484,15 @@
                "cost": 1, 
                "description": "Increases the Bishop's focus skill and maximum health.", 
                "effects": [
-                  "<ul><li>Increases Max Health of caster by 9.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Max Health of caster by 8.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 1.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Max Health of caster by 3.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Max Health of caster by 5.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Max Health of caster by 7.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Max Health of caster by 4.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Max Health of caster by 6.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 2.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 3.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 4.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 5.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 6.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 7.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 8.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 9.0%</li><li>Increases Focus of caster by 0.0</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 10.0%</li><li>Increases Focus of caster by 0.0</li></ul>"
                ], 
                "icon": {
@@ -489,6 +500,7 @@
                   "icon": 584
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Unwavering Resolve", 
                "parent_id": 6, 
@@ -512,22 +524,23 @@
                "cost": 1, 
                "description": "Grants the Protector a chance to shield an ally from melee attacks, by allowing the target a chance to use the Protector's avoidance check after their own avoidance check.", 
                "effects": [
-                  "<ul><li>Grants target a 30% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
-                  "<ul><li>Grants target a 42% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
-                  "<ul><li>Grants target a 60% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
-                  "<ul><li>Grants target a 48% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
-                  "<ul><li>Grants target a 18% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
-                  "<ul><li>Grants target a 36% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
                   "<ul><li>Grants target a 6% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
-                  "<ul><li>Grants target a 24% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
                   "<ul><li>Grants target a 12% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
-                  "<ul><li>Grants target a 54% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>"
+                  "<ul><li>Grants target a 18% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
+                  "<ul><li>Grants target a 24% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
+                  "<ul><li>Grants target a 30% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
+                  "<ul><li>Grants target a 36% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
+                  "<ul><li>Grants target a 42% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
+                  "<ul><li>Grants target a 48% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
+                  "<ul><li>Grants target a 54% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
+                  "<ul><li>Grants target a 60% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 622
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Shield Ally", 
                "parent_id": 7, 
@@ -551,22 +564,23 @@
                "cost": 1, 
                "description": "Increases the Deacon's critical chance.", 
                "effects": [
-                  "<ul><li>Increases Crit Chance of caster by 15.6</li></ul>", 
                   "<ul><li>Increases Crit Chance of caster by 1.6</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 9.4</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 3.1</li></ul>", 
                   "<ul><li>Increases Crit Chance of caster by 4.7</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 10.9</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 7.8</li></ul>", 
                   "<ul><li>Increases Crit Chance of caster by 6.2</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 7.8</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 9.4</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 10.9</li></ul>", 
                   "<ul><li>Increases Crit Chance of caster by 12.5</li></ul>", 
                   "<ul><li>Increases Crit Chance of caster by 14.0</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 3.1</li></ul>"
+                  "<ul><li>Increases Crit Chance of caster by 15.6</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 562
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Inspired Renewal", 
                "parent_id": 8, 
@@ -606,6 +620,7 @@
                   "icon": 542
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Exorcist's Concentration", 
                "parent_id": 9, 
@@ -629,22 +644,23 @@
                "cost": 1, 
                "description": "Increases the Arbiter's casting speed.", 
                "effects": [
-                  "<ul><li>Increases Ability Casting Speed of caster by 8.6%</li></ul>", 
                   "<ul><li>Increases Ability Casting Speed of caster by 1.4%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of caster by 14.4%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of caster by 5.8%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of caster by 11.5%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of caster by 10.1%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of caster by 13.0%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of caster by 4.3%</li></ul>", 
                   "<ul><li>Increases Ability Casting Speed of caster by 2.9%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of caster by 7.2%</li></ul>"
+                  "<ul><li>Increases Ability Casting Speed of caster by 4.3%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of caster by 5.8%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of caster by 7.2%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of caster by 8.6%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of caster by 10.1%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of caster by 11.5%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of caster by 13.0%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of caster by 14.4%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 597
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Facile Grace", 
                "parent_id": 10, 
@@ -675,6 +691,7 @@
                   "icon": 619
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Steadfast", 
                "parent_id": -1, 
@@ -705,6 +722,7 @@
                   "icon": 588
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Holy Shield", 
                "parent_id": -1, 
@@ -735,6 +753,7 @@
                   "icon": 614
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Divine Aura", 
                "parent_id": -1, 
@@ -765,6 +784,7 @@
                   "icon": 651
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Exorcise", 
                "parent_id": -1, 
@@ -795,6 +815,7 @@
                   "icon": 635
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Divine Recovery", 
                "parent_id": -1, 
@@ -818,20 +839,21 @@
                "cost": 1, 
                "description": "Steadfast Resolve enhances Steadfast by increasing the duration you are immune to stifle and interrupt effects. The final rank of this ability increases the chance of stifle immunity applying to 100%.", 
                "effects": [
-                  "<ul><li>Improves the duration by 50%.</li></ul>", 
-                  "<ul><li>Makes the stifle immunity trigger 100% of the time.</li><li>Improves the duration by 100%.</li></ul>", 
+                  "<ul><li>Improves the duration by 12.5%.</li></ul>", 
                   "<ul><li>Improves the duration by 25%.</li></ul>", 
+                  "<ul><li>Improves the duration by 37.5%.</li></ul>", 
+                  "<ul><li>Improves the duration by 50%.</li></ul>", 
+                  "<ul><li>Improves the duration by 62.5%.</li></ul>", 
                   "<ul><li>Improves the duration by 75%.</li></ul>", 
                   "<ul><li>Improves the duration by 87.5%.</li></ul>", 
-                  "<ul><li>Improves the duration by 37.5%.</li></ul>", 
-                  "<ul><li>Improves the duration by 62.5%.</li></ul>", 
-                  "<ul><li>Improves the duration by 12.5%.</li></ul>"
+                  "<ul><li>Makes the stifle immunity trigger 100% of the time.</li><li>Improves the duration by 100%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 619
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Steadfast Resolve", 
                "parent_id": -1, 
@@ -855,20 +877,21 @@
                "cost": 1, 
                "description": "Increases the duration and lowers the reuse of Holy Shield.", 
                "effects": [
-                  "<ul><li>Increases the duration and lowers the reuse of Holy Shield by 5 seconds.</li></ul>", 
-                  "<ul><li>Increases the duration and lowers the reuse of Holy Shield by 7.5 seconds.</li></ul>", 
-                  "<ul><li>Increases the duration and lowers the reuse of Holy Shield by 8.75 seconds.</li></ul>", 
                   "<ul><li>Increases the duration and lowers the reuse of Holy Shield by 1.25 seconds.</li></ul>", 
-                  "<ul><li>Increases the duration and lowers the reuse of Holy Shield by 10 seconds.</li></ul>", 
                   "<ul><li>Increases the duration and lowers the reuse of Holy Shield by 2.5 seconds.</li></ul>", 
                   "<ul><li>Increases the duration and lowers the reuse of Holy Shield by 3.75 seconds.</li></ul>", 
-                  "<ul><li>Increases the duration and lowers the reuse of Holy Shield by 6.25 seconds.</li></ul>"
+                  "<ul><li>Increases the duration and lowers the reuse of Holy Shield by 5 seconds.</li></ul>", 
+                  "<ul><li>Increases the duration and lowers the reuse of Holy Shield by 6.25 seconds.</li></ul>", 
+                  "<ul><li>Increases the duration and lowers the reuse of Holy Shield by 7.5 seconds.</li></ul>", 
+                  "<ul><li>Increases the duration and lowers the reuse of Holy Shield by 8.75 seconds.</li></ul>", 
+                  "<ul><li>Increases the duration and lowers the reuse of Holy Shield by 10 seconds.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 588
                }, 
                "id": 22, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Holy Reinforcement", 
                "parent_id": -1, 
@@ -893,12 +916,12 @@
                "description": "Improves the duration of Divine Aura.", 
                "effects": [
                   "<ul><li>Improves the duration by 1.25 seconds.</li></ul>", 
-                  "<ul><li>Improves the duration by 5 seconds.</li></ul>", 
-                  "<ul><li>Improves the duration by 8.75 seconds.</li></ul>", 
-                  "<ul><li>Improves the duration by 7.5 seconds.</li></ul>", 
-                  "<ul><li>Improves the duration by 6.25 seconds.</li></ul>", 
-                  "<ul><li>Improves the duration by 3.75 seconds.</li></ul>", 
                   "<ul><li>Improves the duration by 2.5 seconds.</li></ul>", 
+                  "<ul><li>Improves the duration by 3.75 seconds.</li></ul>", 
+                  "<ul><li>Improves the duration by 5 seconds.</li></ul>", 
+                  "<ul><li>Improves the duration by 6.25 seconds.</li></ul>", 
+                  "<ul><li>Improves the duration by 7.5 seconds.</li></ul>", 
+                  "<ul><li>Improves the duration by 8.75 seconds.</li></ul>", 
                   "<ul><li>Improves the duration by 10 seconds.</li></ul>"
                ], 
                "icon": {
@@ -906,6 +929,7 @@
                   "icon": 614
                }, 
                "id": 23, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Devout Aura", 
                "parent_id": -1, 
@@ -929,20 +953,21 @@
                "cost": 1, 
                "description": "Reduces resistibility of hostile spells.", 
                "effects": [
+                  "<ul><li>Reduces the resistibility of hostile spells by 1.25%.</li></ul>", 
+                  "<ul><li>Reduces the resistibility of hostile spells by 2.5%.</li></ul>", 
+                  "<ul><li>Reduces the resistibility of hostile spells by 3.75%.</li></ul>", 
+                  "<ul><li>Reduces the resistibility of hostile spells by 5%.</li></ul>", 
+                  "<ul><li>Reduces the resistibility of hostile spells by 6.25%.</li></ul>", 
                   "<ul><li>Reduces the resistibility of hostile spells by 7.5%.</li></ul>", 
                   "<ul><li>Reduces the resistibility of hostile spells by 8.75%.</li></ul>", 
-                  "<ul><li>Reduces the resistibility of hostile spells by 3.75%.</li></ul>", 
-                  "<ul><li>Reduces the resistibility of hostile spells by 10%.</li></ul>", 
-                  "<ul><li>Reduces the resistibility of hostile spells by 2.5%.</li></ul>", 
-                  "<ul><li>Reduces the resistibility of hostile spells by 5%.</li></ul>", 
-                  "<ul><li>Reduces the resistibility of hostile spells by 1.25%.</li></ul>", 
-                  "<ul><li>Reduces the resistibility of hostile spells by 6.25%.</li></ul>"
+                  "<ul><li>Reduces the resistibility of hostile spells by 10%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 919
                }, 
                "id": 24, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Holy Avenger", 
                "parent_id": -1, 
@@ -966,20 +991,21 @@
                "cost": 1, 
                "description": "Adds an effect to Divine Recovery that increases the base damage, heals and taunts of the group.", 
                "effects": [
-                  "<ul><li>Increases base damage, heals and taunt amounts of the group by 8.75%.</li></ul>", 
-                  "<ul><li>Increases base damage, heals and taunt amounts of the group by 7.5%.</li></ul>", 
-                  "<ul><li>Increases base damage, heals and taunt amounts of the group by 5%.</li></ul>", 
-                  "<ul><li>Increases base damage, heals and taunt amounts of the group by 2.5%.</li></ul>", 
                   "<ul><li>Increases base damage, heals and taunt amounts of the group by 1.25%.</li></ul>", 
+                  "<ul><li>Increases base damage, heals and taunt amounts of the group by 2.5%.</li></ul>", 
+                  "<ul><li>Increases base damage, heals and taunt amounts of the group by 3.75%.</li></ul>", 
+                  "<ul><li>Increases base damage, heals and taunt amounts of the group by 5%.</li></ul>", 
                   "<ul><li>Increases base damage, heals and taunt amounts of the group by 6.25%.</li></ul>", 
-                  "<ul><li>Increases base damage, heals and taunt amounts of the group by 10%.</li></ul>", 
-                  "<ul><li>Increases base damage, heals and taunt amounts of the group by 3.75%.</li></ul>"
+                  "<ul><li>Increases base damage, heals and taunt amounts of the group by 7.5%.</li></ul>", 
+                  "<ul><li>Increases base damage, heals and taunt amounts of the group by 8.75%.</li></ul>", 
+                  "<ul><li>Increases base damage, heals and taunt amounts of the group by 10%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 635
                }, 
                "id": 25, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Divine Healing", 
                "parent_id": -1, 
@@ -1011,6 +1037,7 @@
                   "icon": 800
                }, 
                "id": 26, 
+               "level": 0, 
                "max_level": 2, 
                "name": "Divine Guidance", 
                "parent_id": -1, 
@@ -1070,17 +1097,18 @@
                "cost": 1, 
                "description": "Hastens the reuse speed of Sign of Pacification and its upgrades. This enhancement also makes it more difficult to fully resist this spell.", 
                "effects": [
-                  "<ul><li>Improves reuse speed by 8 seconds</li><li>Reduces resistibility by 20%</li></ul>", 
                   "<ul><li>Improves reuse speed by 2 seconds</li><li>Reduces resistibility by 5%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 4 seconds</li><li>Reduces resistibility by 10%</li></ul>", 
                   "<ul><li>Improves reuse speed by 6 seconds</li><li>Reduces resistibility by 15%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 10 seconds</li><li>Reduces resistibility by 25%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 4 seconds</li><li>Reduces resistibility by 10%</li></ul>"
+                  "<ul><li>Improves reuse speed by 8 seconds</li><li>Reduces resistibility by 20%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 10 seconds</li><li>Reduces resistibility by 25%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 267
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Sign of Pacification", 
                "parent_id": -1, 
@@ -1104,17 +1132,18 @@
                "cost": 1, 
                "description": "Rebuke and its upgrades reduce additional mitigation. This enhancement also makes it more difficult to fully resist this spell.", 
                "effects": [
-                  "<ul><li>Reduces resistibility by 12%</li><li>Improves mitigation reduction by 28%</li></ul>", 
-                  "<ul><li>Reduces resistibility by 6%</li><li>Improves mitigation reduction by 14%</li></ul>", 
-                  "<ul><li>Reduces resistibility by 15%</li><li>Improves mitigation reduction by 35%</li></ul>", 
                   "<ul><li>Reduces resistibility by 3%</li><li>Improves mitigation reduction by 7%</li></ul>", 
-                  "<ul><li>Reduces resistibility by 9%</li><li>Improves mitigation reduction by 21%</li></ul>"
+                  "<ul><li>Reduces resistibility by 6%</li><li>Improves mitigation reduction by 14%</li></ul>", 
+                  "<ul><li>Reduces resistibility by 9%</li><li>Improves mitigation reduction by 21%</li></ul>", 
+                  "<ul><li>Reduces resistibility by 12%</li><li>Improves mitigation reduction by 28%</li></ul>", 
+                  "<ul><li>Reduces resistibility by 15%</li><li>Improves mitigation reduction by 35%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 186
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Rebuke", 
                "parent_id": -1, 
@@ -1138,17 +1167,18 @@
                "cost": 1, 
                "description": "Improves the critical damage; hastens the casting and reuse speed and reduces the power cost of Divine Smite and its upgrades.", 
                "effects": [
-                  "<ul><li>Reduces power cost by 40%</li><li>Improves the Crit Bonus by 4%</li><li>Improves casting speed by 0.4 seconds</li><li>Improves reuse speed by 0.4 seconds</li></ul>", 
-                  "<ul><li>Reduces power cost by 50%</li><li>Improves the Crit Bonus by 5%</li><li>Improves casting speed by 0.5 seconds</li><li>Improves reuse speed by 0.5 seconds</li></ul>", 
                   "<ul><li>Reduces power cost by 10%</li><li>Improves the Crit Bonus by 1%</li><li>Improves casting speed by 0.1 seconds</li><li>Improves reuse speed by 0.1 seconds</li></ul>", 
                   "<ul><li>Reduces power cost by 20%</li><li>Improves the Crit Bonus by 2%</li><li>Improves casting speed by 0.2 seconds</li><li>Improves reuse speed by 0.2 seconds</li></ul>", 
-                  "<ul><li>Reduces power cost by 30%</li><li>Improves the Crit Bonus by 3%</li><li>Improves casting speed by 0.3 seconds</li><li>Improves reuse speed by 0.3 seconds</li></ul>"
+                  "<ul><li>Reduces power cost by 30%</li><li>Improves the Crit Bonus by 3%</li><li>Improves casting speed by 0.3 seconds</li><li>Improves reuse speed by 0.3 seconds</li></ul>", 
+                  "<ul><li>Reduces power cost by 40%</li><li>Improves the Crit Bonus by 4%</li><li>Improves casting speed by 0.4 seconds</li><li>Improves reuse speed by 0.4 seconds</li></ul>", 
+                  "<ul><li>Reduces power cost by 50%</li><li>Improves the Crit Bonus by 5%</li><li>Improves casting speed by 0.5 seconds</li><li>Improves reuse speed by 0.5 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 152
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Divine Smite", 
                "parent_id": -1, 
@@ -1183,6 +1213,7 @@
                   "icon": 148
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Cure", 
                "parent_id": -1, 
@@ -1206,17 +1237,18 @@
                "cost": 1, 
                "description": "Increases the healing provided by Healing Fate and its upgrades.", 
                "effects": [
+                  "<ul><li>Increases heal amount by 10%</li></ul>", 
                   "<ul><li>Increases heal amount by 20%</li></ul>", 
-                  "<ul><li>Increases heal amount by 40%</li></ul>", 
                   "<ul><li>Increases heal amount by 30%</li></ul>", 
-                  "<ul><li>Increases heal amount by 50%</li></ul>", 
-                  "<ul><li>Increases heal amount by 10%</li></ul>"
+                  "<ul><li>Increases heal amount by 40%</li></ul>", 
+                  "<ul><li>Increases heal amount by 50%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 216
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Healing Fate", 
                "parent_id": -1, 
@@ -1240,17 +1272,18 @@
                "cost": 1, 
                "description": "Increases the trigger chance of Mark of Divinity and its upgrades.", 
                "effects": [
+                  "<ul><li>Increases trigger chance by 2%</li></ul>", 
                   "<ul><li>Increases trigger chance by 4%</li></ul>", 
                   "<ul><li>Increases trigger chance by 6%</li></ul>", 
-                  "<ul><li>Increases trigger chance by 10%</li></ul>", 
                   "<ul><li>Increases trigger chance by 8%</li></ul>", 
-                  "<ul><li>Increases trigger chance by 2%</li></ul>"
+                  "<ul><li>Increases trigger chance by 10%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 492
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Mark of Divinity", 
                "parent_id": -1, 
@@ -1275,16 +1308,17 @@
                "description": "Improves the critical damage and hastens the casting and reuse speed and reduces the power cost of Holy Strike and its upgrades.", 
                "effects": [
                   "<ul><li>Improves reuse speed by 0.5 seconds</li><li>Reduces power cost by 10%</li><li>Improves casting speed by 0.1 seconds</li><li>Improves the Crit Bonus by 1%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 2.5 seconds</li><li>Reduces power cost by 50%</li><li>Improves casting speed by 0.5 seconds</li><li>Improves the Crit Bonus by 5%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 2 seconds</li><li>Reduces power cost by 40%</li><li>Improves casting speed by 0.4 seconds</li><li>Improves the Crit Bonus by 4%</li></ul>", 
                   "<ul><li>Improves reuse speed by 1 seconds</li><li>Reduces power cost by 20%</li><li>Improves casting speed by 0.2 seconds</li><li>Improves the Crit Bonus by 2%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 1.5 seconds</li><li>Reduces power cost by 30%</li><li>Improves casting speed by 0.3 seconds</li><li>Improves the Crit Bonus by 3%</li></ul>"
+                  "<ul><li>Improves reuse speed by 1.5 seconds</li><li>Reduces power cost by 30%</li><li>Improves casting speed by 0.3 seconds</li><li>Improves the Crit Bonus by 3%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 2 seconds</li><li>Reduces power cost by 40%</li><li>Improves casting speed by 0.4 seconds</li><li>Improves the Crit Bonus by 4%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 2.5 seconds</li><li>Reduces power cost by 50%</li><li>Improves casting speed by 0.5 seconds</li><li>Improves the Crit Bonus by 5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 182
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Divine Strike", 
                "parent_id": -1, 
@@ -1308,17 +1342,18 @@
                "cost": 1, 
                "description": "Hastens the reuse speed of Harmony and its upgrades. The final rank adds a hate position reduction.", 
                "effects": [
-                  "<ul><li>Adds a positional detaunt to Harmony</li><li>Improves reuse speed by 150 seconds</li></ul>", 
-                  "<ul><li>Improves reuse speed by 90 seconds</li></ul>", 
                   "<ul><li>Improves reuse speed by 30 seconds</li></ul>", 
+                  "<ul><li>Improves reuse speed by 60 seconds</li></ul>", 
+                  "<ul><li>Improves reuse speed by 90 seconds</li></ul>", 
                   "<ul><li>Improves reuse speed by 120 seconds</li></ul>", 
-                  "<ul><li>Improves reuse speed by 60 seconds</li></ul>"
+                  "<ul><li>Adds a positional detaunt to Harmony</li><li>Improves reuse speed by 150 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 313, 
                   "icon": 157
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Harmony", 
                "parent_id": -1, 
@@ -1353,6 +1388,7 @@
                   "icon": 147
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Cure II", 
                "parent_id": -1, 
@@ -1376,17 +1412,18 @@
                "cost": 1, 
                "description": "Increases the trigger chance of Involuntary Gift and its upgrades.", 
                "effects": [
-                  "<ul><li>Increases trigger chance by 8%</li></ul>", 
-                  "<ul><li>Increases trigger chance by 10%</li></ul>", 
                   "<ul><li>Increases trigger chance by 2%</li></ul>", 
                   "<ul><li>Increases trigger chance by 4%</li></ul>", 
-                  "<ul><li>Increases trigger chance by 6%</li></ul>"
+                  "<ul><li>Increases trigger chance by 6%</li></ul>", 
+                  "<ul><li>Increases trigger chance by 8%</li></ul>", 
+                  "<ul><li>Increases trigger chance by 10%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 180
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Involuntary Gift", 
                "parent_id": -1, 
@@ -1410,17 +1447,18 @@
                "cost": 1, 
                "description": "Increases the duration of Awestruck and its upgrades. This enhancement also makes it more difficult to outright resist this spell.", 
                "effects": [
-                  "<ul><li>Increases duration by 1.5 seconds</li><li>Reduces resistibility by 15%</li></ul>", 
-                  "<ul><li>Increases duration by 0.6 seconds</li><li>Reduces resistibility by 6%</li></ul>", 
                   "<ul><li>Increases duration by 0.3 seconds</li><li>Reduces resistibility by 3%</li></ul>", 
+                  "<ul><li>Increases duration by 0.6 seconds</li><li>Reduces resistibility by 6%</li></ul>", 
                   "<ul><li>Increases duration by 0.9 seconds</li><li>Reduces resistibility by 9%</li></ul>", 
-                  "<ul><li>Increases duration by 1.2 seconds</li><li>Reduces resistibility by 12%</li></ul>"
+                  "<ul><li>Increases duration by 1.2 seconds</li><li>Reduces resistibility by 12%</li></ul>", 
+                  "<ul><li>Increases duration by 1.5 seconds</li><li>Reduces resistibility by 15%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 217
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Awestruck", 
                "parent_id": -1, 
@@ -1444,10 +1482,10 @@
                "cost": 1, 
                "description": "Improves the critical damage and hastens the casting and reuse speed and reduces the power cost of Blaze of Faith and its upgrades.", 
                "effects": [
-                  "<ul><li>Improves reuse speed by 1.5 seconds</li><li>Reduces power cost by 30%</li><li>Improves the Crit Bonus by 3%</li><li>Improves casting speed by 0.6 seconds</li></ul>", 
-                  "<ul><li>Improves reuse speed by 2 seconds</li><li>Reduces power cost by 40%</li><li>Improves the Crit Bonus by 4%</li><li>Improves casting speed by 0.8 seconds</li></ul>", 
                   "<ul><li>Improves reuse speed by 0.5 seconds</li><li>Reduces power cost by 10%</li><li>Improves the Crit Bonus by 1%</li><li>Improves casting speed by 0.2 seconds</li></ul>", 
                   "<ul><li>Improves reuse speed by 1 seconds</li><li>Reduces power cost by 20%</li><li>Improves the Crit Bonus by 2%</li><li>Improves casting speed by 0.4 seconds</li></ul>", 
+                  "<ul><li>Improves reuse speed by 1.5 seconds</li><li>Reduces power cost by 30%</li><li>Improves the Crit Bonus by 3%</li><li>Improves casting speed by 0.6 seconds</li></ul>", 
+                  "<ul><li>Improves reuse speed by 2 seconds</li><li>Reduces power cost by 40%</li><li>Improves the Crit Bonus by 4%</li><li>Improves casting speed by 0.8 seconds</li></ul>", 
                   "<ul><li>Improves reuse speed by 2.5 seconds</li><li>Reduces power cost by 50%</li><li>Improves the Crit Bonus by 5%</li><li>Improves casting speed by 1 seconds</li></ul>"
                ], 
                "icon": {
@@ -1455,6 +1493,7 @@
                   "icon": 272
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Blaze of Faith", 
                "parent_id": -1, 
@@ -1479,16 +1518,17 @@
                "description": "Improves the critical damage and hastens the casting speed and reduces the power cost of Smite Corruption. This enhancement also hastens the effect's duration, causing damage to occur faster.", 
                "effects": [
                   "<ul><li>Reduces duration by 2 seconds</li><li>Improves the Crit Bonus by 2%</li><li>Reduces power cost by 10%</li><li>Improves casting speed by 0.1 seconds</li></ul>", 
-                  "<ul><li>Reduces duration by 8 seconds</li><li>Improves the Crit Bonus by 8%</li><li>Reduces power cost by 40%</li><li>Improves casting speed by 0.4 seconds</li></ul>", 
+                  "<ul><li>Reduces duration by 4 seconds</li><li>Improves the Crit Bonus by 4%</li><li>Reduces power cost by 20%</li><li>Improves casting speed by 0.2 seconds</li></ul>", 
                   "<ul><li>Reduces duration by 6 seconds</li><li>Improves the Crit Bonus by 6%</li><li>Reduces power cost by 30%</li><li>Improves casting speed by 0.3 seconds</li></ul>", 
-                  "<ul><li>Reduces duration by 10 seconds</li><li>Improves the Crit Bonus by 10%</li><li>Reduces power cost by 50%</li><li>Improves casting speed by 0.5 seconds</li></ul>", 
-                  "<ul><li>Reduces duration by 4 seconds</li><li>Improves the Crit Bonus by 4%</li><li>Reduces power cost by 20%</li><li>Improves casting speed by 0.2 seconds</li></ul>"
+                  "<ul><li>Reduces duration by 8 seconds</li><li>Improves the Crit Bonus by 8%</li><li>Reduces power cost by 40%</li><li>Improves casting speed by 0.4 seconds</li></ul>", 
+                  "<ul><li>Reduces duration by 10 seconds</li><li>Improves the Crit Bonus by 10%</li><li>Reduces power cost by 50%</li><li>Improves casting speed by 0.5 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 159
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Smite Corruption", 
                "parent_id": -1, 
@@ -1513,9 +1553,9 @@
                "description": "Improves the critical damage and hastens the casting and reuse speed and reduces the power cost of Warring Deities and its upgrades.", 
                "effects": [
                   "<ul><li>Improves the Crit Bonus by 2%</li><li>Reduces power cost by 10%</li><li>Improves casting speed by 0.1 seconds</li><li>Improves reuse speed by 1 seconds</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 8%</li><li>Reduces power cost by 40%</li><li>Improves casting speed by 0.4 seconds</li><li>Improves reuse speed by 4 seconds</li></ul>", 
                   "<ul><li>Improves the Crit Bonus by 4%</li><li>Reduces power cost by 20%</li><li>Improves casting speed by 0.2 seconds</li><li>Improves reuse speed by 2 seconds</li></ul>", 
                   "<ul><li>Improves the Crit Bonus by 6%</li><li>Reduces power cost by 30%</li><li>Improves casting speed by 0.3 seconds</li><li>Improves reuse speed by 3 seconds</li></ul>", 
+                  "<ul><li>Improves the Crit Bonus by 8%</li><li>Reduces power cost by 40%</li><li>Improves casting speed by 0.4 seconds</li><li>Improves reuse speed by 4 seconds</li></ul>", 
                   "<ul><li>Improves the Crit Bonus by 10%</li><li>Reduces power cost by 50%</li><li>Improves casting speed by 0.5 seconds</li><li>Improves reuse speed by 5 seconds</li></ul>"
                ], 
                "icon": {
@@ -1523,6 +1563,7 @@
                   "icon": 471
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Warring Deities", 
                "parent_id": -1, 
@@ -1546,17 +1587,18 @@
                "cost": 1, 
                "description": "", 
                "effects": [
-                  "<ul><li>Improves the amount of warding by 12%.</li></ul>", 
                   "<ul><li>Improves the amount of warding by 4%.</li></ul>", 
-                  "<ul><li>Improves the amount of warding by 20%.</li></ul>", 
+                  "<ul><li>Improves the amount of warding by 8%.</li></ul>", 
+                  "<ul><li>Improves the amount of warding by 12%.</li></ul>", 
                   "<ul><li>Improves the amount of warding by 16%.</li></ul>", 
-                  "<ul><li>Improves the amount of warding by 8%.</li></ul>"
+                  "<ul><li>Improves the amount of warding by 20%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 219
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Shield of Faith", 
                "parent_id": -1, 
@@ -1580,8 +1622,8 @@
                "cost": 1, 
                "description": "", 
                "effects": [
-                  "<ul><li>Improves the base heal amount of Involuntary Gift by 10%.</li><li>Improves the cure amount of Involuntary Gift by 10%.</li></ul>", 
                   "<ul><li>Improves the base heal amount of Involuntary Gift by 5%.</li><li>Improves the cure amount of Involuntary Gift by 5%.</li></ul>", 
+                  "<ul><li>Improves the base heal amount of Involuntary Gift by 10%.</li><li>Improves the cure amount of Involuntary Gift by 10%.</li></ul>", 
                   "<ul><li>Improves the base heal amount of Involuntary Gift by 15%.</li><li>Improves the cure amount of Involuntary Gift by 15%.</li></ul>", 
                   "<ul><li>Improves the base heal amount of Involuntary Gift by 20%.</li><li>Improves the cure amount of Involuntary Gift by 20%.</li></ul>", 
                   "<ul><li>Improves the base heal amount of Involuntary Gift by 25%.</li><li>Improves the cure amount of Involuntary Gift by 25%.</li></ul>"
@@ -1591,6 +1633,7 @@
                   "icon": 180
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Involuntary Gift II", 
                "parent_id": -1, 
@@ -1614,14 +1657,15 @@
                "cost": 3, 
                "description": "Improves the trigger chance of Unyielding Benediction and its upgrades.", 
                "effects": [
-                  "<ul><li>Increases trigger chance by 2%</li></ul>", 
-                  "<ul><li>Increases trigger chance by 1%</li></ul>"
+                  "<ul><li>Increases trigger chance by 1%</li></ul>", 
+                  "<ul><li>Increases trigger chance by 2%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 220
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 2, 
                "name": "Enhance: Unyielding Benediction", 
                "parent_id": -1, 
@@ -1646,8 +1690,8 @@
                "description": "Increases the duration of Unswerving Hammer.", 
                "effects": [
                   "<ul><li>Increases duration by 3 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 9 seconds</li></ul>", 
                   "<ul><li>Increases duration by 6 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 9 seconds</li></ul>", 
                   "<ul><li>Increases duration by 12 seconds</li></ul>", 
                   "<ul><li>Increases duration by 15 seconds</li></ul>"
                ], 
@@ -1656,6 +1700,7 @@
                   "icon": 129
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Unswerving Hammer", 
                "parent_id": -1, 
@@ -1679,15 +1724,16 @@
                "cost": 2, 
                "description": "Improves the trigger chance of Glory and its upgrades.", 
                "effects": [
+                  "<ul><li>Increases trigger chance by 1%</li></ul>", 
                   "<ul><li>Increases trigger chance by 2%</li></ul>", 
-                  "<ul><li>Increases trigger chance by 3%</li></ul>", 
-                  "<ul><li>Increases trigger chance by 1%</li></ul>"
+                  "<ul><li>Increases trigger chance by 3%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 307
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Enhance: Glory", 
                "parent_id": -1, 
@@ -1722,6 +1768,7 @@
                   "icon": 747
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Devoted Resolve", 
                "parent_id": -1, 
@@ -1745,10 +1792,10 @@
                "cost": 1, 
                "description": "Increases the duration of Sanctuary.", 
                "effects": [
-                  "<ul><li>Increases duration by 6 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 4 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 8 seconds</li></ul>", 
                   "<ul><li>Increases duration by 2 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 4 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 6 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 8 seconds</li></ul>", 
                   "<ul><li>Increases duration by 10 seconds</li></ul>"
                ], 
                "icon": {
@@ -1756,6 +1803,7 @@
                   "icon": 506
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Sanctuary", 
                "parent_id": -1, 
@@ -1786,6 +1834,7 @@
                   "icon": 516
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Blessings", 
                "parent_id": -1, 
@@ -1816,6 +1865,7 @@
                   "icon": 184
                }, 
                "id": 22, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Overconfidence", 
                "parent_id": -1, 
@@ -1846,6 +1896,7 @@
                   "icon": 224
                }, 
                "id": 23, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Smite Wrath", 
                "parent_id": -1, 
@@ -1876,6 +1927,7 @@
                   "icon": 277
                }, 
                "id": 24, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Mana Cure", 
                "parent_id": -1, 
@@ -1910,6 +1962,7 @@
                   "icon": 159
                }, 
                "id": 25, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Soul Corruption", 
                "parent_id": -1, 
@@ -1934,16 +1987,17 @@
                "description": "Increases the damage of the templar's hostile spells.", 
                "effects": [
                   "<ul><li>Increases the damage amount of hostile spells by 2%.</li></ul>", 
-                  "<ul><li>Increases the damage amount of hostile spells by 6%.</li></ul>", 
-                  "<ul><li>Increases the damage amount of hostile spells by 10%.</li></ul>", 
                   "<ul><li>Increases the damage amount of hostile spells by 4%.</li></ul>", 
-                  "<ul><li>Increases the damage amount of hostile spells by 8%.</li></ul>"
+                  "<ul><li>Increases the damage amount of hostile spells by 6%.</li></ul>", 
+                  "<ul><li>Increases the damage amount of hostile spells by 8%.</li></ul>", 
+                  "<ul><li>Increases the damage amount of hostile spells by 10%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 3
                }, 
                "id": 26, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Divine Reckoning", 
                "parent_id": -1, 
@@ -1968,16 +2022,17 @@
                "description": "Adds a magical damage reduction effect to Holy Armor.", 
                "effects": [
                   "<ul><li>Reduces magical damage to the group by 1.5%.</li></ul>", 
-                  "<ul><li>Reduces magical damage to the group by 7.5%.</li></ul>", 
                   "<ul><li>Reduces magical damage to the group by 3%.</li></ul>", 
+                  "<ul><li>Reduces magical damage to the group by 4.5%.</li></ul>", 
                   "<ul><li>Reduces magical damage to the group by 6%.</li></ul>", 
-                  "<ul><li>Reduces magical damage to the group by 4.5%.</li></ul>"
+                  "<ul><li>Reduces magical damage to the group by 7.5%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 146
                }, 
                "id": 27, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Holy Protector", 
                "parent_id": -1, 
@@ -2002,16 +2057,17 @@
                "description": "Increases the base heal amount of Focused Intervention and its upgrades while reducing the power cost.", 
                "effects": [
                   "<ul><li>Reduces the power cost by 10%.</li><li>Increases the base heal amount by 6%.</li></ul>", 
-                  "<ul><li>Reduces the power cost by 50%.</li><li>Increases the base heal amount by 30%.</li></ul>", 
                   "<ul><li>Reduces the power cost by 20%.</li><li>Increases the base heal amount by 12%.</li></ul>", 
                   "<ul><li>Reduces the power cost by 30%.</li><li>Increases the base heal amount by 18%.</li></ul>", 
-                  "<ul><li>Reduces the power cost by 40%.</li><li>Increases the base heal amount by 24%.</li></ul>"
+                  "<ul><li>Reduces the power cost by 40%.</li><li>Increases the base heal amount by 24%.</li></ul>", 
+                  "<ul><li>Reduces the power cost by 50%.</li><li>Increases the base heal amount by 30%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 300
                }, 
                "id": 28, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Divine Meditation", 
                "parent_id": -1, 
@@ -2035,17 +2091,18 @@
                "cost": 1, 
                "description": "Increases the ward amount of the Repent line and its upgrades.", 
                "effects": [
-                  "<ul><li>Improves the base ward amount by 12%.</li></ul>", 
-                  "<ul><li>Improves the base ward amount by 9%.</li></ul>", 
-                  "<ul><li>Improves the base ward amount by 15%.</li></ul>", 
                   "<ul><li>Improves the base ward amount by 3%.</li></ul>", 
-                  "<ul><li>Improves the base ward amount by 6%.</li></ul>"
+                  "<ul><li>Improves the base ward amount by 6%.</li></ul>", 
+                  "<ul><li>Improves the base ward amount by 9%.</li></ul>", 
+                  "<ul><li>Improves the base ward amount by 12%.</li></ul>", 
+                  "<ul><li>Improves the base ward amount by 15%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 155
                }, 
                "id": 29, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Atonement", 
                "parent_id": -1, 
@@ -2069,10 +2126,10 @@
                "cost": 1, 
                "description": "Improves the casting and reuse times of Cure Curse.", 
                "effects": [
-                  "<ul><li>Improves the casting time by 0.4 seconds.</li><li>Improves the reuse time by 12 seconds.</li></ul>", 
-                  "<ul><li>Improves the casting time by 0.3 seconds.</li><li>Improves the reuse time by 9 seconds.</li></ul>", 
-                  "<ul><li>Improves the casting time by 0.2 seconds.</li><li>Improves the reuse time by 6 seconds.</li></ul>", 
                   "<ul><li>Improves the casting time by 0.1 seconds.</li><li>Improves the reuse time by 3 seconds.</li></ul>", 
+                  "<ul><li>Improves the casting time by 0.2 seconds.</li><li>Improves the reuse time by 6 seconds.</li></ul>", 
+                  "<ul><li>Improves the casting time by 0.3 seconds.</li><li>Improves the reuse time by 9 seconds.</li></ul>", 
+                  "<ul><li>Improves the casting time by 0.4 seconds.</li><li>Improves the reuse time by 12 seconds.</li></ul>", 
                   "<ul><li>Improves the casting time by 0.5 seconds.</li><li>Improves the reuse time by 15 seconds.</li></ul>"
                ], 
                "icon": {
@@ -2080,6 +2137,7 @@
                   "icon": 785
                }, 
                "id": 30, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Cleansing of the Soul", 
                "parent_id": -1, 
@@ -2110,6 +2168,7 @@
                   "icon": 917
                }, 
                "id": 31, 
+               "level": 0, 
                "max_level": 1, 
                "name": "True Faith", 
                "parent_id": -1, 
@@ -2185,17 +2244,18 @@
                "cost": 1, 
                "description": "Improves the casting speed and bonuses of your deity pet.", 
                "effects": [
-                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 40%</li></ul>", 
-                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 50%</li></ul>", 
                   "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 10%</li></ul>", 
+                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 20%</li></ul>", 
                   "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 30%</li></ul>", 
-                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 20%</li></ul>"
+                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 40%</li></ul>", 
+                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 50%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 319, 
                   "icon": 799
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Pet of the Gods", 
                "parent_id": -1, 
@@ -2219,17 +2279,18 @@
                "cost": 1, 
                "description": "Increases the duration of your food and drink spells.", 
                "effects": [
-                  "<ul><li>Improves the duration of food and drink by 5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 10%</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 2.5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 12.5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 7.5%</li></ul>"
+                  "<ul><li>Improves the duration of food and drink by 5%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 7.5%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 10%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 12.5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 318, 
                   "icon": 151
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Bountiful Feast", 
                "parent_id": -1, 
@@ -2253,17 +2314,18 @@
                "cost": 1, 
                "description": "Increases your base run speed while out of combat.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 1.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 2.0%</li></ul>"
+                  "<ul><li>Increases speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 794
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Swift Strides", 
                "parent_id": -1, 
@@ -2287,10 +2349,10 @@
                "cost": 1, 
                "description": "Increases your character's maximum health.", 
                "effects": [
-                  "<ul><li>Increases Max Health of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases Max Health of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 0.5%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 1.5%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 2.5%</li></ul>"
                ], 
                "icon": {
@@ -2298,6 +2360,7 @@
                   "icon": 795
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Hearty Constitution", 
                "parent_id": -1, 
@@ -2321,17 +2384,18 @@
                "cost": 1, 
                "description": "Allows you to move faster while on a mount.", 
                "effects": [
-                  "<ul><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li></ul>"
+                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 318, 
                   "icon": 793
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Swift Journey", 
                "parent_id": -1, 
@@ -2356,16 +2420,17 @@
                "description": "Increases your character's maximum power", 
                "effects": [
                   "<ul><li>Increases Max Power of caster by 0.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 1.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 1.0%</li></ul>"
+                  "<ul><li>Increases Max Power of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 2.5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 318, 
                   "icon": 796
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhanced Mind", 
                "parent_id": -1, 
@@ -2394,6 +2459,7 @@
                   "icon": 11
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Litany of Combat", 
                "parent_id": -1, 
@@ -2417,17 +2483,18 @@
                "cost": 1, 
                "description": "Improves the reuse time of all resurrection spells useable in combat.", 
                "effects": [
-                  "<ul><li>Improves the reuse speed of in combat resurrection spells by 36 seconds.</li></ul>", 
+                  "<ul><li>Improves the reuse speed of in combat resurrection spells by 12 seconds.</li></ul>", 
                   "<ul><li>Improves the reuse speed of in combat resurrection spells by 24 seconds.</li></ul>", 
-                  "<ul><li>Improves the reuse speed of in combat resurrection spells by 60 seconds.</li></ul>", 
+                  "<ul><li>Improves the reuse speed of in combat resurrection spells by 36 seconds.</li></ul>", 
                   "<ul><li>Improves the reuse speed of in combat resurrection spells by 48 seconds.</li></ul>", 
-                  "<ul><li>Improves the reuse speed of in combat resurrection spells by 12 seconds.</li></ul>"
+                  "<ul><li>Improves the reuse speed of in combat resurrection spells by 60 seconds.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 156
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Ally Revivification", 
                "parent_id": -1, 
@@ -2452,8 +2519,8 @@
                "description": "Improves the priest's primary single target heal line and grants additional critical heal amount.", 
                "effects": [
                   "<ul><li>Improves the heal amount by 2%</li><li>Improves the critical amount by 3%.</li></ul>", 
-                  "<ul><li>Improves the heal amount by 6%</li><li>Improves the critical amount by 9%.</li></ul>", 
                   "<ul><li>Improves the heal amount by 4%</li><li>Improves the critical amount by 6%.</li></ul>", 
+                  "<ul><li>Improves the heal amount by 6%</li><li>Improves the critical amount by 9%.</li></ul>", 
                   "<ul><li>Improves the heal amount by 8%</li><li>Improves the critical amount by 12%.</li></ul>", 
                   "<ul><li>Improves the heal amount by 10%</li><li>Improves the critical amount by 15%.</li></ul>"
                ], 
@@ -2462,6 +2529,7 @@
                   "icon": 158
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Prayer of Healing", 
                "parent_id": -1, 
@@ -2485,17 +2553,18 @@
                "cost": 1, 
                "description": "Improves the mitigation of the priest's primary physical mitigation buff.", 
                "effects": [
-                  "<ul><li>Improves the physical mitigation by 15%.</li></ul>", 
-                  "<ul><li>Improves the physical mitigation by 6%.</li></ul>", 
-                  "<ul><li>Improves the physical mitigation by 12%.</li></ul>", 
                   "<ul><li>Improves the physical mitigation by 3%.</li></ul>", 
-                  "<ul><li>Improves the physical mitigation by 9%.</li></ul>"
+                  "<ul><li>Improves the physical mitigation by 6%.</li></ul>", 
+                  "<ul><li>Improves the physical mitigation by 9%.</li></ul>", 
+                  "<ul><li>Improves the physical mitigation by 12%.</li></ul>", 
+                  "<ul><li>Improves the physical mitigation by 15%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 146
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Protective Prayer", 
                "parent_id": -1, 
@@ -2519,10 +2588,10 @@
                "cost": 1, 
                "description": "Improves the mitigation amounts of the Symbol of Marzin, Fanatic's Faith, Noxious Efflux, Ancestral Mettle, Essence of the Great Bear, and Master of the Hunt spell lines.", 
                "effects": [
-                  "<ul><li>Improves the mitigation values by 15%.</li></ul>", 
                   "<ul><li>Improves the mitigation values by 5%.</li></ul>", 
-                  "<ul><li>Improves the mitigation values by 20%.</li></ul>", 
                   "<ul><li>Improves the mitigation values by 10%.</li></ul>", 
+                  "<ul><li>Improves the mitigation values by 15%.</li></ul>", 
+                  "<ul><li>Improves the mitigation values by 20%.</li></ul>", 
                   "<ul><li>Improves the mitigation values by 25%.</li></ul>"
                ], 
                "icon": {
@@ -2530,6 +2599,7 @@
                   "icon": 245
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Secular Protection", 
                "parent_id": -1, 
@@ -2553,17 +2623,18 @@
                "cost": 1, 
                "description": "Increases the effectiveness of the priest's shield.", 
                "effects": [
-                  "<ul><li>Increases caster's chance to block by 10.0%</li></ul>", 
                   "<ul><li>Increases caster's chance to block by 2.0%</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 8.0%</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 4.0%</li></ul>", 
                   "<ul><li>Increases caster's chance to block by 6.0%</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 4.0%</li></ul>"
+                  "<ul><li>Increases caster's chance to block by 8.0%</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 872
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Seal of Faith", 
                "parent_id": -1, 
@@ -2594,6 +2665,7 @@
                   "icon": 873
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Supplication of the Fallen", 
                "parent_id": -1, 
@@ -2618,16 +2690,17 @@
                "description": "Improves the amount of mitigation debuffed by the Rebuke and Shame line of spells.", 
                "effects": [
                   "<ul><li>Improves the mitigation debuff amount by 2%</li></ul>", 
-                  "<ul><li>Improves the mitigation debuff amount by 10%</li></ul>", 
+                  "<ul><li>Improves the mitigation debuff amount by 4%</li></ul>", 
                   "<ul><li>Improves the mitigation debuff amount by 6%</li></ul>", 
                   "<ul><li>Improves the mitigation debuff amount by 8%</li></ul>", 
-                  "<ul><li>Improves the mitigation debuff amount by 4%</li></ul>"
+                  "<ul><li>Improves the mitigation debuff amount by 10%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 186
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Devout Incapacitation", 
                "parent_id": -1, 
@@ -2651,17 +2724,18 @@
                "cost": 1, 
                "description": "Increases bonuses of the Aegolism and Tenacity lines of spells.", 
                "effects": [
+                  "<ul><li>Increases other properties by 5%.</li><li>Increases the hitpoints by 3%</li></ul>", 
+                  "<ul><li>Increases other properties by 10%.</li><li>Increases the hitpoints by 6%</li></ul>", 
                   "<ul><li>Increases other properties by 15%.</li><li>Increases the hitpoints by 9%</li></ul>", 
                   "<ul><li>Increases other properties by 20%.</li><li>Increases the hitpoints by 12%</li></ul>", 
-                  "<ul><li>Increases other properties by 5%.</li><li>Increases the hitpoints by 3%</li></ul>", 
-                  "<ul><li>Increases other properties by 25%.</li><li>Increases the hitpoints by 15%</li></ul>", 
-                  "<ul><li>Increases other properties by 10%.</li><li>Increases the hitpoints by 6%</li></ul>"
+                  "<ul><li>Increases other properties by 25%.</li><li>Increases the hitpoints by 15%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 153
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Devoted Allegiance", 
                "parent_id": -1, 
@@ -2685,17 +2759,18 @@
                "cost": 1, 
                "description": "Improves the bonuses of Yaulp.", 
                "effects": [
-                  "<ul><li>Improves the bonuses by 12.</li></ul>", 
-                  "<ul><li>Improves the bonuses by 6.</li></ul>", 
-                  "<ul><li>Improves the bonuses by 15.</li></ul>", 
                   "<ul><li>Improves the bonuses by 3.</li></ul>", 
-                  "<ul><li>Improves the bonuses by 9.</li></ul>"
+                  "<ul><li>Improves the bonuses by 6.</li></ul>", 
+                  "<ul><li>Improves the bonuses by 9.</li></ul>", 
+                  "<ul><li>Improves the bonuses by 12.</li></ul>", 
+                  "<ul><li>Improves the bonuses by 15.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 313, 
                   "icon": 608
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Blessed Yaulp", 
                "parent_id": -1, 
@@ -2730,6 +2805,7 @@
                   "icon": 180
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Allied Prayers", 
                "parent_id": -1, 
@@ -2753,10 +2829,10 @@
                "cost": 1, 
                "description": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.", 
                "effects": [
+                  "<ul><li>Improves the casting time by 0.1 seconds.</li><li>Improves healing and critical healing by 3%</li></ul>", 
+                  "<ul><li>Improves the casting time by 0.2 seconds.</li><li>Improves healing and critical healing by 6%</li></ul>", 
                   "<ul><li>Improves the casting time by 0.3 seconds.</li><li>Improves healing and critical healing by 9%</li></ul>", 
                   "<ul><li>Improves the casting time by 0.4 seconds.</li><li>Improves healing and critical healing by 12%</li></ul>", 
-                  "<ul><li>Improves the casting time by 0.2 seconds.</li><li>Improves healing and critical healing by 6%</li></ul>", 
-                  "<ul><li>Improves the casting time by 0.1 seconds.</li><li>Improves healing and critical healing by 3%</li></ul>", 
                   "<ul><li>Improves the casting time by 0.5 seconds.</li><li>Improves healing and critical healing by 15%</li></ul>"
                ], 
                "icon": {
@@ -2764,6 +2840,7 @@
                   "icon": 185
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Devoted Healing", 
                "parent_id": -1, 
@@ -2788,16 +2865,17 @@
                "description": "When the cleric makes a critical melee attack, they have a chance to get a short duration spell which gives them a chance to flurry.", 
                "effects": [
                   "<ul><li>On a critical combat hit this spell has a 5% chance to cast Overwhelming Arms on caster.  Lasts for 15.0 seconds.  </li><ul><li>Caster has a 4.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>", 
-                  "<ul><li>On a critical combat hit this spell has a 15% chance to cast Overwhelming Arms on caster.  Lasts for 15.0 seconds.  </li><ul><li>Caster has a 12.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>", 
-                  "<ul><li>On a critical combat hit this spell has a 25% chance to cast Overwhelming Arms on caster.  Lasts for 15.0 seconds.  </li><ul><li>Caster has a 20.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>", 
                   "<ul><li>On a critical combat hit this spell has a 10% chance to cast Overwhelming Arms on caster.  Lasts for 15.0 seconds.  </li><ul><li>Caster has a 8.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>", 
-                  "<ul><li>On a critical combat hit this spell has a 20% chance to cast Overwhelming Arms on caster.  Lasts for 15.0 seconds.  </li><ul><li>Caster has a 16.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>"
+                  "<ul><li>On a critical combat hit this spell has a 15% chance to cast Overwhelming Arms on caster.  Lasts for 15.0 seconds.  </li><ul><li>Caster has a 12.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>", 
+                  "<ul><li>On a critical combat hit this spell has a 20% chance to cast Overwhelming Arms on caster.  Lasts for 15.0 seconds.  </li><ul><li>Caster has a 16.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>", 
+                  "<ul><li>On a critical combat hit this spell has a 25% chance to cast Overwhelming Arms on caster.  Lasts for 15.0 seconds.  </li><ul><li>Caster has a 20.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 921
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Overwhelming Arms", 
                "parent_id": -1, 
@@ -2828,6 +2906,7 @@
                   "icon": 922
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Sacrifice", 
                "parent_id": -1, 
@@ -2862,6 +2941,7 @@
                   "icon": 492
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Rebuked Prowess", 
                "parent_id": -1, 
@@ -2885,17 +2965,18 @@
                "cost": 1, 
                "description": "Allows the templar to use Divine Arbitration on another group and lowers the recast time of the spell.", 
                "effects": [
-                  "<ul><li>Improves spell reuse time by 240 seconds.</li></ul>", 
-                  "<ul><li>Improves spell reuse time by 300 seconds.</li></ul>", 
-                  "<ul><li>Improves spell reuse time by 180 seconds.</li></ul>", 
                   "<ul><li>Improves spell reuse time by 60 seconds.</li></ul>", 
-                  "<ul><li>Improves spell reuse time by 120 seconds.</li></ul>"
+                  "<ul><li>Improves spell reuse time by 120 seconds.</li></ul>", 
+                  "<ul><li>Improves spell reuse time by 180 seconds.</li></ul>", 
+                  "<ul><li>Improves spell reuse time by 240 seconds.</li></ul>", 
+                  "<ul><li>Improves spell reuse time by 300 seconds.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 757
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Holy Arbitration", 
                "parent_id": -1, 
@@ -2919,10 +3000,10 @@
                "cost": 1, 
                "description": "Adds an additional damage, critical chance and critical amount to the Divine Strike line of spells.", 
                "effects": [
-                  "<ul><li>Increases the critical chance and critical damage by 3%.</li><li>Improves the damage by 6%</li></ul>", 
-                  "<ul><li>Increases the critical chance and critical damage by 2%.</li><li>Improves the damage by 4%</li></ul>", 
-                  "<ul><li>Increases the critical chance and critical damage by 4%.</li><li>Improves the damage by 8%</li></ul>", 
                   "<ul><li>Increases the critical chance and critical damage by 1%.</li><li>Improves the damage by 2%</li></ul>", 
+                  "<ul><li>Increases the critical chance and critical damage by 2%.</li><li>Improves the damage by 4%</li></ul>", 
+                  "<ul><li>Increases the critical chance and critical damage by 3%.</li><li>Improves the damage by 6%</li></ul>", 
+                  "<ul><li>Increases the critical chance and critical damage by 4%.</li><li>Improves the damage by 8%</li></ul>", 
                   "<ul><li>Increases the critical chance and critical damage by 5%.</li><li>Improves the damage by 10%</li></ul>"
                ], 
                "icon": {
@@ -2930,6 +3011,7 @@
                   "icon": 607
                }, 
                "id": 22, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Strike of the Arch Bishop", 
                "parent_id": -1, 
@@ -2953,17 +3035,18 @@
                "cost": 1, 
                "description": "Improves the hitpoints of the Holy Armor and Symbol of Marzin line of spells.", 
                "effects": [
-                  "<ul><li>Improves the hit point bonuses by 28%</li></ul>", 
+                  "<ul><li>Improves the hit point bonuses by 7%</li></ul>", 
                   "<ul><li>Improves the hit point bonuses by 14%</li></ul>", 
-                  "<ul><li>Improves the hit point bonuses by 35%</li></ul>", 
                   "<ul><li>Improves the hit point bonuses by 21%</li></ul>", 
-                  "<ul><li>Improves the hit point bonuses by 7%</li></ul>"
+                  "<ul><li>Improves the hit point bonuses by 28%</li></ul>", 
+                  "<ul><li>Improves the hit point bonuses by 35%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 680
                }, 
                "id": 23, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Penance", 
                "parent_id": -1, 
@@ -2987,17 +3070,18 @@
                "cost": 1, 
                "description": "Improves the heal and critical amount of the Restoration line of spells.", 
                "effects": [
-                  "<ul><li>Increases the critical amount by 8%.</li><li>Improves the heal amount by 16%.</li></ul>", 
                   "<ul><li>Increases the critical amount by 2%.</li><li>Improves the heal amount by 4%.</li></ul>", 
-                  "<ul><li>Increases the critical amount by 10%.</li><li>Improves the heal amount by 20%.</li></ul>", 
                   "<ul><li>Increases the critical amount by 4%.</li><li>Improves the heal amount by 8%.</li></ul>", 
-                  "<ul><li>Increases the critical amount by 6%.</li><li>Improves the heal amount by 12%.</li></ul>"
+                  "<ul><li>Increases the critical amount by 6%.</li><li>Improves the heal amount by 12%.</li></ul>", 
+                  "<ul><li>Increases the critical amount by 8%.</li><li>Improves the heal amount by 16%.</li></ul>", 
+                  "<ul><li>Increases the critical amount by 10%.</li><li>Improves the heal amount by 20%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 468
                }, 
                "id": 24, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Templar's Restoration", 
                "parent_id": -1, 
@@ -3021,17 +3105,18 @@
                "cost": 1, 
                "description": "Improves the cast time and heal amount for the Word of Redemption line of spells.", 
                "effects": [
-                  "<ul><li>Improves the heal amount by 20%.</li><li>Reduces the casting time by 1 seconds.</li></ul>", 
+                  "<ul><li>Improves the heal amount by 4%.</li><li>Reduces the casting time by 0.2 seconds.</li></ul>", 
                   "<ul><li>Improves the heal amount by 8%.</li><li>Reduces the casting time by 0.4 seconds.</li></ul>", 
                   "<ul><li>Improves the heal amount by 12%.</li><li>Reduces the casting time by 0.6 seconds.</li></ul>", 
-                  "<ul><li>Improves the heal amount by 4%.</li><li>Reduces the casting time by 0.2 seconds.</li></ul>", 
-                  "<ul><li>Improves the heal amount by 16%.</li><li>Reduces the casting time by 0.8 seconds.</li></ul>"
+                  "<ul><li>Improves the heal amount by 16%.</li><li>Reduces the casting time by 0.8 seconds.</li></ul>", 
+                  "<ul><li>Improves the heal amount by 20%.</li><li>Reduces the casting time by 1 seconds.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 293
                }, 
                "id": 25, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Restorative Healing", 
                "parent_id": -1, 
@@ -3062,6 +3147,7 @@
                   "icon": 870
                }, 
                "id": 26, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Peaceful Aggression", 
                "parent_id": -1, 
@@ -3092,6 +3178,7 @@
                   "icon": 871
                }, 
                "id": 27, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Focused Prayers", 
                "parent_id": -1, 
@@ -3164,22 +3251,23 @@
                "cost": 1, 
                "description": "Increases all stats except for Stamina.", 
                "effects": [
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 2.4</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.8</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 6.0</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.2</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.2</li></ul>", 
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 0.6</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.6</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.2</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.8</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 2.4</li></ul>", 
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.0</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.6</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.2</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.8</li></ul>", 
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 5.4</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.8</li></ul>"
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 6.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 43
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Attribute Prowess", 
                "parent_id": -1, 
@@ -3203,15 +3291,15 @@
                "cost": 1, 
                "description": "Increases Ability Modifier.", 
                "effects": [
-                  "<ul><li>Increases Ability Modifier of caster by 20.7</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 10.4</li></ul>", 
-                  "<ul><li>Increases Ability Modifier of caster by 72.5</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 20.7</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 31.1</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 41.4</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 51.7</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 62.1</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 72.5</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 82.8</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 93.2</li></ul>", 
-                  "<ul><li>Increases Ability Modifier of caster by 41.4</li></ul>", 
-                  "<ul><li>Increases Ability Modifier of caster by 62.1</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 103.5</li></ul>"
                ], 
                "icon": {
@@ -3219,6 +3307,7 @@
                   "icon": 566
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Ability Aptitude", 
                "parent_id": -1, 
@@ -3242,22 +3331,23 @@
                "cost": 1, 
                "description": "Increases Maximum Health and Power.", 
                "effects": [
-                  "<ul><li>Increases Max Power of caster by 1.5%</li><li>Increases Max Health of caster by 1.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.5%</li><li>Increases Max Health of caster by 2.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.0%</li><li>Increases Max Health of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 3.5%</li><li>Increases Max Health of caster by 3.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 3.0%</li><li>Increases Max Health of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 1.0%</li><li>Increases Max Health of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 0.5%</li><li>Increases Max Health of caster by 0.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 5.0%</li><li>Increases Max Health of caster by 5.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 1.0%</li><li>Increases Max Health of caster by 1.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 1.5%</li><li>Increases Max Health of caster by 1.5%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 2.0%</li><li>Increases Max Health of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 2.5%</li><li>Increases Max Health of caster by 2.5%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 3.0%</li><li>Increases Max Health of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 3.5%</li><li>Increases Max Health of caster by 3.5%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 4.0%</li><li>Increases Max Health of caster by 4.0%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 4.5%</li><li>Increases Max Health of caster by 4.5%</li></ul>"
+                  "<ul><li>Increases Max Power of caster by 4.5%</li><li>Increases Max Health of caster by 4.5%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 5.0%</li><li>Increases Max Health of caster by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 249
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Spirit and Body", 
                "parent_id": -1, 
@@ -3281,22 +3371,23 @@
                "cost": 1, 
                "description": "Increases Potency.", 
                "effects": [
+                  "<ul><li>Increases Potency of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 5.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 9.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 7.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 7.0%</li></ul>"
+                  "<ul><li>Increases Potency of caster by 9.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 852
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Expertise", 
                "parent_id": -1, 
@@ -3320,22 +3411,23 @@
                "cost": 1, 
                "description": "Increases Crit Bonus.", 
                "effects": [
-                  "<ul><li>Increases Crit Bonus of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Crit Bonus of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Crit Bonus of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 7.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 9.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 1.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases Crit Bonus of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 4.0%</li></ul>"
+                  "<ul><li>Increases Crit Bonus of caster by 6.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 7.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 9.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 21
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Critical Genius", 
                "parent_id": -1, 
@@ -3359,22 +3451,23 @@
                "cost": 1, 
                "description": "Increases Ability Reuse Speed.", 
                "effects": [
-                  "<ul><li>Increases Ability Reuse Speed of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 7.0%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 9.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 5.0%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 4.0%</li></ul>"
+                  "<ul><li>Increases Ability Reuse Speed of caster by 7.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 9.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 14
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Lightning Reflexes", 
                "parent_id": -1, 
@@ -3399,21 +3492,22 @@
                "description": "Increases the duration and the maximum health increase granted by Divine Guidance.", 
                "effects": [
                   "<ul><li>Improves the duration of Divine Guidance by 0.4 seconds.</li><li>Improves the health increase of Divine Guidance by 1%.</li></ul>", 
-                  "<ul><li>Improves the duration of Divine Guidance by 2.8 seconds.</li><li>Improves the health increase of Divine Guidance by 7%.</li></ul>", 
-                  "<ul><li>Improves the duration of Divine Guidance by 3.2 seconds.</li><li>Improves the health increase of Divine Guidance by 8%.</li></ul>", 
-                  "<ul><li>Improves the duration of Divine Guidance by 2.4 seconds.</li><li>Improves the health increase of Divine Guidance by 6%.</li></ul>", 
+                  "<ul><li>Improves the duration of Divine Guidance by 0.8 seconds.</li><li>Improves the health increase of Divine Guidance by 2%.</li></ul>", 
                   "<ul><li>Improves the duration of Divine Guidance by 1.2 seconds.</li><li>Improves the health increase of Divine Guidance by 3%.</li></ul>", 
                   "<ul><li>Improves the duration of Divine Guidance by 1.6 seconds.</li><li>Improves the health increase of Divine Guidance by 4%.</li></ul>", 
-                  "<ul><li>Improves the duration of Divine Guidance by 0.8 seconds.</li><li>Improves the health increase of Divine Guidance by 2%.</li></ul>", 
                   "<ul><li>Improves the duration of Divine Guidance by 2 seconds.</li><li>Improves the health increase of Divine Guidance by 5%.</li></ul>", 
-                  "<ul><li>Improves the duration of Divine Guidance by 4 seconds.</li><li>Improves the health increase of Divine Guidance by 10%.</li></ul>", 
-                  "<ul><li>Improves the duration of Divine Guidance by 3.6 seconds.</li><li>Improves the health increase of Divine Guidance by 9%.</li></ul>"
+                  "<ul><li>Improves the duration of Divine Guidance by 2.4 seconds.</li><li>Improves the health increase of Divine Guidance by 6%.</li></ul>", 
+                  "<ul><li>Improves the duration of Divine Guidance by 2.8 seconds.</li><li>Improves the health increase of Divine Guidance by 7%.</li></ul>", 
+                  "<ul><li>Improves the duration of Divine Guidance by 3.2 seconds.</li><li>Improves the health increase of Divine Guidance by 8%.</li></ul>", 
+                  "<ul><li>Improves the duration of Divine Guidance by 3.6 seconds.</li><li>Improves the health increase of Divine Guidance by 9%.</li></ul>", 
+                  "<ul><li>Improves the duration of Divine Guidance by 4 seconds.</li><li>Improves the health increase of Divine Guidance by 10%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 800
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Enhance: Divine Guidance", 
                "parent_id": -1, 
@@ -3437,22 +3531,23 @@
                "cost": 1, 
                "description": "Reduces the reuse time of Sacrifice and grants a small heal over time to the cleric after using Sacrifice. The final rank will allow Sacrifice to cure hostile effects from the target.", 
                "effects": [
-                  "<ul><li>Reduces the reuse speed of Sacrifice by 32.</li><li>Heals the cleric for 8% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
                   "<ul><li>Reduces the reuse speed of Sacrifice by 8.</li><li>Heals the cleric for 2% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
-                  "<ul><li>Reduces the reuse speed of Sacrifice by 24.</li><li>Heals the cleric for 6% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
-                  "<ul><li>Reduces the reuse speed of Sacrifice by 40.</li><li>Heals the cleric for 10% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
-                  "<ul><li>Reduces the reuse speed of Sacrifice by 72.</li><li>Heals the cleric for 18% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
-                  "<ul><li>Sacrifice will cure hostile effects off of the target.</li><li>Reduces the reuse speed of Sacrifice by 80.</li><li>Heals the cleric for 20% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
-                  "<ul><li>Reduces the reuse speed of Sacrifice by 56.</li><li>Heals the cleric for 14% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
-                  "<ul><li>Reduces the reuse speed of Sacrifice by 48.</li><li>Heals the cleric for 12% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
                   "<ul><li>Reduces the reuse speed of Sacrifice by 16.</li><li>Heals the cleric for 4% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
-                  "<ul><li>Reduces the reuse speed of Sacrifice by 64.</li><li>Heals the cleric for 16% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>"
+                  "<ul><li>Reduces the reuse speed of Sacrifice by 24.</li><li>Heals the cleric for 6% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
+                  "<ul><li>Reduces the reuse speed of Sacrifice by 32.</li><li>Heals the cleric for 8% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
+                  "<ul><li>Reduces the reuse speed of Sacrifice by 40.</li><li>Heals the cleric for 10% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
+                  "<ul><li>Reduces the reuse speed of Sacrifice by 48.</li><li>Heals the cleric for 12% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
+                  "<ul><li>Reduces the reuse speed of Sacrifice by 56.</li><li>Heals the cleric for 14% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
+                  "<ul><li>Reduces the reuse speed of Sacrifice by 64.</li><li>Heals the cleric for 16% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
+                  "<ul><li>Reduces the reuse speed of Sacrifice by 72.</li><li>Heals the cleric for 18% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>", 
+                  "<ul><li>Sacrifice will cure hostile effects off of the target.</li><li>Reduces the reuse speed of Sacrifice by 80.</li><li>Heals the cleric for 20% of their max health instantly and every second for 2 seconds after casting Sacrifice.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 922
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Enhance: Sacrifice", 
                "parent_id": -1, 
@@ -3481,6 +3576,7 @@
                   "icon": 913
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Retribution", 
                "parent_id": -1, 
@@ -3504,22 +3600,23 @@
                "cost": 1, 
                "description": "Divine Armor will heal the cleric's group friend when they receive damage.", 
                "effects": [
-                  "<ul><li>Applies a passive reactive heal to the target that restores 2% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
-                  "<ul><li>Applies a passive reactive heal to the target that restores 5% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
-                  "<ul><li>Applies a passive reactive heal to the target that restores 10% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Applies a passive reactive heal to the target that restores 1% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
-                  "<ul><li>Applies a passive reactive heal to the target that restores 7% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
-                  "<ul><li>Applies a passive reactive heal to the target that restores 9% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Applies a passive reactive heal to the target that restores 2% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Applies a passive reactive heal to the target that restores 3% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Applies a passive reactive heal to the target that restores 4% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Applies a passive reactive heal to the target that restores 5% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Applies a passive reactive heal to the target that restores 6% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Applies a passive reactive heal to the target that restores 7% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Applies a passive reactive heal to the target that restores 8% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
-                  "<ul><li>Applies a passive reactive heal to the target that restores 6% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>"
+                  "<ul><li>Applies a passive reactive heal to the target that restores 9% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Applies a passive reactive heal to the target that restores 10% of the damage received.</li><li>Cannot be modified except by direct means</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 839
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Divine Armor", 
                "parent_id": -1, 
@@ -3550,6 +3647,7 @@
                   "icon": 796
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Equilibrium", 
                "parent_id": -1, 
@@ -3580,6 +3678,7 @@
                   "icon": 843
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Perseverance of the Divine", 
                "parent_id": -1, 
@@ -3610,6 +3709,7 @@
                   "icon": 7
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Immaculate Revival", 
                "parent_id": -1, 
@@ -3664,17 +3764,18 @@
                "cost": 1, 
                "description": "Grants you a chance to harvest a second time. Additionally, you move faster while on a mount.", 
                "effects": [
+                  "<ul><li>Increases Ground Mount Speed of caster by 2.0%</li><li>Caster will harvest a second time on 3.0% of harvests.</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li><li>Caster will harvest a second time on 6.0% of harvests.</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 6.0%</li><li>Caster will harvest a second time on 9.0% of harvests.</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 8.0%</li><li>Caster will harvest a second time on 12.0% of harvests.</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li><li>Caster will harvest a second time on 15.0% of harvests.</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li><li>Caster will harvest a second time on 6.0% of harvests.</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 2.0%</li><li>Caster will harvest a second time on 3.0% of harvests.</li></ul>"
+                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li><li>Caster will harvest a second time on 15.0% of harvests.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 797
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Ample Harvest", 
                "parent_id": -1, 
@@ -3698,17 +3799,18 @@
                "cost": 1, 
                "description": "Improves the rate at which you gain progress while crafting.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 4.0%</li><li>Increases the amount of progress gained by 8.0%.</li></ul>", 
-                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
                   "<ul><li>Increases speed of caster by 1.0%</li><li>Increases the amount of progress gained by 2.0%.</li></ul>", 
-                  "<ul><li>Increases speed of caster by 5.0%</li><li>Increases the amount of progress gained by 10.0%.</li></ul>", 
-                  "<ul><li>Increases speed of caster by 3.0%</li><li>Increases the amount of progress gained by 6.0%.</li></ul>"
+                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
+                  "<ul><li>Increases speed of caster by 3.0%</li><li>Increases the amount of progress gained by 6.0%.</li></ul>", 
+                  "<ul><li>Increases speed of caster by 4.0%</li><li>Increases the amount of progress gained by 8.0%.</li></ul>", 
+                  "<ul><li>Increases speed of caster by 5.0%</li><li>Increases the amount of progress gained by 10.0%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 798
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Swift Creation", 
                "parent_id": -1, 
@@ -3732,10 +3834,10 @@
                "cost": 1, 
                "description": "Using the best materials increases the percentage of durability gained while crafting. Additionally, the duration of food and drinks is improved.", 
                "effects": [
-                  "<ul><li>Improves the duration of food and drink by 5%</li><li>Increases the durability gain by 4.0%.</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 2.5%</li><li>Increases the durability gain by 2.0%.</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 10%</li><li>Increases the durability gain by 8.0%.</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 5%</li><li>Increases the durability gain by 4.0%.</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 7.5%</li><li>Increases the durability gain by 6.0%.</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 10%</li><li>Increases the durability gain by 8.0%.</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 12.5%</li><li>Increases the durability gain by 10.0%.</li></ul>"
                ], 
                "icon": {
@@ -3743,6 +3845,7 @@
                   "icon": 874
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "High Quality Materials", 
                "parent_id": -1, 
@@ -3766,17 +3869,18 @@
                "cost": 1, 
                "description": "Improves the rate at which you gain progress while crafting.", 
                "effects": [
-                  "<ul><li>Increases progress by 8.0</li></ul>", 
                   "<ul><li>Increases progress by 2.0</li></ul>", 
+                  "<ul><li>Increases progress by 4.0</li></ul>", 
                   "<ul><li>Increases progress by 6.0</li></ul>", 
-                  "<ul><li>Increases progress by 10.0</li></ul>", 
-                  "<ul><li>Increases progress by 4.0</li></ul>"
+                  "<ul><li>Increases progress by 8.0</li></ul>", 
+                  "<ul><li>Increases progress by 10.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 864
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Rapid Manufacturing", 
                "parent_id": -1, 
@@ -3800,17 +3904,18 @@
                "cost": 1, 
                "description": "Using the most resilient materials increases the amount of durability gained while crafting.", 
                "effects": [
-                  "<ul><li>Increases the amount of durability gained by 10.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 8.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 2.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 4.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 6.0.</li></ul>"
+                  "<ul><li>Increases the amount of durability gained by 6.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 8.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 10.0.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 869
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Resilient Materials", 
                "parent_id": -1, 
@@ -3834,10 +3939,10 @@
                "cost": 1, 
                "description": "Using an effective method of crafting improves your success chance.", 
                "effects": [
-                  "<ul><li>Increases success chance by 8.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases success chance by 2.0%</li></ul>", 
+                  "<ul><li>Increases success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases success chance by 6.0%</li></ul>", 
+                  "<ul><li>Increases success chance by 8.0%</li></ul>", 
                   "<ul><li>Increases success chance by 10.0%</li></ul>"
                ], 
                "icon": {
@@ -3845,6 +3950,7 @@
                   "icon": 860
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Effective Method", 
                "parent_id": -1, 
@@ -3868,17 +3974,18 @@
                "cost": 1, 
                "description": "Using a tried and true method of practice your chance of critical success increases.", 
                "effects": [
-                  "<ul><li>Increases critical success chance by 10.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 8.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 6.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 2.0%</li></ul>"
+                  "<ul><li>Increases critical success chance by 8.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 848
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Advantageous Practice", 
                "parent_id": -1, 
@@ -3902,17 +4009,18 @@
                "cost": 1, 
                "description": "By neatly harvesting you increase your chances of finding rare items.", 
                "effects": [
-                  "<ul><li>Increases rare harvest chance by 0.6%</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 1.0%</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 0.2%</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 0.4%</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 0.6%</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 0.8%</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 0.2%</li></ul>"
+                  "<ul><li>Increases rare harvest chance by 1.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 263
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Trim Reaver", 
                "parent_id": -1, 
@@ -3936,17 +4044,18 @@
                "cost": 1, 
                "description": "Your ability to create items transcends accepted laws of nature, and you can sometimes create items without using the materials used in creating them.", 
                "effects": [
-                  "<ul><li>When completing a pristine crafted item. this spell has a 2% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
                   "<ul><li>When completing a pristine crafted item. this spell has a 1% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
-                  "<ul><li>When completing a pristine crafted item. this spell has a 5% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
+                  "<ul><li>When completing a pristine crafted item. this spell has a 2% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
+                  "<ul><li>When completing a pristine crafted item. this spell has a 3% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
                   "<ul><li>When completing a pristine crafted item. this spell has a 4% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
-                  "<ul><li>When completing a pristine crafted item. this spell has a 3% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>"
+                  "<ul><li>When completing a pristine crafted item. this spell has a 5% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 839
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Conservation of Mass", 
                "parent_id": -1, 
@@ -3998,14 +4107,15 @@
                "description": "The priest's heals have a chance to increase the target's flurry chance and doublecast chance.", 
                "effects": [
                   "<ul><li>On a healing spell cast this spell may cast Invigorated on target of spell cast.  Lasts for 10.0 seconds.  Triggers about 1.0 times per minute. </li><ul><li>Increases Doublecast Chance of target by 3.0%</li><li>Target has a 10.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>", 
-                  "<ul><li>On a healing spell cast this spell may cast Invigorated on target of spell cast.  Lasts for 10.0 seconds.  Triggers about 3.0 times per minute. </li><ul><li>Increases Doublecast Chance of target by 3.0%</li><li>Target has a 10.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>", 
-                  "<ul><li>On a healing spell cast this spell may cast Invigorated on target of spell cast.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Increases Doublecast Chance of target by 3.0%</li><li>Target has a 10.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>"
+                  "<ul><li>On a healing spell cast this spell may cast Invigorated on target of spell cast.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Increases Doublecast Chance of target by 3.0%</li><li>Target has a 10.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>", 
+                  "<ul><li>On a healing spell cast this spell may cast Invigorated on target of spell cast.  Lasts for 10.0 seconds.  Triggers about 3.0 times per minute. </li><ul><li>Increases Doublecast Chance of target by 3.0%</li><li>Target has a 10.0% chance of having one of their weapons' autoattack strike the target multiple times.</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 913
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Invigorate", 
                "parent_id": -1, 
@@ -4038,6 +4148,7 @@
                   "icon": 180
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Divine Assistance", 
                "parent_id": -1, 
@@ -4061,15 +4172,16 @@
                "cost": 1, 
                "description": "Enhances Healing Fate, Involuntary Gift and Mark of Divinity to reduce the target's potency and max health while active.", 
                "effects": [
-                  "<ul><li>Reduces the target's maximum health by 1.2%</li><li>Reduces the target's potency by 3%</li><li>This effect stacks from all three spells.</li></ul>", 
                   "<ul><li>Reduces the target's maximum health by 0.4%</li><li>Reduces the target's potency by 1%</li><li>This effect stacks from all three spells.</li></ul>", 
-                  "<ul><li>Reduces the target's maximum health by 0.8%</li><li>Reduces the target's potency by 2%</li><li>This effect stacks from all three spells.</li></ul>"
+                  "<ul><li>Reduces the target's maximum health by 0.8%</li><li>Reduces the target's potency by 2%</li><li>This effect stacks from all three spells.</li></ul>", 
+                  "<ul><li>Reduces the target's maximum health by 1.2%</li><li>Reduces the target's potency by 3%</li><li>This effect stacks from all three spells.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 73
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Rejection", 
                "parent_id": -1, 
@@ -4093,8 +4205,8 @@
                "cost": 1, 
                "description": "The priest's hostile actions have a chance to trigger damage reduction for their group.", 
                "effects": [
-                  "<ul><li>On a hostile spell hit this spell may cast Storming Thoughts on target.  Lasts for 20.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Reduces all damage done to group members (AE) by 3%</li></ul><li>When a combat art is used this spell has a 10% chance to cast Storming Thoughts on target.  Lasts for 20.0 seconds.  </li><ul><li>Reduces all damage done to group members (AE) by 3%</li></ul></ul>", 
                   "<ul><li>On a hostile spell hit this spell may cast Storming Thoughts on target.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Reduces all damage done to group members (AE) by 3%</li></ul><li>When a combat art is used this spell has a 10% chance to cast Storming Thoughts on target.  Lasts for 10.0 seconds.  </li><ul><li>Reduces all damage done to group members (AE) by 3%</li></ul></ul>", 
+                  "<ul><li>On a hostile spell hit this spell may cast Storming Thoughts on target.  Lasts for 20.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Reduces all damage done to group members (AE) by 3%</li></ul><li>When a combat art is used this spell has a 10% chance to cast Storming Thoughts on target.  Lasts for 20.0 seconds.  </li><ul><li>Reduces all damage done to group members (AE) by 3%</li></ul></ul>", 
                   "<ul><li>On a hostile spell hit this spell may cast Storming Thoughts on target.  Lasts for 30.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Reduces all damage done to group members (AE) by 3%</li></ul><li>When a combat art is used this spell has a 10% chance to cast Storming Thoughts on target.  Lasts for 30.0 seconds.  </li><ul><li>Reduces all damage done to group members (AE) by 3%</li></ul></ul>"
                ], 
                "icon": {
@@ -4102,6 +4214,7 @@
                   "icon": 27
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Brainstorm", 
                "parent_id": -1, 
@@ -4135,6 +4248,7 @@
                   "icon": 859
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 2, 
                "name": "Seraph's Alacrity", 
                "parent_id": 5, 
@@ -4167,6 +4281,7 @@
                   "icon": 468
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Seraph's Restoration", 
                "parent_id": -1, 
@@ -4199,6 +4314,7 @@
                   "icon": 216
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Divine Fate", 
                "parent_id": -1, 
@@ -4224,14 +4340,15 @@
                "cost": 1, 
                "description": "When Divine Fate of Healing Triggers, it can clear the reuse on Repent. Additionally, Mark of Nobility will increase the target's chance to strikethrough and, if the target is not a fighter, reduce their hate generation.", 
                "effects": [
-                  "<ul><li>Mark of Nobility will increase the target's strikethrough by 8%. If the target is not a fighter, Mark of Nobility will also reduce their hate gain by 8%.</li><li>Divine Fate of Healing has a 30% chance to clear the reuse on Repent. This effect can only trigger once every 5 seconds.</li></ul>", 
-                  "<ul><li>Mark of Nobility will increase the target's strikethrough by 4%. If the target is not a fighter, Mark of Nobility will also reduce their hate gain by 4%.</li><li>Divine Fate of Healing has a 15% chance to clear the reuse on Repent. This effect can only trigger once every 5 seconds.</li></ul>"
+                  "<ul><li>Mark of Nobility will increase the target's strikethrough by 4%. If the target is not a fighter, Mark of Nobility will also reduce their hate gain by 4%.</li><li>Divine Fate of Healing has a 15% chance to clear the reuse on Repent. This effect can only trigger once every 5 seconds.</li></ul>", 
+                  "<ul><li>Mark of Nobility will increase the target's strikethrough by 8%. If the target is not a fighter, Mark of Nobility will also reduce their hate gain by 8%.</li><li>Divine Fate of Healing has a 30% chance to clear the reuse on Repent. This effect can only trigger once every 5 seconds.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 243
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 2, 
                "name": "Divine Repentance", 
                "parent_id": 6, 
@@ -4264,6 +4381,7 @@
                   "icon": 897
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Potent Protector", 
                "parent_id": 4, 
@@ -4296,6 +4414,7 @@
                   "icon": 198
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Critical Invoker", 
                "parent_id": 7, 
@@ -4332,6 +4451,7 @@
                   "icon": 260
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Sanctify", 
                "parent_id": 8, 
@@ -4355,15 +4475,16 @@
                "cost": 1, 
                "description": "Applies a heal to the templar's two allies with the lowest health percentages. The heal amount is more powerful if the targets are below 25% health and most powerful if the targets are below 10% health. The targets must be within 50 meters of the templar.", 
                "effects": [
+                  "<ul><li>Applies Deific Reformation.</li><ul><li>Heals target for 22 - 27</li><ul><li>If between 11% and 25% health</li></ul><li>Applies to the two allies with the lowest health. Cannot apply to the same target twice.</li><li>Heals target for 16 - 19</li><ul><li>If over 26% Health</li></ul><li>Heals target for 30 - 36</li><ul><li>If under 10% Health</li></ul></ul></ul>", 
                   "<ul><li>Applies Deific Reformation.</li><ul><li>Heals target for 44 - 53</li><ul><li>If between 11% and 25% health</li></ul><li>Applies to the two allies with the lowest health. Cannot apply to the same target twice.</li><li>Heals target for 32 - 39</li><ul><li>If over 26% Health</li></ul><li>Heals target for 60 - 73</li><ul><li>If under 10% Health</li></ul></ul></ul>", 
-                  "<ul><li>Applies Deific Reformation.</li><ul><li>Heals target for 66 - 80</li><ul><li>If between 11% and 25% health</li></ul><li>Applies to the two allies with the lowest health. Cannot apply to the same target twice.</li><li>Heals target for 48 - 58</li><ul><li>If over 26% Health</li></ul><li>Heals target for 90 - 109</li><ul><li>If under 10% Health</li></ul></ul></ul>", 
-                  "<ul><li>Applies Deific Reformation.</li><ul><li>Heals target for 22 - 27</li><ul><li>If between 11% and 25% health</li></ul><li>Applies to the two allies with the lowest health. Cannot apply to the same target twice.</li><li>Heals target for 16 - 19</li><ul><li>If over 26% Health</li></ul><li>Heals target for 30 - 36</li><ul><li>If under 10% Health</li></ul></ul></ul>"
+                  "<ul><li>Applies Deific Reformation.</li><ul><li>Heals target for 66 - 80</li><ul><li>If between 11% and 25% health</li></ul><li>Applies to the two allies with the lowest health. Cannot apply to the same target twice.</li><li>Heals target for 48 - 58</li><ul><li>If over 26% Health</li></ul><li>Heals target for 90 - 109</li><ul><li>If under 10% Health</li></ul></ul></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 164
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Deific Reformation", 
                "parent_id": -1, 
@@ -4392,14 +4513,15 @@
                "description": "Following the natural expiration (triggers or duration) of Vital Intercession, the target will gain increased healing received for a short duration. Repent will also ward for more on that target.", 
                "effects": [
                   "<ul><li>Vital Intercession will apply an effect that increases healing received by 10% when it expires naturally.</li></ul>", 
-                  "<ul><li>Vital Intercession will apply an effect that increases healing received by 30% when it expires naturally.</li></ul>", 
-                  "<ul><li>Vital Intercession will apply an effect that increases healing received by 20% when it expires naturally.</li></ul>"
+                  "<ul><li>Vital Intercession will apply an effect that increases healing received by 20% when it expires naturally.</li></ul>", 
+                  "<ul><li>Vital Intercession will apply an effect that increases healing received by 30% when it expires naturally.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 46
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Divinity's Aid", 
                "parent_id": 9, 
@@ -4432,6 +4554,7 @@
                   "icon": 190
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Purification", 
                "parent_id": 10, 
@@ -4464,6 +4587,7 @@
                   "icon": 516
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Holy Army", 
                "parent_id": 10, 
@@ -4487,8 +4611,8 @@
                "cost": 1, 
                "description": "Sanctify has a chance to reduce damage to the target ally when they fall below 50% health or have less than 50% health when the spell is cast.", 
                "effects": [
-                  "<ul><li>Sanctify will have a 66% chance to apply a very short duration damage reduction when the target ally falls below 50% health or is below 50% health when cast.</li></ul>", 
                   "<ul><li>Sanctify will have a 33% chance to apply a very short duration damage reduction when the target ally falls below 50% health or is below 50% health when cast.</li></ul>", 
+                  "<ul><li>Sanctify will have a 66% chance to apply a very short duration damage reduction when the target ally falls below 50% health or is below 50% health when cast.</li></ul>", 
                   "<ul><li>Sanctify will have a 100% chance to apply a short duration damage reduction when the target ally falls below 50% health or is below 50% health when cast. This can only trigger once every 60 seconds per target.</li></ul>"
                ], 
                "icon": {
@@ -4496,6 +4620,7 @@
                   "icon": 219
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Divine Protection", 
                "parent_id": 10, 
@@ -4528,6 +4653,7 @@
                   "icon": 874
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Divinity's Punishment", 
                "parent_id": 12, 
@@ -4551,8 +4677,8 @@
                "cost": 1, 
                "description": "Divinity's Aid will grant the target a chance to trigger power restoration to the templar's group.", 
                "effects": [
-                  "<ul><li>Divinity's Aid will grant a chance to restore 0.8% power to the target's group when attacking.</li></ul>", 
                   "<ul><li>Divinity's Aid will grant a chance to restore 0.4% power to the target's group when attacking.</li></ul>", 
+                  "<ul><li>Divinity's Aid will grant a chance to restore 0.8% power to the target's group when attacking.</li></ul>", 
                   "<ul><li>Divinity's Aid will grant a chance to restore 1.2% power to the target's group when attacking.</li></ul>"
                ], 
                "icon": {
@@ -4560,6 +4686,7 @@
                   "icon": 44
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Divine Mana", 
                "parent_id": 12, 
@@ -4592,6 +4719,7 @@
                   "icon": 154
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Barrier of Divinity", 
                "parent_id": 12, 
@@ -4622,6 +4750,7 @@
                   "icon": 800
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Holy Guide", 
                "parent_id": -1, 
@@ -4652,6 +4781,7 @@
                   "icon": 150
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Restoring Devotion", 
                "parent_id": -1, 
@@ -4682,6 +4812,7 @@
                   "icon": 169
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Wrath of Divinity", 
                "parent_id": -1, 
@@ -4743,17 +4874,18 @@
                "cost": 1, 
                "description": "Increases your ability to get a bonus rare harvest.  This also grants the ability to track harvesting nodes.  Higher ranks of this ability lower the cooldown on the Track Harvestables ability.", 
                "effects": [
-                  "<ul><li>Increases rare harvest chance by 2.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 1.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 2.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 3.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 4.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 5.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 3.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>"
+                  "<ul><li>Increases rare harvest chance by 5.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 777
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Seasoned Harvesting", 
                "parent_id": -1, 
@@ -4780,17 +4912,18 @@
                "cost": 1, 
                "description": "Increases the artisan's durability gain.", 
                "effects": [
-                  "<ul><li>Increases the amount of durability gained by 5.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 1.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 2.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 3.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 1.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 4.0.</li></ul>"
+                  "<ul><li>Increases the amount of durability gained by 4.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 5.0.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 468
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Steady Hands", 
                "parent_id": -1, 
@@ -4817,17 +4950,18 @@
                "cost": 1, 
                "description": "Increases the Artisan's Success Rate.", 
                "effects": [
+                  "<ul><li>Increases success chance by 1.0%</li></ul>", 
+                  "<ul><li>Increases success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases success chance by 3.0%</li></ul>", 
                   "<ul><li>Increases success chance by 4.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 1.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 5.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 2.0%</li></ul>"
+                  "<ul><li>Increases success chance by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 24
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Brilliant Technique", 
                "parent_id": -1, 
@@ -4864,6 +4998,7 @@
                   "icon": 565
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Summon Artisan's Gathering Goblin", 
                "parent_id": 0, 
@@ -4892,6 +5027,7 @@
                   "icon": 561
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Summon Crafting Stations", 
                "parent_id": 0, 
@@ -4915,10 +5051,10 @@
                "cost": 1, 
                "description": "Further increases the artisan's durability gain.", 
                "effects": [
-                  "<ul><li>Increases the durability gain by 4.0%.</li></ul>", 
-                  "<ul><li>Increases the durability gain by 3.0%.</li></ul>", 
                   "<ul><li>Increases the durability gain by 1.0%.</li></ul>", 
                   "<ul><li>Increases the durability gain by 2.0%.</li></ul>", 
+                  "<ul><li>Increases the durability gain by 3.0%.</li></ul>", 
+                  "<ul><li>Increases the durability gain by 4.0%.</li></ul>", 
                   "<ul><li>Increases the durability gain by 5.0%.</li></ul>"
                ], 
                "icon": {
@@ -4926,6 +5062,7 @@
                   "icon": 27
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Grandmaster's Will", 
                "parent_id": 1, 
@@ -4952,16 +5089,17 @@
                "description": "Greatly increases the artisan's food and drink duration.", 
                "effects": [
                   "<ul><li>Improves the duration of food and drink by 5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 25%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 15%</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 10%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 20%</li></ul>"
+                  "<ul><li>Improves the duration of food and drink by 15%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 20%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 25%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 809
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Experimental Preservatives", 
                "parent_id": 1, 
@@ -4987,17 +5125,18 @@
                "cost": 1, 
                "description": "Increases the artisan's critical success rate.", 
                "effects": [
-                  "<ul><li>Increases critical success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 1.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 3.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 5.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 4.0%</li></ul>"
+                  "<ul><li>Increases critical success chance by 4.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 34
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Grandmaster's Design", 
                "parent_id": 2, 
@@ -5021,17 +5160,18 @@
                "cost": 1, 
                "description": "Increases the artisan's rate of progress.", 
                "effects": [
-                  "<ul><li>Increases the amount of progress gained by 3.0%.</li></ul>", 
-                  "<ul><li>Increases the amount of progress gained by 5.0%.</li></ul>", 
-                  "<ul><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
                   "<ul><li>Increases the amount of progress gained by 1.0%.</li></ul>", 
-                  "<ul><li>Increases the amount of progress gained by 2.0%.</li></ul>"
+                  "<ul><li>Increases the amount of progress gained by 2.0%.</li></ul>", 
+                  "<ul><li>Increases the amount of progress gained by 3.0%.</li></ul>", 
+                  "<ul><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
+                  "<ul><li>Increases the amount of progress gained by 5.0%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 89
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Artisan's Discipline", 
                "parent_id": 2, 
@@ -5066,6 +5206,7 @@
                   "icon": 540
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Salvage", 
                "parent_id": 3, 
@@ -5089,17 +5230,18 @@
                "cost": 1, 
                "description": "Increases the Artisan's Ground and Mount Speed.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 8.0%</li><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 6.0%</li><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 10.0%</li><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases Ground Mount Speed of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 4.0%</li><li>Increases Ground Mount Speed of caster by 4.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases Ground Mount Speed of caster by 2.0%</li></ul>"
+                  "<ul><li>Increases speed of caster by 6.0%</li><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 8.0%</li><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 10.0%</li><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 304
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Innovative Insoles", 
                "parent_id": 6, 
@@ -5123,17 +5265,18 @@
                "cost": 1, 
                "description": "Refunds a portion of a recipes build components upon recipe completion.", 
                "effects": [
-                  "<ul><li>Increases build components returned by 12.0%</li></ul>", 
-                  "<ul><li>Increases build components returned by 20.0%</li></ul>", 
-                  "<ul><li>Increases build components returned by 16.0%</li></ul>", 
                   "<ul><li>Increases build components returned by 4.0%</li></ul>", 
-                  "<ul><li>Increases build components returned by 8.0%</li></ul>"
+                  "<ul><li>Increases build components returned by 8.0%</li></ul>", 
+                  "<ul><li>Increases build components returned by 12.0%</li></ul>", 
+                  "<ul><li>Increases build components returned by 16.0%</li></ul>", 
+                  "<ul><li>Increases build components returned by 20.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 45
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Systematic Conservation", 
                "parent_id": 7, 
@@ -5168,6 +5311,7 @@
                   "icon": 906
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Refine", 
                "parent_id": -1, 
@@ -5191,17 +5335,18 @@
                "cost": 1, 
                "description": "Allows the artisan to experiment on an item.  Experimentation can either add a proc, add a decoration, or boost the stats of an item.  Higher ranks of this ability increase the total amount of times you can experiment on an item.  Additionally, higher ranks of this ability will improve your experimentation reaction arts.", 
                "effects": [
+                  "<ul><li>Increases number of times experimentation can be applied to an item by 1.0</li></ul>", 
                   "<ul><li>Increases number of times experimentation can be applied to an item by 2.0</li></ul>", 
                   "<ul><li>Increases number of times experimentation can be applied to an item by 3.0</li></ul>", 
-                  "<ul><li>Increases number of times experimentation can be applied to an item by 1.0</li></ul>", 
-                  "<ul><li>Increases number of times experimentation can be applied to an item by 5.0</li></ul>", 
-                  "<ul><li>Increases number of times experimentation can be applied to an item by 4.0</li></ul>"
+                  "<ul><li>Increases number of times experimentation can be applied to an item by 4.0</li></ul>", 
+                  "<ul><li>Increases number of times experimentation can be applied to an item by 5.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 896
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Experimentation", 
                "parent_id": -1, 
@@ -5225,17 +5370,18 @@
                "cost": 1, 
                "description": "Enables the artisan to craft multiple items at a time.  Higher tiers of this ability increase the maximum crafting quantity.  Conservation of Mass does not apply when Mass Producing, and Mass Produced items will not count for quest updates.", 
                "effects": [
-                  "<ul><li>Increases max crafting quantity by 50.0</li></ul>", 
-                  "<ul><li>Increases max crafting quantity by 25.0</li></ul>", 
                   "<ul><li>Increases max crafting quantity by 5.0</li></ul>", 
-                  "<ul><li>Increases max crafting quantity by 100.0</li></ul>", 
-                  "<ul><li>Increases max crafting quantity by 10.0</li></ul>"
+                  "<ul><li>Increases max crafting quantity by 10.0</li></ul>", 
+                  "<ul><li>Increases max crafting quantity by 25.0</li></ul>", 
+                  "<ul><li>Increases max crafting quantity by 50.0</li></ul>", 
+                  "<ul><li>Increases max crafting quantity by 100.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 31
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Mass Production", 
                "parent_id": -1, 

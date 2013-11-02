@@ -40,6 +40,7 @@
                   "icon": 327
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Bind Wound", 
                "parent_id": -1, 
@@ -65,22 +66,23 @@
                "cost": 1, 
                "description": "A melee attack that grants the executioner a large chance to score a critical hit on their next attack after a successful hit with this attack.", 
                "effects": [
-                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 86.7</li></ul><li>Inflicts 3 - 6 melee damage on target</li></ul>", 
-                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 66.7</li></ul><li>Inflicts 3 - 5 melee damage on target</li></ul>", 
-                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 110.0</li></ul><li>Inflicts 5 - 8 melee damage on target</li></ul>", 
-                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 106.7</li></ul><li>Inflicts 4 - 8 melee damage on target</li></ul>", 
-                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 73.3</li></ul><li>Inflicts 3 - 5 melee damage on target</li></ul>", 
                   "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 60.0</li></ul><li>Inflicts 2 - 4 melee damage on target</li></ul>", 
-                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 100.0</li></ul><li>Inflicts 4 - 7 melee damage on target</li></ul>", 
                   "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 63.3</li></ul><li>Inflicts 2 - 4 melee damage on target</li></ul>", 
+                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 66.7</li></ul><li>Inflicts 3 - 5 melee damage on target</li></ul>", 
+                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 73.3</li></ul><li>Inflicts 3 - 5 melee damage on target</li></ul>", 
                   "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 80.0</li></ul><li>Inflicts 3 - 6 melee damage on target</li></ul>", 
-                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 93.3</li></ul><li>Inflicts 4 - 7 melee damage on target</li></ul>"
+                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 86.7</li></ul><li>Inflicts 3 - 6 melee damage on target</li></ul>", 
+                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 93.3</li></ul><li>Inflicts 4 - 7 melee damage on target</li></ul>", 
+                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 100.0</li></ul><li>Inflicts 4 - 7 melee damage on target</li></ul>", 
+                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 106.7</li></ul><li>Inflicts 4 - 8 melee damage on target</li></ul>", 
+                  "<ul><li>Applies Executioner's Wrath.  Lasts for 10.0 seconds.</li><ul><li>Increases Crit Chance of caster by 110.0</li></ul><li>Inflicts 5 - 8 melee damage on target</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 612
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Executioner's Wrath", 
                "parent_id": 0, 
@@ -106,22 +108,23 @@
                "cost": 1, 
                "description": "A melee attack that attacks nearby enemies surrounding the Dragoon.", 
                "effects": [
-                  "<ul><li>Inflicts 3 - 5 melee damage on targets in Area of Effect</li></ul>", 
-                  "<ul><li>Inflicts 4 - 7 melee damage on targets in Area of Effect</li></ul>", 
-                  "<ul><li>Inflicts 5 - 8 melee damage on targets in Area of Effect</li></ul>", 
-                  "<ul><li>Inflicts 3 - 6 melee damage on targets in Area of Effect</li></ul>", 
-                  "<ul><li>Inflicts 3 - 5 melee damage on targets in Area of Effect</li></ul>", 
                   "<ul><li>Inflicts 2 - 4 melee damage on targets in Area of Effect</li></ul>", 
+                  "<ul><li>Inflicts 2 - 4 melee damage on targets in Area of Effect</li></ul>", 
+                  "<ul><li>Inflicts 3 - 5 melee damage on targets in Area of Effect</li></ul>", 
+                  "<ul><li>Inflicts 3 - 5 melee damage on targets in Area of Effect</li></ul>", 
                   "<ul><li>Inflicts 3 - 6 melee damage on targets in Area of Effect</li></ul>", 
-                  "<ul><li>Inflicts 4 - 8 melee damage on targets in Area of Effect</li></ul>", 
+                  "<ul><li>Inflicts 3 - 6 melee damage on targets in Area of Effect</li></ul>", 
                   "<ul><li>Inflicts 4 - 7 melee damage on targets in Area of Effect</li></ul>", 
-                  "<ul><li>Inflicts 2 - 4 melee damage on targets in Area of Effect</li></ul>"
+                  "<ul><li>Inflicts 4 - 7 melee damage on targets in Area of Effect</li></ul>", 
+                  "<ul><li>Inflicts 4 - 8 melee damage on targets in Area of Effect</li></ul>", 
+                  "<ul><li>Inflicts 5 - 8 melee damage on targets in Area of Effect</li></ul>"
                ], 
                "icon": {
                   "backdrop": 313, 
                   "icon": 306
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Dragoon Spin", 
                "parent_id": 0, 
@@ -148,21 +151,22 @@
                "description": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.", 
                "effects": [
                   "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 7 - 13 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 7 - 13 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 7 - 13 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 7 - 13 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 7 - 13 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 7 - 13 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>", 
-                  "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 24 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 24 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 24 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 24 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 24 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 24 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>", 
-                  "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 12 - 20 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 12 - 20 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 12 - 20 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 12 - 20 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 12 - 20 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 12 - 20 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>", 
                   "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 8 - 14 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 8 - 14 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 8 - 14 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 8 - 14 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 8 - 14 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 8 - 14 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>", 
                   "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 8 - 14 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 8 - 14 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 8 - 14 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 8 - 14 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 8 - 14 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 8 - 14 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>", 
-                  "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 23 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 23 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 23 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 23 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 23 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 23 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>", 
+                  "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 9 - 16 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 9 - 16 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 9 - 16 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 9 - 16 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 9 - 16 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 9 - 16 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>", 
                   "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 10 - 17 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 10 - 17 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 10 - 17 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 10 - 17 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 10 - 17 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 10 - 17 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>", 
-                  "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 13 - 22 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 13 - 22 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 13 - 22 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 13 - 22 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 13 - 22 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 13 - 22 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>", 
                   "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 11 - 19 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 11 - 19 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 11 - 19 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 11 - 19 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 11 - 19 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 11 - 19 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>", 
-                  "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 9 - 16 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 9 - 16 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 9 - 16 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 9 - 16 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 9 - 16 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 9 - 16 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>"
+                  "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 12 - 20 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 12 - 20 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 12 - 20 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 12 - 20 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 12 - 20 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 12 - 20 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>", 
+                  "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 13 - 22 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 13 - 22 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 13 - 22 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 13 - 22 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 13 - 22 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 13 - 22 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>", 
+                  "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 23 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 23 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 23 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 23 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 23 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 23 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>", 
+                  "<ul><li>Applies Reversal.  Lasts for 30.0 seconds.</li><ul><li>When riposted this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 24 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When parried this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 24 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When deflected this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 24 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a riposte this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 24 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>When blocked this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 24 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>On a parry this spell will cast Gladiator's Strike on target's victim.  </li><ul><li>Inflicts 14 - 24 melee damage on target</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>If any of the following are true:</li><li>If shield equipped in Secondary</li><li>If buckler equipped in Secondary</li><li>If towershield equipped in Secondary</li><li>If kiteshield equipped in Secondary</li><li>If roundshield equipped in Secondary</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 575
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Reversal", 
                "parent_id": 0, 
@@ -188,15 +192,15 @@
                "cost": 1, 
                "description": "Belly Smash can only be used when the target has been recently knocked down. If this attack strikes, the target suffers severe physical mitigation reduction for a short duration.", 
                "effects": [
-                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 6 - 10 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
-                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 3 - 6 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
-                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 5 - 9 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
-                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 4 - 7 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
-                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 5 - 9 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
-                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 3 - 6 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
-                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 5 - 8 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
-                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 4 - 7 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
                   "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 3 - 5 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
+                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 3 - 6 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
+                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 3 - 6 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
+                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 4 - 7 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
+                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 4 - 7 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
+                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 5 - 8 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
+                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 5 - 9 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
+                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 5 - 9 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
+                  "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 6 - 10 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>", 
                   "<ul><li>Increases Mitigation of target vs physical damage by 0</li><li>Inflicts 6 - 10 melee damage on target</li><li>Your target must be knocked down in order to use this ability.</li></ul>"
                ], 
                "icon": {
@@ -204,6 +208,7 @@
                   "icon": 581
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Belly Smash", 
                "parent_id": 0, 
@@ -229,22 +234,23 @@
                "cost": 1, 
                "description": "If Acceleration Strike hits an enemy, and is followed soon thereafter by 3 more combat arts or by letting the 24 seconds expire, the Slayer's attack, casting, and recovery speed increases for a limited duration. Higher ranks increase the duration of the bonuses.", 
                "effects": [
+                  "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 17.6 seconds.</li><ul><li>Increases Attack Speed of caster by 22.5</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>", 
                   "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 19.0 seconds.</li><ul><li>Increases Attack Speed of caster by 23.8</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>", 
+                  "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 20.0 seconds.</li><ul><li>Increases Attack Speed of caster by 25.0</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>", 
                   "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 22.0 seconds.</li><ul><li>Increases Attack Speed of caster by 27.5</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>", 
                   "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 24.0 seconds.</li><ul><li>Increases Attack Speed of caster by 30.0</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>", 
-                  "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 33.0 seconds.</li><ul><li>Increases Attack Speed of caster by 41.2</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>", 
-                  "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 17.6 seconds.</li><ul><li>Increases Attack Speed of caster by 22.5</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>", 
-                  "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 30.0 seconds.</li><ul><li>Increases Attack Speed of caster by 37.5</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>", 
-                  "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 28.0 seconds.</li><ul><li>Increases Attack Speed of caster by 35.0</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>", 
                   "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 26.0 seconds.</li><ul><li>Increases Attack Speed of caster by 32.5</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>", 
+                  "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 28.0 seconds.</li><ul><li>Increases Attack Speed of caster by 35.0</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>", 
+                  "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 30.0 seconds.</li><ul><li>Increases Attack Speed of caster by 37.5</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>", 
                   "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 32.0 seconds.</li><ul><li>Increases Attack Speed of caster by 40.0</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>", 
-                  "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 20.0 seconds.</li><ul><li>Increases Attack Speed of caster by 25.0</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>"
+                  "<ul><li>When a combat art is used this spell will cast Acceleration Counter on target.  </li><ul><li>Increases Acceleration Counter by 1.</li><li>Grants a total of 3 triggers of the spell.</li></ul><li>Inflicts 2 - 4 melee damage on target</li><li>Applies Accelerated on termination.  Lasts for 33.0 seconds.</li><ul><li>Increases Attack Speed of caster by 41.2</li><li>Increases Ability Casting Speed of caster by 25.0%</li><li>Increases Ability Recovery Speed of caster by 25.0%</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 656
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Acceleration Strike", 
                "parent_id": 0, 
@@ -271,21 +277,22 @@
                "description": "Increases the Executioner's chance at critical melee damage.", 
                "effects": [
                   "<ul><li>Increases Crit Chance of caster by 2.2</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 11.1</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 17.8</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 6.7</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 15.6</li></ul>", 
                   "<ul><li>Increases Crit Chance of caster by 4.4</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 20.0</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 6.7</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 8.9</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 11.1</li></ul>", 
                   "<ul><li>Increases Crit Chance of caster by 13.3</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 22.2</li></ul>", 
-                  "<ul><li>Increases Crit Chance of caster by 8.9</li></ul>"
+                  "<ul><li>Increases Crit Chance of caster by 15.6</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 17.8</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 20.0</li></ul>", 
+                  "<ul><li>Increases Crit Chance of caster by 22.2</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 647
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Weapon Expertise", 
                "parent_id": 1, 
@@ -311,22 +318,23 @@
                "cost": 1, 
                "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.", 
                "effects": [
-                  "<ul><li>Caster has a 20.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
-                  "<ul><li>Caster has a 16.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
-                  "<ul><li>Caster has a 32.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
-                  "<ul><li>Caster has a 12.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
                   "<ul><li>Caster has a 4.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
-                  "<ul><li>Caster has a 40.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
-                  "<ul><li>Caster has a 28.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
                   "<ul><li>Caster has a 8.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 12.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 16.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 20.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 24.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 28.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 32.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
                   "<ul><li>Caster has a 36.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
-                  "<ul><li>Caster has a 24.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>"
+                  "<ul><li>Caster has a 40.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 692
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Dragoon's Cyclone", 
                "parent_id": 2, 
@@ -352,22 +360,23 @@
                "cost": 1, 
                "description": "The Gladiator gains a chance to doubleattack while meleeing.", 
                "effects": [
-                  "<ul><li>Increases Multi Attack Chance of caster by 25.0</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of caster by 20.0</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of caster by 17.5</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of caster by 22.5</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of caster by 15.0</li></ul>", 
                   "<ul><li>Increases Multi Attack Chance of caster by 2.5</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of caster by 12.5</li></ul>", 
                   "<ul><li>Increases Multi Attack Chance of caster by 5.0</li></ul>", 
                   "<ul><li>Increases Multi Attack Chance of caster by 7.5</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of caster by 10.0</li></ul>"
+                  "<ul><li>Increases Multi Attack Chance of caster by 10.0</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of caster by 12.5</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of caster by 15.0</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of caster by 17.5</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of caster by 20.0</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of caster by 22.5</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of caster by 25.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 313, 
                   "icon": 574
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Gladiator's Finesse", 
                "parent_id": 3, 
@@ -394,21 +403,22 @@
                "description": "Increases the Demolisher's combat attack damage.", 
                "effects": [
                   "<ul><li>Increases Damage Per Second of caster by 2.4</li></ul>", 
-                  "<ul><li>Increases Damage Per Second of caster by 19.2</li></ul>", 
+                  "<ul><li>Increases Damage Per Second of caster by 4.8</li></ul>", 
+                  "<ul><li>Increases Damage Per Second of caster by 7.2</li></ul>", 
                   "<ul><li>Increases Damage Per Second of caster by 9.6</li></ul>", 
                   "<ul><li>Increases Damage Per Second of caster by 12.0</li></ul>", 
-                  "<ul><li>Increases Damage Per Second of caster by 16.8</li></ul>", 
-                  "<ul><li>Increases Damage Per Second of caster by 21.6</li></ul>", 
                   "<ul><li>Increases Damage Per Second of caster by 14.4</li></ul>", 
-                  "<ul><li>Increases Damage Per Second of caster by 24.0</li></ul>", 
-                  "<ul><li>Increases Damage Per Second of caster by 4.8</li></ul>", 
-                  "<ul><li>Increases Damage Per Second of caster by 7.2</li></ul>"
+                  "<ul><li>Increases Damage Per Second of caster by 16.8</li></ul>", 
+                  "<ul><li>Increases Damage Per Second of caster by 19.2</li></ul>", 
+                  "<ul><li>Increases Damage Per Second of caster by 21.6</li></ul>", 
+                  "<ul><li>Increases Damage Per Second of caster by 24.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 670
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Seasoned Veteran", 
                "parent_id": 4, 
@@ -434,22 +444,23 @@
                "cost": 1, 
                "description": "Increases the Slayer's attack speed.", 
                "effects": [
-                  "<ul><li>Increases Attack Speed of caster by 17.6</li></ul>", 
-                  "<ul><li>Increases Attack Speed of caster by 10.6</li></ul>", 
-                  "<ul><li>Increases Attack Speed of caster by 15.8</li></ul>", 
-                  "<ul><li>Increases Attack Speed of caster by 12.3</li></ul>", 
                   "<ul><li>Increases Attack Speed of caster by 1.8</li></ul>", 
-                  "<ul><li>Increases Attack Speed of caster by 8.8</li></ul>", 
-                  "<ul><li>Increases Attack Speed of caster by 14.1</li></ul>", 
                   "<ul><li>Increases Attack Speed of caster by 3.5</li></ul>", 
                   "<ul><li>Increases Attack Speed of caster by 5.3</li></ul>", 
-                  "<ul><li>Increases Attack Speed of caster by 7.0</li></ul>"
+                  "<ul><li>Increases Attack Speed of caster by 7.0</li></ul>", 
+                  "<ul><li>Increases Attack Speed of caster by 8.8</li></ul>", 
+                  "<ul><li>Increases Attack Speed of caster by 10.6</li></ul>", 
+                  "<ul><li>Increases Attack Speed of caster by 12.3</li></ul>", 
+                  "<ul><li>Increases Attack Speed of caster by 14.1</li></ul>", 
+                  "<ul><li>Increases Attack Speed of caster by 15.8</li></ul>", 
+                  "<ul><li>Increases Attack Speed of caster by 17.6</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 673
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Slayer's Speed", 
                "parent_id": 5, 
@@ -473,22 +484,23 @@
                "cost": 1, 
                "description": "Increases the Executioner's hate gained by all enemies.", 
                "effects": [
-                  "<ul><li>Increases Hate Gain of caster by 2.0%</li><li>Improves the hate gain of taunts by 6%.</li></ul>", 
-                  "<ul><li>Increases Hate Gain of caster by 6.0%</li><li>Improves the hate gain of taunts by 18%.</li></ul>", 
-                  "<ul><li>Increases Hate Gain of caster by 9.0%</li><li>Improves the hate gain of taunts by 27%.</li></ul>", 
                   "<ul><li>Increases Hate Gain of caster by 1.0%</li><li>Improves the hate gain of taunts by 3%.</li></ul>", 
-                  "<ul><li>Increases Hate Gain of caster by 4.0%</li><li>Improves the hate gain of taunts by 12%.</li></ul>", 
-                  "<ul><li>Increases Hate Gain of caster by 10.0%</li><li>Improves the hate gain of taunts by 30%.</li></ul>", 
-                  "<ul><li>Increases Hate Gain of caster by 7.0%</li><li>Improves the hate gain of taunts by 21%.</li></ul>", 
+                  "<ul><li>Increases Hate Gain of caster by 2.0%</li><li>Improves the hate gain of taunts by 6%.</li></ul>", 
                   "<ul><li>Increases Hate Gain of caster by 3.0%</li><li>Improves the hate gain of taunts by 9%.</li></ul>", 
+                  "<ul><li>Increases Hate Gain of caster by 4.0%</li><li>Improves the hate gain of taunts by 12%.</li></ul>", 
                   "<ul><li>Increases Hate Gain of caster by 5.0%</li><li>Improves the hate gain of taunts by 15%.</li></ul>", 
-                  "<ul><li>Increases Hate Gain of caster by 8.0%</li><li>Improves the hate gain of taunts by 24%.</li></ul>"
+                  "<ul><li>Increases Hate Gain of caster by 6.0%</li><li>Improves the hate gain of taunts by 18%.</li></ul>", 
+                  "<ul><li>Increases Hate Gain of caster by 7.0%</li><li>Improves the hate gain of taunts by 21%.</li></ul>", 
+                  "<ul><li>Increases Hate Gain of caster by 8.0%</li><li>Improves the hate gain of taunts by 24%.</li></ul>", 
+                  "<ul><li>Increases Hate Gain of caster by 9.0%</li><li>Improves the hate gain of taunts by 27%.</li></ul>", 
+                  "<ul><li>Increases Hate Gain of caster by 10.0%</li><li>Improves the hate gain of taunts by 30%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 655
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Executioner's Anger", 
                "parent_id": 6, 
@@ -528,6 +540,7 @@
                   "icon": 624
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Dragoon's Avoidance", 
                "parent_id": 7, 
@@ -551,22 +564,23 @@
                "cost": 1, 
                "description": "The Gladiator gains additional effectiveness from their shield.", 
                "effects": [
-                  "<ul><li>Increases caster's chance to block by 4.8%</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 8.4%</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 9.6%</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 1.2%</li></ul>", 
                   "<ul><li>Increases caster's chance to block by 2.4%</li></ul>", 
                   "<ul><li>Increases caster's chance to block by 3.6%</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 12.0%</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 7.2%</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 10.8%</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 4.8%</li></ul>", 
                   "<ul><li>Increases caster's chance to block by 6.0%</li></ul>", 
-                  "<ul><li>Increases caster's chance to block by 1.2%</li></ul>"
+                  "<ul><li>Increases caster's chance to block by 7.2%</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 8.4%</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 9.6%</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 10.8%</li></ul>", 
+                  "<ul><li>Increases caster's chance to block by 12.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 657
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Gladiator's Revenge", 
                "parent_id": 8, 
@@ -606,6 +620,7 @@
                   "icon": 681
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Unshakeable", 
                "parent_id": 9, 
@@ -645,6 +660,7 @@
                   "icon": 661
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Parry", 
                "parent_id": 10, 
@@ -675,6 +691,7 @@
                   "icon": 610
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Executioner's Fury", 
                "parent_id": -1, 
@@ -705,6 +722,7 @@
                   "icon": 560
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Dragoon's Reflexes", 
                "parent_id": -1, 
@@ -735,6 +753,7 @@
                   "icon": 619
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Arena Endurance", 
                "parent_id": -1, 
@@ -765,6 +784,7 @@
                   "icon": 695
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Stance Mastery", 
                "parent_id": -1, 
@@ -795,6 +815,7 @@
                   "icon": 272
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Relentless Assault", 
                "parent_id": -1, 
@@ -818,20 +839,21 @@
                "cost": 1, 
                "description": "Adds mitigation to Executioner's Fury.", 
                "effects": [
-                  "<ul><li>Gives caster an extra 26.3% mitigation to their worn armor</li><li>Executioner's Fury must be active</li><li>If under 50% Health</li></ul>", 
-                  "<ul><li>Gives caster an extra 15.0% mitigation to their worn armor</li><li>Executioner's Fury must be active</li><li>If under 50% Health</li></ul>", 
-                  "<ul><li>Gives caster an extra 11.3% mitigation to their worn armor</li><li>Executioner's Fury must be active</li><li>If under 50% Health</li></ul>", 
                   "<ul><li>Gives caster an extra 3.7% mitigation to their worn armor</li><li>Executioner's Fury must be active</li><li>If under 50% Health</li></ul>", 
+                  "<ul><li>Gives caster an extra 7.5% mitigation to their worn armor</li><li>Executioner's Fury must be active</li><li>If under 50% Health</li></ul>", 
+                  "<ul><li>Gives caster an extra 11.3% mitigation to their worn armor</li><li>Executioner's Fury must be active</li><li>If under 50% Health</li></ul>", 
+                  "<ul><li>Gives caster an extra 15.0% mitigation to their worn armor</li><li>Executioner's Fury must be active</li><li>If under 50% Health</li></ul>", 
                   "<ul><li>Gives caster an extra 18.8% mitigation to their worn armor</li><li>Executioner's Fury must be active</li><li>If under 50% Health</li></ul>", 
-                  "<ul><li>Gives caster an extra 30.0% mitigation to their worn armor</li><li>Executioner's Fury must be active</li><li>If under 50% Health</li></ul>", 
                   "<ul><li>Gives caster an extra 22.5% mitigation to their worn armor</li><li>Executioner's Fury must be active</li><li>If under 50% Health</li></ul>", 
-                  "<ul><li>Gives caster an extra 7.5% mitigation to their worn armor</li><li>Executioner's Fury must be active</li><li>If under 50% Health</li></ul>"
+                  "<ul><li>Gives caster an extra 26.3% mitigation to their worn armor</li><li>Executioner's Fury must be active</li><li>If under 50% Health</li></ul>", 
+                  "<ul><li>Gives caster an extra 30.0% mitigation to their worn armor</li><li>Executioner's Fury must be active</li><li>If under 50% Health</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 190
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Executioner's Fortification", 
                "parent_id": -1, 
@@ -855,20 +877,21 @@
                "cost": 1, 
                "description": "Increases the duration of Dragoon's Reflexes.", 
                "effects": [
+                  "<ul><li>Increases the duration of Dragoon's Reflexes by 1 seconds.</li></ul>", 
+                  "<ul><li>Increases the duration of Dragoon's Reflexes by 2 seconds.</li></ul>", 
+                  "<ul><li>Increases the duration of Dragoon's Reflexes by 3 seconds.</li></ul>", 
                   "<ul><li>Increases the duration of Dragoon's Reflexes by 4 seconds.</li></ul>", 
                   "<ul><li>Increases the duration of Dragoon's Reflexes by 5 seconds.</li></ul>", 
-                  "<ul><li>Increases the duration of Dragoon's Reflexes by 2 seconds.</li></ul>", 
+                  "<ul><li>Increases the duration of Dragoon's Reflexes by 6 seconds.</li></ul>", 
                   "<ul><li>Increases the duration of Dragoon's Reflexes by 7 seconds.</li></ul>", 
-                  "<ul><li>Increases the duration of Dragoon's Reflexes by 8 seconds.</li></ul>", 
-                  "<ul><li>Increases the duration of Dragoon's Reflexes by 1 seconds.</li></ul>", 
-                  "<ul><li>Increases the duration of Dragoon's Reflexes by 3 seconds.</li></ul>", 
-                  "<ul><li>Increases the duration of Dragoon's Reflexes by 6 seconds.</li></ul>"
+                  "<ul><li>Increases the duration of Dragoon's Reflexes by 8 seconds.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 560
                }, 
                "id": 22, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Extended Reflexes", 
                "parent_id": -1, 
@@ -906,6 +929,7 @@
                   "icon": 575
                }, 
                "id": 23, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Reversal of Fortune", 
                "parent_id": -1, 
@@ -929,20 +953,21 @@
                "cost": 1, 
                "description": "Tactical Wisdom improves the warrior's stances to include mitigation and accuracy.", 
                "effects": [
-                  "<ul><li>Adds 1.5% mitigation to the warrior's defensive stance.</li><li>Adds 1.5% accuracy to the warrior's offensive stance.</li></ul>", 
-                  "<ul><li>Adds 3.5% mitigation to the warrior's defensive stance.</li><li>Adds 3.5% accuracy to the warrior's offensive stance.</li></ul>", 
                   "<ul><li>Adds 0.5% mitigation to the warrior's defensive stance.</li><li>Adds 0.5% accuracy to the warrior's offensive stance.</li></ul>", 
-                  "<ul><li>Adds 3% mitigation to the warrior's defensive stance.</li><li>Adds 3% accuracy to the warrior's offensive stance.</li></ul>", 
-                  "<ul><li>Adds 2.5% mitigation to the warrior's defensive stance.</li><li>Adds 2.5% accuracy to the warrior's offensive stance.</li></ul>", 
                   "<ul><li>Adds 1% mitigation to the warrior's defensive stance.</li><li>Adds 1% accuracy to the warrior's offensive stance.</li></ul>", 
-                  "<ul><li>Adds 4% mitigation to the warrior's defensive stance.</li><li>Adds 4% accuracy to the warrior's offensive stance.</li></ul>", 
-                  "<ul><li>Adds 2% mitigation to the warrior's defensive stance.</li><li>Adds 2% accuracy to the warrior's offensive stance.</li></ul>"
+                  "<ul><li>Adds 1.5% mitigation to the warrior's defensive stance.</li><li>Adds 1.5% accuracy to the warrior's offensive stance.</li></ul>", 
+                  "<ul><li>Adds 2% mitigation to the warrior's defensive stance.</li><li>Adds 2% accuracy to the warrior's offensive stance.</li></ul>", 
+                  "<ul><li>Adds 2.5% mitigation to the warrior's defensive stance.</li><li>Adds 2.5% accuracy to the warrior's offensive stance.</li></ul>", 
+                  "<ul><li>Adds 3% mitigation to the warrior's defensive stance.</li><li>Adds 3% accuracy to the warrior's offensive stance.</li></ul>", 
+                  "<ul><li>Adds 3.5% mitigation to the warrior's defensive stance.</li><li>Adds 3.5% accuracy to the warrior's offensive stance.</li></ul>", 
+                  "<ul><li>Adds 4% mitigation to the warrior's defensive stance.</li><li>Adds 4% accuracy to the warrior's offensive stance.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 41
                }, 
                "id": 24, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Tactical Wisdom", 
                "parent_id": -1, 
@@ -966,20 +991,21 @@
                "cost": 1, 
                "description": "Improves the reuse time of the warrior.", 
                "effects": [
-                  "<ul><li>Increases Ability Reuse Speed of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 7.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 6.0%</li></ul>"
+                  "<ul><li>Increases Ability Reuse Speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 5.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 6.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 7.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 8.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 913
                }, 
                "id": 25, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Slayer's Furor", 
                "parent_id": -1, 
@@ -1011,6 +1037,7 @@
                   "icon": 924
                }, 
                "id": 26, 
+               "level": 0, 
                "max_level": 2, 
                "name": "Experienced Insight", 
                "parent_id": -1, 
@@ -1070,9 +1097,9 @@
                "cost": 1, 
                "description": "Your lightning-fast reflexes are able to take over more frequently.  This ability Hastens the reuse time of Intercept and its upgrades. This ability also reduces incoming damage to the target of Intercept.", 
                "effects": [
-                  "<ul><li>Adds 6% damage absorption</li><li>Improves reuse speed by 6 seconds</li></ul>", 
-                  "<ul><li>Adds 4% damage absorption</li><li>Improves reuse speed by 4 seconds</li></ul>", 
                   "<ul><li>Adds 2% damage absorption</li><li>Improves reuse speed by 2 seconds</li></ul>", 
+                  "<ul><li>Adds 4% damage absorption</li><li>Improves reuse speed by 4 seconds</li></ul>", 
+                  "<ul><li>Adds 6% damage absorption</li><li>Improves reuse speed by 6 seconds</li></ul>", 
                   "<ul><li>Adds 8% damage absorption</li><li>Improves reuse speed by 8 seconds</li></ul>", 
                   "<ul><li>Adds 10% damage absorption</li><li>Improves reuse speed by 10 seconds</li></ul>"
                ], 
@@ -1081,6 +1108,7 @@
                   "icon": 354
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Intercept", 
                "parent_id": -1, 
@@ -1105,16 +1133,17 @@
                "description": "Increases the damage of Overpower and its upgrades.", 
                "effects": [
                   "<ul><li>Increases damage by 6%</li></ul>", 
-                  "<ul><li>Increases damage by 24%</li></ul>", 
-                  "<ul><li>Increases damage by 30%</li></ul>", 
                   "<ul><li>Increases damage by 12%</li></ul>", 
-                  "<ul><li>Increases damage by 18%</li></ul>"
+                  "<ul><li>Increases damage by 18%</li></ul>", 
+                  "<ul><li>Increases damage by 24%</li></ul>", 
+                  "<ul><li>Increases damage by 30%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 302
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Overpower", 
                "parent_id": -1, 
@@ -1139,16 +1168,17 @@
                "description": "Increases the damage of Gut Kick and its upgrades.", 
                "effects": [
                   "<ul><li>Increases damage by 6%</li></ul>", 
-                  "<ul><li>Increases damage by 18%</li></ul>", 
                   "<ul><li>Increases damage by 12%</li></ul>", 
-                  "<ul><li>Increases damage by 30%</li></ul>", 
-                  "<ul><li>Increases damage by 24%</li></ul>"
+                  "<ul><li>Increases damage by 18%</li></ul>", 
+                  "<ul><li>Increases damage by 24%</li></ul>", 
+                  "<ul><li>Increases damage by 30%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 292
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Gut Kick", 
                "parent_id": -1, 
@@ -1172,17 +1202,18 @@
                "cost": 1, 
                "description": "Increases the guardian's threat generation.", 
                "effects": [
-                  "<ul><li>Increases Hate Gain of caster by 8.0%</li></ul>", 
                   "<ul><li>Increases Hate Gain of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases Hate Gain of caster by 10.0%</li></ul>", 
+                  "<ul><li>Increases Hate Gain of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases Hate Gain of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Hate Gain of caster by 4.0%</li></ul>"
+                  "<ul><li>Increases Hate Gain of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Hate Gain of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 471
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Hatred", 
                "parent_id": -1, 
@@ -1206,17 +1237,18 @@
                "cost": 1, 
                "description": "Increases the skill increase of Call to Arms.", 
                "effects": [
-                  "<ul><li>Improves the skill bonus by 28%.</li></ul>", 
                   "<ul><li>Improves the skill bonus by 7%.</li></ul>", 
+                  "<ul><li>Improves the skill bonus by 14%.</li></ul>", 
                   "<ul><li>Improves the skill bonus by 21%.</li></ul>", 
-                  "<ul><li>Improves the skill bonus by 35%.</li></ul>", 
-                  "<ul><li>Improves the skill bonus by 14%.</li></ul>"
+                  "<ul><li>Improves the skill bonus by 28%.</li></ul>", 
+                  "<ul><li>Improves the skill bonus by 35%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 184
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Call to Arms", 
                "parent_id": -1, 
@@ -1240,17 +1272,18 @@
                "cost": 1, 
                "description": "This improved Assault deals more damage against a single target, has increased bonuses to hit, cannot be riposted, and has a reduced casting time and power cost while sharing the same reuse timer as Assault.  Everything you need to throw a good slaughter.", 
                "effects": [
-                  "<ul><li>Inflicts 8 - 14 melee damage on target</li></ul>", 
                   "<ul><li>Inflicts 6 - 10 melee damage on target</li></ul>", 
-                  "<ul><li>Inflicts 7 - 13 melee damage on target</li></ul>", 
+                  "<ul><li>Inflicts 6 - 11 melee damage on target</li></ul>", 
                   "<ul><li>Inflicts 7 - 12 melee damage on target</li></ul>", 
-                  "<ul><li>Inflicts 6 - 11 melee damage on target</li></ul>"
+                  "<ul><li>Inflicts 7 - 13 melee damage on target</li></ul>", 
+                  "<ul><li>Inflicts 8 - 14 melee damage on target</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 343
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Lay Waste", 
                "parent_id": -1, 
@@ -1274,17 +1307,18 @@
                "cost": 1, 
                "description": "Reduces the chance for Shout to be resisted and increases the threat amounts. This advancement also improves the amount of threat generated when using Provoke.", 
                "effects": [
-                  "<ul><li>Improves the threat amount of Shout by 30%.</li><li>Reduces resistibility of Shout by 10%</li><li>Improves the threat amount of Provoke by 35%</li></ul>", 
                   "<ul><li>Improves the threat amount of Shout by 6%.</li><li>Reduces resistibility of Shout by 2%</li><li>Improves the threat amount of Provoke by 7%</li></ul>", 
+                  "<ul><li>Improves the threat amount of Shout by 12%.</li><li>Reduces resistibility of Shout by 4%</li><li>Improves the threat amount of Provoke by 14%</li></ul>", 
                   "<ul><li>Improves the threat amount of Shout by 18%.</li><li>Reduces resistibility of Shout by 6%</li><li>Improves the threat amount of Provoke by 21%</li></ul>", 
                   "<ul><li>Improves the threat amount of Shout by 24%.</li><li>Reduces resistibility of Shout by 8%</li><li>Improves the threat amount of Provoke by 28%</li></ul>", 
-                  "<ul><li>Improves the threat amount of Shout by 12%.</li><li>Reduces resistibility of Shout by 4%</li><li>Improves the threat amount of Provoke by 14%</li></ul>"
+                  "<ul><li>Improves the threat amount of Shout by 30%.</li><li>Reduces resistibility of Shout by 10%</li><li>Improves the threat amount of Provoke by 35%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 312, 
                   "icon": 295
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Taunts", 
                "parent_id": -1, 
@@ -1308,17 +1342,18 @@
                "cost": 1, 
                "description": "Increases the mitigation of Battle Cry and its upgrades.", 
                "effects": [
-                  "<ul><li>Increases crush, slash, and pierce resists by 28%</li></ul>", 
-                  "<ul><li>Increases crush, slash, and pierce resists by 21%</li></ul>", 
-                  "<ul><li>Increases crush, slash, and pierce resists by 35%</li></ul>", 
                   "<ul><li>Increases crush, slash, and pierce resists by 7%</li></ul>", 
-                  "<ul><li>Increases crush, slash, and pierce resists by 14%</li></ul>"
+                  "<ul><li>Increases crush, slash, and pierce resists by 14%</li></ul>", 
+                  "<ul><li>Increases crush, slash, and pierce resists by 21%</li></ul>", 
+                  "<ul><li>Increases crush, slash, and pierce resists by 28%</li></ul>", 
+                  "<ul><li>Increases crush, slash, and pierce resists by 35%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 295
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Battle Cry", 
                "parent_id": -1, 
@@ -1343,9 +1378,9 @@
                "description": "Increases the duration of Hunker Down and its upgrades.", 
                "effects": [
                   "<ul><li>Increases duration by 3 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 12 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 9 seconds</li></ul>", 
                   "<ul><li>Increases duration by 6 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 9 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 12 seconds</li></ul>", 
                   "<ul><li>Increases duration by 15 seconds</li></ul>"
                ], 
                "icon": {
@@ -1353,6 +1388,7 @@
                   "icon": 294
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Hunker Down", 
                "parent_id": -1, 
@@ -1376,9 +1412,9 @@
                "cost": 1, 
                "description": "Moderate and its upgrades provide additional focus. Your ally gains increased critical damage while under your care.", 
                "effects": [
-                  "<ul><li>Adds an additional effect that increases the target's critical damage by 3%.</li></ul>", 
                   "<ul><li>Adds an additional effect that increases the target's critical damage by 1%.</li></ul>", 
                   "<ul><li>Adds an additional effect that increases the target's critical damage by 2%.</li></ul>", 
+                  "<ul><li>Adds an additional effect that increases the target's critical damage by 3%.</li></ul>", 
                   "<ul><li>Adds an additional effect that increases the target's critical damage by 4%.</li></ul>", 
                   "<ul><li>Adds an additional effect that increases the target's critical damage by 5%.</li></ul>"
                ], 
@@ -1387,6 +1423,7 @@
                   "icon": 309
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Moderate", 
                "parent_id": -1, 
@@ -1410,17 +1447,18 @@
                "cost": 1, 
                "description": "Increases the defense and health bonus of Call of Shielding.", 
                "effects": [
-                  "<ul><li>Increases the health and defense bonuses by 20%.</li></ul>", 
                   "<ul><li>Increases the health and defense bonuses by 5%.</li></ul>", 
+                  "<ul><li>Increases the health and defense bonuses by 10%.</li></ul>", 
                   "<ul><li>Increases the health and defense bonuses by 15%.</li></ul>", 
-                  "<ul><li>Increases the health and defense bonuses by 25%.</li></ul>", 
-                  "<ul><li>Increases the health and defense bonuses by 10%.</li></ul>"
+                  "<ul><li>Increases the health and defense bonuses by 20%.</li></ul>", 
+                  "<ul><li>Increases the health and defense bonuses by 25%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 295
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Call of Shielding", 
                "parent_id": -1, 
@@ -1444,17 +1482,18 @@
                "cost": 1, 
                "description": "Increases the damage of Precise Strike and its upgrades.", 
                "effects": [
-                  "<ul><li>Increases damage by 24%</li></ul>", 
-                  "<ul><li>Increases damage by 30%</li></ul>", 
                   "<ul><li>Increases damage by 6%</li></ul>", 
                   "<ul><li>Increases damage by 12%</li></ul>", 
-                  "<ul><li>Increases damage by 18%</li></ul>"
+                  "<ul><li>Increases damage by 18%</li></ul>", 
+                  "<ul><li>Increases damage by 24%</li></ul>", 
+                  "<ul><li>Increases damage by 30%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 377
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Precise Strike", 
                "parent_id": -1, 
@@ -1479,16 +1518,17 @@
                "description": "Improves the range and hastens the reuse speed of Rescue.", 
                "effects": [
                   "<ul><li>Improves reuse speed by 30 seconds</li><li>Improves range by 1</li></ul>", 
-                  "<ul><li>Improves reuse speed by 150 seconds</li><li>Improves range by 5</li></ul>", 
                   "<ul><li>Improves reuse speed by 60 seconds</li><li>Improves range by 2</li></ul>", 
+                  "<ul><li>Improves reuse speed by 90 seconds</li><li>Improves range by 3</li></ul>", 
                   "<ul><li>Improves reuse speed by 120 seconds</li><li>Improves range by 4</li></ul>", 
-                  "<ul><li>Improves reuse speed by 90 seconds</li><li>Improves range by 3</li></ul>"
+                  "<ul><li>Improves reuse speed by 150 seconds</li><li>Improves range by 5</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 355
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Rescue", 
                "parent_id": -1, 
@@ -1512,17 +1552,18 @@
                "cost": 1, 
                "description": "Increases the duration and radius of Plant and its upgrades.", 
                "effects": [
-                  "<ul><li>Increases duration by 0.8 seconds</li><li>Improves the radius by 40%.</li></ul>", 
-                  "<ul><li>Increases duration by 2 seconds</li><li>Improves the radius by 100%.</li></ul>", 
-                  "<ul><li>Increases duration by 1.6 seconds</li><li>Improves the radius by 80%.</li></ul>", 
                   "<ul><li>Increases duration by 0.4 seconds</li><li>Improves the radius by 20%.</li></ul>", 
-                  "<ul><li>Increases duration by 1.2 seconds</li><li>Improves the radius by 60%.</li></ul>"
+                  "<ul><li>Increases duration by 0.8 seconds</li><li>Improves the radius by 40%.</li></ul>", 
+                  "<ul><li>Increases duration by 1.2 seconds</li><li>Improves the radius by 60%.</li></ul>", 
+                  "<ul><li>Increases duration by 1.6 seconds</li><li>Improves the radius by 80%.</li></ul>", 
+                  "<ul><li>Increases duration by 2 seconds</li><li>Improves the radius by 100%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 313, 
                   "icon": 308
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Plant", 
                "parent_id": -1, 
@@ -1547,16 +1588,17 @@
                "description": "Adds a small amount of block chance to the Guardian's defensive stance.", 
                "effects": [
                   "<ul><li>Increases block chance by 3%.</li></ul>", 
-                  "<ul><li>Increases block chance by 15%.</li></ul>", 
                   "<ul><li>Increases block chance by 6%.</li></ul>", 
                   "<ul><li>Increases block chance by 9%.</li></ul>", 
-                  "<ul><li>Increases block chance by 12%.</li></ul>"
+                  "<ul><li>Increases block chance by 12%.</li></ul>", 
+                  "<ul><li>Increases block chance by 15%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 358
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Armored", 
                "parent_id": -1, 
@@ -1580,10 +1622,10 @@
                "cost": 1, 
                "description": "Improves the radius and hastens the reuse speed of Sentry Watch.", 
                "effects": [
-                  "<ul><li>Improves reuse speed by 40 seconds</li><li>Improves radius by 40%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 30 seconds</li><li>Improves radius by 30%</li></ul>", 
                   "<ul><li>Improves reuse speed by 10 seconds</li><li>Improves radius by 10%</li></ul>", 
                   "<ul><li>Improves reuse speed by 20 seconds</li><li>Improves radius by 20%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 30 seconds</li><li>Improves radius by 30%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 40 seconds</li><li>Improves radius by 40%</li></ul>", 
                   "<ul><li>Improves reuse speed by 50 seconds</li><li>Improves radius by 50%</li></ul>"
                ], 
                "icon": {
@@ -1591,6 +1633,7 @@
                   "icon": 329
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Sentry Watch", 
                "parent_id": -1, 
@@ -1614,17 +1657,18 @@
                "cost": 1, 
                "description": "Increases the damage of Slam and its upgrades.", 
                "effects": [
-                  "<ul><li>Increases damage by 24%</li></ul>", 
-                  "<ul><li>Increases damage by 12%</li></ul>", 
                   "<ul><li>Increases damage by 6%</li></ul>", 
-                  "<ul><li>Increases damage by 30%</li></ul>", 
-                  "<ul><li>Increases damage by 18%</li></ul>"
+                  "<ul><li>Increases damage by 12%</li></ul>", 
+                  "<ul><li>Increases damage by 18%</li></ul>", 
+                  "<ul><li>Increases damage by 24%</li></ul>", 
+                  "<ul><li>Increases damage by 30%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 356
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Slam", 
                "parent_id": -1, 
@@ -1648,17 +1692,18 @@
                "cost": 1, 
                "description": "Hastens the reuse speed of Reinforcement. The final rank will allow Reinforcement to trigger off of taunts.", 
                "effects": [
-                  "<ul><li>Improves reuse speed by 50 seconds</li><li>Allows Reinforcement to trigger when a taunt is cast.</li></ul>", 
-                  "<ul><li>Improves reuse speed by 20 seconds</li></ul>", 
                   "<ul><li>Improves reuse speed by 10 seconds</li></ul>", 
+                  "<ul><li>Improves reuse speed by 20 seconds</li></ul>", 
                   "<ul><li>Improves reuse speed by 30 seconds</li></ul>", 
-                  "<ul><li>Improves reuse speed by 40 seconds</li></ul>"
+                  "<ul><li>Improves reuse speed by 40 seconds</li></ul>", 
+                  "<ul><li>Improves reuse speed by 50 seconds</li><li>Allows Reinforcement to trigger when a taunt is cast.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 325
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Reinforcement", 
                "parent_id": -1, 
@@ -1685,14 +1730,15 @@
                   "<ul><li>Improves reuse speed by 75 seconds</li><li>Increases duration by 6 seconds</li></ul>", 
                   "<ul><li>Improves reuse speed by 150 seconds</li><li>Increases duration by 12 seconds</li></ul>", 
                   "<ul><li>Improves reuse speed by 225 seconds</li><li>Increases duration by 18 seconds</li></ul>", 
-                  "<ul><li>Improves reuse speed by 375 seconds</li><li>Increases duration by 30 seconds</li></ul>", 
-                  "<ul><li>Improves reuse speed by 300 seconds</li><li>Increases duration by 24 seconds</li></ul>"
+                  "<ul><li>Improves reuse speed by 300 seconds</li><li>Increases duration by 24 seconds</li></ul>", 
+                  "<ul><li>Improves reuse speed by 375 seconds</li><li>Increases duration by 30 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 496
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Unyielding Will", 
                "parent_id": -1, 
@@ -1716,17 +1762,18 @@
                "cost": 1, 
                "description": "Reduces the power cost and hastens the reuse speed of Tower of Stone.", 
                "effects": [
-                  "<ul><li>Reduces the power cost by 60%</li><li>Improves reuse speed by 15 seconds</li></ul>", 
-                  "<ul><li>Reduces the power cost by 100%</li><li>Improves reuse speed by 25 seconds</li></ul>", 
                   "<ul><li>Reduces the power cost by 20%</li><li>Improves reuse speed by 5 seconds</li></ul>", 
+                  "<ul><li>Reduces the power cost by 40%</li><li>Improves reuse speed by 10 seconds</li></ul>", 
+                  "<ul><li>Reduces the power cost by 60%</li><li>Improves reuse speed by 15 seconds</li></ul>", 
                   "<ul><li>Reduces the power cost by 80%</li><li>Improves reuse speed by 20 seconds</li></ul>", 
-                  "<ul><li>Reduces the power cost by 40%</li><li>Improves reuse speed by 10 seconds</li></ul>"
+                  "<ul><li>Reduces the power cost by 100%</li><li>Improves reuse speed by 25 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 508
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Tower of Stone", 
                "parent_id": -1, 
@@ -1751,9 +1798,9 @@
                "description": "Improves the duration and hastens the reuse speed of Guardian Sphere.", 
                "effects": [
                   "<ul><li>Improves reuse speed by 8 seconds</li><li>Improves the duration by 1 seconds</li></ul>", 
-                  "<ul><li>Improves reuse speed by 32 seconds</li><li>Improves the duration by 4 seconds</li></ul>", 
-                  "<ul><li>Improves reuse speed by 24 seconds</li><li>Improves the duration by 3 seconds</li></ul>", 
                   "<ul><li>Improves reuse speed by 16 seconds</li><li>Improves the duration by 2 seconds</li></ul>", 
+                  "<ul><li>Improves reuse speed by 24 seconds</li><li>Improves the duration by 3 seconds</li></ul>", 
+                  "<ul><li>Improves reuse speed by 32 seconds</li><li>Improves the duration by 4 seconds</li></ul>", 
                   "<ul><li>Improves reuse speed by 40 seconds</li><li>Improves the duration by 5 seconds</li></ul>"
                ], 
                "icon": {
@@ -1761,6 +1808,7 @@
                   "icon": 357
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Guardian Sphere", 
                "parent_id": -1, 
@@ -1791,6 +1839,7 @@
                   "icon": 357
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Got Your Back", 
                "parent_id": -1, 
@@ -1821,6 +1870,7 @@
                   "icon": 337
                }, 
                "id": 22, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Flurry", 
                "parent_id": -1, 
@@ -1851,6 +1901,7 @@
                   "icon": 345
                }, 
                "id": 23, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Shoulder the Burden", 
                "parent_id": -1, 
@@ -1881,6 +1932,7 @@
                   "icon": 563
                }, 
                "id": 24, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Block", 
                "parent_id": -1, 
@@ -1904,17 +1956,18 @@
                "cost": 1, 
                "description": "This achievement increases the base damage inflicted by Ruin and its upgrades.", 
                "effects": [
+                  "<ul><li>Improves the base damage by 3%.</li></ul>", 
+                  "<ul><li>Improves the base damage by 6%.</li></ul>", 
                   "<ul><li>Improves the base damage by 9%.</li></ul>", 
                   "<ul><li>Improves the base damage by 12%.</li></ul>", 
-                  "<ul><li>Improves the base damage by 15%.</li></ul>", 
-                  "<ul><li>Improves the base damage by 3%.</li></ul>", 
-                  "<ul><li>Improves the base damage by 6%.</li></ul>"
+                  "<ul><li>Improves the base damage by 15%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 336
                }, 
                "id": 25, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Ruinous Strike", 
                "parent_id": -1, 
@@ -1938,17 +1991,18 @@
                "cost": 1, 
                "description": "This ability improves the duration of Reinforcement.", 
                "effects": [
-                  "<ul><li>Improves the duration by 3 second(s).</li></ul>", 
                   "<ul><li>Improves the duration by 1 second(s).</li></ul>", 
-                  "<ul><li>Improves the duration by 5 second(s).</li></ul>", 
                   "<ul><li>Improves the duration by 2 second(s).</li></ul>", 
-                  "<ul><li>Improves the duration by 4 second(s).</li></ul>"
+                  "<ul><li>Improves the duration by 3 second(s).</li></ul>", 
+                  "<ul><li>Improves the duration by 4 second(s).</li></ul>", 
+                  "<ul><li>Improves the duration by 5 second(s).</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 325
                }, 
                "id": 26, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Rally to Combat", 
                "parent_id": -1, 
@@ -1973,16 +2027,17 @@
                "description": "This ability increases the maximum health of the guardian when Unyielding Will triggers.  In addition, the final rank removes the death penalty.", 
                "effects": [
                   "<ul><li>Increases the guardian's maximum health by 5% after Unyielding Will triggers.</li></ul>", 
-                  "<ul><li>Increases the guardian's maximum health by 20% after Unyielding Will triggers.</li></ul>", 
+                  "<ul><li>Increases the guardian's maximum health by 10% after Unyielding Will triggers.</li></ul>", 
                   "<ul><li>Increases the guardian's maximum health by 15% after Unyielding Will triggers.</li></ul>", 
-                  "<ul><li>Increases the guardian's maximum health by 25% after Unyielding Will triggers.</li><li>The Guardian will no longer die on expiration.</li></ul>", 
-                  "<ul><li>Increases the guardian's maximum health by 10% after Unyielding Will triggers.</li></ul>"
+                  "<ul><li>Increases the guardian's maximum health by 20% after Unyielding Will triggers.</li></ul>", 
+                  "<ul><li>Increases the guardian's maximum health by 25% after Unyielding Will triggers.</li><li>The Guardian will no longer die on expiration.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 496
                }, 
                "id": 27, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Fight Through Death", 
                "parent_id": -1, 
@@ -2006,17 +2061,18 @@
                "cost": 1, 
                "description": "Reduces the recast time of Block and Tower of Stone.", 
                "effects": [
-                  "<ul><li>Improves the reuse speed of Block by 4 second(s).</li><li>Improves the reuse speed of Tower of Stone by 16 seconds.</li></ul>", 
-                  "<ul><li>Improves the reuse speed of Block by 2 second(s).</li><li>Improves the reuse speed of Tower of Stone by 8 seconds.</li></ul>", 
                   "<ul><li>Improves the reuse speed of Block by 1 second(s).</li><li>Improves the reuse speed of Tower of Stone by 4 seconds.</li></ul>", 
-                  "<ul><li>Improves the reuse speed of Block by 5 second(s).</li><li>Improves the reuse speed of Tower of Stone by 20 seconds.</li></ul>", 
-                  "<ul><li>Improves the reuse speed of Block by 3 second(s).</li><li>Improves the reuse speed of Tower of Stone by 12 seconds.</li></ul>"
+                  "<ul><li>Improves the reuse speed of Block by 2 second(s).</li><li>Improves the reuse speed of Tower of Stone by 8 seconds.</li></ul>", 
+                  "<ul><li>Improves the reuse speed of Block by 3 second(s).</li><li>Improves the reuse speed of Tower of Stone by 12 seconds.</li></ul>", 
+                  "<ul><li>Improves the reuse speed of Block by 4 second(s).</li><li>Improves the reuse speed of Tower of Stone by 16 seconds.</li></ul>", 
+                  "<ul><li>Improves the reuse speed of Block by 5 second(s).</li><li>Improves the reuse speed of Tower of Stone by 20 seconds.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 563
                }, 
                "id": 28, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Guardian's Phalanx", 
                "parent_id": -1, 
@@ -2040,17 +2096,18 @@
                "cost": 1, 
                "description": "Grants the guardian a group hate reduction spell.", 
                "effects": [
-                  "<ul><li>Increases Hate Gain of caster by 5.0%</li><li>Decreases Hate Gain of group members (AE) by 25.0%</li><ul><li>If not fighter</li></ul></ul>", 
                   "<ul><li>Increases Hate Gain of caster by 1.0%</li><li>Decreases Hate Gain of group members (AE) by 5.0%</li><ul><li>If not fighter</li></ul></ul>", 
                   "<ul><li>Increases Hate Gain of caster by 2.0%</li><li>Decreases Hate Gain of group members (AE) by 10.0%</li><ul><li>If not fighter</li></ul></ul>", 
+                  "<ul><li>Increases Hate Gain of caster by 3.0%</li><li>Decreases Hate Gain of group members (AE) by 15.0%</li><ul><li>If not fighter</li></ul></ul>", 
                   "<ul><li>Increases Hate Gain of caster by 4.0%</li><li>Decreases Hate Gain of group members (AE) by 20.0%</li><ul><li>If not fighter</li></ul></ul>", 
-                  "<ul><li>Increases Hate Gain of caster by 3.0%</li><li>Decreases Hate Gain of group members (AE) by 15.0%</li><ul><li>If not fighter</li></ul></ul>"
+                  "<ul><li>Increases Hate Gain of caster by 5.0%</li><li>Decreases Hate Gain of group members (AE) by 25.0%</li><ul><li>If not fighter</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 43
                }, 
                "id": 29, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Improved Moderation", 
                "parent_id": -1, 
@@ -2075,16 +2132,17 @@
                "description": "While the target of the taunt is above 80%, the guardian will generate increased threat through taunt abilities.", 
                "effects": [
                   "<ul><li>Improves the base amount of threat by 3% while the target is above 80% health.</li></ul>", 
-                  "<ul><li>Improves the base amount of threat by 9% while the target is above 80% health.</li></ul>", 
                   "<ul><li>Improves the base amount of threat by 6% while the target is above 80% health.</li></ul>", 
-                  "<ul><li>Improves the base amount of threat by 15% while the target is above 80% health.</li></ul>", 
-                  "<ul><li>Improves the base amount of threat by 12% while the target is above 80% health.</li></ul>"
+                  "<ul><li>Improves the base amount of threat by 9% while the target is above 80% health.</li></ul>", 
+                  "<ul><li>Improves the base amount of threat by 12% while the target is above 80% health.</li></ul>", 
+                  "<ul><li>Improves the base amount of threat by 15% while the target is above 80% health.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 635
                }, 
                "id": 30, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Aggressive Entry", 
                "parent_id": -1, 
@@ -2115,6 +2173,7 @@
                   "icon": 925
                }, 
                "id": 31, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Last Man Standing", 
                "parent_id": -1, 
@@ -2190,17 +2249,18 @@
                "cost": 1, 
                "description": "Improves the casting speed and bonuses of your deity pet.", 
                "effects": [
-                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 40%</li></ul>", 
-                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 50%</li></ul>", 
                   "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 10%</li></ul>", 
+                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 20%</li></ul>", 
                   "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 30%</li></ul>", 
-                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 20%</li></ul>"
+                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 40%</li></ul>", 
+                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 50%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 319, 
                   "icon": 799
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Pet of the Gods", 
                "parent_id": -1, 
@@ -2224,17 +2284,18 @@
                "cost": 1, 
                "description": "Increases the duration of your food and drink spells.", 
                "effects": [
-                  "<ul><li>Improves the duration of food and drink by 5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 10%</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 2.5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 12.5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 7.5%</li></ul>"
+                  "<ul><li>Improves the duration of food and drink by 5%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 7.5%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 10%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 12.5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 318, 
                   "icon": 151
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Bountiful Feast", 
                "parent_id": -1, 
@@ -2258,17 +2319,18 @@
                "cost": 1, 
                "description": "Increases your base run speed while out of combat.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 1.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 2.0%</li></ul>"
+                  "<ul><li>Increases speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 794
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Swift Strides", 
                "parent_id": -1, 
@@ -2292,10 +2354,10 @@
                "cost": 1, 
                "description": "Increases your character's maximum health.", 
                "effects": [
-                  "<ul><li>Increases Max Health of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases Max Health of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 0.5%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 1.5%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 2.5%</li></ul>"
                ], 
                "icon": {
@@ -2303,6 +2365,7 @@
                   "icon": 795
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Hearty Constitution", 
                "parent_id": -1, 
@@ -2326,17 +2389,18 @@
                "cost": 1, 
                "description": "Allows you to move faster while on a mount.", 
                "effects": [
-                  "<ul><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li></ul>"
+                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 318, 
                   "icon": 793
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Swift Journey", 
                "parent_id": -1, 
@@ -2361,16 +2425,17 @@
                "description": "Increases your character's maximum power", 
                "effects": [
                   "<ul><li>Increases Max Power of caster by 0.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 1.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 1.0%</li></ul>"
+                  "<ul><li>Increases Max Power of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 2.5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 318, 
                   "icon": 796
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhanced Mind", 
                "parent_id": -1, 
@@ -2394,17 +2459,18 @@
                "cost": 1, 
                "description": "Consummate Defender improves the skill bonuses of the fighter's defensive stance.", 
                "effects": [
+                  "<ul><li>Improves the skill bonuses of the fighter's defensive stance by 4%</li></ul>", 
                   "<ul><li>Improves the skill bonuses of the fighter's defensive stance by 8%</li></ul>", 
                   "<ul><li>Improves the skill bonuses of the fighter's defensive stance by 12%</li></ul>", 
-                  "<ul><li>Improves the skill bonuses of the fighter's defensive stance by 4%</li></ul>", 
-                  "<ul><li>Improves the skill bonuses of the fighter's defensive stance by 20%</li></ul>", 
-                  "<ul><li>Improves the skill bonuses of the fighter's defensive stance by 16%</li></ul>"
+                  "<ul><li>Improves the skill bonuses of the fighter's defensive stance by 16%</li></ul>", 
+                  "<ul><li>Improves the skill bonuses of the fighter's defensive stance by 20%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 358
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Consummate Defender", 
                "parent_id": -1, 
@@ -2428,17 +2494,18 @@
                "cost": 1, 
                "description": "Swinging Strike adds additional base and critical damage to the Overpower, Rupture, Faith Strike, Painbringer, Pummel, and Waking Dragon line of combat arts.", 
                "effects": [
-                  "<ul><li>Increases base damage by 15%</li><li>Improves critical damage by 10%</li></ul>", 
-                  "<ul><li>Increases base damage by 6%</li><li>Improves critical damage by 4%</li></ul>", 
-                  "<ul><li>Increases base damage by 12%</li><li>Improves critical damage by 8%</li></ul>", 
                   "<ul><li>Increases base damage by 3%</li><li>Improves critical damage by 2%</li></ul>", 
-                  "<ul><li>Increases base damage by 9%</li><li>Improves critical damage by 6%</li></ul>"
+                  "<ul><li>Increases base damage by 6%</li><li>Improves critical damage by 4%</li></ul>", 
+                  "<ul><li>Increases base damage by 9%</li><li>Improves critical damage by 6%</li></ul>", 
+                  "<ul><li>Increases base damage by 12%</li><li>Improves critical damage by 8%</li></ul>", 
+                  "<ul><li>Increases base damage by 15%</li><li>Improves critical damage by 10%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 302
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Swinging Strike", 
                "parent_id": -1, 
@@ -2462,10 +2529,10 @@
                "cost": 1, 
                "description": "Improves the reuse time of the Rescue skill.  Rescue is limited to a 100% reuse speed reduction or half of its base reuse time.  Anything over that amount will not count.  If your class has multiple enhancements to Rescue this may be an issue.", 
                "effects": [
-                  "<ul><li>Improves the reuse speed of Rescue by 30%</li></ul>", 
-                  "<ul><li>Improves the reuse speed of Rescue by 20%</li></ul>", 
-                  "<ul><li>Improves the reuse speed of Rescue by 40%</li></ul>", 
                   "<ul><li>Improves the reuse speed of Rescue by 10%</li></ul>", 
+                  "<ul><li>Improves the reuse speed of Rescue by 20%</li></ul>", 
+                  "<ul><li>Improves the reuse speed of Rescue by 30%</li></ul>", 
+                  "<ul><li>Improves the reuse speed of Rescue by 40%</li></ul>", 
                   "<ul><li>Improves the reuse speed of Rescue by 50%</li></ul>"
                ], 
                "icon": {
@@ -2473,6 +2540,7 @@
                   "icon": 11
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Rescue", 
                "parent_id": -1, 
@@ -2496,17 +2564,18 @@
                "cost": 1, 
                "description": "Offensive Prowess increases the skill bonuses of the fighter's offensive stance.", 
                "effects": [
-                  "<ul><li>Increases the skill bonuses of the fighter's offensive stance by 16%</li></ul>", 
                   "<ul><li>Increases the skill bonuses of the fighter's offensive stance by 4%</li></ul>", 
-                  "<ul><li>Increases the skill bonuses of the fighter's offensive stance by 20%</li></ul>", 
                   "<ul><li>Increases the skill bonuses of the fighter's offensive stance by 8%</li></ul>", 
-                  "<ul><li>Increases the skill bonuses of the fighter's offensive stance by 12%</li></ul>"
+                  "<ul><li>Increases the skill bonuses of the fighter's offensive stance by 12%</li></ul>", 
+                  "<ul><li>Increases the skill bonuses of the fighter's offensive stance by 16%</li></ul>", 
+                  "<ul><li>Increases the skill bonuses of the fighter's offensive stance by 20%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 307
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Offensive Prowess", 
                "parent_id": -1, 
@@ -2530,17 +2599,18 @@
                "cost": 1, 
                "description": "This ability grants the fighter an additional damage on a successful riposte.", 
                "effects": [
-                  "<ul><li>Increases Riposte Damage of caster by 15.0</li></ul>", 
-                  "<ul><li>Increases Riposte Damage of caster by 25.0</li></ul>", 
                   "<ul><li>Increases Riposte Damage of caster by 5.0</li></ul>", 
                   "<ul><li>Increases Riposte Damage of caster by 10.0</li></ul>", 
-                  "<ul><li>Increases Riposte Damage of caster by 20.0</li></ul>"
+                  "<ul><li>Increases Riposte Damage of caster by 15.0</li></ul>", 
+                  "<ul><li>Increases Riposte Damage of caster by 20.0</li></ul>", 
+                  "<ul><li>Increases Riposte Damage of caster by 25.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 835
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Riposte Mastery", 
                "parent_id": -1, 
@@ -2564,17 +2634,18 @@
                "cost": 1, 
                "description": "Adds innate damage reduction to the fighter.", 
                "effects": [
-                  "<ul><li>Reduces physical damage done to caster by up to 11.25.</li></ul>", 
-                  "<ul><li>Reduces physical damage done to caster by up to 18.75.</li></ul>", 
-                  "<ul><li>Reduces physical damage done to caster by up to 15.</li></ul>", 
+                  "<ul><li>Reduces physical damage done to caster by up to 3.75.</li></ul>", 
                   "<ul><li>Reduces physical damage done to caster by up to 7.5.</li></ul>", 
-                  "<ul><li>Reduces physical damage done to caster by up to 3.75.</li></ul>"
+                  "<ul><li>Reduces physical damage done to caster by up to 11.25.</li></ul>", 
+                  "<ul><li>Reduces physical damage done to caster by up to 15.</li></ul>", 
+                  "<ul><li>Reduces physical damage done to caster by up to 18.75.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 837
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Battle Hardening", 
                "parent_id": -1, 
@@ -2605,6 +2676,7 @@
                   "icon": 836
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Sneering Assault", 
                "parent_id": -1, 
@@ -2628,10 +2700,10 @@
                "cost": 1, 
                "description": "Adds additional hate positions to the Rescue skill.", 
                "effects": [
-                  "<ul><li>Adds 4 extra hate positions.</li></ul>", 
-                  "<ul><li>Adds 3 extra hate positions.</li></ul>", 
                   "<ul><li>Adds 1 extra hate position.</li></ul>", 
                   "<ul><li>Adds 2 extra hate positions.</li></ul>", 
+                  "<ul><li>Adds 3 extra hate positions.</li></ul>", 
+                  "<ul><li>Adds 4 extra hate positions.</li></ul>", 
                   "<ul><li>Adds 5 extra hate positions.</li></ul>"
                ], 
                "icon": {
@@ -2639,6 +2711,7 @@
                   "icon": 355
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Saving Grace", 
                "parent_id": -1, 
@@ -2673,6 +2746,7 @@
                   "icon": 184
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Rallying Cry", 
                "parent_id": -1, 
@@ -2698,15 +2772,16 @@
                "effects": [
                   "<ul><li>Increases the damage by 4%</li><li>Increases the hit modifier by 2</li></ul>", 
                   "<ul><li>Increases the damage by 8%</li><li>Increases the hit modifier by 4</li></ul>", 
-                  "<ul><li>Increases the damage by 20%</li><li>Increases the hit modifier by 10</li></ul>", 
+                  "<ul><li>Increases the damage by 12%</li><li>Increases the hit modifier by 6</li></ul>", 
                   "<ul><li>Increases the damage by 16%</li><li>Increases the hit modifier by 8</li></ul>", 
-                  "<ul><li>Increases the damage by 12%</li><li>Increases the hit modifier by 6</li></ul>"
+                  "<ul><li>Increases the damage by 20%</li><li>Increases the hit modifier by 10</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 297
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Shield Slam", 
                "parent_id": -1, 
@@ -2730,17 +2805,18 @@
                "cost": 1, 
                "description": "Aggressive Defense and Hold the Line grant more threat when triggered.", 
                "effects": [
-                  "<ul><li>Improves the threat generated by 20%.</li></ul>", 
-                  "<ul><li>Improves the threat generated by 25%.</li></ul>", 
-                  "<ul><li>Improves the threat generated by 10%.</li></ul>", 
                   "<ul><li>Improves the threat generated by 5%.</li></ul>", 
-                  "<ul><li>Improves the threat generated by 15%.</li></ul>"
+                  "<ul><li>Improves the threat generated by 10%.</li></ul>", 
+                  "<ul><li>Improves the threat generated by 15%.</li></ul>", 
+                  "<ul><li>Improves the threat generated by 20%.</li></ul>", 
+                  "<ul><li>Improves the threat generated by 25%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 184
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Aggressive Nature", 
                "parent_id": -1, 
@@ -2765,16 +2841,17 @@
                "description": "Grants the warrior a chance to resist stun based effects.", 
                "effects": [
                   "<ul><li>Grants a 2.0% chance to resist Stun effects</li></ul>", 
-                  "<ul><li>Grants a 6.0% chance to resist Stun effects</li></ul>", 
                   "<ul><li>Grants a 4.0% chance to resist Stun effects</li></ul>", 
-                  "<ul><li>Grants a 10.0% chance to resist Stun effects</li></ul>", 
-                  "<ul><li>Grants a 8.0% chance to resist Stun effects</li></ul>"
+                  "<ul><li>Grants a 6.0% chance to resist Stun effects</li></ul>", 
+                  "<ul><li>Grants a 8.0% chance to resist Stun effects</li></ul>", 
+                  "<ul><li>Grants a 10.0% chance to resist Stun effects</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 913
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Absorbing Blows", 
                "parent_id": -1, 
@@ -2798,17 +2875,18 @@
                "cost": 1, 
                "description": "Improves the mitigation bonuses of the warrior's defensive stances.", 
                "effects": [
-                  "<ul><li>Increases the physical mitigation bonus of the defensive stance by 4%</li></ul>", 
                   "<ul><li>Increases the physical mitigation bonus of the defensive stance by 1%</li></ul>", 
                   "<ul><li>Increases the physical mitigation bonus of the defensive stance by 2%</li></ul>", 
-                  "<ul><li>Increases the physical mitigation bonus of the defensive stance by 5%</li></ul>", 
-                  "<ul><li>Increases the physical mitigation bonus of the defensive stance by 3%</li></ul>"
+                  "<ul><li>Increases the physical mitigation bonus of the defensive stance by 3%</li></ul>", 
+                  "<ul><li>Increases the physical mitigation bonus of the defensive stance by 4%</li></ul>", 
+                  "<ul><li>Increases the physical mitigation bonus of the defensive stance by 5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 329
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Veteran's Shielding", 
                "parent_id": -1, 
@@ -2839,6 +2917,7 @@
                   "icon": 920
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Cry of the Warrior", 
                "parent_id": -1, 
@@ -2862,17 +2941,18 @@
                "cost": 1, 
                "description": "Hateful Assault improves the damage and taunt amount of the Taunting Assault line of skills.", 
                "effects": [
-                  "<ul><li>Improves the damage by 25%</li><li>Improves the hate amount by 10%.</li></ul>", 
-                  "<ul><li>Improves the damage by 20%</li><li>Improves the hate amount by 8%.</li></ul>", 
                   "<ul><li>Improves the damage by 5%</li><li>Improves the hate amount by 2%.</li></ul>", 
                   "<ul><li>Improves the damage by 10%</li><li>Improves the hate amount by 4%.</li></ul>", 
-                  "<ul><li>Improves the damage by 15%</li><li>Improves the hate amount by 6%.</li></ul>"
+                  "<ul><li>Improves the damage by 15%</li><li>Improves the hate amount by 6%.</li></ul>", 
+                  "<ul><li>Improves the damage by 20%</li><li>Improves the hate amount by 8%.</li></ul>", 
+                  "<ul><li>Improves the damage by 25%</li><li>Improves the hate amount by 10%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 312, 
                   "icon": 326
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Hateful Assault", 
                "parent_id": -1, 
@@ -2898,15 +2978,16 @@
                "effects": [
                   "<ul><li>Improves the hit point amount by 3%</li></ul>", 
                   "<ul><li>Improves the hit point amount by 6%</li></ul>", 
-                  "<ul><li>Improves the hit point amount by 15%</li></ul>", 
+                  "<ul><li>Improves the hit point amount by 9%</li></ul>", 
                   "<ul><li>Improves the hit point amount by 12%</li></ul>", 
-                  "<ul><li>Improves the hit point amount by 9%</li></ul>"
+                  "<ul><li>Improves the hit point amount by 15%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 358
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Added Constitution", 
                "parent_id": -1, 
@@ -2930,10 +3011,10 @@
                "cost": 1, 
                "description": "Improves the damage and skill reduction of the Decimate line of skills.", 
                "effects": [
-                  "<ul><li>Improves the skill reduction by 4%</li><li>Improves the damage by 6%</li></ul>", 
-                  "<ul><li>Improves the skill reduction by 8%</li><li>Improves the damage by 12%</li></ul>", 
                   "<ul><li>Improves the skill reduction by 2%</li><li>Improves the damage by 3%</li></ul>", 
+                  "<ul><li>Improves the skill reduction by 4%</li><li>Improves the damage by 6%</li></ul>", 
                   "<ul><li>Improves the skill reduction by 6%</li><li>Improves the damage by 9%</li></ul>", 
+                  "<ul><li>Improves the skill reduction by 8%</li><li>Improves the damage by 12%</li></ul>", 
                   "<ul><li>Improves the skill reduction by 10%</li><li>Improves the damage by 15%</li></ul>"
                ], 
                "icon": {
@@ -2941,6 +3022,7 @@
                   "icon": 35
                }, 
                "id": 22, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Decimation", 
                "parent_id": -1, 
@@ -2964,17 +3046,18 @@
                "cost": 1, 
                "description": "Adds additional damage and decreases the casting time of the Assault line of skills.", 
                "effects": [
-                  "<ul><li>Improves the damage by 20%</li><li>Improves the casting speed by 0.4 seconds.</li></ul>", 
-                  "<ul><li>Improves the damage by 25%</li><li>Improves the casting speed by 0.5 seconds.</li></ul>", 
-                  "<ul><li>Improves the damage by 10%</li><li>Improves the casting speed by 0.2 seconds.</li></ul>", 
                   "<ul><li>Improves the damage by 5%</li><li>Improves the casting speed by 0.1 seconds.</li></ul>", 
-                  "<ul><li>Improves the damage by 15%</li><li>Improves the casting speed by 0.3 seconds.</li></ul>"
+                  "<ul><li>Improves the damage by 10%</li><li>Improves the casting speed by 0.2 seconds.</li></ul>", 
+                  "<ul><li>Improves the damage by 15%</li><li>Improves the casting speed by 0.3 seconds.</li></ul>", 
+                  "<ul><li>Improves the damage by 20%</li><li>Improves the casting speed by 0.4 seconds.</li></ul>", 
+                  "<ul><li>Improves the damage by 25%</li><li>Improves the casting speed by 0.5 seconds.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 313, 
                   "icon": 343
                }, 
                "id": 23, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Strategic Assault", 
                "parent_id": -1, 
@@ -2998,17 +3081,18 @@
                "cost": 1, 
                "description": "Grants an additional mitigation gain to Hunker Down and its upgrades.  It will also make the guardian's shield more effective while the spell is active.", 
                "effects": [
-                  "<ul><li>Improves the mitigation by 4%.</li><li>Increases the shield effectiveness by 4%.</li></ul>", 
-                  "<ul><li>Improves the mitigation by 10%.</li><li>Increases the shield effectiveness by 10%.</li></ul>", 
                   "<ul><li>Improves the mitigation by 2%.</li><li>Increases the shield effectiveness by 2%.</li></ul>", 
+                  "<ul><li>Improves the mitigation by 4%.</li><li>Increases the shield effectiveness by 4%.</li></ul>", 
+                  "<ul><li>Improves the mitigation by 6%.</li><li>Increases the shield effectiveness by 6%.</li></ul>", 
                   "<ul><li>Improves the mitigation by 8%.</li><li>Increases the shield effectiveness by 8%.</li></ul>", 
-                  "<ul><li>Improves the mitigation by 6%.</li><li>Increases the shield effectiveness by 6%.</li></ul>"
+                  "<ul><li>Improves the mitigation by 10%.</li><li>Increases the shield effectiveness by 10%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 294
                }, 
                "id": 24, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Guardian's Will", 
                "parent_id": -1, 
@@ -3032,17 +3116,18 @@
                "cost": 1, 
                "description": "Gives the guardian a chance to hit the target when it successfully parries, blocks or deflects an attack.", 
                "effects": [
-                  "<ul><li>Gives caster a 6.0% chance to strikethrough a successful avoidance check</li></ul>", 
-                  "<ul><li>Gives caster a 15.0% chance to strikethrough a successful avoidance check</li></ul>", 
-                  "<ul><li>Gives caster a 12.0% chance to strikethrough a successful avoidance check</li></ul>", 
                   "<ul><li>Gives caster a 3.0% chance to strikethrough a successful avoidance check</li></ul>", 
-                  "<ul><li>Gives caster a 9.0% chance to strikethrough a successful avoidance check</li></ul>"
+                  "<ul><li>Gives caster a 6.0% chance to strikethrough a successful avoidance check</li></ul>", 
+                  "<ul><li>Gives caster a 9.0% chance to strikethrough a successful avoidance check</li></ul>", 
+                  "<ul><li>Gives caster a 12.0% chance to strikethrough a successful avoidance check</li></ul>", 
+                  "<ul><li>Gives caster a 15.0% chance to strikethrough a successful avoidance check</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 832
                }, 
                "id": 25, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Reversal", 
                "parent_id": -1, 
@@ -3073,6 +3158,7 @@
                   "icon": 834
                }, 
                "id": 26, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Defensive Minded", 
                "parent_id": -1, 
@@ -3103,6 +3189,7 @@
                   "icon": 833
                }, 
                "id": 27, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Sentinel Strike", 
                "parent_id": -1, 
@@ -3175,22 +3262,23 @@
                "cost": 1, 
                "description": "Increases all stats except for Stamina.", 
                "effects": [
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 2.4</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.8</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 6.0</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.2</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.2</li></ul>", 
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 0.6</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.6</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.2</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.8</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 2.4</li></ul>", 
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.0</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.6</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.2</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.8</li></ul>", 
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 5.4</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.8</li></ul>"
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 6.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 43
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Attribute Prowess", 
                "parent_id": -1, 
@@ -3214,15 +3302,15 @@
                "cost": 1, 
                "description": "Increases Ability Modifier.", 
                "effects": [
-                  "<ul><li>Increases Ability Modifier of caster by 20.7</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 10.4</li></ul>", 
-                  "<ul><li>Increases Ability Modifier of caster by 72.5</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 20.7</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 31.1</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 41.4</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 51.7</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 62.1</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 72.5</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 82.8</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 93.2</li></ul>", 
-                  "<ul><li>Increases Ability Modifier of caster by 41.4</li></ul>", 
-                  "<ul><li>Increases Ability Modifier of caster by 62.1</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 103.5</li></ul>"
                ], 
                "icon": {
@@ -3230,6 +3318,7 @@
                   "icon": 566
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Ability Aptitude", 
                "parent_id": -1, 
@@ -3253,22 +3342,23 @@
                "cost": 1, 
                "description": "Increases Maximum Health and Power.", 
                "effects": [
-                  "<ul><li>Increases Max Power of caster by 1.5%</li><li>Increases Max Health of caster by 1.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.5%</li><li>Increases Max Health of caster by 2.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.0%</li><li>Increases Max Health of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 3.5%</li><li>Increases Max Health of caster by 3.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 3.0%</li><li>Increases Max Health of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 1.0%</li><li>Increases Max Health of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 0.5%</li><li>Increases Max Health of caster by 0.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 5.0%</li><li>Increases Max Health of caster by 5.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 1.0%</li><li>Increases Max Health of caster by 1.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 1.5%</li><li>Increases Max Health of caster by 1.5%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 2.0%</li><li>Increases Max Health of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 2.5%</li><li>Increases Max Health of caster by 2.5%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 3.0%</li><li>Increases Max Health of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 3.5%</li><li>Increases Max Health of caster by 3.5%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 4.0%</li><li>Increases Max Health of caster by 4.0%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 4.5%</li><li>Increases Max Health of caster by 4.5%</li></ul>"
+                  "<ul><li>Increases Max Power of caster by 4.5%</li><li>Increases Max Health of caster by 4.5%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 5.0%</li><li>Increases Max Health of caster by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 249
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Spirit and Body", 
                "parent_id": -1, 
@@ -3292,22 +3382,23 @@
                "cost": 1, 
                "description": "Increases Potency.", 
                "effects": [
+                  "<ul><li>Increases Potency of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 5.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 9.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 7.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 7.0%</li></ul>"
+                  "<ul><li>Increases Potency of caster by 9.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 852
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Expertise", 
                "parent_id": -1, 
@@ -3331,22 +3422,23 @@
                "cost": 1, 
                "description": "Increases Crit Bonus.", 
                "effects": [
-                  "<ul><li>Increases Crit Bonus of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Crit Bonus of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Crit Bonus of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 7.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 9.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 1.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases Crit Bonus of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 4.0%</li></ul>"
+                  "<ul><li>Increases Crit Bonus of caster by 6.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 7.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 9.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 21
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Critical Genius", 
                "parent_id": -1, 
@@ -3370,22 +3462,23 @@
                "cost": 1, 
                "description": "Increases Ability Reuse Speed.", 
                "effects": [
-                  "<ul><li>Increases Ability Reuse Speed of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 7.0%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 9.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 5.0%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 4.0%</li></ul>"
+                  "<ul><li>Increases Ability Reuse Speed of caster by 7.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 9.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 14
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Lightning Reflexes", 
                "parent_id": -1, 
@@ -3409,22 +3502,23 @@
                "cost": 1, 
                "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.", 
                "effects": [
-                  "<ul><li>Increases threat amount by 50%.</li><li>Adds an effect that increases accuracy by 20%.</li><li>Makes the caster immune to stun, stifle, root and daze effects.</li></ul>", 
-                  "<ul><li>Increases threat amount by 35%.</li><li>Adds an effect that increases accuracy by 14%.</li></ul>", 
-                  "<ul><li>Increases threat amount by 40%.</li><li>Adds an effect that increases accuracy by 16%.</li></ul>", 
-                  "<ul><li>Increases threat amount by 20%.</li><li>Adds an effect that increases accuracy by 8%.</li></ul>", 
                   "<ul><li>Increases threat amount by 5%.</li><li>Adds an effect that increases accuracy by 2%.</li></ul>", 
                   "<ul><li>Increases threat amount by 10%.</li><li>Adds an effect that increases accuracy by 4%.</li></ul>", 
-                  "<ul><li>Increases threat amount by 25%.</li><li>Adds an effect that increases accuracy by 10%.</li></ul>", 
                   "<ul><li>Increases threat amount by 15%.</li><li>Adds an effect that increases accuracy by 6%.</li></ul>", 
+                  "<ul><li>Increases threat amount by 20%.</li><li>Adds an effect that increases accuracy by 8%.</li></ul>", 
+                  "<ul><li>Increases threat amount by 25%.</li><li>Adds an effect that increases accuracy by 10%.</li></ul>", 
+                  "<ul><li>Increases threat amount by 30%.</li><li>Adds an effect that increases accuracy by 12%.</li></ul>", 
+                  "<ul><li>Increases threat amount by 35%.</li><li>Adds an effect that increases accuracy by 14%.</li></ul>", 
+                  "<ul><li>Increases threat amount by 40%.</li><li>Adds an effect that increases accuracy by 16%.</li></ul>", 
                   "<ul><li>Increases threat amount by 45%.</li><li>Adds an effect that increases accuracy by 18%.</li></ul>", 
-                  "<ul><li>Increases threat amount by 30%.</li><li>Adds an effect that increases accuracy by 12%.</li></ul>"
+                  "<ul><li>Increases threat amount by 50%.</li><li>Adds an effect that increases accuracy by 20%.</li><li>Makes the caster immune to stun, stifle, root and daze effects.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 924
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Enhance: Experienced Insight", 
                "parent_id": -1, 
@@ -3464,6 +3558,7 @@
                   "icon": 920
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Enhance: Cry of the Warrior", 
                "parent_id": -1, 
@@ -3487,22 +3582,23 @@
                "cost": 1, 
                "description": "Battle Cry and Chaos will provide increased maximum health while active.", 
                "effects": [
-                  "<ul><li>Adds 2% maximum health to Chaos and Battle Cry</li></ul>", 
-                  "<ul><li>Adds 3.5% maximum health to Chaos and Battle Cry</li></ul>", 
-                  "<ul><li>Adds 1% maximum health to Chaos and Battle Cry</li></ul>", 
-                  "<ul><li>Adds 3% maximum health to Chaos and Battle Cry</li></ul>", 
                   "<ul><li>Adds 0.5% maximum health to Chaos and Battle Cry</li></ul>", 
+                  "<ul><li>Adds 1% maximum health to Chaos and Battle Cry</li></ul>", 
                   "<ul><li>Adds 1.5% maximum health to Chaos and Battle Cry</li></ul>", 
+                  "<ul><li>Adds 2% maximum health to Chaos and Battle Cry</li></ul>", 
                   "<ul><li>Adds 2.5% maximum health to Chaos and Battle Cry</li></ul>", 
-                  "<ul><li>Adds 5% maximum health to Chaos and Battle Cry</li></ul>", 
+                  "<ul><li>Adds 3% maximum health to Chaos and Battle Cry</li></ul>", 
+                  "<ul><li>Adds 3.5% maximum health to Chaos and Battle Cry</li></ul>", 
+                  "<ul><li>Adds 4% maximum health to Chaos and Battle Cry</li></ul>", 
                   "<ul><li>Adds 4.5% maximum health to Chaos and Battle Cry</li></ul>", 
-                  "<ul><li>Adds 4% maximum health to Chaos and Battle Cry</li></ul>"
+                  "<ul><li>Adds 5% maximum health to Chaos and Battle Cry</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 295
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Robust Bulwark", 
                "parent_id": -1, 
@@ -3527,21 +3623,22 @@
                "description": "Wall of Rage and Hunker Down will grant a small amount of damage reduction to the warrior.", 
                "effects": [
                   "<ul><li>Adds 1% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
-                  "<ul><li>Adds 7% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
-                  "<ul><li>Adds 9% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
                   "<ul><li>Adds 2% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
-                  "<ul><li>Adds 8% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
                   "<ul><li>Adds 3% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
-                  "<ul><li>Adds 5% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
-                  "<ul><li>Adds 10% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
                   "<ul><li>Adds 4% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
-                  "<ul><li>Adds 6% damage reduction to Hunker Down and Wall of Rage</li></ul>"
+                  "<ul><li>Adds 5% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
+                  "<ul><li>Adds 6% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
+                  "<ul><li>Adds 7% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
+                  "<ul><li>Adds 8% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
+                  "<ul><li>Adds 9% damage reduction to Hunker Down and Wall of Rage</li></ul>", 
+                  "<ul><li>Adds 10% damage reduction to Hunker Down and Wall of Rage</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 184
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Emboldened", 
                "parent_id": -1, 
@@ -3572,6 +3669,7 @@
                   "icon": 905
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Perfect Counter", 
                "parent_id": -1, 
@@ -3602,6 +3700,7 @@
                   "icon": 470
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Unshakable Grip", 
                "parent_id": -1, 
@@ -3632,6 +3731,7 @@
                   "icon": 884
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Partisan Cleave", 
                "parent_id": -1, 
@@ -3686,17 +3786,18 @@
                "cost": 1, 
                "description": "Grants you a chance to harvest a second time. Additionally, you move faster while on a mount.", 
                "effects": [
+                  "<ul><li>Increases Ground Mount Speed of caster by 2.0%</li><li>Caster will harvest a second time on 3.0% of harvests.</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li><li>Caster will harvest a second time on 6.0% of harvests.</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 6.0%</li><li>Caster will harvest a second time on 9.0% of harvests.</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 8.0%</li><li>Caster will harvest a second time on 12.0% of harvests.</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li><li>Caster will harvest a second time on 15.0% of harvests.</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li><li>Caster will harvest a second time on 6.0% of harvests.</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 2.0%</li><li>Caster will harvest a second time on 3.0% of harvests.</li></ul>"
+                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li><li>Caster will harvest a second time on 15.0% of harvests.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 797
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Ample Harvest", 
                "parent_id": -1, 
@@ -3720,17 +3821,18 @@
                "cost": 1, 
                "description": "Improves the rate at which you gain progress while crafting.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 4.0%</li><li>Increases the amount of progress gained by 8.0%.</li></ul>", 
-                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
                   "<ul><li>Increases speed of caster by 1.0%</li><li>Increases the amount of progress gained by 2.0%.</li></ul>", 
-                  "<ul><li>Increases speed of caster by 5.0%</li><li>Increases the amount of progress gained by 10.0%.</li></ul>", 
-                  "<ul><li>Increases speed of caster by 3.0%</li><li>Increases the amount of progress gained by 6.0%.</li></ul>"
+                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
+                  "<ul><li>Increases speed of caster by 3.0%</li><li>Increases the amount of progress gained by 6.0%.</li></ul>", 
+                  "<ul><li>Increases speed of caster by 4.0%</li><li>Increases the amount of progress gained by 8.0%.</li></ul>", 
+                  "<ul><li>Increases speed of caster by 5.0%</li><li>Increases the amount of progress gained by 10.0%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 798
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Swift Creation", 
                "parent_id": -1, 
@@ -3754,10 +3856,10 @@
                "cost": 1, 
                "description": "Using the best materials increases the percentage of durability gained while crafting. Additionally, the duration of food and drinks is improved.", 
                "effects": [
-                  "<ul><li>Improves the duration of food and drink by 5%</li><li>Increases the durability gain by 4.0%.</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 2.5%</li><li>Increases the durability gain by 2.0%.</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 10%</li><li>Increases the durability gain by 8.0%.</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 5%</li><li>Increases the durability gain by 4.0%.</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 7.5%</li><li>Increases the durability gain by 6.0%.</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 10%</li><li>Increases the durability gain by 8.0%.</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 12.5%</li><li>Increases the durability gain by 10.0%.</li></ul>"
                ], 
                "icon": {
@@ -3765,6 +3867,7 @@
                   "icon": 874
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "High Quality Materials", 
                "parent_id": -1, 
@@ -3788,17 +3891,18 @@
                "cost": 1, 
                "description": "Improves the rate at which you gain progress while crafting.", 
                "effects": [
-                  "<ul><li>Increases progress by 8.0</li></ul>", 
                   "<ul><li>Increases progress by 2.0</li></ul>", 
+                  "<ul><li>Increases progress by 4.0</li></ul>", 
                   "<ul><li>Increases progress by 6.0</li></ul>", 
-                  "<ul><li>Increases progress by 10.0</li></ul>", 
-                  "<ul><li>Increases progress by 4.0</li></ul>"
+                  "<ul><li>Increases progress by 8.0</li></ul>", 
+                  "<ul><li>Increases progress by 10.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 864
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Rapid Manufacturing", 
                "parent_id": -1, 
@@ -3822,17 +3926,18 @@
                "cost": 1, 
                "description": "Using the most resilient materials increases the amount of durability gained while crafting.", 
                "effects": [
-                  "<ul><li>Increases the amount of durability gained by 10.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 8.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 2.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 4.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 6.0.</li></ul>"
+                  "<ul><li>Increases the amount of durability gained by 6.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 8.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 10.0.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 869
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Resilient Materials", 
                "parent_id": -1, 
@@ -3856,10 +3961,10 @@
                "cost": 1, 
                "description": "Using an effective method of crafting improves your success chance.", 
                "effects": [
-                  "<ul><li>Increases success chance by 8.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases success chance by 2.0%</li></ul>", 
+                  "<ul><li>Increases success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases success chance by 6.0%</li></ul>", 
+                  "<ul><li>Increases success chance by 8.0%</li></ul>", 
                   "<ul><li>Increases success chance by 10.0%</li></ul>"
                ], 
                "icon": {
@@ -3867,6 +3972,7 @@
                   "icon": 860
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Effective Method", 
                "parent_id": -1, 
@@ -3890,17 +3996,18 @@
                "cost": 1, 
                "description": "Using a tried and true method of practice your chance of critical success increases.", 
                "effects": [
-                  "<ul><li>Increases critical success chance by 10.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 8.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 6.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 2.0%</li></ul>"
+                  "<ul><li>Increases critical success chance by 8.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 848
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Advantageous Practice", 
                "parent_id": -1, 
@@ -3924,17 +4031,18 @@
                "cost": 1, 
                "description": "By neatly harvesting you increase your chances of finding rare items.", 
                "effects": [
-                  "<ul><li>Increases rare harvest chance by 0.6%</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 1.0%</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 0.2%</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 0.4%</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 0.6%</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 0.8%</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 0.2%</li></ul>"
+                  "<ul><li>Increases rare harvest chance by 1.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 263
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Trim Reaver", 
                "parent_id": -1, 
@@ -3958,17 +4066,18 @@
                "cost": 1, 
                "description": "Your ability to create items transcends accepted laws of nature, and you can sometimes create items without using the materials used in creating them.", 
                "effects": [
-                  "<ul><li>When completing a pristine crafted item. this spell has a 2% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
                   "<ul><li>When completing a pristine crafted item. this spell has a 1% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
-                  "<ul><li>When completing a pristine crafted item. this spell has a 5% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
+                  "<ul><li>When completing a pristine crafted item. this spell has a 2% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
+                  "<ul><li>When completing a pristine crafted item. this spell has a 3% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
                   "<ul><li>When completing a pristine crafted item. this spell has a 4% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
-                  "<ul><li>When completing a pristine crafted item. this spell has a 3% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>"
+                  "<ul><li>When completing a pristine crafted item. this spell has a 5% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 839
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Conservation of Mass", 
                "parent_id": -1, 
@@ -4019,15 +4128,16 @@
                "cost": 1, 
                "description": "When healed, the fighter has a chance to reduce all incoming damage for a short duration. With higher ranks, the trigger chance and trigger reuse are improved.", 
                "effects": [
+                  "<ul><li>When healed this spell has a 5% chance to cast Stalwart Aura on caster.  Lasts for 10.0 seconds.  </li><ul><li>Reduces all damage done to caster by 5%</li><li>This effect can only trigger once every 30 seconds.</li></ul></ul>", 
                   "<ul><li>When healed this spell has a 7.5% chance to cast Stalwart Aura on caster.  Lasts for 10.0 seconds.  </li><ul><li>Reduces all damage done to caster by 5%</li><li>This effect can only trigger once every 25 seconds.</li></ul></ul>", 
-                  "<ul><li>When healed this spell has a 10% chance to cast Stalwart Aura on caster.  Lasts for 10.0 seconds.  </li><ul><li>Reduces all damage done to caster by 5%</li><li>This effect can only trigger once every 20 seconds.</li></ul></ul>", 
-                  "<ul><li>When healed this spell has a 5% chance to cast Stalwart Aura on caster.  Lasts for 10.0 seconds.  </li><ul><li>Reduces all damage done to caster by 5%</li><li>This effect can only trigger once every 30 seconds.</li></ul></ul>"
+                  "<ul><li>When healed this spell has a 10% chance to cast Stalwart Aura on caster.  Lasts for 10.0 seconds.  </li><ul><li>Reduces all damage done to caster by 5%</li><li>This effect can only trigger once every 20 seconds.</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 175
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Stalwart Aura", 
                "parent_id": -1, 
@@ -4060,6 +4170,7 @@
                   "icon": 870
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Protecting Stance", 
                "parent_id": -1, 
@@ -4092,6 +4203,7 @@
                   "icon": 11
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Avenging Strikes", 
                "parent_id": -1, 
@@ -4115,8 +4227,8 @@
                "cost": 1, 
                "description": "When using hostile actions, the fighter has a chance to grant the group additional damage when they attack. The duration of this effect improves with higher ranks.", 
                "effects": [
-                  "<ul><li>When a combat art is used this spell has a 10% chance to cast Field Commander's Charge on target.  Lasts for 15.0 seconds.  </li><ul><li>On any combat or spell hit this spell may cast Field Commander's Charge on target of attack.  Triggers about 6.0 times per minute. </li><ul><li>Inflicts 7 - 11 crushing damage on target</li></ul><li>On a hostile spell hit this spell may cast Field Commander's Charge on target.  Lasts for 15.0 seconds.  Triggers about 2.0 times per minute. </li><li>On any combat or spell hit this spell may cast Field Commander's Charge on target of attack.  Triggers about 6.0 times per minute. </li><ul><li>Inflicts 7 - 11 crushing damage on target</li></ul></ul></ul>", 
                   "<ul><li>When a combat art is used this spell has a 10% chance to cast Field Commander's Charge on target.  Lasts for 10.0 seconds.  </li><ul><li>On any combat or spell hit this spell may cast Field Commander's Charge on target of attack.  Triggers about 6.0 times per minute. </li><ul><li>Inflicts 7 - 11 crushing damage on target</li></ul><li>On a hostile spell hit this spell may cast Field Commander's Charge on target.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><li>On any combat or spell hit this spell may cast Field Commander's Charge on target of attack.  Triggers about 6.0 times per minute. </li><ul><li>Inflicts 7 - 11 crushing damage on target</li></ul></ul></ul>", 
+                  "<ul><li>When a combat art is used this spell has a 10% chance to cast Field Commander's Charge on target.  Lasts for 15.0 seconds.  </li><ul><li>On any combat or spell hit this spell may cast Field Commander's Charge on target of attack.  Triggers about 6.0 times per minute. </li><ul><li>Inflicts 7 - 11 crushing damage on target</li></ul><li>On a hostile spell hit this spell may cast Field Commander's Charge on target.  Lasts for 15.0 seconds.  Triggers about 2.0 times per minute. </li><li>On any combat or spell hit this spell may cast Field Commander's Charge on target of attack.  Triggers about 6.0 times per minute. </li><ul><li>Inflicts 7 - 11 crushing damage on target</li></ul></ul></ul>", 
                   "<ul><li>When a combat art is used this spell has a 10% chance to cast Field Commander's Charge on target.  Lasts for 20.0 seconds.  </li><ul><li>On any combat or spell hit this spell may cast Field Commander's Charge on target of attack.  Triggers about 6.0 times per minute. </li><ul><li>Inflicts 7 - 11 crushing damage on target</li></ul><li>On a hostile spell hit this spell may cast Field Commander's Charge on target.  Lasts for 20.0 seconds.  Triggers about 2.0 times per minute. </li><li>On any combat or spell hit this spell may cast Field Commander's Charge on target of attack.  Triggers about 6.0 times per minute. </li><ul><li>Inflicts 7 - 11 crushing damage on target</li></ul></ul></ul>"
                ], 
                "icon": {
@@ -4124,6 +4236,7 @@
                   "icon": 920
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Field Commander", 
                "parent_id": -1, 
@@ -4157,6 +4270,7 @@
                   "icon": 295
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 2, 
                "name": "Protector's Will", 
                "parent_id": 5, 
@@ -4189,6 +4303,7 @@
                   "icon": 840
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Unstoppable Wall", 
                "parent_id": -1, 
@@ -4221,6 +4336,7 @@
                   "icon": 11
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Retribution Sphere", 
                "parent_id": -1, 
@@ -4254,6 +4370,7 @@
                   "icon": 11
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 2, 
                "name": "Retribution of the Protector", 
                "parent_id": 6, 
@@ -4286,6 +4403,7 @@
                   "icon": 146
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Stalwart Wall", 
                "parent_id": 4, 
@@ -4318,6 +4436,7 @@
                   "icon": 11
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Blade Crusher", 
                "parent_id": 7, 
@@ -4354,6 +4473,7 @@
                   "icon": 858
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Champion's Interception", 
                "parent_id": 8, 
@@ -4377,15 +4497,16 @@
                "cost": 1, 
                "description": "Passively increases the amount of health gained from stamina.", 
                "effects": [
+                  "<ul><li>Increases the Stamina Bonus of Caster by 34.0</li></ul>", 
                   "<ul><li>Increases the Stamina Bonus of Caster by 68.0</li></ul>", 
-                  "<ul><li>Increases the Stamina Bonus of Caster by 102.0</li></ul>", 
-                  "<ul><li>Increases the Stamina Bonus of Caster by 34.0</li></ul>"
+                  "<ul><li>Increases the Stamina Bonus of Caster by 102.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 43
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Stalwart Conviction", 
                "parent_id": -1, 
@@ -4422,6 +4543,7 @@
                   "icon": 929
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Defender's Charge", 
                "parent_id": 9, 
@@ -4446,14 +4568,15 @@
                "description": "Reduces the base cast time of Champion's Interception and increases its duration.", 
                "effects": [
                   "<ul><li>Improves the duration of Champion's Interception by 1 seconds.</li><li>Reduces the base cast time of Champion's Interception to 1 second</li></ul>", 
-                  "<ul><li>Improves the duration of Champion's Interception by 3 seconds.</li><li>Champion's Interception will cast instantly</li></ul>", 
-                  "<ul><li>Improves the duration of Champion's Interception by 2 seconds.</li><li>Reduces the base cast time of Champion's Interception to 0.5 seconds</li></ul>"
+                  "<ul><li>Improves the duration of Champion's Interception by 2 seconds.</li><li>Reduces the base cast time of Champion's Interception to 0.5 seconds</li></ul>", 
+                  "<ul><li>Improves the duration of Champion's Interception by 3 seconds.</li><li>Champion's Interception will cast instantly</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 42
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Will of the Champion", 
                "parent_id": 10, 
@@ -4477,8 +4600,8 @@
                "cost": 1, 
                "description": "Champion's Interception will increase the guardian's threat generation by a percentage of the damage they inflict. Also, Champion's Watch will reduce incoming damage to the guardian.", 
                "effects": [
-                  "<ul><li>Champion's Interception will incease the guardian's threat by 1.6% of their damage inflicted per increment. If the guardian has Recklessness active, their threat is reduced instead.</li><li>Champion's Watch will reduce incoming damage to the guardian by 3%</li></ul>", 
                   "<ul><li>Champion's Interception will incease the guardian's threat by 0.8% of their damage inflicted per increment. If the guardian has Recklessness active, their threat is reduced instead.</li><li>Champion's Watch will reduce incoming damage to the guardian by 1.5%</li></ul>", 
+                  "<ul><li>Champion's Interception will incease the guardian's threat by 1.6% of their damage inflicted per increment. If the guardian has Recklessness active, their threat is reduced instead.</li><li>Champion's Watch will reduce incoming damage to the guardian by 3%</li></ul>", 
                   "<ul><li>Champion's Interception will incease the guardian's threat by 2.4% of their damage inflicted per increment. If the guardian has Recklessness active, their threat is reduced instead.</li><li>Champion's Watch will reduce incoming damage to the guardian by 4.5%</li></ul>"
                ], 
                "icon": {
@@ -4486,6 +4609,7 @@
                   "icon": 834
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Champion's Shout", 
                "parent_id": 10, 
@@ -4509,8 +4633,8 @@
                "cost": 1, 
                "description": "Provoke has a chance to provide increments of Champion's Sight.", 
                "effects": [
-                  "<ul><li>Provoke has a 66% chance to grant an increment of Champion's Sight.</li></ul>", 
                   "<ul><li>Provoke has a 33% chance to grant an increment of Champion's Sight.</li></ul>", 
+                  "<ul><li>Provoke has a 66% chance to grant an increment of Champion's Sight.</li></ul>", 
                   "<ul><li>Provoke has a 100% chance to grant an increment of Champion's Sight.</li></ul>"
                ], 
                "icon": {
@@ -4518,6 +4642,7 @@
                   "icon": 172
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Champion's Glare", 
                "parent_id": 10, 
@@ -4542,14 +4667,15 @@
                "description": "Increases the damage of Defender's Charge. This applies before potency.", 
                "effects": [
                   "<ul><li>Increases the damage of Defender's Charge's initial damage by 60%</li></ul>", 
-                  "<ul><li>Increases the damage of Defender's Charge's initial damage by 180%</li></ul>", 
-                  "<ul><li>Increases the damage of Defender's Charge's initial damage by 120%</li></ul>"
+                  "<ul><li>Increases the damage of Defender's Charge's initial damage by 120%</li></ul>", 
+                  "<ul><li>Increases the damage of Defender's Charge's initial damage by 180%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 79
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Defender's Power", 
                "parent_id": 12, 
@@ -4573,15 +4699,16 @@
                "cost": 1, 
                "description": "Adds additional strikes to Grit.", 
                "effects": [
-                  "<ul><li>Adds 3 additional strikes to Grit</li></ul>", 
                   "<ul><li>Adds 1 additional strike to Grit</li></ul>", 
-                  "<ul><li>Adds 2 additional strikes to Grit</li></ul>"
+                  "<ul><li>Adds 2 additional strikes to Grit</li></ul>", 
+                  "<ul><li>Adds 3 additional strikes to Grit</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 383
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Blades of Protection", 
                "parent_id": 12, 
@@ -4606,14 +4733,15 @@
                "description": "Increases the size of the damage reduction effect on Grit.", 
                "effects": [
                   "<ul><li>Increases the damage reduction effect of Grit to 4%</li></ul>", 
-                  "<ul><li>Increases the damage reduction effect of Grit to 6%</li></ul>", 
-                  "<ul><li>Increases the damage reduction effect of Grit to 5%</li></ul>"
+                  "<ul><li>Increases the damage reduction effect of Grit to 5%</li></ul>", 
+                  "<ul><li>Increases the damage reduction effect of Grit to 6%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 843
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Defensive Bulwark", 
                "parent_id": 12, 
@@ -4644,6 +4772,7 @@
                   "icon": 624
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Champion's Stand", 
                "parent_id": -1, 
@@ -4674,6 +4803,7 @@
                   "icon": 842
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Sphere of Defense", 
                "parent_id": -1, 
@@ -4704,6 +4834,7 @@
                   "icon": 844
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Protecting Spirit", 
                "parent_id": -1, 
@@ -4765,17 +4896,18 @@
                "cost": 1, 
                "description": "Increases your ability to get a bonus rare harvest.  This also grants the ability to track harvesting nodes.  Higher ranks of this ability lower the cooldown on the Track Harvestables ability.", 
                "effects": [
-                  "<ul><li>Increases rare harvest chance by 2.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 1.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 2.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 3.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 4.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 5.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 3.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>"
+                  "<ul><li>Increases rare harvest chance by 5.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 777
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Seasoned Harvesting", 
                "parent_id": -1, 
@@ -4802,17 +4934,18 @@
                "cost": 1, 
                "description": "Increases the artisan's durability gain.", 
                "effects": [
-                  "<ul><li>Increases the amount of durability gained by 5.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 1.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 2.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 3.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 1.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 4.0.</li></ul>"
+                  "<ul><li>Increases the amount of durability gained by 4.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 5.0.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 468
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Steady Hands", 
                "parent_id": -1, 
@@ -4839,17 +4972,18 @@
                "cost": 1, 
                "description": "Increases the Artisan's Success Rate.", 
                "effects": [
+                  "<ul><li>Increases success chance by 1.0%</li></ul>", 
+                  "<ul><li>Increases success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases success chance by 3.0%</li></ul>", 
                   "<ul><li>Increases success chance by 4.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 1.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 5.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 2.0%</li></ul>"
+                  "<ul><li>Increases success chance by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 24
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Brilliant Technique", 
                "parent_id": -1, 
@@ -4886,6 +5020,7 @@
                   "icon": 565
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Summon Artisan's Gathering Goblin", 
                "parent_id": 0, 
@@ -4914,6 +5049,7 @@
                   "icon": 561
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Summon Crafting Stations", 
                "parent_id": 0, 
@@ -4937,10 +5073,10 @@
                "cost": 1, 
                "description": "Further increases the artisan's durability gain.", 
                "effects": [
-                  "<ul><li>Increases the durability gain by 4.0%.</li></ul>", 
-                  "<ul><li>Increases the durability gain by 3.0%.</li></ul>", 
                   "<ul><li>Increases the durability gain by 1.0%.</li></ul>", 
                   "<ul><li>Increases the durability gain by 2.0%.</li></ul>", 
+                  "<ul><li>Increases the durability gain by 3.0%.</li></ul>", 
+                  "<ul><li>Increases the durability gain by 4.0%.</li></ul>", 
                   "<ul><li>Increases the durability gain by 5.0%.</li></ul>"
                ], 
                "icon": {
@@ -4948,6 +5084,7 @@
                   "icon": 27
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Grandmaster's Will", 
                "parent_id": 1, 
@@ -4974,16 +5111,17 @@
                "description": "Greatly increases the artisan's food and drink duration.", 
                "effects": [
                   "<ul><li>Improves the duration of food and drink by 5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 25%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 15%</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 10%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 20%</li></ul>"
+                  "<ul><li>Improves the duration of food and drink by 15%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 20%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 25%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 809
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Experimental Preservatives", 
                "parent_id": 1, 
@@ -5009,17 +5147,18 @@
                "cost": 1, 
                "description": "Increases the artisan's critical success rate.", 
                "effects": [
-                  "<ul><li>Increases critical success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 1.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 3.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 5.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 4.0%</li></ul>"
+                  "<ul><li>Increases critical success chance by 4.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 34
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Grandmaster's Design", 
                "parent_id": 2, 
@@ -5043,17 +5182,18 @@
                "cost": 1, 
                "description": "Increases the artisan's rate of progress.", 
                "effects": [
-                  "<ul><li>Increases the amount of progress gained by 3.0%.</li></ul>", 
-                  "<ul><li>Increases the amount of progress gained by 5.0%.</li></ul>", 
-                  "<ul><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
                   "<ul><li>Increases the amount of progress gained by 1.0%.</li></ul>", 
-                  "<ul><li>Increases the amount of progress gained by 2.0%.</li></ul>"
+                  "<ul><li>Increases the amount of progress gained by 2.0%.</li></ul>", 
+                  "<ul><li>Increases the amount of progress gained by 3.0%.</li></ul>", 
+                  "<ul><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
+                  "<ul><li>Increases the amount of progress gained by 5.0%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 89
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Artisan's Discipline", 
                "parent_id": 2, 
@@ -5088,6 +5228,7 @@
                   "icon": 540
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Salvage", 
                "parent_id": 3, 
@@ -5111,17 +5252,18 @@
                "cost": 1, 
                "description": "Increases the Artisan's Ground and Mount Speed.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 8.0%</li><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 6.0%</li><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 10.0%</li><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases Ground Mount Speed of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 4.0%</li><li>Increases Ground Mount Speed of caster by 4.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases Ground Mount Speed of caster by 2.0%</li></ul>"
+                  "<ul><li>Increases speed of caster by 6.0%</li><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 8.0%</li><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 10.0%</li><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 304
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Innovative Insoles", 
                "parent_id": 6, 
@@ -5145,17 +5287,18 @@
                "cost": 1, 
                "description": "Refunds a portion of a recipes build components upon recipe completion.", 
                "effects": [
-                  "<ul><li>Increases build components returned by 12.0%</li></ul>", 
-                  "<ul><li>Increases build components returned by 20.0%</li></ul>", 
-                  "<ul><li>Increases build components returned by 16.0%</li></ul>", 
                   "<ul><li>Increases build components returned by 4.0%</li></ul>", 
-                  "<ul><li>Increases build components returned by 8.0%</li></ul>"
+                  "<ul><li>Increases build components returned by 8.0%</li></ul>", 
+                  "<ul><li>Increases build components returned by 12.0%</li></ul>", 
+                  "<ul><li>Increases build components returned by 16.0%</li></ul>", 
+                  "<ul><li>Increases build components returned by 20.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 45
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Systematic Conservation", 
                "parent_id": 7, 
@@ -5190,6 +5333,7 @@
                   "icon": 906
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Refine", 
                "parent_id": -1, 
@@ -5213,17 +5357,18 @@
                "cost": 1, 
                "description": "Allows the artisan to experiment on an item.  Experimentation can either add a proc, add a decoration, or boost the stats of an item.  Higher ranks of this ability increase the total amount of times you can experiment on an item.  Additionally, higher ranks of this ability will improve your experimentation reaction arts.", 
                "effects": [
+                  "<ul><li>Increases number of times experimentation can be applied to an item by 1.0</li></ul>", 
                   "<ul><li>Increases number of times experimentation can be applied to an item by 2.0</li></ul>", 
                   "<ul><li>Increases number of times experimentation can be applied to an item by 3.0</li></ul>", 
-                  "<ul><li>Increases number of times experimentation can be applied to an item by 1.0</li></ul>", 
-                  "<ul><li>Increases number of times experimentation can be applied to an item by 5.0</li></ul>", 
-                  "<ul><li>Increases number of times experimentation can be applied to an item by 4.0</li></ul>"
+                  "<ul><li>Increases number of times experimentation can be applied to an item by 4.0</li></ul>", 
+                  "<ul><li>Increases number of times experimentation can be applied to an item by 5.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 896
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Experimentation", 
                "parent_id": -1, 
@@ -5247,17 +5392,18 @@
                "cost": 1, 
                "description": "Enables the artisan to craft multiple items at a time.  Higher tiers of this ability increase the maximum crafting quantity.  Conservation of Mass does not apply when Mass Producing, and Mass Produced items will not count for quest updates.", 
                "effects": [
-                  "<ul><li>Increases max crafting quantity by 50.0</li></ul>", 
-                  "<ul><li>Increases max crafting quantity by 25.0</li></ul>", 
                   "<ul><li>Increases max crafting quantity by 5.0</li></ul>", 
-                  "<ul><li>Increases max crafting quantity by 100.0</li></ul>", 
-                  "<ul><li>Increases max crafting quantity by 10.0</li></ul>"
+                  "<ul><li>Increases max crafting quantity by 10.0</li></ul>", 
+                  "<ul><li>Increases max crafting quantity by 25.0</li></ul>", 
+                  "<ul><li>Increases max crafting quantity by 50.0</li></ul>", 
+                  "<ul><li>Increases max crafting quantity by 100.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 31
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Mass Production", 
                "parent_id": -1, 

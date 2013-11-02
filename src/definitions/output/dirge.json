@@ -40,6 +40,7 @@
                   "icon": 604
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Bard's Luck", 
                "parent_id": -1, 
@@ -66,21 +67,22 @@
                "description": "A melee attack that briefly renders the Bladesinger immune to area effect attacks unless they are the direct target of that effect.", 
                "effects": [
                   "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 3 - 5 melee damage on target</li></ul>", 
-                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 3 - 6 melee damage on target</li></ul>", 
-                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 4 - 7 melee damage on target</li></ul>", 
-                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 4 - 7 melee damage on target</li></ul>", 
                   "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 3 - 5 melee damage on target</li></ul>", 
-                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 5 - 8 melee damage on target</li></ul>", 
-                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 5 - 8 melee damage on target</li></ul>", 
+                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 3 - 5 melee damage on target</li></ul>", 
+                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 3 - 6 melee damage on target</li></ul>", 
                   "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 4 - 6 melee damage on target</li></ul>", 
-                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 5 - 9 melee damage on target</li></ul>", 
-                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 3 - 5 melee damage on target</li></ul>"
+                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 4 - 7 melee damage on target</li></ul>", 
+                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 4 - 7 melee damage on target</li></ul>", 
+                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 5 - 8 melee damage on target</li></ul>", 
+                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 5 - 8 melee damage on target</li></ul>", 
+                  "<ul><li>Prevents AOE (except when direct) </li><li>Inflicts 5 - 9 melee damage on target</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 643
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Turnstrike", 
                "parent_id": 0, 
@@ -106,22 +108,23 @@
                "cost": 1, 
                "description": "A positional melee attack that shoves your target and places the Wayfarer into stealth. If your target is a humanoid, you have a chance to pickpocket them.", 
                "effects": [
-                  "<ul><li>Steals an item from target with 80% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 4 - 7 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
-                  "<ul><li>Steals an item from target with 60% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 3 - 6 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
-                  "<ul><li>Steals an item from target with 100% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 5 - 9 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
-                  "<ul><li>Steals an item from target with 70% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 4 - 6 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
-                  "<ul><li>Steals an item from target with 90% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 4 - 7 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
                   "<ul><li>Inflicts 3 - 5 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Steals an item from target with 30% success.</li><ul><li>If target is humanoid</li></ul><li>Must be flanking or behind</li></ul>", 
-                  "<ul><li>Steals an item from target with 100% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 5 - 8 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
                   "<ul><li>Steals an item from target with 40% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 3 - 5 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
+                  "<ul><li>Inflicts 3 - 5 melee damage on target</li><li>Steals an item from target with 50% success.</li><ul><li>If target is humanoid</li></ul><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
+                  "<ul><li>Steals an item from target with 60% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 3 - 6 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
+                  "<ul><li>Steals an item from target with 70% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 4 - 6 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
+                  "<ul><li>Steals an item from target with 80% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 4 - 7 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
+                  "<ul><li>Steals an item from target with 90% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 4 - 7 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
                   "<ul><li>Steals an item from target with 100% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 5 - 8 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
-                  "<ul><li>Inflicts 3 - 5 melee damage on target</li><li>Steals an item from target with 50% success.</li><ul><li>If target is humanoid</li></ul><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>"
+                  "<ul><li>Steals an item from target with 100% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 5 - 8 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>", 
+                  "<ul><li>Steals an item from target with 100% success.</li><ul><li>If target is humanoid</li></ul><li>Inflicts 5 - 9 melee damage on target</li><li>Applies Shroud on termination.  Lasts for 36.0 seconds.</li><ul><li>Grants stealth to caster</li><li>Suspends caster's movement speed enhancements</li></ul><li>Must be flanking or behind</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 567
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Bump", 
                "parent_id": 0, 
@@ -147,22 +150,23 @@
                "cost": 1, 
                "description": "An attack that knocks down the target if it hits.", 
                "effects": [
-                  "<ul><li>Applies Knockdown.  Lasts for 2.2 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 4 - 7 crushing damage on target</li></ul>", 
-                  "<ul><li>Applies Knockdown.  Lasts for 3.0 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 5 - 9 crushing damage on target</li></ul>", 
-                  "<ul><li>Applies Knockdown.  Lasts for 3.3 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 6 - 10 crushing damage on target</li></ul>", 
                   "<ul><li>Applies Knockdown.  Lasts for 1.8 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 3 - 5 crushing damage on target</li></ul>", 
-                  "<ul><li>Applies Knockdown.  Lasts for 2.4 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 4 - 7 crushing damage on target</li></ul>", 
-                  "<ul><li>Applies Knockdown.  Lasts for 2.8 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 5 - 9 crushing damage on target</li></ul>", 
                   "<ul><li>Applies Knockdown.  Lasts for 1.9 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 3 - 6 crushing damage on target</li></ul>", 
-                  "<ul><li>Applies Knockdown.  Lasts for 2.6 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 5 - 8 crushing damage on target</li></ul>", 
                   "<ul><li>Applies Knockdown.  Lasts for 2.0 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 3 - 6 crushing damage on target</li></ul>", 
-                  "<ul><li>Applies Knockdown.  Lasts for 3.2 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 6 - 10 crushing damage on target</li></ul>"
+                  "<ul><li>Applies Knockdown.  Lasts for 2.2 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 4 - 7 crushing damage on target</li></ul>", 
+                  "<ul><li>Applies Knockdown.  Lasts for 2.4 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 4 - 7 crushing damage on target</li></ul>", 
+                  "<ul><li>Applies Knockdown.  Lasts for 2.6 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 5 - 8 crushing damage on target</li></ul>", 
+                  "<ul><li>Applies Knockdown.  Lasts for 2.8 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 5 - 9 crushing damage on target</li></ul>", 
+                  "<ul><li>Applies Knockdown.  Lasts for 3.0 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 5 - 9 crushing damage on target</li></ul>", 
+                  "<ul><li>Applies Knockdown.  Lasts for 3.2 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 6 - 10 crushing damage on target</li></ul>", 
+                  "<ul><li>Applies Knockdown.  Lasts for 3.3 seconds.</li><ul><li>Blurs vision of target</li><li>Throws target back</li><li>Stuns target</li><li>Does not affect Epic targets</li></ul><li>Inflicts 6 - 10 crushing damage on target</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 657
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Round Bash", 
                "parent_id": 0, 
@@ -188,22 +192,23 @@
                "cost": 1, 
                "description": "A ranged bow attack that increases the enemy's hate towards their current target.", 
                "effects": [
-                  "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 29 </li><li>Must be engaged in combat</li></ul><li>Inflicts 3 - 5 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>", 
                   "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 17 </li><li>Must be engaged in combat</li></ul><li>Inflicts 2 - 3 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>", 
-                  "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 19 </li><li>Must be engaged in combat</li></ul><li>Inflicts 2 - 3 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>", 
                   "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 18 </li><li>Must be engaged in combat</li></ul><li>Inflicts 2 - 3 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>", 
+                  "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 19 </li><li>Must be engaged in combat</li></ul><li>Inflicts 2 - 3 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>", 
+                  "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 21 </li><li>Must be engaged in combat</li></ul><li>Inflicts 2 - 4 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>", 
                   "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 23 </li><li>Must be engaged in combat</li></ul><li>Inflicts 2 - 4 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>", 
                   "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 25 </li><li>Must be engaged in combat</li></ul><li>Inflicts 2 - 4 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>", 
-                  "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 31 </li><li>Must be engaged in combat</li></ul><li>Inflicts 3 - 6 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>", 
-                  "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 21 </li><li>Must be engaged in combat</li></ul><li>Inflicts 2 - 4 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>", 
+                  "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 27 </li><li>Must be engaged in combat</li></ul><li>Inflicts 3 - 5 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>", 
+                  "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 29 </li><li>Must be engaged in combat</li></ul><li>Inflicts 3 - 5 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>", 
                   "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 30 </li><li>Must be engaged in combat</li></ul><li>Inflicts 3 - 5 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>", 
-                  "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 27 </li><li>Must be engaged in combat</li></ul><li>Inflicts 3 - 5 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>"
+                  "<ul><li>Applies Infuriated.</li><ul><li>Increases Threat to target by 31 </li><li>Must be engaged in combat</li></ul><li>Inflicts 3 - 6 ranged damage on target</li><li>If Bow equipped in Ranged</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 682
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Messenger's Letter", 
                "parent_id": 0, 
@@ -230,21 +235,22 @@
                "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.", 
                "effects": [
                   "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 0.9</li><li>Inflicts 2 - 4 melee damage on target</li><li>Increases Subjugation of caster by 0.9</li></ul>", 
-                  "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.0</li><li>Inflicts 2 - 4 melee damage on target</li><li>Increases Subjugation of caster by 1.0</li></ul>", 
                   "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 0.9</li><li>Inflicts 2 - 4 melee damage on target</li><li>Increases Subjugation of caster by 0.9</li></ul>", 
-                  "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.6</li><li>Inflicts 4 - 7 melee damage on target</li><li>Increases Subjugation of caster by 1.6</li></ul>", 
-                  "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.3</li><li>Inflicts 3 - 6 melee damage on target</li><li>Increases Subjugation of caster by 1.3</li></ul>", 
-                  "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.5</li><li>Inflicts 4 - 6 melee damage on target</li><li>Increases Subjugation of caster by 1.5</li></ul>", 
+                  "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.0</li><li>Inflicts 2 - 4 melee damage on target</li><li>Increases Subjugation of caster by 1.0</li></ul>", 
+                  "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.1</li><li>Inflicts 3 - 5 melee damage on target</li><li>Increases Subjugation of caster by 1.1</li></ul>", 
                   "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.2</li><li>Inflicts 3 - 5 melee damage on target</li><li>Increases Subjugation of caster by 1.2</li></ul>", 
+                  "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.3</li><li>Inflicts 3 - 6 melee damage on target</li><li>Increases Subjugation of caster by 1.3</li></ul>", 
                   "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.4</li><li>Inflicts 3 - 6 melee damage on target</li><li>Increases Subjugation of caster by 1.4</li></ul>", 
+                  "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.5</li><li>Inflicts 4 - 6 melee damage on target</li><li>Increases Subjugation of caster by 1.5</li></ul>", 
                   "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.6</li><li>Inflicts 4 - 7 melee damage on target</li><li>Increases Subjugation of caster by 1.6</li></ul>", 
-                  "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.1</li><li>Inflicts 3 - 5 melee damage on target</li><li>Increases Subjugation of caster by 1.1</li></ul>"
+                  "<ul><li>Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.6</li><li>Inflicts 4 - 7 melee damage on target</li><li>Increases Subjugation of caster by 1.6</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 589
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Rhythm Blade", 
                "parent_id": 0, 
@@ -270,22 +276,23 @@
                "cost": 1, 
                "description": "The Bladesinger's group songs that increase avoidance skills have their values increased.", 
                "effects": [
-                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 12.5%.</li></ul>", 
-                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 17.5%.</li></ul>", 
-                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 25%.</li></ul>", 
-                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 10%.</li></ul>", 
-                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 22.5%.</li></ul>", 
                   "<ul><li>Group bard songs that increase avoidance skills are more effective by 2.5%.</li></ul>", 
+                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 5%.</li></ul>", 
                   "<ul><li>Group bard songs that increase avoidance skills are more effective by 7.5%.</li></ul>", 
-                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 20%.</li></ul>", 
+                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 10%.</li></ul>", 
+                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 12.5%.</li></ul>", 
                   "<ul><li>Group bard songs that increase avoidance skills are more effective by 15%.</li></ul>", 
-                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 5%.</li></ul>"
+                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 17.5%.</li></ul>", 
+                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 20%.</li></ul>", 
+                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 22.5%.</li></ul>", 
+                  "<ul><li>Group bard songs that increase avoidance skills are more effective by 25%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 619
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Bladeturn", 
                "parent_id": 1, 
@@ -327,6 +334,7 @@
                   "icon": 661
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Wayfarer's Watch", 
                "parent_id": 2, 
@@ -352,14 +360,14 @@
                "cost": 1, 
                "description": "Increases the Skald's blocking ability and double attack chance.", 
                "effects": [
-                  "<ul><li>Increases Multi Attack Chance of caster by 2.0</li><li>Increases caster's chance to block by 2.0%</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of caster by 4.0</li><li>Increases caster's chance to block by 4.0%</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of caster by 6.0</li><li>Increases caster's chance to block by 6.0%</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of caster by 5.0</li><li>Increases caster's chance to block by 5.0%</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of caster by 3.0</li><li>Increases caster's chance to block by 3.0%</li></ul>", 
                   "<ul><li>Increases Multi Attack Chance of caster by 1.0</li><li>Increases caster's chance to block by 1.0%</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of caster by 8.0</li><li>Increases caster's chance to block by 8.0%</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of caster by 2.0</li><li>Increases caster's chance to block by 2.0%</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of caster by 3.0</li><li>Increases caster's chance to block by 3.0%</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of caster by 4.0</li><li>Increases caster's chance to block by 4.0%</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of caster by 5.0</li><li>Increases caster's chance to block by 5.0%</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of caster by 6.0</li><li>Increases caster's chance to block by 6.0%</li></ul>", 
                   "<ul><li>Increases Multi Attack Chance of caster by 7.0</li><li>Increases caster's chance to block by 7.0%</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of caster by 8.0</li><li>Increases caster's chance to block by 8.0%</li></ul>", 
                   "<ul><li>Increases Multi Attack Chance of caster by 9.0</li><li>Increases caster's chance to block by 9.0%</li></ul>", 
                   "<ul><li>Increases Multi Attack Chance of caster by 10.0</li><li>Increases caster's chance to block by 10.0%</li></ul>"
                ], 
@@ -368,6 +376,7 @@
                   "icon": 575
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Skald's Defense", 
                "parent_id": 3, 
@@ -394,21 +403,22 @@
                "description": "Increases the movement speed of Selo's Accelerando and its upgrades. It also adds an in-combat movement increase.", 
                "effects": [
                   "<ul><li>Increases in-combat group movement speed by 1.5%</li><li>Increases group movement speed by 1%</li></ul>", 
-                  "<ul><li>Increases in-combat group movement speed by 15%</li><li>Increases group movement speed by 10%</li></ul>", 
+                  "<ul><li>Increases in-combat group movement speed by 3%</li><li>Increases group movement speed by 2%</li></ul>", 
                   "<ul><li>Increases in-combat group movement speed by 4.5%</li><li>Increases group movement speed by 3%</li></ul>", 
+                  "<ul><li>Increases in-combat group movement speed by 6%</li><li>Increases group movement speed by 4%</li></ul>", 
                   "<ul><li>Increases in-combat group movement speed by 7.5%</li><li>Increases group movement speed by 5%</li></ul>", 
                   "<ul><li>Increases in-combat group movement speed by 9%</li><li>Increases group movement speed by 6%</li></ul>", 
-                  "<ul><li>Increases in-combat group movement speed by 13.5%</li><li>Increases group movement speed by 9%</li></ul>", 
-                  "<ul><li>Increases in-combat group movement speed by 3%</li><li>Increases group movement speed by 2%</li></ul>", 
                   "<ul><li>Increases in-combat group movement speed by 10.5%</li><li>Increases group movement speed by 7%</li></ul>", 
                   "<ul><li>Increases in-combat group movement speed by 12%</li><li>Increases group movement speed by 8%</li></ul>", 
-                  "<ul><li>Increases in-combat group movement speed by 6%</li><li>Increases group movement speed by 4%</li></ul>"
+                  "<ul><li>Increases in-combat group movement speed by 13.5%</li><li>Increases group movement speed by 9%</li></ul>", 
+                  "<ul><li>Increases in-combat group movement speed by 15%</li><li>Increases group movement speed by 10%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 304
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Harbinger's Sonnet", 
                "parent_id": 4, 
@@ -434,22 +444,23 @@
                "cost": 1, 
                "description": "The Minstrel's songs that increase group combat skills or casting technique have their values increased.", 
                "effects": [
+                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 8%.</li></ul>", 
+                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 16%.</li></ul>", 
+                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 24%.</li></ul>", 
                   "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 32%.</li></ul>", 
                   "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 40%.</li></ul>", 
-                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 16%.</li></ul>", 
-                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 8%.</li></ul>", 
-                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 24%.</li></ul>", 
-                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 56%.</li></ul>", 
-                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 80%.</li></ul>", 
-                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 64%.</li></ul>", 
                   "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 48%.</li></ul>", 
-                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 72%.</li></ul>"
+                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 56%.</li></ul>", 
+                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 64%.</li></ul>", 
+                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 72%.</li></ul>", 
+                  "<ul><li>Bard group songs that affect combat skills or casting techniques are more effective by 80%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 648
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Minstrel's Aria", 
                "parent_id": 5, 
@@ -473,15 +484,15 @@
                "cost": 1, 
                "description": "The Bladesinger's group songs that increase attributes have their values increased.", 
                "effects": [
-                  "<ul><li>Group bard songs that increase attributes are more effective by 35%.</li></ul>", 
                   "<ul><li>Group bard songs that increase attributes are more effective by 5%.</li></ul>", 
-                  "<ul><li>Group bard songs that increase attributes are more effective by 20%.</li></ul>", 
-                  "<ul><li>Group bard songs that increase attributes are more effective by 30%.</li></ul>", 
-                  "<ul><li>Group bard songs that increase attributes are more effective by 15%.</li></ul>", 
                   "<ul><li>Group bard songs that increase attributes are more effective by 10%.</li></ul>", 
+                  "<ul><li>Group bard songs that increase attributes are more effective by 15%.</li></ul>", 
+                  "<ul><li>Group bard songs that increase attributes are more effective by 20%.</li></ul>", 
+                  "<ul><li>Group bard songs that increase attributes are more effective by 25%.</li></ul>", 
+                  "<ul><li>Group bard songs that increase attributes are more effective by 30%.</li></ul>", 
+                  "<ul><li>Group bard songs that increase attributes are more effective by 35%.</li></ul>", 
                   "<ul><li>Group bard songs that increase attributes are more effective by 40%.</li></ul>", 
                   "<ul><li>Group bard songs that increase attributes are more effective by 45%.</li></ul>", 
-                  "<ul><li>Group bard songs that increase attributes are more effective by 25%.</li></ul>", 
                   "<ul><li>Group bard songs that increase attributes are more effective by 50%.</li></ul>"
                ], 
                "icon": {
@@ -489,6 +500,7 @@
                   "icon": 701
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Bladesing", 
                "parent_id": 6, 
@@ -513,14 +525,14 @@
                "description": "Applies a homemade poison on the Wayfarer's weapons, granting a chance to cause poison damage over-time on a successful hit.", 
                "effects": [
                   "<ul><li>On a combat hit this spell has a 3% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
-                  "<ul><li>On a combat hit this spell has a 27% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
-                  "<ul><li>On a combat hit this spell has a 24% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
-                  "<ul><li>On a combat hit this spell has a 15% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
-                  "<ul><li>On a combat hit this spell has a 21% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
                   "<ul><li>On a combat hit this spell has a 6% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
-                  "<ul><li>On a combat hit this spell has a 18% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
                   "<ul><li>On a combat hit this spell has a 9% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
                   "<ul><li>On a combat hit this spell has a 12% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
+                  "<ul><li>On a combat hit this spell has a 15% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
+                  "<ul><li>On a combat hit this spell has a 18% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
+                  "<ul><li>On a combat hit this spell has a 21% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
+                  "<ul><li>On a combat hit this spell has a 24% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
+                  "<ul><li>On a combat hit this spell has a 27% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>", 
                   "<ul><li>On a combat hit this spell has a 30% chance to cast Poison on target of attack.  Lasts for 24.0 seconds.  </li><ul><li>Inflicts 7 poison damage on target</li><li>Inflicts 4 poison damage on target every 4 seconds</li></ul></ul>"
                ], 
                "icon": {
@@ -528,6 +540,7 @@
                   "icon": 693
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Poison Concoction", 
                "parent_id": 7, 
@@ -551,22 +564,23 @@
                "cost": 1, 
                "description": "Increases your group's chance at striking twice with each auto attack.", 
                "effects": [
-                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 5.0</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 7.0</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 10.0</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 9.0</li></ul>", 
                   "<ul><li>Increases Multi Attack Chance of group members (AE) by 1.0</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 6.0</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 8.0</li></ul>", 
                   "<ul><li>Increases Multi Attack Chance of group members (AE) by 2.0</li></ul>", 
                   "<ul><li>Increases Multi Attack Chance of group members (AE) by 3.0</li></ul>", 
-                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 4.0</li></ul>"
+                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 4.0</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 5.0</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 6.0</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 7.0</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 8.0</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 9.0</li></ul>", 
+                  "<ul><li>Increases Multi Attack Chance of group members (AE) by 10.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 670
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Fortissimo", 
                "parent_id": 8, 
@@ -590,22 +604,23 @@
                "cost": 1, 
                "description": "Increases the casting speed of the Harbinger's group.", 
                "effects": [
-                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 4.0%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 6.4%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 2.4%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 8.0%</li></ul>", 
                   "<ul><li>Increases Ability Casting Speed of group members (AE) by 0.8%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 7.2%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 5.6%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 3.2%</li></ul>", 
                   "<ul><li>Increases Ability Casting Speed of group members (AE) by 1.6%</li></ul>", 
-                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 4.8%</li></ul>"
+                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 2.4%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 3.2%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 4.0%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 4.8%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 5.6%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 6.4%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 7.2%</li></ul>", 
+                  "<ul><li>Increases Ability Casting Speed of group members (AE) by 8.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 568
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Allegro", 
                "parent_id": 9, 
@@ -629,22 +644,23 @@
                "cost": 1, 
                "description": "The Minstrel's passive songs that increase group attack speed or damage per second have their values increased.", 
                "effects": [
-                  "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 21%.</li></ul>", 
                   "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 7%.</li></ul>", 
-                  "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 28%.</li></ul>", 
                   "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 14%.</li></ul>", 
-                  "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 63%.</li></ul>", 
+                  "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 21%.</li></ul>", 
+                  "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 28%.</li></ul>", 
                   "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 35%.</li></ul>", 
+                  "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 42%.</li></ul>", 
                   "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 49%.</li></ul>", 
-                  "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 70%.</li></ul>", 
                   "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 56%.</li></ul>", 
-                  "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 42%.</li></ul>"
+                  "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 63%.</li></ul>", 
+                  "<ul><li>Bard group songs augmenting attack speed or damage per second have an increased effect by 70%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 541
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Minstrel's Melody", 
                "parent_id": 10, 
@@ -675,6 +691,7 @@
                   "icon": 588
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Bladedance", 
                "parent_id": -1, 
@@ -705,6 +722,7 @@
                   "icon": 696
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Dodge and Cover", 
                "parent_id": -1, 
@@ -735,6 +753,7 @@
                   "icon": 563
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Lend Shielding", 
                "parent_id": -1, 
@@ -765,6 +784,7 @@
                   "icon": 605
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Don't Kill the Messenger", 
                "parent_id": -1, 
@@ -795,6 +815,7 @@
                   "icon": 159
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Heroic Storytelling", 
                "parent_id": -1, 
@@ -818,13 +839,13 @@
                "cost": 1, 
                "description": "Reduces the recast time of Bladedance.", 
                "effects": [
+                  "<ul><li>Reduces the reuse time of Bladedance by 25 seconds.</li></ul>", 
                   "<ul><li>Reduces the reuse time of Bladedance by 50 seconds.</li></ul>", 
+                  "<ul><li>Reduces the reuse time of Bladedance by 75 seconds.</li></ul>", 
+                  "<ul><li>Reduces the reuse time of Bladedance by 100 seconds.</li></ul>", 
                   "<ul><li>Reduces the reuse time of Bladedance by 125 seconds.</li></ul>", 
                   "<ul><li>Reduces the reuse time of Bladedance by 150 seconds.</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Bladedance by 25 seconds.</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Bladedance by 100 seconds.</li></ul>", 
                   "<ul><li>Reduces the reuse time of Bladedance by 175 seconds.</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Bladedance by 75 seconds.</li></ul>", 
                   "<ul><li>Reduces the reuse time of Bladedance by 200 seconds.</li></ul>"
                ], 
                "icon": {
@@ -832,6 +853,7 @@
                   "icon": 588
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Improved Reflexes", 
                "parent_id": -1, 
@@ -855,20 +877,21 @@
                "cost": 1, 
                "description": "Increases the base damage of Bump and reduces the recast.", 
                "effects": [
-                  "<ul><li>Increases the damage by 9%.</li><li>Improves the reuse of Bump by 3.75 seconds.</li></ul>", 
-                  "<ul><li>Increases the damage by 24%.</li><li>Improves the reuse of Bump by 10 seconds.</li></ul>", 
-                  "<ul><li>Increases the damage by 21%.</li><li>Improves the reuse of Bump by 8.75 seconds.</li></ul>", 
                   "<ul><li>Increases the damage by 3%.</li><li>Improves the reuse of Bump by 1.25 seconds.</li></ul>", 
-                  "<ul><li>Increases the damage by 15%.</li><li>Improves the reuse of Bump by 6.25 seconds.</li></ul>", 
                   "<ul><li>Increases the damage by 6%.</li><li>Improves the reuse of Bump by 2.5 seconds.</li></ul>", 
+                  "<ul><li>Increases the damage by 9%.</li><li>Improves the reuse of Bump by 3.75 seconds.</li></ul>", 
                   "<ul><li>Increases the damage by 12%.</li><li>Improves the reuse of Bump by 5 seconds.</li></ul>", 
-                  "<ul><li>Increases the damage by 18%.</li><li>Improves the reuse of Bump by 7.5 seconds.</li></ul>"
+                  "<ul><li>Increases the damage by 15%.</li><li>Improves the reuse of Bump by 6.25 seconds.</li></ul>", 
+                  "<ul><li>Increases the damage by 18%.</li><li>Improves the reuse of Bump by 7.5 seconds.</li></ul>", 
+                  "<ul><li>Increases the damage by 21%.</li><li>Improves the reuse of Bump by 8.75 seconds.</li></ul>", 
+                  "<ul><li>Increases the damage by 24%.</li><li>Improves the reuse of Bump by 10 seconds.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 567
                }, 
                "id": 22, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Stealthy Ambush", 
                "parent_id": -1, 
@@ -892,20 +915,21 @@
                "cost": 1, 
                "description": "Grants the bard a chance to avoid an attack for the target of the spell.  This does not stack with similar spells granted through Alternate Advancements.", 
                "effects": [
-                  "<ul><li>Grants target a 25% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
-                  "<ul><li>Grants target a 40% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
-                  "<ul><li>Grants target a 35% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
-                  "<ul><li>Grants target a 10% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
-                  "<ul><li>Grants target a 20% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
                   "<ul><li>Grants target a 5% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
+                  "<ul><li>Grants target a 10% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
                   "<ul><li>Grants target a 15% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
-                  "<ul><li>Grants target a 30% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>"
+                  "<ul><li>Grants target a 20% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
+                  "<ul><li>Grants target a 25% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
+                  "<ul><li>Grants target a 30% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
+                  "<ul><li>Grants target a 35% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>", 
+                  "<ul><li>Grants target a 40% chance of making an additional attempt to avoid being hit by a melee attack using the caster's avoidance.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 911
                }, 
                "id": 23, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Song of Shielding", 
                "parent_id": -1, 
@@ -943,6 +967,7 @@
                   "icon": 568
                }, 
                "id": 24, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Swift Voices", 
                "parent_id": -1, 
@@ -980,6 +1005,7 @@
                   "icon": 51
                }, 
                "id": 25, 
+               "level": 0, 
                "max_level": 8, 
                "name": "Precise Blades", 
                "parent_id": -1, 
@@ -1011,6 +1037,7 @@
                   "icon": 676
                }, 
                "id": 26, 
+               "level": 0, 
                "max_level": 2, 
                "name": "Rhythmic Overture", 
                "parent_id": -1, 
@@ -1070,17 +1097,18 @@
                "cost": 1, 
                "description": "Improves the wisdom reduction of Misfortune's Kiss and its upgrades.", 
                "effects": [
-                  "<ul><li>Increases wisdom reduction by 18%</li></ul>", 
                   "<ul><li>Increases wisdom reduction by 6%</li></ul>", 
-                  "<ul><li>Increases wisdom reduction by 30%</li></ul>", 
+                  "<ul><li>Increases wisdom reduction by 12%</li></ul>", 
+                  "<ul><li>Increases wisdom reduction by 18%</li></ul>", 
                   "<ul><li>Increases wisdom reduction by 24%</li></ul>", 
-                  "<ul><li>Increases wisdom reduction by 12%</li></ul>"
+                  "<ul><li>Increases wisdom reduction by 30%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 301
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Misfortune's Kiss", 
                "parent_id": -1, 
@@ -1106,15 +1134,16 @@
                "effects": [
                   "<ul><li>Increases disease resist reduction by 6%</li></ul>", 
                   "<ul><li>Increases disease resist reduction by 12%</li></ul>", 
-                  "<ul><li>Increases disease resist reduction by 30%</li></ul>", 
                   "<ul><li>Increases disease resist reduction by 18%</li></ul>", 
-                  "<ul><li>Increases disease resist reduction by 24%</li></ul>"
+                  "<ul><li>Increases disease resist reduction by 24%</li></ul>", 
+                  "<ul><li>Increases disease resist reduction by 30%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 308
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Verlien's Keen of Despair", 
                "parent_id": -1, 
@@ -1139,16 +1168,17 @@
                "description": "Increases the amount healed by Thuri's Doleful Thrust and its upgrades.", 
                "effects": [
                   "<ul><li>Increases heal amount by 10%</li></ul>", 
-                  "<ul><li>Increases heal amount by 50%</li></ul>", 
-                  "<ul><li>Increases heal amount by 40%</li></ul>", 
                   "<ul><li>Increases heal amount by 20%</li></ul>", 
-                  "<ul><li>Increases heal amount by 30%</li></ul>"
+                  "<ul><li>Increases heal amount by 30%</li></ul>", 
+                  "<ul><li>Increases heal amount by 40%</li></ul>", 
+                  "<ul><li>Increases heal amount by 50%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 338
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Thuri's Doleful Thrust", 
                "parent_id": -1, 
@@ -1173,16 +1203,17 @@
                "description": "Improves the casting speed of Shroud. While Shroud is active, the dirge gains improved movement speed.", 
                "effects": [
                   "<ul><li>Improves Stealth Movement by 3% while Shroud is active</li><li>Improves casting speed by 0.2 seconds</li></ul>", 
-                  "<ul><li>Improves Stealth Movement by 12% while Shroud is active</li><li>Improves casting speed by 0.8 seconds</li></ul>", 
-                  "<ul><li>Improves Stealth Movement by 15% while Shroud is active</li><li>Improves casting speed by 1 seconds</li></ul>", 
                   "<ul><li>Improves Stealth Movement by 6% while Shroud is active</li><li>Improves casting speed by 0.4 seconds</li></ul>", 
-                  "<ul><li>Improves Stealth Movement by 9% while Shroud is active</li><li>Improves casting speed by 0.6 seconds</li></ul>"
+                  "<ul><li>Improves Stealth Movement by 9% while Shroud is active</li><li>Improves casting speed by 0.6 seconds</li></ul>", 
+                  "<ul><li>Improves Stealth Movement by 12% while Shroud is active</li><li>Improves casting speed by 0.8 seconds</li></ul>", 
+                  "<ul><li>Improves Stealth Movement by 15% while Shroud is active</li><li>Improves casting speed by 1 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 341
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Shroud", 
                "parent_id": -1, 
@@ -1206,17 +1237,18 @@
                "cost": 1, 
                "description": "Improves the damage per second reduction of Daro's Dull Blade and its upgrades.", 
                "effects": [
-                  "<ul><li>Improves damage per second reduction by 5%</li></ul>", 
-                  "<ul><li>Improves damage per second reduction by 4%</li></ul>", 
                   "<ul><li>Improves damage per second reduction by 1%</li></ul>", 
                   "<ul><li>Improves damage per second reduction by 2%</li></ul>", 
-                  "<ul><li>Improves damage per second reduction by 3%</li></ul>"
+                  "<ul><li>Improves damage per second reduction by 3%</li></ul>", 
+                  "<ul><li>Improves damage per second reduction by 4%</li></ul>", 
+                  "<ul><li>Improves damage per second reduction by 5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 377
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Daro's Dull Blade", 
                "parent_id": -1, 
@@ -1240,17 +1272,18 @@
                "cost": 1, 
                "description": "Improves the critical damage and reuse speed of Jael's Dreadful Deprivation.", 
                "effects": [
-                  "<ul><li>Improves the Crit Bonus by 8%</li><li>Improves reuse speed by 8 seconds</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 10%</li><li>Improves reuse speed by 10 seconds</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 4%</li><li>Improves reuse speed by 4 seconds</li></ul>", 
                   "<ul><li>Improves the Crit Bonus by 2%</li><li>Improves reuse speed by 2 seconds</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 6%</li><li>Improves reuse speed by 6 seconds</li></ul>"
+                  "<ul><li>Improves the Crit Bonus by 4%</li><li>Improves reuse speed by 4 seconds</li></ul>", 
+                  "<ul><li>Improves the Crit Bonus by 6%</li><li>Improves reuse speed by 6 seconds</li></ul>", 
+                  "<ul><li>Improves the Crit Bonus by 8%</li><li>Improves reuse speed by 8 seconds</li></ul>", 
+                  "<ul><li>Improves the Crit Bonus by 10%</li><li>Improves reuse speed by 10 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 361
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Jael's Dreadful Deprivation", 
                "parent_id": -1, 
@@ -1274,17 +1307,18 @@
                "cost": 1, 
                "description": "Improves the critical damage and reuse speed of Lanet's Excruciating Scream.", 
                "effects": [
+                  "<ul><li>Improves reuse speed by 2 seconds</li><li>Improves the Crit Bonus by 2.5%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 4 seconds</li><li>Improves the Crit Bonus by 5%</li></ul>", 
                   "<ul><li>Improves reuse speed by 6 seconds</li><li>Improves the Crit Bonus by 7.5%</li></ul>", 
                   "<ul><li>Improves reuse speed by 8 seconds</li><li>Improves the Crit Bonus by 10%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 2 seconds</li><li>Improves the Crit Bonus by 2.5%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 10 seconds</li><li>Improves the Crit Bonus by 12.5%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 4 seconds</li><li>Improves the Crit Bonus by 5%</li></ul>"
+                  "<ul><li>Improves reuse speed by 10 seconds</li><li>Improves the Crit Bonus by 12.5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 175
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Lanet's Excruciating Scream", 
                "parent_id": -1, 
@@ -1308,17 +1342,18 @@
                "cost": 1, 
                "description": "Disheartening Descant and its upgrades become more effective at reducing your opponents' attributes.", 
                "effects": [
+                  "<ul><li>Increases strength and agility reduction by 5%</li></ul>", 
                   "<ul><li>Increases strength and agility reduction by 10%</li></ul>", 
                   "<ul><li>Increases strength and agility reduction by 15%</li></ul>", 
                   "<ul><li>Increases strength and agility reduction by 20%</li></ul>", 
-                  "<ul><li>Increases strength and agility reduction by 25%</li></ul>", 
-                  "<ul><li>Increases strength and agility reduction by 5%</li></ul>"
+                  "<ul><li>Increases strength and agility reduction by 25%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 312, 
                   "icon": 175
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Disheartening Descant", 
                "parent_id": -1, 
@@ -1342,17 +1377,18 @@
                "cost": 1, 
                "description": "Selo's Accelerando and its upgrades gain the ability to prevent falling damage.", 
                "effects": [
-                  "<ul><li>Adds safefall damage reduction by 40%</li></ul>", 
-                  "<ul><li>Adds safefall damage reduction by 50%</li></ul>", 
-                  "<ul><li>Adds safefall damage reduction by 20%</li></ul>", 
                   "<ul><li>Adds safefall damage reduction by 10%</li></ul>", 
-                  "<ul><li>Adds safefall damage reduction by 30%</li></ul>"
+                  "<ul><li>Adds safefall damage reduction by 20%</li></ul>", 
+                  "<ul><li>Adds safefall damage reduction by 30%</li></ul>", 
+                  "<ul><li>Adds safefall damage reduction by 40%</li></ul>", 
+                  "<ul><li>Adds safefall damage reduction by 50%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 304
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Selo's Accelerando", 
                "parent_id": -1, 
@@ -1376,10 +1412,10 @@
                "cost": 1, 
                "description": "Clara's Chaotic Cacophony and its upgrades become even louder, further reducing opponents' mitigation.", 
                "effects": [
-                  "<ul><li>Increases crush, slash, and pierce resist reduction by 16%</li></ul>", 
                   "<ul><li>Increases crush, slash, and pierce resist reduction by 4%</li></ul>", 
                   "<ul><li>Increases crush, slash, and pierce resist reduction by 8%</li></ul>", 
                   "<ul><li>Increases crush, slash, and pierce resist reduction by 12%</li></ul>", 
+                  "<ul><li>Increases crush, slash, and pierce resist reduction by 16%</li></ul>", 
                   "<ul><li>Increases crush, slash, and pierce resist reduction by 20%</li></ul>"
                ], 
                "icon": {
@@ -1387,6 +1423,7 @@
                   "icon": 217
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Clara's Chaotic Cacophony", 
                "parent_id": -1, 
@@ -1410,17 +1447,18 @@
                "cost": 1, 
                "description": "Improves the resistibility and casting and reuse speed of Garsin's Funeral March.", 
                "effects": [
-                  "<ul><li>Improves reuse speed by 12 seconds</li><li>Improves casting speed by 0.4 seconds</li><li>Improves resistibility by 16%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 6 seconds</li><li>Improves casting speed by 0.2 seconds</li><li>Improves resistibility by 8%</li></ul>", 
                   "<ul><li>Improves reuse speed by 3 seconds</li><li>Improves casting speed by 0.1 seconds</li><li>Improves resistibility by 4%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 15 seconds</li><li>Improves casting speed by 0.5 seconds</li><li>Improves resistibility by 20%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 9 seconds</li><li>Improves casting speed by 0.3 seconds</li><li>Improves resistibility by 12%</li></ul>"
+                  "<ul><li>Improves reuse speed by 6 seconds</li><li>Improves casting speed by 0.2 seconds</li><li>Improves resistibility by 8%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 9 seconds</li><li>Improves casting speed by 0.3 seconds</li><li>Improves resistibility by 12%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 12 seconds</li><li>Improves casting speed by 0.4 seconds</li><li>Improves resistibility by 16%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 15 seconds</li><li>Improves casting speed by 0.5 seconds</li><li>Improves resistibility by 20%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 279
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Garsin's Funeral March", 
                "parent_id": -1, 
@@ -1445,9 +1483,9 @@
                "description": "Increases the amount healed by Howl of Death and its upgrades.", 
                "effects": [
                   "<ul><li>Increases heal amount by 7%</li></ul>", 
-                  "<ul><li>Increases heal amount by 28%</li></ul>", 
-                  "<ul><li>Increases heal amount by 21%</li></ul>", 
                   "<ul><li>Increases heal amount by 14%</li></ul>", 
+                  "<ul><li>Increases heal amount by 21%</li></ul>", 
+                  "<ul><li>Increases heal amount by 28%</li></ul>", 
                   "<ul><li>Increases heal amount by 35%</li></ul>"
                ], 
                "icon": {
@@ -1455,6 +1493,7 @@
                   "icon": 204
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Howl of Death", 
                "parent_id": -1, 
@@ -1478,10 +1517,10 @@
                "cost": 1, 
                "description": "Daro's Sorrowful Dirge and its upgrades play an even more depressing tune, reducing your opponents' attack speed further.", 
                "effects": [
-                  "<ul><li>Increases attack speed reduction by 3</li></ul>", 
-                  "<ul><li>Increases attack speed reduction by 4</li></ul>", 
                   "<ul><li>Increases attack speed reduction by 1</li></ul>", 
                   "<ul><li>Increases attack speed reduction by 2</li></ul>", 
+                  "<ul><li>Increases attack speed reduction by 3</li></ul>", 
+                  "<ul><li>Increases attack speed reduction by 4</li></ul>", 
                   "<ul><li>Increases attack speed reduction by 5</li></ul>"
                ], 
                "icon": {
@@ -1489,6 +1528,7 @@
                   "icon": 204
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Daro's Sorrowful Dirge", 
                "parent_id": -1, 
@@ -1512,10 +1552,10 @@
                "cost": 1, 
                "description": "Increases the trigger chance of Dead Calm and its upgrades.", 
                "effects": [
-                  "<ul><li>Increases trigger chance by 4%</li></ul>", 
-                  "<ul><li>Increases trigger chance by 3%</li></ul>", 
                   "<ul><li>Increases trigger chance by 1%</li></ul>", 
                   "<ul><li>Increases trigger chance by 2%</li></ul>", 
+                  "<ul><li>Increases trigger chance by 3%</li></ul>", 
+                  "<ul><li>Increases trigger chance by 4%</li></ul>", 
                   "<ul><li>Increases trigger chance by 5%</li></ul>"
                ], 
                "icon": {
@@ -1523,6 +1563,7 @@
                   "icon": 206
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Dead Calm", 
                "parent_id": -1, 
@@ -1546,17 +1587,18 @@
                "cost": 1, 
                "description": "Increases the power regeneration of Bria's Inspiring Ballad and its upgrades.", 
                "effects": [
-                  "<ul><li>Increases power regeneration by 25%</li></ul>", 
-                  "<ul><li>Increases power regeneration by 10%</li></ul>", 
                   "<ul><li>Increases power regeneration by 5%</li></ul>", 
+                  "<ul><li>Increases power regeneration by 10%</li></ul>", 
+                  "<ul><li>Increases power regeneration by 15%</li></ul>", 
                   "<ul><li>Increases power regeneration by 20%</li></ul>", 
-                  "<ul><li>Increases power regeneration by 15%</li></ul>"
+                  "<ul><li>Increases power regeneration by 25%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 200
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Bria's Inspiring Ballad", 
                "parent_id": -1, 
@@ -1580,17 +1622,18 @@
                "cost": 1, 
                "description": "Increases the knockback chance of Hymn of Horror and its upgrades.", 
                "effects": [
-                  "<ul><li>Adds additional 40% chance</li></ul>", 
                   "<ul><li>Adds additional 8% chance</li></ul>", 
                   "<ul><li>Adds additional 16% chance</li></ul>", 
+                  "<ul><li>Adds additional 24% chance</li></ul>", 
                   "<ul><li>Adds additional 32% chance</li></ul>", 
-                  "<ul><li>Adds additional 24% chance</li></ul>"
+                  "<ul><li>Adds additional 40% chance</li></ul>"
                ], 
                "icon": {
                   "backdrop": 313, 
                   "icon": 172
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Hymn of Horror", 
                "parent_id": -1, 
@@ -1615,16 +1658,17 @@
                "description": "Increases the range and hastens the reuse speed and increases the restoration amount of Elegy at Death's Door.", 
                "effects": [
                   "<ul><li>Increases health and power by an additional 2% and improves reuse speed by 2 seconds</li></ul>", 
-                  "<ul><li>Increases health and power by an additional 10% and improves reuse speed by 10 seconds</li></ul>", 
                   "<ul><li>Increases health and power by an additional 4% and improves reuse speed by 4 seconds</li></ul>", 
+                  "<ul><li>Increases health and power by an additional 6% and improves reuse speed by 6 seconds</li></ul>", 
                   "<ul><li>Increases health and power by an additional 8% and improves reuse speed by 8 seconds</li></ul>", 
-                  "<ul><li>Increases health and power by an additional 6% and improves reuse speed by 6 seconds</li></ul>"
+                  "<ul><li>Increases health and power by an additional 10% and improves reuse speed by 10 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 205
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Elegy at Death's Door", 
                "parent_id": -1, 
@@ -1648,17 +1692,18 @@
                "cost": 1, 
                "description": "Improves the casting speed and restoration amount of Elegy of Awakening.", 
                "effects": [
-                  "<ul><li>Improves casting speed by 2.4 seconds</li><li>Increases health and power by an additional 8%</li></ul>", 
                   "<ul><li>Improves casting speed by 0.6 seconds</li><li>Increases health and power by an additional 2%</li></ul>", 
-                  "<ul><li>Improves casting speed by 3 seconds</li><li>Increases health and power by an additional 10%</li></ul>", 
                   "<ul><li>Improves casting speed by 1.2 seconds</li><li>Increases health and power by an additional 4%</li></ul>", 
-                  "<ul><li>Improves casting speed by 1.8 seconds</li><li>Increases health and power by an additional 6%</li></ul>"
+                  "<ul><li>Improves casting speed by 1.8 seconds</li><li>Increases health and power by an additional 6%</li></ul>", 
+                  "<ul><li>Improves casting speed by 2.4 seconds</li><li>Increases health and power by an additional 8%</li></ul>", 
+                  "<ul><li>Improves casting speed by 3 seconds</li><li>Increases health and power by an additional 10%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 205
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Elegy of Awakening", 
                "parent_id": -1, 
@@ -1682,17 +1727,18 @@
                "cost": 1, 
                "description": "Improves the reuse speed and heal amount of Oration of Sacrifice.", 
                "effects": [
-                  "<ul><li>Improves reuse speed by 12 seconds and amount healed by 12%. Health cost is also reduced by 12%</li></ul>", 
                   "<ul><li>Improves reuse speed by 4 seconds and amount healed by 4%. Health cost is also reduced by 4%</li></ul>", 
                   "<ul><li>Improves reuse speed by 8 seconds and amount healed by 8%. Health cost is also reduced by 8%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 20 seconds and amount healed by 20%. Health cost is also reduced by 20%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 16 seconds and amount healed by 16%. Health cost is also reduced by 16%</li></ul>"
+                  "<ul><li>Improves reuse speed by 12 seconds and amount healed by 12%. Health cost is also reduced by 12%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 16 seconds and amount healed by 16%. Health cost is also reduced by 16%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 20 seconds and amount healed by 20%. Health cost is also reduced by 20%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 487
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Oration of Sacrifice", 
                "parent_id": -1, 
@@ -1727,6 +1773,7 @@
                   "icon": 208
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Noxious Symphony", 
                "parent_id": -1, 
@@ -1750,17 +1797,18 @@
                "cost": 1, 
                "description": "Increases the duration of Cacophony of Blades.", 
                "effects": [
-                  "<ul><li>Increases duration by 3 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 2 seconds</li></ul>", 
                   "<ul><li>Increases duration by 1 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 5 seconds</li></ul>", 
-                  "<ul><li>Increases duration by 4 seconds</li></ul>"
+                  "<ul><li>Increases duration by 2 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 3 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 4 seconds</li></ul>", 
+                  "<ul><li>Increases duration by 5 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 225
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Cacophony of Blades", 
                "parent_id": -1, 
@@ -1791,6 +1839,7 @@
                   "icon": 257
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Degredate", 
                "parent_id": -1, 
@@ -1821,6 +1870,7 @@
                   "icon": 704
                }, 
                "id": 22, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Magnetic Note", 
                "parent_id": -1, 
@@ -1851,6 +1901,7 @@
                   "icon": 46
                }, 
                "id": 23, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Confront Fear", 
                "parent_id": -1, 
@@ -1881,6 +1932,7 @@
                   "icon": 23
                }, 
                "id": 24, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Luck of the Dirge", 
                "parent_id": -1, 
@@ -1904,17 +1956,18 @@
                "cost": 1, 
                "description": "An additional effect is added to Gravitas which improves the reuse speed of beneficial spells.", 
                "effects": [
+                  "<ul><li>Adds an effect which improves beneficial spell reuse speed by 5%.</li></ul>", 
                   "<ul><li>Adds an effect which improves beneficial spell reuse speed by 10%.</li></ul>", 
-                  "<ul><li>Adds an effect which improves beneficial spell reuse speed by 25%.</li></ul>", 
-                  "<ul><li>Adds an effect which improves beneficial spell reuse speed by 20%.</li></ul>", 
                   "<ul><li>Adds an effect which improves beneficial spell reuse speed by 15%.</li></ul>", 
-                  "<ul><li>Adds an effect which improves beneficial spell reuse speed by 5%.</li></ul>"
+                  "<ul><li>Adds an effect which improves beneficial spell reuse speed by 20%.</li></ul>", 
+                  "<ul><li>Adds an effect which improves beneficial spell reuse speed by 25%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 10
                }, 
                "id": 25, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Gravitated Healing", 
                "parent_id": -1, 
@@ -1938,10 +1991,10 @@
                "cost": 1, 
                "description": "Thuri's Doleful Thrust and its upgrades will do improved damage.", 
                "effects": [
-                  "<ul><li>Improves the base damage by 12%.</li></ul>", 
                   "<ul><li>Improves the base damage by 3%.</li></ul>", 
                   "<ul><li>Improves the base damage by 6%.</li></ul>", 
                   "<ul><li>Improves the base damage by 9%.</li></ul>", 
+                  "<ul><li>Improves the base damage by 12%.</li></ul>", 
                   "<ul><li>Improves the base damage by 15%.</li></ul>"
                ], 
                "icon": {
@@ -1949,6 +2002,7 @@
                   "icon": 338
                }, 
                "id": 26, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Critical Thrust", 
                "parent_id": -1, 
@@ -1973,16 +2027,17 @@
                "description": "The base damage and casting speed of Luda's Nefarious Wail are improved.", 
                "effects": [
                   "<ul><li>Improves the casting speed by 0.1 seconds.</li><li>Improves the base damage by 2%.</li></ul>", 
-                  "<ul><li>Improves the casting speed by 0.3 seconds.</li><li>Improves the base damage by 6%.</li></ul>", 
-                  "<ul><li>Improves the casting speed by 0.5 seconds.</li><li>Improves the base damage by 10%.</li></ul>", 
                   "<ul><li>Improves the casting speed by 0.2 seconds.</li><li>Improves the base damage by 4%.</li></ul>", 
-                  "<ul><li>Improves the casting speed by 0.4 seconds.</li><li>Improves the base damage by 8%.</li></ul>"
+                  "<ul><li>Improves the casting speed by 0.3 seconds.</li><li>Improves the base damage by 6%.</li></ul>", 
+                  "<ul><li>Improves the casting speed by 0.4 seconds.</li><li>Improves the base damage by 8%.</li></ul>", 
+                  "<ul><li>Improves the casting speed by 0.5 seconds.</li><li>Improves the base damage by 10%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 171
                }, 
                "id": 27, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Wicked Wailing", 
                "parent_id": -1, 
@@ -2006,17 +2061,18 @@
                "cost": 1, 
                "description": "The mitigation reduction of Clara's Chaotic Cacophony and its upgrades is improved.", 
                "effects": [
-                  "<ul><li>Improves the mitigation reduction by 15%.</li></ul>", 
-                  "<ul><li>Improves the mitigation reduction by 10%.</li></ul>", 
                   "<ul><li>Improves the mitigation reduction by 5%.</li></ul>", 
-                  "<ul><li>Improves the mitigation reduction by 25%.</li></ul>", 
-                  "<ul><li>Improves the mitigation reduction by 20%.</li></ul>"
+                  "<ul><li>Improves the mitigation reduction by 10%.</li></ul>", 
+                  "<ul><li>Improves the mitigation reduction by 15%.</li></ul>", 
+                  "<ul><li>Improves the mitigation reduction by 20%.</li></ul>", 
+                  "<ul><li>Improves the mitigation reduction by 25%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 312, 
                   "icon": 217
                }, 
                "id": 28, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Cacophonic Symphony", 
                "parent_id": -1, 
@@ -2040,17 +2096,18 @@
                "cost": 1, 
                "description": "The reuse time of Confront Fear is reduced. In addition, the final rank of this ability grants Confront Fear the ability to cure charm, stifle, stun, daze and mesmerize effects.", 
                "effects": [
-                  "<ul><li>Adds additional control effect removal while also reducing recast.</li><li>Improves the reuse time by 20 seconds.</li></ul>", 
-                  "<ul><li>Improves the reuse time by 8 seconds.</li></ul>", 
                   "<ul><li>Improves the reuse time by 4 seconds.</li></ul>", 
+                  "<ul><li>Improves the reuse time by 8 seconds.</li></ul>", 
                   "<ul><li>Improves the reuse time by 12 seconds.</li></ul>", 
-                  "<ul><li>Improves the reuse time by 16 seconds.</li></ul>"
+                  "<ul><li>Improves the reuse time by 16 seconds.</li></ul>", 
+                  "<ul><li>Adds additional control effect removal while also reducing recast.</li><li>Improves the reuse time by 20 seconds.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 46
                }, 
                "id": 29, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Controlling Confrontations", 
                "parent_id": -1, 
@@ -2074,17 +2131,18 @@
                "cost": 1, 
                "description": "The Elegy effect found on both Elegy of Awakening and Elegy at Death's Door is improved to heal for more and also restore power.", 
                "effects": [
-                  "<ul><li>Adds an effect which restores power to the target.</li><li>Improves the heal amount of Elegy by 100%.</li></ul>", 
-                  "<ul><li>Adds an effect which restores power to the target.</li><li>Improves the heal amount of Elegy by 80%.</li></ul>", 
                   "<ul><li>Adds an effect which restores power to the target.</li><li>Improves the heal amount of Elegy by 20%.</li></ul>", 
                   "<ul><li>Adds an effect which restores power to the target.</li><li>Improves the heal amount of Elegy by 40%.</li></ul>", 
-                  "<ul><li>Adds an effect which restores power to the target.</li><li>Improves the heal amount of Elegy by 60%.</li></ul>"
+                  "<ul><li>Adds an effect which restores power to the target.</li><li>Improves the heal amount of Elegy by 60%.</li></ul>", 
+                  "<ul><li>Adds an effect which restores power to the target.</li><li>Improves the heal amount of Elegy by 80%.</li></ul>", 
+                  "<ul><li>Adds an effect which restores power to the target.</li><li>Improves the heal amount of Elegy by 100%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 205
                }, 
                "id": 30, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Elegy of Reawakening", 
                "parent_id": -1, 
@@ -2115,6 +2173,7 @@
                   "icon": 925
                }, 
                "id": 31, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Sonic Barrier", 
                "parent_id": -1, 
@@ -2190,17 +2249,18 @@
                "cost": 1, 
                "description": "Improves the casting speed and bonuses of your deity pet.", 
                "effects": [
-                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 40%</li></ul>", 
-                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 50%</li></ul>", 
                   "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 10%</li></ul>", 
+                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 20%</li></ul>", 
                   "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 30%</li></ul>", 
-                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 20%</li></ul>"
+                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 40%</li></ul>", 
+                  "<ul><li>Improves the casting speed and attribute bonuses of your deity pet by 50%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 319, 
                   "icon": 799
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Pet of the Gods", 
                "parent_id": -1, 
@@ -2224,17 +2284,18 @@
                "cost": 1, 
                "description": "Increases the duration of your food and drink spells.", 
                "effects": [
-                  "<ul><li>Improves the duration of food and drink by 5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 10%</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 2.5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 12.5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 7.5%</li></ul>"
+                  "<ul><li>Improves the duration of food and drink by 5%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 7.5%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 10%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 12.5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 318, 
                   "icon": 151
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Bountiful Feast", 
                "parent_id": -1, 
@@ -2258,17 +2319,18 @@
                "cost": 1, 
                "description": "Increases your base run speed while out of combat.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 1.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 2.0%</li></ul>"
+                  "<ul><li>Increases speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 794
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Swift Strides", 
                "parent_id": -1, 
@@ -2292,10 +2354,10 @@
                "cost": 1, 
                "description": "Increases your character's maximum health.", 
                "effects": [
-                  "<ul><li>Increases Max Health of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases Max Health of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 0.5%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 1.5%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Max Health of caster by 2.5%</li></ul>"
                ], 
                "icon": {
@@ -2303,6 +2365,7 @@
                   "icon": 795
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Hearty Constitution", 
                "parent_id": -1, 
@@ -2326,17 +2389,18 @@
                "cost": 1, 
                "description": "Allows you to move faster while on a mount.", 
                "effects": [
-                  "<ul><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li></ul>"
+                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 318, 
                   "icon": 793
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Swift Journey", 
                "parent_id": -1, 
@@ -2361,16 +2425,17 @@
                "description": "Increases your character's maximum power", 
                "effects": [
                   "<ul><li>Increases Max Power of caster by 0.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 1.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 1.0%</li></ul>"
+                  "<ul><li>Increases Max Power of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 2.5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 318, 
                   "icon": 796
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhanced Mind", 
                "parent_id": -1, 
@@ -2394,17 +2459,18 @@
                "cost": 1, 
                "description": "Improves the reuse speed of Cheap Shot.", 
                "effects": [
+                  "<ul><li>Improves the reuse speed of Cheap Shot by 5%</li></ul>", 
+                  "<ul><li>Improves the reuse speed of Cheap Shot by 10%</li></ul>", 
                   "<ul><li>Improves the reuse speed of Cheap Shot by 15%</li></ul>", 
                   "<ul><li>Improves the reuse speed of Cheap Shot by 20%</li></ul>", 
-                  "<ul><li>Improves the reuse speed of Cheap Shot by 10%</li></ul>", 
-                  "<ul><li>Improves the reuse speed of Cheap Shot by 25%</li></ul>", 
-                  "<ul><li>Improves the reuse speed of Cheap Shot by 5%</li></ul>"
+                  "<ul><li>Improves the reuse speed of Cheap Shot by 25%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 217
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Focus: Cheap Shot", 
                "parent_id": -1, 
@@ -2439,6 +2505,7 @@
                   "icon": 828
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Strengthened Links", 
                "parent_id": -1, 
@@ -2463,16 +2530,17 @@
                "description": "Improves the base and critical damage of the scout's core 10 second reuse ability.", 
                "effects": [
                   "<ul><li>Improves the base and critical damage of the scout quick attack line by 1.5%</li></ul>", 
-                  "<ul><li>Improves the base and critical damage of the scout quick attack line by 7.5%</li></ul>", 
+                  "<ul><li>Improves the base and critical damage of the scout quick attack line by 3%</li></ul>", 
                   "<ul><li>Improves the base and critical damage of the scout quick attack line by 4.5%</li></ul>", 
                   "<ul><li>Improves the base and critical damage of the scout quick attack line by 6%</li></ul>", 
-                  "<ul><li>Improves the base and critical damage of the scout quick attack line by 3%</li></ul>"
+                  "<ul><li>Improves the base and critical damage of the scout quick attack line by 7.5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 671
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Quick Strike", 
                "parent_id": -1, 
@@ -2496,17 +2564,18 @@
                "cost": 1, 
                "description": "Improves the reuse of Sinister Strike.", 
                "effects": [
-                  "<ul><li>Improves the reuse time of Sinister Strike by 25 seconds</li></ul>", 
-                  "<ul><li>Improves the reuse time of Sinister Strike by 15 seconds</li></ul>", 
                   "<ul><li>Improves the reuse time of Sinister Strike by 5 seconds</li></ul>", 
+                  "<ul><li>Improves the reuse time of Sinister Strike by 10 seconds</li></ul>", 
+                  "<ul><li>Improves the reuse time of Sinister Strike by 15 seconds</li></ul>", 
                   "<ul><li>Improves the reuse time of Sinister Strike by 20 seconds</li></ul>", 
-                  "<ul><li>Improves the reuse time of Sinister Strike by 10 seconds</li></ul>"
+                  "<ul><li>Improves the reuse time of Sinister Strike by 25 seconds</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 366
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Enhance: Sinister Strike", 
                "parent_id": -1, 
@@ -2530,17 +2599,18 @@
                "cost": 1, 
                "description": "Improves the skill bonuses of the scout's offensive stances and songs.", 
                "effects": [
+                  "<ul><li>Improves the skill bonuses of offensive based stances and songs by 5%</li></ul>", 
                   "<ul><li>Improves the skill bonuses of offensive based stances and songs by 10%</li></ul>", 
-                  "<ul><li>Improves the skill bonuses of offensive based stances and songs by 25%</li></ul>", 
-                  "<ul><li>Improves the skill bonuses of offensive based stances and songs by 20%</li></ul>", 
                   "<ul><li>Improves the skill bonuses of offensive based stances and songs by 15%</li></ul>", 
-                  "<ul><li>Improves the skill bonuses of offensive based stances and songs by 5%</li></ul>"
+                  "<ul><li>Improves the skill bonuses of offensive based stances and songs by 20%</li></ul>", 
+                  "<ul><li>Improves the skill bonuses of offensive based stances and songs by 25%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 829
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Offensive Prowess", 
                "parent_id": -1, 
@@ -2564,17 +2634,18 @@
                "cost": 1, 
                "description": "Grants the scout additional movement speed while stealthed.", 
                "effects": [
-                  "<ul><li>Increases stealth or invisible movement speed of caster by 12.5%</li></ul>", 
+                  "<ul><li>Increases stealth or invisible movement speed of caster by 2.5%</li></ul>", 
                   "<ul><li>Increases stealth or invisible movement speed of caster by 5.0%</li></ul>", 
                   "<ul><li>Increases stealth or invisible movement speed of caster by 7.5%</li></ul>", 
-                  "<ul><li>Increases stealth or invisible movement speed of caster by 2.5%</li></ul>", 
-                  "<ul><li>Increases stealth or invisible movement speed of caster by 10.0%</li></ul>"
+                  "<ul><li>Increases stealth or invisible movement speed of caster by 10.0%</li></ul>", 
+                  "<ul><li>Increases stealth or invisible movement speed of caster by 12.5%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 830
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Shadow Walker", 
                "parent_id": -1, 
@@ -2605,6 +2676,7 @@
                   "icon": 831
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Evasive Maneuvers", 
                "parent_id": -1, 
@@ -2628,17 +2700,18 @@
                "cost": 1, 
                "description": "Improves the skill bonuses found on the Graceful Avoidance and Jael's Mysterious Mettle line of defensive songs.", 
                "effects": [
-                  "<ul><li>Improves the skill bonuses of the bards defensive song by 25%</li></ul>", 
+                  "<ul><li>Improves the skill bonuses of the bards defensive song by 5%</li></ul>", 
+                  "<ul><li>Improves the skill bonuses of the bards defensive song by 10%</li></ul>", 
                   "<ul><li>Improves the skill bonuses of the bards defensive song by 15%</li></ul>", 
                   "<ul><li>Improves the skill bonuses of the bards defensive song by 20%</li></ul>", 
-                  "<ul><li>Improves the skill bonuses of the bards defensive song by 5%</li></ul>", 
-                  "<ul><li>Improves the skill bonuses of the bards defensive song by 10%</li></ul>"
+                  "<ul><li>Improves the skill bonuses of the bards defensive song by 25%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 307
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Defensive Ballad", 
                "parent_id": -1, 
@@ -2663,16 +2736,17 @@
                "description": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.", 
                "effects": [
                   "<ul><li>Improves the chance to critically strike by 2%.</li><li>Improves the damage by 3%</li></ul>", 
-                  "<ul><li>Improves the chance to critically strike by 10%.</li><li>Improves the damage by 15%</li></ul>", 
-                  "<ul><li>Improves the chance to critically strike by 6%.</li><li>Improves the damage by 9%</li></ul>", 
                   "<ul><li>Improves the chance to critically strike by 4%.</li><li>Improves the damage by 6%</li></ul>", 
-                  "<ul><li>Improves the chance to critically strike by 8%.</li><li>Improves the damage by 12%</li></ul>"
+                  "<ul><li>Improves the chance to critically strike by 6%.</li><li>Improves the damage by 9%</li></ul>", 
+                  "<ul><li>Improves the chance to critically strike by 8%.</li><li>Improves the damage by 12%</li></ul>", 
+                  "<ul><li>Improves the chance to critically strike by 10%.</li><li>Improves the damage by 15%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 171
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Shrieking Cry", 
                "parent_id": -1, 
@@ -2696,17 +2770,18 @@
                "cost": 1, 
                "description": "Improves the damage done by the bard's flank attack.  Also grants them an additional chance to inflict critical damage.", 
                "effects": [
-                  "<ul><li>Improves the chance to critically hit by 10%.</li><li>Improves the damage by 15%</li></ul>", 
-                  "<ul><li>Improves the chance to critically hit by 8%.</li><li>Improves the damage by 12%</li></ul>", 
                   "<ul><li>Improves the chance to critically hit by 2%.</li><li>Improves the damage by 3%</li></ul>", 
+                  "<ul><li>Improves the chance to critically hit by 4%.</li><li>Improves the damage by 6%</li></ul>", 
                   "<ul><li>Improves the chance to critically hit by 6%.</li><li>Improves the damage by 9%</li></ul>", 
-                  "<ul><li>Improves the chance to critically hit by 4%.</li><li>Improves the damage by 6%</li></ul>"
+                  "<ul><li>Improves the chance to critically hit by 8%.</li><li>Improves the damage by 12%</li></ul>", 
+                  "<ul><li>Improves the chance to critically hit by 10%.</li><li>Improves the damage by 15%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 377
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Flanking Chorus", 
                "parent_id": -1, 
@@ -2730,17 +2805,18 @@
                "cost": 1, 
                "description": "Grants additional movement speed bonuses to Selo's Accelerando", 
                "effects": [
-                  "<ul><li>Improves the out of combat run speed by 25%</li></ul>", 
-                  "<ul><li>Improves the out of combat run speed by 20%</li></ul>", 
                   "<ul><li>Improves the out of combat run speed by 5%</li></ul>", 
                   "<ul><li>Improves the out of combat run speed by 10%</li></ul>", 
-                  "<ul><li>Improves the out of combat run speed by 15%</li></ul>"
+                  "<ul><li>Improves the out of combat run speed by 15%</li></ul>", 
+                  "<ul><li>Improves the out of combat run speed by 20%</li></ul>", 
+                  "<ul><li>Improves the out of combat run speed by 25%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 304
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Selo's Rousing Concerto", 
                "parent_id": -1, 
@@ -2764,17 +2840,18 @@
                "cost": 1, 
                "description": "Improves the damage done by the bard's Daelis' Dance of Blades and Death's Door line of spells.", 
                "effects": [
-                  "<ul><li>Improves the damage of the reactive proc by 25%.</li></ul>", 
-                  "<ul><li>Improves the damage of the reactive proc by 10%.</li></ul>", 
                   "<ul><li>Improves the damage of the reactive proc by 5%.</li></ul>", 
+                  "<ul><li>Improves the damage of the reactive proc by 10%.</li></ul>", 
                   "<ul><li>Improves the damage of the reactive proc by 15%.</li></ul>", 
-                  "<ul><li>Improves the damage of the reactive proc by 20%.</li></ul>"
+                  "<ul><li>Improves the damage of the reactive proc by 20%.</li></ul>", 
+                  "<ul><li>Improves the damage of the reactive proc by 25%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 205
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Chorus of Reflection", 
                "parent_id": -1, 
@@ -2809,6 +2886,7 @@
                   "icon": 174
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Intoxicating Notes", 
                "parent_id": -1, 
@@ -2839,6 +2917,7 @@
                   "icon": 813
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Dexterous Sonata", 
                "parent_id": -1, 
@@ -2862,17 +2941,18 @@
                "cost": 1, 
                "description": "Grants additional damage to the Tarven's Crippling Crescendo line and also improves the defense reduction.", 
                "effects": [
-                  "<ul><li>Improves the damage by 30%</li><li>Improves the defense skill reduction by 9%.</li></ul>", 
-                  "<ul><li>Improves the damage by 50%</li><li>Improves the defense skill reduction by 15%.</li></ul>", 
                   "<ul><li>Improves the damage by 10%</li><li>Improves the defense skill reduction by 3%.</li></ul>", 
+                  "<ul><li>Improves the damage by 20%</li><li>Improves the defense skill reduction by 6%.</li></ul>", 
+                  "<ul><li>Improves the damage by 30%</li><li>Improves the defense skill reduction by 9%.</li></ul>", 
                   "<ul><li>Improves the damage by 40%</li><li>Improves the defense skill reduction by 12%.</li></ul>", 
-                  "<ul><li>Improves the damage by 20%</li><li>Improves the defense skill reduction by 6%.</li></ul>"
+                  "<ul><li>Improves the damage by 50%</li><li>Improves the defense skill reduction by 15%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 310
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Defensive Curse", 
                "parent_id": -1, 
@@ -2897,8 +2977,8 @@
                "description": "Physical damage done to the dirge will be reduced by a small amount.", 
                "effects": [
                   "<ul><li>Reduces physical damage done to caster by up to 2.5.</li></ul>", 
-                  "<ul><li>Reduces physical damage done to caster by up to 7.5.</li></ul>", 
                   "<ul><li>Reduces physical damage done to caster by up to 5.</li></ul>", 
+                  "<ul><li>Reduces physical damage done to caster by up to 7.5.</li></ul>", 
                   "<ul><li>Reduces physical damage done to caster by up to 10.</li></ul>", 
                   "<ul><li>Reduces physical damage done to caster by up to 12.5.</li></ul>"
                ], 
@@ -2907,6 +2987,7 @@
                   "icon": 823
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Deflecting Chorus", 
                "parent_id": -1, 
@@ -2931,8 +3012,8 @@
                "description": "Improves the base heal amount of the Oration of Sacrifice line of spells.  Maxing out the points in this will also remove the stifle penalty but increases the health cost of the spell.", 
                "effects": [
                   "<ul><li>Increases base heal amount by 5%.</li></ul>", 
-                  "<ul><li>Increases base heal amount by 15%.</li></ul>", 
                   "<ul><li>Increases base heal amount by 10%.</li></ul>", 
+                  "<ul><li>Increases base heal amount by 15%.</li></ul>", 
                   "<ul><li>Increases base heal amount by 20%.</li></ul>", 
                   "<ul><li>Increases the fuel cost by 20%</li><li>Removes the stifle penalty.</li><li>Increases base heal amount by 25%.</li></ul>"
                ], 
@@ -2941,6 +3022,7 @@
                   "icon": 487
                }, 
                "id": 22, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Sacrificial Oration", 
                "parent_id": -1, 
@@ -2964,17 +3046,18 @@
                "cost": 1, 
                "description": "The Howl of Death line gains additional casting speed and improved damage.", 
                "effects": [
-                  "<ul><li>Improves the damage and heal amount by 15%.</li><li>Improves the casting speed by 25%</li></ul>", 
                   "<ul><li>Improves the damage and heal amount by 3%.</li><li>Improves the casting speed by 5%</li></ul>", 
                   "<ul><li>Improves the damage and heal amount by 6%.</li><li>Improves the casting speed by 10%</li></ul>", 
+                  "<ul><li>Improves the damage and heal amount by 9%.</li><li>Improves the casting speed by 15%</li></ul>", 
                   "<ul><li>Improves the damage and heal amount by 12%.</li><li>Improves the casting speed by 20%</li></ul>", 
-                  "<ul><li>Improves the damage and heal amount by 9%.</li><li>Improves the casting speed by 15%</li></ul>"
+                  "<ul><li>Improves the damage and heal amount by 15%.</li><li>Improves the casting speed by 25%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 204
                }, 
                "id": 23, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Deathly Howl", 
                "parent_id": -1, 
@@ -2998,17 +3081,18 @@
                "cost": 1, 
                "description": "The Darksong Blade line will have a shorter duration so that the overtime damage occurs faster.  In addition to the shorter duration, it will do additional damage.", 
                "effects": [
-                  "<ul><li>Reduces the duration by 10 seconds</li><li>Improves the damage by 15%.</li></ul>", 
+                  "<ul><li>Reduces the duration by 2 seconds</li><li>Improves the damage by 3%.</li></ul>", 
+                  "<ul><li>Reduces the duration by 4 seconds</li><li>Improves the damage by 6%.</li></ul>", 
                   "<ul><li>Reduces the duration by 6 seconds</li><li>Improves the damage by 9%.</li></ul>", 
                   "<ul><li>Reduces the duration by 8 seconds</li><li>Improves the damage by 12%.</li></ul>", 
-                  "<ul><li>Reduces the duration by 4 seconds</li><li>Improves the damage by 6%.</li></ul>", 
-                  "<ul><li>Reduces the duration by 2 seconds</li><li>Improves the damage by 3%.</li></ul>"
+                  "<ul><li>Reduces the duration by 10 seconds</li><li>Improves the damage by 15%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 315, 
                   "icon": 366
                }, 
                "id": 24, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Viral Infection", 
                "parent_id": -1, 
@@ -3032,17 +3116,18 @@
                "cost": 1, 
                "description": "Improves the double attack bonuses of Fortissimo.", 
                "effects": [
-                  "<ul><li>Adds an additional 5% to the double attack.</li></ul>", 
                   "<ul><li>Adds an additional 1% to the double attack.</li></ul>", 
                   "<ul><li>Adds an additional 2% to the double attack.</li></ul>", 
+                  "<ul><li>Adds an additional 3% to the double attack.</li></ul>", 
                   "<ul><li>Adds an additional 4% to the double attack.</li></ul>", 
-                  "<ul><li>Adds an additional 3% to the double attack.</li></ul>"
+                  "<ul><li>Adds an additional 5% to the double attack.</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 670
                }, 
                "id": 25, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Skald's Striking", 
                "parent_id": -1, 
@@ -3073,6 +3158,7 @@
                   "icon": 898
                }, 
                "id": 26, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Disease Mastery", 
                "parent_id": -1, 
@@ -3103,6 +3189,7 @@
                   "icon": 819
                }, 
                "id": 27, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Battle Cry", 
                "parent_id": -1, 
@@ -3175,22 +3262,23 @@
                "cost": 1, 
                "description": "Increases all stats except for Stamina.", 
                "effects": [
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 2.4</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.8</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 6.0</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.2</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.2</li></ul>", 
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 0.6</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.6</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.2</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.8</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 2.4</li></ul>", 
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.0</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.6</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.2</li></ul>", 
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.8</li></ul>", 
                   "<ul><li>Increases STR, AGI, WIS and INT of caster by 5.4</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.8</li></ul>"
+                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 6.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 43
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Attribute Prowess", 
                "parent_id": -1, 
@@ -3214,15 +3302,15 @@
                "cost": 1, 
                "description": "Increases Ability Modifier.", 
                "effects": [
-                  "<ul><li>Increases Ability Modifier of caster by 20.7</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 10.4</li></ul>", 
-                  "<ul><li>Increases Ability Modifier of caster by 72.5</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 20.7</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 31.1</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 41.4</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 51.7</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 62.1</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 72.5</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 82.8</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 93.2</li></ul>", 
-                  "<ul><li>Increases Ability Modifier of caster by 41.4</li></ul>", 
-                  "<ul><li>Increases Ability Modifier of caster by 62.1</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 103.5</li></ul>"
                ], 
                "icon": {
@@ -3230,6 +3318,7 @@
                   "icon": 566
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Ability Aptitude", 
                "parent_id": -1, 
@@ -3253,22 +3342,23 @@
                "cost": 1, 
                "description": "Increases Maximum Health and Power.", 
                "effects": [
-                  "<ul><li>Increases Max Power of caster by 1.5%</li><li>Increases Max Health of caster by 1.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.5%</li><li>Increases Max Health of caster by 2.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 2.0%</li><li>Increases Max Health of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 3.5%</li><li>Increases Max Health of caster by 3.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 3.0%</li><li>Increases Max Health of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 1.0%</li><li>Increases Max Health of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 0.5%</li><li>Increases Max Health of caster by 0.5%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 5.0%</li><li>Increases Max Health of caster by 5.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 1.0%</li><li>Increases Max Health of caster by 1.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 1.5%</li><li>Increases Max Health of caster by 1.5%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 2.0%</li><li>Increases Max Health of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 2.5%</li><li>Increases Max Health of caster by 2.5%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 3.0%</li><li>Increases Max Health of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 3.5%</li><li>Increases Max Health of caster by 3.5%</li></ul>", 
                   "<ul><li>Increases Max Power of caster by 4.0%</li><li>Increases Max Health of caster by 4.0%</li></ul>", 
-                  "<ul><li>Increases Max Power of caster by 4.5%</li><li>Increases Max Health of caster by 4.5%</li></ul>"
+                  "<ul><li>Increases Max Power of caster by 4.5%</li><li>Increases Max Health of caster by 4.5%</li></ul>", 
+                  "<ul><li>Increases Max Power of caster by 5.0%</li><li>Increases Max Health of caster by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 249
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Spirit and Body", 
                "parent_id": -1, 
@@ -3292,22 +3382,23 @@
                "cost": 1, 
                "description": "Increases Potency.", 
                "effects": [
+                  "<ul><li>Increases Potency of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 5.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 9.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 7.0%</li></ul>", 
                   "<ul><li>Increases Potency of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases Potency of caster by 7.0%</li></ul>"
+                  "<ul><li>Increases Potency of caster by 9.0%</li></ul>", 
+                  "<ul><li>Increases Potency of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 852
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Expertise", 
                "parent_id": -1, 
@@ -3331,22 +3422,23 @@
                "cost": 1, 
                "description": "Increases Crit Bonus.", 
                "effects": [
-                  "<ul><li>Increases Crit Bonus of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 1.0%</li></ul>", 
                   "<ul><li>Increases Crit Bonus of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases Crit Bonus of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 7.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 9.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 1.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 4.0%</li></ul>", 
                   "<ul><li>Increases Crit Bonus of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases Crit Bonus of caster by 4.0%</li></ul>"
+                  "<ul><li>Increases Crit Bonus of caster by 6.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 7.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 9.0%</li></ul>", 
+                  "<ul><li>Increases Crit Bonus of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 21
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Critical Genius", 
                "parent_id": -1, 
@@ -3370,22 +3462,23 @@
                "cost": 1, 
                "description": "Increases Ability Reuse Speed.", 
                "effects": [
-                  "<ul><li>Increases Ability Reuse Speed of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 7.0%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 1.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 9.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 5.0%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 4.0%</li></ul>"
+                  "<ul><li>Increases Ability Reuse Speed of caster by 7.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 9.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 14
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Lightning Reflexes", 
                "parent_id": -1, 
@@ -3409,15 +3502,15 @@
                "cost": 1, 
                "description": "Improves the duration of Rhythmic Overture. The final rank adds immunities to Daze, Stun, Fear, Mesmerize, Taunt and Stifle effects while Rhythmic Overture is active.", 
                "effects": [
-                  "<ul><li>Improves the duration of Rhythmic Overture by 10%.</li></ul>", 
-                  "<ul><li>Improves the duration of Rhythmic Overture by 4%.</li></ul>", 
                   "<ul><li>Improves the duration of Rhythmic Overture by 2%.</li></ul>", 
-                  "<ul><li>Improves the duration of Rhythmic Overture by 12%.</li></ul>", 
-                  "<ul><li>Improves the duration of Rhythmic Overture by 18%.</li></ul>", 
-                  "<ul><li>Improves the duration of Rhythmic Overture by 16%.</li></ul>", 
+                  "<ul><li>Improves the duration of Rhythmic Overture by 4%.</li></ul>", 
                   "<ul><li>Improves the duration of Rhythmic Overture by 6%.</li></ul>", 
                   "<ul><li>Improves the duration of Rhythmic Overture by 8%.</li></ul>", 
+                  "<ul><li>Improves the duration of Rhythmic Overture by 10%.</li></ul>", 
+                  "<ul><li>Improves the duration of Rhythmic Overture by 12%.</li></ul>", 
                   "<ul><li>Improves the duration of Rhythmic Overture by 14%.</li></ul>", 
+                  "<ul><li>Improves the duration of Rhythmic Overture by 16%.</li></ul>", 
+                  "<ul><li>Improves the duration of Rhythmic Overture by 18%.</li></ul>", 
                   "<ul><li>Rhythmic Overture will grant immunities to Daze, Stun, Fear, Mesmerize, Taunt and Stifle effects.</li><li>Improves the duration of Rhythmic Overture by 20%.</li></ul>"
                ], 
                "icon": {
@@ -3425,6 +3518,7 @@
                   "icon": 676
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Enhance: Rhythmic Overture", 
                "parent_id": -1, 
@@ -3448,22 +3542,23 @@
                "cost": 1, 
                "description": "Adds additional Crit Chance to Dexterous Sonata.", 
                "effects": [
-                  "<ul><li>Adds 9% Crit Chance to Dexterous Sonata.</li></ul>", 
-                  "<ul><li>Adds 5% Crit Chance to Dexterous Sonata.</li></ul>", 
                   "<ul><li>Adds 1% Crit Chance to Dexterous Sonata.</li></ul>", 
-                  "<ul><li>Adds 8% Crit Chance to Dexterous Sonata.</li></ul>", 
-                  "<ul><li>Adds 6% Crit Chance to Dexterous Sonata.</li></ul>", 
                   "<ul><li>Adds 2% Crit Chance to Dexterous Sonata.</li></ul>", 
-                  "<ul><li>Adds 10% Crit Chance to Dexterous Sonata.</li></ul>", 
-                  "<ul><li>Adds 7% Crit Chance to Dexterous Sonata.</li></ul>", 
+                  "<ul><li>Adds 3% Crit Chance to Dexterous Sonata.</li></ul>", 
                   "<ul><li>Adds 4% Crit Chance to Dexterous Sonata.</li></ul>", 
-                  "<ul><li>Adds 3% Crit Chance to Dexterous Sonata.</li></ul>"
+                  "<ul><li>Adds 5% Crit Chance to Dexterous Sonata.</li></ul>", 
+                  "<ul><li>Adds 6% Crit Chance to Dexterous Sonata.</li></ul>", 
+                  "<ul><li>Adds 7% Crit Chance to Dexterous Sonata.</li></ul>", 
+                  "<ul><li>Adds 8% Crit Chance to Dexterous Sonata.</li></ul>", 
+                  "<ul><li>Adds 9% Crit Chance to Dexterous Sonata.</li></ul>", 
+                  "<ul><li>Adds 10% Crit Chance to Dexterous Sonata.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 813
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Enhance: Dexterous Sonata", 
                "parent_id": -1, 
@@ -3487,22 +3582,23 @@
                "cost": 1, 
                "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.", 
                "effects": [
-                  "<ul><li>Caster will Dodge 78.8% of incoming attacks</li><li>Reduces all damage done to caster by 23.63%</li></ul>", 
-                  "<ul><li>Caster will Dodge 57.6% of incoming attacks</li><li>Reduces all damage done to caster by 17.27%</li></ul>", 
-                  "<ul><li>Caster will Dodge 100.0% of incoming attacks</li><li>Reduces all damage done to caster by 30%</li><li>Prevents AOE (except when direct) </li></ul>", 
-                  "<ul><li>Caster will Dodge 66.7% of incoming attacks</li><li>Reduces all damage done to caster by 20%</li></ul>", 
                   "<ul><li>Caster will Dodge 54.6% of incoming attacks</li><li>Reduces all damage done to caster by 16.36%</li></ul>", 
-                  "<ul><li>Caster will Dodge 90.9% of incoming attacks</li><li>Reduces all damage done to caster by 27.27%</li></ul>", 
+                  "<ul><li>Caster will Dodge 57.6% of incoming attacks</li><li>Reduces all damage done to caster by 17.27%</li></ul>", 
                   "<ul><li>Caster will Dodge 60.6% of incoming attacks</li><li>Reduces all damage done to caster by 18.18%</li></ul>", 
+                  "<ul><li>Caster will Dodge 66.7% of incoming attacks</li><li>Reduces all damage done to caster by 20%</li></ul>", 
                   "<ul><li>Caster will Dodge 72.7% of incoming attacks</li><li>Reduces all damage done to caster by 21.82%</li></ul>", 
+                  "<ul><li>Caster will Dodge 78.8% of incoming attacks</li><li>Reduces all damage done to caster by 23.63%</li></ul>", 
                   "<ul><li>Caster will Dodge 84.9% of incoming attacks</li><li>Reduces all damage done to caster by 25.45%</li></ul>", 
-                  "<ul><li>Caster will Dodge 97.0% of incoming attacks</li><li>Reduces all damage done to caster by 29.09%</li></ul>"
+                  "<ul><li>Caster will Dodge 90.9% of incoming attacks</li><li>Reduces all damage done to caster by 27.27%</li></ul>", 
+                  "<ul><li>Caster will Dodge 97.0% of incoming attacks</li><li>Reduces all damage done to caster by 29.09%</li></ul>", 
+                  "<ul><li>Caster will Dodge 100.0% of incoming attacks</li><li>Reduces all damage done to caster by 30%</li><li>Prevents AOE (except when direct) </li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 812
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Veil of Notes", 
                "parent_id": -1, 
@@ -3526,22 +3622,23 @@
                "cost": 1, 
                "description": "Improves the casting and reuse speeds of the bard.", 
                "effects": [
-                  "<ul><li>Increases Ability Reuse Speed of caster by 5.0%</li><li>Increases Ability Casting Speed of caster by 15.0%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 0.5%</li><li>Increases Ability Casting Speed of caster by 1.5%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 1.0%</li><li>Increases Ability Casting Speed of caster by 3.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 4.5%</li><li>Increases Ability Casting Speed of caster by 13.5%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 1.5%</li><li>Increases Ability Casting Speed of caster by 4.5%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 2.5%</li><li>Increases Ability Casting Speed of caster by 7.5%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 3.5%</li><li>Increases Ability Casting Speed of caster by 10.5%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 3.0%</li><li>Increases Ability Casting Speed of caster by 9.0%</li></ul>", 
                   "<ul><li>Increases Ability Reuse Speed of caster by 2.0%</li><li>Increases Ability Casting Speed of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases Ability Reuse Speed of caster by 4.0%</li><li>Increases Ability Casting Speed of caster by 12.0%</li></ul>"
+                  "<ul><li>Increases Ability Reuse Speed of caster by 2.5%</li><li>Increases Ability Casting Speed of caster by 7.5%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 3.0%</li><li>Increases Ability Casting Speed of caster by 9.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 3.5%</li><li>Increases Ability Casting Speed of caster by 10.5%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 4.0%</li><li>Increases Ability Casting Speed of caster by 12.0%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 4.5%</li><li>Increases Ability Casting Speed of caster by 13.5%</li></ul>", 
+                  "<ul><li>Increases Ability Reuse Speed of caster by 5.0%</li><li>Increases Ability Casting Speed of caster by 15.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": -1, 
                   "icon": 27
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 10, 
                "name": "Accelerando", 
                "parent_id": -1, 
@@ -3572,6 +3669,7 @@
                   "icon": 891
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Songspinner's Note", 
                "parent_id": -1, 
@@ -3602,6 +3700,7 @@
                   "icon": 900
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Deadly Dance", 
                "parent_id": -1, 
@@ -3632,6 +3731,7 @@
                   "icon": 817
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Cadence of Destruction", 
                "parent_id": -1, 
@@ -3686,17 +3786,18 @@
                "cost": 1, 
                "description": "Grants you a chance to harvest a second time. Additionally, you move faster while on a mount.", 
                "effects": [
+                  "<ul><li>Increases Ground Mount Speed of caster by 2.0%</li><li>Caster will harvest a second time on 3.0% of harvests.</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li><li>Caster will harvest a second time on 6.0% of harvests.</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 6.0%</li><li>Caster will harvest a second time on 9.0% of harvests.</li></ul>", 
                   "<ul><li>Increases Ground Mount Speed of caster by 8.0%</li><li>Caster will harvest a second time on 12.0% of harvests.</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li><li>Caster will harvest a second time on 15.0% of harvests.</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li><li>Caster will harvest a second time on 6.0% of harvests.</li></ul>", 
-                  "<ul><li>Increases Ground Mount Speed of caster by 2.0%</li><li>Caster will harvest a second time on 3.0% of harvests.</li></ul>"
+                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li><li>Caster will harvest a second time on 15.0% of harvests.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 797
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Ample Harvest", 
                "parent_id": -1, 
@@ -3720,17 +3821,18 @@
                "cost": 1, 
                "description": "Improves the rate at which you gain progress while crafting.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 4.0%</li><li>Increases the amount of progress gained by 8.0%.</li></ul>", 
-                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
                   "<ul><li>Increases speed of caster by 1.0%</li><li>Increases the amount of progress gained by 2.0%.</li></ul>", 
-                  "<ul><li>Increases speed of caster by 5.0%</li><li>Increases the amount of progress gained by 10.0%.</li></ul>", 
-                  "<ul><li>Increases speed of caster by 3.0%</li><li>Increases the amount of progress gained by 6.0%.</li></ul>"
+                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
+                  "<ul><li>Increases speed of caster by 3.0%</li><li>Increases the amount of progress gained by 6.0%.</li></ul>", 
+                  "<ul><li>Increases speed of caster by 4.0%</li><li>Increases the amount of progress gained by 8.0%.</li></ul>", 
+                  "<ul><li>Increases speed of caster by 5.0%</li><li>Increases the amount of progress gained by 10.0%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 798
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Swift Creation", 
                "parent_id": -1, 
@@ -3754,10 +3856,10 @@
                "cost": 1, 
                "description": "Using the best materials increases the percentage of durability gained while crafting. Additionally, the duration of food and drinks is improved.", 
                "effects": [
-                  "<ul><li>Improves the duration of food and drink by 5%</li><li>Increases the durability gain by 4.0%.</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 2.5%</li><li>Increases the durability gain by 2.0%.</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 10%</li><li>Increases the durability gain by 8.0%.</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 5%</li><li>Increases the durability gain by 4.0%.</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 7.5%</li><li>Increases the durability gain by 6.0%.</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 10%</li><li>Increases the durability gain by 8.0%.</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 12.5%</li><li>Increases the durability gain by 10.0%.</li></ul>"
                ], 
                "icon": {
@@ -3765,6 +3867,7 @@
                   "icon": 874
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "High Quality Materials", 
                "parent_id": -1, 
@@ -3788,17 +3891,18 @@
                "cost": 1, 
                "description": "Improves the rate at which you gain progress while crafting.", 
                "effects": [
-                  "<ul><li>Increases progress by 8.0</li></ul>", 
                   "<ul><li>Increases progress by 2.0</li></ul>", 
+                  "<ul><li>Increases progress by 4.0</li></ul>", 
                   "<ul><li>Increases progress by 6.0</li></ul>", 
-                  "<ul><li>Increases progress by 10.0</li></ul>", 
-                  "<ul><li>Increases progress by 4.0</li></ul>"
+                  "<ul><li>Increases progress by 8.0</li></ul>", 
+                  "<ul><li>Increases progress by 10.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 864
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Rapid Manufacturing", 
                "parent_id": -1, 
@@ -3822,17 +3926,18 @@
                "cost": 1, 
                "description": "Using the most resilient materials increases the amount of durability gained while crafting.", 
                "effects": [
-                  "<ul><li>Increases the amount of durability gained by 10.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 8.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 2.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 4.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 6.0.</li></ul>"
+                  "<ul><li>Increases the amount of durability gained by 6.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 8.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 10.0.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 869
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Resilient Materials", 
                "parent_id": -1, 
@@ -3856,10 +3961,10 @@
                "cost": 1, 
                "description": "Using an effective method of crafting improves your success chance.", 
                "effects": [
-                  "<ul><li>Increases success chance by 8.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases success chance by 2.0%</li></ul>", 
+                  "<ul><li>Increases success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases success chance by 6.0%</li></ul>", 
+                  "<ul><li>Increases success chance by 8.0%</li></ul>", 
                   "<ul><li>Increases success chance by 10.0%</li></ul>"
                ], 
                "icon": {
@@ -3867,6 +3972,7 @@
                   "icon": 860
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Effective Method", 
                "parent_id": -1, 
@@ -3890,17 +3996,18 @@
                "cost": 1, 
                "description": "Using a tried and true method of practice your chance of critical success increases.", 
                "effects": [
-                  "<ul><li>Increases critical success chance by 10.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 8.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 4.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 6.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 2.0%</li></ul>"
+                  "<ul><li>Increases critical success chance by 8.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 848
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Advantageous Practice", 
                "parent_id": -1, 
@@ -3924,17 +4031,18 @@
                "cost": 1, 
                "description": "By neatly harvesting you increase your chances of finding rare items.", 
                "effects": [
-                  "<ul><li>Increases rare harvest chance by 0.6%</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 1.0%</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 0.2%</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 0.4%</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 0.6%</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 0.8%</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 0.2%</li></ul>"
+                  "<ul><li>Increases rare harvest chance by 1.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 263
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Trim Reaver", 
                "parent_id": -1, 
@@ -3958,17 +4066,18 @@
                "cost": 1, 
                "description": "Your ability to create items transcends accepted laws of nature, and you can sometimes create items without using the materials used in creating them.", 
                "effects": [
-                  "<ul><li>When completing a pristine crafted item. this spell has a 2% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
                   "<ul><li>When completing a pristine crafted item. this spell has a 1% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
-                  "<ul><li>When completing a pristine crafted item. this spell has a 5% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
+                  "<ul><li>When completing a pristine crafted item. this spell has a 2% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
+                  "<ul><li>When completing a pristine crafted item. this spell has a 3% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
                   "<ul><li>When completing a pristine crafted item. this spell has a 4% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>", 
-                  "<ul><li>When completing a pristine crafted item. this spell has a 3% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>"
+                  "<ul><li>When completing a pristine crafted item. this spell has a 5% chance to cast Conservation of Mass on target.  Lasts for 1.0 second.  </li><ul><li>No components are consumed to create this item.</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 839
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Conservation of Mass", 
                "parent_id": -1, 
@@ -4019,8 +4128,8 @@
                "cost": 1, 
                "description": "Coats the scouts weapons with a paralytic agent, reducing the target's potency.", 
                "effects": [
-                  "<ul><li>On any combat or spell hit this spell may cast Paralytic Venom on target of attack.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Decreases Potency of target by 3.0%</li><li>This effect can be stacked by multiple casters.</li></ul></ul>", 
                   "<ul><li>On any combat or spell hit this spell may cast Paralytic Venom on target of attack.  Lasts for 10.0 seconds.  Triggers about 1.0 times per minute. </li><ul><li>Decreases Potency of target by 3.0%</li><li>This effect can be stacked by multiple casters.</li></ul></ul>", 
+                  "<ul><li>On any combat or spell hit this spell may cast Paralytic Venom on target of attack.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Decreases Potency of target by 3.0%</li><li>This effect can be stacked by multiple casters.</li></ul></ul>", 
                   "<ul><li>On any combat or spell hit this spell may cast Paralytic Venom on target of attack.  Lasts for 10.0 seconds.  Triggers about 3.0 times per minute. </li><ul><li>Decreases Potency of target by 3.0%</li><li>This effect can be stacked by multiple casters.</li></ul></ul>"
                ], 
                "icon": {
@@ -4028,6 +4137,7 @@
                   "icon": 381
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Paralytic Venom", 
                "parent_id": -1, 
@@ -4060,6 +4170,7 @@
                   "icon": 208
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Songhowler", 
                "parent_id": -1, 
@@ -4092,6 +4203,7 @@
                   "icon": 207
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Siphoning Requiem", 
                "parent_id": -1, 
@@ -4115,15 +4227,16 @@
                "cost": 1, 
                "description": "The scout informs allies of the enemy's weaknesses, increasing the group's chance to strike multiple times.", 
                "effects": [
-                  "<ul><li>On any combat or spell hit this spell may cast Scouted Target on caster.  Lasts for 10.0 seconds.  Triggers about 3.0 times per minute. </li><ul><li>Caster has a 3.0% chance of having one of their weapons' autoattack strike the target multiple times.</li><li>Caster has a 3.0% chance of having one of their spell weapons' autoattack strike the target multiple times.</li><li>This effect can be stacked by multiple casters.</li></ul></ul>", 
+                  "<ul><li>On any combat or spell hit this spell may cast Scouted Target on caster.  Lasts for 10.0 seconds.  Triggers about 1.0 times per minute. </li><ul><li>Caster has a 3.0% chance of having one of their weapons' autoattack strike the target multiple times.</li><li>Caster has a 3.0% chance of having one of their spell weapons' autoattack strike the target multiple times.</li><li>This effect can be stacked by multiple casters.</li></ul></ul>", 
                   "<ul><li>On any combat or spell hit this spell may cast Scouted Target on caster.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Caster has a 3.0% chance of having one of their weapons' autoattack strike the target multiple times.</li><li>Caster has a 3.0% chance of having one of their spell weapons' autoattack strike the target multiple times.</li><li>This effect can be stacked by multiple casters.</li></ul></ul>", 
-                  "<ul><li>On any combat or spell hit this spell may cast Scouted Target on caster.  Lasts for 10.0 seconds.  Triggers about 1.0 times per minute. </li><ul><li>Caster has a 3.0% chance of having one of their weapons' autoattack strike the target multiple times.</li><li>Caster has a 3.0% chance of having one of their spell weapons' autoattack strike the target multiple times.</li><li>This effect can be stacked by multiple casters.</li></ul></ul>"
+                  "<ul><li>On any combat or spell hit this spell may cast Scouted Target on caster.  Lasts for 10.0 seconds.  Triggers about 3.0 times per minute. </li><ul><li>Caster has a 3.0% chance of having one of their weapons' autoattack strike the target multiple times.</li><li>Caster has a 3.0% chance of having one of their spell weapons' autoattack strike the target multiple times.</li><li>This effect can be stacked by multiple casters.</li></ul></ul>"
                ], 
                "icon": {
                   "backdrop": 314, 
                   "icon": 231
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Advance Scout ", 
                "parent_id": -1, 
@@ -4157,6 +4270,7 @@
                   "icon": 487
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 2, 
                "name": "Screechwall", 
                "parent_id": 5, 
@@ -4189,6 +4303,7 @@
                   "icon": 172
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Sacrificial Barrier", 
                "parent_id": -1, 
@@ -4221,6 +4336,7 @@
                   "icon": 366
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Darksong Spin", 
                "parent_id": -1, 
@@ -4254,6 +4370,7 @@
                   "icon": 171
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 2, 
                "name": "Powerful Rhythm", 
                "parent_id": 6, 
@@ -4286,6 +4403,7 @@
                   "icon": 246
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Songhowler", 
                "parent_id": 4, 
@@ -4318,6 +4436,7 @@
                   "icon": 817
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Bladescreech", 
                "parent_id": 7, 
@@ -4345,8 +4464,8 @@
                "cost": 1, 
                "description": "Restores health to the target when they receive damage. If the target is below 50% or falls below 50% health while this spell is active, they will gain damage reduction.", 
                "effects": [
-                  "<ul><li>When target falls below 50% health this spell will cast Encore on target.  Lasts for 8.0 seconds.  </li><ul><li>Reduces all damage done to target by 30%</li><li>Cannot be modified except by direct means</li></ul><li>Restores 30% of the damage received</li><li>The healing of this spell cannot be modified except by direct means</li></ul>", 
                   "<ul><li>When target falls below 50% health this spell will cast Encore on target.  Lasts for 8.0 seconds.  </li><ul><li>Reduces all damage done to target by 30%</li><li>Cannot be modified except by direct means</li></ul><li>Restores 15% of the damage received</li><li>The healing of this spell cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>When target falls below 50% health this spell will cast Encore on target.  Lasts for 8.0 seconds.  </li><ul><li>Reduces all damage done to target by 30%</li><li>Cannot be modified except by direct means</li></ul><li>Restores 30% of the damage received</li><li>The healing of this spell cannot be modified except by direct means</li></ul>", 
                   "<ul><li>When target falls below 50% health this spell will cast Encore on target.  Lasts for 8.0 seconds.  </li><ul><li>Reduces all damage done to target by 30%</li><li>Cannot be modified except by direct means</li></ul><li>Restores 45% of the damage received</li><li>The healing of this spell cannot be modified except by direct means</li></ul>"
                ], 
                "icon": {
@@ -4354,6 +4473,7 @@
                   "icon": 219
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Exuberant Encore", 
                "parent_id": 8, 
@@ -4386,6 +4506,7 @@
                   "icon": 171
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Lamentation", 
                "parent_id": -1, 
@@ -4422,6 +4543,7 @@
                   "icon": 798
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Echoing Howl", 
                "parent_id": 9, 
@@ -4445,15 +4567,16 @@
                "cost": 1, 
                "description": "Increases the duration of Exuberant Encore.", 
                "effects": [
-                  "<ul><li>Improves the duration of Exuberant Encore by 100%</li></ul>", 
                   "<ul><li>Improves the duration of Exuberant Encore by 33%</li></ul>", 
-                  "<ul><li>Improves the duration of Exuberant Encore by 66%</li></ul>"
+                  "<ul><li>Improves the duration of Exuberant Encore by 66%</li></ul>", 
+                  "<ul><li>Improves the duration of Exuberant Encore by 100%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 278
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Unstopping Encore", 
                "parent_id": 10, 
@@ -4477,15 +4600,16 @@
                "cost": 1, 
                "description": "Exuberant Encore will also restore a percentage of the damage taken as power to the group.", 
                "effects": [
+                  "<ul><li>Exuberant Encore will restore 3% of the damage taken as power to the group</li></ul>", 
                   "<ul><li>Exuberant Encore will restore 6% of the damage taken as power to the group</li></ul>", 
-                  "<ul><li>Exuberant Encore will restore 9% of the damage taken as power to the group</li></ul>", 
-                  "<ul><li>Exuberant Encore will restore 3% of the damage taken as power to the group</li></ul>"
+                  "<ul><li>Exuberant Encore will restore 9% of the damage taken as power to the group</li></ul>"
                ], 
                "icon": {
                   "backdrop": 316, 
                   "icon": 277
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Energetic Encore", 
                "parent_id": 10, 
@@ -4518,6 +4642,7 @@
                   "icon": 812
                }, 
                "id": 15, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Infectious Dissonance", 
                "parent_id": 10, 
@@ -4550,6 +4675,7 @@
                   "icon": 295
                }, 
                "id": 16, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Sonic Howl", 
                "parent_id": 12, 
@@ -4573,8 +4699,8 @@
                "cost": 1, 
                "description": "Increases the base heal amount and base damage amount of Resonation. This applies before potency.", 
                "effects": [
-                  "<ul><li>Resonation inflicts 100% more damage and heals 100% more</li></ul>", 
                   "<ul><li>Resonation inflicts 50% more damage and heals 50% more</li></ul>", 
+                  "<ul><li>Resonation inflicts 100% more damage and heals 100% more</li></ul>", 
                   "<ul><li>Resonation inflicts 150% more damage and heals 150% more</li></ul>"
                ], 
                "icon": {
@@ -4582,6 +4708,7 @@
                   "icon": 603
                }, 
                "id": 17, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Double Echo", 
                "parent_id": 12, 
@@ -4605,8 +4732,8 @@
                "cost": 1, 
                "description": "Grants an incremental Crit Bonus increase to the dirge's group when using Echoing Howl. This effect can increment up to 15 times.", 
                "effects": [
-                  "<ul><li>Increases the Crit Bonus of the group by 1 per increment following Echoing Howl</li></ul>", 
                   "<ul><li>Increases the Crit Bonus of the group by 0.5 per increment following Echoing Howl</li></ul>", 
+                  "<ul><li>Increases the Crit Bonus of the group by 1 per increment following Echoing Howl</li></ul>", 
                   "<ul><li>Increases the Crit Bonus of the group by 1.5 per increment following Echoing Howl</li></ul>"
                ], 
                "icon": {
@@ -4614,6 +4741,7 @@
                   "icon": 190
                }, 
                "id": 18, 
+               "level": 0, 
                "max_level": 3, 
                "name": "Echoing Power", 
                "parent_id": 12, 
@@ -4644,6 +4772,7 @@
                   "icon": 925
                }, 
                "id": 19, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Believe in Lady Luck", 
                "parent_id": -1, 
@@ -4674,6 +4803,7 @@
                   "icon": 924
                }, 
                "id": 20, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Eulogy of the Fallen", 
                "parent_id": -1, 
@@ -4704,6 +4834,7 @@
                   "icon": 602
                }, 
                "id": 21, 
+               "level": 0, 
                "max_level": 1, 
                "name": "Grave Echo", 
                "parent_id": -1, 
@@ -4765,17 +4896,18 @@
                "cost": 1, 
                "description": "Increases your ability to get a bonus rare harvest.  This also grants the ability to track harvesting nodes.  Higher ranks of this ability lower the cooldown on the Track Harvestables ability.", 
                "effects": [
-                  "<ul><li>Increases rare harvest chance by 2.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 1.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 2.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Increases rare harvest chance by 3.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Increases rare harvest chance by 4.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 5.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>", 
-                  "<ul><li>Increases rare harvest chance by 3.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>"
+                  "<ul><li>Increases rare harvest chance by 5.0%</li><li>Grants the Track Harvestables ability.</li><li>Cannot be modified except by direct means</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 777
                }, 
                "id": 0, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Seasoned Harvesting", 
                "parent_id": -1, 
@@ -4802,17 +4934,18 @@
                "cost": 1, 
                "description": "Increases the artisan's durability gain.", 
                "effects": [
-                  "<ul><li>Increases the amount of durability gained by 5.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 1.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 2.0.</li></ul>", 
                   "<ul><li>Increases the amount of durability gained by 3.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 1.0.</li></ul>", 
-                  "<ul><li>Increases the amount of durability gained by 4.0.</li></ul>"
+                  "<ul><li>Increases the amount of durability gained by 4.0.</li></ul>", 
+                  "<ul><li>Increases the amount of durability gained by 5.0.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 468
                }, 
                "id": 1, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Steady Hands", 
                "parent_id": -1, 
@@ -4839,17 +4972,18 @@
                "cost": 1, 
                "description": "Increases the Artisan's Success Rate.", 
                "effects": [
+                  "<ul><li>Increases success chance by 1.0%</li></ul>", 
+                  "<ul><li>Increases success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases success chance by 3.0%</li></ul>", 
                   "<ul><li>Increases success chance by 4.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 1.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 5.0%</li></ul>", 
-                  "<ul><li>Increases success chance by 2.0%</li></ul>"
+                  "<ul><li>Increases success chance by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 24
                }, 
                "id": 2, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Brilliant Technique", 
                "parent_id": -1, 
@@ -4886,6 +5020,7 @@
                   "icon": 565
                }, 
                "id": 3, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Summon Artisan's Gathering Goblin", 
                "parent_id": 0, 
@@ -4914,6 +5049,7 @@
                   "icon": 561
                }, 
                "id": 4, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Summon Crafting Stations", 
                "parent_id": 0, 
@@ -4937,10 +5073,10 @@
                "cost": 1, 
                "description": "Further increases the artisan's durability gain.", 
                "effects": [
-                  "<ul><li>Increases the durability gain by 4.0%.</li></ul>", 
-                  "<ul><li>Increases the durability gain by 3.0%.</li></ul>", 
                   "<ul><li>Increases the durability gain by 1.0%.</li></ul>", 
                   "<ul><li>Increases the durability gain by 2.0%.</li></ul>", 
+                  "<ul><li>Increases the durability gain by 3.0%.</li></ul>", 
+                  "<ul><li>Increases the durability gain by 4.0%.</li></ul>", 
                   "<ul><li>Increases the durability gain by 5.0%.</li></ul>"
                ], 
                "icon": {
@@ -4948,6 +5084,7 @@
                   "icon": 27
                }, 
                "id": 5, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Grandmaster's Will", 
                "parent_id": 1, 
@@ -4974,16 +5111,17 @@
                "description": "Greatly increases the artisan's food and drink duration.", 
                "effects": [
                   "<ul><li>Improves the duration of food and drink by 5%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 25%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 15%</li></ul>", 
                   "<ul><li>Improves the duration of food and drink by 10%</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 20%</li></ul>"
+                  "<ul><li>Improves the duration of food and drink by 15%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 20%</li></ul>", 
+                  "<ul><li>Improves the duration of food and drink by 25%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 809
                }, 
                "id": 6, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Experimental Preservatives", 
                "parent_id": 1, 
@@ -5009,17 +5147,18 @@
                "cost": 1, 
                "description": "Increases the artisan's critical success rate.", 
                "effects": [
-                  "<ul><li>Increases critical success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 1.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 2.0%</li></ul>", 
                   "<ul><li>Increases critical success chance by 3.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 5.0%</li></ul>", 
-                  "<ul><li>Increases critical success chance by 4.0%</li></ul>"
+                  "<ul><li>Increases critical success chance by 4.0%</li></ul>", 
+                  "<ul><li>Increases critical success chance by 5.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 34
                }, 
                "id": 7, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Grandmaster's Design", 
                "parent_id": 2, 
@@ -5043,17 +5182,18 @@
                "cost": 1, 
                "description": "Increases the artisan's rate of progress.", 
                "effects": [
-                  "<ul><li>Increases the amount of progress gained by 3.0%.</li></ul>", 
-                  "<ul><li>Increases the amount of progress gained by 5.0%.</li></ul>", 
-                  "<ul><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
                   "<ul><li>Increases the amount of progress gained by 1.0%.</li></ul>", 
-                  "<ul><li>Increases the amount of progress gained by 2.0%.</li></ul>"
+                  "<ul><li>Increases the amount of progress gained by 2.0%.</li></ul>", 
+                  "<ul><li>Increases the amount of progress gained by 3.0%.</li></ul>", 
+                  "<ul><li>Increases the amount of progress gained by 4.0%.</li></ul>", 
+                  "<ul><li>Increases the amount of progress gained by 5.0%.</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 89
                }, 
                "id": 8, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Artisan's Discipline", 
                "parent_id": 2, 
@@ -5088,6 +5228,7 @@
                   "icon": 540
                }, 
                "id": 9, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Salvage", 
                "parent_id": 3, 
@@ -5111,17 +5252,18 @@
                "cost": 1, 
                "description": "Increases the Artisan's Ground and Mount Speed.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 8.0%</li><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 6.0%</li><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 10.0%</li><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases Ground Mount Speed of caster by 2.0%</li></ul>", 
                   "<ul><li>Increases speed of caster by 4.0%</li><li>Increases Ground Mount Speed of caster by 4.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases Ground Mount Speed of caster by 2.0%</li></ul>"
+                  "<ul><li>Increases speed of caster by 6.0%</li><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 8.0%</li><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases speed of caster by 10.0%</li><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 304
                }, 
                "id": 10, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Innovative Insoles", 
                "parent_id": 6, 
@@ -5145,17 +5287,18 @@
                "cost": 1, 
                "description": "Refunds a portion of a recipes build components upon recipe completion.", 
                "effects": [
-                  "<ul><li>Increases build components returned by 12.0%</li></ul>", 
-                  "<ul><li>Increases build components returned by 20.0%</li></ul>", 
-                  "<ul><li>Increases build components returned by 16.0%</li></ul>", 
                   "<ul><li>Increases build components returned by 4.0%</li></ul>", 
-                  "<ul><li>Increases build components returned by 8.0%</li></ul>"
+                  "<ul><li>Increases build components returned by 8.0%</li></ul>", 
+                  "<ul><li>Increases build components returned by 12.0%</li></ul>", 
+                  "<ul><li>Increases build components returned by 16.0%</li></ul>", 
+                  "<ul><li>Increases build components returned by 20.0%</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 45
                }, 
                "id": 11, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Systematic Conservation", 
                "parent_id": 7, 
@@ -5190,6 +5333,7 @@
                   "icon": 906
                }, 
                "id": 12, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Refine", 
                "parent_id": -1, 
@@ -5213,17 +5357,18 @@
                "cost": 1, 
                "description": "Allows the artisan to experiment on an item.  Experimentation can either add a proc, add a decoration, or boost the stats of an item.  Higher ranks of this ability increase the total amount of times you can experiment on an item.  Additionally, higher ranks of this ability will improve your experimentation reaction arts.", 
                "effects": [
+                  "<ul><li>Increases number of times experimentation can be applied to an item by 1.0</li></ul>", 
                   "<ul><li>Increases number of times experimentation can be applied to an item by 2.0</li></ul>", 
                   "<ul><li>Increases number of times experimentation can be applied to an item by 3.0</li></ul>", 
-                  "<ul><li>Increases number of times experimentation can be applied to an item by 1.0</li></ul>", 
-                  "<ul><li>Increases number of times experimentation can be applied to an item by 5.0</li></ul>", 
-                  "<ul><li>Increases number of times experimentation can be applied to an item by 4.0</li></ul>"
+                  "<ul><li>Increases number of times experimentation can be applied to an item by 4.0</li></ul>", 
+                  "<ul><li>Increases number of times experimentation can be applied to an item by 5.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 896
                }, 
                "id": 13, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Experimentation", 
                "parent_id": -1, 
@@ -5247,17 +5392,18 @@
                "cost": 1, 
                "description": "Enables the artisan to craft multiple items at a time.  Higher tiers of this ability increase the maximum crafting quantity.  Conservation of Mass does not apply when Mass Producing, and Mass Produced items will not count for quest updates.", 
                "effects": [
-                  "<ul><li>Increases max crafting quantity by 50.0</li></ul>", 
-                  "<ul><li>Increases max crafting quantity by 25.0</li></ul>", 
                   "<ul><li>Increases max crafting quantity by 5.0</li></ul>", 
-                  "<ul><li>Increases max crafting quantity by 100.0</li></ul>", 
-                  "<ul><li>Increases max crafting quantity by 10.0</li></ul>"
+                  "<ul><li>Increases max crafting quantity by 10.0</li></ul>", 
+                  "<ul><li>Increases max crafting quantity by 25.0</li></ul>", 
+                  "<ul><li>Increases max crafting quantity by 50.0</li></ul>", 
+                  "<ul><li>Increases max crafting quantity by 100.0</li></ul>"
                ], 
                "icon": {
                   "backdrop": 317, 
                   "icon": 31
                }, 
                "id": 14, 
+               "level": 0, 
                "max_level": 5, 
                "name": "Mass Production", 
                "parent_id": -1, 
