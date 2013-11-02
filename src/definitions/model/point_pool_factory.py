@@ -17,13 +17,18 @@ class PointPoolFactory:
     def _get_point_pools(self, trees):
         pools = {}
         
+        warder_trees = list(self._filter_warder_trees(trees))
+        
         for t in trees:
             if t.type in ["Prestige", "Tradeskill", "TradeskillPrestige"]:
                 pools[t.type] = self._make_pool(t.type, t.max_points)
             elif t.type == "Warder":
-                pools[t.type] = { "name": t.type, "child_pools": self._get_child_pools(trees) }
+                continue
             else:
                 pools["AA"] = self._make_pool("AA", self._global_aa_max)
+                
+        if len(warder_trees) > 0:
+            pools["Warder"] = { "name": "Warder", "child_pools": self._get_child_pools(warder_trees) }
                 
         return pools
     
@@ -40,9 +45,9 @@ class PointPoolFactory:
         else:
             return "AA"
         
-    def _get_child_pools(self, trees):
+    def _get_child_pools(self, warder_trees):
         pools = {}
-        for warder_tree in self._filter_warder_trees(trees):
+        for warder_tree in warder_trees:
             pools[warder_tree.name] = self._make_pool(warder_tree.name, warder_tree.max_points)
         return pools
         

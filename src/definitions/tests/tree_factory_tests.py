@@ -39,7 +39,7 @@ class TestTreeFactory(unittest.TestCase):
         self.assertEqual(result.id, self._tree_id)
         self.assertEqual(result.soe_id, tree_soe_id)
         self.assertEqual(result.name, tree["name"])
-        self.assertEqual(result.is_warder_tree, "true")
+        self.assertEqual(result.is_warder_tree, True)
 
     def test_create_populates_aa(self):
         aa_node = AABuilder().with_id(1).name("SomeAA").build()
