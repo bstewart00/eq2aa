@@ -60,8 +60,8 @@ class AAFactory(object):
                             "parent": aa_node.get("firstparentrequiredtier", 0)
                             }
 
-        spells_result = self._data_provider.spells(aa_node["spellcrc"])
-        spells = spells_result["spell_list"]
+        spells = self._data_provider.spells(aa_node["spellcrc"])["spell_list"]
+        
         icon = { "icon": spells[0]["icon"]["id"], "backdrop": spells[0]["icon"]["backdrop"] }
         effects = list(self._get_effects(spells))
                    
@@ -80,7 +80,7 @@ class AAFactory(object):
                   title=aa_node["title"])
         
     def _get_effects(self, spells):
-        for spell in spells:
+        for spell in sorted(spells, key=lambda s: s["tier"]):
             if 'effect_list' in spell:
                 yield self._spell_effect_formatter.format(spell["effect_list"])
 

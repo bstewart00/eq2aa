@@ -12,10 +12,10 @@ class TestAAFactory(unittest.TestCase):
         self._spell_effect_formatter = MagicMock()
         self.sut = AAFactory(self._data_provider, self._spell_effect_formatter, MagicMock())
         
-    def _setup_spells(self, expected_crc, returned_spell):
+    def _setup_spells(self, expected_crc, returned_spells):
         def _mock_spells(crc):
             if crc == expected_crc:
-                return { "spell_list": [returned_spell] }
+                return { "spell_list": returned_spells }
         self._data_provider.spells.side_effect = _mock_spells
         
     def test_create_maps_basic_properties(self):
@@ -36,22 +36,22 @@ class TestAAFactory(unittest.TestCase):
         self.assertEqual(result.cost, aa_node["pointspertier"])
         self.assertEqual(result.children, [])
         
-    def test_create_fetches_effects(self):
+    def test_create_fetches_effects_in_order(self):
         aa_node = AABuilder().spellcrc(123).build()
-        spell = SpellBuilder().with_crc(123).add_effect('effect1', 1).build()
-        self._setup_spells(123, spell)
+        spell_rank5 = SpellBuilder().with_crc(123).rank(5).add_effect('Rank5', 1).build()
+        spell_rank1 = SpellBuilder().with_crc(123).rank(1).add_effect('Rank1', 1).build()
+        self._setup_spells(123, [spell_rank5, spell_rank1])
         
-        formatted_effects = "SomeFormattedEffects"
-        self._spell_effect_formatter.format.side_effect = lambda effects: formatted_effects if effects == spell["effect_list"] else None 
+        self._spell_effect_formatter.format.side_effect = lambda effects: effects[0]["description"] + "Formatted" 
         
         result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
         
-        self.assertEqual(result.effects, [formatted_effects])
+        self.assertEqual(result.effects, ["Rank1Formatted", "Rank5Formatted"])
         
     def test_create_sets_icon_ids(self):
         aa_node = AABuilder().spellcrc(123).build()
         spell = SpellBuilder().with_crc(123).backdrop(50).icon(100).build()
-        self._setup_spells(123, spell)
+        self._setup_spells(123, [spell])
         
         result = self.sut.create(aa_node, self._lineage, self._class_name, self._tree_name)
         
