@@ -33,7 +33,6 @@ class AAFactory(object):
     
     def _remap_parent_ids(self, aa):        
         parent_ids_map = { soe_id: new_id for soe_id, new_id in map(lambda a: [a.soe_id, a.id], aa)}
-        parent_ids_map[-1] = -1
         
         for i in aa:
             i.parent_ids = list(map(lambda x: parent_ids_map[x], i.parent_ids))
@@ -67,7 +66,9 @@ class AAFactory(object):
         icon = { "icon": spells[0]["icon"]["id"], "backdrop": spells[0]["icon"]["backdrop"] }
         effects = list(self._get_effects(spells))
         
-        parents = [aa_node.get("firstparentid", -1)]
+        parents = []
+        if "firstparentid" in aa_node:
+            parents.append(aa_node["firstparentid"])
                    
         return AA(id_,
                   aa_node["nodeid"],
