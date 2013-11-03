@@ -37,12 +37,13 @@ class AADefinitionApplication:
         point_pool_factory = PointPoolFactory()
         class_factory = EQ2ClassFactory(data_provider, tree_factory, point_pool_factory, logger)
         
-        json_writer = JsonFileWriter('./output/', logger)
+        json_writer = JsonFileWriter(logger)
         
         classes = list(class_factory.create_classes())
         
         for c in classes:
-            json_writer.write(c.to_dict(), c.name)
+            json_writer.write(c.to_dict(), './output/' + c.name + '.json', indent=3)
+            json_writer.write(c.to_dict(), './output_min/' + c.name + '.json')
         
         end_time = datetime.datetime.now()
         logger.log('Done in {0}'.format(end_time - start_time))
