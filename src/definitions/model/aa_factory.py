@@ -8,8 +8,8 @@ class AAFactory(object):
         self._coord_mapper = coord_mapper
         self._logger = logger
         
-    def create_all(self, aa_nodes, lineage, class_name, tree_name, tree_type):
-        aa = list([self.create(aa_node, lineage, class_name, tree_name) for aa_node in aa_nodes])
+    def create_all(self, aa_nodes, lineage, class_name, tree_name, tree_type, tree_y_subclass):
+        aa = list([self.create(aa_node, lineage, class_name, tree_name, tree_y_subclass) for aa_node in aa_nodes])
         aa = self._sort_aa_by_coords(aa)
         aa = self._reorder_ids(aa)
         aa = self._remap_parent_ids(aa)
@@ -46,7 +46,7 @@ class AAFactory(object):
     def _find_orphans(self, aa):
         return list([i.id for i in aa if i.parent_ids.count(-1) == len(i.parent_ids)])
 
-    def create(self, aa_node, lineage, class_name, tree_name):
+    def create(self, aa_node, lineage, class_name, tree_name, tree_y_subclass):
         self._logger.log('Processing AA {0}...'.format(aa_node["name"]))
         
         id_ = 0
@@ -56,7 +56,7 @@ class AAFactory(object):
 
         prereqs = {"global": aa_node["pointsspentgloballytounlock"],
                    "tree": aa_node["pointsspentintreetounlock"],
-                   "subtree": aa_node["classificationpointsrequired"],
+                   "subtree": self._calculate_subtree_prereq(aa_node, tree_y_subclass),
                    "parent": aa_node.get("firstparentrequiredtier", 0) # So far, optionalfirstparentrequiredtier will always be the same as firstparentrequiredtier so we only need to store it once
                    }
         prereqs[ "parent_subtree"] = self._calculate_parent_subtree_prereq(subclass, max_level, lineage, class_name, tree_name, prereqs)
@@ -85,6 +85,14 @@ class AAFactory(object):
                   icon,
                   prereqs,
                   title=aa_node["title"])
+        
+    def _calculate_subtree_prereq(self, aa_node, tree_y_subclass):
+        points = aa_node["classificationpointsrequired"]
+        if points > 0:
+            return points
+        if aa_node["classification"] == tree_y_subclass:
+            return aa_node["pointspertier"]
+        return 0
         
     def _get_effects(self, spells):
         for spell in sorted(spells, key=lambda s: s["tier"]):

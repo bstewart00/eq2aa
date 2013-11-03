@@ -19,7 +19,7 @@ class TestTreeFactory(unittest.TestCase):
         
         
     def _setup_tree(self, tree):
-        def _create_all_aa(aa_nodes, lineage, class_name, tree_name, tree_type):
+        def _create_all_aa(aa_nodes, lineage, class_name, tree_name, tree_type, y_subclass):
             if (aa_nodes is tree["alternateadvancementnode_list"] and lineage is self._lineage and class_name == self._class_name and tree_name == tree["name"]):
                 return self._aa, self._orphans, self._subtrees
             
