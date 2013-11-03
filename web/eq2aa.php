@@ -80,7 +80,7 @@
             </div>
         </div>
         <div id="footer">
-            <span class="version">Everquest 2 AA Calculator (Version 1.0.11 2013-08-25)</span>
+            <span class="version">Everquest 2 AA Calculator (Version 1.0.12 2013-11-3)</span>
             <span class="copy">&copy; 2013 Brett Stewart</span>
             <div class="links">
                 <a href="docs/api">api</a>
