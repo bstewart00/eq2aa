@@ -312,7 +312,7 @@ Beetny.EQ2AA.Model.AA = Class.extend({
 		hasBackdrop : function () {
 			return this.icon.backdrop > -1
 		},
-		hasParent : function () {
+		hasParents : function () {
 			return this.parent_id > -1
 		},
 		parent : function () {

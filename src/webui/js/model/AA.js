@@ -19,12 +19,18 @@ Beetny.EQ2AA.Model.AA = Class.extend({
       return this.icon.backdrop > -1;
    },
 
-   hasParent: function() {
+   hasParents: function() {
       return this.parent_ids.length > 0;
    },
 
    parent: function() {
-      return this.hasParent() ? this.tree.aa[this.parent_ids[0]] : null;
+      return this.hasParents() ? this.tree.aa[this.parent_ids[0]] : null;
+   },
+
+   parents: function() {
+      return this.parent_ids.map(function(id) {
+         return this.tree.aa[id];
+      }, this);
    },
 
    parentSubtreeName: function() {
@@ -59,7 +65,9 @@ Beetny.EQ2AA.Model.AA = Class.extend({
       },
 
       "parent": function(required_level) {
-         return this.parent().level >= required_level;
+         return this.parents().some(function(parent) {
+            return parent.level >= required_level;
+         });
       }
 
    },

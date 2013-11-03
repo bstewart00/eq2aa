@@ -49,9 +49,10 @@ Beetny.EQ2AA.Model.Tree = Class.extend({
    reclaimIllegalPoints: function() {
       var deferred = [];
       this.aa.forEach(function(aa) {
-         var parent = aa.parent()
-         if (parent)
+         aa.parents().forEach(function(parent) {
             reclaimAAIfIllegal.call(this, parent);
+         }, this);
+
          if (aa.subclass === this.y_subclass) {
             deferred.push(aa);
             return true
@@ -59,6 +60,7 @@ Beetny.EQ2AA.Model.Tree = Class.extend({
          reclaimAAIfIllegal.call(this, aa)
       }, this);
       deferred.map(reclaimAAIfIllegal, this);
+
       function reclaimAAIfIllegal(aa) {
          if (aa.level > 0 && !aa.satisfiesPrerequisites()) {
             var pointsReclaimed = -aa.level * aa.cost;
