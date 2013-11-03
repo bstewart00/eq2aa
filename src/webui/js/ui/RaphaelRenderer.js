@@ -60,8 +60,8 @@ Beetny.EQ2AA.Rendering.RaphaelRenderer = Class.extend({
 			}
 			function linesToParent() {
 				var path = null;
-				if (aa.parent_id > -1) {
-					var parent = tree.aa[aa.parent_id];
+				if (aa.hasParent()) {
+					var parent = aa.parent();
 					var x1 = aa.coords[0] +
 						iconSize / 2;
 					var y1 = aa.coords[1] + iconSize / 2;
