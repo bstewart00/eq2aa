@@ -84,37 +84,44 @@ Beetny.EQ2AA.Tooltips = {
                };
                var result = "";
                if (aa.prereqs[prereqName] > 0) {
-                  var replacements = getReplacementTokens(prereqName);
-                  var text = prereqText[prereqName].replace("{0}", replacements[0]).replace("{1}", replacements[1]);
+                  var text = getPrereqText(prereqName);
                   result = listItem(text)
                }
                return result
             }
 
-            function getReplacementTokens(prereqName) {
-               var tokens = [];
+            function getPrereqText(prereqName) {
+               var prereqText = {
+                  global: "Requires {0} points spent globally.",
+                  tree: "Requires {0} points spent in the {1} tree.",
+                  subtree: "Requires {0} points spent in {1}",
+                  parent_subtree: "Requires {0} points spent in {1}",
+                  parent: "Requires {0} (Rank {1})",
+                  second_parent: "{0} (Rank {1})"
+               };
+
+               var pointsNeeded = aa.prereqs[prereqName];
+
                switch (prereqName) {
                   case "global":
-                     tokens.push(aa.prereqs[prereqName]);
-                     break;
+                     return prereqText.global.replace("{0}", pointsNeeded);
                   case "tree":
-                     tokens.push(aa.prereqs[prereqName]);
-                     tokens.push(aa.tree.name);
-                     break;
+                     return prereqText.tree.replace("{0}", pointsNeeded).replace("{1}", aa.tree.name);
                   case "subtree":
-                     tokens.push(aa.prereqs[prereqName]);
-                     tokens.push(aa.subclass);
-                     break;
+                     return prereqText.subtree.replace("{0}", pointsNeeded).replace("{1}", aa.subclass);
                   case "parent_subtree":
-                     tokens.push(aa.prereqs[prereqName]);
-                     tokens.push(aa.parentSubtreeName());
-                     break;
+                     return prereqText.subtree.replace("{0}", pointsNeeded).replace("{1}", aa.parentSubtreeName());
                   case "parent":
-                     tokens.push(aa.parent().name);
-                     tokens.push(aa.prereqs[prereqName]);
-                     break
+                     var parents = aa.parents();
+                     var result = prereqText.parent.replace("{0}", parents[0].name).replace("{1}", pointsNeeded);
+                     
+                     if (parents.length == 2) {
+                        result += " or " +  prereqText.second_parent.replace("{0}", parents[1].name).replace("{1}", pointsNeeded);
+                     }
+                     
+                     return result;
                }
-               return tokens
+               return "";
             }
 
             function makeTitleItem() {
@@ -135,4 +142,4 @@ Beetny.EQ2AA.Tooltips = {
 
    }
 
-}; 
+};
