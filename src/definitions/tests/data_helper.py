@@ -191,6 +191,9 @@ class AABuilder(object):
         
         if len(self._parent_ids) > 0:
             result["firstparentid"] = self._parent_ids[0]
+            
+        if len(self._parent_ids) == 2:
+            result["optionalfirstparentid"] = self._parent_ids[1]
         
         return result
 

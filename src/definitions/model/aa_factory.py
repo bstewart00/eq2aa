@@ -57,7 +57,7 @@ class AAFactory(object):
         prereqs = {"global": aa_node["pointsspentgloballytounlock"],
                    "tree": aa_node["pointsspentintreetounlock"],
                    "subtree": aa_node["classificationpointsrequired"],
-                   "parent": aa_node.get("firstparentrequiredtier", 0)
+                   "parent": aa_node.get("firstparentrequiredtier", 0) # So far, optionalfirstparentrequiredtier will always be the same as firstparentrequiredtier so we only need to store it once
                    }
         prereqs[ "parent_subtree"] = self._calculate_parent_subtree_prereq(subclass, max_level, lineage, class_name, tree_name, prereqs)
 
@@ -69,6 +69,8 @@ class AAFactory(object):
         parents = []
         if "firstparentid" in aa_node:
             parents.append(aa_node["firstparentid"])
+        if "optionalfirstparentid" in aa_node:
+            parents.append(aa_node["optionalfirstparentid"])
                    
         return AA(id_,
                   aa_node["nodeid"],

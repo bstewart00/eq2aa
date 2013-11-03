@@ -191,4 +191,11 @@ class TestAAFactory(unittest.TestCase):
 
         self.assertEqual(subtrees,  { 'Subclass1': 0, 'Subclass2': 0 })
         
-        
+    def test_create_sets_multiple_parents(self):
+        aa_nodes = [AABuilder().with_id(0).build(),
+                    AABuilder().with_id(1).build(),
+                    AABuilder().with_id(2).parent_ids([0, 1]).build()] 
+
+        aa, orphans, subtrees = self.sut.create_all(aa_nodes, self._lineage, self._class_name, self._tree_name, self._tree_type)
+
+        self.assertEqual(aa[2].parent_ids, [0, 1])
