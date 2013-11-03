@@ -93,7 +93,7 @@ class AABuilder(object):
         self._title = "SomeTitle"
         self._max_level = 2
         self._subclass = "Subclass"
-        self._parent_ids = -1
+        self._parent_ids = [-1]
         self._global_prereqs = 0
         self._tree_prereqs = 0
         self._subtree_prereqs = 0
@@ -130,8 +130,8 @@ class AABuilder(object):
         self._subclass = name
         return self
 
-    def parent_ids(self, id_):
-        self._parent_ids = id_
+    def parent_ids(self, ids):
+        self._parent_ids = ids
         return self
 
     def requires_parent_points(self, n):
@@ -189,8 +189,8 @@ class AABuilder(object):
                 "icon": {"backdrop": self._icon_backdrop, "id": self._icon_id }
                 }
         
-        if self._parent_ids > -1:
-            result["firstparentid"] = self._parent_ids
+        if self._parent_ids[0] > -1:
+            result["firstparentid"] = self._parent_ids[0]
         
         return result
 

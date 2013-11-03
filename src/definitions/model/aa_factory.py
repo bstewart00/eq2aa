@@ -12,7 +12,7 @@ class AAFactory(object):
         aa = list([self.create(aa_node, lineage, class_name, tree_name) for aa_node in aa_nodes])
         aa = self._sort_aa_by_coords(aa)
         aa = self._reorder_ids(aa)
-        aa = self._remap_parent_idss(aa)
+        aa = self._remap_parent_ids(aa)
         aa = self._populate_aa_children(aa)
         aa = self._map_coords(aa, tree_type)
         
@@ -31,21 +31,21 @@ class AAFactory(object):
             next_id += 1
         return aa
     
-    def _remap_parent_idss(self, aa):        
+    def _remap_parent_ids(self, aa):        
         parent_ids_map = { soe_id: new_id for soe_id, new_id in map(lambda a: [a.soe_id, a.id], aa)}
+        parent_ids_map[-1] = -1
         
         for i in aa:
-            if i.parent_ids != -1:
-                i.parent_ids = parent_ids_map[i.parent_ids]
+            i.parent_ids = list(map(lambda x: parent_ids_map[x], i.parent_ids))
         return aa
     
     def _populate_aa_children(self, aa):
         for i in aa:
-            i.children = [child.id for child in aa if child.parent_ids == i.id]
+            i.children = [child.id for child in aa if i.id in child.parent_ids]
         return aa
     
     def _find_orphans(self, aa):
-        return list([i.id for i in aa if i.parent_ids == -1])
+        return list([i.id for i in aa if i.parent_ids.count(-1) == len(i.parent_ids)])
 
     def create(self, aa_node, lineage, class_name, tree_name):
         self._logger.log('Processing AA {0}...'.format(aa_node["name"]))
@@ -66,10 +66,12 @@ class AAFactory(object):
         
         icon = { "icon": spells[0]["icon"]["id"], "backdrop": spells[0]["icon"]["backdrop"] }
         effects = list(self._get_effects(spells))
+        
+        parents = [aa_node.get("firstparentid", -1)]
                    
         return AA(id_,
                   aa_node["nodeid"],
-                  aa_node.get("firstparentid", -1),
+                  parents,
                   aa_node["name"],
                   aa_node["description"],
                   aa_node["pointspertier"],
