@@ -1,8 +1,8 @@
 class AA(object):
-    def __init__(self, id_, soe_id, parent_id, name, description, cost, max_level, subclass, coords, effects, icon, prereqs, children = [], title = ""):
+    def __init__(self, id_, soe_id, parent_ids, name, description, cost, max_level, subclass, coords, effects, icon, prereqs, children = [], title = ""):
         self.id = id_
         self.soe_id = soe_id
-        self.parent_id = parent_id
+        self.parent_ids = parent_ids
         
         self.name = name
         self.description = description
@@ -23,7 +23,7 @@ class AA(object):
         return {
                 "id": self.id,
                 "soe_id": self.soe_id,
-                "parent_id": self.parent_id,
+                "parent_ids": self.parent_ids,
                 "name": self.name,
                 "description": self.description,
                 "cost": self.cost,

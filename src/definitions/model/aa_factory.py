@@ -12,7 +12,7 @@ class AAFactory(object):
         aa = list([self.create(aa_node, lineage, class_name, tree_name) for aa_node in aa_nodes])
         aa = self._sort_aa_by_coords(aa)
         aa = self._reorder_ids(aa)
-        aa = self._remap_parent_ids(aa)
+        aa = self._remap_parent_idss(aa)
         aa = self._populate_aa_children(aa)
         aa = self._map_coords(aa, tree_type)
         
@@ -31,21 +31,21 @@ class AAFactory(object):
             next_id += 1
         return aa
     
-    def _remap_parent_ids(self, aa):        
-        parent_id_map = { soe_id: new_id for soe_id, new_id in map(lambda a: [a.soe_id, a.id], aa)}
+    def _remap_parent_idss(self, aa):        
+        parent_ids_map = { soe_id: new_id for soe_id, new_id in map(lambda a: [a.soe_id, a.id], aa)}
         
         for i in aa:
-            if i.parent_id != -1:
-                i.parent_id = parent_id_map[i.parent_id]
+            if i.parent_ids != -1:
+                i.parent_ids = parent_ids_map[i.parent_ids]
         return aa
     
     def _populate_aa_children(self, aa):
         for i in aa:
-            i.children = [child.id for child in aa if child.parent_id == i.id]
+            i.children = [child.id for child in aa if child.parent_ids == i.id]
         return aa
     
     def _find_orphans(self, aa):
-        return list([i.id for i in aa if i.parent_id == -1])
+        return list([i.id for i in aa if i.parent_ids == -1])
 
     def create(self, aa_node, lineage, class_name, tree_name):
         self._logger.log('Processing AA {0}...'.format(aa_node["name"]))
