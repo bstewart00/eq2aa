@@ -12,13 +12,6 @@ import os
 import datetime
 
 class AADefinitionApplication:
-    """
-            1. For all classes in filtered list
-            2. ClassFactory.create_classes([filter]
-            3. Write classes to disk
-            4. Request and save all icons 
-            4. CSS sprite processing
-    """                                         
     def run(self):
         start_time = datetime.datetime.now() 
         
@@ -42,6 +35,9 @@ class AADefinitionApplication:
         classes = list(class_factory.create_classes())
         
         for c in classes:
+            # icon_downloader.download_all(class)
+            # sprite_generator.generate(class), also does CSS
+            
             json_writer.write(c.to_dict(), './output/' + c.name + '.json', indent=3)
             json_writer.write(c.to_dict(), './output_min/' + c.name + '.json')
         
