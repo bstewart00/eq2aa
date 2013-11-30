@@ -1,0 +1,125 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.eriwen:gradle-js-plugin:1.8.0'
+        classpath 'com.eriwen:gradle-css-plugin:1.8.0'
+    }
+}
+
+/*
+ * Gets the version name from the latest Git tag
+ */
+def getVersionName = { ->
+    def stdout = new ByteArrayOutputStream()
+    exec {
+        commandLine 'git', 'describe', '--tags'
+        standardOutput = stdout
+    }
+    return stdout.toString().trim()
+}
+
+// Invoke the plugin
+apply plugin: 'js'
+apply plugin: 'css'
+
+def srcDir = "${projectDir}/src"
+def jsSrcDir = "${srcDir}/webui/js/"
+def webDir = "${projectDir}/web"
+def distDir = "${projectDir}/dist"
+def treesDir = "${srcDir}/definitions/output_min"
+
+task hello {
+    doLast {
+        currentTime = new java.util.Date()
+        java.text.SimpleDateFormat f = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss z")
+        f.setTimeZone(TimeZone.getTimeZone("UTC"))
+        
+        javascript.print.each {File file ->
+            println file
+        }
+    }
+}
+
+task dist(dependsOn: ['copyWebDir', 'copyScripts', 'copyTreeDefinitions']) {    
+    
+
+}
+
+task copyWebDir(type: Copy) {
+    from "${webDir}"
+    into "${distDir}/eq2aa"
+    include '**/*'
+}
+
+task copyScripts(type: Copy) {
+    from "${jsSrcDir}"
+    into "${distDir}/eq2aa/js"
+    include '*.js'
+}
+
+task copyTreeDefinitions(type: Copy) {
+    from "${treesDir}"
+    into "${distDir}/eq2aa/js/trees"
+    include "*.json"
+}
+
+task clean(type: Delete) {
+   delete "build", "dist"
+}
+
+task deployTest(dependsOn: dist) {
+
+}
+
+javascript.common = files(
+    "util/utils.js",
+    "util/shims.js",
+    "Constants.js",
+    "GameVersions.js"
+) + fileTree(jsSrcDir) {
+    include "io/**/*.js"
+    include "lib/**/*.js"
+    include "model/**/*.js"
+    include "ui/**/*.js"
+}
+
+javascript.main = javascript.common + files(
+    "XmlBuilder.js", 
+    "Main.js",
+    "eq2aa_entry.js"
+)
+
+javascript.print = javascript.common + files(
+    "print_entry.js"
+)
+
+task combinejs(type: com.eriwen.gradle.js.tasks.CombineJsTask) {
+    source = []
+    dest = file("${buildDir}/all.js")
+}
+
+task minifyjs(type: com.eriwen.gradle.js.tasks.MinifyJsTask) {
+    source = combinejs
+    dest = file("${buildDir}/all-min.js")
+    closure {
+        warningLevel = 'QUIET'
+    }
+}
+
+task gzipjs(type: com.eriwen.gradle.js.tasks.GzipJsTask) {
+    source = minifyjs
+    dest = file("${buildDir}/all-min.js")
+}
+
+task jshintjs(type: com.eriwen.gradle.js.tasks.JsHintTask) {
+    source = fileTree(dir: jsSrcDir, include: '**/*.js')
+    dest = file("${buildDir}/jshint.out")
+    jshint.options = [
+        trailing: "true",
+        immed: "true",
+        newcap: "true",
+        eqeqeq: "true"
+    ]
+}
