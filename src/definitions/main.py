@@ -53,6 +53,7 @@ class AADefinitionApplication:
             
             json_writer.write(c.to_dict(), './output/' + c.name + '.json', indent=3)
             json_writer.write(c.to_dict(), './output_min/' + c.name + '.json')
+            break
         
         end_time = datetime.datetime.now()
         logger.log('Done in {0}'.format(end_time - start_time))

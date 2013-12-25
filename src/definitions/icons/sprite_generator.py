@@ -13,7 +13,7 @@ class SpriteGenerator(object):
         os.makedirs(class_dir_path, exist_ok=True)
         
         for tree in class_.trees:
-            tree_dir_path = os.path.join(class_dir_path, tree.name)
+            tree_dir_path = os.path.join(class_dir_path, tree.type)
             os.makedirs(tree_dir_path, exist_ok=True)
             
             for aa in tree.aa:
