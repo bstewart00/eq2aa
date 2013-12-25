@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730458.932297,
+    "min_ts": 1387584199.655892,
     "returned": 1,
-    "seconds": 0.015881061553955078,
+    "seconds": 0.019467830657958984,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1862294796,
             "deity": 0,
-            "description": "The warden gains additional Crit Bonus from Potency.",
-            "description_pvp": "The warden gains additional Crit Bonus from Potency.",
+            "description": "The warden gains additional Potency based on their current Potency.",
+            "description_pvp": "The warden gains additional Potency based on their current Potency.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "For every 12 points of Potency, the caster gains 1% Crit Bonus.",
+                    "description": "For every 12 points of Potency, the caster gains an additional 1% Potency.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 272
             },
             "id": 3713942404,
-            "last_update": 1366730458.932297,
+            "last_update": 1387584199.655892,
             "level": 0,
             "max_targets": 0,
             "name": "Potent Restorer",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730458.932297,
+            "ts": 1387584199.655892,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

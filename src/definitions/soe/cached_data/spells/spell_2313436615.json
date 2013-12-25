@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.746305,
+    "min_ts": 1387584976.94901,
     "returned": 5,
-    "seconds": 0.016167163848876953,
+    "seconds": 0.015870094299316406,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,186 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the attribute gains of the rogue's self buff by 5%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Adds an additional stamina component to the rogue's self buff",
                     "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 294
-            },
-            "id": 2122114629,
-            "last_update": 1366730648.714501,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Battle Endurance",
-            "name_lower": "battle endurance",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730648.714501,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
                 },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2313436615,
-            "deity": 0,
-            "description": "Adds additional stamina to the Rogue's Bladeweaver and Street Smarts line of spells.  It also increases the strength and agility found in those spell lines.",
-            "description_pvp": "Adds additional stamina to the Rogue's Bladeweaver and Street Smarts line of spells.  It also increases the strength and agility found in those spell lines.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the attribute gains of the rogue's self buff by 10%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds an additional stamina component to the rogue's self buff",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 294
-            },
-            "id": 35505054,
-            "last_update": 1366730642.683207,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Battle Endurance",
-            "name_lower": "battle endurance",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730642.683207,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2313436615,
-            "deity": 0,
-            "description": "Adds additional stamina to the Rogue's Bladeweaver and Street Smarts line of spells.  It also increases the strength and agility found in those spell lines.",
-            "description_pvp": "Adds additional stamina to the Rogue's Bladeweaver and Street Smarts line of spells.  It also increases the strength and agility found in those spell lines.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the attribute gains of the rogue's self buff by 20%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds an additional stamina component to the rogue's self buff",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 294
-            },
-            "id": 4208953384,
-            "last_update": 1366730637.228433,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Battle Endurance",
-            "name_lower": "battle endurance",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730637.228433,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2313436615,
-            "deity": 0,
-            "description": "Adds additional stamina to the Rogue's Bladeweaver and Street Smarts line of spells.  It also increases the strength and agility found in those spell lines.",
-            "description_pvp": "Adds additional stamina to the Rogue's Bladeweaver and Street Smarts line of spells.  It also increases the strength and agility found in those spell lines.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
                 {
                     "description": "Improves the attribute gains of the rogue's self buff by 25%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds an additional stamina component to the rogue's self buff",
                     "indentation": 0
                 }
             ],
@@ -221,7 +49,7 @@
                 "id": 294
             },
             "id": 1741711710,
-            "last_update": 1366730630.867697,
+            "last_update": 1387584977.285702,
             "level": 0,
             "max_targets": 0,
             "name": "Battle Endurance",
@@ -231,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730630.867697,
+            "ts": 1387584977.285702,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +94,71 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the attribute gains of the rogue's self buff by 15%.",
+                    "description": "Adds an additional stamina component to the rogue's self buff",
                     "indentation": 0
                 },
                 {
+                    "description": "Improves the attribute gains of the rogue's self buff by 20%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 294
+            },
+            "id": 4208953384,
+            "last_update": 1387584977.170313,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Battle Endurance",
+            "name_lower": "battle endurance",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584977.170313,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2313436615,
+            "deity": 0,
+            "description": "Adds additional stamina to the Rogue's Bladeweaver and Street Smarts line of spells.  It also increases the strength and agility found in those spell lines.",
+            "description_pvp": "Adds additional stamina to the Rogue's Bladeweaver and Street Smarts line of spells.  It also increases the strength and agility found in those spell lines.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
                     "description": "Adds an additional stamina component to the rogue's self buff",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the attribute gains of the rogue's self buff by 15%.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +169,7 @@
                 "id": 294
             },
             "id": 2668765928,
-            "last_update": 1366730443.746305,
+            "last_update": 1387584977.084663,
             "level": 0,
             "max_targets": 0,
             "name": "Battle Endurance",
@@ -289,10 +179,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730443.746305,
+            "ts": 1387584977.084663,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2313436615,
+            "deity": 0,
+            "description": "Adds additional stamina to the Rogue's Bladeweaver and Street Smarts line of spells.  It also increases the strength and agility found in those spell lines.",
+            "description_pvp": "Adds additional stamina to the Rogue's Bladeweaver and Street Smarts line of spells.  It also increases the strength and agility found in those spell lines.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Adds an additional stamina component to the rogue's self buff",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the attribute gains of the rogue's self buff by 10%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 294
+            },
+            "id": 35505054,
+            "last_update": 1387584977.029218,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Battle Endurance",
+            "name_lower": "battle endurance",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584977.029218,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2313436615,
+            "deity": 0,
+            "description": "Adds additional stamina to the Rogue's Bladeweaver and Street Smarts line of spells.  It also increases the strength and agility found in those spell lines.",
+            "description_pvp": "Adds additional stamina to the Rogue's Bladeweaver and Street Smarts line of spells.  It also increases the strength and agility found in those spell lines.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Adds an additional stamina component to the rogue's self buff",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the attribute gains of the rogue's self buff by 5%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 294
+            },
+            "id": 2122114629,
+            "last_update": 1387584976.94901,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Battle Endurance",
+            "name_lower": "battle endurance",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584976.94901,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

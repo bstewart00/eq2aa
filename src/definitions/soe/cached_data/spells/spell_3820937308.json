@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730587.767517,
+    "min_ts": 1387584417.883259,
     "returned": 1,
-    "seconds": 0.014300107955932617,
+    "seconds": 0.015599966049194336,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,22 +38,26 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases Mitigation of target vs elemental, noxious and arcane damage by 23",
+                    "description": "Decreases Mitigation of target vs noxious and arcane damage by 23",
                     "indentation": 1
                 },
                 {
                     "description": "Inflicts 8 - 12 magic damage on target",
                     "indentation": 1
+                },
+                {
+                    "description": "Decreases Mitigation of target vs elemental damage by 23",
+                    "indentation": 1
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 908
             },
             "id": 3385849204,
-            "last_update": 1366730587.767517,
+            "last_update": 1387584417.883259,
             "level": 0,
             "max_targets": 0,
             "name": "Minion's Mark",
@@ -61,10 +67,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730587.767517,
+            "ts": 1387584417.883259,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

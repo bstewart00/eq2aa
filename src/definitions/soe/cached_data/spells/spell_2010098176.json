@@ -2,8 +2,64 @@
     "limit": 10,
     "min_ts": 1366730429.886957,
     "returned": 5,
-    "seconds": 0.019387006759643555,
+    "seconds": 0.015716075897216797,
     "spell_list": [
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2010098176,
+            "deity": 0,
+            "description": "Removes the cast time and reduces the base reuse time of Cure Magic.",
+            "description_pvp": "Removes the cast time and reduces the base reuse time of Cure Magic.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Cure Magic will cast instantly and have its base reuse lowered to 7.5 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 150
+            },
+            "id": 2382040352,
+            "last_update": 1387584169.979485,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Instantaneous Cure",
+            "name_lower": "instantaneous cure",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584169.979485,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
         {
             "alternate_advancement": 1,
             "aoe_radius_meters": 0.0,
@@ -54,60 +110,6 @@
             "tier": 4,
             "tier_name": "Journeyman",
             "ts": 1366730621.224322,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2010098176,
-            "deity": 0,
-            "description": "As a master of disease, the necromancer can purge themselves of noxious based effects.",
-            "description_pvp": "As a master of disease, the necromancer can purge themselves of noxious based effects.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Adds an additional effect to Cure: Arcane which removes noxious effects.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 150
-            },
-            "id": 2382040352,
-            "last_update": 1366730591.617345,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Noxious Cleansing",
-            "name_lower": "noxious cleansing",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730591.617345,
             "type": "pcinnates",
             "typeid": 4,
             "version": 1

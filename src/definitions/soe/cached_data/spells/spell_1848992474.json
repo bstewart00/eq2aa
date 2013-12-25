@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.457199,
+    "min_ts": 1387584809.616508,
     "returned": 10,
-    "seconds": 0.01749396324157715,
+    "seconds": 0.02483391761779785,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Mesmerizes target",
+                    "description": "Prevents AOE (except when direct) ",
                     "indentation": 0
                 },
                 {
-                    "description": "Prevents AOE (except when direct) ",
+                    "description": "Mesmerizes target",
                     "indentation": 0
                 },
                 {
@@ -59,7 +61,7 @@
                 "id": 679
             },
             "id": 3898058556,
-            "last_update": 1366730648.964661,
+            "last_update": 1387584810.557182,
             "level": 0,
             "max_targets": 0,
             "name": "Calm",
@@ -69,10 +71,10 @@
             "spellbook": 0,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730648.964661,
+            "ts": 1387584810.557182,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -82,358 +84,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 1848992474,
-            "deity": 0,
-            "description": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
-            "description_pvp": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 144,
-                "min_sec_tenths": 144
-            },
-            "effect_list": [
-                {
-                    "description": "Mesmerizes target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Prevents AOE (except when direct) ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Dispelled when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Does not affect Epic targets",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 679
-            },
-            "id": 532728136,
-            "last_update": 1366730643.181129,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Calm",
-            "name_lower": "calm",
-            "recast_secs": 44.466404,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730643.181129,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 120,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 1848992474,
-            "deity": 0,
-            "description": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
-            "description_pvp": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 168,
-                "min_sec_tenths": 168
-            },
-            "effect_list": [
-                {
-                    "description": "Mesmerizes target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Prevents AOE (except when direct) ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Dispelled when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Does not affect Epic targets",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 679
-            },
-            "id": 4272819685,
-            "last_update": 1366730632.797,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Calm",
-            "name_lower": "calm",
-            "recast_secs": 44.466404,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730632.797,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 120,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 1848992474,
-            "deity": 0,
-            "description": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
-            "description_pvp": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 106,
-                "min_sec_tenths": 106
-            },
-            "effect_list": [
-                {
-                    "description": "Mesmerizes target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Prevents AOE (except when direct) ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Dispelled when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Does not affect Epic targets",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 679
-            },
-            "id": 107759187,
-            "last_update": 1366730585.95663,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Calm",
-            "name_lower": "calm",
-            "recast_secs": 44.466404,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730585.95663,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 120,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 1848992474,
-            "deity": 0,
-            "description": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
-            "description_pvp": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 132,
-                "min_sec_tenths": 132
-            },
-            "effect_list": [
-                {
-                    "description": "Mesmerizes target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Prevents AOE (except when direct) ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Dispelled when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Does not affect Epic targets",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 679
-            },
-            "id": 2194614334,
-            "last_update": 1366730464.651822,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Calm",
-            "name_lower": "calm",
-            "recast_secs": 44.466404,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730464.651822,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 120,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 1848992474,
-            "deity": 0,
-            "description": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
-            "description_pvp": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 180,
-                "min_sec_tenths": 180
-            },
-            "effect_list": [
-                {
-                    "description": "Mesmerizes target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Prevents AOE (except when direct) ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Dispelled when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Does not affect Epic targets",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 679
-            },
-            "id": 2822420755,
-            "last_update": 1366730463.435716,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Calm",
-            "name_lower": "calm",
-            "recast_secs": 44.466404,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730463.435716,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 120,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -452,11 +106,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Mesmerizes target",
+                    "description": "Prevents AOE (except when direct) ",
                     "indentation": 0
                 },
                 {
-                    "description": "Prevents AOE (except when direct) ",
+                    "description": "Mesmerizes target",
                     "indentation": 0
                 },
                 {
@@ -479,7 +133,7 @@
                 "id": 679
             },
             "id": 892688485,
-            "last_update": 1366730457.878024,
+            "last_update": 1387584810.437059,
             "level": 0,
             "max_targets": 0,
             "name": "Calm",
@@ -489,10 +143,10 @@
             "spellbook": 0,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730457.878024,
+            "ts": 1387584810.437059,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -502,8 +156,154 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 1848992474,
+            "deity": 0,
+            "description": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
+            "description_pvp": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 180,
+                "min_sec_tenths": 180
+            },
+            "effect_list": [
+                {
+                    "description": "Prevents AOE (except when direct) ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Mesmerizes target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Dispelled when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Does not affect Epic targets",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 679
+            },
+            "id": 2822420755,
+            "last_update": 1387584810.337558,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Calm",
+            "name_lower": "calm",
+            "recast_secs": 44.466404,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584810.337558,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 120,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 1848992474,
+            "deity": 0,
+            "description": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
+            "description_pvp": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 168,
+                "min_sec_tenths": 168
+            },
+            "effect_list": [
+                {
+                    "description": "Prevents AOE (except when direct) ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Mesmerizes target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Dispelled when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Does not affect Epic targets",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 679
+            },
+            "id": 4272819685,
+            "last_update": 1387584810.257133,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Calm",
+            "name_lower": "calm",
+            "recast_secs": 44.466404,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584810.257133,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 120,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -522,11 +322,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Mesmerizes target",
+                    "description": "Prevents AOE (except when direct) ",
                     "indentation": 0
                 },
                 {
-                    "description": "Prevents AOE (except when direct) ",
+                    "description": "Mesmerizes target",
                     "indentation": 0
                 },
                 {
@@ -549,7 +349,7 @@
                 "id": 679
             },
             "id": 1671556243,
-            "last_update": 1366730457.398121,
+            "last_update": 1387584810.116844,
             "level": 0,
             "max_targets": 0,
             "name": "Calm",
@@ -559,10 +359,10 @@
             "spellbook": 0,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730457.398121,
+            "ts": 1387584810.116844,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -572,8 +372,154 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 1848992474,
+            "deity": 0,
+            "description": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
+            "description_pvp": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 144,
+                "min_sec_tenths": 144
+            },
+            "effect_list": [
+                {
+                    "description": "Prevents AOE (except when direct) ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Mesmerizes target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Dispelled when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Does not affect Epic targets",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 679
+            },
+            "id": 532728136,
+            "last_update": 1387584810.035662,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Calm",
+            "name_lower": "calm",
+            "recast_secs": 44.466404,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584810.035662,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 120,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 1848992474,
+            "deity": 0,
+            "description": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
+            "description_pvp": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 132,
+                "min_sec_tenths": 132
+            },
+            "effect_list": [
+                {
+                    "description": "Prevents AOE (except when direct) ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Mesmerizes target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Dispelled when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Does not affect Epic targets",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 679
+            },
+            "id": 2194614334,
+            "last_update": 1387584809.916763,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Calm",
+            "name_lower": "calm",
+            "recast_secs": 44.466404,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584809.916763,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 120,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -592,11 +538,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Mesmerizes target",
+                    "description": "Prevents AOE (except when direct) ",
                     "indentation": 0
                 },
                 {
-                    "description": "Prevents AOE (except when direct) ",
+                    "description": "Mesmerizes target",
                     "indentation": 0
                 },
                 {
@@ -619,7 +565,7 @@
                 "id": 679
             },
             "id": 3875701502,
-            "last_update": 1366730445.231649,
+            "last_update": 1387584809.857838,
             "level": 0,
             "max_targets": 0,
             "name": "Calm",
@@ -629,10 +575,10 @@
             "spellbook": 0,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730445.231649,
+            "ts": 1387584809.857838,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -642,8 +588,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -662,11 +610,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Mesmerizes target",
+                    "description": "Prevents AOE (except when direct) ",
                     "indentation": 0
                 },
                 {
-                    "description": "Prevents AOE (except when direct) ",
+                    "description": "Mesmerizes target",
                     "indentation": 0
                 },
                 {
@@ -689,7 +637,7 @@
                 "id": 679
             },
             "id": 2047697800,
-            "last_update": 1366730443.457199,
+            "last_update": 1387584809.71573,
             "level": 0,
             "max_targets": 0,
             "name": "Calm",
@@ -699,10 +647,82 @@
             "spellbook": 0,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730443.457199,
+            "ts": 1387584809.71573,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 120,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 1848992474,
+            "deity": 0,
+            "description": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
+            "description_pvp": "Mesmerizes target. If the target receives any damage, the mesmerize effect breaks. Increased ranks will increase the duration of this effect.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 106,
+                "min_sec_tenths": 106
+            },
+            "effect_list": [
+                {
+                    "description": "Prevents AOE (except when direct) ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Mesmerizes target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Dispelled when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Does not affect Epic targets",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 679
+            },
+            "id": 107759187,
+            "last_update": 1387584809.616508,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Calm",
+            "name_lower": "calm",
+            "recast_secs": 44.466404,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584809.616508,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
         }
     ]
 }

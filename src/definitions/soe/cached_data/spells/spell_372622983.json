@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.305317,
+    "min_ts": 1387585238.533863,
     "returned": 5,
-    "seconds": 0.018536090850830078,
+    "seconds": 0.015376091003417969,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 329
             },
             "id": 3004865123,
-            "last_update": 1366730632.456252,
+            "last_update": 1387585238.933354,
             "level": 0,
             "max_targets": 0,
             "name": "Defiance",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730632.456252,
+            "ts": 1387585238.933354,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,170 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 372622983,
-            "deity": 0,
-            "description": "Passively improves the beastlord's physical mitigation.",
-            "description_pvp": "Passively improves the beastlord's physical mitigation.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Mitigation of caster vs physical damage by 0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 329
-            },
-            "id": 1940123893,
-            "last_update": 1366730595.409761,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Defiance",
-            "name_lower": "defiance",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730595.409761,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 372622983,
-            "deity": 0,
-            "description": "Passively improves the beastlord's physical mitigation.",
-            "description_pvp": "Passively improves the beastlord's physical mitigation.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Mitigation of caster vs physical damage by 0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 329
-            },
-            "id": 3463027771,
-            "last_update": 1366730457.921543,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Defiance",
-            "name_lower": "defiance",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730457.921543,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 372622983,
-            "deity": 0,
-            "description": "Passively improves the beastlord's physical mitigation.",
-            "description_pvp": "Passively improves the beastlord's physical mitigation.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Mitigation of caster vs physical damage by 0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 329
-            },
-            "id": 335496638,
-            "last_update": 1366730456.50269,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Defiance",
-            "name_lower": "defiance",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730456.50269,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +101,7 @@
                 "id": 329
             },
             "id": 1854686182,
-            "last_update": 1366730443.305317,
+            "last_update": 1387585238.781206,
             "level": 0,
             "max_targets": 0,
             "name": "Defiance",
@@ -269,10 +111,178 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730443.305317,
+            "ts": 1387585238.781206,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 372622983,
+            "deity": 0,
+            "description": "Passively improves the beastlord's physical mitigation.",
+            "description_pvp": "Passively improves the beastlord's physical mitigation.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Mitigation of caster vs physical damage by 0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 329
+            },
+            "id": 335496638,
+            "last_update": 1387585238.772994,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Defiance",
+            "name_lower": "defiance",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585238.772994,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 372622983,
+            "deity": 0,
+            "description": "Passively improves the beastlord's physical mitigation.",
+            "description_pvp": "Passively improves the beastlord's physical mitigation.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Mitigation of caster vs physical damage by 0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 329
+            },
+            "id": 3463027771,
+            "last_update": 1387585238.610889,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Defiance",
+            "name_lower": "defiance",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585238.610889,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 372622983,
+            "deity": 0,
+            "description": "Passively improves the beastlord's physical mitigation.",
+            "description_pvp": "Passively improves the beastlord's physical mitigation.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Mitigation of caster vs physical damage by 0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 329
+            },
+            "id": 1940123893,
+            "last_update": 1387585238.533863,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Defiance",
+            "name_lower": "defiance",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585238.533863,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

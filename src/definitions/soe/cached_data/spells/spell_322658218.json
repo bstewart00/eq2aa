@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730630.332209,
+    "min_ts": 1387584626.221407,
     "returned": 1,
-    "seconds": 0.014672994613647461,
+    "seconds": 0.018952131271362305,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces the damage of hostile spells by 20%",
+                    "description": "Improves casting time and reuse speed of heal spells by 15%.",
                     "indentation": 0
                 },
                 {
@@ -40,7 +42,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting time and reuse speed of heal spells by 15%.",
+                    "description": "Reduces the damage of hostile spells by 20%",
                     "indentation": 0
                 },
                 {
@@ -55,7 +57,7 @@
                 "id": 866
             },
             "id": 2895859653,
-            "last_update": 1366730630.332209,
+            "last_update": 1387584626.221407,
             "level": 0,
             "max_targets": 0,
             "name": "Redemption of Faith",
@@ -65,10 +67,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730630.332209,
+            "ts": 1387584626.221407,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730454.129465,
+    "min_ts": 1387585340.058032,
     "returned": 3,
-    "seconds": 0.014517068862915039,
+    "seconds": 0.01479482650756836,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 104651253,
-            "deity": 0,
-            "description": "Improves the amount of power restored with Ether Balance.",
-            "description_pvp": "Improves the amount of power restored with Ether Balance.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the amount of power restored by Ether Balance by 66%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 31
-            },
-            "id": 2430888652,
-            "last_update": 1366730636.339287,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ether Flow",
-            "name_lower": "ether flow",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730636.339287,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 104651253,
-            "deity": 0,
-            "description": "Improves the amount of power restored with Ether Balance.",
-            "description_pvp": "Improves the amount of power restored with Ether Balance.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the amount of power restored by Ether Balance by 33%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 31
-            },
-            "id": 757990914,
-            "last_update": 1366730568.258815,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ether Flow",
-            "name_lower": "ether flow",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730568.258815,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 31
             },
             "id": 1299362633,
-            "last_update": 1366730454.129465,
+            "last_update": 1387585340.184218,
             "level": 0,
             "max_targets": 0,
             "name": "Ether Flow",
@@ -161,10 +55,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730454.129465,
+            "ts": 1387585340.184218,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 104651253,
+            "deity": 0,
+            "description": "Improves the amount of power restored with Ether Balance.",
+            "description_pvp": "Improves the amount of power restored with Ether Balance.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the amount of power restored by Ether Balance by 66%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 31
+            },
+            "id": 2430888652,
+            "last_update": 1387585340.139225,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ether Flow",
+            "name_lower": "ether flow",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585340.139225,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 104651253,
+            "deity": 0,
+            "description": "Improves the amount of power restored with Ether Balance.",
+            "description_pvp": "Improves the amount of power restored with Ether Balance.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the amount of power restored by Ether Balance by 33%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 31
+            },
+            "id": 757990914,
+            "last_update": 1387585340.058032,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ether Flow",
+            "name_lower": "ether flow",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585340.058032,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

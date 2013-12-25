@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730454.937708,
+    "min_ts": 1387585534.392752,
     "returned": 10,
-    "seconds": 0.03513503074645996,
+    "seconds": 0.025469064712524414,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,193 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 0.9",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Subjugation of caster by 0.9",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 589
-            },
-            "id": 4053181224,
-            "last_update": 1366730655.886085,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Rhythm Blade",
-            "name_lower": "rhythm blade",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730655.886085,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 2236929028,
-            "deity": 0,
-            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 300,
-                "min_sec_tenths": 300
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Subjugation of caster by 1.0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 589
-            },
-            "id": 284714885,
-            "last_update": 1366730654.755356,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Rhythm Blade",
-            "name_lower": "rhythm blade",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730654.755356,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 2236929028,
-            "deity": 0,
-            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 300,
-                "min_sec_tenths": 300
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 0.9",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Subjugation of caster by 0.9",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 589
-            },
-            "id": 2381809395,
-            "last_update": 1366730648.485946,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Rhythm Blade",
-            "name_lower": "rhythm blade",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730648.485946,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 2236929028,
-            "deity": 0,
-            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 300,
-                "min_sec_tenths": 300
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.6",
+                    "description": "Increases Ordination of caster by 1.6",
                     "indentation": 0
                 },
                 {
@@ -226,317 +42,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Subjugation of caster by 1.6",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 589
-            },
-            "id": 3268394270,
-            "last_update": 1366730642.603874,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Rhythm Blade",
-            "name_lower": "rhythm blade",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 9,
-            "tier_name": "Master",
-            "ts": 1366730642.603874,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 2236929028,
-            "deity": 0,
-            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 300,
-                "min_sec_tenths": 300
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.3",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 6 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Subjugation of caster by 1.3",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 589
-            },
-            "id": 2488994280,
-            "last_update": 1366730630.40874,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Rhythm Blade",
-            "name_lower": "rhythm blade",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730630.40874,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 2236929028,
-            "deity": 0,
-            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 300,
-                "min_sec_tenths": 300
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.5",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 - 6 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Subjugation of caster by 1.5",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 589
-            },
-            "id": 1606442088,
-            "last_update": 1366730467.71188,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Rhythm Blade",
-            "name_lower": "rhythm blade",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730467.71188,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 2236929028,
-            "deity": 0,
-            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 300,
-                "min_sec_tenths": 300
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.2",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 5 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Subjugation of caster by 1.2",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 589
-            },
-            "id": 3896126515,
-            "last_update": 1366730459.983905,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Rhythm Blade",
-            "name_lower": "rhythm blade",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730459.983905,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 2236929028,
-            "deity": 0,
-            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 300,
-                "min_sec_tenths": 300
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.4",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 6 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Subjugation of caster by 1.4",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 589
-            },
-            "id": 156559518,
-            "last_update": 1366730459.265334,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Rhythm Blade",
-            "name_lower": "rhythm blade",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730459.265334,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 2236929028,
-            "deity": 0,
-            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 300,
-                "min_sec_tenths": 300
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.6",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 - 7 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Subjugation of caster by 1.6",
+                    "description": "Increases Disruption, Crushing, Ministration, Subjugation, Slashing, Piercing and Focus of caster by 1.6",
                     "indentation": 0
                 }
             ],
@@ -547,7 +53,7 @@
                 "id": 589
             },
             "id": 531448391,
-            "last_update": 1366730457.23369,
+            "last_update": 1387585536.310927,
             "level": 0,
             "max_targets": 0,
             "name": "Rhythm Blade",
@@ -557,10 +63,10 @@
             "spellbook": 1,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730457.23369,
+            "ts": 1387585536.310927,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -570,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -590,7 +98,263 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Focus, Slashing, Ministration, Ordination, Crushing, Disruption and Piercing of caster by 1.1",
+                    "description": "Increases Ordination of caster by 1.6",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 7 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Disruption, Crushing, Ministration, Subjugation, Slashing, Piercing and Focus of caster by 1.6",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 589
+            },
+            "id": 3268394270,
+            "last_update": 1387585536.109944,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Rhythm Blade",
+            "name_lower": "rhythm blade",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 9,
+            "tier_name": "Master",
+            "ts": 1387585536.109944,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 2236929028,
+            "deity": 0,
+            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ordination of caster by 1.5",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 6 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Disruption, Crushing, Ministration, Subjugation, Slashing, Piercing and Focus of caster by 1.5",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 589
+            },
+            "id": 1606442088,
+            "last_update": 1387585535.909402,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Rhythm Blade",
+            "name_lower": "rhythm blade",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387585535.909402,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 2236929028,
+            "deity": 0,
+            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ordination of caster by 1.4",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 3 - 6 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Disruption, Crushing, Ministration, Subjugation, Slashing, Piercing and Focus of caster by 1.4",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 589
+            },
+            "id": 156559518,
+            "last_update": 1387585535.710145,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Rhythm Blade",
+            "name_lower": "rhythm blade",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585535.710145,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 2236929028,
+            "deity": 0,
+            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ordination of caster by 1.3",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 3 - 6 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Disruption, Crushing, Ministration, Subjugation, Slashing, Piercing and Focus of caster by 1.3",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 589
+            },
+            "id": 2488994280,
+            "last_update": 1387585535.470392,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Rhythm Blade",
+            "name_lower": "rhythm blade",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387585535.470392,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 2236929028,
+            "deity": 0,
+            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ordination of caster by 1.2",
                     "indentation": 0
                 },
                 {
@@ -598,7 +362,71 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Subjugation of caster by 1.1",
+                    "description": "Increases Disruption, Crushing, Ministration, Subjugation, Slashing, Piercing and Focus of caster by 1.2",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 589
+            },
+            "id": 3896126515,
+            "last_update": 1387585535.229973,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Rhythm Blade",
+            "name_lower": "rhythm blade",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585535.229973,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 2236929028,
+            "deity": 0,
+            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ordination of caster by 1.1",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 3 - 5 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Disruption, Crushing, Ministration, Subjugation, Slashing, Piercing and Focus of caster by 1.1",
                     "indentation": 0
                 }
             ],
@@ -609,7 +437,7 @@
                 "id": 589
             },
             "id": 1966460229,
-            "last_update": 1366730454.937708,
+            "last_update": 1387585535.069314,
             "level": 0,
             "max_targets": 0,
             "name": "Rhythm Blade",
@@ -619,10 +447,202 @@
             "spellbook": 1,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730454.937708,
+            "ts": 1387585535.069314,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 2236929028,
+            "deity": 0,
+            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ordination of caster by 1.0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 2 - 4 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Disruption, Crushing, Ministration, Subjugation, Slashing, Piercing and Focus of caster by 1.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 589
+            },
+            "id": 284714885,
+            "last_update": 1387585534.869669,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Rhythm Blade",
+            "name_lower": "rhythm blade",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585534.869669,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 2236929028,
+            "deity": 0,
+            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ordination of caster by 0.9",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 2 - 4 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Disruption, Crushing, Ministration, Subjugation, Slashing, Piercing and Focus of caster by 0.9",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 589
+            },
+            "id": 2381809395,
+            "last_update": 1387585534.642547,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Rhythm Blade",
+            "name_lower": "rhythm blade",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585534.642547,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 2236929028,
+            "deity": 0,
+            "description": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "description_pvp": "A melee attack that grants an increase in combat skills, focus, and casting techniques for a short duration if it hits.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ordination of caster by 0.9",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 2 - 4 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Disruption, Crushing, Ministration, Subjugation, Slashing, Piercing and Focus of caster by 0.9",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 589
+            },
+            "id": 4053181224,
+            "last_update": 1387585534.392752,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Rhythm Blade",
+            "name_lower": "rhythm blade",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585534.392752,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

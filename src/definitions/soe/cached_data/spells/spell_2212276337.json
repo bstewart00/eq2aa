@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730585.750216,
+    "min_ts": 1387585200.20043,
     "returned": 1,
-    "seconds": 0.016232967376708984,
+    "seconds": 0.014846086502075195,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,14 +38,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 315,
                 "icon_heroic_op": -1,
                 "id": 928
             },
             "id": 911899946,
-            "last_update": 1366730585.750216,
+            "last_update": 1387585200.20043,
             "level": 0,
             "max_targets": 0,
             "name": "Feral Charge",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730585.750216,
+            "ts": 1387585200.20043,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

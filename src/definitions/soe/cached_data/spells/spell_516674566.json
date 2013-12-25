@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730631.706337,
+    "min_ts": 1387585001.485328,
     "returned": 1,
-    "seconds": 0.018991947174072266,
+    "seconds": 0.1307070255279541,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,11 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Heals caster for 11 - 16",
+                    "description": "Inflicts 26 - 39 disease damage on target",
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 26 - 39 disease damage on target",
+                    "description": "Heals caster for 16 - 24",
                     "indentation": 1
                 },
                 {
@@ -52,7 +54,7 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Heals caster for 16 - 24",
+                    "description": "Heals caster for 11 - 16",
                     "indentation": 1
                 }
             ],
@@ -63,7 +65,7 @@
                 "id": 919
             },
             "id": 954291234,
-            "last_update": 1366730631.706337,
+            "last_update": 1387585001.485328,
             "level": 0,
             "max_targets": 0,
             "name": "Wrath of the Undead Servant",
@@ -73,10 +75,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730631.706337,
+            "ts": 1387585001.485328,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

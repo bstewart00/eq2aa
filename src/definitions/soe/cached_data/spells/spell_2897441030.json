@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.896413,
+    "min_ts": 1387584883.757462,
     "returned": 5,
-    "seconds": 0.032533884048461914,
+    "seconds": 0.022734880447387695,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2897441030,
-            "deity": 0,
-            "description": "Increases the trigger chance of Savage Ruin.",
-            "description_pvp": "Increases the trigger chance of Savage Ruin.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the trigger chance of Savage Ruin by 9% of its base value",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 244
-            },
-            "id": 1405848965,
-            "last_update": 1366730652.011739,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ruination",
-            "name_lower": "ruination",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730652.011739,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2897441030,
-            "deity": 0,
-            "description": "Increases the trigger chance of Savage Ruin.",
-            "description_pvp": "Increases the trigger chance of Savage Ruin.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the trigger chance of Savage Ruin by 12% of its base value",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 244
-            },
-            "id": 906372933,
-            "last_update": 1366730459.140982,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ruination",
-            "name_lower": "ruination",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730459.140982,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 244
             },
             "id": 2869544499,
-            "last_update": 1366730457.496924,
+            "last_update": 1387584884.037799,
             "level": 0,
             "max_targets": 0,
             "name": "Ruination",
@@ -161,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730457.496924,
+            "ts": 1387584884.037799,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +68,122 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2897441030,
+            "deity": 0,
+            "description": "Increases the trigger chance of Savage Ruin.",
+            "description_pvp": "Increases the trigger chance of Savage Ruin.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the trigger chance of Savage Ruin by 12% of its base value",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 244
+            },
+            "id": 906372933,
+            "last_update": 1387584884.020742,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ruination",
+            "name_lower": "ruination",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584884.020742,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2897441030,
+            "deity": 0,
+            "description": "Increases the trigger chance of Savage Ruin.",
+            "description_pvp": "Increases the trigger chance of Savage Ruin.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the trigger chance of Savage Ruin by 9% of its base value",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 244
+            },
+            "id": 1405848965,
+            "last_update": 1387584883.940827,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ruination",
+            "name_lower": "ruination",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584883.940827,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,7 +213,7 @@
                 "id": 244
             },
             "id": 3468979443,
-            "last_update": 1366730447.107915,
+            "last_update": 1387584883.876342,
             "level": 0,
             "max_targets": 0,
             "name": "Ruination",
@@ -215,10 +223,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730447.107915,
+            "ts": 1387584883.876342,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +236,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +269,7 @@
                 "id": 244
             },
             "id": 2997176616,
-            "last_update": 1366730443.896413,
+            "last_update": 1387584883.757462,
             "level": 0,
             "max_targets": 0,
             "name": "Ruination",
@@ -269,10 +279,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730443.896413,
+            "ts": 1387584883.757462,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

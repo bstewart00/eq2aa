@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730642.682156,
+    "min_ts": 1387585343.018159,
     "returned": 1,
-    "seconds": 0.014454126358032227,
+    "seconds": 0.015495061874389648,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,20 +34,20 @@
             },
             "effect_list": [
                 {
-                    "description": "Target will Riposte 100.0% of incoming frontal attacks.  Attacks from other quadrants have the same chance of being Parried",
-                    "indentation": 0
-                },
-                {
                     "description": "Applies Coercive Shout.",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Threat to targets in Area of Effect by 386 ",
+                    "description": "Increases threat priority of targets in Area of Effect by 2 positions",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases threat priority of targets in Area of Effect by 2 positions",
+                    "description": "Increases Threat to targets in Area of Effect by 516 ",
                     "indentation": 1
+                },
+                {
+                    "description": "Target will Riposte 100.0% of incoming frontal attacks.  Attacks from other quadrants have the same chance of being Parried",
+                    "indentation": 0
                 },
                 {
                     "description": "If fighter",
@@ -63,7 +65,7 @@
                 "id": 881
             },
             "id": 938069218,
-            "last_update": 1366730642.682156,
+            "last_update": 1387585343.018159,
             "level": 0,
             "max_targets": 0,
             "name": "Coercive Shout",
@@ -73,10 +75,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730642.682156,
+            "ts": 1387585343.018159,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

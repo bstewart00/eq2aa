@@ -1,19 +1,21 @@
 {
     "limit": 10,
-    "min_ts": 1366730614.460162,
+    "min_ts": 1387584526.878139,
     "returned": 1,
-    "seconds": 0.017908811569213867,
+    "seconds": 0.014697074890136719,
     "spell_list": [
         {
             "alternate_advancement": 1,
             "aoe_radius_meters": 0.0,
             "beneficial": 1,
-            "cast_secs_hundredths": 401,
+            "cast_secs_hundredths": 161,
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,15 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Prevents AOE (except when direct) ",
+                    "description": "Makes target immune to Daze effects",
                     "indentation": 0
                 },
                 {
-                    "description": "Stifles target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Makes target immune to Stun effects",
+                    "description": "Makes target immune to Mesmerize effects",
                     "indentation": 0
                 },
                 {
@@ -52,11 +50,15 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Makes target immune to Daze effects",
+                    "description": "Prevents AOE (except when direct) ",
                     "indentation": 0
                 },
                 {
-                    "description": "Makes target immune to Mesmerize effects",
+                    "description": "Stifles target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes target immune to Stun effects",
                     "indentation": 0
                 }
             ],
@@ -67,7 +69,7 @@
                 "id": 614
             },
             "id": 3550482908,
-            "last_update": 1366730614.460162,
+            "last_update": 1387584526.878139,
             "level": 0,
             "max_targets": 0,
             "name": "Unflinching Servant",
@@ -77,10 +79,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730614.460162,
+            "ts": 1387584526.878139,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

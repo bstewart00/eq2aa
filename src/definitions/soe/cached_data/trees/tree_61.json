@@ -131,7 +131,7 @@
                 {
                     "classification": "Heroic",
                     "classificationpointsrequired": 48,
-                    "description": "Reduces snare effects, increases In-Combat Run Speed and makes the bard's group immune to root and interrupts, including motion. The bard's hostile spells will increase the damage of combat arts and spells of their nearby group members.",
+                    "description": "Reduces snare effects, increases In-Combat Run Speed and makes the bard's group immune to root and interrupts, including motion. The bard's hostile spells will increase the group's potency based on the bard's agility value.",
                     "icon": {
                         "backdrop": 458,
                         "id": 720
@@ -236,7 +236,7 @@
                 {
                     "classification": "Heroic",
                     "classificationpointsrequired": 48,
-                    "description": "Songspinner's Note deals minor piercing damage to the target. The bard's group will receive an augmentation based on the bard's position relative to their target. If the bard is outside of 15 meters, the group will receive an augmentation that increases Wisdom and Intelligence. If the bard is behind the target, the group will receive an augmentation that increases Multi-Attack. If the bard is in front of the target, the group will have increased healing received.",
+                    "description": "Songspinner's Note deals minor piercing damage to the target. The bard's group will receive an augmentation based on the bard's position relative to their target.",
                     "icon": {
                         "backdrop": 459,
                         "id": 711
@@ -278,22 +278,22 @@
             ],
             "id": 61,
             "iswardertree": "false",
-            "last_update": 1375804364.73284,
+            "last_update": 1387592316.167579,
             "maximumpoints": 0,
             "maxpointsperlevelnode_list": [
                 {
                     "level": 10,
-                    "maxpoints": 50
+                    "maxpoints": 100
                 }
             ],
             "minimumpointsrequired": 0,
             "name": "Heroic",
-            "ts": 1375804364.73284,
-            "version": 1
+            "ts": 1387592316.167579,
+            "version": 2
         }
     ],
     "limit": 1,
-    "min_ts": 1375804364.73284,
+    "min_ts": 1387592316.167579,
     "returned": 1,
-    "seconds": 0.017950057983398438
+    "seconds": 0.01857304573059082
 }

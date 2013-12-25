@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730467.589691,
+    "min_ts": 1387585109.739342,
     "returned": 1,
-    "seconds": 0.01408696174621582,
+    "seconds": 0.014935970306396484,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Inflicts 9 - 11 heat damage on targets in Area of Effect",
+                    "description": "Increases threat priority of targets in Area of Effect by 2 positions",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases threat priority of targets in Area of Effect by 2 positions",
+                    "description": "Inflicts 11 - 14 heat damage on targets in Area of Effect",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 854
             },
             "id": 2924292328,
-            "last_update": 1366730467.589691,
+            "last_update": 1387585109.739342,
             "level": 0,
             "max_targets": 0,
             "name": "Wild Beating",
@@ -57,10 +59,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730467.589691,
+            "ts": 1387585109.739342,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

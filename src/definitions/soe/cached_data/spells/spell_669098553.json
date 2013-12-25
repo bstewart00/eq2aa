@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730459.773689,
+    "min_ts": 1387584883.047386,
     "returned": 3,
-    "seconds": 0.016215085983276367,
+    "seconds": 0.020823955535888672,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 669098553,
-            "deity": 0,
-            "description": "When Windlord triggers, the group will gain a trigger of damage that hits nearby targets. Each ally can trigger this once.",
-            "description_pvp": "When Windlord triggers, the group will gain a trigger of damage that hits nearby targets. Each ally can trigger this once.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "When Windlord triggers, the group will gain a damage proc that hits nearby targets.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 211
-            },
-            "id": 953366609,
-            "last_update": 1366730637.576872,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Energizing Winds",
-            "name_lower": "energizing winds",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730637.576872,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 669098553,
-            "deity": 0,
-            "description": "When Windlord triggers, the group will gain a trigger of damage that hits nearby targets. Each ally can trigger this once.",
-            "description_pvp": "When Windlord triggers, the group will gain a trigger of damage that hits nearby targets. Each ally can trigger this once.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "When Windlord triggers, the group will gain a damage proc that hits nearby targets.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 211
-            },
-            "id": 2233029791,
-            "last_update": 1366730562.833542,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Energizing Winds",
-            "name_lower": "energizing winds",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730562.833542,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 211
             },
             "id": 3846562260,
-            "last_update": 1366730459.773689,
+            "last_update": 1387584883.229342,
             "level": 0,
             "max_targets": 0,
             "name": "Energizing Winds",
@@ -161,10 +55,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730459.773689,
+            "ts": 1387584883.229342,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 669098553,
+            "deity": 0,
+            "description": "When Windlord triggers, the group will gain a trigger of damage that hits nearby targets. Each ally can trigger this once.",
+            "description_pvp": "When Windlord triggers, the group will gain a trigger of damage that hits nearby targets. Each ally can trigger this once.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "When Windlord triggers, the group will gain a damage proc that hits nearby targets.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 211
+            },
+            "id": 953366609,
+            "last_update": 1387584883.149772,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Energizing Winds",
+            "name_lower": "energizing winds",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584883.149772,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 669098553,
+            "deity": 0,
+            "description": "When Windlord triggers, the group will gain a trigger of damage that hits nearby targets. Each ally can trigger this once.",
+            "description_pvp": "When Windlord triggers, the group will gain a trigger of damage that hits nearby targets. Each ally can trigger this once.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "When Windlord triggers, the group will gain a damage proc that hits nearby targets.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 211
+            },
+            "id": 2233029791,
+            "last_update": 1387584883.047386,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Energizing Winds",
+            "name_lower": "energizing winds",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584883.047386,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

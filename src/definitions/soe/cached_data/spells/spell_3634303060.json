@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.721432,
+    "min_ts": 1387584826.799166,
     "returned": 1,
-    "seconds": 0.014184951782226562,
+    "seconds": 0.020763158798217773,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,19 +34,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces Awareness of Other Encounters Calling for Help ",
-                    "indentation": 0
-                },
-                {
                     "description": "On any combat or spell hit this spell will cast Overconfidence on target of attack.  ",
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases threat priority of target by 2 positions",
+                    "description": "Decreases Threat to target by 9 ",
                     "indentation": 1
                 },
                 {
-                    "description": "Decreases Threat to target by 5 ",
+                    "description": "Decreases threat priority of target by 2 positions",
                     "indentation": 1
                 },
                 {
@@ -54,6 +52,10 @@
                 {
                     "description": "Grants a total of 1 trigger of the spell.",
                     "indentation": 1
+                },
+                {
+                    "description": "Reduces Awareness of Other Encounters Calling for Help ",
+                    "indentation": 0
                 }
             ],
             "given_by": "alternateadvancement",
@@ -63,7 +65,7 @@
                 "id": 184
             },
             "id": 175527271,
-            "last_update": 1366730443.721432,
+            "last_update": 1387584826.799166,
             "level": 0,
             "max_targets": 0,
             "name": "Overconfidence",
@@ -73,10 +75,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730443.721432,
+            "ts": 1387584826.799166,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

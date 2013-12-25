@@ -32,7 +32,7 @@ class TreeFactory(object):
         return trees
     
     def create(self, soe_id, lineage, class_name):
-        self._logger.log('Processing Tree...')
+        self._logger.log('Processing Tree {0} [{1}]...'.format(soe_id, class_name))
         
         tree_result = self._data_provider.tree(soe_id)
         tree = tree_result["alternateadvancement_list"][0]

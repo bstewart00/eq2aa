@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730551.97468,
+    "min_ts": 1387584460.884244,
     "returned": 1,
-    "seconds": 0.01589798927307129,
+    "seconds": 0.015295028686523438,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 2740,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases power of caster by 10.0%",
+                    "description": "Increases power of caster by 25.0%",
                     "indentation": 0
                 },
                 {
@@ -44,14 +46,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 201
             },
             "id": 4277081680,
-            "last_update": 1366730551.97468,
+            "last_update": 1387584460.884244,
             "level": 0,
             "max_targets": 0,
             "name": "Cannibalize",
@@ -61,10 +63,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730551.97468,
+            "ts": 1387584460.884244,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

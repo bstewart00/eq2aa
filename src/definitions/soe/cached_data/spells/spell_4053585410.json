@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730434.124193,
+    "min_ts": 1387584517.475972,
     "returned": 10,
-    "seconds": 0.030069828033447266,
+    "seconds": 0.016911983489990234,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,380 +25,8 @@
             },
             "crc": 4053585410,
             "deity": 0,
-            "description": "Improves the warder's attack speed and damage per second.",
-            "description_pvp": "Improves the warder's attack speed and damage per second.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhanced Attacks to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Attack Speed of caster by 12.0",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 12.0",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 1992254278,
-            "last_update": 1366730645.966508,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhanced Attacks",
-            "name_lower": "enhanced attacks",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730645.966508,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4053585410,
-            "deity": 0,
-            "description": "Improves the warder's attack speed and damage per second.",
-            "description_pvp": "Improves the warder's attack speed and damage per second.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhanced Attacks to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Attack Speed of caster by 2.0",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 2.0",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 326289798,
-            "last_update": 1366730637.206893,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhanced Attacks",
-            "name_lower": "enhanced attacks",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730637.206893,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4053585410,
-            "deity": 0,
-            "description": "Improves the warder's attack speed and damage per second.",
-            "description_pvp": "Improves the warder's attack speed and damage per second.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhanced Attacks to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Attack Speed of caster by 10.0",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 10.0",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 182339229,
-            "last_update": 1366730635.062828,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhanced Attacks",
-            "name_lower": "enhanced attacks",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730635.062828,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4053585410,
-            "deity": 0,
-            "description": "Improves the warder's attack speed and damage per second.",
-            "description_pvp": "Improves the warder's attack speed and damage per second.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhanced Attacks to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Attack Speed of caster by 8.0",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 8.0",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 2547099627,
-            "last_update": 1366730625.923166,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhanced Attacks",
-            "name_lower": "enhanced attacks",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730625.923166,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4053585410,
-            "deity": 0,
-            "description": "Improves the warder's attack speed and damage per second.",
-            "description_pvp": "Improves the warder's attack speed and damage per second.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhanced Attacks to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Attack Speed of caster by 16.0",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 16.0",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3173267142,
-            "last_update": 1366730462.324977,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhanced Attacks",
-            "name_lower": "enhanced attacks",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730462.324977,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4053585410,
-            "deity": 0,
-            "description": "Improves the warder's attack speed and damage per second.",
-            "description_pvp": "Improves the warder's attack speed and damage per second.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhanced Attacks to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Attack Speed of caster by 18.0",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 18.0",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 539744176,
-            "last_update": 1366730459.532182,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhanced Attacks",
-            "name_lower": "enhanced attacks",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 9,
-            "tier_name": "Master",
-            "ts": 1366730459.532182,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4053585410,
-            "deity": 0,
-            "description": "Improves the warder's attack speed and damage per second.",
-            "description_pvp": "Improves the warder's attack speed and damage per second.",
+            "description": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "description_pvp": "Improves the warder's attack speed and Multi-Attack Chance.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -412,7 +42,7 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Damage Per Second of caster by 20.0",
+                    "description": "Increases Multi Attack Chance of caster by 20.0",
                     "indentation": 1
                 }
             ],
@@ -423,7 +53,7 @@
                 "id": 11
             },
             "id": 4249430249,
-            "last_update": 1366730454.120689,
+            "last_update": 1387584519.121867,
             "level": 0,
             "max_targets": 0,
             "name": "Enhanced Attacks",
@@ -433,10 +63,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730454.120689,
+            "ts": 1387584519.121867,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -446,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -457,8 +89,8 @@
             },
             "crc": 4053585410,
             "deity": 0,
-            "description": "Improves the warder's attack speed and damage per second.",
-            "description_pvp": "Improves the warder's attack speed and damage per second.",
+            "description": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "description_pvp": "Improves the warder's attack speed and Multi-Attack Chance.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -470,11 +102,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Attack Speed of caster by 4.0",
+                    "description": "Increases Attack Speed of caster by 16.0",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Damage Per Second of caster by 4.0",
+                    "description": "Increases Multi Attack Chance of caster by 16.0",
                     "indentation": 1
                 }
             ],
@@ -484,8 +116,8 @@
                 "icon_heroic_op": -1,
                 "id": 11
             },
-            "id": 1863576669,
-            "last_update": 1366730441.472318,
+            "id": 3173267142,
+            "last_update": 1387584518.980644,
             "level": 0,
             "max_targets": 0,
             "name": "Enhanced Attacks",
@@ -493,12 +125,12 @@
             "recast_secs": 1.976285,
             "recovery_secs_tenths": 50,
             "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730441.472318,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584518.980644,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -508,8 +140,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -519,8 +153,8 @@
             },
             "crc": 4053585410,
             "deity": 0,
-            "description": "Improves the warder's attack speed and damage per second.",
-            "description_pvp": "Improves the warder's attack speed and damage per second.",
+            "description": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "description_pvp": "Improves the warder's attack speed and Multi-Attack Chance.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -536,7 +170,7 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Damage Per Second of caster by 14.0",
+                    "description": "Increases Multi Attack Chance of caster by 14.0",
                     "indentation": 1
                 }
             ],
@@ -547,7 +181,7 @@
                 "id": 11
             },
             "id": 3954213424,
-            "last_update": 1366730440.986732,
+            "last_update": 1387584518.980093,
             "level": 0,
             "max_targets": 0,
             "name": "Enhanced Attacks",
@@ -557,10 +191,10 @@
             "spellbook": 4,
             "tier": 7,
             "tier_name": "Expert",
-            "ts": 1366730440.986732,
+            "ts": 1387584518.980093,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -570,8 +204,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -581,8 +217,264 @@
             },
             "crc": 4053585410,
             "deity": 0,
-            "description": "Improves the warder's attack speed and damage per second.",
-            "description_pvp": "Improves the warder's attack speed and damage per second.",
+            "description": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "description_pvp": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhanced Attacks to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Attack Speed of caster by 18.0",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 18.0",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 539744176,
+            "last_update": 1387584518.967139,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhanced Attacks",
+            "name_lower": "enhanced attacks",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 9,
+            "tier_name": "Master",
+            "ts": 1387584518.967139,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4053585410,
+            "deity": 0,
+            "description": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "description_pvp": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhanced Attacks to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Attack Speed of caster by 12.0",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 12.0",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 1992254278,
+            "last_update": 1387584518.39447,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhanced Attacks",
+            "name_lower": "enhanced attacks",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584518.39447,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4053585410,
+            "deity": 0,
+            "description": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "description_pvp": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhanced Attacks to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Attack Speed of caster by 10.0",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 10.0",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 182339229,
+            "last_update": 1387584518.168472,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhanced Attacks",
+            "name_lower": "enhanced attacks",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584518.168472,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4053585410,
+            "deity": 0,
+            "description": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "description_pvp": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhanced Attacks to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Attack Speed of caster by 8.0",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 8.0",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 2547099627,
+            "last_update": 1387584518.010782,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhanced Attacks",
+            "name_lower": "enhanced attacks",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584518.010782,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4053585410,
+            "deity": 0,
+            "description": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "description_pvp": "Improves the warder's attack speed and Multi-Attack Chance.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -598,7 +490,7 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Damage Per Second of caster by 6.0",
+                    "description": "Increases Multi Attack Chance of caster by 6.0",
                     "indentation": 1
                 }
             ],
@@ -609,7 +501,7 @@
                 "id": 11
             },
             "id": 4061924651,
-            "last_update": 1366730434.124193,
+            "last_update": 1387584517.850106,
             "level": 0,
             "max_targets": 0,
             "name": "Enhanced Attacks",
@@ -619,10 +511,138 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730434.124193,
+            "ts": 1387584517.850106,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4053585410,
+            "deity": 0,
+            "description": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "description_pvp": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhanced Attacks to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Attack Speed of caster by 4.0",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 4.0",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 1863576669,
+            "last_update": 1387584517.650447,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhanced Attacks",
+            "name_lower": "enhanced attacks",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584517.650447,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4053585410,
+            "deity": 0,
+            "description": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "description_pvp": "Improves the warder's attack speed and Multi-Attack Chance.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhanced Attacks to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Attack Speed of caster by 2.0",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 2.0",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 326289798,
+            "last_update": 1387584517.475972,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhanced Attacks",
+            "name_lower": "enhanced attacks",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584517.475972,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

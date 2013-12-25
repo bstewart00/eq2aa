@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.190427,
+    "min_ts": 1387584835.822542,
     "returned": 3,
-    "seconds": 0.015889883041381836,
+    "seconds": 0.01682305335998535,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,132 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1461798215,
-            "deity": 0,
-            "description": "The dirge gains a chance to steal life from their target while attacking.",
-            "description_pvp": "The dirge gains a chance to steal life from their target while attacking.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell may cast Lamentation on target of attack.  Triggers about 2.0 times per minute. ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 11 - 19 disease damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Heals caster for 2 - 4",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 171
-            },
-            "id": 1199742303,
-            "last_update": 1366730632.098632,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lamentation",
-            "name_lower": "lamentation",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730632.098632,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1461798215,
-            "deity": 0,
-            "description": "The dirge gains a chance to steal life from their target while attacking.",
-            "description_pvp": "The dirge gains a chance to steal life from their target while attacking.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell may cast Lamentation on target of attack.  Triggers about 4.0 times per minute. ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 11 - 19 disease damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Heals caster for 2 - 4",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 171
-            },
-            "id": 1004779652,
-            "last_update": 1366730455.562557,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lamentation",
-            "name_lower": "lamentation",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730455.562557,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -175,7 +53,7 @@
                 "id": 171
             },
             "id": 2800507378,
-            "last_update": 1366730440.190427,
+            "last_update": 1387584836.14371,
             "level": 0,
             "max_targets": 0,
             "name": "Lamentation",
@@ -185,10 +63,138 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730440.190427,
+            "ts": 1387584836.14371,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1461798215,
+            "deity": 0,
+            "description": "The dirge gains a chance to steal life from their target while attacking.",
+            "description_pvp": "The dirge gains a chance to steal life from their target while attacking.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell may cast Lamentation on target of attack.  Triggers about 4.0 times per minute. ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 11 - 19 disease damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Heals caster for 2 - 4",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 171
+            },
+            "id": 1004779652,
+            "last_update": 1387584835.961487,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lamentation",
+            "name_lower": "lamentation",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584835.961487,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1461798215,
+            "deity": 0,
+            "description": "The dirge gains a chance to steal life from their target while attacking.",
+            "description_pvp": "The dirge gains a chance to steal life from their target while attacking.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell may cast Lamentation on target of attack.  Triggers about 2.0 times per minute. ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 11 - 19 disease damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Heals caster for 2 - 4",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 171
+            },
+            "id": 1199742303,
+            "last_update": 1387584835.822542,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lamentation",
+            "name_lower": "lamentation",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584835.822542,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

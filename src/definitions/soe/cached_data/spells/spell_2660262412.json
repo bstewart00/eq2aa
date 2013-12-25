@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730560.293543,
+    "min_ts": 1387584197.772113,
     "returned": 1,
-    "seconds": 0.014723062515258789,
+    "seconds": 0.015790939331054688,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -54,16 +56,28 @@
                 {
                     "description": "Cannot be modified except by direct means",
                     "indentation": 1
+                },
+                {
+                    "description": "Applies Stoneskin Reaction.  Lasts for 1.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Triggers when a Stoneskin is consumed. Suspends all other stoneskins that match the damage types of this effect.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Reduces all damage done to target by 100%",
+                    "indentation": 1
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 905
             },
             "id": 66914937,
-            "last_update": 1366730560.293543,
+            "last_update": 1387584197.772113,
             "level": 0,
             "max_targets": 0,
             "name": "Perfect Counter",
@@ -73,10 +87,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730560.293543,
+            "ts": 1387584197.772113,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

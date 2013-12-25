@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.648801,
+    "min_ts": 1387584899.103147,
     "returned": 5,
-    "seconds": 0.01561594009399414,
+    "seconds": 0.021816015243530273,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,70 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Reduces power cost by 28%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases hit chance by 20%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 494
-            },
-            "id": 2359149507,
-            "last_update": 1366730639.17395,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance Punch: Striking Cobra",
-            "name_lower": "enhance punch: striking cobra",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730639.17395,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2834767106,
-            "deity": 0,
-            "description": "Striking Cobra and its upgrades become more likely to strike your opponent, at reduced power cost.",
-            "description_pvp": "Striking Cobra and its upgrades become more likely to strike your opponent, at reduced power cost.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces power cost by 35%",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases hit chance by 25%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces power cost by 35%",
                     "indentation": 0
                 }
             ],
@@ -105,7 +49,7 @@
                 "id": 494
             },
             "id": 294789813,
-            "last_update": 1366730617.692701,
+            "last_update": 1387584899.188863,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance Punch: Striking Cobra",
@@ -115,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730617.692701,
+            "ts": 1387584899.188863,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -148,22 +94,22 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces power cost by 7%",
+                    "description": "Increases hit chance by 5%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases hit chance by 5%",
+                    "description": "Reduces power cost by 7%",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 315,
                 "icon_heroic_op": -1,
                 "id": 494
             },
             "id": 138325422,
-            "last_update": 1366730564.6425,
+            "last_update": 1387584899.13196,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance Punch: Striking Cobra",
@@ -173,10 +119,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730564.6425,
+            "ts": 1387584899.13196,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces power cost by 14%",
+                    "description": "Increases hit chance by 10%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases hit chance by 10%",
+                    "description": "Reduces power cost by 14%",
                     "indentation": 0
                 }
             ],
@@ -221,7 +169,7 @@
                 "id": 494
             },
             "id": 1952417909,
-            "last_update": 1366730459.071485,
+            "last_update": 1387584899.130153,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance Punch: Striking Cobra",
@@ -231,10 +179,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730459.071485,
+            "ts": 1387584899.130153,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +214,71 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces power cost by 21%",
+                    "description": "Increases hit chance by 20%",
                     "indentation": 0
                 },
                 {
+                    "description": "Reduces power cost by 28%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 494
+            },
+            "id": 2359149507,
+            "last_update": 1387584899.125649,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance Punch: Striking Cobra",
+            "name_lower": "enhance punch: striking cobra",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584899.125649,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2834767106,
+            "deity": 0,
+            "description": "Striking Cobra and its upgrades become more likely to strike your opponent, at reduced power cost.",
+            "description_pvp": "Striking Cobra and its upgrades become more likely to strike your opponent, at reduced power cost.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
                     "description": "Increases hit chance by 15%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces power cost by 21%",
                     "indentation": 0
                 }
             ],
@@ -279,7 +289,7 @@
                 "id": 494
             },
             "id": 3914361091,
-            "last_update": 1366730438.648801,
+            "last_update": 1387584899.103147,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance Punch: Striking Cobra",
@@ -289,10 +299,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730438.648801,
+            "ts": 1387584899.103147,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730447.554033,
+    "min_ts": 1387585004.206259,
     "returned": 5,
-    "seconds": 0.01506805419921875,
+    "seconds": 0.023853063583374023,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,15 +34,15 @@
             },
             "effect_list": [
                 {
+                    "description": "Improves the Crit Bonus by 10%",
+                    "indentation": 0
+                },
+                {
                     "description": "Improves casting speed by 0.5 seconds",
                     "indentation": 0
                 },
                 {
                     "description": "Reduces duration by 5 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 10%",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 369
             },
             "id": 3805581404,
-            "last_update": 1366730631.720671,
+            "last_update": 1387585004.605856,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Death Swarm",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730631.720671,
+            "ts": 1387585004.605856,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -74,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -94,15 +98,15 @@
             },
             "effect_list": [
                 {
+                    "description": "Improves the Crit Bonus by 8%",
+                    "indentation": 0
+                },
+                {
                     "description": "Improves casting speed by 0.4 seconds",
                     "indentation": 0
                 },
                 {
                     "description": "Reduces duration by 4 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 8%",
                     "indentation": 0
                 }
             ],
@@ -113,7 +117,7 @@
                 "id": 369
             },
             "id": 2145087786,
-            "last_update": 1366730625.954884,
+            "last_update": 1387585004.525595,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Death Swarm",
@@ -123,10 +127,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730625.954884,
+            "ts": 1387585004.525595,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -136,8 +140,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -156,139 +162,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves casting speed by 0.2 seconds",
+                    "description": "Improves the Crit Bonus by 6%",
                     "indentation": 0
                 },
-                {
-                    "description": "Reduces duration by 2 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 4%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 369
-            },
-            "id": 2266577564,
-            "last_update": 1366730619.79272,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Death Swarm",
-            "name_lower": "enhance: death swarm",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730619.79272,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1184711356,
-            "deity": 0,
-            "description": "Increases the critical damage and hastens the casting speed and effects of Death Swarm and its upgrades, causing the damage to occur faster.",
-            "description_pvp": "Increases the critical damage and hastens the casting speed and effects of Death Swarm and its upgrades, causing the damage to occur faster.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves casting speed by 0.1 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces duration by 1 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 2%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 369
-            },
-            "id": 4218953543,
-            "last_update": 1366730570.290745,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Death Swarm",
-            "name_lower": "enhance: death swarm",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730570.290745,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1184711356,
-            "deity": 0,
-            "description": "Increases the critical damage and hastens the casting speed and effects of Death Swarm and its upgrades, causing the damage to occur faster.",
-            "description_pvp": "Increases the critical damage and hastens the casting speed and effects of Death Swarm and its upgrades, causing the damage to occur faster.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
                 {
                     "description": "Improves casting speed by 0.3 seconds",
                     "indentation": 0
                 },
                 {
                     "description": "Reduces duration by 3 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 6%",
                     "indentation": 0
                 }
             ],
@@ -299,7 +181,7 @@
                 "id": 369
             },
             "id": 437705706,
-            "last_update": 1366730447.554033,
+            "last_update": 1387585004.471011,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Death Swarm",
@@ -309,10 +191,138 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730447.554033,
+            "ts": 1387585004.471011,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1184711356,
+            "deity": 0,
+            "description": "Increases the critical damage and hastens the casting speed and effects of Death Swarm and its upgrades, causing the damage to occur faster.",
+            "description_pvp": "Increases the critical damage and hastens the casting speed and effects of Death Swarm and its upgrades, causing the damage to occur faster.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the Crit Bonus by 4%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves casting speed by 0.2 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces duration by 2 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 369
+            },
+            "id": 2266577564,
+            "last_update": 1387585004.391375,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Death Swarm",
+            "name_lower": "enhance: death swarm",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585004.391375,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1184711356,
+            "deity": 0,
+            "description": "Increases the critical damage and hastens the casting speed and effects of Death Swarm and its upgrades, causing the damage to occur faster.",
+            "description_pvp": "Increases the critical damage and hastens the casting speed and effects of Death Swarm and its upgrades, causing the damage to occur faster.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the Crit Bonus by 2%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves casting speed by 0.1 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces duration by 1 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 369
+            },
+            "id": 4218953543,
+            "last_update": 1387585004.206259,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Death Swarm",
+            "name_lower": "enhance: death swarm",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585004.206259,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

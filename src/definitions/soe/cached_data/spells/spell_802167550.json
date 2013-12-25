@@ -1,19 +1,21 @@
 {
     "limit": 10,
-    "min_ts": 1366730459.420872,
+    "min_ts": 1387585645.560786,
     "returned": 1,
-    "seconds": 0.01576709747314453,
+    "seconds": 0.01891922950744629,
     "spell_list": [
         {
             "alternate_advancement": 1,
             "aoe_radius_meters": 0.0,
             "beneficial": 1,
-            "cast_secs_hundredths": 80,
+            "cast_secs_hundredths": 0,
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -34,6 +36,18 @@
                 {
                     "description": "Will absorb all damage when the amount is greater than 10% of the target's maximum health. This spell will absorb a total of 2 attacks.",
                     "indentation": 0
+                },
+                {
+                    "description": "Applies Stoneskin Reaction.  Lasts for 1.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Triggers when a Stoneskin is consumed. Suspends all other stoneskins that match the damage types of this effect.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Reduces all damage done to target by 100%",
+                    "indentation": 1
                 },
                 {
                     "description": "Applies Perseverance of Divinity on termination.  Lasts for 15.0 seconds.",
@@ -63,7 +77,7 @@
                 "id": 843
             },
             "id": 30791656,
-            "last_update": 1366730459.420872,
+            "last_update": 1387585645.560786,
             "level": 0,
             "max_targets": 0,
             "name": "Perseverance of the Divine",
@@ -73,10 +87,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730459.420872,
+            "ts": 1387585645.560786,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

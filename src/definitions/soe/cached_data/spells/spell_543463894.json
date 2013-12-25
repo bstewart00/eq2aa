@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730455.606689,
+    "min_ts": 1387585638.889865,
     "returned": 10,
-    "seconds": 0.022639989852905273,
+    "seconds": 0.047206878662109375,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,186 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 10%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases damage of the following combat art by 1%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 542
-            },
-            "id": 2919770963,
-            "last_update": 1366730659.419994,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Obfuscation",
-            "name_lower": "obfuscation",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730659.419994,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 543463894,
-            "deity": 0,
-            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 70%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases damage of the following combat art by 7%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 542
-            },
-            "id": 250475662,
-            "last_update": 1366730656.061303,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Obfuscation",
-            "name_lower": "obfuscation",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730656.061303,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 543463894,
-            "deity": 0,
-            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 90%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases damage of the following combat art by 9%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 542
-            },
-            "id": 4094425150,
-            "last_update": 1366730646.898114,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Obfuscation",
-            "name_lower": "obfuscation",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 9,
-            "tier_name": "Master",
-            "ts": 1366730646.898114,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 543463894,
-            "deity": 0,
-            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 100%",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases damage of the following combat art by 10%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 100%",
                     "indentation": 0
                 }
             ],
@@ -221,7 +49,7 @@
                 "id": 542
             },
             "id": 2609408081,
-            "last_update": 1366730630.94691,
+            "last_update": 1387585639.652317,
             "level": 0,
             "max_targets": 0,
             "name": "Obfuscation",
@@ -231,10 +59,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730630.94691,
+            "ts": 1387585639.652317,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 50%",
+                    "description": "Increases damage of the following combat art by 9%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases damage of the following combat art by 5%",
+                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 90%",
                     "indentation": 0
                 }
             ],
@@ -278,8 +108,8 @@
                 "icon_heroic_op": -1,
                 "id": 542
             },
-            "id": 1857110469,
-            "last_update": 1366730468.553128,
+            "id": 4094425150,
+            "last_update": 1387585639.53079,
             "level": 0,
             "max_targets": 0,
             "name": "Obfuscation",
@@ -287,12 +117,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730468.553128,
+            "tier": 9,
+            "tier_name": "Master",
+            "ts": 1387585639.53079,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -302,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -321,244 +153,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 20%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases damage of the following combat art by 2%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 542
-            },
-            "id": 331499421,
-            "last_update": 1366730465.22322,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Obfuscation",
-            "name_lower": "obfuscation",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730465.22322,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 543463894,
-            "deity": 0,
-            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 60%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases damage of the following combat art by 6%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 542
-            },
-            "id": 3548065035,
-            "last_update": 1366730463.978043,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Obfuscation",
-            "name_lower": "obfuscation",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730463.978043,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 543463894,
-            "deity": 0,
-            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 30%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases damage of the following combat art by 3%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 542
-            },
-            "id": 3461651992,
-            "last_update": 1366730463.48581,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Obfuscation",
-            "name_lower": "obfuscation",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730463.48581,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 543463894,
-            "deity": 0,
-            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 40%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases damage of the following combat art by 4%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 542
-            },
-            "id": 3005716544,
-            "last_update": 1366730457.277954,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Obfuscation",
-            "name_lower": "obfuscation",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730457.277954,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 543463894,
-            "deity": 0,
-            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 80%",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases damage of the following combat art by 8%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 80%",
                     "indentation": 0
                 }
             ],
@@ -569,7 +169,7 @@
                 "id": 542
             },
             "id": 698163643,
-            "last_update": 1366730455.606689,
+            "last_update": 1387585639.449907,
             "level": 0,
             "max_targets": 0,
             "name": "Obfuscation",
@@ -579,10 +179,430 @@
             "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730455.606689,
+            "ts": 1387585639.449907,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 543463894,
+            "deity": 0,
+            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases damage of the following combat art by 7%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 70%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 542
+            },
+            "id": 250475662,
+            "last_update": 1387585639.370593,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Obfuscation",
+            "name_lower": "obfuscation",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585639.370593,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 543463894,
+            "deity": 0,
+            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases damage of the following combat art by 6%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 60%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 542
+            },
+            "id": 3548065035,
+            "last_update": 1387585639.289403,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Obfuscation",
+            "name_lower": "obfuscation",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387585639.289403,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 543463894,
+            "deity": 0,
+            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases damage of the following combat art by 5%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 50%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 542
+            },
+            "id": 1857110469,
+            "last_update": 1387585639.252987,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Obfuscation",
+            "name_lower": "obfuscation",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585639.252987,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 543463894,
+            "deity": 0,
+            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases damage of the following combat art by 4%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 40%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 542
+            },
+            "id": 3005716544,
+            "last_update": 1387585639.183592,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Obfuscation",
+            "name_lower": "obfuscation",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585639.183592,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 543463894,
+            "deity": 0,
+            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases damage of the following combat art by 3%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 30%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 542
+            },
+            "id": 3461651992,
+            "last_update": 1387585639.049637,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Obfuscation",
+            "name_lower": "obfuscation",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585639.049637,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 543463894,
+            "deity": 0,
+            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases damage of the following combat art by 2%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 20%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 542
+            },
+            "id": 331499421,
+            "last_update": 1387585638.969871,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Obfuscation",
+            "name_lower": "obfuscation",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585638.969871,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 543463894,
+            "deity": 0,
+            "description": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "description_pvp": "The Prowler's Stealth and Stalk abilities have their casting speed and reuse speed improved. Combat art damage on the following attack made from stealth is also improved.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases damage of the following combat art by 1%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces casting and reuse speed of Stealth and Stalk abilities by 10%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 542
+            },
+            "id": 2919770963,
+            "last_update": 1387585638.889865,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Obfuscation",
+            "name_lower": "obfuscation",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585638.889865,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

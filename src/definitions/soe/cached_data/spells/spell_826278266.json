@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730431.819741,
+    "min_ts": 1387584255.502263,
     "returned": 5,
-    "seconds": 0.02490401268005371,
+    "seconds": 0.039756059646606445,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the agility reduction by 35%",
+                    "description": "Improves casting speed by 1 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 1 seconds",
+                    "description": "Improves the agility reduction by 35%",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 308
             },
             "id": 1401959723,
-            "last_update": 1366730642.650993,
+            "last_update": 1387584255.741245,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Undergrowth",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730642.650993,
+            "ts": 1387584255.741245,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -89,70 +93,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the agility reduction by 7%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.2 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 308
-            },
-            "id": 2468962237,
-            "last_update": 1366730621.147165,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Undergrowth",
-            "name_lower": "enhance: undergrowth",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730621.147165,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 826278266,
-            "deity": 0,
-            "description": "Improves the agility reduction and hastens the casting speed of Undergrowth.",
-            "description_pvp": "Improves the agility reduction and hastens the casting speed of Undergrowth.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the agility reduction by 28%",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves casting speed by 0.8 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the agility reduction by 28%",
                     "indentation": 0
                 }
             ],
@@ -163,7 +109,7 @@
                 "id": 308
             },
             "id": 2382818478,
-            "last_update": 1366730445.23149,
+            "last_update": 1387584255.667648,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Undergrowth",
@@ -173,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730445.23149,
+            "ts": 1387584255.667648,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the agility reduction by 21%",
+                    "description": "Improves casting speed by 0.6 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 0.6 seconds",
+                    "description": "Improves the agility reduction by 21%",
                     "indentation": 0
                 }
             ],
@@ -221,7 +169,7 @@
                 "id": 308
             },
             "id": 4084591350,
-            "last_update": 1366730440.58354,
+            "last_update": 1387584255.582211,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Undergrowth",
@@ -231,10 +179,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730440.58354,
+            "ts": 1387584255.582211,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +214,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the agility reduction by 14%",
+                    "description": "Improves casting speed by 0.4 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 0.4 seconds",
+                    "description": "Improves the agility reduction by 14%",
                     "indentation": 0
                 }
             ],
@@ -279,7 +229,7 @@
                 "id": 308
             },
             "id": 786641779,
-            "last_update": 1366730431.819741,
+            "last_update": 1387584255.508526,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Undergrowth",
@@ -289,10 +239,70 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730431.819741,
+            "ts": 1387584255.508526,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 826278266,
+            "deity": 0,
+            "description": "Improves the agility reduction and hastens the casting speed of Undergrowth.",
+            "description_pvp": "Improves the agility reduction and hastens the casting speed of Undergrowth.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting speed by 0.2 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the agility reduction by 7%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 308
+            },
+            "id": 2468962237,
+            "last_update": 1387584255.502263,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Undergrowth",
+            "name_lower": "enhance: undergrowth",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584255.502263,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

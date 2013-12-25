@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730439.451993,
+    "min_ts": 1387584354.403388,
     "returned": 3,
-    "seconds": 0.015100955963134766,
+    "seconds": 0.02196216583251953,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,70 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the duration of Champion's Interception by 1 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces the base cast time of Champion's Interception to 1 second",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 42
-            },
-            "id": 1383481262,
-            "last_update": 1366730640.08092,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Will of the Champion",
-            "name_lower": "will of the champion",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730640.08092,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2004618495,
-            "deity": 0,
-            "description": "Reduces the base cast time of Champion's Interception and increases its duration.",
-            "description_pvp": "Reduces the base cast time of Champion's Interception and increases its duration.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the duration of Champion's Interception by 3 seconds.",
-                    "indentation": 0
-                },
                 {
                     "description": "Champion's Interception will cast instantly",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the duration of Champion's Interception by 3 seconds.",
                     "indentation": 0
                 }
             ],
@@ -105,7 +49,7 @@
                 "id": 42
             },
             "id": 3004758787,
-            "last_update": 1366730440.666225,
+            "last_update": 1387584354.554173,
             "level": 0,
             "max_targets": 0,
             "name": "Will of the Champion",
@@ -115,10 +59,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730440.666225,
+            "ts": 1387584354.554173,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -148,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the duration of Champion's Interception by 2 seconds.",
+                    "description": "Reduces the base cast time of Champion's Interception to 0.5 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces the base cast time of Champion's Interception to 0.5 seconds",
+                    "description": "Improves the duration of Champion's Interception by 2 seconds.",
                     "indentation": 0
                 }
             ],
@@ -163,7 +109,7 @@
                 "id": 42
             },
             "id": 773266037,
-            "last_update": 1366730439.451993,
+            "last_update": 1387584354.47449,
             "level": 0,
             "max_targets": 0,
             "name": "Will of the Champion",
@@ -173,10 +119,70 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730439.451993,
+            "ts": 1387584354.47449,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2004618495,
+            "deity": 0,
+            "description": "Reduces the base cast time of Champion's Interception and increases its duration.",
+            "description_pvp": "Reduces the base cast time of Champion's Interception and increases its duration.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the base cast time of Champion's Interception to 1 second",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the duration of Champion's Interception by 1 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 42
+            },
+            "id": 1383481262,
+            "last_update": 1387584354.403388,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Will of the Champion",
+            "name_lower": "will of the champion",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584354.403388,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

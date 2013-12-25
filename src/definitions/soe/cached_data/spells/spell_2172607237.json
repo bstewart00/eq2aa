@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730451.452814,
+    "min_ts": 1387584206.897506,
     "returned": 3,
-    "seconds": 0.014368057250976562,
+    "seconds": 0.016464948654174805,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,61 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Frozen Solid will allow the wizard to reduce their threat by 0.15% of their damage inflicted per increment.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 253
-            },
-            "id": 1501027132,
-            "last_update": 1366730635.342562,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Iced Anger",
-            "name_lower": "iced anger",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730635.342562,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2172607237,
-            "deity": 0,
-            "description": "Frozen Solid will automatically reduce threat to the targets the wizard is attacking by a percentage of the damage the wizard inflicts.",
-            "description_pvp": "Frozen Solid will automatically reduce threat to the targets the wizard is attacking by a percentage of the damage the wizard inflicts.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Frozen Solid will allow the wizard to reduce their threat by 0.45% of their damage inflicted per increment.",
+                    "description": "Frozen Solid will allow the wizard to reduce their threat by 0.54% of their damage inflicted per increment.",
                     "indentation": 0
                 }
             ],
@@ -97,7 +45,7 @@
                 "id": 253
             },
             "id": 3088654225,
-            "last_update": 1366730614.409105,
+            "last_update": 1387584207.06122,
             "level": 0,
             "max_targets": 0,
             "name": "Iced Anger",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730614.409105,
+            "ts": 1387584207.06122,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -140,7 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Frozen Solid will allow the wizard to reduce their threat by 0.3% of their damage inflicted per increment.",
+                    "description": "Frozen Solid will allow the wizard to reduce their threat by 0.36% of their damage inflicted per increment.",
                     "indentation": 0
                 }
             ],
@@ -151,7 +101,7 @@
                 "id": 253
             },
             "id": 622264039,
-            "last_update": 1366730451.452814,
+            "last_update": 1387584206.941341,
             "level": 0,
             "max_targets": 0,
             "name": "Iced Anger",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730451.452814,
+            "ts": 1387584206.941341,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2172607237,
+            "deity": 0,
+            "description": "Frozen Solid will automatically reduce threat to the targets the wizard is attacking by a percentage of the damage the wizard inflicts.",
+            "description_pvp": "Frozen Solid will automatically reduce threat to the targets the wizard is attacking by a percentage of the damage the wizard inflicts.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Frozen Solid will allow the wizard to reduce their threat by 0.18% of their damage inflicted per increment.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 253
+            },
+            "id": 1501027132,
+            "last_update": 1387584206.897506,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Iced Anger",
+            "name_lower": "iced anger",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584206.897506,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

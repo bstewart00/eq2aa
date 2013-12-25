@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730442.801497,
+    "min_ts": 1387584389.150485,
     "returned": 5,
-    "seconds": 0.02257680892944336,
+    "seconds": 0.01599407196044922,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 259
             },
             "id": 1277910953,
-            "last_update": 1366730637.857402,
+            "last_update": 1387584389.39068,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Offensive Poisons",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730637.857402,
+            "ts": 1387584389.39068,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +101,7 @@
                 "id": 259
             },
             "id": 3508846303,
-            "last_update": 1366730637.423357,
+            "last_update": 1387584389.35223,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Offensive Poisons",
@@ -107,10 +111,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730637.423357,
+            "ts": 1387584389.35223,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +157,7 @@
                 "id": 259
             },
             "id": 3035173919,
-            "last_update": 1366730455.486824,
+            "last_update": 1387584389.280796,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Offensive Poisons",
@@ -161,10 +167,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730455.486824,
+            "ts": 1387584389.280796,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,62 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1058476806,
-            "deity": 0,
-            "description": "Increases the effectiveness of all poisons that affect an opponent's offensive abilities.",
-            "description_pvp": "Increases the effectiveness of all poisons that affect an opponent's offensive abilities.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases strength, intelligence, offensive combat and spell skill reductions by 5%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 259
-            },
-            "id": 1434964146,
-            "last_update": 1366730443.327344,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Offensive Poisons",
-            "name_lower": "enhance: offensive poisons",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730443.327344,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +213,7 @@
                 "id": 259
             },
             "id": 703001961,
-            "last_update": 1366730442.801497,
+            "last_update": 1387584389.189967,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Offensive Poisons",
@@ -269,10 +223,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730442.801497,
+            "ts": 1387584389.189967,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1058476806,
+            "deity": 0,
+            "description": "Increases the effectiveness of all poisons that affect an opponent's offensive abilities.",
+            "description_pvp": "Increases the effectiveness of all poisons that affect an opponent's offensive abilities.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases strength, intelligence, offensive combat and spell skill reductions by 5%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 259
+            },
+            "id": 1434964146,
+            "last_update": 1387584389.150485,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Offensive Poisons",
+            "name_lower": "enhance: offensive poisons",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584389.150485,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

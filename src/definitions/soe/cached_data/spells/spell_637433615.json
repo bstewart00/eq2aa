@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.53386,
+    "min_ts": 1387585189.921514,
     "returned": 10,
-    "seconds": 0.01723313331604004,
+    "seconds": 0.1393580436706543,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,148 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 637433615,
-            "deity": 0,
-            "description": "An attack that roots the target in place on a successful hit.",
-            "description_pvp": "An attack that roots the target in place on a successful hit.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 96,
-                "min_sec_tenths": 96
-            },
-            "effect_list": [
-                {
-                    "description": "Roots target",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 3 - 5 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "10% chance to dispel when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 672
-            },
-            "id": 3558230254,
-            "last_update": 1366730652.520662,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Phalanx",
-            "name_lower": "phalanx",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730652.520662,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 637433615,
-            "deity": 0,
-            "description": "An attack that roots the target in place on a successful hit.",
-            "description_pvp": "An attack that roots the target in place on a successful hit.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 88,
-                "min_sec_tenths": 88
-            },
-            "effect_list": [
-                {
-                    "description": "Roots target",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 3 - 5 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "10% chance to dispel when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 672
-            },
-            "id": 159420779,
-            "last_update": 1366730652.474959,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Phalanx",
-            "name_lower": "phalanx",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730652.474959,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -172,16 +34,16 @@
             },
             "effect_list": [
                 {
+                    "description": "Inflicts 4 - 7 melee damage on target",
+                    "indentation": 0
+                },
+                {
                     "description": "Roots target",
                     "indentation": 0
                 },
                 {
                     "description": "If Target is not Epic",
                     "indentation": 1
-                },
-                {
-                    "description": "Inflicts 4 - 7 melee damage on target",
-                    "indentation": 0
                 },
                 {
                     "description": "10% chance to dispel when target takes damage",
@@ -199,7 +61,7 @@
                 "id": 672
             },
             "id": 556753274,
-            "last_update": 1366730648.393192,
+            "last_update": 1387585190.923096,
             "level": 0,
             "max_targets": 0,
             "name": "Phalanx",
@@ -209,10 +71,10 @@
             "spellbook": 1,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730648.393192,
+            "ts": 1387585190.923096,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -222,218 +84,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 637433615,
-            "deity": 0,
-            "description": "An attack that roots the target in place on a successful hit.",
-            "description_pvp": "An attack that roots the target in place on a successful hit.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 70,
-                "min_sec_tenths": 70
-            },
-            "effect_list": [
-                {
-                    "description": "Roots target",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "10% chance to dispel when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 672
-            },
-            "id": 347021944,
-            "last_update": 1366730646.984403,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Phalanx",
-            "name_lower": "phalanx",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730646.984403,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 637433615,
-            "deity": 0,
-            "description": "An attack that roots the target in place on a successful hit.",
-            "description_pvp": "An attack that roots the target in place on a successful hit.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 104,
-                "min_sec_tenths": 104
-            },
-            "effect_list": [
-                {
-                    "description": "Roots target",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 3 - 6 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "10% chance to dispel when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 672
-            },
-            "id": 1776034848,
-            "last_update": 1366730621.957309,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Phalanx",
-            "name_lower": "phalanx",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730621.957309,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 637433615,
-            "deity": 0,
-            "description": "An attack that roots the target in place on a successful hit.",
-            "description_pvp": "An attack that roots the target in place on a successful hit.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 76,
-                "min_sec_tenths": 76
-            },
-            "effect_list": [
-                {
-                    "description": "Roots target",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "10% chance to dispel when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 672
-            },
-            "id": 2841988790,
-            "last_update": 1366730466.892903,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Phalanx",
-            "name_lower": "phalanx",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730466.892903,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -452,16 +106,16 @@
             },
             "effect_list": [
                 {
+                    "description": "Inflicts 4 - 7 melee damage on target",
+                    "indentation": 0
+                },
+                {
                     "description": "Roots target",
                     "indentation": 0
                 },
                 {
                     "description": "If Target is not Epic",
                     "indentation": 1
-                },
-                {
-                    "description": "Inflicts 4 - 7 melee damage on target",
-                    "indentation": 0
                 },
                 {
                     "description": "10% chance to dispel when target takes damage",
@@ -479,7 +133,7 @@
                 "id": 672
             },
             "id": 1319956757,
-            "last_update": 1366730459.436517,
+            "last_update": 1387585190.812311,
             "level": 0,
             "max_targets": 0,
             "name": "Phalanx",
@@ -489,10 +143,10 @@
             "spellbook": 1,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730459.436517,
+            "ts": 1387585190.812311,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -502,78 +156,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 637433615,
-            "deity": 0,
-            "description": "An attack that roots the target in place on a successful hit.",
-            "description_pvp": "An attack that roots the target in place on a successful hit.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 112,
-                "min_sec_tenths": 112
-            },
-            "effect_list": [
-                {
-                    "description": "Roots target",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 3 - 6 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "10% chance to dispel when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 672
-            },
-            "id": 3024813477,
-            "last_update": 1366730458.142934,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Phalanx",
-            "name_lower": "phalanx",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730458.142934,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -592,16 +178,16 @@
             },
             "effect_list": [
                 {
+                    "description": "Inflicts 4 - 6 melee damage on target",
+                    "indentation": 0
+                },
+                {
                     "description": "Roots target",
                     "indentation": 0
                 },
                 {
                     "description": "If Target is not Epic",
                     "indentation": 1
-                },
-                {
-                    "description": "Inflicts 4 - 6 melee damage on target",
-                    "indentation": 0
                 },
                 {
                     "description": "10% chance to dispel when target takes damage",
@@ -619,7 +205,7 @@
                 "id": 672
             },
             "id": 2470062224,
-            "last_update": 1366730453.672124,
+            "last_update": 1387585190.700402,
             "level": 0,
             "max_targets": 0,
             "name": "Phalanx",
@@ -629,10 +215,10 @@
             "spellbook": 1,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730453.672124,
+            "ts": 1387585190.700402,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -642,8 +228,298 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 637433615,
+            "deity": 0,
+            "description": "An attack that roots the target in place on a successful hit.",
+            "description_pvp": "An attack that roots the target in place on a successful hit.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 112,
+                "min_sec_tenths": 112
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 3 - 6 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Roots target",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                },
+                {
+                    "description": "10% chance to dispel when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 672
+            },
+            "id": 3024813477,
+            "last_update": 1387585190.602573,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Phalanx",
+            "name_lower": "phalanx",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585190.602573,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 637433615,
+            "deity": 0,
+            "description": "An attack that roots the target in place on a successful hit.",
+            "description_pvp": "An attack that roots the target in place on a successful hit.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 104,
+                "min_sec_tenths": 104
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 3 - 6 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Roots target",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                },
+                {
+                    "description": "10% chance to dispel when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 672
+            },
+            "id": 1776034848,
+            "last_update": 1387585190.483321,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Phalanx",
+            "name_lower": "phalanx",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387585190.483321,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 637433615,
+            "deity": 0,
+            "description": "An attack that roots the target in place on a successful hit.",
+            "description_pvp": "An attack that roots the target in place on a successful hit.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 96,
+                "min_sec_tenths": 96
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 3 - 5 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Roots target",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                },
+                {
+                    "description": "10% chance to dispel when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 672
+            },
+            "id": 3558230254,
+            "last_update": 1387585190.403645,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Phalanx",
+            "name_lower": "phalanx",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585190.403645,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 637433615,
+            "deity": 0,
+            "description": "An attack that roots the target in place on a successful hit.",
+            "description_pvp": "An attack that roots the target in place on a successful hit.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 88,
+                "min_sec_tenths": 88
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 3 - 5 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Roots target",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                },
+                {
+                    "description": "10% chance to dispel when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 672
+            },
+            "id": 159420779,
+            "last_update": 1387585190.253054,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Phalanx",
+            "name_lower": "phalanx",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585190.253054,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -662,16 +538,16 @@
             },
             "effect_list": [
                 {
+                    "description": "Inflicts 2 - 4 melee damage on target",
+                    "indentation": 0
+                },
+                {
                     "description": "Roots target",
                     "indentation": 0
                 },
                 {
                     "description": "If Target is not Epic",
                     "indentation": 1
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on target",
-                    "indentation": 0
                 },
                 {
                     "description": "10% chance to dispel when target takes damage",
@@ -689,7 +565,7 @@
                 "id": 672
             },
             "id": 1962121011,
-            "last_update": 1366730440.53386,
+            "last_update": 1387585190.162208,
             "level": 0,
             "max_targets": 0,
             "name": "Phalanx",
@@ -699,10 +575,154 @@
             "spellbook": 1,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730440.53386,
+            "ts": 1387585190.162208,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 637433615,
+            "deity": 0,
+            "description": "An attack that roots the target in place on a successful hit.",
+            "description_pvp": "An attack that roots the target in place on a successful hit.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 76,
+                "min_sec_tenths": 76
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 2 - 4 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Roots target",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                },
+                {
+                    "description": "10% chance to dispel when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 672
+            },
+            "id": 2841988790,
+            "last_update": 1387585190.011962,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Phalanx",
+            "name_lower": "phalanx",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585190.011962,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 637433615,
+            "deity": 0,
+            "description": "An attack that roots the target in place on a successful hit.",
+            "description_pvp": "An attack that roots the target in place on a successful hit.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 70,
+                "min_sec_tenths": 70
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 2 - 4 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Roots target",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                },
+                {
+                    "description": "10% chance to dispel when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 672
+            },
+            "id": 347021944,
+            "last_update": 1387585189.921514,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Phalanx",
+            "name_lower": "phalanx",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585189.921514,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730455.717137,
+    "min_ts": 1387585613.686387,
     "returned": 3,
-    "seconds": 0.014986991882324219,
+    "seconds": 0.016550064086914062,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3780572222,
-            "deity": 0,
-            "description": "Grants an incremental potency increase to the troubador's group when using Reverberation. This effect can increment up to 15 times.",
-            "description_pvp": "Grants an incremental potency increase to the troubador's group when using Reverberation. This effect can increment up to 15 times.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the potency of the group by 0.5 per increment following Reverberation",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 173
-            },
-            "id": 3775615311,
-            "last_update": 1366730650.857649,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Uplifting Uproar",
-            "name_lower": "uplifting uproar",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730650.857649,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 173
             },
             "id": 6657506,
-            "last_update": 1366730640.055222,
+            "last_update": 1387585613.847997,
             "level": 0,
             "max_targets": 0,
             "name": "Uplifting Uproar",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730640.055222,
+            "ts": 1387585613.847997,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 173
             },
             "id": 2640999572,
-            "last_update": 1366730455.717137,
+            "last_update": 1387585613.768808,
             "level": 0,
             "max_targets": 0,
             "name": "Uplifting Uproar",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730455.717137,
+            "ts": 1387585613.768808,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3780572222,
+            "deity": 0,
+            "description": "Grants an incremental potency increase to the troubador's group when using Reverberation. This effect can increment up to 15 times.",
+            "description_pvp": "Grants an incremental potency increase to the troubador's group when using Reverberation. This effect can increment up to 15 times.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the potency of the group by 0.5 per increment following Reverberation",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 173
+            },
+            "id": 3775615311,
+            "last_update": 1387585613.686387,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Uplifting Uproar",
+            "name_lower": "uplifting uproar",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585613.686387,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

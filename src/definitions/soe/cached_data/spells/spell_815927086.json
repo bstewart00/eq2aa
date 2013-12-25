@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730641.500034,
+    "min_ts": 1387585141.208888,
     "returned": 1,
-    "seconds": 0.020856857299804688,
+    "seconds": 0.014562129974365234,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Inflicts 20 - 30 poison damage on target",
+                    "description": "Heals caster for 14 - 20",
                     "indentation": 0
                 },
                 {
-                    "description": "Heals caster for 14 - 20",
+                    "description": "Inflicts 20 - 30 poison damage on target",
                     "indentation": 0
                 },
                 {
@@ -51,7 +53,7 @@
                 "id": 808
             },
             "id": 1259197638,
-            "last_update": 1366730641.500034,
+            "last_update": 1387585141.208888,
             "level": 0,
             "max_targets": 0,
             "name": "Touch of the Nightshade",
@@ -61,10 +63,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730641.500034,
+            "ts": 1387585141.208888,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

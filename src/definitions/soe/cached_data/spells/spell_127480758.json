@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730630.66672,
+    "min_ts": 1387585033.304942,
     "returned": 1,
-    "seconds": 0.015772104263305664,
+    "seconds": 0.18063902854919434,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 127480758,
             "deity": 0,
-            "description": "Unshakable Grip allows the warrior to protect their allies from disarm, taunt and interrupt effects while increasing the warrior's chance to riposte.  In PVP combat, this will also make the caster's group immune to taunt effects.",
-            "description_pvp": "Unshakable Grip allows the warrior to protect their allies from disarm, taunt and interrupt effects while increasing the warrior's chance to riposte.  In PVP combat, this will also make the caster's group immune to taunt effects.",
+            "description": "Unshakable Grip allows the warrior to protect their allies from disarm, taunt and interrupt effects while increasing the warrior's chance to riposte. The group's Weapon Damage Bonus will also be increased.  In PVP combat, this will also make the caster's group immune to taunt effects.",
+            "description_pvp": "Unshakable Grip allows the warrior to protect their allies from disarm, taunt and interrupt effects while increasing the warrior's chance to riposte. The group's Weapon Damage Bonus will also be increased.  In PVP combat, this will also make the caster's group immune to taunt effects.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 180,
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Caster will Riposte 20.0% of incoming frontal attacks.  Attacks from other quadrants have the same chance of being Parried",
+                    "description": "Makes Group members (AE) immune to taunt effects.",
                     "indentation": 0
                 },
                 {
-                    "description": "Makes group members (AE) immune to effects that prevent changing targets",
+                    "description": "Caster will Riposte 20.0% of incoming frontal attacks.  Attacks from other quadrants have the same chance of being Parried",
                     "indentation": 0
                 },
                 {
@@ -44,11 +46,15 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Prevents group members (AE) from being Interrupted",
+                    "description": "Makes group members (AE) immune to effects that prevent changing targets",
                     "indentation": 0
                 },
                 {
-                    "description": "Makes Group members (AE) immune to taunt effects.",
+                    "description": "Increases Weapon Damage Bonus of group members (AE) by 10.0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Prevents group members (AE) from being Interrupted",
                     "indentation": 0
                 }
             ],
@@ -59,7 +65,7 @@
                 "id": 470
             },
             "id": 3256746590,
-            "last_update": 1366730630.66672,
+            "last_update": 1387585033.304942,
             "level": 0,
             "max_targets": 0,
             "name": "Unshakable Grip",
@@ -69,10 +75,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730630.66672,
+            "ts": 1387585033.304942,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

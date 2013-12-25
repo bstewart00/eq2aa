@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730434.516768,
+    "min_ts": 1387584402.844333,
     "returned": 10,
-    "seconds": 0.02219390869140625,
+    "seconds": 0.016967058181762695,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,511 +34,19 @@
             },
             "effect_list": [
                 {
-                    "description": "Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.6",
-                    "indentation": 0
-                },
-                {
-                    "description": "Interrupts target",
+                    "description": "Decreases Ordination and Slashing of target by 1.6",
                     "indentation": 0
                 },
                 {
                     "description": "Inflicts 4 - 7 melee damage on target",
                     "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 591
-            },
-            "id": 4057655864,
-            "last_update": 1366730644.961193,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Skull Crack",
-            "name_lower": "skull crack",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 9,
-            "tier_name": "Master",
-            "ts": 1366730644.961193,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 1347119616,
-            "deity": 0,
-            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.5",
-                    "indentation": 0
                 },
                 {
                     "description": "Interrupts target",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 4 - 6 melee damage on target",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 591
-            },
-            "id": 1825901390,
-            "last_update": 1366730639.717666,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Skull Crack",
-            "name_lower": "skull crack",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730639.717666,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 1347119616,
-            "deity": 0,
-            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.3",
-                    "indentation": 0
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 6 melee damage on target",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 591
-            },
-            "id": 2806931150,
-            "last_update": 1366730628.650351,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Skull Crack",
-            "name_lower": "skull crack",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730628.650351,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 1347119616,
-            "deity": 0,
-            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 0.9",
-                    "indentation": 0
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on target",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 591
-            },
-            "id": 3263427598,
-            "last_update": 1366730579.110953,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Skull Crack",
-            "name_lower": "skull crack",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730579.110953,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 1347119616,
-            "deity": 0,
-            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on target",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 591
-            },
-            "id": 602747043,
-            "last_update": 1366730459.851306,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Skull Crack",
-            "name_lower": "skull crack",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730459.851306,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 1347119616,
-            "deity": 0,
-            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 0.9",
-                    "indentation": 0
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on target",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 591
-            },
-            "id": 3202535893,
-            "last_update": 1366730459.729822,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Skull Crack",
-            "name_lower": "skull crack",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730459.729822,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 1347119616,
-            "deity": 0,
-            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.2",
-                    "indentation": 0
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 5 melee damage on target",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 591
-            },
-            "id": 3677322005,
-            "last_update": 1366730451.91716,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Skull Crack",
-            "name_lower": "skull crack",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730451.91716,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 1347119616,
-            "deity": 0,
-            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.4",
-                    "indentation": 0
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 6 melee damage on target",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 591
-            },
-            "id": 977387448,
-            "last_update": 1366730451.618935,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Skull Crack",
-            "name_lower": "skull crack",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730451.618935,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 1347119616,
-            "deity": 0,
-            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.6",
-                    "indentation": 0
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 - 7 melee damage on target",
+                    "description": "Decreases Piercing, Ministration, Subjugation, Crushing, Disruption and Focus of target by 1.6",
                     "indentation": 0
                 }
             ],
@@ -547,7 +57,7 @@
                 "id": 591
             },
             "id": 750261601,
-            "last_update": 1366730445.249624,
+            "last_update": 1387584404.714368,
             "level": 0,
             "max_targets": 0,
             "name": "Skull Crack",
@@ -557,10 +67,10 @@
             "spellbook": 1,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730445.249624,
+            "ts": 1387584404.714368,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -570,8 +80,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -590,7 +102,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Decreases Piercing, Disruption, Slashing, Ordination, Subjugation, Ministration, Crushing and Focus of target by 1.1",
+                    "description": "Decreases Ordination and Slashing of target by 1.6",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 7 melee damage on target",
                     "indentation": 0
                 },
                 {
@@ -598,7 +114,347 @@
                     "indentation": 0
                 },
                 {
+                    "description": "Decreases Piercing, Ministration, Subjugation, Crushing, Disruption and Focus of target by 1.6",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 591
+            },
+            "id": 4057655864,
+            "last_update": 1387584404.573703,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Skull Crack",
+            "name_lower": "skull crack",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 9,
+            "tier_name": "Master",
+            "ts": 1387584404.573703,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 1347119616,
+            "deity": 0,
+            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Decreases Ordination and Slashing of target by 1.5",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 6 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Piercing, Ministration, Subjugation, Crushing, Disruption and Focus of target by 1.5",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 591
+            },
+            "id": 1825901390,
+            "last_update": 1387584404.325853,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Skull Crack",
+            "name_lower": "skull crack",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584404.325853,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 1347119616,
+            "deity": 0,
+            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Decreases Ordination and Slashing of target by 1.4",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 3 - 6 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Piercing, Ministration, Subjugation, Crushing, Disruption and Focus of target by 1.4",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 591
+            },
+            "id": 977387448,
+            "last_update": 1387584404.074828,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Skull Crack",
+            "name_lower": "skull crack",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584404.074828,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 1347119616,
+            "deity": 0,
+            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Decreases Ordination and Slashing of target by 1.3",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 3 - 6 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Piercing, Ministration, Subjugation, Crushing, Disruption and Focus of target by 1.3",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 591
+            },
+            "id": 2806931150,
+            "last_update": 1387584403.885032,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Skull Crack",
+            "name_lower": "skull crack",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584403.885032,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 1347119616,
+            "deity": 0,
+            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Decreases Ordination and Slashing of target by 1.2",
+                    "indentation": 0
+                },
+                {
                     "description": "Inflicts 3 - 5 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Piercing, Ministration, Subjugation, Crushing, Disruption and Focus of target by 1.2",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 591
+            },
+            "id": 3677322005,
+            "last_update": 1387584403.674309,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Skull Crack",
+            "name_lower": "skull crack",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584403.674309,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 1347119616,
+            "deity": 0,
+            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Decreases Ordination and Slashing of target by 1.1",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 3 - 5 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Piercing, Ministration, Subjugation, Crushing, Disruption and Focus of target by 1.1",
                     "indentation": 0
                 }
             ],
@@ -609,7 +465,7 @@
                 "id": 591
             },
             "id": 1176541795,
-            "last_update": 1366730434.516768,
+            "last_update": 1387584403.474266,
             "level": 0,
             "max_targets": 0,
             "name": "Skull Crack",
@@ -619,10 +475,214 @@
             "spellbook": 1,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730434.516768,
+            "ts": 1387584403.474266,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 1347119616,
+            "deity": 0,
+            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Decreases Ordination and Slashing of target by 1.0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 2 - 4 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Piercing, Ministration, Subjugation, Crushing, Disruption and Focus of target by 1.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 591
+            },
+            "id": 602747043,
+            "last_update": 1387584403.234633,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Skull Crack",
+            "name_lower": "skull crack",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584403.234633,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 1347119616,
+            "deity": 0,
+            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Decreases Ordination and Slashing of target by 0.9",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 2 - 4 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Piercing, Ministration, Subjugation, Crushing, Disruption and Focus of target by 0.9",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 591
+            },
+            "id": 3202535893,
+            "last_update": 1387584403.046073,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Skull Crack",
+            "name_lower": "skull crack",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584403.046073,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 1347119616,
+            "deity": 0,
+            "description": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "description_pvp": "A melee attack that interrupts the target and decreases the focus, combat, and casting skills of the target for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Decreases Ordination and Slashing of target by 0.9",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 2 - 4 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Piercing, Ministration, Subjugation, Crushing, Disruption and Focus of target by 0.9",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 591
+            },
+            "id": 3263427598,
+            "last_update": 1387584402.844333,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Skull Crack",
+            "name_lower": "skull crack",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584402.844333,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

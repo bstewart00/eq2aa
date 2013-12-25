@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730439.376517,
+    "min_ts": 1387585039.153563,
     "returned": 5,
-    "seconds": 0.018458843231201172,
+    "seconds": 0.01520991325378418,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 924685673,
-            "deity": 0,
-            "description": "An additional effect is added to Gravitas which improves the reuse speed of beneficial spells.",
-            "description_pvp": "An additional effect is added to Gravitas which improves the reuse speed of beneficial spells.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Adds an effect which improves beneficial spell reuse speed by 10%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 10
-            },
-            "id": 735335953,
-            "last_update": 1366730640.690082,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Gravitated Healing",
-            "name_lower": "gravitated healing",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730640.690082,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 10
             },
             "id": 1453805641,
-            "last_update": 1366730460.608579,
+            "last_update": 1387585039.432424,
             "level": 0,
             "max_targets": 0,
             "name": "Gravitated Healing",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730460.608579,
+            "ts": 1387585039.432424,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 10
             },
             "id": 2335279564,
-            "last_update": 1366730458.261551,
+            "last_update": 1387585039.367321,
             "level": 0,
             "max_targets": 0,
             "name": "Gravitated Healing",
@@ -161,10 +111,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730458.261551,
+            "ts": 1387585039.367321,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,7 +157,7 @@
                 "id": 10
             },
             "id": 4131557268,
-            "last_update": 1366730451.889217,
+            "last_update": 1387585039.312743,
             "level": 0,
             "max_targets": 0,
             "name": "Gravitated Healing",
@@ -215,10 +167,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730451.889217,
+            "ts": 1387585039.312743,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +180,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 924685673,
+            "deity": 0,
+            "description": "An additional effect is added to Gravitas which improves the reuse speed of beneficial spells.",
+            "description_pvp": "An additional effect is added to Gravitas which improves the reuse speed of beneficial spells.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Adds an effect which improves beneficial spell reuse speed by 10%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 10
+            },
+            "id": 735335953,
+            "last_update": 1387585039.23283,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Gravitated Healing",
+            "name_lower": "gravitated healing",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585039.23283,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +269,7 @@
                 "id": 10
             },
             "id": 2518563551,
-            "last_update": 1366730439.376517,
+            "last_update": 1387585039.153563,
             "level": 0,
             "max_targets": 0,
             "name": "Gravitated Healing",
@@ -269,10 +279,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730439.376517,
+            "ts": 1387585039.153563,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

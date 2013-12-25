@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730594.619496,
+    "min_ts": 1387584983.002512,
     "returned": 1,
-    "seconds": 0.017808914184570312,
+    "seconds": 0.015851974487304688,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,26 +34,26 @@
             },
             "effect_list": [
                 {
+                    "description": "Reduces all damage done to target by 25%",
+                    "indentation": 0
+                },
+                {
                     "description": "On any combat or spell hit this spell will cast Divine Rage on target of attack.  ",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Threat to target by 111 ",
+                    "description": "Increases Threat to target by 148 ",
                     "indentation": 1
-                },
-                {
-                    "description": "Reduces all damage done to target by 25%",
-                    "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 316,
                 "icon_heroic_op": -1,
                 "id": 917
             },
             "id": 939703527,
-            "last_update": 1366730594.619496,
+            "last_update": 1387584983.002512,
             "level": 0,
             "max_targets": 0,
             "name": "True Faith",
@@ -61,10 +63,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730594.619496,
+            "ts": 1387584983.002512,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

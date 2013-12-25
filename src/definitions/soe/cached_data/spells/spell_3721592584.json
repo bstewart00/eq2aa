@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730580.13914,
+    "min_ts": 1387584182.777337,
     "returned": 5,
-    "seconds": 0.01595902442932129,
+    "seconds": 0.015275955200195312,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3721592584,
-            "deity": 0,
-            "description": "Mountain Stance and its upgrades also protect you from magical damage, as well as hastens its reuse speed.",
-            "description_pvp": "Mountain Stance and its upgrades also protect you from magical damage, as well as hastens its reuse speed.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Adds spell resistance by 18% and improves reuse speed by 18 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 329
-            },
-            "id": 2652989381,
-            "last_update": 1366730631.100841,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Mountain Stance",
-            "name_lower": "enhance: mountain stance",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730631.100841,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 329
             },
             "id": 1726164083,
-            "last_update": 1366730622.602836,
+            "last_update": 1387584183.102151,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Mountain Stance",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730622.602836,
+            "ts": 1387584183.102151,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 329
             },
             "id": 4226600197,
-            "last_update": 1366730612.274954,
+            "last_update": 1387584182.98271,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Mountain Stance",
@@ -161,10 +111,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730612.274954,
+            "ts": 1387584182.98271,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +124,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3721592584,
+            "deity": 0,
+            "description": "Mountain Stance and its upgrades also protect you from magical damage, as well as hastens its reuse speed.",
+            "description_pvp": "Mountain Stance and its upgrades also protect you from magical damage, as well as hastens its reuse speed.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Adds spell resistance by 18% and improves reuse speed by 18 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 329
+            },
+            "id": 2652989381,
+            "last_update": 1387584182.93791,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Mountain Stance",
+            "name_lower": "enhance: mountain stance",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584182.93791,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,7 +213,7 @@
                 "id": 329
             },
             "id": 53380787,
-            "last_update": 1366730612.031344,
+            "last_update": 1387584182.863599,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Mountain Stance",
@@ -215,10 +223,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730612.031344,
+            "ts": 1387584182.863599,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +236,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -252,14 +262,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 329
             },
             "id": 2135925608,
-            "last_update": 1366730580.13914,
+            "last_update": 1387584182.777337,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Mountain Stance",
@@ -269,10 +279,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730580.13914,
+            "ts": 1387584182.777337,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

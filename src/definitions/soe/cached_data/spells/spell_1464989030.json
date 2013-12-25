@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730569.298799,
+    "min_ts": 1387584493.447101,
     "returned": 1,
-    "seconds": 0.015669822692871094,
+    "seconds": 0.13717913627624512,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -44,14 +46,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 312,
                 "icon_heroic_op": 37,
                 "id": 382
             },
             "id": 3954499390,
-            "last_update": 1366730569.298799,
+            "last_update": 1387584493.447101,
             "level": 0,
             "max_targets": 6,
             "name": "Hidden Assault",
@@ -61,10 +63,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730569.298799,
+            "ts": 1387584493.447101,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

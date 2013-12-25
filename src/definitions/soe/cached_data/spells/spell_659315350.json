@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730433.027064,
+    "min_ts": 1387584498.203806,
     "returned": 10,
-    "seconds": 0.01676011085510254,
+    "seconds": 0.05837297439575195,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,132 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 659315350,
-            "deity": 0,
-            "description": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
-            "description_pvp": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell has a 5% chance to cast Bolt of Power on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 - 6 divine damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 581
-            },
-            "id": 3533479878,
-            "last_update": 1366730637.413693,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bolt of Power",
-            "name_lower": "bolt of power",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730637.413693,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 659315350,
-            "deity": 0,
-            "description": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
-            "description_pvp": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell has a 25% chance to cast Bolt of Power on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 - 6 divine damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 581
-            },
-            "id": 304477520,
-            "last_update": 1366730635.299501,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bolt of Power",
-            "name_lower": "bolt of power",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730635.299501,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -175,7 +53,7 @@
                 "id": 581
             },
             "id": 3877428420,
-            "last_update": 1366730633.241021,
+            "last_update": 1387584499.322597,
             "level": 0,
             "max_targets": 0,
             "name": "Bolt of Power",
@@ -185,10 +63,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730633.241021,
+            "ts": 1387584499.322597,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -198,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -237,7 +117,7 @@
                 "id": 581
             },
             "id": 2292141227,
-            "last_update": 1366730624.309768,
+            "last_update": 1387584499.242686,
             "level": 0,
             "max_targets": 0,
             "name": "Bolt of Power",
@@ -247,10 +127,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730624.309768,
+            "ts": 1387584499.242686,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -260,8 +140,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -299,7 +181,7 @@
                 "id": 581
             },
             "id": 1426691374,
-            "last_update": 1366730620.582795,
+            "last_update": 1387584499.111578,
             "level": 0,
             "max_targets": 0,
             "name": "Bolt of Power",
@@ -309,10 +191,10 @@
             "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730620.582795,
+            "ts": 1387584499.111578,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -322,194 +204,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 659315350,
-            "deity": 0,
-            "description": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
-            "description_pvp": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell has a 20% chance to cast Bolt of Power on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 - 6 divine damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 581
-            },
-            "id": 3484626133,
-            "last_update": 1366730614.542265,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bolt of Power",
-            "name_lower": "bolt of power",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730614.542265,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 659315350,
-            "deity": 0,
-            "description": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
-            "description_pvp": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell has a 30% chance to cast Bolt of Power on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 - 6 divine damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 581
-            },
-            "id": 2951715230,
-            "last_update": 1366730614.27863,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bolt of Power",
-            "name_lower": "bolt of power",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730614.27863,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 659315350,
-            "deity": 0,
-            "description": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
-            "description_pvp": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell has a 15% chance to cast Bolt of Power on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 - 6 divine damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 581
-            },
-            "id": 2998938253,
-            "last_update": 1366730456.267796,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bolt of Power",
-            "name_lower": "bolt of power",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730456.267796,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -547,7 +245,7 @@
                 "id": 581
             },
             "id": 1920548891,
-            "last_update": 1366730443.171041,
+            "last_update": 1387584498.991349,
             "level": 0,
             "max_targets": 0,
             "name": "Bolt of Power",
@@ -557,10 +255,10 @@
             "spellbook": 4,
             "tier": 7,
             "tier_name": "Expert",
-            "ts": 1366730443.171041,
+            "ts": 1387584498.991349,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -570,8 +268,266 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 659315350,
+            "deity": 0,
+            "description": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
+            "description_pvp": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell has a 30% chance to cast Bolt of Power on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 6 divine damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 581
+            },
+            "id": 2951715230,
+            "last_update": 1387584498.872055,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bolt of Power",
+            "name_lower": "bolt of power",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584498.872055,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 659315350,
+            "deity": 0,
+            "description": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
+            "description_pvp": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell has a 25% chance to cast Bolt of Power on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 6 divine damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 581
+            },
+            "id": 304477520,
+            "last_update": 1387584498.752769,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bolt of Power",
+            "name_lower": "bolt of power",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584498.752769,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 659315350,
+            "deity": 0,
+            "description": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
+            "description_pvp": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell has a 20% chance to cast Bolt of Power on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 6 divine damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 581
+            },
+            "id": 3484626133,
+            "last_update": 1387584498.642579,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bolt of Power",
+            "name_lower": "bolt of power",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584498.642579,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 659315350,
+            "deity": 0,
+            "description": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
+            "description_pvp": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell has a 15% chance to cast Bolt of Power on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 6 divine damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 581
+            },
+            "id": 2998938253,
+            "last_update": 1387584498.470804,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bolt of Power",
+            "name_lower": "bolt of power",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584498.470804,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -609,7 +565,7 @@
                 "id": 581
             },
             "id": 1867969288,
-            "last_update": 1366730433.027064,
+            "last_update": 1387584498.364025,
             "level": 0,
             "max_targets": 0,
             "name": "Bolt of Power",
@@ -619,10 +575,74 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730433.027064,
+            "ts": 1387584498.364025,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 659315350,
+            "deity": 0,
+            "description": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
+            "description_pvp": "Imbues the Bishop's weapon with divine power, that sometimes interrupts enemies and causes additional divine damage when striking with a weapon or spell.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell has a 5% chance to cast Bolt of Power on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 6 divine damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 581
+            },
+            "id": 3533479878,
+            "last_update": 1387584498.203806,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bolt of Power",
+            "name_lower": "bolt of power",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584498.203806,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

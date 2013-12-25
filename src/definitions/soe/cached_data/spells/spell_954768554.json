@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730641.446728,
+    "min_ts": 1387585126.047174,
     "returned": 1,
-    "seconds": 0.014434814453125,
+    "seconds": 0.01431894302368164,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the base damage of professional spells by 5%",
+                    "description": "Improves the critical damage of professional spells by 4%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the critical damage of professional spells by 4%.",
+                    "description": "Improves the base damage of professional spells by 5%",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 892
             },
             "id": 3033124775,
-            "last_update": 1366730641.446728,
+            "last_update": 1387585126.047174,
             "level": 0,
             "max_targets": 0,
             "name": "Mental Focus",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730641.446728,
+            "ts": 1387585126.047174,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

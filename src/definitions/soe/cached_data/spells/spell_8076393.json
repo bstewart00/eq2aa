@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730434.189597,
+    "min_ts": 1387584618.114039,
     "returned": 3,
-    "seconds": 0.03207087516784668,
+    "seconds": 0.022109031677246094,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,123 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Champion's Interception will incease the guardian's threat by 1.6% of their damage inflicted per increment. If the guardian has Recklessness active, their threat is reduced instead.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Champion's Watch will reduce incoming damage to the guardian by 3%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 834
-            },
-            "id": 3231242405,
-            "last_update": 1366730455.902004,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Champion's Shout",
-            "name_lower": "champion's shout",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730455.902004,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 8076393,
-            "deity": 0,
-            "description": "Champion's Interception will increase the guardian's threat generation by a percentage of the damage they inflict. Also, Champion's Watch will reduce incoming damage to the guardian.",
-            "description_pvp": "Champion's Interception will increase the guardian's threat generation by a percentage of the damage they inflict. Also, Champion's Watch will reduce incoming damage to the guardian.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Champion's Interception will incease the guardian's threat by 0.8% of their damage inflicted per increment. If the guardian has Recklessness active, their threat is reduced instead.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Champion's Watch will reduce incoming damage to the guardian by 1.5%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 834
-            },
-            "id": 1501216420,
-            "last_update": 1366730443.133565,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Champion's Shout",
-            "name_lower": "champion's shout",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730443.133565,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 8076393,
-            "deity": 0,
-            "description": "Champion's Interception will increase the guardian's threat generation by a percentage of the damage they inflict. Also, Champion's Watch will reduce incoming damage to the guardian.",
-            "description_pvp": "Champion's Interception will increase the guardian's threat generation by a percentage of the damage they inflict. Also, Champion's Watch will reduce incoming damage to the guardian.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Champion's Interception will incease the guardian's threat by 2.4% of their damage inflicted per increment. If the guardian has Recklessness active, their threat is reduced instead.",
+                    "description": "Champion's Interception will increase the guardian's threat by 2.4% of their damage inflicted per increment. If the guardian has Recklessness active, their threat is reduced instead.",
                     "indentation": 0
                 },
                 {
@@ -163,7 +49,7 @@
                 "id": 834
             },
             "id": 18220901,
-            "last_update": 1366730434.189597,
+            "last_update": 1387584618.289809,
             "level": 0,
             "max_targets": 0,
             "name": "Champion's Shout",
@@ -173,10 +59,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730434.189597,
+            "ts": 1387584618.289809,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 8076393,
+            "deity": 0,
+            "description": "Champion's Interception will increase the guardian's threat generation by a percentage of the damage they inflict. Also, Champion's Watch will reduce incoming damage to the guardian.",
+            "description_pvp": "Champion's Interception will increase the guardian's threat generation by a percentage of the damage they inflict. Also, Champion's Watch will reduce incoming damage to the guardian.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Champion's Interception will increase the guardian's threat by 1.6% of their damage inflicted per increment. If the guardian has Recklessness active, their threat is reduced instead.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Champion's Watch will reduce incoming damage to the guardian by 3%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 834
+            },
+            "id": 3231242405,
+            "last_update": 1387584618.193828,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Champion's Shout",
+            "name_lower": "champion's shout",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584618.193828,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 8076393,
+            "deity": 0,
+            "description": "Champion's Interception will increase the guardian's threat generation by a percentage of the damage they inflict. Also, Champion's Watch will reduce incoming damage to the guardian.",
+            "description_pvp": "Champion's Interception will increase the guardian's threat generation by a percentage of the damage they inflict. Also, Champion's Watch will reduce incoming damage to the guardian.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Champion's Interception will increase the guardian's threat by 0.8% of their damage inflicted per increment. If the guardian has Recklessness active, their threat is reduced instead.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Champion's Watch will reduce incoming damage to the guardian by 1.5%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 834
+            },
+            "id": 1501216420,
+            "last_update": 1387584618.114039,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Champion's Shout",
+            "name_lower": "champion's shout",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584618.114039,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

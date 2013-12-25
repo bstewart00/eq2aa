@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730447.061701,
+    "min_ts": 1387584787.119435,
     "returned": 5,
-    "seconds": 0.027381181716918945,
+    "seconds": 0.07293391227722168,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1195794055,
             "deity": 0,
-            "description": "Adds an effect to Spirit of the Mammoth and its upgrades which gives additional health to members of the group.",
-            "description_pvp": "Adds an effect to Spirit of the Mammoth and its upgrades which gives additional health to members of the group.",
+            "description": "Increases the stamina granted by Spirit of the Mammoth.",
+            "description_pvp": "Increases the stamina granted by Spirit of the Mammoth.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,223 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Adds an additional effect which adds a hitpoint bonus to the buff.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 352
-            },
-            "id": 1898276262,
-            "last_update": 1366730650.534974,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Infusion of Spirit",
-            "name_lower": "infusion of spirit",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730650.534974,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1195794055,
-            "deity": 0,
-            "description": "Adds an effect to Spirit of the Mammoth and its upgrades which gives additional health to members of the group.",
-            "description_pvp": "Adds an effect to Spirit of the Mammoth and its upgrades which gives additional health to members of the group.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Adds an additional effect which adds a hitpoint bonus to the buff.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 352
-            },
-            "id": 3962209488,
-            "last_update": 1366730642.865979,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Infusion of Spirit",
-            "name_lower": "infusion of spirit",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730642.865979,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1195794055,
-            "deity": 0,
-            "description": "Adds an effect to Spirit of the Mammoth and its upgrades which gives additional health to members of the group.",
-            "description_pvp": "Adds an effect to Spirit of the Mammoth and its upgrades which gives additional health to members of the group.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Adds an additional effect which adds a hitpoint bonus to the buff.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 352
-            },
-            "id": 222576765,
-            "last_update": 1366730562.849298,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Infusion of Spirit",
-            "name_lower": "infusion of spirit",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730562.849298,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1195794055,
-            "deity": 0,
-            "description": "Adds an effect to Spirit of the Mammoth and its upgrades which gives additional health to members of the group.",
-            "description_pvp": "Adds an effect to Spirit of the Mammoth and its upgrades which gives additional health to members of the group.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Adds an additional effect which adds a hitpoint bonus to the buff.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 352
-            },
-            "id": 2313629200,
-            "last_update": 1366730457.296856,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Infusion of Spirit",
-            "name_lower": "infusion of spirit",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730457.296856,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1195794055,
-            "deity": 0,
-            "description": "Adds an effect to Spirit of the Mammoth and its upgrades which gives additional health to members of the group.",
-            "description_pvp": "Adds an effect to Spirit of the Mammoth and its upgrades which gives additional health to members of the group.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Adds an additional effect which adds a hitpoint bonus to the buff.",
+                    "description": "Improves the stamina granted by 50%",
                     "indentation": 0
                 }
             ],
@@ -259,7 +45,7 @@
                 "id": 352
             },
             "id": 350801766,
-            "last_update": 1366730447.061701,
+            "last_update": 1387584787.400298,
             "level": 0,
             "max_targets": 0,
             "name": "Infusion of Spirit",
@@ -269,10 +55,234 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730447.061701,
+            "ts": 1387584787.400298,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1195794055,
+            "deity": 0,
+            "description": "Increases the stamina granted by Spirit of the Mammoth.",
+            "description_pvp": "Increases the stamina granted by Spirit of the Mammoth.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the stamina granted by 40%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 352
+            },
+            "id": 2313629200,
+            "last_update": 1387584787.320083,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Infusion of Spirit",
+            "name_lower": "infusion of spirit",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584787.320083,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1195794055,
+            "deity": 0,
+            "description": "Increases the stamina granted by Spirit of the Mammoth.",
+            "description_pvp": "Increases the stamina granted by Spirit of the Mammoth.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the stamina granted by 30%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 352
+            },
+            "id": 3962209488,
+            "last_update": 1387584787.240023,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Infusion of Spirit",
+            "name_lower": "infusion of spirit",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584787.240023,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1195794055,
+            "deity": 0,
+            "description": "Increases the stamina granted by Spirit of the Mammoth.",
+            "description_pvp": "Increases the stamina granted by Spirit of the Mammoth.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the stamina granted by 20%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 352
+            },
+            "id": 1898276262,
+            "last_update": 1387584787.159907,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Infusion of Spirit",
+            "name_lower": "infusion of spirit",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584787.159907,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1195794055,
+            "deity": 0,
+            "description": "Increases the stamina granted by Spirit of the Mammoth.",
+            "description_pvp": "Increases the stamina granted by Spirit of the Mammoth.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the stamina granted by 10%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 352
+            },
+            "id": 222576765,
+            "last_update": 1387584787.119435,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Infusion of Spirit",
+            "name_lower": "infusion of spirit",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584787.119435,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730446.424336,
+    "min_ts": 1387584472.488354,
     "returned": 1,
-    "seconds": 0.016618013381958008,
+    "seconds": 0.017794132232666016,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,15 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Decreases INT of targets in Area of Effect by 5.0",
-                    "indentation": 0
-                },
-                {
                     "description": "Inflicts 10 - 19 melee damage on targets in Area of Effect",
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases STR of targets in Area of Effect by 5.0",
+                    "description": "Decreases STR and INT of targets in Area of Effect by 5.0",
                     "indentation": 0
                 }
             ],
@@ -51,7 +49,7 @@
                 "id": 826
             },
             "id": 206784821,
-            "last_update": 1366730446.424336,
+            "last_update": 1387584472.488354,
             "level": 0,
             "max_targets": 8,
             "name": "Enfeebling Whirl",
@@ -61,10 +59,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730446.424336,
+            "ts": 1387584472.488354,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

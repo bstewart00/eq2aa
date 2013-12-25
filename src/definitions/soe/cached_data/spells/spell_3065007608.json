@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730584.808194,
+    "min_ts": 1387585172.659649,
     "returned": 1,
-    "seconds": 0.014106035232543945,
+    "seconds": 0.015573978424072266,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,14 +38,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 301
             },
             "id": 3254886338,
-            "last_update": 1366730584.808194,
+            "last_update": 1387585172.659649,
             "level": 0,
             "max_targets": 0,
             "name": "Repeated Stabbing",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730584.808194,
+            "ts": 1387585172.659649,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

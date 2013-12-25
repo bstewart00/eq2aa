@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.42795,
+    "min_ts": 1387584969.883503,
     "returned": 3,
-    "seconds": 0.014595985412597656,
+    "seconds": 0.014627218246459961,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 3817445566,
             "deity": 0,
-            "description": "Any non-fighter near the target of Martial Leap has a chance to receive physical stoneskin for a short duration.",
-            "description_pvp": "Any non-fighter near the target of Martial Leap has a chance to receive physical stoneskin for a short duration.",
+            "description": "Adds a damage threshold to Martial Retaliation.",
+            "description_pvp": "Adds a damage threshold to Martial Retaliation.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "60% chance to apply a physical stoneskin to non-fighters near the target of Martial Leap.",
+                    "description": "Damage lower than 24% will not cause Martial Retaliation to lose an increment",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 840
             },
             "id": 1917974978,
-            "last_update": 1366730460.429654,
+            "last_update": 1387584970.030923,
             "level": 0,
             "max_targets": 0,
             "name": "Martial Resiliance",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730460.429654,
+            "ts": 1387584970.030923,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -77,8 +81,8 @@
             },
             "crc": 3817445566,
             "deity": 0,
-            "description": "Any non-fighter near the target of Martial Leap has a chance to receive physical stoneskin for a short duration.",
-            "description_pvp": "Any non-fighter near the target of Martial Leap has a chance to receive physical stoneskin for a short duration.",
+            "description": "Adds a damage threshold to Martial Retaliation.",
+            "description_pvp": "Adds a damage threshold to Martial Retaliation.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -86,61 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "20% chance to apply a physical stoneskin to non-fighters near the target of Martial Leap.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 840
-            },
-            "id": 2470395247,
-            "last_update": 1366730442.131979,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Martial Resiliance",
-            "name_lower": "martial resiliance",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730442.131979,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3817445566,
-            "deity": 0,
-            "description": "Any non-fighter near the target of Martial Leap has a chance to receive physical stoneskin for a short duration.",
-            "description_pvp": "Any non-fighter near the target of Martial Leap has a chance to receive physical stoneskin for a short duration.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "40% chance to apply a physical stoneskin to non-fighters near the target of Martial Leap.",
+                    "description": "Damage lower than 16% will not cause Martial Retaliation to lose an increment",
                     "indentation": 0
                 }
             ],
@@ -151,7 +101,7 @@
                 "id": 840
             },
             "id": 4015921332,
-            "last_update": 1366730440.42795,
+            "last_update": 1387584969.964981,
             "level": 0,
             "max_targets": 0,
             "name": "Martial Resiliance",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730440.42795,
+            "ts": 1387584969.964981,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3817445566,
+            "deity": 0,
+            "description": "Adds a damage threshold to Martial Retaliation.",
+            "description_pvp": "Adds a damage threshold to Martial Retaliation.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Damage lower than 8% will not cause Martial Retaliation to lose an increment",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 840
+            },
+            "id": 2470395247,
+            "last_update": 1387584969.883503,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Martial Resiliance",
+            "name_lower": "martial resiliance",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584969.883503,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

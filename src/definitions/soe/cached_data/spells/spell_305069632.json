@@ -1,19 +1,21 @@
 {
     "limit": 10,
-    "min_ts": 1366730458.347648,
+    "min_ts": 1387584619.272995,
     "returned": 1,
-    "seconds": 0.014677047729492188,
+    "seconds": 0.014367103576660156,
     "spell_list": [
         {
             "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
+            "aoe_radius_meters": 0.0,
             "beneficial": 1,
-            "cast_secs_hundredths": 20,
+            "cast_secs_hundredths": 321,
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,16 +25,16 @@
             },
             "crc": 305069632,
             "deity": 0,
-            "description": "All spells cast by the group are much more difficult to resist for a limited duration.",
-            "description_pvp": "All spells cast by the group are much more difficult to resist for a limited duration.",
+            "description": "Flash of Brilliance will greatly reduce the group's resistibility of all spells.",
+            "description_pvp": "Flash of Brilliance will greatly reduce the group's resistibility of all spells.",
             "duration": {
-                "does_not_expire": 0,
+                "does_not_expire": 1,
                 "max_sec_tenths": 200,
                 "min_sec_tenths": 200
             },
             "effect_list": [
                 {
-                    "description": "Reduces the resistibility of your spells by 50%",
+                    "description": "Flash of Brilliance will reduce the resistibility of spells by 50%.",
                     "indentation": 0
                 }
             ],
@@ -43,20 +45,20 @@
                 "id": 78
             },
             "id": 3619072990,
-            "last_update": 1366730458.347648,
+            "last_update": 1387584619.272995,
             "level": 0,
             "max_targets": 0,
             "name": "Illuminate",
             "name_lower": "illuminate",
-            "recast_secs": 88.932808,
-            "recovery_secs_tenths": 25,
-            "spellbook": 0,
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730458.347648,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
+            "ts": 1387584619.272995,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

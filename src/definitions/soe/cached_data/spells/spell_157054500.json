@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730592.394643,
+    "min_ts": 1387585520.396847,
     "returned": 1,
-    "seconds": 0.017040014266967773,
+    "seconds": 0.014492988586425781,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Decreases STR and INT of target by 5.0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Ability Modifier of target by 5.0",
+                    "description": "Inflicts 6 - 9 disease damage on target",
                     "indentation": 0
                 },
                 {
@@ -44,7 +42,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Increases STR and INT of group members (AE) by 5.4",
+                    "description": "Increases INT and STR of group members (AE) by 5.4",
                     "indentation": 1
                 },
                 {
@@ -52,18 +50,22 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 6 - 9 disease damage on target",
+                    "description": "Decreases STR and INT of target by 5.0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Ability Modifier of target by 5.0",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 315,
                 "icon_heroic_op": -1,
                 "id": 852
             },
             "id": 1418769070,
-            "last_update": 1366730592.394643,
+            "last_update": 1387585520.396847,
             "level": 0,
             "max_targets": 0,
             "name": "Essence Siphon",
@@ -73,10 +75,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730592.394643,
+            "ts": 1387585520.396847,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

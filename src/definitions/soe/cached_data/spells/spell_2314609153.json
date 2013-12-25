@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.796373,
+    "min_ts": 1387584972.921719,
     "returned": 5,
-    "seconds": 0.016779184341430664,
+    "seconds": 0.026430130004882812,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 2314609153,
             "deity": 0,
-            "description": "Increases the defense and health bonus of Call of Shielding.",
-            "description_pvp": "Increases the defense and health bonus of Call of Shielding.",
+            "description": "Increases the defense and stamina bonus of Call of Shielding.",
+            "description_pvp": "Increases the defense and stamina bonus of Call of Shielding.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,169 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the health and defense bonuses by 20%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 295
-            },
-            "id": 3845327775,
-            "last_update": 1366730648.398722,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Call of Shielding",
-            "name_lower": "enhance: call of shielding",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730648.398722,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2314609153,
-            "deity": 0,
-            "description": "Increases the defense and health bonus of Call of Shielding.",
-            "description_pvp": "Increases the defense and health bonus of Call of Shielding.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the health and defense bonuses by 5%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 295
-            },
-            "id": 1636853234,
-            "last_update": 1366730642.461787,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Call of Shielding",
-            "name_lower": "enhance: call of shielding",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730642.461787,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2314609153,
-            "deity": 0,
-            "description": "Increases the defense and health bonus of Call of Shielding.",
-            "description_pvp": "Increases the defense and health bonus of Call of Shielding.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the health and defense bonuses by 15%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 295
-            },
-            "id": 2164171103,
-            "last_update": 1366730640.438547,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Call of Shielding",
-            "name_lower": "enhance: call of shielding",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730640.438547,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2314609153,
-            "deity": 0,
-            "description": "Increases the defense and health bonus of Call of Shielding.",
-            "description_pvp": "Increases the defense and health bonus of Call of Shielding.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the health and defense bonuses by 25%.",
+                    "description": "Increases the stamina and defense bonuses by 25%.",
                     "indentation": 0
                 }
             ],
@@ -205,7 +45,7 @@
                 "id": 295
             },
             "id": 2017258217,
-            "last_update": 1366730638.589506,
+            "last_update": 1387584973.202879,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Call of Shielding",
@@ -215,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730638.589506,
+            "ts": 1387584973.202879,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -239,8 +81,8 @@
             },
             "crc": 2314609153,
             "deity": 0,
-            "description": "Increases the defense and health bonus of Call of Shielding.",
-            "description_pvp": "Increases the defense and health bonus of Call of Shielding.",
+            "description": "Increases the defense and stamina bonus of Call of Shielding.",
+            "description_pvp": "Increases the defense and stamina bonus of Call of Shielding.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -248,7 +90,119 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the health and defense bonuses by 10%.",
+                    "description": "Increases the stamina and defense bonuses by 20%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 295
+            },
+            "id": 3845327775,
+            "last_update": 1387584973.146803,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Call of Shielding",
+            "name_lower": "enhance: call of shielding",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584973.146803,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2314609153,
+            "deity": 0,
+            "description": "Increases the defense and stamina bonus of Call of Shielding.",
+            "description_pvp": "Increases the defense and stamina bonus of Call of Shielding.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the stamina and defense bonuses by 15%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 295
+            },
+            "id": 2164171103,
+            "last_update": 1387584973.107844,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Call of Shielding",
+            "name_lower": "enhance: call of shielding",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584973.107844,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2314609153,
+            "deity": 0,
+            "description": "Increases the defense and stamina bonus of Call of Shielding.",
+            "description_pvp": "Increases the defense and stamina bonus of Call of Shielding.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the stamina and defense bonuses by 10%.",
                     "indentation": 0
                 }
             ],
@@ -259,7 +213,7 @@
                 "id": 295
             },
             "id": 502349865,
-            "last_update": 1366730440.796373,
+            "last_update": 1387584973.002426,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Call of Shielding",
@@ -269,10 +223,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730440.796373,
+            "ts": 1387584973.002426,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2314609153,
+            "deity": 0,
+            "description": "Increases the defense and stamina bonus of Call of Shielding.",
+            "description_pvp": "Increases the defense and stamina bonus of Call of Shielding.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the stamina and defense bonuses by 5%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 295
+            },
+            "id": 1636853234,
+            "last_update": 1387584972.921719,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Call of Shielding",
+            "name_lower": "enhance: call of shielding",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584972.921719,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

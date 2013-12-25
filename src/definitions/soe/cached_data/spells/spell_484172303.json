@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730463.272347,
+    "min_ts": 1387584906.605418,
     "returned": 1,
-    "seconds": 0.11636900901794434,
+    "seconds": 0.014230012893676758,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 484172303,
             "deity": 0,
-            "description": "Divine Aura grants the Deacon immunity to most damage sources for 10 seconds. Any damage amounts in excess of 50% of the Deacon's health total is not prevented.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "description_pvp": "Divine Aura grants the Deacon immunity to most damage sources for 10 seconds. Any damage amounts in excess of 50% of the Deacon's health total is not prevented.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "description": "Divine Aura grants the Deacon immunity to most damage sources for 10 seconds. Any damage amounts in excess of 50% of the Deacon's health total is not prevented.",
+            "description_pvp": "Divine Aura grants the Deacon immunity to most damage sources for 10 seconds. Any damage amounts in excess of 50% of the Deacon's health total is not prevented.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 100,
@@ -43,7 +45,7 @@
                 "id": 614
             },
             "id": 3180923580,
-            "last_update": 1366730463.272347,
+            "last_update": 1387584906.605418,
             "level": 0,
             "max_targets": 0,
             "name": "Divine Aura",
@@ -53,10 +55,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730463.272347,
+            "ts": 1387584906.605418,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

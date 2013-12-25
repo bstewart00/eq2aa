@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730572.293832,
+    "min_ts": 1387584365.163373,
     "returned": 1,
-    "seconds": 0.016659021377563477,
+    "seconds": 0.01720905303955078,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,6 +33,10 @@
                 "min_sec_tenths": 200
             },
             "effect_list": [
+                {
+                    "description": "The base damage of Vicious Combination increases by 10% each time it triggers.",
+                    "indentation": 0
+                },
                 {
                     "description": "When a combat art is used this spell will cast Vicious Combination on target of combat art.  Lasts for 1.0 second.  ",
                     "indentation": 0
@@ -50,20 +56,16 @@
                 {
                     "description": "Resistibility increases against targets higher than level 30.",
                     "indentation": 1
-                },
-                {
-                    "description": "The base damage of Vicious Combination increases by 10% each time it triggers.",
-                    "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 379
             },
             "id": 1170912637,
-            "last_update": 1366730572.293832,
+            "last_update": 1387584365.163373,
             "level": 0,
             "max_targets": 0,
             "name": "Vicious Combination",
@@ -73,10 +75,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730572.293832,
+            "ts": 1387584365.163373,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

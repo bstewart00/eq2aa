@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730584.596574,
+    "min_ts": 1387585117.644635,
     "returned": 1,
-    "seconds": 0.014662027359008789,
+    "seconds": 0.015130996704101562,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 2783476036,
             "deity": 0,
-            "description": "The brigand gains additional mastery to rear-based attacks, granting them additional damage and allowing them to critical for more.",
-            "description_pvp": "The brigand gains additional mastery to rear-based attacks, granting them additional damage and allowing them to critical for more.",
+            "description": "The brigand gains additional mastery to positional attacks, granting them additional damage and allowing them to critical for more.",
+            "description_pvp": "The brigand gains additional mastery to positional attacks, granting them additional damage and allowing them to critical for more.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,22 +34,22 @@
             },
             "effect_list": [
                 {
-                    "description": "Attacks with multiple position allowances gain an additional 5% damage and critical multiplier.",
+                    "description": "Murderous Rake, Dispatch, Debilitate and Backstab gain an additional 15% bonus to base and critical damage.",
                     "indentation": 0
                 },
                 {
-                    "description": "Back attacks gain an additional 15% bonus to base and critical damage.",
+                    "description": "Bumrush, Gouge and Shank gain an additional 5% damage and critical multiplier.",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 814
             },
             "id": 1726825768,
-            "last_update": 1366730584.596574,
+            "last_update": 1387585117.644635,
             "level": 0,
             "max_targets": 0,
             "name": "Positional Mastery",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730584.596574,
+            "ts": 1387585117.644635,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

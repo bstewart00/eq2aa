@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730592.675533,
+    "min_ts": 1387585441.981283,
     "returned": 1,
-    "seconds": 0.018214941024780273,
+    "seconds": 0.014809131622314453,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,14 +38,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 335
             },
             "id": 2045196320,
-            "last_update": 1366730592.675533,
+            "last_update": 1387585441.981283,
             "level": 0,
             "max_targets": 0,
             "name": "Feral Claws",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730592.675533,
+            "ts": 1387585441.981283,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730439.368094,
+    "min_ts": 1387584345.484369,
     "returned": 5,
-    "seconds": 0.016646146774291992,
+    "seconds": 0.01565384864807129,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +49,7 @@
                 "id": 372
             },
             "id": 3427546781,
-            "last_update": 1366730630.256477,
+            "last_update": 1387584345.844382,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Desperate Thrust",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730630.256477,
+            "ts": 1387584345.844382,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -105,7 +109,7 @@
                 "id": 372
             },
             "id": 1363400683,
-            "last_update": 1366730620.089341,
+            "last_update": 1387584345.843672,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Desperate Thrust",
@@ -115,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730620.089341,
+            "ts": 1387584345.843672,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,66 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2657854995,
-            "deity": 0,
-            "description": "Desperate Thrust and its upgrades become deadlier and are more likely to strike your opponent.",
-            "description_pvp": "Desperate Thrust and its upgrades become deadlier and are more likely to strike your opponent.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases damage by 4%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases chance to hit by 20%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 372
-            },
-            "id": 2843843677,
-            "last_update": 1366730445.270995,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Desperate Thrust",
-            "name_lower": "enhance: desperate thrust",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730445.270995,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -221,7 +169,7 @@
                 "id": 372
             },
             "id": 881753387,
-            "last_update": 1366730440.247337,
+            "last_update": 1387584345.635957,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Desperate Thrust",
@@ -231,10 +179,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730440.247337,
+            "ts": 1387584345.635957,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +192,70 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2657854995,
+            "deity": 0,
+            "description": "Desperate Thrust and its upgrades become deadlier and are more likely to strike your opponent.",
+            "description_pvp": "Desperate Thrust and its upgrades become deadlier and are more likely to strike your opponent.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases damage by 4%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases chance to hit by 20%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 372
+            },
+            "id": 2843843677,
+            "last_update": 1387584345.555699,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Desperate Thrust",
+            "name_lower": "enhance: desperate thrust",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584345.555699,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -279,7 +289,7 @@
                 "id": 372
             },
             "id": 3588274566,
-            "last_update": 1366730439.368094,
+            "last_update": 1387584345.484369,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Desperate Thrust",
@@ -289,10 +299,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730439.368094,
+            "ts": 1387584345.484369,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730461.052843,
+    "min_ts": 1387585381.175875,
     "returned": 1,
-    "seconds": 0.016708850860595703,
+    "seconds": 0.09548401832580566,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 3959020703,
             "deity": 0,
-            "description": "The dirge gains additional Crit Bonus from damage per second.",
-            "description_pvp": "The dirge gains additional Crit Bonus from damage per second.",
+            "description": "The dirge gains additional Crit Bonus from Multi-Attack Chance.",
+            "description_pvp": "The dirge gains additional Crit Bonus from Multi-Attack Chance.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "For every 20 points of damage per second, the caster gains 1% Crit Bonus.",
+                    "description": "For every 20 points of Multi-Attack Chance, the caster gains 1% Crit Bonus.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 246
             },
             "id": 1451924584,
-            "last_update": 1366730461.052843,
+            "last_update": 1387585381.175875,
             "level": 0,
             "max_targets": 0,
             "name": "Songhowler",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730461.052843,
+            "ts": 1387585381.175875,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.180345,
+    "min_ts": 1387585521.996214,
     "returned": 5,
-    "seconds": 0.01526498794555664,
+    "seconds": 0.023951053619384766,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,74 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves reuse speed by 3 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.6 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 3%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 510
-            },
-            "id": 1699620917,
-            "last_update": 1366730647.951548,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Starnova",
-            "name_lower": "enhance: starnova",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730647.951548,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 922203699,
-            "deity": 0,
-            "description": "Increases the critical damage and hastens the casting and reuse speed of Starnova and its upgrades.",
-            "description_pvp": "Increases the critical damage and hastens the casting and reuse speed of Starnova and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 5 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves casting speed by 1 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 5 seconds",
                     "indentation": 0
                 },
                 {
@@ -113,7 +53,7 @@
                 "id": 510
             },
             "id": 3316381672,
-            "last_update": 1366730630.869013,
+            "last_update": 1387585522.396992,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Starnova",
@@ -123,10 +63,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730630.869013,
+            "ts": 1387585522.396992,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -136,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -155,74 +97,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves reuse speed by 1 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.2 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 1%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 510
-            },
-            "id": 85106046,
-            "last_update": 1366730580.998307,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Starnova",
-            "name_lower": "enhance: starnova",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730580.998307,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 922203699,
-            "deity": 0,
-            "description": "Increases the critical damage and hastens the casting and reuse speed of Starnova and its upgrades.",
-            "description_pvp": "Increases the critical damage and hastens the casting and reuse speed of Starnova and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 4 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves casting speed by 0.8 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 4 seconds",
                     "indentation": 0
                 },
                 {
@@ -237,7 +117,7 @@
                 "id": 510
             },
             "id": 406662765,
-            "last_update": 1366730461.323742,
+            "last_update": 1387585522.277346,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Starnova",
@@ -247,10 +127,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730461.323742,
+            "ts": 1387585522.277346,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -260,8 +140,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -280,11 +162,75 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 2 seconds",
+                    "description": "Improves casting speed by 0.6 seconds",
                     "indentation": 0
                 },
                 {
+                    "description": "Improves reuse speed by 3 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 3%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 510
+            },
+            "id": 1699620917,
+            "last_update": 1387585522.195434,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Starnova",
+            "name_lower": "enhance: starnova",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585522.195434,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 922203699,
+            "deity": 0,
+            "description": "Increases the critical damage and hastens the casting and reuse speed of Starnova and its upgrades.",
+            "description_pvp": "Increases the critical damage and hastens the casting and reuse speed of Starnova and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
                     "description": "Improves casting speed by 0.4 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 2 seconds",
                     "indentation": 0
                 },
                 {
@@ -299,7 +245,7 @@
                 "id": 510
             },
             "id": 3101225392,
-            "last_update": 1366730438.180345,
+            "last_update": 1387585522.118499,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Starnova",
@@ -309,10 +255,74 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730438.180345,
+            "ts": 1387585522.118499,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 922203699,
+            "deity": 0,
+            "description": "Increases the critical damage and hastens the casting and reuse speed of Starnova and its upgrades.",
+            "description_pvp": "Increases the critical damage and hastens the casting and reuse speed of Starnova and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting speed by 0.2 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 1 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 1%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 510
+            },
+            "id": 85106046,
+            "last_update": 1387585521.996214,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Starnova",
+            "name_lower": "enhance: starnova",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585521.996214,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

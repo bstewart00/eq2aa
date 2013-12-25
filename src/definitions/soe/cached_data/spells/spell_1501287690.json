@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.970857,
+    "min_ts": 1387584410.558652,
     "returned": 3,
-    "seconds": 0.01455998420715332,
+    "seconds": 0.014699935913085938,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,22 +34,22 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces the base cast speed of Faith to 0.5 seconds.",
+                    "description": "Faith casts instantly.",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the duration of Faith by 11%",
+                    "description": "Improves the duration of Faith by 33%",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 850
             },
-            "id": 484638357,
-            "last_update": 1366730559.620251,
+            "id": 4253825592,
+            "last_update": 1387584410.68052,
             "level": 0,
             "max_targets": 0,
             "name": "Divine Faith",
@@ -55,12 +57,12 @@
             "recast_secs": 1.976285,
             "recovery_secs_tenths": 50,
             "spellbook": 4,
-            "tier": 1,
+            "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730559.620251,
+            "ts": 1387584410.68052,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -105,7 +109,7 @@
                 "id": 850
             },
             "id": 1619254094,
-            "last_update": 1366730452.201112,
+            "last_update": 1387584410.58849,
             "level": 0,
             "max_targets": 0,
             "name": "Divine Faith",
@@ -115,10 +119,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730452.201112,
+            "ts": 1387584410.58849,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -148,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the duration of Faith by 33%",
+                    "description": "Reduces the base cast speed of Faith to 0.5 seconds.",
                     "indentation": 0
                 },
                 {
-                    "description": "Faith casts instantly.",
+                    "description": "Improves the duration of Faith by 11%",
                     "indentation": 0
                 }
             ],
@@ -162,8 +168,8 @@
                 "icon_heroic_op": -1,
                 "id": 850
             },
-            "id": 4253825592,
-            "last_update": 1366730440.970857,
+            "id": 484638357,
+            "last_update": 1387584410.558652,
             "level": 0,
             "max_targets": 0,
             "name": "Divine Faith",
@@ -171,12 +177,12 @@
             "recast_secs": 1.976285,
             "recovery_secs_tenths": 50,
             "spellbook": 4,
-            "tier": 3,
+            "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730440.970857,
+            "ts": 1387584410.558652,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

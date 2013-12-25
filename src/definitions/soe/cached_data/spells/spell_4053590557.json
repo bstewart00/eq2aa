@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730650.850474,
+    "min_ts": 1387585051.477469,
     "returned": 1,
-    "seconds": 0.014905929565429688,
+    "seconds": 0.01412510871887207,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 4053590557,
             "deity": 0,
-            "description": "The guardian gains additional Potency from Multi-Attack Chance.",
-            "description_pvp": "The guardian gains additional Potency from Multi-Attack Chance.",
+            "description": "The guardian gains additional Potency from Damage Per Second.",
+            "description_pvp": "The guardian gains additional Potency from Damage Per Second.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "For every 30 points of Multi-Attack Chance, the caster gains 1% Potency.",
+                    "description": "For every 30 points of Damage Per Second, the caster gains 1% Potency.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 11
             },
             "id": 3792054932,
-            "last_update": 1366730650.850474,
+            "last_update": 1387585051.477469,
             "level": 0,
             "max_targets": 0,
             "name": "Blade Crusher",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730650.850474,
+            "ts": 1387585051.477469,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730583.727227,
+    "min_ts": 1387585602.007898,
     "returned": 1,
-    "seconds": 0.01524806022644043,
+    "seconds": 0.038949012756347656,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,22 +34,22 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases duration of all other abilities by 10%",
+                    "description": "Reduces duration of all heals and damage spells by 10%",
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces duration of all heals and damage spells by 10%",
+                    "description": "Increases duration of all other abilities by 10%",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 314,
                 "icon_heroic_op": -1,
                 "id": 325
             },
             "id": 3803318354,
-            "last_update": 1366730583.727227,
+            "last_update": 1387585602.007898,
             "level": 0,
             "max_targets": 0,
             "name": "Harmonization",
@@ -57,10 +59,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730583.727227,
+            "ts": 1387585602.007898,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

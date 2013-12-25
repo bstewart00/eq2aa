@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730428.380599,
+    "min_ts": 1387584136.53851,
     "returned": 1,
-    "seconds": 0.017086029052734375,
+    "seconds": 0.014294862747192383,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,40 +38,40 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Dispelled when a group member dies.",
+                    "description": "On any combat or spell hit this spell has a 1% chance to cast Exacting Venom on target of attack.  Lasts for 1.5 seconds.  ",
                     "indentation": 1
                 },
                 {
-                    "description": "On any combat or spell hit this spell has a 1% chance to cast Exacting Venom on target of attack.  Lasts for 9.0 seconds.  ",
-                    "indentation": 1
+                    "description": "Inflicts 7 - 8 poison damage on target instantly and every 0.5 seconds",
+                    "indentation": 2
                 },
                 {
                     "description": "The trigger chance is multiplied by the increment count.",
                     "indentation": 2
                 },
                 {
-                    "description": "Inflicts 7 - 8 poison damage on target instantly and every 3 seconds",
-                    "indentation": 2
+                    "description": "Dispelled when a group member dies.",
+                    "indentation": 1
                 },
                 {
                     "description": "On a death blow this spell will cast Exacting Venom on target.  Lasts for 15 minutes.  ",
                     "indentation": 0
                 },
                 {
-                    "description": "Dispelled when a group member dies.",
+                    "description": "On any combat or spell hit this spell has a 1% chance to cast Exacting Venom on target of attack.  Lasts for 1.5 seconds.  ",
                     "indentation": 1
                 },
                 {
-                    "description": "On any combat or spell hit this spell has a 1% chance to cast Exacting Venom on target of attack.  Lasts for 9.0 seconds.  ",
-                    "indentation": 1
+                    "description": "Inflicts 7 - 8 poison damage on target instantly and every 0.5 seconds",
+                    "indentation": 2
                 },
                 {
                     "description": "The trigger chance is multiplied by the increment count.",
                     "indentation": 2
                 },
                 {
-                    "description": "Inflicts 7 - 8 poison damage on target instantly and every 3 seconds",
-                    "indentation": 2
+                    "description": "Dispelled when a group member dies.",
+                    "indentation": 1
                 }
             ],
             "given_by": "alternateadvancement",
@@ -79,7 +81,7 @@
                 "id": 279
             },
             "id": 2619490508,
-            "last_update": 1366730428.380599,
+            "last_update": 1387584136.53851,
             "level": 0,
             "max_targets": 0,
             "name": "Exacting Venom",
@@ -89,10 +91,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730428.380599,
+            "ts": 1387584136.53851,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.120479,
+    "min_ts": 1387584532.119126,
     "returned": 5,
-    "seconds": 0.01778697967529297,
+    "seconds": 0.016304969787597656,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,70 +25,8 @@
             },
             "crc": 1724376459,
             "deity": 0,
-            "description": "An innate effect triggered by melee attacks which improves dps and the base damage of combat arts.",
-            "description_pvp": "An innate effect triggered by melee attacks which improves dps and the base damage of combat arts.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell may cast Animal Instinct on caster.  Lasts for 18.0 seconds.  Triggers about 1.8 times per minute. ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of the warden's combat arts by 9%.",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 14.4",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 184
-            },
-            "id": 3829021363,
-            "last_update": 1366730636.25332,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Animal Instinct",
-            "name_lower": "animal instinct",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730636.25332,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1724376459,
-            "deity": 0,
-            "description": "An innate effect triggered by melee attacks which improves dps and the base damage of combat arts.",
-            "description_pvp": "An innate effect triggered by melee attacks which improves dps and the base damage of combat arts.",
+            "description": "An innate effect triggered by melee attacks which improves Multi-Attack Chance and the base damage of combat arts.",
+            "description_pvp": "An innate effect triggered by melee attacks which improves Multi-Attack Chance and the base damage of combat arts.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -98,11 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the damage of the warden's combat arts by 15%.",
+                    "description": "Increases Multi Attack Chance of caster by 24.0",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Damage Per Second of caster by 24.0",
+                    "description": "Improves the damage of the warden's combat arts by 15%.",
                     "indentation": 1
                 }
             ],
@@ -113,7 +53,7 @@
                 "id": 184
             },
             "id": 486043909,
-            "last_update": 1366730634.554538,
+            "last_update": 1387584532.727434,
             "level": 0,
             "max_targets": 0,
             "name": "Animal Instinct",
@@ -123,10 +63,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730634.554538,
+            "ts": 1387584532.727434,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -136,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -147,132 +89,8 @@
             },
             "crc": 1724376459,
             "deity": 0,
-            "description": "An innate effect triggered by melee attacks which improves dps and the base damage of combat arts.",
-            "description_pvp": "An innate effect triggered by melee attacks which improves dps and the base damage of combat arts.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell may cast Animal Instinct on caster.  Lasts for 18.0 seconds.  Triggers about 0.6 times per minute. ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of the warden's combat arts by 3%.",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 4.8",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 184
-            },
-            "id": 89456158,
-            "last_update": 1366730595.839223,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Animal Instinct",
-            "name_lower": "animal instinct",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730595.839223,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1724376459,
-            "deity": 0,
-            "description": "An innate effect triggered by melee attacks which improves dps and the base damage of combat arts.",
-            "description_pvp": "An innate effect triggered by melee attacks which improves dps and the base damage of combat arts.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell may cast Animal Instinct on caster.  Lasts for 18.0 seconds.  Triggers about 1.2 times per minute. ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of the warden's combat arts by 6%.",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 9.6",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 184
-            },
-            "id": 2033572805,
-            "last_update": 1366730443.462964,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Animal Instinct",
-            "name_lower": "animal instinct",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730443.462964,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1724376459,
-            "deity": 0,
-            "description": "An innate effect triggered by melee attacks which improves dps and the base damage of combat arts.",
-            "description_pvp": "An innate effect triggered by melee attacks which improves dps and the base damage of combat arts.",
+            "description": "An innate effect triggered by melee attacks which improves Multi-Attack Chance and the base damage of combat arts.",
+            "description_pvp": "An innate effect triggered by melee attacks which improves Multi-Attack Chance and the base damage of combat arts.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -284,11 +102,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the damage of the warden's combat arts by 12%.",
+                    "description": "Increases Multi Attack Chance of caster by 19.2",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Damage Per Second of caster by 19.2",
+                    "description": "Improves the damage of the warden's combat arts by 12%.",
                     "indentation": 1
                 }
             ],
@@ -299,7 +117,7 @@
                 "id": 184
             },
             "id": 2180485235,
-            "last_update": 1366730438.120479,
+            "last_update": 1387584532.567503,
             "level": 0,
             "max_targets": 0,
             "name": "Animal Instinct",
@@ -309,10 +127,202 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730438.120479,
+            "ts": 1387584532.567503,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1724376459,
+            "deity": 0,
+            "description": "An innate effect triggered by melee attacks which improves Multi-Attack Chance and the base damage of combat arts.",
+            "description_pvp": "An innate effect triggered by melee attacks which improves Multi-Attack Chance and the base damage of combat arts.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell may cast Animal Instinct on caster.  Lasts for 18.0 seconds.  Triggers about 1.8 times per minute. ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 14.4",
+                    "indentation": 1
+                },
+                {
+                    "description": "Improves the damage of the warden's combat arts by 9%.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 184
+            },
+            "id": 3829021363,
+            "last_update": 1387584532.392648,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Animal Instinct",
+            "name_lower": "animal instinct",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584532.392648,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1724376459,
+            "deity": 0,
+            "description": "An innate effect triggered by melee attacks which improves Multi-Attack Chance and the base damage of combat arts.",
+            "description_pvp": "An innate effect triggered by melee attacks which improves Multi-Attack Chance and the base damage of combat arts.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell may cast Animal Instinct on caster.  Lasts for 18.0 seconds.  Triggers about 1.2 times per minute. ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 9.6",
+                    "indentation": 1
+                },
+                {
+                    "description": "Improves the damage of the warden's combat arts by 6%.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 184
+            },
+            "id": 2033572805,
+            "last_update": 1387584532.24034,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Animal Instinct",
+            "name_lower": "animal instinct",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584532.24034,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1724376459,
+            "deity": 0,
+            "description": "An innate effect triggered by melee attacks which improves Multi-Attack Chance and the base damage of combat arts.",
+            "description_pvp": "An innate effect triggered by melee attacks which improves Multi-Attack Chance and the base damage of combat arts.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell may cast Animal Instinct on caster.  Lasts for 18.0 seconds.  Triggers about 0.6 times per minute. ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 4.8",
+                    "indentation": 1
+                },
+                {
+                    "description": "Improves the damage of the warden's combat arts by 3%.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 184
+            },
+            "id": 89456158,
+            "last_update": 1387584532.119126,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Animal Instinct",
+            "name_lower": "animal instinct",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584532.119126,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

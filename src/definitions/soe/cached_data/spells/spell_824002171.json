@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730445.525294,
+    "min_ts": 1387584254.417461,
     "returned": 5,
-    "seconds": 0.01565098762512207,
+    "seconds": 0.021725893020629883,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,131 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces power cost by 12%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 8%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.4 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 482
-            },
-            "id": 217414211,
-            "last_update": 1366730643.382508,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Immolation",
-            "name_lower": "enhance: immolation",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730643.382508,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 824002171,
-            "deity": 0,
-            "description": "Improves the critical damage and hastens the casting speed and reduces the power cost of Immolation and its upgrades.",
-            "description_pvp": "Improves the critical damage and hastens the casting speed and reduces the power cost of Immolation and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces power cost by 3%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 2%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.1 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 482
-            },
-            "id": 299551056,
-            "last_update": 1366730633.014029,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Immolation",
-            "name_lower": "enhance: immolation",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730633.014029,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 824002171,
-            "deity": 0,
-            "description": "Improves the critical damage and hastens the casting speed and reduces the power cost of Immolation and its upgrades.",
-            "description_pvp": "Improves the critical damage and hastens the casting speed and reduces the power cost of Immolation and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces power cost by 15%",
+                    "description": "Improves casting speed by 0.5 seconds",
                     "indentation": 0
                 },
                 {
@@ -164,7 +42,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 0.5 seconds",
+                    "description": "Reduces power cost by 15%",
                     "indentation": 0
                 }
             ],
@@ -175,7 +53,7 @@
                 "id": 482
             },
             "id": 3512968134,
-            "last_update": 1366730629.763295,
+            "last_update": 1387584254.859596,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Immolation",
@@ -185,10 +63,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730629.763295,
+            "ts": 1387584254.859596,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -198,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -218,15 +98,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces power cost by 6%",
+                    "description": "Improves casting speed by 0.4 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the Crit Bonus by 4%",
+                    "description": "Improves the Crit Bonus by 8%",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 0.2 seconds",
+                    "description": "Reduces power cost by 12%",
                     "indentation": 0
                 }
             ],
@@ -236,8 +116,8 @@
                 "icon_heroic_op": -1,
                 "id": 482
             },
-            "id": 2886772126,
-            "last_update": 1366730614.586293,
+            "id": 217414211,
+            "last_update": 1387584254.745439,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Immolation",
@@ -245,12 +125,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730614.586293,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584254.745439,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -260,8 +140,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -280,7 +162,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces power cost by 9%",
+                    "description": "Improves casting speed by 0.3 seconds",
                     "indentation": 0
                 },
                 {
@@ -288,7 +170,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 0.3 seconds",
+                    "description": "Reduces power cost by 9%",
                     "indentation": 0
                 }
             ],
@@ -299,7 +181,7 @@
                 "id": 482
             },
             "id": 1904639003,
-            "last_update": 1366730445.525294,
+            "last_update": 1387584254.658572,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Immolation",
@@ -309,10 +191,138 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730445.525294,
+            "ts": 1387584254.658572,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 824002171,
+            "deity": 0,
+            "description": "Improves the critical damage and hastens the casting speed and reduces the power cost of Immolation and its upgrades.",
+            "description_pvp": "Improves the critical damage and hastens the casting speed and reduces the power cost of Immolation and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting speed by 0.2 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 4%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces power cost by 6%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 482
+            },
+            "id": 2886772126,
+            "last_update": 1387584254.584471,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Immolation",
+            "name_lower": "enhance: immolation",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584254.584471,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 824002171,
+            "deity": 0,
+            "description": "Improves the critical damage and hastens the casting speed and reduces the power cost of Immolation and its upgrades.",
+            "description_pvp": "Improves the critical damage and hastens the casting speed and reduces the power cost of Immolation and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting speed by 0.1 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 2%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces power cost by 3%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 482
+            },
+            "id": 299551056,
+            "last_update": 1387584254.417461,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Immolation",
+            "name_lower": "enhance: immolation",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584254.417461,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

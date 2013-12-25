@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730432.841671,
+    "min_ts": 1387584472.60839,
     "returned": 5,
-    "seconds": 0.014860153198242188,
+    "seconds": 0.19915986061096191,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,124 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4149672690,
-            "deity": 0,
-            "description": "Improves the speed that Oberon refreshes and reduces the power cost.",
-            "description_pvp": "Improves the speed that Oberon refreshes and reduces the power cost.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces the power cost of Oberon by 32%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the refresh rate of Oberon by 25%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 199
-            },
-            "id": 3124654040,
-            "last_update": 1366730453.872608,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lunar Spirits",
-            "name_lower": "lunar spirits",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730453.872608,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4149672690,
-            "deity": 0,
-            "description": "Improves the speed that Oberon refreshes and reduces the power cost.",
-            "description_pvp": "Improves the speed that Oberon refreshes and reduces the power cost.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces the power cost of Oberon by 8%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the refresh rate of Oberon by 25%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 199
-            },
-            "id": 1050476981,
-            "last_update": 1366730453.826319,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lunar Spirits",
-            "name_lower": "lunar spirits",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730453.826319,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -163,7 +49,7 @@
                 "id": 199
             },
             "id": 3757294872,
-            "last_update": 1366730441.566334,
+            "last_update": 1387584472.960314,
             "level": 0,
             "max_targets": 0,
             "name": "Lunar Spirits",
@@ -173,10 +59,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730441.566334,
+            "ts": 1387584472.960314,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +72,130 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4149672690,
+            "deity": 0,
+            "description": "Improves the speed that Oberon refreshes and reduces the power cost.",
+            "description_pvp": "Improves the speed that Oberon refreshes and reduces the power cost.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the power cost of Oberon by 32%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the refresh rate of Oberon by 25%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 199
+            },
+            "id": 3124654040,
+            "last_update": 1387584472.947868,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lunar Spirits",
+            "name_lower": "lunar spirits",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584472.947868,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4149672690,
+            "deity": 0,
+            "description": "Improves the speed that Oberon refreshes and reduces the power cost.",
+            "description_pvp": "Improves the speed that Oberon refreshes and reduces the power cost.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the power cost of Oberon by 40%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the refresh rate of Oberon by 50%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 199
+            },
+            "id": 657559214,
+            "last_update": 1387584472.947476,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lunar Spirits",
+            "name_lower": "lunar spirits",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584472.947476,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -221,7 +229,7 @@
                 "id": 199
             },
             "id": 1123820654,
-            "last_update": 1366730437.511737,
+            "last_update": 1387584472.687964,
             "level": 0,
             "max_targets": 0,
             "name": "Lunar Spirits",
@@ -231,10 +239,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730437.511737,
+            "ts": 1387584472.687964,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +252,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +274,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the refresh rate of Oberon by 50%.",
+                    "description": "Reduces the power cost of Oberon by 8%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces the power cost of Oberon by 40%.",
+                    "description": "Improves the refresh rate of Oberon by 25%.",
                     "indentation": 0
                 }
             ],
@@ -278,8 +288,8 @@
                 "icon_heroic_op": -1,
                 "id": 199
             },
-            "id": 657559214,
-            "last_update": 1366730432.841671,
+            "id": 1050476981,
+            "last_update": 1387584472.60839,
             "level": 0,
             "max_targets": 0,
             "name": "Lunar Spirits",
@@ -287,12 +297,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730432.841671,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584472.60839,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

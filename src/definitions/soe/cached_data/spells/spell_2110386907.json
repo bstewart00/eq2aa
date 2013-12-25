@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.26494,
+    "min_ts": 1387585131.675465,
     "returned": 5,
-    "seconds": 0.024910926818847656,
+    "seconds": 0.01572895050048828,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,128 +33,12 @@
                 "min_sec_tenths": 6000
             },
             "effect_list": [
-                {
-                    "description": "Reduces the duration by 4.8 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the power return by 40%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 207
-            },
-            "id": 2342512508,
-            "last_update": 1366730640.327004,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Soul Siphon",
-            "name_lower": "soul siphon",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730640.327004,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2110386907,
-            "deity": 0,
-            "description": "Improves the power return on Dark Siphoning.  The duration is also reduced causing the damage and power returns to happen faster.",
-            "description_pvp": "Improves the power return on Dark Siphoning.  The duration is also reduced causing the damage and power returns to happen faster.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces the duration by 9.6 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the power return by 80%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 207
-            },
-            "id": 1935518922,
-            "last_update": 1366730626.641894,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Soul Siphon",
-            "name_lower": "soul siphon",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730626.641894,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2110386907,
-            "deity": 0,
-            "description": "Improves the power return on Dark Siphoning.  The duration is also reduced causing the damage and power returns to happen faster.",
-            "description_pvp": "Improves the power return on Dark Siphoning.  The duration is also reduced causing the damage and power returns to happen faster.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces the duration by 12 seconds.",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves the power return by 100%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the duration by 12 seconds.",
                     "indentation": 0
                 }
             ],
@@ -163,7 +49,7 @@
                 "id": 207
             },
             "id": 3998371260,
-            "last_update": 1366730623.355342,
+            "last_update": 1387585131.966918,
             "level": 0,
             "max_targets": 0,
             "name": "Soul Siphon",
@@ -173,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730623.355342,
+            "ts": 1387585131.966918,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,22 +94,22 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces the duration by 2.4 seconds.",
+                    "description": "Improves the power return by 80%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the power return by 20%.",
+                    "description": "Reduces the duration by 9.6 seconds.",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 312,
                 "icon_heroic_op": -1,
                 "id": 207
             },
-            "id": 4160668327,
-            "last_update": 1366730572.587282,
+            "id": 1935518922,
+            "last_update": 1387585131.886335,
             "level": 0,
             "max_targets": 0,
             "name": "Soul Siphon",
@@ -229,12 +117,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730572.587282,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585131.886335,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces the duration by 7.2 seconds.",
+                    "description": "Improves the power return by 60%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the power return by 60%.",
+                    "description": "Reduces the duration by 7.2 seconds.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +169,7 @@
                 "id": 207
             },
             "id": 378537482,
-            "last_update": 1366730438.26494,
+            "last_update": 1387585131.806747,
             "level": 0,
             "max_targets": 0,
             "name": "Soul Siphon",
@@ -289,10 +179,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730438.26494,
+            "ts": 1387585131.806747,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2110386907,
+            "deity": 0,
+            "description": "Improves the power return on Dark Siphoning.  The duration is also reduced causing the damage and power returns to happen faster.",
+            "description_pvp": "Improves the power return on Dark Siphoning.  The duration is also reduced causing the damage and power returns to happen faster.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the power return by 40%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the duration by 4.8 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 207
+            },
+            "id": 2342512508,
+            "last_update": 1387585131.726182,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Soul Siphon",
+            "name_lower": "soul siphon",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585131.726182,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2110386907,
+            "deity": 0,
+            "description": "Improves the power return on Dark Siphoning.  The duration is also reduced causing the damage and power returns to happen faster.",
+            "description_pvp": "Improves the power return on Dark Siphoning.  The duration is also reduced causing the damage and power returns to happen faster.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the power return by 20%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the duration by 2.4 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 207
+            },
+            "id": 4160668327,
+            "last_update": 1387585131.675465,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Soul Siphon",
+            "name_lower": "soul siphon",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585131.675465,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730435.267268,
+    "min_ts": 1387584605.940655,
     "returned": 8,
-    "seconds": 0.017467975616455078,
+    "seconds": 0.01941204071044922,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +49,7 @@
                 "id": 289
             },
             "id": 2962361826,
-            "last_update": 1366730649.630391,
+            "last_update": 1387584606.689414,
             "level": 0,
             "max_targets": 0,
             "name": "Ruthless Riposte",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730649.630391,
+            "ts": 1387584606.689414,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,298 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1584890160,
-            "deity": 0,
-            "description": "The rogue will do additional damage when parrying incoming attacks.",
-            "description_pvp": "The rogue will do additional damage when parrying incoming attacks.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a parry this spell has a 50% chance to cast Ruthless Riposte on target's victim.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 20 - 24 slashing damage on target",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 289
-            },
-            "id": 2064210018,
-            "last_update": 1366730646.91817,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ruthless Riposte",
-            "name_lower": "ruthless riposte",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730646.91817,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1584890160,
-            "deity": 0,
-            "description": "The rogue will do additional damage when parrying incoming attacks.",
-            "description_pvp": "The rogue will do additional damage when parrying incoming attacks.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a parry this spell has a 50% chance to cast Ruthless Riposte on target's victim.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 4 slashing damage on target",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 289
-            },
-            "id": 516223650,
-            "last_update": 1366730638.351345,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ruthless Riposte",
-            "name_lower": "ruthless riposte",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730638.351345,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1584890160,
-            "deity": 0,
-            "description": "The rogue will do additional damage when parrying incoming attacks.",
-            "description_pvp": "The rogue will do additional damage when parrying incoming attacks.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a parry this spell has a 50% chance to cast Ruthless Riposte on target's victim.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 16 - 20 slashing damage on target",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 289
-            },
-            "id": 124288441,
-            "last_update": 1366730636.143681,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ruthless Riposte",
-            "name_lower": "ruthless riposte",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730636.143681,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1584890160,
-            "deity": 0,
-            "description": "The rogue will do additional damage when parrying incoming attacks.",
-            "description_pvp": "The rogue will do additional damage when parrying incoming attacks.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a parry this spell has a 50% chance to cast Ruthless Riposte on target's victim.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 7 - 8 slashing damage on target",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 289
-            },
-            "id": 1655035769,
-            "last_update": 1366730625.715578,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ruthless Riposte",
-            "name_lower": "ruthless riposte",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730625.715578,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1584890160,
-            "deity": 0,
-            "description": "The rogue will do additional damage when parrying incoming attacks.",
-            "description_pvp": "The rogue will do additional damage when parrying incoming attacks.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a parry this spell has a 50% chance to cast Ruthless Riposte on target's victim.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 13 - 16 slashing damage on target",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 289
-            },
-            "id": 2590481615,
-            "last_update": 1366730443.474569,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ruthless Riposte",
-            "name_lower": "ruthless riposte",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730443.474569,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -395,7 +109,7 @@
                 "id": 289
             },
             "id": 3859200276,
-            "last_update": 1366730441.394783,
+            "last_update": 1387584606.553272,
             "level": 0,
             "max_targets": 0,
             "name": "Ruthless Riposte",
@@ -405,10 +119,10 @@
             "spellbook": 4,
             "tier": 7,
             "tier_name": "Expert",
-            "ts": 1366730441.394783,
+            "ts": 1387584606.553272,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -418,8 +132,190 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1584890160,
+            "deity": 0,
+            "description": "The rogue will do additional damage when parrying incoming attacks.",
+            "description_pvp": "The rogue will do additional damage when parrying incoming attacks.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a parry this spell has a 50% chance to cast Ruthless Riposte on target's victim.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 20 - 24 slashing damage on target",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 289
+            },
+            "id": 2064210018,
+            "last_update": 1387584606.433103,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ruthless Riposte",
+            "name_lower": "ruthless riposte",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584606.433103,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1584890160,
+            "deity": 0,
+            "description": "The rogue will do additional damage when parrying incoming attacks.",
+            "description_pvp": "The rogue will do additional damage when parrying incoming attacks.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a parry this spell has a 50% chance to cast Ruthless Riposte on target's victim.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 16 - 20 slashing damage on target",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 289
+            },
+            "id": 124288441,
+            "last_update": 1387584606.328794,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ruthless Riposte",
+            "name_lower": "ruthless riposte",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584606.328794,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1584890160,
+            "deity": 0,
+            "description": "The rogue will do additional damage when parrying incoming attacks.",
+            "description_pvp": "The rogue will do additional damage when parrying incoming attacks.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a parry this spell has a 50% chance to cast Ruthless Riposte on target's victim.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 13 - 16 slashing damage on target",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 289
+            },
+            "id": 2590481615,
+            "last_update": 1387584606.231911,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ruthless Riposte",
+            "name_lower": "ruthless riposte",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584606.231911,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -453,7 +349,7 @@
                 "id": 289
             },
             "id": 4289345039,
-            "last_update": 1366730435.267268,
+            "last_update": 1387584606.128933,
             "level": 0,
             "max_targets": 0,
             "name": "Ruthless Riposte",
@@ -463,10 +359,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730435.267268,
+            "ts": 1387584606.128933,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1584890160,
+            "deity": 0,
+            "description": "The rogue will do additional damage when parrying incoming attacks.",
+            "description_pvp": "The rogue will do additional damage when parrying incoming attacks.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a parry this spell has a 50% chance to cast Ruthless Riposte on target's victim.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 7 - 8 slashing damage on target",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 289
+            },
+            "id": 1655035769,
+            "last_update": 1387584605.993741,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ruthless Riposte",
+            "name_lower": "ruthless riposte",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584605.993741,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1584890160,
+            "deity": 0,
+            "description": "The rogue will do additional damage when parrying incoming attacks.",
+            "description_pvp": "The rogue will do additional damage when parrying incoming attacks.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a parry this spell has a 50% chance to cast Ruthless Riposte on target's victim.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 3 - 4 slashing damage on target",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 289
+            },
+            "id": 516223650,
+            "last_update": 1387584605.940655,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ruthless Riposte",
+            "name_lower": "ruthless riposte",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584605.940655,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

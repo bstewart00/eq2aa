@@ -257,7 +257,7 @@
                 {
                     "classification": "Priest",
                     "classificationpointsrequired": 0,
-                    "description": "Improves the mitigation amounts of the Symbol of Marzin, Fanatic's Faith, Noxious Efflux, Ancestral Mettle, Essence of the Great Bear, and Master of the Hunt spell lines.",
+                    "description": "Improves the mitigation amounts of the Symbol of Marzin, Fanatic's Faith, Noxious Efflux, Ancestral Mettle, Essence of the Great Bear, Marisha Kur's Blessing and Master of the Hunt spell lines.",
                     "icon": {
                         "backdrop": 458,
                         "id": 389
@@ -299,7 +299,7 @@
                 {
                     "classification": "Cleric",
                     "classificationpointsrequired": 0,
-                    "description": "When the cleric makes a critical melee attack, they have a chance to get a short duration spell which gives them a chance to flurry.",
+                    "description": "When the cleric makes a critical melee or spell weapon attack, they have a chance to get a short duration spell which gives them a chance to flurry.",
                     "icon": {
                         "backdrop": -1,
                         "id": 741
@@ -467,7 +467,7 @@
                 {
                     "classification": "Inquisitor ",
                     "classificationpointsrequired": 10,
-                    "description": "Persecution grants the inquisitor additional melee critical damage, melee damage, and spell damage.  In return, the casting time of beneficial spells will be slowed and heals will be less effective.",
+                    "description": "Persecution grants the inquisitor additional melee critical damage, melee damage, Multi-Attack Chance, and spell damage.  In return, the casting time of beneficial spells will be slowed and heals will be less effective.",
                     "icon": {
                         "backdrop": -1,
                         "id": 685
@@ -593,22 +593,22 @@
             ],
             "id": 50,
             "iswardertree": "false",
-            "last_update": 1380751543.497017,
+            "last_update": 1387591137.303758,
             "maximumpoints": 0,
             "maxpointsperlevelnode_list": [
                 {
                     "level": 10,
-                    "maxpoints": 70
+                    "maxpoints": 100
                 }
             ],
             "minimumpointsrequired": 0,
             "name": "Shadows",
-            "ts": 1380751543.497017,
+            "ts": 1387591137.303758,
             "version": 2
         }
     ],
     "limit": 1,
-    "min_ts": 1380751543.497017,
+    "min_ts": 1387591137.303758,
     "returned": 1,
-    "seconds": 0.01566910743713379
+    "seconds": 0.02271103858947754
 }

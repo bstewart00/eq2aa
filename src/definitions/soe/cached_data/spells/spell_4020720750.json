@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730639.463662,
+    "min_ts": 1387584591.793069,
     "returned": 1,
-    "seconds": 0.01693582534790039,
+    "seconds": 0.014383077621459961,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Half of damage is prevented.  Original, full damage adds power instead.",
+                    "description": "100% chance to intercept all damage on target.On a successful intercept caster takes 50% of attack damage, target takes 50% of attack damage.Spell ends after 1 successful intercept.",
                     "indentation": 0
                 },
                 {
-                    "description": "100% chance to intercept all damage on target.On a successful intercept caster takes 50% of attack damage, target takes 50% of attack damage.Spell ends after 1 successful intercept.",
+                    "description": "Half of damage is prevented.  Original, full damage adds power instead.",
                     "indentation": 0
                 },
                 {
@@ -51,7 +53,7 @@
                 "id": 354
             },
             "id": 2127816903,
-            "last_update": 1366730639.463662,
+            "last_update": 1387584591.793069,
             "level": 0,
             "max_targets": 0,
             "name": "Honor Among Thieves",
@@ -61,10 +63,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730639.463662,
+            "ts": 1387584591.793069,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

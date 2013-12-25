@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730632.92155,
+    "min_ts": 1387584528.172057,
     "returned": 1,
-    "seconds": 0.01697516441345215,
+    "seconds": 0.01412200927734375,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 4197028876,
             "deity": 0,
-            "description": "Hastens the duration, casting, recovery, and reuse speed of all Cursing abilities.",
-            "description_pvp": "Hastens the duration, casting, recovery, and reuse speed of all Cursing abilities.",
+            "description": "Hastens the duration, casting, recovery, and reuse speed of all Cursing abilities. Following the use of any Cursing ability, the defiler will be immune to interrupts a short duration.",
+            "description_pvp": "Hastens the duration, casting, recovery, and reuse speed of all Cursing abilities. Following the use of any Cursing ability, the defiler will be immune to interrupts a short duration.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,11 +34,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves casting, recovery, and reuse speed by 50%",
+                    "description": "Increases duration by 20%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases duration by 20%",
+                    "description": "Following the use of any Cursing ability, the defiler will be immune to interrupts for a short duration.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves casting, recovery, and reuse speed by 50%",
                     "indentation": 0
                 }
             ],
@@ -47,7 +53,7 @@
                 "id": 237
             },
             "id": 4192028289,
-            "last_update": 1366730632.92155,
+            "last_update": 1387584528.172057,
             "level": 0,
             "max_targets": 0,
             "name": "Curseweaving",
@@ -57,10 +63,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730632.92155,
+            "ts": 1387584528.172057,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

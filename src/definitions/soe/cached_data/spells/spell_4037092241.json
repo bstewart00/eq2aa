@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730458.787051,
+    "min_ts": 1387584817.508873,
     "returned": 1,
-    "seconds": 0.014081954956054688,
+    "seconds": 0.014215946197509766,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -27,8 +29,8 @@
             "description_pvp": "The Monk takes a provocative stance, adding hate positions to their single target and encounter taunts for a short duration. While active, Provoking Stance reduces all incoming damage.",
             "duration": {
                 "does_not_expire": 0,
-                "max_sec_tenths": 240,
-                "min_sec_tenths": 240
+                "max_sec_tenths": 120,
+                "min_sec_tenths": 120
             },
             "effect_list": [
                 {
@@ -47,7 +49,7 @@
                 "id": 928
             },
             "id": 3755334857,
-            "last_update": 1366730458.787051,
+            "last_update": 1387584817.508873,
             "level": 0,
             "max_targets": 0,
             "name": "Provoking Stance",
@@ -57,10 +59,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730458.787051,
+            "ts": 1387584817.508873,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

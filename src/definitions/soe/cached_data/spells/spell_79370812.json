@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730626.428675,
+    "min_ts": 1387584456.208084,
     "returned": 1,
-    "seconds": 0.02233099937438965,
+    "seconds": 0.0170440673828125,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases savagery of caster by 15.0% instantly and every 6 seconds",
+                    "description": "Increases savagery of caster by 15.0 instantly and every 6 seconds",
                     "indentation": 0
                 },
                 {
@@ -47,7 +49,7 @@
                 "id": 273
             },
             "id": 3527268173,
-            "last_update": 1366730626.428675,
+            "last_update": 1387584456.208084,
             "level": 0,
             "max_targets": 0,
             "name": "Savage Blaze",
@@ -57,10 +59,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730626.428675,
+            "ts": 1387584456.208084,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730609.345233,
+    "min_ts": 1387584340.155024,
     "returned": 1,
-    "seconds": 0.016955137252807617,
+    "seconds": 0.014475107192993164,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,32 +34,32 @@
             },
             "effect_list": [
                 {
-                    "description": "Inflicts 1 - 2 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 1 - 2 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 1 - 2 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 1 - 2 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 1 - 2 melee damage on target",
-                    "indentation": 0
-                },
-                {
                     "description": "Dazes target",
                     "indentation": 0
                 },
                 {
                     "description": "If Target is not Epic",
                     "indentation": 1
+                },
+                {
+                    "description": "Inflicts 1 - 2 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 1 - 2 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 1 - 2 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 1 - 2 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 1 - 2 melee damage on target",
+                    "indentation": 0
                 },
                 {
                     "description": "Your target must be inflicted with Pulverize.",
@@ -75,7 +77,7 @@
                 "id": 855
             },
             "id": 679582758,
-            "last_update": 1366730609.345233,
+            "last_update": 1387584340.155024,
             "level": 0,
             "max_targets": 0,
             "name": "Battering Onslaught",
@@ -85,10 +87,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730609.345233,
+            "ts": 1387584340.155024,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

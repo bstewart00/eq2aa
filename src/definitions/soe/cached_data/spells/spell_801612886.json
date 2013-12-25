@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730463.913704,
+    "min_ts": 1387585551.513254,
     "returned": 3,
-    "seconds": 0.016247987747192383,
+    "seconds": 0.02601313591003418,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 494
             },
             "id": 2626628751,
-            "last_update": 1366730648.712608,
+            "last_update": 1387585551.673785,
             "level": 0,
             "max_targets": 0,
             "name": "Poisoned Powder",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730648.712608,
+            "ts": 1387585551.673785,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,62 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 801612886,
-            "deity": 0,
-            "description": "Adds additional strikes to Blinding Dust.",
-            "description_pvp": "Adds additional strikes to Blinding Dust.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Adds 1 additional poison strike to Blinding Dust.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 494
-            },
-            "id": 4241725892,
-            "last_update": 1366730639.213694,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Poisoned Powder",
-            "name_lower": "poisoned powder",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730639.213694,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 494
             },
             "id": 1092220170,
-            "last_update": 1366730463.913704,
+            "last_update": 1387585551.594254,
             "level": 0,
             "max_targets": 0,
             "name": "Poisoned Powder",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730463.913704,
+            "ts": 1387585551.594254,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 801612886,
+            "deity": 0,
+            "description": "Adds additional strikes to Blinding Dust.",
+            "description_pvp": "Adds additional strikes to Blinding Dust.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Adds 1 additional poison strike to Blinding Dust.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 494
+            },
+            "id": 4241725892,
+            "last_update": 1387585551.513254,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Poisoned Powder",
+            "name_lower": "poisoned powder",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585551.513254,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

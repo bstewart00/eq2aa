@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730453.817381,
+    "min_ts": 1387584253.581273,
     "returned": 5,
-    "seconds": 0.014814138412475586,
+    "seconds": 0.02534794807434082,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,70 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves reuse speed by 40%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 10%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 219
-            },
-            "id": 1436873165,
-            "last_update": 1366730644.890169,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Death Interventions",
-            "name_lower": "enhance: death interventions",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730644.890169,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 851760404,
-            "deity": 0,
-            "description": "Increases the critical amount and hastens the reuse speed of Tunare's Watch and Nature's Renewal spell lines.",
-            "description_pvp": "Increases the critical amount and hastens the reuse speed of Tunare's Watch and Nature's Renewal spell lines.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 50%",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves the Crit Bonus by 12.5%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 50%",
                     "indentation": 0
                 }
             ],
@@ -105,7 +49,7 @@
                 "id": 219
             },
             "id": 2284988488,
-            "last_update": 1366730623.890039,
+            "last_update": 1387584253.851902,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Death Interventions",
@@ -115,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730623.890039,
+            "ts": 1387584253.851902,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -148,22 +94,22 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 10%",
+                    "description": "Improves the Crit Bonus by 10%",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the Crit Bonus by 2.5%",
+                    "description": "Improves reuse speed by 40%",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 219
             },
-            "id": 1217086174,
-            "last_update": 1366730596.041491,
+            "id": 1436873165,
+            "last_update": 1387584253.778649,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Death Interventions",
@@ -171,12 +117,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730596.041491,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584253.778649,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 20%",
+                    "description": "Improves the Crit Bonus by 5%",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the Crit Bonus by 5%",
+                    "description": "Improves reuse speed by 20%",
                     "indentation": 0
                 }
             ],
@@ -221,7 +169,7 @@
                 "id": 219
             },
             "id": 4114689552,
-            "last_update": 1366730459.540928,
+            "last_update": 1387584253.702999,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Death Interventions",
@@ -231,10 +179,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730459.540928,
+            "ts": 1387584253.702999,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +214,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 30%",
+                    "description": "Improves the Crit Bonus by 7.5%",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the Crit Bonus by 7.5%",
+                    "description": "Improves reuse speed by 30%",
                     "indentation": 0
                 }
             ],
@@ -279,7 +229,7 @@
                 "id": 219
             },
             "id": 685242261,
-            "last_update": 1366730453.817381,
+            "last_update": 1387584253.702905,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Death Interventions",
@@ -289,10 +239,70 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730453.817381,
+            "ts": 1387584253.702905,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 851760404,
+            "deity": 0,
+            "description": "Increases the critical amount and hastens the reuse speed of Tunare's Watch and Nature's Renewal spell lines.",
+            "description_pvp": "Increases the critical amount and hastens the reuse speed of Tunare's Watch and Nature's Renewal spell lines.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the Crit Bonus by 2.5%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 10%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 219
+            },
+            "id": 1217086174,
+            "last_update": 1387584253.581273,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Death Interventions",
+            "name_lower": "enhance: death interventions",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584253.581273,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

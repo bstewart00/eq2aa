@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730634.38652,
+    "min_ts": 1387584337.525321,
     "returned": 1,
-    "seconds": 0.014465093612670898,
+    "seconds": 0.01747417449951172,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,11 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Scout pets gain an additional 20% to melee weapon damage.  In addition, they have a wider damage variance.",
+                    "description": "Fighter pets gain an additional 10% melee damage to their weapons and greater variance in damage.",
                     "indentation": 0
                 },
                 {
-                    "description": "Fighter pets gain an additional 10% melee damage to their weapons and greater variance in damage.",
+                    "description": "Scout pets gain an additional 20% to melee weapon damage.  In addition, they have a wider damage variance.",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 905
             },
             "id": 3132227708,
-            "last_update": 1366730634.38652,
+            "last_update": 1387584337.525321,
             "level": 0,
             "max_targets": 0,
             "name": "Pet Weapon Mastery",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730634.38652,
+            "ts": 1387584337.525321,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

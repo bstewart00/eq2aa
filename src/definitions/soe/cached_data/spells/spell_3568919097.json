@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730585.744681,
+    "min_ts": 1387585364.584548,
     "returned": 1,
-    "seconds": 0.017652034759521484,
+    "seconds": 0.01572585105895996,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 3568919097,
             "deity": 0,
-            "description": "The mystic gains additional potency from Multi-Attack Chance.",
-            "description_pvp": "The mystic gains additional potency from Multi-Attack Chance.",
+            "description": "The mystic gains additional Crit Bonus from Damage Per Second.",
+            "description_pvp": "The mystic gains additional Crit Bonus from Damage Per Second.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,18 +34,18 @@
             },
             "effect_list": [
                 {
-                    "description": "For every 30 points of Multi-Attack Chance, the caster gains 1% potency.",
+                    "description": "For every 30 points of Damage Per Second, the caster gains 1% Crit Bonus.",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 44
             },
             "id": 1442934380,
-            "last_update": 1366730585.744681,
+            "last_update": 1387585364.584548,
             "level": 0,
             "max_targets": 0,
             "name": "Multi-Attack Mastery",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730585.744681,
+            "ts": 1387585364.584548,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

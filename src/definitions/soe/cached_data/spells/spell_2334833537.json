@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.232014,
+    "min_ts": 1387584458.796528,
     "returned": 5,
-    "seconds": 0.022907018661499023,
+    "seconds": 0.015520095825195312,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases damage by 10%",
+                    "description": "Increases radius by 75%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases radius by 75%",
+                    "description": "Increases damage by 10%",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 169
             },
             "id": 2117131539,
-            "last_update": 1366730630.790326,
+            "last_update": 1387584459.089475,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Dark Nebula",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730630.790326,
+            "ts": 1387584459.089475,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -89,70 +93,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Increases damage by 2%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases radius by 15%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 169
-            },
-            "id": 1738297864,
-            "last_update": 1366730572.252664,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Dark Nebula",
-            "name_lower": "enhance: dark nebula",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730572.252664,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2334833537,
-            "deity": 0,
-            "description": "Increases the damage and size of Dark Nebula and its upgrades.",
-            "description_pvp": "Increases the damage and size of Dark Nebula and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases damage by 8%",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases radius by 60%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases damage by 8%",
                     "indentation": 0
                 }
             ],
@@ -163,7 +109,7 @@
                 "id": 169
             },
             "id": 3812572261,
-            "last_update": 1366730450.827276,
+            "last_update": 1387584458.996726,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Dark Nebula",
@@ -173,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730450.827276,
+            "ts": 1387584458.996726,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases damage by 6%",
+                    "description": "Increases radius by 45%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases radius by 45%",
+                    "description": "Increases damage by 6%",
                     "indentation": 0
                 }
             ],
@@ -221,7 +169,7 @@
                 "id": 169
             },
             "id": 2264045221,
-            "last_update": 1366730444.613477,
+            "last_update": 1387584458.957398,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Dark Nebula",
@@ -231,10 +179,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730444.613477,
+            "ts": 1387584458.957398,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +214,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases damage by 4%",
+                    "description": "Increases radius by 30%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases radius by 30%",
+                    "description": "Increases damage by 4%",
                     "indentation": 0
                 }
             ],
@@ -279,7 +229,7 @@
                 "id": 169
             },
             "id": 469596115,
-            "last_update": 1366730440.232014,
+            "last_update": 1387584458.876506,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Dark Nebula",
@@ -289,10 +239,70 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730440.232014,
+            "ts": 1387584458.876506,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2334833537,
+            "deity": 0,
+            "description": "Increases the damage and size of Dark Nebula and its upgrades.",
+            "description_pvp": "Increases the damage and size of Dark Nebula and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases radius by 15%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases damage by 2%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 169
+            },
+            "id": 1738297864,
+            "last_update": 1387584458.796528,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Dark Nebula",
+            "name_lower": "enhance: dark nebula",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584458.796528,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730455.037381,
+    "min_ts": 1387585654.248539,
     "returned": 5,
-    "seconds": 0.020135164260864258,
+    "seconds": 0.015609979629516602,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,70 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves reuse speed by 30 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves range by 1",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 355
-            },
-            "id": 2389858250,
-            "last_update": 1366730648.947193,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Rescue",
-            "name_lower": "enhance: rescue",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730648.947193,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4281563296,
-            "deity": 0,
-            "description": "Improves the range and hastens the reuse speed of Rescue.",
-            "description_pvp": "Improves the range and hastens the reuse speed of Rescue.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 150 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves range by 5",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 150 seconds",
                     "indentation": 0
                 }
             ],
@@ -105,7 +49,7 @@
                 "id": 355
             },
             "id": 2547964113,
-            "last_update": 1366730644.789626,
+            "last_update": 1387585654.568953,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Rescue",
@@ -115,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730644.789626,
+            "ts": 1387585654.568953,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -147,70 +93,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves reuse speed by 60 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves range by 2",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 355
-            },
-            "id": 4061360657,
-            "last_update": 1366730642.812632,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Rescue",
-            "name_lower": "enhance: rescue",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730642.812632,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4281563296,
-            "deity": 0,
-            "description": "Improves the range and hastens the reuse speed of Rescue.",
-            "description_pvp": "Improves the range and hastens the reuse speed of Rescue.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 120 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves range by 4",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 120 seconds",
                     "indentation": 0
                 }
             ],
@@ -221,7 +109,7 @@
                 "id": 355
             },
             "id": 181483943,
-            "last_update": 1366730623.446244,
+            "last_update": 1387585654.446272,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Rescue",
@@ -231,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730623.446244,
+            "ts": 1387585654.446272,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 90 seconds",
+                    "description": "Improves range by 3",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves range by 3",
+                    "description": "Improves reuse speed by 90 seconds",
                     "indentation": 0
                 }
             ],
@@ -279,7 +169,7 @@
                 "id": 355
             },
             "id": 1864143719,
-            "last_update": 1366730455.037381,
+            "last_update": 1387585654.408171,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Rescue",
@@ -289,10 +179,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730455.037381,
+            "ts": 1387585654.408171,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4281563296,
+            "deity": 0,
+            "description": "Improves the range and hastens the reuse speed of Rescue.",
+            "description_pvp": "Improves the range and hastens the reuse speed of Rescue.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves range by 2",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 60 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 355
+            },
+            "id": 4061360657,
+            "last_update": 1387585654.329199,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Rescue",
+            "name_lower": "enhance: rescue",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585654.329199,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4281563296,
+            "deity": 0,
+            "description": "Improves the range and hastens the reuse speed of Rescue.",
+            "description_pvp": "Improves the range and hastens the reuse speed of Rescue.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves range by 1",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 30 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 355
+            },
+            "id": 2389858250,
+            "last_update": 1387585654.248539,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Rescue",
+            "name_lower": "enhance: rescue",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585654.248539,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

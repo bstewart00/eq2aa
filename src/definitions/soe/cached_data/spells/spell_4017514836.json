@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.427369,
+    "min_ts": 1387585216.610454,
     "returned": 3,
-    "seconds": 0.01458597183227539,
+    "seconds": 0.01729607582092285,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4017514836,
-            "deity": 0,
-            "description": "Combat Arts with multiple strikes will gain additional strikes that do increased damage if the enemy is not targeting the bruiser.",
-            "description_pvp": "Combat Arts with multiple strikes will gain additional strikes that do increased damage if the enemy is not targeting the bruiser.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "One Hundred Hand Punch and Savage Assault gain additional attacks that inflict double damage if the bruiser is not the enemy's current target.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 330
-            },
-            "id": 2029387123,
-            "last_update": 1366730644.846634,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Deep Blows",
-            "name_lower": "deep blows",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730644.846634,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 330
             },
             "id": 3858373637,
-            "last_update": 1366730633.319872,
+            "last_update": 1387585216.699044,
             "level": 0,
             "max_targets": 0,
             "name": "Deep Blows",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730633.319872,
+            "ts": 1387585216.699044,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4017514836,
+            "deity": 0,
+            "description": "Combat Arts with multiple strikes will gain additional strikes that do increased damage if the enemy is not targeting the bruiser.",
+            "description_pvp": "Combat Arts with multiple strikes will gain additional strikes that do increased damage if the enemy is not targeting the bruiser.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "One Hundred Hand Punch and Savage Assault gain additional attacks that inflict double damage if the bruiser is not the enemy's current target.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 330
+            },
+            "id": 2029387123,
+            "last_update": 1387585216.689353,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Deep Blows",
+            "name_lower": "deep blows",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585216.689353,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +157,7 @@
                 "id": 330
             },
             "id": 76863656,
-            "last_update": 1366730440.427369,
+            "last_update": 1387585216.610454,
             "level": 0,
             "max_targets": 0,
             "name": "Deep Blows",
@@ -161,10 +167,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730440.427369,
+            "ts": 1387585216.610454,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

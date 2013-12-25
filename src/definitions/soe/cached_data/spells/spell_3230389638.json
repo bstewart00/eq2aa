@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730444.787363,
+    "min_ts": 1387584981.246503,
     "returned": 1,
-    "seconds": 0.014049053192138672,
+    "seconds": 0.014552116394042969,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Inflicts 4 points of disease damage to target for each health point consumed instantly and every second. Lifeburn's damage cannot exceed 60% of the target's maximum health",
+                    "description": "Inflicts 12 points of disease damage to target for each health point consumed instantly and every second. Lifeburn's damage cannot exceed 60% of the target's maximum health. This spell does not gain effects from potency.",
                     "indentation": 0
                 },
                 {
@@ -47,7 +49,7 @@
                 "id": 3
             },
             "id": 2335804184,
-            "last_update": 1366730444.787363,
+            "last_update": 1387584981.246503,
             "level": 0,
             "max_targets": 0,
             "name": "Lifeburn",
@@ -57,10 +59,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730444.787363,
+            "ts": 1387584981.246503,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730458.503829,
+    "min_ts": 1387584250.941785,
     "returned": 1,
-    "seconds": 0.01747298240661621,
+    "seconds": 0.1659698486328125,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,6 +38,10 @@
                     "indentation": 0
                 },
                 {
+                    "description": "If in Spiritual Stance",
+                    "indentation": 1
+                },
+                {
                     "description": "Inflicts 11 - 19 crushing damage on target encounter",
                     "indentation": 1
                 },
@@ -44,19 +50,15 @@
                     "indentation": 1
                 },
                 {
-                    "description": "If in Spiritual Stance",
-                    "indentation": 1
-                },
-                {
                     "description": "When using a Primal ability. this spell will cast Truespirit's Understanding on target of spell cast.  ",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 34 - 56 crushing damage on target",
+                    "description": "If in Feral Stance",
                     "indentation": 1
                 },
                 {
-                    "description": "If in Feral Stance",
+                    "description": "Inflicts 34 - 56 crushing damage on target",
                     "indentation": 1
                 }
             ],
@@ -67,7 +69,7 @@
                 "id": 262
             },
             "id": 1753855029,
-            "last_update": 1366730458.503829,
+            "last_update": 1387584250.941785,
             "level": 0,
             "max_targets": 0,
             "name": "Truespirit's Understanding",
@@ -77,10 +79,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730458.503829,
+            "ts": 1387584250.941785,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

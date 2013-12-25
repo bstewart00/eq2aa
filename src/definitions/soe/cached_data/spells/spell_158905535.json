@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730456.067977,
+    "min_ts": 1387584581.774814,
     "returned": 3,
-    "seconds": 0.014848947525024414,
+    "seconds": 0.09898805618286133,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 158905535,
-            "deity": 0,
-            "description": "The berserker's area of effect abilities do additional damage.",
-            "description_pvp": "The berserker's area of effect abilities do additional damage.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the base damage before modifications of Utter Destruction, Jeering Onslaught, Insolence, Berserker Onslaught, Partisan Cleave and Bloodbath by 40%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 343
-            },
-            "id": 319205400,
-            "last_update": 1366730641.46727,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Rampager",
-            "name_lower": "rampager",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730641.46727,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 158905535,
-            "deity": 0,
-            "description": "The berserker's area of effect abilities do additional damage.",
-            "description_pvp": "The berserker's area of effect abilities do additional damage.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the base damage before modifications of Utter Destruction, Jeering Onslaught, Insolence, Berserker Onslaught, Partisan Cleave and Bloodbath by 20%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 343
-            },
-            "id": 2932661462,
-            "last_update": 1366730462.441836,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Rampager",
-            "name_lower": "rampager",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730462.441836,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 343
             },
             "id": 3465570717,
-            "last_update": 1366730456.067977,
+            "last_update": 1387584581.89246,
             "level": 0,
             "max_targets": 0,
             "name": "Rampager",
@@ -161,10 +55,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730456.067977,
+            "ts": 1387584581.89246,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 158905535,
+            "deity": 0,
+            "description": "The berserker's area of effect abilities do additional damage.",
+            "description_pvp": "The berserker's area of effect abilities do additional damage.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the base damage before modifications of Utter Destruction, Jeering Onslaught, Insolence, Berserker Onslaught, Partisan Cleave and Bloodbath by 40%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 343
+            },
+            "id": 319205400,
+            "last_update": 1387584581.8538,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Rampager",
+            "name_lower": "rampager",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584581.8538,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 158905535,
+            "deity": 0,
+            "description": "The berserker's area of effect abilities do additional damage.",
+            "description_pvp": "The berserker's area of effect abilities do additional damage.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the base damage before modifications of Utter Destruction, Jeering Onslaught, Insolence, Berserker Onslaught, Partisan Cleave and Bloodbath by 20%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 343
+            },
+            "id": 2932661462,
+            "last_update": 1387584581.774814,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Rampager",
+            "name_lower": "rampager",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584581.774814,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730451.289599,
+    "min_ts": 1387585480.708544,
     "returned": 5,
-    "seconds": 0.0175778865814209,
+    "seconds": 0.01680898666381836,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,128 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the base ward and heal amounts by 5%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting time by 0.1 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 218
-            },
-            "id": 716914819,
-            "last_update": 1366730644.91523,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Passive Protection",
-            "name_lower": "passive protection",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730644.91523,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1851763528,
-            "deity": 0,
-            "description": "Improves the casting time, base protection and heal amount of Torpor and its upgrades.",
-            "description_pvp": "Improves the casting time, base protection and heal amount of Torpor and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the base ward and heal amounts by 15%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting time by 0.3 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 218
-            },
-            "id": 3419767854,
-            "last_update": 1366730467.656434,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Passive Protection",
-            "name_lower": "passive protection",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730467.656434,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1851763528,
-            "deity": 0,
-            "description": "Improves the casting time, base protection and heal amount of Torpor and its upgrades.",
-            "description_pvp": "Improves the casting time, base protection and heal amount of Torpor and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the base ward and heal amounts by 25%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves casting time by 0.5 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the base ward and heal amounts by 25%.",
                     "indentation": 0
                 }
             ],
@@ -163,7 +49,7 @@
                 "id": 218
             },
             "id": 857198488,
-            "last_update": 1366730456.512859,
+            "last_update": 1387585481.030318,
             "level": 0,
             "max_targets": 0,
             "name": "Passive Protection",
@@ -173,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730456.512859,
+            "ts": 1387585481.030318,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the base ward and heal amounts by 20%.",
+                    "description": "Improves casting time by 0.4 seconds.",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting time by 0.4 seconds.",
+                    "description": "Improves the base ward and heal amounts by 20%.",
                     "indentation": 0
                 }
             ],
@@ -221,7 +109,7 @@
                 "id": 218
             },
             "id": 2920820462,
-            "last_update": 1366730452.185943,
+            "last_update": 1387585480.950117,
             "level": 0,
             "max_targets": 0,
             "name": "Passive Protection",
@@ -231,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730452.185943,
+            "ts": 1387585480.950117,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +154,71 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the base ward and heal amounts by 10%.",
+                    "description": "Improves casting time by 0.3 seconds.",
                     "indentation": 0
                 },
                 {
+                    "description": "Improves the base ward and heal amounts by 15%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 218
+            },
+            "id": 3419767854,
+            "last_update": 1387585480.833033,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Passive Protection",
+            "name_lower": "passive protection",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585480.833033,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1851763528,
+            "deity": 0,
+            "description": "Improves the casting time, base protection and heal amount of Torpor and its upgrades.",
+            "description_pvp": "Improves the casting time, base protection and heal amount of Torpor and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
                     "description": "Improves casting time by 0.2 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the base ward and heal amounts by 10%.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +229,7 @@
                 "id": 218
             },
             "id": 1457153368,
-            "last_update": 1366730451.289599,
+            "last_update": 1387585480.750341,
             "level": 0,
             "max_targets": 0,
             "name": "Passive Protection",
@@ -289,10 +239,70 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730451.289599,
+            "ts": 1387585480.750341,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1851763528,
+            "deity": 0,
+            "description": "Improves the casting time, base protection and heal amount of Torpor and its upgrades.",
+            "description_pvp": "Improves the casting time, base protection and heal amount of Torpor and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting time by 0.1 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the base ward and heal amounts by 5%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 218
+            },
+            "id": 716914819,
+            "last_update": 1387585480.708544,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Passive Protection",
+            "name_lower": "passive protection",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585480.708544,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

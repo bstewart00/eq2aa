@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730434.000091,
-    "returned": 2,
-    "seconds": 0.018049955368041992,
+    "min_ts": 1387584333.14969,
+    "returned": 8,
+    "seconds": 0.01640796661376953,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1152357034,
             "deity": 0,
-            "description": "Natural Instinct passively improves the animalist's accuracy.",
-            "description_pvp": "Natural Instinct passively improves the animalist's accuracy.",
+            "description": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "description_pvp": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,18 +34,22 @@
             },
             "effect_list": [
                 {
-                    "description": "Caster will have their chance to hit with a weapon increased by 1.0%",
+                    "description": "Caster will have their chance to hit with a weapon increased by 8.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Gives caster a 8.0% chance to strikethrough a successful avoidance check",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 555
             },
-            "id": 4073061461,
-            "last_update": 1366730587.95026,
+            "id": 1553138453,
+            "last_update": 1387584333.881101,
             "level": 0,
             "max_targets": 0,
             "name": "Natural Instinct",
@@ -51,12 +57,12 @@
             "recast_secs": 1.976285,
             "recovery_secs_tenths": 50,
             "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730587.95026,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584333.881101,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -77,8 +85,308 @@
             },
             "crc": 1152357034,
             "deity": 0,
-            "description": "Natural Instinct passively improves the animalist's accuracy.",
-            "description_pvp": "Natural Instinct passively improves the animalist's accuracy.",
+            "description": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "description_pvp": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Caster will have their chance to hit with a weapon increased by 7.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Gives caster a 7.0% chance to strikethrough a successful avoidance check",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 555
+            },
+            "id": 168277987,
+            "last_update": 1387584333.759438,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Natural Instinct",
+            "name_lower": "natural instinct",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584333.759438,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1152357034,
+            "deity": 0,
+            "description": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "description_pvp": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Caster will have their chance to hit with a weapon increased by 6.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Gives caster a 6.0% chance to strikethrough a successful avoidance check",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 555
+            },
+            "id": 2533906069,
+            "last_update": 1387584333.745338,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Natural Instinct",
+            "name_lower": "natural instinct",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584333.745338,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1152357034,
+            "deity": 0,
+            "description": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "description_pvp": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Caster will have their chance to hit with a weapon increased by 5.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Gives caster a 5.0% chance to strikethrough a successful avoidance check",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 555
+            },
+            "id": 3949556558,
+            "last_update": 1387584333.549239,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Natural Instinct",
+            "name_lower": "natural instinct",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584333.549239,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1152357034,
+            "deity": 0,
+            "description": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "description_pvp": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Caster will have their chance to hit with a weapon increased by 4.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Gives caster a 4.0% chance to strikethrough a successful avoidance check",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 555
+            },
+            "id": 1986433592,
+            "last_update": 1387584333.471136,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Natural Instinct",
+            "name_lower": "natural instinct",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584333.471136,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1152357034,
+            "deity": 0,
+            "description": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "description_pvp": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Caster will have their chance to hit with a weapon increased by 3.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Gives caster a 3.0% chance to strikethrough a successful avoidance check",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 555
+            },
+            "id": 329988344,
+            "last_update": 1387584333.35886,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Natural Instinct",
+            "name_lower": "natural instinct",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584333.35886,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1152357034,
+            "deity": 0,
+            "description": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "description_pvp": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -87,6 +395,10 @@
             "effect_list": [
                 {
                     "description": "Caster will have their chance to hit with a weapon increased by 2.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Gives caster a 2.0% chance to strikethrough a successful avoidance check",
                     "indentation": 0
                 }
             ],
@@ -97,7 +409,7 @@
                 "id": 555
             },
             "id": 2393168270,
-            "last_update": 1366730434.000091,
+            "last_update": 1387584333.269655,
             "level": 0,
             "max_targets": 0,
             "name": "Natural Instinct",
@@ -107,10 +419,70 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730434.000091,
+            "ts": 1387584333.269655,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1152357034,
+            "deity": 0,
+            "description": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "description_pvp": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Caster will have their chance to hit with a weapon increased by 1.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Gives caster a 1.0% chance to strikethrough a successful avoidance check",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 555
+            },
+            "id": 4073061461,
+            "last_update": 1387584333.14969,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Natural Instinct",
+            "name_lower": "natural instinct",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584333.14969,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730466.028834,
+    "min_ts": 1387585668.010422,
     "returned": 3,
-    "seconds": 0.014415979385375977,
+    "seconds": 0.017208099365234375,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 949346365,
-            "deity": 0,
-            "description": "Toxic Aura will automatically reduce threat to the targets the warlock is attacking by a percentage of the damage the warlock inflicts.",
-            "description_pvp": "Toxic Aura will automatically reduce threat to the targets the warlock is attacking by a percentage of the damage the warlock inflicts.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Toxic Aura will allow the warlock to reduce their threat by 0.3% of their damage inflicted per increment.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 261
-            },
-            "id": 4250385301,
-            "last_update": 1366730645.263149,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Toxic Confusion",
-            "name_lower": "toxic confusion",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730645.263149,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 949346365,
-            "deity": 0,
-            "description": "Toxic Aura will automatically reduce threat to the targets the warlock is attacking by a percentage of the damage the warlock inflicts.",
-            "description_pvp": "Toxic Aura will automatically reduce threat to the targets the warlock is attacking by a percentage of the damage the warlock inflicts.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Toxic Aura will allow the warlock to reduce their threat by 0.15% of their damage inflicted per increment.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 261
-            },
-            "id": 1084086107,
-            "last_update": 1366730466.392765,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Toxic Confusion",
-            "name_lower": "toxic confusion",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730466.392765,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 261
             },
             "id": 549544464,
-            "last_update": 1366730466.028834,
+            "last_update": 1387585668.126212,
             "level": 0,
             "max_targets": 0,
             "name": "Toxic Confusion",
@@ -161,10 +55,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730466.028834,
+            "ts": 1387585668.126212,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 949346365,
+            "deity": 0,
+            "description": "Toxic Aura will automatically reduce threat to the targets the warlock is attacking by a percentage of the damage the warlock inflicts.",
+            "description_pvp": "Toxic Aura will automatically reduce threat to the targets the warlock is attacking by a percentage of the damage the warlock inflicts.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Toxic Aura will allow the warlock to reduce their threat by 0.3% of their damage inflicted per increment.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 261
+            },
+            "id": 4250385301,
+            "last_update": 1387585668.046952,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Toxic Confusion",
+            "name_lower": "toxic confusion",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585668.046952,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 949346365,
+            "deity": 0,
+            "description": "Toxic Aura will automatically reduce threat to the targets the warlock is attacking by a percentage of the damage the warlock inflicts.",
+            "description_pvp": "Toxic Aura will automatically reduce threat to the targets the warlock is attacking by a percentage of the damage the warlock inflicts.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Toxic Aura will allow the warlock to reduce their threat by 0.15% of their damage inflicted per increment.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 261
+            },
+            "id": 1084086107,
+            "last_update": 1387585668.010422,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Toxic Confusion",
+            "name_lower": "toxic confusion",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585668.010422,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

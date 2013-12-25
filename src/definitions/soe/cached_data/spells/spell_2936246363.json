@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730441.066236,
+    "min_ts": 1387584253.101879,
     "returned": 5,
-    "seconds": 0.015675067901611328,
+    "seconds": 0.01566004753112793,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,124 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2936246363,
-            "deity": 0,
-            "description": "Hastens the reuse speed of Intercept and its upgrades. When Intercept terminates naturally, it heals the target.",
-            "description_pvp": "Hastens the reuse speed of Intercept and its upgrades. When Intercept terminates naturally, it heals the target.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 9 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Heals the target by 6% on termination",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 354
-            },
-            "id": 3736161976,
-            "last_update": 1366730644.919537,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Intercept",
-            "name_lower": "enhance: intercept",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730644.919537,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2936246363,
-            "deity": 0,
-            "description": "Hastens the reuse speed of Intercept and its upgrades. When Intercept terminates naturally, it heals the target.",
-            "description_pvp": "Hastens the reuse speed of Intercept and its upgrades. When Intercept terminates naturally, it heals the target.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 12 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Heals the target by 8% on termination",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 354
-            },
-            "id": 3145524344,
-            "last_update": 1366730637.584105,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Intercept",
-            "name_lower": "enhance: intercept",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730637.584105,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -163,7 +49,7 @@
                 "id": 354
             },
             "id": 645072142,
-            "last_update": 1366730635.739014,
+            "last_update": 1387584253.467051,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Intercept",
@@ -173,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730635.739014,
+            "ts": 1387584253.467051,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,22 +94,22 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 3 seconds",
+                    "description": "Improves reuse speed by 12 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Heals the target by 2% on termination",
+                    "description": "Heals the target by 8% on termination",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 316,
                 "icon_heroic_op": -1,
                 "id": 354
             },
-            "id": 1071614485,
-            "last_update": 1366730578.897502,
+            "id": 3145524344,
+            "last_update": 1387584253.347294,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Intercept",
@@ -229,12 +117,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730578.897502,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584253.347294,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +132,70 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2936246363,
+            "deity": 0,
+            "description": "Hastens the reuse speed of Intercept and its upgrades. When Intercept terminates naturally, it heals the target.",
+            "description_pvp": "Hastens the reuse speed of Intercept and its upgrades. When Intercept terminates naturally, it heals the target.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 9 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Heals the target by 6% on termination",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 354
+            },
+            "id": 3736161976,
+            "last_update": 1387584253.273246,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Intercept",
+            "name_lower": "enhance: intercept",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584253.273246,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -279,7 +229,7 @@
                 "id": 354
             },
             "id": 1136570318,
-            "last_update": 1366730441.066236,
+            "last_update": 1387584253.215834,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Intercept",
@@ -289,10 +239,70 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730441.066236,
+            "ts": 1387584253.215834,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2936246363,
+            "deity": 0,
+            "description": "Hastens the reuse speed of Intercept and its upgrades. When Intercept terminates naturally, it heals the target.",
+            "description_pvp": "Hastens the reuse speed of Intercept and its upgrades. When Intercept terminates naturally, it heals the target.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 3 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Heals the target by 2% on termination",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 354
+            },
+            "id": 1071614485,
+            "last_update": 1387584253.101879,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Intercept",
+            "name_lower": "enhance: intercept",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584253.101879,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

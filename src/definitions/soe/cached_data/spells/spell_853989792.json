@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730441.336249,
+    "min_ts": 1387584317.709715,
     "returned": 10,
-    "seconds": 0.016278982162475586,
+    "seconds": 0.016376972198486328,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces the reuse time of Channeled Focus by 75 seconds.",
+                    "description": "Reduces the reuse time of Channeled Focus by 135 seconds.",
                     "indentation": 0
                 }
             ],
@@ -42,8 +44,8 @@
                 "icon_heroic_op": -1,
                 "id": 755
             },
-            "id": 3715631583,
-            "last_update": 1366730652.645969,
+            "id": 1203941412,
+            "last_update": 1387584318.347972,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Channeled Focus",
@@ -51,12 +53,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730652.645969,
+            "tier": 9,
+            "tier_name": "Master",
+            "ts": 1387584318.347972,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -101,7 +105,7 @@
                 "id": 755
             },
             "id": 675356747,
-            "last_update": 1366730638.316488,
+            "last_update": 1387584318.337406,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Channeled Focus",
@@ -111,10 +115,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730638.316488,
+            "ts": 1387584318.337406,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -124,8 +128,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -155,7 +161,7 @@
                 "id": 755
             },
             "id": 3173301396,
-            "last_update": 1366730636.925463,
+            "last_update": 1387584318.151905,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Channeled Focus",
@@ -165,10 +171,10 @@
             "spellbook": 4,
             "tier": 7,
             "tier_name": "Expert",
-            "ts": 1366730636.925463,
+            "ts": 1387584318.151905,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -178,116 +184,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 853989792,
-            "deity": 0,
-            "description": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
-            "description_pvp": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces the reuse time of Channeled Focus by 90 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 755
-            },
-            "id": 1622304017,
-            "last_update": 1366730633.363959,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Channeled Focus",
-            "name_lower": "enhance: channeled focus",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730633.363959,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 853989792,
-            "deity": 0,
-            "description": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
-            "description_pvp": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces the reuse time of Channeled Focus by 60 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 755
-            },
-            "id": 15650906,
-            "last_update": 1366730629.463078,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Channeled Focus",
-            "name_lower": "enhance: channeled focus",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730629.463078,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -317,7 +217,7 @@
                 "id": 755
             },
             "id": 2589223329,
-            "last_update": 1366730612.426007,
+            "last_update": 1387584318.151762,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Channeled Focus",
@@ -327,10 +227,10 @@
             "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730612.426007,
+            "ts": 1387584318.151762,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -340,8 +240,178 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 853989792,
+            "deity": 0,
+            "description": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
+            "description_pvp": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the reuse time of Channeled Focus by 90 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 755
+            },
+            "id": 1622304017,
+            "last_update": 1387584318.070518,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Channeled Focus",
+            "name_lower": "enhance: channeled focus",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584318.070518,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 853989792,
+            "deity": 0,
+            "description": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
+            "description_pvp": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the reuse time of Channeled Focus by 75 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 755
+            },
+            "id": 3715631583,
+            "last_update": 1387584317.991233,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Channeled Focus",
+            "name_lower": "enhance: channeled focus",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584317.991233,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 853989792,
+            "deity": 0,
+            "description": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
+            "description_pvp": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the reuse time of Channeled Focus by 60 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 755
+            },
+            "id": 15650906,
+            "last_update": 1387584317.871667,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Channeled Focus",
+            "name_lower": "enhance: channeled focus",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584317.871667,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -371,7 +441,7 @@
                 "id": 755
             },
             "id": 2107495938,
-            "last_update": 1366730612.204715,
+            "last_update": 1387584317.870732,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Channeled Focus",
@@ -381,10 +451,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730612.204715,
+            "ts": 1387584317.870732,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -394,116 +464,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 853989792,
-            "deity": 0,
-            "description": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
-            "description_pvp": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces the reuse time of Channeled Focus by 15 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 755
-            },
-            "id": 499213129,
-            "last_update": 1366730588.982957,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Channeled Focus",
-            "name_lower": "enhance: channeled focus",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730588.982957,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 853989792,
-            "deity": 0,
-            "description": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
-            "description_pvp": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces the reuse time of Channeled Focus by 135 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 755
-            },
-            "id": 1203941412,
-            "last_update": 1366730460.735426,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Channeled Focus",
-            "name_lower": "enhance: channeled focus",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 9,
-            "tier_name": "Master",
-            "ts": 1366730460.735426,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -533,7 +497,7 @@
                 "id": 755
             },
             "id": 2685079431,
-            "last_update": 1366730441.336249,
+            "last_update": 1387584317.750351,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Channeled Focus",
@@ -543,10 +507,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730441.336249,
+            "ts": 1387584317.750351,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 853989792,
+            "deity": 0,
+            "description": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
+            "description_pvp": "Drastically reduces the reuse time of Channeled Focus. Rank 10 prevents the targeted group from being interrupted, even while moving.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the reuse time of Channeled Focus by 15 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 755
+            },
+            "id": 499213129,
+            "last_update": 1387584317.709715,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Channeled Focus",
+            "name_lower": "enhance: channeled focus",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584317.709715,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730560.938875,
+    "min_ts": 1387585650.484129,
     "returned": 1,
-    "seconds": 0.014927148818969727,
+    "seconds": 0.016314983367919922,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 3695898678,
             "deity": 0,
-            "description": "The defiler gains additional Crit Bonus from Potency.",
-            "description_pvp": "The defiler gains additional Crit Bonus from Potency.",
+            "description": "The defiler gains additional Potency based on their current Potency.",
+            "description_pvp": "The defiler gains additional Potency based on their current Potency.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,18 +34,18 @@
             },
             "effect_list": [
                 {
-                    "description": "For every 10 points of Potency, the caster gains 1% Crit Bonus.",
+                    "description": "For every 10 points of Potency, the caster gains an additional 1% Potency.",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 60
             },
             "id": 2656735849,
-            "last_update": 1366730560.938875,
+            "last_update": 1387585650.484129,
             "level": 0,
             "max_targets": 0,
             "name": "Potent Medium",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730560.938875,
+            "ts": 1387585650.484129,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

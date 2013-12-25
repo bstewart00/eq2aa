@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.393085,
+    "min_ts": 1387584310.069525,
     "returned": 5,
-    "seconds": 0.026437044143676758,
+    "seconds": 0.022150039672851562,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,128 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the base amount of the ward by 4%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the casting speed by 0.4 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 192
-            },
-            "id": 500628526,
-            "last_update": 1366730639.002549,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Vile Runes",
-            "name_lower": "vile runes",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730639.002549,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 597109408,
-            "deity": 0,
-            "description": "Increases the casting speed of the Carrion Warding line while also increasing the base heal amount.",
-            "description_pvp": "Increases the casting speed of the Carrion Warding line while also increasing the base heal amount.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the base amount of the ward by 2%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the casting speed by 0.2 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 192
-            },
-            "id": 2686226656,
-            "last_update": 1366730632.031414,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Vile Runes",
-            "name_lower": "vile runes",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730632.031414,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 597109408,
-            "deity": 0,
-            "description": "Increases the casting speed of the Carrion Warding line while also increasing the base heal amount.",
-            "description_pvp": "Increases the casting speed of the Carrion Warding line while also increasing the base heal amount.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the base amount of the ward by 10%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases the casting speed by 1 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the base amount of the ward by 10%.",
                     "indentation": 0
                 }
             ],
@@ -163,7 +49,7 @@
                 "id": 192
             },
             "id": 1621490294,
-            "last_update": 1366730631.874072,
+            "last_update": 1387584310.341064,
             "level": 0,
             "max_targets": 0,
             "name": "Vile Runes",
@@ -173,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730631.874072,
+            "ts": 1387584310.341064,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,70 +93,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the base amount of the ward by 6%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the casting speed by 0.6 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 192
-            },
-            "id": 3225429419,
-            "last_update": 1366730620.023476,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Vile Runes",
-            "name_lower": "vile runes",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730620.023476,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 597109408,
-            "deity": 0,
-            "description": "Increases the casting speed of the Carrion Warding line while also increasing the base heal amount.",
-            "description_pvp": "Increases the casting speed of the Carrion Warding line while also increasing the base heal amount.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the base amount of the ward by 8%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases the casting speed by 0.8 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the base amount of the ward by 8%.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +109,7 @@
                 "id": 192
             },
             "id": 3174245363,
-            "last_update": 1366730440.393085,
+            "last_update": 1387584310.2699,
             "level": 0,
             "max_targets": 0,
             "name": "Vile Runes",
@@ -289,10 +119,190 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730440.393085,
+            "ts": 1387584310.2699,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 597109408,
+            "deity": 0,
+            "description": "Increases the casting speed of the Carrion Warding line while also increasing the base heal amount.",
+            "description_pvp": "Increases the casting speed of the Carrion Warding line while also increasing the base heal amount.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the casting speed by 0.6 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the base amount of the ward by 6%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 192
+            },
+            "id": 3225429419,
+            "last_update": 1387584310.182456,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Vile Runes",
+            "name_lower": "vile runes",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584310.182456,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 597109408,
+            "deity": 0,
+            "description": "Increases the casting speed of the Carrion Warding line while also increasing the base heal amount.",
+            "description_pvp": "Increases the casting speed of the Carrion Warding line while also increasing the base heal amount.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the casting speed by 0.4 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the base amount of the ward by 4%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 192
+            },
+            "id": 500628526,
+            "last_update": 1387584310.111835,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Vile Runes",
+            "name_lower": "vile runes",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584310.111835,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 597109408,
+            "deity": 0,
+            "description": "Increases the casting speed of the Carrion Warding line while also increasing the base heal amount.",
+            "description_pvp": "Increases the casting speed of the Carrion Warding line while also increasing the base heal amount.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the casting speed by 0.2 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the base amount of the ward by 2%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 192
+            },
+            "id": 2686226656,
+            "last_update": 1387584310.069525,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Vile Runes",
+            "name_lower": "vile runes",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584310.069525,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

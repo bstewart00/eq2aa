@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.7414,
+    "min_ts": 1387585013.795075,
     "returned": 5,
-    "seconds": 0.015228033065795898,
+    "seconds": 0.015713930130004883,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +49,7 @@
                 "id": 202
             },
             "id": 2049543916,
-            "last_update": 1366730632.120677,
+            "last_update": 1387585014.078404,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Stupefy",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730632.120677,
+            "ts": 1387585014.078404,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,66 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 620431019,
-            "deity": 0,
-            "description": "Hastens the casting and reuse speed of Stupefy and its upgrades.",
-            "description_pvp": "Hastens the casting and reuse speed of Stupefy and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves casting speed by 0.1 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 1.5 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 202
-            },
-            "id": 3130057850,
-            "last_update": 1366730458.731394,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Stupefy",
-            "name_lower": "enhance: stupefy",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730458.731394,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -163,7 +109,7 @@
                 "id": 202
             },
             "id": 3670823217,
-            "last_update": 1366730457.458071,
+            "last_update": 1387585014.069677,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Stupefy",
@@ -173,10 +119,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730457.458071,
+            "ts": 1387585014.069677,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,66 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 620431019,
-            "deity": 0,
-            "description": "Hastens the casting and reuse speed of Stupefy and its upgrades.",
-            "description_pvp": "Hastens the casting and reuse speed of Stupefy and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves casting speed by 0.2 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 3 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 202
-            },
-            "id": 123373748,
-            "last_update": 1366730454.284149,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Stupefy",
-            "name_lower": "enhance: stupefy",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730454.284149,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -279,7 +169,7 @@
                 "id": 202
             },
             "id": 2814334825,
-            "last_update": 1366730440.7414,
+            "last_update": 1387585014.045385,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Stupefy",
@@ -289,10 +179,130 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730440.7414,
+            "ts": 1387585014.045385,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 620431019,
+            "deity": 0,
+            "description": "Hastens the casting and reuse speed of Stupefy and its upgrades.",
+            "description_pvp": "Hastens the casting and reuse speed of Stupefy and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting speed by 0.2 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 3 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 202
+            },
+            "id": 123373748,
+            "last_update": 1387585013.83514,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Stupefy",
+            "name_lower": "enhance: stupefy",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585013.83514,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 620431019,
+            "deity": 0,
+            "description": "Hastens the casting and reuse speed of Stupefy and its upgrades.",
+            "description_pvp": "Hastens the casting and reuse speed of Stupefy and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting speed by 0.1 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 1.5 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 202
+            },
+            "id": 3130057850,
+            "last_update": 1387585013.795075,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Stupefy",
+            "name_lower": "enhance: stupefy",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585013.795075,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

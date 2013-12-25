@@ -5,7 +5,7 @@
                 {
                     "classification": "Heroic",
                     "classificationpointsrequired": 48,
-                    "description": "Enchanted Vigor increases the target's potency and multi-attack by a portion of the Enchanter's intelligence while doubling the power costs of the target's abilities.",
+                    "description": "Enchanted Vigor increases the target's potency and Damage Per Second by a portion of the Enchanter's intelligence while doubling the power costs of the target's abilities.",
                     "icon": {
                         "backdrop": 461,
                         "id": 737
@@ -131,7 +131,7 @@
                 {
                     "classification": "Heroic",
                     "classificationpointsrequired": 48,
-                    "description": "Convert Power instantly switches the enchanter's current health and power. Any power or health that would go over the enchanter's maximum pools will be lost. For a few seconds, the enchanter's spells cost drastically less and they are immune to damage.",
+                    "description": "Convert Power instantly switches the enchanter's current health and power percentages. For a few seconds, the enchanter's spells cost drastically less and they are immune to damage.",
                     "icon": {
                         "backdrop": 461,
                         "id": 734
@@ -278,22 +278,22 @@
             ],
             "id": 66,
             "iswardertree": "false",
-            "last_update": 1380751226.079615,
+            "last_update": 1387592814.433904,
             "maximumpoints": 0,
             "maxpointsperlevelnode_list": [
                 {
                     "level": 10,
-                    "maxpoints": 50
+                    "maxpoints": 100
                 }
             ],
             "minimumpointsrequired": 0,
             "name": "Heroic",
-            "ts": 1380751226.079615,
+            "ts": 1387592814.433904,
             "version": 2
         }
     ],
     "limit": 1,
-    "min_ts": 1380751226.079615,
+    "min_ts": 1387592814.433904,
     "returned": 1,
-    "seconds": 0.01634693145751953
+    "seconds": 0.023652076721191406
 }

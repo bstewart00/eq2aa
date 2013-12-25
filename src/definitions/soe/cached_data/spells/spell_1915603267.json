@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730446.451972,
+    "min_ts": 1387584868.502059,
     "returned": 3,
-    "seconds": 0.01753091812133789,
+    "seconds": 0.02015995979309082,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,155 +34,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Heals group members (AE) for 40.0% of max health",
-                    "indentation": 0
-                },
-                {
-                    "description": "Heals group members (AE) for 5.0% of max health every 2 seconds",
-                    "indentation": 0
-                },
-                {
                     "description": "Dispels 9 levels of any hostile effects on group members (AE)",
                     "indentation": 0
                 },
-                {
-                    "description": "Restores 20% of the damage received",
-                    "indentation": 0
-                },
-                {
-                    "description": "The healing of this spell cannot be modified except by direct means",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 325
-            },
-            "id": 2216997863,
-            "last_update": 1366730644.152471,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bagpipe Solo",
-            "name_lower": "bagpipe solo",
-            "recast_secs": 118.57708,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730644.152471,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 18,
-                "savagery": 0
-            },
-            "crc": 1915603267,
-            "deity": 0,
-            "description": "Cures the group, restores health over time to the group and health to the group when they receive damage.",
-            "description_pvp": "Cures the group, restores health over time to the group and health to the group when they receive damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 80,
-                "min_sec_tenths": 80
-            },
-            "effect_list": [
                 {
                     "description": "Heals group members (AE) for 40.0% of max health",
                     "indentation": 0
                 },
                 {
                     "description": "Heals group members (AE) for 5.0% of max health every 2 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Dispels 9 levels of any hostile effects on group members (AE)",
-                    "indentation": 0
-                },
-                {
-                    "description": "Restores 10% of the damage received",
-                    "indentation": 0
-                },
-                {
-                    "description": "The healing of this spell cannot be modified except by direct means",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 325
-            },
-            "id": 4165310012,
-            "last_update": 1366730464.915581,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bagpipe Solo",
-            "name_lower": "bagpipe solo",
-            "recast_secs": 118.57708,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730464.915581,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 18,
-                "savagery": 0
-            },
-            "crc": 1915603267,
-            "deity": 0,
-            "description": "Cures the group, restores health over time to the group and health to the group when they receive damage.",
-            "description_pvp": "Cures the group, restores health over time to the group and health to the group when they receive damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 80,
-                "min_sec_tenths": 80
-            },
-            "effect_list": [
-                {
-                    "description": "Heals group members (AE) for 40.0% of max health",
-                    "indentation": 0
-                },
-                {
-                    "description": "Heals group members (AE) for 5.0% of max health every 2 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Dispels 9 levels of any hostile effects on group members (AE)",
                     "indentation": 0
                 },
                 {
@@ -199,7 +61,7 @@
                 "id": 325
             },
             "id": 422269585,
-            "last_update": 1366730446.451972,
+            "last_update": 1387584868.821605,
             "level": 0,
             "max_targets": 0,
             "name": "Bagpipe Solo",
@@ -209,10 +71,154 @@
             "spellbook": 0,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730446.451972,
+            "ts": 1387584868.821605,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 1915603267,
+            "deity": 0,
+            "description": "Cures the group, restores health over time to the group and health to the group when they receive damage.",
+            "description_pvp": "Cures the group, restores health over time to the group and health to the group when they receive damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 80,
+                "min_sec_tenths": 80
+            },
+            "effect_list": [
+                {
+                    "description": "Dispels 9 levels of any hostile effects on group members (AE)",
+                    "indentation": 0
+                },
+                {
+                    "description": "Heals group members (AE) for 40.0% of max health",
+                    "indentation": 0
+                },
+                {
+                    "description": "Heals group members (AE) for 5.0% of max health every 2 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Restores 20% of the damage received",
+                    "indentation": 0
+                },
+                {
+                    "description": "The healing of this spell cannot be modified except by direct means",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 325
+            },
+            "id": 2216997863,
+            "last_update": 1387584868.638955,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bagpipe Solo",
+            "name_lower": "bagpipe solo",
+            "recast_secs": 118.57708,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584868.638955,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 1915603267,
+            "deity": 0,
+            "description": "Cures the group, restores health over time to the group and health to the group when they receive damage.",
+            "description_pvp": "Cures the group, restores health over time to the group and health to the group when they receive damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 80,
+                "min_sec_tenths": 80
+            },
+            "effect_list": [
+                {
+                    "description": "Dispels 9 levels of any hostile effects on group members (AE)",
+                    "indentation": 0
+                },
+                {
+                    "description": "Heals group members (AE) for 40.0% of max health",
+                    "indentation": 0
+                },
+                {
+                    "description": "Heals group members (AE) for 5.0% of max health every 2 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Restores 10% of the damage received",
+                    "indentation": 0
+                },
+                {
+                    "description": "The healing of this spell cannot be modified except by direct means",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 325
+            },
+            "id": 4165310012,
+            "last_update": 1387584868.502059,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bagpipe Solo",
+            "name_lower": "bagpipe solo",
+            "recast_secs": 118.57708,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584868.502059,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
         }
     ]
 }

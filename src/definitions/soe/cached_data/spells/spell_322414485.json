@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730579.601413,
+    "min_ts": 1387584976.364024,
     "returned": 1,
-    "seconds": 0.021162986755371094,
+    "seconds": 0.014241933822631836,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 322414485,
             "deity": 0,
-            "description": "Bob and Weave allows the monk a greater chance to dodge, parry and deflect attacks for a short duration.",
-            "description_pvp": "Bob and Weave allows the monk a greater chance to dodge, parry and deflect attacks for a short duration.",
+            "description": "Bob and Weave allows the monk to dodge all incoming attacks.",
+            "description_pvp": "Bob and Weave allows the monk to dodge all incoming attacks.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 120,
@@ -32,30 +34,22 @@
             },
             "effect_list": [
                 {
-                    "description": "Caster will Dodge 50.0% of incoming attacks",
-                    "indentation": 0
-                },
-                {
-                    "description": "Caster will Parry 50.0% of incoming attacks",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases caster's chance to block by 100.0%",
-                    "indentation": 0
-                },
-                {
                     "description": "Makes caster immune to strikethrough attacks.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Caster will Dodge 100.0% of incoming attacks",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 854
             },
             "id": 4126887152,
-            "last_update": 1366730579.601413,
+            "last_update": 1387584976.364024,
             "level": 0,
             "max_targets": 0,
             "name": "Bob and Weave",
@@ -65,10 +59,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730579.601413,
+            "ts": 1387584976.364024,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

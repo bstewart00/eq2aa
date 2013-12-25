@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730442.395917,
+    "min_ts": 1387584450.431544,
     "returned": 5,
-    "seconds": 0.020715951919555664,
+    "seconds": 0.015990018844604492,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,70 +33,12 @@
                 "min_sec_tenths": 6000
             },
             "effect_list": [
-                {
-                    "description": "Increases the damage of Swipe by 10%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the base trigger percent by an additional 4%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 296
-            },
-            "id": 414987009,
-            "last_update": 1366730635.378584,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Swiping Blades",
-            "name_lower": "swiping blades",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730635.378584,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 946239910,
-            "deity": 0,
-            "description": "Improves the trigger chance of Whirling Blades and its upgrades.  This also increases the damage inflicted by Swipe.",
-            "description_pvp": "Improves the trigger chance of Whirling Blades and its upgrades.  This also increases the damage inflicted by Swipe.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the damage of Swipe by 25%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases the base trigger percent by an additional 10%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the damage of Swipe by 25%.",
                     "indentation": 0
                 }
             ],
@@ -105,7 +49,7 @@
                 "id": 296
             },
             "id": 1708078425,
-            "last_update": 1366730612.800557,
+            "last_update": 1387584450.596557,
             "level": 0,
             "max_targets": 0,
             "name": "Swiping Blades",
@@ -115,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730612.800557,
+            "ts": 1387584450.596557,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -147,128 +93,12 @@
                 "min_sec_tenths": 6000
             },
             "effect_list": [
-                {
-                    "description": "Increases the damage of Swipe by 5%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the base trigger percent by an additional 2%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 296
-            },
-            "id": 2775998415,
-            "last_update": 1366730460.444032,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Swiping Blades",
-            "name_lower": "swiping blades",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730460.444032,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 946239910,
-            "deity": 0,
-            "description": "Improves the trigger chance of Whirling Blades and its upgrades.  This also increases the damage inflicted by Swipe.",
-            "description_pvp": "Improves the trigger chance of Whirling Blades and its upgrades.  This also increases the damage inflicted by Swipe.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the damage of Swipe by 15%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the base trigger percent by an additional 6%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 296
-            },
-            "id": 3307924100,
-            "last_update": 1366730444.17906,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Swiping Blades",
-            "name_lower": "swiping blades",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730444.17906,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 946239910,
-            "deity": 0,
-            "description": "Improves the trigger chance of Whirling Blades and its upgrades.  This also increases the damage inflicted by Swipe.",
-            "description_pvp": "Improves the trigger chance of Whirling Blades and its upgrades.  This also increases the damage inflicted by Swipe.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the damage of Swipe by 20%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases the base trigger percent by an additional 8%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the damage of Swipe by 20%.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +109,7 @@
                 "id": 296
             },
             "id": 3092901084,
-            "last_update": 1366730442.395917,
+            "last_update": 1387584450.529332,
             "level": 0,
             "max_targets": 0,
             "name": "Swiping Blades",
@@ -289,10 +119,190 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730442.395917,
+            "ts": 1387584450.529332,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 946239910,
+            "deity": 0,
+            "description": "Improves the trigger chance of Whirling Blades and its upgrades.  This also increases the damage inflicted by Swipe.",
+            "description_pvp": "Improves the trigger chance of Whirling Blades and its upgrades.  This also increases the damage inflicted by Swipe.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the base trigger percent by an additional 4%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the damage of Swipe by 10%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 296
+            },
+            "id": 414987009,
+            "last_update": 1387584450.475873,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Swiping Blades",
+            "name_lower": "swiping blades",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584450.475873,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 946239910,
+            "deity": 0,
+            "description": "Improves the trigger chance of Whirling Blades and its upgrades.  This also increases the damage inflicted by Swipe.",
+            "description_pvp": "Improves the trigger chance of Whirling Blades and its upgrades.  This also increases the damage inflicted by Swipe.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the base trigger percent by an additional 6%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the damage of Swipe by 15%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 296
+            },
+            "id": 3307924100,
+            "last_update": 1387584450.468492,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Swiping Blades",
+            "name_lower": "swiping blades",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584450.468492,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 946239910,
+            "deity": 0,
+            "description": "Improves the trigger chance of Whirling Blades and its upgrades.  This also increases the damage inflicted by Swipe.",
+            "description_pvp": "Improves the trigger chance of Whirling Blades and its upgrades.  This also increases the damage inflicted by Swipe.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the base trigger percent by an additional 2%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the damage of Swipe by 5%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 296
+            },
+            "id": 2775998415,
+            "last_update": 1387584450.431544,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Swiping Blades",
+            "name_lower": "swiping blades",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584450.431544,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

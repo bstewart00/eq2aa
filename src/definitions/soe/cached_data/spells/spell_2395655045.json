@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730444.868222,
+    "min_ts": 1387585070.845053,
     "returned": 10,
-    "seconds": 0.04329490661621094,
+    "seconds": 0.019251108169555664,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,168 +38,6 @@
                     "indentation": 0
                 },
                 {
-                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 7 - 13 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 7 - 13 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 7 - 13 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 7 - 13 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When blocked this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 7 - 13 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 7 - 13 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "If any of the following are true:",
-                    "indentation": 0
-                },
-                {
-                    "description": "If shield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If buckler equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If towershield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If kiteshield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If roundshield equipped in Secondary",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 575
-            },
-            "id": 1737407352,
-            "last_update": 1366730652.161505,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Reversal",
-            "name_lower": "reversal",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730652.161505,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2395655045,
-            "deity": 0,
-            "description": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
-            "description_pvp": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 300,
-                "min_sec_tenths": 300
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Reversal.  Lasts for 30.0 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 14 - 24 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
                     "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
@@ -210,19 +50,7 @@
                     "indentation": 2
                 },
                 {
-                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 14 - 24 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
+                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -247,6 +75,30 @@
                 },
                 {
                     "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 14 - 24 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 14 - 24 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -289,7 +141,7 @@
                 "id": 575
             },
             "id": 2310363671,
-            "last_update": 1366730638.064494,
+            "last_update": 1387585080.114335,
             "level": 0,
             "max_targets": 0,
             "name": "Reversal",
@@ -299,10 +151,10 @@
             "spellbook": 1,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730638.064494,
+            "ts": 1387585080.114335,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -312,8 +164,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -334,468 +188,6 @@
                 {
                     "description": "Applies Reversal.  Lasts for 30.0 seconds.",
                     "indentation": 0
-                },
-                {
-                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 12 - 20 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 12 - 20 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 12 - 20 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 12 - 20 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When blocked this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 12 - 20 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 12 - 20 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "If any of the following are true:",
-                    "indentation": 0
-                },
-                {
-                    "description": "If shield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If buckler equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If towershield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If kiteshield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If roundshield equipped in Secondary",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 575
-            },
-            "id": 2672619726,
-            "last_update": 1366730630.726882,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Reversal",
-            "name_lower": "reversal",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730630.726882,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2395655045,
-            "deity": 0,
-            "description": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
-            "description_pvp": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 300,
-                "min_sec_tenths": 300
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Reversal.  Lasts for 30.0 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 14 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 14 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 14 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 14 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When blocked this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 14 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 14 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "If any of the following are true:",
-                    "indentation": 0
-                },
-                {
-                    "description": "If shield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If buckler equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If towershield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If kiteshield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If roundshield equipped in Secondary",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 575
-            },
-            "id": 468688547,
-            "last_update": 1366730464.066692,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Reversal",
-            "name_lower": "reversal",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730464.066692,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2395655045,
-            "deity": 0,
-            "description": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
-            "description_pvp": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 300,
-                "min_sec_tenths": 300
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Reversal.  Lasts for 30.0 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 14 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 14 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 14 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 14 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When blocked this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 14 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 14 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "If any of the following are true:",
-                    "indentation": 0
-                },
-                {
-                    "description": "If shield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If buckler equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If towershield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If kiteshield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If roundshield equipped in Secondary",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 575
-            },
-            "id": 2262859733,
-            "last_update": 1366730459.046716,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Reversal",
-            "name_lower": "reversal",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730459.046716,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2395655045,
-            "deity": 0,
-            "description": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
-            "description_pvp": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 300,
-                "min_sec_tenths": 300
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Reversal.  Lasts for 30.0 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 14 - 23 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
                 },
                 {
                     "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
@@ -810,19 +202,7 @@
                     "indentation": 2
                 },
                 {
-                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 14 - 23 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
+                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -847,6 +227,30 @@
                 },
                 {
                     "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 14 - 23 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 14 - 23 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -889,7 +293,7 @@
                 "id": 575
             },
             "id": 1423418702,
-            "last_update": 1366730456.482841,
+            "last_update": 1387585079.409221,
             "level": 0,
             "max_targets": 0,
             "name": "Reversal",
@@ -899,10 +303,10 @@
             "spellbook": 1,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730456.482841,
+            "ts": 1387585079.409221,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -912,8 +316,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -936,168 +342,6 @@
                     "indentation": 0
                 },
                 {
-                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 10 - 17 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 10 - 17 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 10 - 17 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 10 - 17 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When blocked this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 10 - 17 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 10 - 17 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "If any of the following are true:",
-                    "indentation": 0
-                },
-                {
-                    "description": "If shield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If buckler equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If towershield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If kiteshield equipped in Secondary",
-                    "indentation": 1
-                },
-                {
-                    "description": "If roundshield equipped in Secondary",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 575
-            },
-            "id": 2116170851,
-            "last_update": 1366730454.905559,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Reversal",
-            "name_lower": "reversal",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730454.905559,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2395655045,
-            "deity": 0,
-            "description": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
-            "description_pvp": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 300,
-                "min_sec_tenths": 300
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Reversal.  Lasts for 30.0 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 13 - 22 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
                     "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
@@ -1110,19 +354,7 @@
                     "indentation": 2
                 },
                 {
-                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 13 - 22 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
+                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -1147,6 +379,30 @@
                 },
                 {
                     "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 13 - 22 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 13 - 22 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -1189,7 +445,7 @@
                 "id": 575
             },
             "id": 3386393656,
-            "last_update": 1366730453.807317,
+            "last_update": 1387585078.05045,
             "level": 0,
             "max_targets": 0,
             "name": "Reversal",
@@ -1199,10 +455,10 @@
             "spellbook": 1,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730453.807317,
+            "ts": 1387585078.05045,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -1212,8 +468,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -1236,16 +494,156 @@
                     "indentation": 0
                 },
                 {
-                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
+                    "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 11 - 19 melee damage on target",
+                    "description": "Inflicts 12 - 20 melee damage on target",
                     "indentation": 2
                 },
                 {
                     "description": "Grants a total of 1 trigger of the spell.",
                     "indentation": 2
+                },
+                {
+                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 12 - 20 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When blocked this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 12 - 20 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 12 - 20 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 12 - 20 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 12 - 20 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "If any of the following are true:",
+                    "indentation": 0
+                },
+                {
+                    "description": "If shield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If buckler equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If towershield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If kiteshield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If roundshield equipped in Secondary",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 575
+            },
+            "id": 2672619726,
+            "last_update": 1387585077.033127,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Reversal",
+            "name_lower": "reversal",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585077.033127,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2395655045,
+            "deity": 0,
+            "description": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
+            "description_pvp": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Reversal.  Lasts for 30.0 seconds.",
+                    "indentation": 0
                 },
                 {
                     "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
@@ -1260,19 +658,7 @@
                     "indentation": 2
                 },
                 {
-                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 11 - 19 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
+                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -1297,6 +683,30 @@
                 },
                 {
                     "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 11 - 19 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 11 - 19 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -1339,7 +749,7 @@
                 "id": 575
             },
             "id": 37949880,
-            "last_update": 1366730445.599453,
+            "last_update": 1387585076.032915,
             "level": 0,
             "max_targets": 0,
             "name": "Reversal",
@@ -1349,10 +759,10 @@
             "spellbook": 1,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730445.599453,
+            "ts": 1387585076.032915,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -1362,8 +772,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -1386,16 +798,156 @@
                     "indentation": 0
                 },
                 {
-                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
+                    "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 9 - 16 melee damage on target",
+                    "description": "Inflicts 10 - 17 melee damage on target",
                     "indentation": 2
                 },
                 {
                     "description": "Grants a total of 1 trigger of the spell.",
                     "indentation": 2
+                },
+                {
+                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 10 - 17 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When blocked this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 10 - 17 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 10 - 17 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 10 - 17 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 10 - 17 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "If any of the following are true:",
+                    "indentation": 0
+                },
+                {
+                    "description": "If shield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If buckler equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If towershield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If kiteshield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If roundshield equipped in Secondary",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 575
+            },
+            "id": 2116170851,
+            "last_update": 1387585074.965183,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Reversal",
+            "name_lower": "reversal",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585074.965183,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2395655045,
+            "deity": 0,
+            "description": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
+            "description_pvp": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Reversal.  Lasts for 30.0 seconds.",
+                    "indentation": 0
                 },
                 {
                     "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
@@ -1410,19 +962,7 @@
                     "indentation": 2
                 },
                 {
-                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 9 - 16 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
+                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -1447,6 +987,30 @@
                 },
                 {
                     "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 16 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 16 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -1489,7 +1053,7 @@
                 "id": 575
             },
             "id": 3811431701,
-            "last_update": 1366730444.868222,
+            "last_update": 1387585073.95269,
             "level": 0,
             "max_targets": 0,
             "name": "Reversal",
@@ -1499,10 +1063,466 @@
             "spellbook": 1,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730444.868222,
+            "ts": 1387585073.95269,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2395655045,
+            "deity": 0,
+            "description": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
+            "description_pvp": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Reversal.  Lasts for 30.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 14 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 14 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When blocked this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 14 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 14 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 14 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 14 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "If any of the following are true:",
+                    "indentation": 0
+                },
+                {
+                    "description": "If shield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If buckler equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If towershield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If kiteshield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If roundshield equipped in Secondary",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 575
+            },
+            "id": 2262859733,
+            "last_update": 1387585072.952845,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Reversal",
+            "name_lower": "reversal",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585072.952845,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2395655045,
+            "deity": 0,
+            "description": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
+            "description_pvp": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Reversal.  Lasts for 30.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 14 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 14 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When blocked this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 14 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 14 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 14 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 14 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "If any of the following are true:",
+                    "indentation": 0
+                },
+                {
+                    "description": "If shield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If buckler equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If towershield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If kiteshield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If roundshield equipped in Secondary",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 575
+            },
+            "id": 468688547,
+            "last_update": 1387585071.952355,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Reversal",
+            "name_lower": "reversal",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585071.952355,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2395655045,
+            "deity": 0,
+            "description": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
+            "description_pvp": "While a shield is equipped, the next time that the Gladiator successfully blocks/parries/ripostes an attack or an enemy blocks/parries/deflects/ripostes the Gladiator, the Gladiator returns with a counterattack. This effect refreshes every 30 seconds.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 300,
+                "min_sec_tenths": 300
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Reversal.  Lasts for 30.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "When parried this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 13 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When riposted this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 13 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When blocked this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 13 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a parry this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 13 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 13 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Gladiator's Strike on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 13 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "If any of the following are true:",
+                    "indentation": 0
+                },
+                {
+                    "description": "If shield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If buckler equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If towershield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If kiteshield equipped in Secondary",
+                    "indentation": 1
+                },
+                {
+                    "description": "If roundshield equipped in Secondary",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 575
+            },
+            "id": 1737407352,
+            "last_update": 1387585070.845053,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Reversal",
+            "name_lower": "reversal",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585070.845053,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

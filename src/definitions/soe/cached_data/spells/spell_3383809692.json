@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730436.128783,
+    "min_ts": 1387584563.31553,
     "returned": 10,
-    "seconds": 0.018031835556030273,
+    "seconds": 0.021883010864257812,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 14
             },
             "id": 1584841321,
-            "last_update": 1366730646.626404,
+            "last_update": 1387584564.001439,
             "level": 0,
             "max_targets": 0,
             "name": "Lightning Reflexes",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730646.626404,
+            "ts": 1387584564.001439,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,278 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3383809692,
-            "deity": 0,
-            "description": "Increases Ability Reuse Speed.",
-            "description_pvp": "Increases Ability Reuse Speed.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Ability Reuse Speed of caster by 3.0%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 14
-            },
-            "id": 1361307563,
-            "last_update": 1366730643.805876,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lightning Reflexes",
-            "name_lower": "lightning reflexes",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730643.805876,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3383809692,
-            "deity": 0,
-            "description": "Increases Ability Reuse Speed.",
-            "description_pvp": "Increases Ability Reuse Speed.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Ability Reuse Speed of caster by 2.0%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 14
-            },
-            "id": 3425437405,
-            "last_update": 1366730639.726224,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lightning Reflexes",
-            "name_lower": "lightning reflexes",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730639.726224,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3383809692,
-            "deity": 0,
-            "description": "Increases Ability Reuse Speed.",
-            "description_pvp": "Increases Ability Reuse Speed.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Ability Reuse Speed of caster by 5.0%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 14
-            },
-            "id": 2850139165,
-            "last_update": 1366730637.736548,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lightning Reflexes",
-            "name_lower": "lightning reflexes",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730637.736548,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3383809692,
-            "deity": 0,
-            "description": "Increases Ability Reuse Speed.",
-            "description_pvp": "Increases Ability Reuse Speed.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Ability Reuse Speed of caster by 7.0%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 14
-            },
-            "id": 1217358000,
-            "last_update": 1366730613.09388,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lightning Reflexes",
-            "name_lower": "lightning reflexes",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730613.09388,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3383809692,
-            "deity": 0,
-            "description": "Increases Ability Reuse Speed.",
-            "description_pvp": "Increases Ability Reuse Speed.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Ability Reuse Speed of caster by 1.0%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 14
-            },
-            "id": 2957845254,
-            "last_update": 1366730580.169287,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lightning Reflexes",
-            "name_lower": "lightning reflexes",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730580.169287,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -367,7 +101,7 @@
                 "id": 14
             },
             "id": 2199141680,
-            "last_update": 1366730452.28691,
+            "last_update": 1387584563.938569,
             "level": 0,
             "max_targets": 0,
             "name": "Lightning Reflexes",
@@ -377,10 +111,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730452.28691,
+            "ts": 1387584563.938569,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -390,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -421,7 +157,7 @@
                 "id": 14
             },
             "id": 505142342,
-            "last_update": 1366730443.23074,
+            "last_update": 1387584563.856569,
             "level": 0,
             "max_targets": 0,
             "name": "Lightning Reflexes",
@@ -431,10 +167,10 @@
             "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730443.23074,
+            "ts": 1387584563.856569,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -444,8 +180,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3383809692,
+            "deity": 0,
+            "description": "Increases Ability Reuse Speed.",
+            "description_pvp": "Increases Ability Reuse Speed.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ability Reuse Speed of caster by 7.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 14
+            },
+            "id": 1217358000,
+            "last_update": 1387584563.776057,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lightning Reflexes",
+            "name_lower": "lightning reflexes",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584563.776057,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -475,7 +269,7 @@
                 "id": 14
             },
             "id": 3581970886,
-            "last_update": 1366730442.165308,
+            "last_update": 1387584563.655855,
             "level": 0,
             "max_targets": 0,
             "name": "Lightning Reflexes",
@@ -485,10 +279,10 @@
             "spellbook": 4,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730442.165308,
+            "ts": 1387584563.655855,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -498,8 +292,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3383809692,
+            "deity": 0,
+            "description": "Increases Ability Reuse Speed.",
+            "description_pvp": "Increases Ability Reuse Speed.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ability Reuse Speed of caster by 5.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 14
+            },
+            "id": 2850139165,
+            "last_update": 1387584563.558695,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lightning Reflexes",
+            "name_lower": "lightning reflexes",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584563.558695,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -529,7 +381,7 @@
                 "id": 14
             },
             "id": 888032619,
-            "last_update": 1366730436.128783,
+            "last_update": 1387584563.480798,
             "level": 0,
             "max_targets": 0,
             "name": "Lightning Reflexes",
@@ -539,10 +391,178 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730436.128783,
+            "ts": 1387584563.480798,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3383809692,
+            "deity": 0,
+            "description": "Increases Ability Reuse Speed.",
+            "description_pvp": "Increases Ability Reuse Speed.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ability Reuse Speed of caster by 3.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 14
+            },
+            "id": 1361307563,
+            "last_update": 1387584563.412518,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lightning Reflexes",
+            "name_lower": "lightning reflexes",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584563.412518,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3383809692,
+            "deity": 0,
+            "description": "Increases Ability Reuse Speed.",
+            "description_pvp": "Increases Ability Reuse Speed.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ability Reuse Speed of caster by 1.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 14
+            },
+            "id": 2957845254,
+            "last_update": 1387584563.331108,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lightning Reflexes",
+            "name_lower": "lightning reflexes",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584563.331108,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3383809692,
+            "deity": 0,
+            "description": "Increases Ability Reuse Speed.",
+            "description_pvp": "Increases Ability Reuse Speed.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Ability Reuse Speed of caster by 2.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 14
+            },
+            "id": 3425437405,
+            "last_update": 1387584563.31553,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lightning Reflexes",
+            "name_lower": "lightning reflexes",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584563.31553,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

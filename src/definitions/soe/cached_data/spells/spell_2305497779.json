@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730456.447199,
+    "min_ts": 1387584730.076548,
     "returned": 2,
-    "seconds": 0.02079010009765625,
+    "seconds": 0.015501976013183594,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,66 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2305497779,
-            "deity": 0,
-            "description": "The predator fools the surrounding enemies into thinking they are someone else, allowing them to temporarily bypass the stealth requirements of their abilities. No longer hiding behind a shroud of stealth, the predator gains increased Crit Bonus for the duration.",
-            "description_pvp": "The predator fools the surrounding enemies into thinking they are someone else, allowing them to temporarily bypass the stealth requirements of their abilities. No longer hiding behind a shroud of stealth, the predator gains increased Crit Bonus for the duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 120,
-                "min_sec_tenths": 120
-            },
-            "effect_list": [
-                {
-                    "description": "Bypasses the Stealth requirement on the Predator's abilities.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Crit Bonus of caster by 20.0%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 927
-            },
-            "id": 2099523007,
-            "last_update": 1366730582.706645,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Predator's Final Trick",
-            "name_lower": "predator's final trick",
-            "recast_secs": 296.442688,
-            "recovery_secs_tenths": 0,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730582.706645,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -105,7 +49,7 @@
                 "id": 927
             },
             "id": 21301348,
-            "last_update": 1366730456.447199,
+            "last_update": 1387584730.196363,
             "level": 0,
             "max_targets": 0,
             "name": "Predator's Final Trick",
@@ -115,10 +59,70 @@
             "spellbook": 1,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730456.447199,
+            "ts": 1387584730.196363,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2305497779,
+            "deity": 0,
+            "description": "The predator fools the surrounding enemies into thinking they are someone else, allowing them to temporarily bypass the stealth requirements of their abilities. No longer hiding behind a shroud of stealth, the predator gains increased Crit Bonus for the duration.",
+            "description_pvp": "The predator fools the surrounding enemies into thinking they are someone else, allowing them to temporarily bypass the stealth requirements of their abilities. No longer hiding behind a shroud of stealth, the predator gains increased Crit Bonus for the duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 120,
+                "min_sec_tenths": 120
+            },
+            "effect_list": [
+                {
+                    "description": "Bypasses the Stealth requirement on the Predator's abilities.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Crit Bonus of caster by 20.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 927
+            },
+            "id": 2099523007,
+            "last_update": 1387584730.076548,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Predator's Final Trick",
+            "name_lower": "predator's final trick",
+            "recast_secs": 296.442688,
+            "recovery_secs_tenths": 0,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584730.076548,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730434.009439,
+    "min_ts": 1387584343.07908,
     "returned": 1,
-    "seconds": 0.01494288444519043,
+    "seconds": 0.21458196640014648,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,19 +38,15 @@
                     "indentation": 0
                 },
                 {
+                    "description": "Increases Doublecast Chance of group members (AE) by 0.1%",
+                    "indentation": 1
+                },
+                {
                     "description": "Increases Attack Speed of group members (AE) by 4.0",
                     "indentation": 1
                 },
                 {
                     "description": "Dispelled when a group member dies.",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Doublecast Chance of group members (AE) by 0.1%",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Spell Weapon Attack Speed of group members (AE) by 2.0",
                     "indentation": 1
                 },
                 {
@@ -56,19 +54,15 @@
                     "indentation": 0
                 },
                 {
+                    "description": "Increases Doublecast Chance of group members (AE) by 0.1%",
+                    "indentation": 1
+                },
+                {
                     "description": "Increases Attack Speed of group members (AE) by 4.0",
                     "indentation": 1
                 },
                 {
                     "description": "Dispelled when a group member dies.",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Doublecast Chance of group members (AE) by 0.1%",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Spell Weapon Attack Speed of group members (AE) by 2.0",
                     "indentation": 1
                 }
             ],
@@ -79,7 +73,7 @@
                 "id": 383
             },
             "id": 3791288364,
-            "last_update": 1366730434.009439,
+            "last_update": 1387584343.07908,
             "level": 0,
             "max_targets": 0,
             "name": "Mamba of Blades",
@@ -89,10 +83,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730434.009439,
+            "ts": 1387584343.07908,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

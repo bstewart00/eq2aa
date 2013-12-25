@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730437.042086,
+    "min_ts": 1387584146.022191,
     "returned": 10,
-    "seconds": 0.027409076690673828,
+    "seconds": 0.07418513298034668,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -34,607 +36,13 @@
                 {
                     "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
                     "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 piercing damage on target instantly and every 4 seconds",
-                    "indentation": 1
                 },
                 {
                     "description": "Interrupts target",
                     "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 628
-            },
-            "id": 2602103534,
-            "last_update": 1366730632.846542,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Leg Bite",
-            "name_lower": "leg bite",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730632.846542,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 1,
-                "savagery": 0
-            },
-            "crc": 1665799777,
-            "deity": 0,
-            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 5 piercing damage on target instantly and every 4 seconds",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 628
-            },
-            "id": 1675278680,
-            "last_update": 1366730630.34221,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Leg Bite",
-            "name_lower": "leg bite",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730630.34221,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 1,
-                "savagery": 0
-            },
-            "crc": 1665799777,
-            "deity": 0,
-            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 piercing damage on target instantly and every 4 seconds",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 628
-            },
-            "id": 2054567491,
-            "last_update": 1366730626.475514,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Leg Bite",
-            "name_lower": "leg bite",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730626.475514,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 1,
-                "savagery": 0
-            },
-            "crc": 1665799777,
-            "deity": 0,
-            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 piercing damage on target instantly and every 4 seconds",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 628
-            },
-            "id": 532388995,
-            "last_update": 1366730618.689081,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Leg Bite",
-            "name_lower": "leg bite",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730618.689081,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 1,
-                "savagery": 0
-            },
-            "crc": 1665799777,
-            "deity": 0,
-            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 piercing damage on target instantly and every 4 seconds",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 628
-            },
-            "id": 3883521845,
-            "last_update": 1366730617.5186,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Leg Bite",
-            "name_lower": "leg bite",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730617.5186,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 1,
-                "savagery": 0
-            },
-            "crc": 1665799777,
-            "deity": 0,
-            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 piercing damage on target instantly and every 4 seconds",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 628
-            },
-            "id": 2192866805,
-            "last_update": 1366730617.291079,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Leg Bite",
-            "name_lower": "leg bite",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730617.291079,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 1,
-                "savagery": 0
-            },
-            "crc": 1665799777,
-            "deity": 0,
-            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
-                    "indentation": 0
                 },
                 {
                     "description": "Inflicts 6 piercing damage on target instantly and every 4 seconds",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 628
-            },
-            "id": 2822892760,
-            "last_update": 1366730613.470618,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Leg Bite",
-            "name_lower": "leg bite",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 9,
-            "tier_name": "Master",
-            "ts": 1366730613.470618,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 1,
-                "savagery": 0
-            },
-            "crc": 1665799777,
-            "deity": 0,
-            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 5 piercing damage on target instantly and every 4 seconds",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 628
-            },
-            "id": 894307758,
-            "last_update": 1366730441.790436,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Leg Bite",
-            "name_lower": "leg bite",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730441.790436,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 1,
-                "savagery": 0
-            },
-            "crc": 1665799777,
-            "deity": 0,
-            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 5 piercing damage on target instantly and every 4 seconds",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 628
-            },
-            "id": 4275394606,
-            "last_update": 1366730441.605688,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Leg Bite",
-            "name_lower": "leg bite",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730441.605688,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 1,
-                "savagery": 0
-            },
-            "crc": 1665799777,
-            "deity": 0,
-            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 6 piercing damage on target instantly and every 4 seconds",
-                    "indentation": 1
-                },
-                {
-                    "description": "Interrupts target",
                     "indentation": 1
                 },
                 {
@@ -649,7 +57,7 @@
                 "id": 628
             },
             "id": 1965233025,
-            "last_update": 1366730437.042086,
+            "last_update": 1387584147.767613,
             "level": 0,
             "max_targets": 0,
             "name": "Leg Bite",
@@ -659,10 +67,622 @@
             "spellbook": 0,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730437.042086,
+            "ts": 1387584147.767613,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 1,
+                "savagery": 0
+            },
+            "crc": 1665799777,
+            "deity": 0,
+            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 6 piercing damage on target instantly and every 4 seconds",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 628
+            },
+            "id": 2822892760,
+            "last_update": 1387584147.298626,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Leg Bite",
+            "name_lower": "leg bite",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 9,
+            "tier_name": "Master",
+            "ts": 1387584147.298626,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 1,
+                "savagery": 0
+            },
+            "crc": 1665799777,
+            "deity": 0,
+            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 5 piercing damage on target instantly and every 4 seconds",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 628
+            },
+            "id": 894307758,
+            "last_update": 1387584147.120215,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Leg Bite",
+            "name_lower": "leg bite",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584147.120215,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 1,
+                "savagery": 0
+            },
+            "crc": 1665799777,
+            "deity": 0,
+            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 5 piercing damage on target instantly and every 4 seconds",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 628
+            },
+            "id": 4275394606,
+            "last_update": 1387584147.065574,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Leg Bite",
+            "name_lower": "leg bite",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584147.065574,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 1,
+                "savagery": 0
+            },
+            "crc": 1665799777,
+            "deity": 0,
+            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 5 piercing damage on target instantly and every 4 seconds",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 628
+            },
+            "id": 1675278680,
+            "last_update": 1387584147.036769,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Leg Bite",
+            "name_lower": "leg bite",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584147.036769,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 1,
+                "savagery": 0
+            },
+            "crc": 1665799777,
+            "deity": 0,
+            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 4 piercing damage on target instantly and every 4 seconds",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 628
+            },
+            "id": 2192866805,
+            "last_update": 1387584146.621499,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Leg Bite",
+            "name_lower": "leg bite",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584146.621499,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 1,
+                "savagery": 0
+            },
+            "crc": 1665799777,
+            "deity": 0,
+            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 4 piercing damage on target instantly and every 4 seconds",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 628
+            },
+            "id": 532388995,
+            "last_update": 1387584146.538372,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Leg Bite",
+            "name_lower": "leg bite",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584146.538372,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 1,
+                "savagery": 0
+            },
+            "crc": 1665799777,
+            "deity": 0,
+            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 4 piercing damage on target instantly and every 4 seconds",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 628
+            },
+            "id": 2054567491,
+            "last_update": 1387584146.338492,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Leg Bite",
+            "name_lower": "leg bite",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584146.338492,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 1,
+                "savagery": 0
+            },
+            "crc": 1665799777,
+            "deity": 0,
+            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 3 piercing damage on target instantly and every 4 seconds",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 628
+            },
+            "id": 3883521845,
+            "last_update": 1387584146.138714,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Leg Bite",
+            "name_lower": "leg bite",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584146.138714,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 1,
+                "savagery": 0
+            },
+            "crc": 1665799777,
+            "deity": 0,
+            "description": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "description_pvp": "The spirit pet's next attack will interrupt the target, and cause piercing damage over-time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell will cast Leg Bleed on target of attack.  Lasts for 24.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Interrupts target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 3 piercing damage on target instantly and every 4 seconds",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 628
+            },
+            "id": 2602103534,
+            "last_update": 1387584146.022191,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Leg Bite",
+            "name_lower": "leg bite",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584146.022191,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730631.973865,
+    "min_ts": 1387584209.417639,
     "returned": 1,
-    "seconds": 0.014706134796142578,
+    "seconds": 0.047464847564697266,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,14 +34,6 @@
             },
             "effect_list": [
                 {
-                    "description": "Makes target immune to Mesmerize effects",
-                    "indentation": 0
-                },
-                {
-                    "description": "Makes target immune to Daze effects",
-                    "indentation": 0
-                },
-                {
                     "description": "Makes target immune to Fear effects",
                     "indentation": 0
                 },
@@ -54,6 +48,14 @@
                 {
                     "description": "Makes target immune to Root effects",
                     "indentation": 0
+                },
+                {
+                    "description": "Makes target immune to Daze effects",
+                    "indentation": 0
+                },
+                {
+                    "description": "Makes target immune to Mesmerize effects",
+                    "indentation": 0
                 }
             ],
             "given_by": "alternateadvancement",
@@ -63,7 +65,7 @@
                 "id": 476
             },
             "id": 450462139,
-            "last_update": 1366730631.973865,
+            "last_update": 1387584209.417639,
             "level": 0,
             "max_targets": 0,
             "name": "Brutal Inspiration",
@@ -73,10 +75,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730631.973865,
+            "ts": 1387584209.417639,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

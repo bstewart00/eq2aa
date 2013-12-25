@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730620.5297,
+    "min_ts": 1387584522.996846,
     "returned": 1,
-    "seconds": 0.017756938934326172,
+    "seconds": 0.08730006217956543,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces all damage done to target by 58% This spell will absorb a total of 3 attacks.",
+                    "description": "Causes 50% Threat to transfer to target when in combat",
                     "indentation": 0
                 },
                 {
-                    "description": "If profession other than Fighter",
+                    "description": "If Fighter",
                     "indentation": 1
                 },
                 {
@@ -44,11 +46,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases threat priority of target encounter by 1 position",
+                    "description": "Decreases Threat to target encounter by 38 ",
                     "indentation": 1
                 },
                 {
-                    "description": "Decreases Threat to target encounter by 24 ",
+                    "description": "Decreases threat priority of target encounter by 1 position",
                     "indentation": 1
                 },
                 {
@@ -60,11 +62,11 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Causes 50% Threat to transfer to target when in combat",
+                    "description": "Reduces all damage done to target by 58% This spell will absorb a total of 3 attacks.",
                     "indentation": 0
                 },
                 {
-                    "description": "If Fighter",
+                    "description": "If profession other than Fighter",
                     "indentation": 1
                 }
             ],
@@ -75,7 +77,7 @@
                 "id": 468
             },
             "id": 3716257826,
-            "last_update": 1366730620.5297,
+            "last_update": 1387584522.996846,
             "level": 0,
             "max_targets": 0,
             "name": "Mercy or Anger",
@@ -85,10 +87,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730620.5297,
+            "ts": 1387584522.996846,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

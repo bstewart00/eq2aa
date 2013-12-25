@@ -93,7 +93,7 @@
                 {
                     "classification": "Agility",
                     "classificationpointsrequired": 0,
-                    "description": "Channels the energy of Marisha Kur to restore health to the beastlord's warder.",
+                    "description": "Channels the energy of Marisha Kur to heal and cure the beastlord's warder.",
                     "firstparentid": 2118206297,
                     "firstparentrequiredtier": 1,
                     "icon": {
@@ -118,7 +118,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Improves the beastlord's movement speed.",
                     "firstparentid": 2280392780,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": 461,
                         "id": 94
@@ -139,16 +139,16 @@
                 {
                     "classification": "Sentinel's Fate Attributes",
                     "classificationpointsrequired": 0,
-                    "description": "Natural Instinct passively improves the animalist's accuracy.",
+                    "description": "Natural Instinct passively improves the animalist's accuracy and strikethrough.",
                     "icon": {
                         "backdrop": -1,
                         "id": 15
                     },
-                    "maxtier": 2,
+                    "maxtier": 8,
                     "minlevel": 1,
                     "name": "Natural Instinct",
                     "nodeid": 626637783,
-                    "pointspertier": 4,
+                    "pointspertier": 1,
                     "pointsspentgloballytounlock": 0,
                     "pointsspentintreetounlock": 70,
                     "spellcrc": 1152357034,
@@ -162,7 +162,7 @@
                     "classificationpointsrequired": 0,
                     "description": "The beastlord gains an innate chance to riposte attacks from the front. Attacks from other directions have a chance to be parried.",
                     "firstparentid": 2969994484,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": 461,
                         "id": 581
@@ -206,7 +206,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Improves the beastlord's maximum health.",
                     "firstparentid": 672126286,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": 461,
                         "id": 163
@@ -250,7 +250,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Improves the beastlord's chance to critically hit.",
                     "firstparentid": 518347254,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": 461,
                         "id": 102
@@ -359,7 +359,7 @@
                     "classificationpointsrequired": 0,
                     "description": "When the beastlord attacks, they have a chance to trigger a heal on their warder.",
                     "firstparentid": 338034746,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 225
@@ -382,7 +382,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Improves the animalist's crushing, slashing, piercing and ranged skills, improving their chance to strike their target.",
                     "firstparentid": 144763152,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": 461,
                         "id": 474
@@ -405,7 +405,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Slows the natural loss of Savagery when out of combat.",
                     "firstparentid": 12735672,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": 461,
                         "id": 258
@@ -514,7 +514,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Pack's Ferocity grants the animalist a chance to strike multiple targets with their Auto-Attack.",
                     "firstparentid": 2443819178,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": 461,
                         "id": 109
@@ -537,7 +537,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Improves the beastlord's casting speed.",
                     "firstparentid": 2580219138,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 106
@@ -581,7 +581,7 @@
                     "classificationpointsrequired": 0,
                     "description": "The beastlord's warder will take less damage from incoming attacks.",
                     "firstparentid": 2368688512,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": 460,
                         "id": 376
@@ -602,7 +602,7 @@
             ],
             "id": 74,
             "iswardertree": "false",
-            "last_update": 1380751543.741611,
+            "last_update": 1387593669.433071,
             "maximumpoints": 0,
             "maxpointsperlevelnode_list": [
                 {
@@ -612,12 +612,12 @@
             ],
             "minimumpointsrequired": 0,
             "name": "Animalist",
-            "ts": 1380751543.741611,
+            "ts": 1387593669.433071,
             "version": 2
         }
     ],
     "limit": 1,
-    "min_ts": 1380751543.741611,
+    "min_ts": 1387593669.433071,
     "returned": 1,
-    "seconds": 0.03146195411682129
+    "seconds": 0.01831817626953125
 }

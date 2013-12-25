@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730468.140592,
+    "min_ts": 1387585213.532783,
     "returned": 3,
-    "seconds": 0.014374017715454102,
+    "seconds": 0.014998197555541992,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 275
             },
             "id": 140112393,
-            "last_update": 1366730637.406628,
+            "last_update": 1387585213.863502,
             "level": 0,
             "max_targets": 0,
             "name": "Ocean's Onslaught",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730637.406628,
+            "ts": 1387585213.863502,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,62 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3277239361,
-            "deity": 0,
-            "description": "Adds additional damage to Waveform if the monk is behind or flanking their target.",
-            "description_pvp": "Adds additional damage to Waveform if the monk is behind or flanking their target.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Inflicts additional damage when Waveform triggers if the monk is behind or flanking their target.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 275
-            },
-            "id": 1949882322,
-            "last_update": 1366730633.089667,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ocean's Onslaught",
-            "name_lower": "ocean's onslaught",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730633.089667,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 275
             },
             "id": 2505446271,
-            "last_update": 1366730468.140592,
+            "last_update": 1387585213.832566,
             "level": 0,
             "max_targets": 0,
             "name": "Ocean's Onslaught",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730468.140592,
+            "ts": 1387585213.832566,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3277239361,
+            "deity": 0,
+            "description": "Adds additional damage to Waveform if the monk is behind or flanking their target.",
+            "description_pvp": "Adds additional damage to Waveform if the monk is behind or flanking their target.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts additional damage when Waveform triggers if the monk is behind or flanking their target.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 275
+            },
+            "id": 1949882322,
+            "last_update": 1387585213.532783,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ocean's Onslaught",
+            "name_lower": "ocean's onslaught",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585213.532783,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730403.190608,
+    "min_ts": 1387574110.9783,
     "returned": 2,
-    "seconds": 0.02341604232788086,
+    "seconds": 0.020648956298828125,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,6 +34,10 @@
             },
             "effect_list": [
                 {
+                    "description": "Improves the base damage of Fanatical Devotion by 25%.",
+                    "indentation": 0
+                },
+                {
                     "description": "On a healing spell cast this spell has a 15% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
                     "indentation": 0
                 },
@@ -42,10 +48,6 @@
                 {
                     "description": "Inflicts 5 - 7 divine damage on target",
                     "indentation": 2
-                },
-                {
-                    "description": "Improves the base damage of Fanatical Devotion by 25%.",
-                    "indentation": 0
                 }
             ],
             "given_by": "alternateadvancement",
@@ -55,7 +57,7 @@
                 "id": 864
             },
             "id": 3439039238,
-            "last_update": 1366730441.629429,
+            "last_update": 1387584263.025456,
             "level": 0,
             "max_targets": 0,
             "name": "Pure Fanaticism",
@@ -65,10 +67,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730441.629429,
+            "ts": 1387584263.025456,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -78,8 +80,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -121,7 +125,7 @@
                 "id": 864
             },
             "id": 3579255837,
-            "last_update": 1366730403.190608,
+            "last_update": 1387574110.9783,
             "level": 0,
             "max_targets": 0,
             "name": "Pure Fanaticism",
@@ -131,10 +135,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730403.190608,
+            "ts": 1387574110.9783,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

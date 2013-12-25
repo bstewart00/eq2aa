@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.214479,
+    "min_ts": 1387585613.968037,
     "returned": 10,
-    "seconds": 0.02029109001159668,
+    "seconds": 0.018592119216918945,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 570553587,
             "deity": 0,
-            "description": "Increases the Avenger's double attack.",
-            "description_pvp": "Increases the Avenger's double attack.",
+            "description": "Increases the Avenger's Damage Per Second.",
+            "description_pvp": "Increases the Avenger's Damage Per Second.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,223 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of caster by 7.0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 557
-            },
-            "id": 142008291,
-            "last_update": 1366730656.730211,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Avenger's Relentlessness",
-            "name_lower": "avenger's relentlessness",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730656.730211,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 570553587,
-            "deity": 0,
-            "description": "Increases the Avenger's double attack.",
-            "description_pvp": "Increases the Avenger's double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 12.3",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 557
-            },
-            "id": 3049042733,
-            "last_update": 1366730655.748405,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Avenger's Relentlessness",
-            "name_lower": "avenger's relentlessness",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730655.748405,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 570553587,
-            "deity": 0,
-            "description": "Increases the Avenger's double attack.",
-            "description_pvp": "Increases the Avenger's double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 5.3",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 557
-            },
-            "id": 1963317691,
-            "last_update": 1366730650.853927,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Avenger's Relentlessness",
-            "name_lower": "avenger's relentlessness",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730650.853927,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 570553587,
-            "deity": 0,
-            "description": "Increases the Avenger's double attack.",
-            "description_pvp": "Increases the Avenger's double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 1.8",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 557
-            },
-            "id": 358182128,
-            "last_update": 1366730650.156474,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Avenger's Relentlessness",
-            "name_lower": "avenger's relentlessness",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730650.156474,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 570553587,
-            "deity": 0,
-            "description": "Increases the Avenger's double attack.",
-            "description_pvp": "Increases the Avenger's double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 17.6",
+                    "description": "Increases Damage Per Second of caster by 17.6",
                     "indentation": 0
                 }
             ],
@@ -259,7 +45,7 @@
                 "id": 557
             },
             "id": 551104498,
-            "last_update": 1366730640.56601,
+            "last_update": 1387585614.765271,
             "level": 0,
             "max_targets": 0,
             "name": "Avenger's Relentlessness",
@@ -269,10 +55,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730640.56601,
+            "ts": 1387585614.765271,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -282,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -293,8 +81,8 @@
             },
             "crc": 570553587,
             "deity": 0,
-            "description": "Increases the Avenger's double attack.",
-            "description_pvp": "Increases the Avenger's double attack.",
+            "description": "Increases the Avenger's Damage Per Second.",
+            "description_pvp": "Increases the Avenger's Damage Per Second.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -302,169 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of caster by 14.1",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 557
-            },
-            "id": 2462869016,
-            "last_update": 1366730626.290752,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Avenger's Relentlessness",
-            "name_lower": "avenger's relentlessness",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730626.290752,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 570553587,
-            "deity": 0,
-            "description": "Increases the Avenger's double attack.",
-            "description_pvp": "Increases the Avenger's double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 10.6",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 557
-            },
-            "id": 1747610280,
-            "last_update": 1366730467.548054,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Avenger's Relentlessness",
-            "name_lower": "avenger's relentlessness",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730467.548054,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 570553587,
-            "deity": 0,
-            "description": "Increases the Avenger's double attack.",
-            "description_pvp": "Increases the Avenger's double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 3.5",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 557
-            },
-            "id": 2828206142,
-            "last_update": 1366730463.262589,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Avenger's Relentlessness",
-            "name_lower": "avenger's relentlessness",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730463.262589,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 570553587,
-            "deity": 0,
-            "description": "Increases the Avenger's double attack.",
-            "description_pvp": "Increases the Avenger's double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 15.8",
+                    "description": "Increases Damage Per Second of caster by 15.8",
                     "indentation": 0
                 }
             ],
@@ -475,7 +101,7 @@
                 "id": 557
             },
             "id": 1331347357,
-            "last_update": 1366730460.497198,
+            "last_update": 1387585614.64499,
             "level": 0,
             "max_targets": 0,
             "name": "Avenger's Relentlessness",
@@ -485,10 +111,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730460.497198,
+            "ts": 1387585614.64499,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -498,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -509,8 +137,8 @@
             },
             "crc": 570553587,
             "deity": 0,
-            "description": "Increases the Avenger's double attack.",
-            "description_pvp": "Increases the Avenger's double attack.",
+            "description": "Increases the Avenger's Damage Per Second.",
+            "description_pvp": "Increases the Avenger's Damage Per Second.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -518,7 +146,175 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of caster by 8.8",
+                    "description": "Increases Damage Per Second of caster by 14.1",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 557
+            },
+            "id": 2462869016,
+            "last_update": 1387585614.604883,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Avenger's Relentlessness",
+            "name_lower": "avenger's relentlessness",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387585614.604883,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 570553587,
+            "deity": 0,
+            "description": "Increases the Avenger's Damage Per Second.",
+            "description_pvp": "Increases the Avenger's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 12.3",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 557
+            },
+            "id": 3049042733,
+            "last_update": 1387585614.524196,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Avenger's Relentlessness",
+            "name_lower": "avenger's relentlessness",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585614.524196,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 570553587,
+            "deity": 0,
+            "description": "Increases the Avenger's Damage Per Second.",
+            "description_pvp": "Increases the Avenger's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 10.6",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 557
+            },
+            "id": 1747610280,
+            "last_update": 1387585614.382207,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Avenger's Relentlessness",
+            "name_lower": "avenger's relentlessness",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387585614.382207,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 570553587,
+            "deity": 0,
+            "description": "Increases the Avenger's Damage Per Second.",
+            "description_pvp": "Increases the Avenger's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 8.8",
                     "indentation": 0
                 }
             ],
@@ -529,7 +325,7 @@
                 "id": 557
             },
             "id": 3588228710,
-            "last_update": 1366730443.214479,
+            "last_update": 1387585614.280244,
             "level": 0,
             "max_targets": 0,
             "name": "Avenger's Relentlessness",
@@ -539,10 +335,234 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730443.214479,
+            "ts": 1387585614.280244,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 570553587,
+            "deity": 0,
+            "description": "Increases the Avenger's Damage Per Second.",
+            "description_pvp": "Increases the Avenger's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 7.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 557
+            },
+            "id": 142008291,
+            "last_update": 1387585614.199777,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Avenger's Relentlessness",
+            "name_lower": "avenger's relentlessness",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585614.199777,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 570553587,
+            "deity": 0,
+            "description": "Increases the Avenger's Damage Per Second.",
+            "description_pvp": "Increases the Avenger's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 5.3",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 557
+            },
+            "id": 1963317691,
+            "last_update": 1387585614.088892,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Avenger's Relentlessness",
+            "name_lower": "avenger's relentlessness",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585614.088892,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 570553587,
+            "deity": 0,
+            "description": "Increases the Avenger's Damage Per Second.",
+            "description_pvp": "Increases the Avenger's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 3.5",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 557
+            },
+            "id": 2828206142,
+            "last_update": 1387585614.008519,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Avenger's Relentlessness",
+            "name_lower": "avenger's relentlessness",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585614.008519,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 570553587,
+            "deity": 0,
+            "description": "Increases the Avenger's Damage Per Second.",
+            "description_pvp": "Increases the Avenger's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 1.8",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 557
+            },
+            "id": 358182128,
+            "last_update": 1387585613.968037,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Avenger's Relentlessness",
+            "name_lower": "avenger's relentlessness",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585613.968037,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730587.76919,
+    "min_ts": 1387584421.0032,
     "returned": 1,
-    "seconds": 0.014267921447753906,
+    "seconds": 0.014616966247558594,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -34,16 +36,28 @@
                 {
                     "description": "Will absorb physical damage when the amount is greater than 25% of the target's maximum health. This spell will absorb a total of 2 attacks.",
                     "indentation": 0
+                },
+                {
+                    "description": "Applies Stoneskin Reaction on termination.  Lasts for 1.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Triggers when a Stoneskin is consumed. Suspends all other stoneskins that match the damage types of this effect.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Reduces physical damage done to target by 100%",
+                    "indentation": 1
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 857
             },
             "id": 2489430921,
-            "last_update": 1366730587.76919,
+            "last_update": 1387584421.0032,
             "level": 0,
             "max_targets": 0,
             "name": "Inner Focus",
@@ -53,10 +67,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730587.76919,
+            "ts": 1387584421.0032,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

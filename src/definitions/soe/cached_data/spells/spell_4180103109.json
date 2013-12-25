@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.092512,
+    "min_ts": 1387585351.023441,
     "returned": 5,
-    "seconds": 0.01642298698425293,
+    "seconds": 0.02056097984313965,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,244 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the chance to critically strike by 2%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage by 3%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 171
-            },
-            "id": 1180880780,
-            "last_update": 1366730660.290283,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Shrieking Cry",
-            "name_lower": "shrieking cry",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730660.290283,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4180103109,
-            "deity": 0,
-            "description": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
-            "description_pvp": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the chance to critically strike by 10%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage by 15%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 171
-            },
-            "id": 1607352471,
-            "last_update": 1366730653.668837,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Shrieking Cry",
-            "name_lower": "shrieking cry",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730653.668837,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4180103109,
-            "deity": 0,
-            "description": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
-            "description_pvp": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the chance to critically strike by 6%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage by 9%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 171
-            },
-            "id": 2802584353,
-            "last_update": 1366730647.075226,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Shrieking Cry",
-            "name_lower": "shrieking cry",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730647.075226,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4180103109,
-            "deity": 0,
-            "description": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
-            "description_pvp": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the chance to critically strike by 4%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage by 6%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 171
-            },
-            "id": 973335127,
-            "last_update": 1366730644.438259,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Shrieking Cry",
-            "name_lower": "shrieking cry",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730644.438259,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4180103109,
-            "deity": 0,
-            "description": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
-            "description_pvp": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the chance to critically strike by 8%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves the damage by 12%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the chance to critically strike by 8%.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +49,7 @@
                 "id": 171
             },
             "id": 3267469793,
-            "last_update": 1366730440.092512,
+            "last_update": 1387585351.314824,
             "level": 0,
             "max_targets": 0,
             "name": "Shrieking Cry",
@@ -289,10 +59,250 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730440.092512,
+            "ts": 1387585351.314824,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4180103109,
+            "deity": 0,
+            "description": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
+            "description_pvp": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage by 15%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the chance to critically strike by 10%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 171
+            },
+            "id": 1607352471,
+            "last_update": 1387585351.305978,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Shrieking Cry",
+            "name_lower": "shrieking cry",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585351.305978,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4180103109,
+            "deity": 0,
+            "description": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
+            "description_pvp": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage by 9%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the chance to critically strike by 6%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 171
+            },
+            "id": 2802584353,
+            "last_update": 1387585351.294498,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Shrieking Cry",
+            "name_lower": "shrieking cry",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585351.294498,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4180103109,
+            "deity": 0,
+            "description": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
+            "description_pvp": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage by 6%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the chance to critically strike by 4%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 171
+            },
+            "id": 973335127,
+            "last_update": 1387585351.259495,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Shrieking Cry",
+            "name_lower": "shrieking cry",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585351.259495,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4180103109,
+            "deity": 0,
+            "description": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
+            "description_pvp": "Improves the damage done by the Perfect Shrill and Luda's Nefarious Wail line of spells.  Also grants them an additional chance to inflict critical damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage by 3%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the chance to critically strike by 2%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 171
+            },
+            "id": 1180880780,
+            "last_update": 1387585351.023441,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Shrieking Cry",
+            "name_lower": "shrieking cry",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585351.023441,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

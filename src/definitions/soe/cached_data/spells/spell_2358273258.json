@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730433.215323,
+    "min_ts": 1387584276.821921,
     "returned": 3,
-    "seconds": 0.01988697052001953,
+    "seconds": 0.02237105369567871,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 2358273258,
             "deity": 0,
-            "description": "Following the natural expiration (triggers or duration) of Vital Intercession, the target will gain increased healing received for a short duration.",
-            "description_pvp": "Following the natural expiration (triggers or duration) of Vital Intercession, the target will gain increased healing received for a short duration.",
+            "description": "Following the natural expiration (triggers or duration) of Vital Intercession, the target will gain increased healing received for a short duration. Repent will also ward for more on that target.",
+            "description_pvp": "Following the natural expiration (triggers or duration) of Vital Intercession, the target will gain increased healing received for a short duration. Repent will also ward for more on that target.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,61 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Vital Intercession will apply an effect that increases healing received by 10% when it expires naturally.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 46
-            },
-            "id": 4058126543,
-            "last_update": 1366730644.210194,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Divinity's Aid",
-            "name_lower": "divinity's aid",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730644.210194,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2358273258,
-            "deity": 0,
-            "description": "Following the natural expiration (triggers or duration) of Vital Intercession, the target will gain increased healing received for a short duration.",
-            "description_pvp": "Following the natural expiration (triggers or duration) of Vital Intercession, the target will gain increased healing received for a short duration.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Vital Intercession will apply an effect that increases healing received by 30% when it expires naturally.",
+                    "description": "Vital Intercession will apply an effect that increases healing received by 30% when it expires naturally. If Repent is cast on a target who has Divinity's Aid active, it will also ward 30% more.",
                     "indentation": 0
                 }
             ],
@@ -97,7 +45,7 @@
                 "id": 46
             },
             "id": 277666914,
-            "last_update": 1366730450.931577,
+            "last_update": 1387584276.98293,
             "level": 0,
             "max_targets": 0,
             "name": "Divinity's Aid",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730450.931577,
+            "ts": 1387584276.98293,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -131,8 +81,8 @@
             },
             "crc": 2358273258,
             "deity": 0,
-            "description": "Following the natural expiration (triggers or duration) of Vital Intercession, the target will gain increased healing received for a short duration.",
-            "description_pvp": "Following the natural expiration (triggers or duration) of Vital Intercession, the target will gain increased healing received for a short duration.",
+            "description": "Following the natural expiration (triggers or duration) of Vital Intercession, the target will gain increased healing received for a short duration. Repent will also ward for more on that target.",
+            "description_pvp": "Following the natural expiration (triggers or duration) of Vital Intercession, the target will gain increased healing received for a short duration. Repent will also ward for more on that target.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -140,7 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Vital Intercession will apply an effect that increases healing received by 20% when it expires naturally.",
+                    "description": "Vital Intercession will apply an effect that increases healing received by 20% when it expires naturally. If Repent is cast on a target who has Divinity's Aid active, it will also ward 20% more.",
                     "indentation": 0
                 }
             ],
@@ -151,7 +101,7 @@
                 "id": 46
             },
             "id": 2374188308,
-            "last_update": 1366730433.215323,
+            "last_update": 1387584276.905192,
             "level": 0,
             "max_targets": 0,
             "name": "Divinity's Aid",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730433.215323,
+            "ts": 1387584276.905192,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2358273258,
+            "deity": 0,
+            "description": "Following the natural expiration (triggers or duration) of Vital Intercession, the target will gain increased healing received for a short duration. Repent will also ward for more on that target.",
+            "description_pvp": "Following the natural expiration (triggers or duration) of Vital Intercession, the target will gain increased healing received for a short duration. Repent will also ward for more on that target.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Vital Intercession will apply an effect that increases healing received by 10% when it expires naturally. If Repent is cast on a target who has Divinity's Aid active, it will also ward 10% more.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 46
+            },
+            "id": 4058126543,
+            "last_update": 1387584276.821921,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Divinity's Aid",
+            "name_lower": "divinity's aid",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584276.821921,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

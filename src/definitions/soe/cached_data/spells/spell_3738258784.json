@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730452.098454,
+    "min_ts": 1387585620.090761,
     "returned": 5,
-    "seconds": 0.025409936904907227,
+    "seconds": 0.024452924728393555,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,70 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Reduces resistibility by 6%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases range and radius by 2",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 85
-            },
-            "id": 4006619725,
-            "last_update": 1366730645.952325,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Fusion",
-            "name_lower": "enhance: fusion",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730645.952325,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3738258784,
-            "deity": 0,
-            "description": "Increases Fusion's range and radius, and reduces its resistibility as well.",
-            "description_pvp": "Increases Fusion's range and radius, and reduces its resistibility as well.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces resistibility by 15%",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases range and radius by 5",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces resistibility by 15%",
                     "indentation": 0
                 }
             ],
@@ -105,7 +49,7 @@
                 "id": 85
             },
             "id": 2333966477,
-            "last_update": 1366730468.609565,
+            "last_update": 1387585620.367499,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Fusion",
@@ -115,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730468.609565,
+            "ts": 1387585620.367499,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -148,11 +94,71 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces resistibility by 9%",
+                    "description": "Increases range and radius by 2",
                     "indentation": 0
                 },
                 {
+                    "description": "Reduces resistibility by 6%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 85
+            },
+            "id": 4006619725,
+            "last_update": 1387585620.326262,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Fusion",
+            "name_lower": "enhance: fusion",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585620.326262,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3738258784,
+            "deity": 0,
+            "description": "Increases Fusion's range and radius, and reduces its resistibility as well.",
+            "description_pvp": "Increases Fusion's range and radius, and reduces its resistibility as well.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
                     "description": "Increases range and radius by 3",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces resistibility by 9%",
                     "indentation": 0
                 }
             ],
@@ -163,7 +169,7 @@
                 "id": 85
             },
             "id": 1944046395,
-            "last_update": 1366730467.72422,
+            "last_update": 1387585620.325918,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Fusion",
@@ -173,10 +179,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730467.72422,
+            "ts": 1387585620.325918,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,70 +213,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Reduces resistibility by 3%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases range and radius by 1",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 85
-            },
-            "id": 2461077398,
-            "last_update": 1366730454.329465,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Fusion",
-            "name_lower": "enhance: fusion",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730454.329465,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3738258784,
-            "deity": 0,
-            "description": "Increases Fusion's range and radius, and reduces its resistibility as well.",
-            "description_pvp": "Increases Fusion's range and radius, and reduces its resistibility as well.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces resistibility by 12%",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases range and radius by 4",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces resistibility by 12%",
                     "indentation": 0
                 }
             ],
@@ -279,7 +229,7 @@
                 "id": 85
             },
             "id": 370303483,
-            "last_update": 1366730452.098454,
+            "last_update": 1387585620.325749,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Fusion",
@@ -289,10 +239,70 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730452.098454,
+            "ts": 1387585620.325749,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3738258784,
+            "deity": 0,
+            "description": "Increases Fusion's range and radius, and reduces its resistibility as well.",
+            "description_pvp": "Increases Fusion's range and radius, and reduces its resistibility as well.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases range and radius by 1",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces resistibility by 3%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 85
+            },
+            "id": 2461077398,
+            "last_update": 1387585620.090761,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Fusion",
+            "name_lower": "enhance: fusion",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585620.090761,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730439.34287,
+    "min_ts": 1387584385.830761,
     "returned": 1,
-    "seconds": 0.01459503173828125,
+    "seconds": 0.06098604202270508,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 655524638,
             "deity": 0,
-            "description": "Soulclaim restores power to the group when any member of the group strikes a death blow. For a short duration after the death blow, group members will also receive increased Crit Bonus.",
-            "description_pvp": "Soulclaim restores power to the group when any member of the group strikes a death blow. For a short duration after the death blow, group members will also receive increased Crit Bonus.",
+            "description": "Soulclaim restores power to the group when any member of the raid strikes a death blow. For a short duration after the death blow, group members will also receive increased Crit Bonus.",
+            "description_pvp": "Soulclaim restores power to the group when any member of the raid strikes a death blow. For a short duration after the death blow, group members will also receive increased Crit Bonus.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 6000,
@@ -36,20 +38,20 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Crit Bonus of group members (AE) by 1.0%",
-                    "indentation": 1
-                },
-                {
-                    "description": "This effect stacks with itself",
-                    "indentation": 1
-                },
-                {
                     "description": "Increases power of group members (AE) by 6.0%",
                     "indentation": 1
                 },
                 {
                     "description": "This effect cannot be critically applied.",
                     "indentation": 2
+                },
+                {
+                    "description": "This effect stacks with itself",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases the group's Crit Bonus by 1 for every 3000 strength of the crusader",
+                    "indentation": 1
                 }
             ],
             "given_by": "alternateadvancement",
@@ -59,7 +61,7 @@
                 "id": 845
             },
             "id": 1647568453,
-            "last_update": 1366730439.34287,
+            "last_update": 1387584385.830761,
             "level": 0,
             "max_targets": 0,
             "name": "Soulclaim",
@@ -69,10 +71,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730439.34287,
+            "ts": 1387584385.830761,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

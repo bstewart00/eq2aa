@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730439.284485,
+    "min_ts": 1387584289.902364,
     "returned": 10,
-    "seconds": 0.01611804962158203,
+    "seconds": 0.01700901985168457,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +49,7 @@
                 "id": 11
             },
             "id": 402886919,
-            "last_update": 1366730645.266961,
+            "last_update": 1387584290.726828,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Rampage",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730645.266961,
+            "ts": 1387584290.726828,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,182 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 324998432,
-            "deity": 0,
-            "description": "Improves the damage of Rampage.",
-            "description_pvp": "Improves the damage of Rampage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Rampage to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Rampage by 2%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 2420752075,
-            "last_update": 1366730638.721832,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Rampage",
-            "name_lower": "enhance: rampage",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730638.721832,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 324998432,
-            "deity": 0,
-            "description": "Improves the damage of Rampage.",
-            "description_pvp": "Improves the damage of Rampage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Rampage to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Rampage by 1%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 763613701,
-            "last_update": 1366730631.930372,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Rampage",
-            "name_lower": "enhance: rampage",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730631.930372,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 324998432,
-            "deity": 0,
-            "description": "Improves the damage of Rampage.",
-            "description_pvp": "Improves the damage of Rampage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Rampage to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Rampage by 5%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3980048531,
-            "last_update": 1366730631.499921,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Rampage",
-            "name_lower": "enhance: rampage",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730631.499921,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -279,7 +109,7 @@
                 "id": 11
             },
             "id": 2004877672,
-            "last_update": 1366730623.867629,
+            "last_update": 1387584290.61786,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Rampage",
@@ -289,10 +119,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730623.867629,
+            "ts": 1387584290.61786,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -302,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -337,7 +169,7 @@
                 "id": 11
             },
             "id": 2853624045,
-            "last_update": 1366730621.014724,
+            "last_update": 1387584290.577263,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Rampage",
@@ -347,10 +179,10 @@
             "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730621.014724,
+            "ts": 1387584290.577263,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -360,66 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 324998432,
-            "deity": 0,
-            "description": "Improves the damage of Rampage.",
-            "description_pvp": "Improves the damage of Rampage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Rampage to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Rampage by 3%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 1306486606,
-            "last_update": 1366730619.937148,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Rampage",
-            "name_lower": "enhance: rampage",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730619.937148,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -453,7 +229,7 @@
                 "id": 11
             },
             "id": 2372275672,
-            "last_update": 1366730457.859661,
+            "last_update": 1387584290.421677,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Rampage",
@@ -463,10 +239,10 @@
             "spellbook": 4,
             "tier": 7,
             "tier_name": "Expert",
-            "ts": 1366730457.859661,
+            "ts": 1387584290.421677,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -476,66 +252,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 324998432,
-            "deity": 0,
-            "description": "Improves the damage of Rampage.",
-            "description_pvp": "Improves the damage of Rampage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Rampage to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Rampage by 4%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 816603414,
-            "last_update": 1366730440.324898,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Rampage",
-            "name_lower": "enhance: rampage",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730440.324898,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -569,7 +289,7 @@
                 "id": 11
             },
             "id": 1357960285,
-            "last_update": 1366730439.284485,
+            "last_update": 1387584290.341361,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Rampage",
@@ -579,10 +299,310 @@
             "spellbook": 4,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730439.284485,
+            "ts": 1387584290.341361,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 324998432,
+            "deity": 0,
+            "description": "Improves the damage of Rampage.",
+            "description_pvp": "Improves the damage of Rampage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Rampage to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage of Rampage by 5%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 3980048531,
+            "last_update": 1387584290.267644,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Rampage",
+            "name_lower": "enhance: rampage",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584290.267644,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 324998432,
+            "deity": 0,
+            "description": "Improves the damage of Rampage.",
+            "description_pvp": "Improves the damage of Rampage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Rampage to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage of Rampage by 4%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 816603414,
+            "last_update": 1387584290.181199,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Rampage",
+            "name_lower": "enhance: rampage",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584290.181199,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 324998432,
+            "deity": 0,
+            "description": "Improves the damage of Rampage.",
+            "description_pvp": "Improves the damage of Rampage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Rampage to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage of Rampage by 3%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 1306486606,
+            "last_update": 1387584290.061555,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Rampage",
+            "name_lower": "enhance: rampage",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584290.061555,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 324998432,
+            "deity": 0,
+            "description": "Improves the damage of Rampage.",
+            "description_pvp": "Improves the damage of Rampage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Rampage to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage of Rampage by 2%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 2420752075,
+            "last_update": 1387584289.989781,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Rampage",
+            "name_lower": "enhance: rampage",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584289.989781,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 324998432,
+            "deity": 0,
+            "description": "Improves the damage of Rampage.",
+            "description_pvp": "Improves the damage of Rampage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Rampage to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage of Rampage by 1%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 763613701,
+            "last_update": 1387584289.902364,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Rampage",
+            "name_lower": "enhance: rampage",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584289.902364,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

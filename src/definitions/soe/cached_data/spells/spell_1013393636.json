@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730445.279838,
+    "min_ts": 1387584614.6929,
     "returned": 5,
-    "seconds": 0.017531156539916992,
+    "seconds": 0.02691507339477539,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,69 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the hit points granted by 10%.",
-                    "indentation": 0
-                },
-                {
                     "description": "Adds a small Block Chance component to Essence of the Great Bear.",
                     "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 203
-            },
-            "id": 1737656976,
-            "last_update": 1366730648.956212,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Vitality of the Great Bear",
-            "name_lower": "vitality of the great bear",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730648.956212,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1013393636,
-            "deity": 0,
-            "description": "Increases the health granted by Essence of the Great Bear and adds a block chance component.",
-            "description_pvp": "Increases the health granted by Essence of the Great Bear and adds a block chance component.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the hit points granted by 50%.",
-                    "indentation": 0
                 },
                 {
-                    "description": "Adds a small Block Chance component to Essence of the Great Bear.",
+                    "description": "Improves the stamina granted by 50%.",
                     "indentation": 0
                 }
             ],
@@ -105,7 +49,7 @@
                 "id": 203
             },
             "id": 2117993867,
-            "last_update": 1366730462.205948,
+            "last_update": 1387584614.973478,
             "level": 0,
             "max_targets": 0,
             "name": "Vitality of the Great Bear",
@@ -115,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730462.205948,
+            "ts": 1387584614.973478,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -148,127 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the hit points granted by 20%.",
-                    "indentation": 0
-                },
-                {
                     "description": "Adds a small Block Chance component to Essence of the Great Bear.",
                     "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 203
-            },
-            "id": 468954955,
-            "last_update": 1366730457.534728,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Vitality of the Great Bear",
-            "name_lower": "vitality of the great bear",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730457.534728,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1013393636,
-            "deity": 0,
-            "description": "Increases the health granted by Essence of the Great Bear and adds a block chance component.",
-            "description_pvp": "Increases the health granted by Essence of the Great Bear and adds a block chance component.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the hit points granted by 30%.",
-                    "indentation": 0
                 },
                 {
-                    "description": "Adds a small Block Chance component to Essence of the Great Bear.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 203
-            },
-            "id": 2264682045,
-            "last_update": 1366730456.429584,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Vitality of the Great Bear",
-            "name_lower": "vitality of the great bear",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730456.429584,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1013393636,
-            "deity": 0,
-            "description": "Increases the health granted by Essence of the Great Bear and adds a block chance component.",
-            "description_pvp": "Increases the health granted by Essence of the Great Bear and adds a block chance component.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the hit points granted by 40%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds a small Block Chance component to Essence of the Great Bear.",
+                    "description": "Improves the stamina granted by 40%.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +109,7 @@
                 "id": 203
             },
             "id": 3811697917,
-            "last_update": 1366730445.279838,
+            "last_update": 1387584614.876972,
             "level": 0,
             "max_targets": 0,
             "name": "Vitality of the Great Bear",
@@ -289,10 +119,190 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730445.279838,
+            "ts": 1387584614.876972,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1013393636,
+            "deity": 0,
+            "description": "Increases the health granted by Essence of the Great Bear and adds a block chance component.",
+            "description_pvp": "Increases the health granted by Essence of the Great Bear and adds a block chance component.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Adds a small Block Chance component to Essence of the Great Bear.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the stamina granted by 30%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 203
+            },
+            "id": 2264682045,
+            "last_update": 1387584614.795897,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Vitality of the Great Bear",
+            "name_lower": "vitality of the great bear",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584614.795897,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1013393636,
+            "deity": 0,
+            "description": "Increases the health granted by Essence of the Great Bear and adds a block chance component.",
+            "description_pvp": "Increases the health granted by Essence of the Great Bear and adds a block chance component.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Adds a small Block Chance component to Essence of the Great Bear.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the stamina granted by 20%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 203
+            },
+            "id": 468954955,
+            "last_update": 1387584614.716515,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Vitality of the Great Bear",
+            "name_lower": "vitality of the great bear",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584614.716515,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1013393636,
+            "deity": 0,
+            "description": "Increases the health granted by Essence of the Great Bear and adds a block chance component.",
+            "description_pvp": "Increases the health granted by Essence of the Great Bear and adds a block chance component.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Adds a small Block Chance component to Essence of the Great Bear.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the stamina granted by 10%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 203
+            },
+            "id": 1737656976,
+            "last_update": 1387584614.6929,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Vitality of the Great Bear",
+            "name_lower": "vitality of the great bear",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584614.6929,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

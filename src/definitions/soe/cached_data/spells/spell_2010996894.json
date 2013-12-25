@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730630.5767,
+    "min_ts": 1387584799.081458,
     "returned": 1,
-    "seconds": 0.014189958572387695,
+    "seconds": 0.01527094841003418,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,19 +34,19 @@
             },
             "effect_list": [
                 {
+                    "description": "Inflicts 3 - 5 melee damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 3 - 5 melee damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 3 - 5 melee damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
                     "description": "Increases Mitigation of targets in Area of Effect vs physical damage by 0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 5 melee damage on targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 5 melee damage on targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 5 melee damage on targets in Area of Effect",
                     "indentation": 0
                 }
             ],
@@ -55,7 +57,7 @@
                 "id": 383
             },
             "id": 897015030,
-            "last_update": 1366730630.5767,
+            "last_update": 1387584799.081458,
             "level": 0,
             "max_targets": 8,
             "name": "Spinning Flurry",
@@ -65,10 +67,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730630.5767,
+            "ts": 1387584799.081458,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

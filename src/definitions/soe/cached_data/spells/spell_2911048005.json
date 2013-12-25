@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730641.494522,
+    "min_ts": 1387585341.819087,
     "returned": 1,
-    "seconds": 0.014325141906738281,
+    "seconds": 0.016935110092163086,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the base and critical damage of hostile spells by 10%",
+                    "description": "Reduces heal amounts by 25%",
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces heal amounts by 25%",
+                    "description": "Improves the base and critical damage of hostile spells by 10%",
                     "indentation": 0
                 },
                 {
@@ -51,7 +53,7 @@
                 "id": 886
             },
             "id": 2822101300,
-            "last_update": 1366730641.494522,
+            "last_update": 1387585341.819087,
             "level": 0,
             "max_targets": 0,
             "name": "Master of Storms",
@@ -61,10 +63,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730641.494522,
+            "ts": 1387585341.819087,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

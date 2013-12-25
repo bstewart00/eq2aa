@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730444.836907,
+    "min_ts": 1387584620.68952,
     "returned": 5,
-    "seconds": 0.015876054763793945,
+    "seconds": 0.020885944366455078,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2287031076,
-            "deity": 0,
-            "description": "Improves the damage and critical damage of Spinechiller Blood.",
-            "description_pvp": "Improves the damage and critical damage of Spinechiller Blood.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the damage and critical damage by 5%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 227
-            },
-            "id": 1335835935,
-            "last_update": 1366730642.34749,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Spinechilling Agony",
-            "name_lower": "spinechilling agony",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730642.34749,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2287031076,
-            "deity": 0,
-            "description": "Improves the damage and critical damage of Spinechiller Blood.",
-            "description_pvp": "Improves the damage and critical damage of Spinechiller Blood.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the damage and critical damage by 20%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 227
-            },
-            "id": 3409728370,
-            "last_update": 1366730642.014547,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Spinechilling Agony",
-            "name_lower": "spinechilling agony",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730642.014547,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 227
             },
             "id": 1446228484,
-            "last_update": 1366730640.312754,
+            "last_update": 1387584620.916437,
             "level": 0,
             "max_targets": 0,
             "name": "Spinechilling Agony",
@@ -161,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730640.312754,
+            "ts": 1387584620.916437,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +68,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2287031076,
+            "deity": 0,
+            "description": "Improves the damage and critical damage of Spinechiller Blood.",
+            "description_pvp": "Improves the damage and critical damage of Spinechiller Blood.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage and critical damage by 20%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 227
+            },
+            "id": 3409728370,
+            "last_update": 1387584620.891482,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Spinechilling Agony",
+            "name_lower": "spinechilling agony",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584620.891482,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,7 +157,7 @@
                 "id": 227
             },
             "id": 2935093682,
-            "last_update": 1366730630.713114,
+            "last_update": 1387584620.797033,
             "level": 0,
             "max_targets": 0,
             "name": "Spinechilling Agony",
@@ -215,10 +167,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730630.713114,
+            "ts": 1387584620.797033,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +213,7 @@
                 "id": 227
             },
             "id": 872290500,
-            "last_update": 1366730444.836907,
+            "last_update": 1387584620.713415,
             "level": 0,
             "max_targets": 0,
             "name": "Spinechilling Agony",
@@ -269,10 +223,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730444.836907,
+            "ts": 1387584620.713415,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2287031076,
+            "deity": 0,
+            "description": "Improves the damage and critical damage of Spinechiller Blood.",
+            "description_pvp": "Improves the damage and critical damage of Spinechiller Blood.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage and critical damage by 5%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 227
+            },
+            "id": 1335835935,
+            "last_update": 1387584620.68952,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Spinechilling Agony",
+            "name_lower": "spinechilling agony",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584620.68952,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

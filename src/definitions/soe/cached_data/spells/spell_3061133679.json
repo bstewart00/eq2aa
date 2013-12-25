@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730435.57736,
+    "min_ts": 1387584365.885345,
     "returned": 5,
-    "seconds": 0.01758599281311035,
+    "seconds": 0.01743912696838379,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +49,7 @@
                 "id": 303
             },
             "id": 339389625,
-            "last_update": 1366730641.840144,
+            "last_update": 1387584366.158465,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Sprint",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730641.840144,
+            "ts": 1387584366.158465,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -105,7 +109,7 @@
                 "id": 303
             },
             "id": 2301971919,
-            "last_update": 1366730637.241158,
+            "last_update": 1387584366.068588,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Sprint",
@@ -115,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730637.241158,
+            "ts": 1387584366.068588,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,124 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3061133679,
-            "deity": 0,
-            "description": "This ability increases the movement speed and reduces the initial power cost of Sprint.",
-            "description_pvp": "This ability increases the movement speed and reduces the initial power cost of Sprint.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases sprint movement speed by 5%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces initial power cost by 10%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 303
-            },
-            "id": 227943330,
-            "last_update": 1366730592.786491,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Sprint",
-            "name_lower": "enhance: sprint",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730592.786491,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3061133679,
-            "deity": 0,
-            "description": "This ability increases the movement speed and reduces the initial power cost of Sprint.",
-            "description_pvp": "This ability increases the movement speed and reduces the initial power cost of Sprint.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases sprint movement speed by 10%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces initial power cost by 20%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 303
-            },
-            "id": 1912014457,
-            "last_update": 1366730444.392375,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Sprint",
-            "name_lower": "enhance: sprint",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730444.392375,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -279,7 +169,7 @@
                 "id": 303
             },
             "id": 3975735055,
-            "last_update": 1366730435.57736,
+            "last_update": 1387584365.99817,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Sprint",
@@ -289,10 +179,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730435.57736,
+            "ts": 1387584365.99817,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3061133679,
+            "deity": 0,
+            "description": "This ability increases the movement speed and reduces the initial power cost of Sprint.",
+            "description_pvp": "This ability increases the movement speed and reduces the initial power cost of Sprint.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases sprint movement speed by 10%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces initial power cost by 20%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 303
+            },
+            "id": 1912014457,
+            "last_update": 1387584365.965931,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Sprint",
+            "name_lower": "enhance: sprint",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584365.965931,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3061133679,
+            "deity": 0,
+            "description": "This ability increases the movement speed and reduces the initial power cost of Sprint.",
+            "description_pvp": "This ability increases the movement speed and reduces the initial power cost of Sprint.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases sprint movement speed by 5%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces initial power cost by 10%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 303
+            },
+            "id": 227943330,
+            "last_update": 1387584365.885345,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Sprint",
+            "name_lower": "enhance: sprint",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584365.885345,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

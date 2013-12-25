@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730455.201082,
+    "min_ts": 1387584351.836459,
     "returned": 1,
-    "seconds": 0.014245986938476562,
+    "seconds": 0.014490842819213867,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Ability Recovery Speed of caster by 50.0%",
+                    "description": "Increases radius of all abilities by 5 meters",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases radius of all abilities by 5 meters",
+                    "description": "Increases Ability Recovery Speed of caster by 50.0%",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 126
             },
             "id": 2025190192,
-            "last_update": 1366730455.201082,
+            "last_update": 1387584351.836459,
             "level": 0,
             "max_targets": 0,
             "name": "Feral Reach",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730455.201082,
+            "ts": 1387584351.836459,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

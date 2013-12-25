@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.725505,
+    "min_ts": 1387584564.454686,
     "returned": 5,
-    "seconds": 0.018194913864135742,
+    "seconds": 0.016448974609375,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,128 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves casting speed by 2.4 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases health and power by an additional 8%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 205
-            },
-            "id": 4119483454,
-            "last_update": 1366730632.444845,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Elegy of Awakening",
-            "name_lower": "enhance: elegy of awakening",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730632.444845,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 950637742,
-            "deity": 0,
-            "description": "Improves the casting speed and restoration amount of Elegy of Awakening.",
-            "description_pvp": "Improves the casting speed and restoration amount of Elegy of Awakening.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves casting speed by 0.6 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases health and power by an additional 2%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 205
-            },
-            "id": 3903186733,
-            "last_update": 1366730585.919458,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Elegy of Awakening",
-            "name_lower": "enhance: elegy of awakening",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730585.919458,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 950637742,
-            "deity": 0,
-            "description": "Improves the casting speed and restoration amount of Elegy of Awakening.",
-            "description_pvp": "Improves the casting speed and restoration amount of Elegy of Awakening.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves casting speed by 3 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases health and power by an additional 10%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves casting speed by 3 seconds",
                     "indentation": 0
                 }
             ],
@@ -163,7 +49,7 @@
                 "id": 205
             },
             "id": 672959931,
-            "last_update": 1366730451.483458,
+            "last_update": 1387584564.734889,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Elegy of Awakening",
@@ -173,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730451.483458,
+            "ts": 1387584564.734889,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves casting speed by 1.2 seconds",
+                    "description": "Increases health and power by an additional 8%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases health and power by an additional 4%",
+                    "description": "Improves casting speed by 2.4 seconds",
                     "indentation": 0
                 }
             ],
@@ -220,8 +108,8 @@
                 "icon_heroic_op": -1,
                 "id": 205
             },
-            "id": 1433373667,
-            "last_update": 1366730442.140055,
+            "id": 4119483454,
+            "last_update": 1387584564.678876,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Elegy of Awakening",
@@ -229,12 +117,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730442.140055,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584564.678876,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves casting speed by 1.8 seconds",
+                    "description": "Increases health and power by an additional 6%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases health and power by an additional 6%",
+                    "description": "Improves casting speed by 1.8 seconds",
                     "indentation": 0
                 }
             ],
@@ -279,7 +169,7 @@
                 "id": 205
             },
             "id": 2298040934,
-            "last_update": 1366730440.725505,
+            "last_update": 1387584564.600091,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Elegy of Awakening",
@@ -289,10 +179,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730440.725505,
+            "ts": 1387584564.600091,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 950637742,
+            "deity": 0,
+            "description": "Improves the casting speed and restoration amount of Elegy of Awakening.",
+            "description_pvp": "Improves the casting speed and restoration amount of Elegy of Awakening.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases health and power by an additional 4%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves casting speed by 1.2 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 205
+            },
+            "id": 1433373667,
+            "last_update": 1387584564.521331,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Elegy of Awakening",
+            "name_lower": "enhance: elegy of awakening",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584564.521331,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 950637742,
+            "deity": 0,
+            "description": "Improves the casting speed and restoration amount of Elegy of Awakening.",
+            "description_pvp": "Improves the casting speed and restoration amount of Elegy of Awakening.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases health and power by an additional 2%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves casting speed by 0.6 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 205
+            },
+            "id": 3903186733,
+            "last_update": 1387584564.454686,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Elegy of Awakening",
+            "name_lower": "enhance: elegy of awakening",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584564.454686,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

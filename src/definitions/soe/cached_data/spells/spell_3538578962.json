@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730606.23263,
+    "min_ts": 1387585654.086755,
     "returned": 1,
-    "seconds": 0.014204025268554688,
+    "seconds": 0.016813039779663086,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,18 +34,30 @@
             },
             "effect_list": [
                 {
+                    "description": "Applies Stoneskin Reaction.  Lasts for 1.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Triggers when a Stoneskin is consumed. Suspends all other stoneskins that match the damage types of this effect.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Reduces physical damage done to target by 100%",
+                    "indentation": 1
+                },
+                {
                     "description": "Will absorb physical damage when the amount is greater than 30% of the target's maximum health. This spell will absorb a total of 2 attacks.",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 840
             },
             "id": 2801590649,
-            "last_update": 1366730606.23263,
+            "last_update": 1387585654.086755,
             "level": 0,
             "max_targets": 0,
             "name": "Wall of Force",
@@ -53,10 +67,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730606.23263,
+            "ts": 1387585654.086755,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

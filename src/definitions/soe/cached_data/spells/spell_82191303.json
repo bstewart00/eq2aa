@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730444.81707,
+    "min_ts": 1387585159.527267,
     "returned": 5,
-    "seconds": 0.01613306999206543,
+    "seconds": 0.015031099319458008,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,128 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves reuse speed by 12 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the threat reduction by 12%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 370
-            },
-            "id": 3442252221,
-            "last_update": 1366730641.827032,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Shadow Slip",
-            "name_lower": "enhance: shadow slip",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730641.827032,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 82191303,
-            "deity": 0,
-            "description": "Improves the threat reduction and reuse speed of Shadow Slip.",
-            "description_pvp": "Improves the threat reduction and reuse speed of Shadow Slip.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 4 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the threat reduction by 4%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 370
-            },
-            "id": 555157282,
-            "last_update": 1366730631.986919,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Shadow Slip",
-            "name_lower": "enhance: shadow slip",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730631.986919,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 82191303,
-            "deity": 0,
-            "description": "Improves the threat reduction and reuse speed of Shadow Slip.",
-            "description_pvp": "Improves the threat reduction and reuse speed of Shadow Slip.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 20 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves the threat reduction by 20%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 20 seconds",
                     "indentation": 0
                 }
             ],
@@ -163,7 +49,7 @@
                 "id": 370
             },
             "id": 571554909,
-            "last_update": 1366730465.281362,
+            "last_update": 1387585159.844876,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Shadow Slip",
@@ -173,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730465.281362,
+            "ts": 1387585159.844876,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,70 +93,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves reuse speed by 8 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the threat reduction by 8%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 370
-            },
-            "id": 1451873746,
-            "last_update": 1366730450.949317,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Shadow Slip",
-            "name_lower": "enhance: shadow slip",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730450.949317,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 82191303,
-            "deity": 0,
-            "description": "Improves the threat reduction and reuse speed of Shadow Slip.",
-            "description_pvp": "Improves the threat reduction and reuse speed of Shadow Slip.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 16 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves the threat reduction by 16%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 16 seconds",
                     "indentation": 0
                 }
             ],
@@ -279,7 +109,7 @@
                 "id": 370
             },
             "id": 3115610162,
-            "last_update": 1366730444.81707,
+            "last_update": 1387585159.764108,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Shadow Slip",
@@ -289,10 +119,190 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730444.81707,
+            "ts": 1387585159.764108,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 82191303,
+            "deity": 0,
+            "description": "Improves the threat reduction and reuse speed of Shadow Slip.",
+            "description_pvp": "Improves the threat reduction and reuse speed of Shadow Slip.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the threat reduction by 12%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 12 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 370
+            },
+            "id": 3442252221,
+            "last_update": 1387585159.715425,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Shadow Slip",
+            "name_lower": "enhance: shadow slip",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585159.715425,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 82191303,
+            "deity": 0,
+            "description": "Improves the threat reduction and reuse speed of Shadow Slip.",
+            "description_pvp": "Improves the threat reduction and reuse speed of Shadow Slip.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the threat reduction by 8%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 8 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 370
+            },
+            "id": 1451873746,
+            "last_update": 1387585159.605974,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Shadow Slip",
+            "name_lower": "enhance: shadow slip",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585159.605974,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 82191303,
+            "deity": 0,
+            "description": "Improves the threat reduction and reuse speed of Shadow Slip.",
+            "description_pvp": "Improves the threat reduction and reuse speed of Shadow Slip.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the threat reduction by 4%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 4 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 370
+            },
+            "id": 555157282,
+            "last_update": 1387585159.527267,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Shadow Slip",
+            "name_lower": "enhance: shadow slip",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585159.527267,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

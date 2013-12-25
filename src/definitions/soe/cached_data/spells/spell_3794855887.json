@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730640.692433,
+    "min_ts": 1387585143.652615,
     "returned": 1,
-    "seconds": 0.014159917831420898,
+    "seconds": 0.015733003616333008,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,16 +34,16 @@
             },
             "effect_list": [
                 {
+                    "description": "Shapechanges group members (AE) into a stag",
+                    "indentation": 0
+                },
+                {
                     "description": "On a combat hit this spell will cast Stampede on target of attack.  ",
                     "indentation": 0
                 },
                 {
                     "description": "Inflicts 23 - 28 crushing damage on target",
                     "indentation": 1
-                },
-                {
-                    "description": "Shapechanges group members (AE) into a stag",
-                    "indentation": 0
                 }
             ],
             "given_by": "alternateadvancement",
@@ -51,7 +53,7 @@
                 "id": 830
             },
             "id": 91591702,
-            "last_update": 1366730640.692433,
+            "last_update": 1387585143.652615,
             "level": 0,
             "max_targets": 0,
             "name": "Stampede of the Herd",
@@ -61,10 +63,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730640.692433,
+            "ts": 1387585143.652615,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

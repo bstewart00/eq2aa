@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730433.182757,
+    "min_ts": 1387584521.049041,
     "returned": 3,
-    "seconds": 0.015845060348510742,
+    "seconds": 0.019528865814208984,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,11 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases Deflection, Parry and Defense of target encounter by 0.9",
+                    "description": "Inflicts 3 - 5 crushing damage on target encounter",
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 3 - 5 crushing damage on target encounter",
+                    "description": "Decreases Deflection, Parry and Defense of target encounter by 0.9",
                     "indentation": 1
                 },
                 {
@@ -55,7 +57,7 @@
                 "id": 213
             },
             "id": 1095434065,
-            "last_update": 1366730640.241906,
+            "last_update": 1387584521.488005,
             "level": 0,
             "max_targets": 0,
             "name": "Pulverize",
@@ -65,10 +67,10 @@
             "spellbook": 1,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730640.241906,
+            "ts": 1387584521.488005,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -78,74 +80,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3687976533,
-            "deity": 0,
-            "description": "Applies an incremental damage over time effect when the bruiser uses combat arts. While active, Pulverize lowers the target's avoidance skills. This ability can increment up to 5 times.",
-            "description_pvp": "Applies an incremental damage over time effect when the bruiser uses combat arts. While active, Pulverize lowers the target's avoidance skills. This ability can increment up to 5 times.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "When a combat art is used this spell has a 10% chance to cast Pulverize on target of combat art.  Lasts for 16.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Deflection, Parry and Defense of target encounter by 0.9",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 3 - 5 crushing damage on target encounter",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 1 crushing damage on target encounter every 4 seconds",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 213
-            },
-            "id": 2686729212,
-            "last_update": 1366730637.624302,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Pulverize",
-            "name_lower": "pulverize",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730637.624302,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -168,11 +106,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases Deflection, Parry and Defense of target encounter by 0.9",
+                    "description": "Inflicts 3 - 5 crushing damage on target encounter",
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 3 - 5 crushing damage on target encounter",
+                    "description": "Decreases Deflection, Parry and Defense of target encounter by 0.9",
                     "indentation": 1
                 },
                 {
@@ -187,7 +125,7 @@
                 "id": 213
             },
             "id": 3695517223,
-            "last_update": 1366730433.182757,
+            "last_update": 1387584521.23497,
             "level": 0,
             "max_targets": 0,
             "name": "Pulverize",
@@ -197,10 +135,78 @@
             "spellbook": 1,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730433.182757,
+            "ts": 1387584521.23497,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3687976533,
+            "deity": 0,
+            "description": "Applies an incremental damage over time effect when the bruiser uses combat arts. While active, Pulverize lowers the target's avoidance skills. This ability can increment up to 5 times.",
+            "description_pvp": "Applies an incremental damage over time effect when the bruiser uses combat arts. While active, Pulverize lowers the target's avoidance skills. This ability can increment up to 5 times.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "When a combat art is used this spell has a 10% chance to cast Pulverize on target of combat art.  Lasts for 16.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 3 - 5 crushing damage on target encounter",
+                    "indentation": 1
+                },
+                {
+                    "description": "Decreases Deflection, Parry and Defense of target encounter by 0.9",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 1 crushing damage on target encounter every 4 seconds",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 213
+            },
+            "id": 2686729212,
+            "last_update": 1387584521.049041,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Pulverize",
+            "name_lower": "pulverize",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584521.049041,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

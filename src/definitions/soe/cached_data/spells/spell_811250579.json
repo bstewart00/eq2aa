@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730629.470061,
+    "min_ts": 1387584956.166968,
     "returned": 3,
-    "seconds": 0.014356851577758789,
+    "seconds": 0.06822395324707031,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 811250579,
-            "deity": 0,
-            "description": "Improves the trigger chance of Glory and its upgrades.",
-            "description_pvp": "Improves the trigger chance of Glory and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases trigger chance by 2%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 307
-            },
-            "id": 1448364996,
-            "last_update": 1366730636.371165,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Glory",
-            "name_lower": "enhance: glory",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730636.371165,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 307
             },
             "id": 2344784449,
-            "last_update": 1366730630.759272,
+            "last_update": 1387584956.303401,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Glory",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730630.759272,
+            "ts": 1387584956.303401,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 811250579,
+            "deity": 0,
+            "description": "Improves the trigger chance of Glory and its upgrades.",
+            "description_pvp": "Improves the trigger chance of Glory and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases trigger chance by 2%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 307
+            },
+            "id": 1448364996,
+            "last_update": 1387584956.238855,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Glory",
+            "name_lower": "enhance: glory",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584956.238855,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +157,7 @@
                 "id": 307
             },
             "id": 3953010442,
-            "last_update": 1366730629.470061,
+            "last_update": 1387584956.166968,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Glory",
@@ -161,10 +167,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730629.470061,
+            "ts": 1387584956.166968,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

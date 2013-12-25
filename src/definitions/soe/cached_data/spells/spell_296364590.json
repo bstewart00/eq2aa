@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730461.044035,
+    "min_ts": 1387584612.871857,
     "returned": 1,
-    "seconds": 0.014700174331665039,
+    "seconds": 0.014999151229858398,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 296364590,
             "deity": 0,
-            "description": "Illusory Arm increases a single ally's chance of double attacking with all of their melee and ranged attacks.",
-            "description_pvp": "Illusory Arm increases a single ally's chance of double attacking with all of their melee and ranged attacks.",
+            "description": "Illusory Arm increases a single ally's Damage Per Second.",
+            "description_pvp": "Illusory Arm increases a single ally's Damage Per Second.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 9000,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of target by 25.0",
+                    "description": "Increases Damage Per Second of target by 25.0",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 2
             },
             "id": 2352161703,
-            "last_update": 1366730461.044035,
+            "last_update": 1387584612.871857,
             "level": 0,
             "max_targets": 0,
             "name": "Illusory Arm",
@@ -53,10 +55,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730461.044035,
+            "ts": 1387584612.871857,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

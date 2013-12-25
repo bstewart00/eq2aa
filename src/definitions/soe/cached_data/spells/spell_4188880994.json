@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730452.686162,
+    "min_ts": 1387584540.243289,
     "returned": 1,
-    "seconds": 0.020283222198486328,
+    "seconds": 0.015377998352050781,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -27,8 +29,8 @@
             "description_pvp": "Sacrifices the Defiler's current health to 10% of their maximum health. The amount of health sacrificed is converted into a ward on target ally. Soul Ward can only be cast while in combat.",
             "duration": {
                 "does_not_expire": 0,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
+                "max_sec_tenths": 80,
+                "min_sec_tenths": 80
             },
             "effect_list": [
                 {
@@ -51,7 +53,7 @@
                 "id": 198
             },
             "id": 3509035584,
-            "last_update": 1366730452.686162,
+            "last_update": 1387584540.243289,
             "level": 0,
             "max_targets": 0,
             "name": "Soul Ward",
@@ -61,10 +63,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730452.686162,
+            "ts": 1387584540.243289,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

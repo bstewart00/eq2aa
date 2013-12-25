@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730464.882941,
+    "min_ts": 1387584981.486419,
     "returned": 1,
-    "seconds": 0.014105081558227539,
+    "seconds": 0.016302108764648438,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,6 +34,18 @@
             },
             "effect_list": [
                 {
+                    "description": "Applies Stoneskin Reaction.  Lasts for 1.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Triggers when a Stoneskin is consumed. Suspends all other stoneskins that match the damage types of this effect.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Reduces all damage done to target by 100%",
+                    "indentation": 1
+                },
+                {
                     "description": "Will absorb all damage when the amount is greater than 10% of the target's maximum health. This spell will absorb a total of 1 attack.",
                     "indentation": 0
                 }
@@ -43,7 +57,7 @@
                 "id": 563
             },
             "id": 732415407,
-            "last_update": 1366730464.882941,
+            "last_update": 1387584981.486419,
             "level": 0,
             "max_targets": 0,
             "name": "Soak Hit",
@@ -53,10 +67,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730464.882941,
+            "ts": 1387584981.486419,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

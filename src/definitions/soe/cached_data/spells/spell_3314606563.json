@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.445601,
+    "min_ts": 1387585671.285818,
     "returned": 10,
-    "seconds": 0.01958918571472168,
+    "seconds": 0.016520977020263672,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +49,7 @@
                 "id": 11
             },
             "id": 338560234,
-            "last_update": 1366730657.06938,
+            "last_update": 1387585672.239499,
             "level": 0,
             "max_targets": 0,
             "name": "Empowered Strikes",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730657.06938,
+            "ts": 1387585672.239499,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,414 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3314606563,
-            "deity": 0,
-            "description": "Improves the combat art damage inflicted by the warder.",
-            "description_pvp": "Improves the combat art damage inflicted by the warder.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Empowered Strikes to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the damage of Combat Arts by 6%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 461054248,
-            "last_update": 1366730648.971104,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Empowered Strikes",
-            "name_lower": "empowered strikes",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730648.971104,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3314606563,
-            "deity": 0,
-            "description": "Improves the combat art damage inflicted by the warder.",
-            "description_pvp": "Improves the combat art damage inflicted by the warder.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Empowered Strikes to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the damage of Combat Arts by 8%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 2125892584,
-            "last_update": 1366730638.117276,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Empowered Strikes",
-            "name_lower": "empowered strikes",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730638.117276,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3314606563,
-            "deity": 0,
-            "description": "Improves the combat art damage inflicted by the warder.",
-            "description_pvp": "Improves the combat art damage inflicted by the warder.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Empowered Strikes to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the damage of Combat Arts by 10%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3820579486,
-            "last_update": 1366730623.860754,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Empowered Strikes",
-            "name_lower": "empowered strikes",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730623.860754,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3314606563,
-            "deity": 0,
-            "description": "Improves the combat art damage inflicted by the warder.",
-            "description_pvp": "Improves the combat art damage inflicted by the warder.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Empowered Strikes to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the damage of Combat Arts by 16%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 1413683909,
-            "last_update": 1366730468.248624,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Empowered Strikes",
-            "name_lower": "empowered strikes",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730468.248624,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3314606563,
-            "deity": 0,
-            "description": "Improves the combat art damage inflicted by the warder.",
-            "description_pvp": "Improves the combat art damage inflicted by the warder.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Empowered Strikes to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the damage of Combat Arts by 2%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 4195739013,
-            "last_update": 1366730466.217911,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Empowered Strikes",
-            "name_lower": "empowered strikes",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730466.217911,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3314606563,
-            "deity": 0,
-            "description": "Improves the combat art damage inflicted by the warder.",
-            "description_pvp": "Improves the combat art damage inflicted by the warder.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Empowered Strikes to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the damage of Combat Arts by 14%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 47689267,
-            "last_update": 1366730460.626361,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Empowered Strikes",
-            "name_lower": "empowered strikes",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730460.626361,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3314606563,
-            "deity": 0,
-            "description": "Improves the combat art damage inflicted by the warder.",
-            "description_pvp": "Improves the combat art damage inflicted by the warder.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Empowered Strikes to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the damage of Combat Arts by 12%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 2681753413,
-            "last_update": 1366730454.913123,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Empowered Strikes",
-            "name_lower": "empowered strikes",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730454.913123,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -511,7 +109,7 @@
                 "id": 11
             },
             "id": 3377265587,
-            "last_update": 1366730452.609776,
+            "last_update": 1387585672.048716,
             "level": 0,
             "max_targets": 0,
             "name": "Empowered Strikes",
@@ -521,10 +119,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730452.609776,
+            "ts": 1387585672.048716,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -534,8 +132,370 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3314606563,
+            "deity": 0,
+            "description": "Improves the combat art damage inflicted by the warder.",
+            "description_pvp": "Improves the combat art damage inflicted by the warder.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Empowered Strikes to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the damage of Combat Arts by 16%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 1413683909,
+            "last_update": 1387585672.011196,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Empowered Strikes",
+            "name_lower": "empowered strikes",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387585672.011196,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3314606563,
+            "deity": 0,
+            "description": "Improves the combat art damage inflicted by the warder.",
+            "description_pvp": "Improves the combat art damage inflicted by the warder.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Empowered Strikes to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the damage of Combat Arts by 14%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 47689267,
+            "last_update": 1387585671.846878,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Empowered Strikes",
+            "name_lower": "empowered strikes",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585671.846878,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3314606563,
+            "deity": 0,
+            "description": "Improves the combat art damage inflicted by the warder.",
+            "description_pvp": "Improves the combat art damage inflicted by the warder.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Empowered Strikes to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the damage of Combat Arts by 12%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 2681753413,
+            "last_update": 1387585671.809721,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Empowered Strikes",
+            "name_lower": "empowered strikes",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387585671.809721,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3314606563,
+            "deity": 0,
+            "description": "Improves the combat art damage inflicted by the warder.",
+            "description_pvp": "Improves the combat art damage inflicted by the warder.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Empowered Strikes to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the damage of Combat Arts by 10%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 3820579486,
+            "last_update": 1387585671.729593,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Empowered Strikes",
+            "name_lower": "empowered strikes",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585671.729593,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3314606563,
+            "deity": 0,
+            "description": "Improves the combat art damage inflicted by the warder.",
+            "description_pvp": "Improves the combat art damage inflicted by the warder.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Empowered Strikes to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the damage of Combat Arts by 8%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 2125892584,
+            "last_update": 1387585671.611251,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Empowered Strikes",
+            "name_lower": "empowered strikes",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585671.611251,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3314606563,
+            "deity": 0,
+            "description": "Improves the combat art damage inflicted by the warder.",
+            "description_pvp": "Improves the combat art damage inflicted by the warder.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Empowered Strikes to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the damage of Combat Arts by 6%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 461054248,
+            "last_update": 1387585671.565728,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Empowered Strikes",
+            "name_lower": "empowered strikes",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585671.565728,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -569,7 +529,7 @@
                 "id": 11
             },
             "id": 2255798366,
-            "last_update": 1366730443.445601,
+            "last_update": 1387585671.449299,
             "level": 0,
             "max_targets": 0,
             "name": "Empowered Strikes",
@@ -579,10 +539,70 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730443.445601,
+            "ts": 1387585671.449299,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3314606563,
+            "deity": 0,
+            "description": "Improves the combat art damage inflicted by the warder.",
+            "description_pvp": "Improves the combat art damage inflicted by the warder.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Empowered Strikes to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the damage of Combat Arts by 2%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 4195739013,
+            "last_update": 1387585671.285818,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Empowered Strikes",
+            "name_lower": "empowered strikes",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585671.285818,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

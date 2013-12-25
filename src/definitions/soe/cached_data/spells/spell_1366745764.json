@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730625.700808,
+    "min_ts": 1387584604.264338,
     "returned": 1,
-    "seconds": 0.014616966247558594,
+    "seconds": 0.014341115951538086,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -40,11 +42,11 @@
                     "indentation": 1
                 },
                 {
-                    "description": "This effect can only trigger after a ranged and a melee combat art have been used in the previous 5 seconds.",
+                    "description": "Inflicts 82 - 246 poison damage on target",
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 82 - 246 poison damage on target",
+                    "description": "This effect can only trigger after a ranged and a melee combat art have been used in the previous 5 seconds.",
                     "indentation": 1
                 }
             ],
@@ -55,7 +57,7 @@
                 "id": 904
             },
             "id": 3526604494,
-            "last_update": 1366730625.700808,
+            "last_update": 1387584604.264338,
             "level": 0,
             "max_targets": 0,
             "name": "Fatal Combination",
@@ -65,10 +67,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730625.700808,
+            "ts": 1387584604.264338,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

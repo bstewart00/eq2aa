@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.917452,
+    "min_ts": 1387585348.4229,
     "returned": 3,
-    "seconds": 0.014706850051879883,
+    "seconds": 0.014833927154541016,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,61 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the Stamina Bonus of Caster by 68.0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 43
-            },
-            "id": 590745295,
-            "last_update": 1366730643.537643,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Stalwart Conviction",
-            "name_lower": "stalwart conviction",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730643.537643,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3326336540,
-            "deity": 0,
-            "description": "Passively increases the amount of health gained from stamina.",
-            "description_pvp": "Passively increases the amount of health gained from stamina.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the Stamina Bonus of Caster by 102.0",
+                    "description": "Increases the Stamina Bonus of Caster by 300.0",
                     "indentation": 0
                 }
             ],
@@ -97,7 +45,7 @@
                 "id": 43
             },
             "id": 3191467961,
-            "last_update": 1366730441.223476,
+            "last_update": 1387585348.537435,
             "level": 0,
             "max_targets": 0,
             "name": "Stalwart Conviction",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730441.223476,
+            "ts": 1387585348.537435,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -140,7 +90,63 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the Stamina Bonus of Caster by 34.0",
+                    "description": "Increases the Stamina Bonus of Caster by 200.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 43
+            },
+            "id": 590745295,
+            "last_update": 1387585348.42328,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Stalwart Conviction",
+            "name_lower": "stalwart conviction",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585348.42328,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3326336540,
+            "deity": 0,
+            "description": "Passively increases the amount of health gained from stamina.",
+            "description_pvp": "Passively increases the amount of health gained from stamina.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the Stamina Bonus of Caster by 100.0",
                     "indentation": 0
                 }
             ],
@@ -151,7 +157,7 @@
                 "id": 43
             },
             "id": 1599548180,
-            "last_update": 1366730440.917452,
+            "last_update": 1387585348.4229,
             "level": 0,
             "max_targets": 0,
             "name": "Stalwart Conviction",
@@ -161,10 +167,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730440.917452,
+            "ts": 1387585348.4229,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

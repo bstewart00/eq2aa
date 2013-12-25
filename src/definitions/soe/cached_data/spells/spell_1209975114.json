@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730634.393096,
+    "min_ts": 1387584516.477222,
     "returned": 1,
-    "seconds": 0.014545917510986328,
+    "seconds": 0.016728878021240234,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,6 +34,10 @@
             },
             "effect_list": [
                 {
+                    "description": "Inflicts 7 - 12 melee damage on target",
+                    "indentation": 0
+                },
+                {
                     "description": "Increases threat priority of target by 4 positions",
                     "indentation": 0
                 },
@@ -44,20 +50,16 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Stuns target",
+                    "description": "Blurs vision of target",
                     "indentation": 1
                 },
                 {
-                    "description": "Blurs vision of target",
+                    "description": "Stuns target",
                     "indentation": 1
                 },
                 {
                     "description": "Does not affect Epic targets",
                     "indentation": 1
-                },
-                {
-                    "description": "Inflicts 7 - 12 melee damage on target",
-                    "indentation": 0
                 }
             ],
             "given_by": "alternateadvancement",
@@ -67,7 +69,7 @@
                 "id": 861
             },
             "id": 3272157750,
-            "last_update": 1366730634.393096,
+            "last_update": 1387584516.477222,
             "level": 0,
             "max_targets": 0,
             "name": "Staggering Blow",
@@ -77,10 +79,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730634.393096,
+            "ts": 1387584516.477222,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

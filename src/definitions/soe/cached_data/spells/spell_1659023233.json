@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730588.486713,
+    "min_ts": 1387585462.828943,
     "returned": 1,
-    "seconds": 0.014115095138549805,
+    "seconds": 0.014605998992919922,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases resistibility by 15%",
+                    "description": "Reduces trigger percentage by 40% of their original value",
                     "indentation": 0
                 },
                 {
@@ -44,7 +46,7 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Reduces trigger percentage by 40% of their original value",
+                    "description": "Increases resistibility by 15%",
                     "indentation": 0
                 },
                 {
@@ -56,14 +58,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 315,
                 "icon_heroic_op": -1,
                 "id": 244
             },
             "id": 2996157762,
-            "last_update": 1366730588.486713,
+            "last_update": 1387585462.828943,
             "level": 0,
             "max_targets": 0,
             "name": "Hexation",
@@ -73,10 +75,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730588.486713,
+            "ts": 1387585462.828943,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

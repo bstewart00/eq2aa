@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730436.347507,
+    "min_ts": 1387584865.741797,
     "returned": 5,
-    "seconds": 0.019359111785888672,
+    "seconds": 0.016108989715576172,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1561247931,
             "deity": 0,
-            "description": "Increases the hit points maximum of Premonition and its higher level upgrades.",
-            "description_pvp": "Increases the hit points maximum of Premonition and its higher level upgrades.",
+            "description": "Increases the stamina of Premonition and its higher level upgrades.",
+            "description_pvp": "Increases the stamina of Premonition and its higher level upgrades.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,115 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases maximum hit points by 10%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 245
-            },
-            "id": 3853033705,
-            "last_update": 1366730636.709755,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Premonition",
-            "name_lower": "enhance: premonition",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730636.709755,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1561247931,
-            "deity": 0,
-            "description": "Increases the hit points maximum of Premonition and its higher level upgrades.",
-            "description_pvp": "Increases the hit points maximum of Premonition and its higher level upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases maximum hit points by 20%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 245
-            },
-            "id": 493546335,
-            "last_update": 1366730623.219288,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Premonition",
-            "name_lower": "enhance: premonition",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730623.219288,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1561247931,
-            "deity": 0,
-            "description": "Increases the hit points maximum of Premonition and its higher level upgrades.",
-            "description_pvp": "Increases the hit points maximum of Premonition and its higher level upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases maximum hit points by 25%",
+                    "description": "Increases stamina by 25%",
                     "indentation": 0
                 }
             ],
@@ -151,7 +45,7 @@
                 "id": 245
             },
             "id": 2154105385,
-            "last_update": 1366730621.088316,
+            "last_update": 1387584865.999001,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Premonition",
@@ -161,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730621.088316,
+            "ts": 1387584865.999001,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -185,8 +81,8 @@
             },
             "crc": 1561247931,
             "deity": 0,
-            "description": "Increases the hit points maximum of Premonition and its higher level upgrades.",
-            "description_pvp": "Increases the hit points maximum of Premonition and its higher level upgrades.",
+            "description": "Increases the stamina of Premonition and its higher level upgrades.",
+            "description_pvp": "Increases the stamina of Premonition and its higher level upgrades.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -194,7 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases maximum hit points by 5%",
+                    "description": "Increases stamina by 20%",
                     "indentation": 0
                 }
             ],
@@ -204,8 +100,8 @@
                 "icon_heroic_op": -1,
                 "id": 245
             },
-            "id": 2580120882,
-            "last_update": 1366730443.91555,
+            "id": 493546335,
+            "last_update": 1387584865.918234,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Premonition",
@@ -213,12 +109,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730443.91555,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584865.918234,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -239,8 +137,8 @@
             },
             "crc": 1561247931,
             "deity": 0,
-            "description": "Increases the hit points maximum of Premonition and its higher level upgrades.",
-            "description_pvp": "Increases the hit points maximum of Premonition and its higher level upgrades.",
+            "description": "Increases the stamina of Premonition and its higher level upgrades.",
+            "description_pvp": "Increases the stamina of Premonition and its higher level upgrades.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -248,7 +146,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases maximum hit points by 15%",
+                    "description": "Increases stamina by 15%",
                     "indentation": 0
                 }
             ],
@@ -259,7 +157,7 @@
                 "id": 245
             },
             "id": 2024227231,
-            "last_update": 1366730436.347507,
+            "last_update": 1387584865.838346,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Premonition",
@@ -269,10 +167,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730436.347507,
+            "ts": 1387584865.838346,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1561247931,
+            "deity": 0,
+            "description": "Increases the stamina of Premonition and its higher level upgrades.",
+            "description_pvp": "Increases the stamina of Premonition and its higher level upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases stamina by 10%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 245
+            },
+            "id": 3853033705,
+            "last_update": 1387584865.79959,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Premonition",
+            "name_lower": "enhance: premonition",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584865.79959,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1561247931,
+            "deity": 0,
+            "description": "Increases the stamina of Premonition and its higher level upgrades.",
+            "description_pvp": "Increases the stamina of Premonition and its higher level upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases stamina by 5%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 245
+            },
+            "id": 2580120882,
+            "last_update": 1387584865.741797,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Premonition",
+            "name_lower": "enhance: premonition",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584865.741797,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

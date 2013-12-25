@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730452.046728,
+    "min_ts": 1387585596.36977,
     "returned": 1,
-    "seconds": 0.019526004791259766,
+    "seconds": 0.017781972885131836,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,19 +34,19 @@
             },
             "effect_list": [
                 {
-                    "description": "No ammo will be consumed",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases damage of your next stealth attacks by 32%",
-                    "indentation": 0
-                },
-                {
                     "description": "Prevents the ranger from being interrupted and allows them to execute abilities while moving",
                     "indentation": 0
                 },
                 {
                     "description": "The ranger can use stealth strikes when not in stealth.",
+                    "indentation": 0
+                },
+                {
+                    "description": "No ammo will be consumed",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases damage of your next stealth attacks by 32%",
                     "indentation": 0
                 }
             ],
@@ -55,7 +57,7 @@
                 "id": 189
             },
             "id": 2206128291,
-            "last_update": 1366730452.046728,
+            "last_update": 1387585596.36977,
             "level": 0,
             "max_targets": 0,
             "name": "Wreak Havoc",
@@ -65,10 +67,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730452.046728,
+            "ts": 1387585596.36977,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

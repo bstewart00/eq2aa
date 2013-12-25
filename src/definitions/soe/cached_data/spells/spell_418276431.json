@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730595.821955,
+    "min_ts": 1387584311.311522,
     "returned": 1,
-    "seconds": 0.018271923065185547,
+    "seconds": 0.014729976654052734,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 418276431,
             "deity": 0,
-            "description": "Enchanted Vigor increases the target's potency and multi-attack by a portion of the Enchanter's intelligence while doubling the power costs of the target's abilities.",
-            "description_pvp": "Enchanted Vigor increases the target's potency and multi-attack by a portion of the Enchanter's intelligence while doubling the power costs of the target's abilities.",
+            "description": "Enchanted Vigor increases the target's potency and Damage Per Second by a portion of the Enchanter's intelligence while doubling the power costs of the target's abilities.",
+            "description_pvp": "Enchanted Vigor increases the target's potency and Damage Per Second by a portion of the Enchanter's intelligence while doubling the power costs of the target's abilities.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 240,
@@ -32,26 +34,26 @@
             },
             "effect_list": [
                 {
+                    "description": "Increases Potency and Damage per Second by 0.75% of the Enchanter's intelligence.",
+                    "indentation": 0
+                },
+                {
                     "description": "Increases the power cost of all abilities by 100%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Potency and Multi-Attack by 0.75% of the Enchanter's intelligence.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Your target cannot have Enchanted Vigor active from another enchanter.",
+                    "description": "Your target cannot have Vigor or Enchanted Vigor already active.",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 917
             },
             "id": 2901195376,
-            "last_update": 1366730595.821955,
+            "last_update": 1387584311.311522,
             "level": 0,
             "max_targets": 0,
             "name": "Enchanted Vigor",
@@ -61,10 +63,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730595.821955,
+            "ts": 1387584311.311522,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

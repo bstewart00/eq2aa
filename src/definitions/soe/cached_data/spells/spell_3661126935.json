@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730637.036609,
+    "min_ts": 1387585588.520634,
     "returned": 5,
-    "seconds": 0.025887012481689453,
+    "seconds": 0.021277904510498047,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,186 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the reuse speed by 2 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves threat reduction by 4%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 270
-            },
-            "id": 1859479651,
-            "last_update": 1366730653.955178,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Concussive",
-            "name_lower": "enhance: concussive",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730653.955178,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3661126935,
-            "deity": 0,
-            "description": "Hastens the reuse speed of Concussive.",
-            "description_pvp": "Hastens the reuse speed of Concussive.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the reuse speed by 3 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves threat reduction by 6%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 270
-            },
-            "id": 4091185429,
-            "last_update": 1366730648.398103,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Concussive",
-            "name_lower": "enhance: concussive",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730648.398103,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3661126935,
-            "deity": 0,
-            "description": "Hastens the reuse speed of Concussive.",
-            "description_pvp": "Hastens the reuse speed of Concussive.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the reuse speed by 4 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves threat reduction by 8%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 270
-            },
-            "id": 2518098901,
-            "last_update": 1366730642.131643,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Concussive",
-            "name_lower": "enhance: concussive",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730642.131643,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3661126935,
-            "deity": 0,
-            "description": "Hastens the reuse speed of Concussive.",
-            "description_pvp": "Hastens the reuse speed of Concussive.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the reuse speed by 5 seconds.",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves threat reduction by 10%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the reuse speed by 5 seconds.",
                     "indentation": 0
                 }
             ],
@@ -221,7 +49,7 @@
                 "id": 270
             },
             "id": 186172067,
-            "last_update": 1366730637.623887,
+            "last_update": 1387585588.800329,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Concussive",
@@ -231,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730637.623887,
+            "ts": 1387585588.800329,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +94,191 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the reuse speed by 1 seconds.",
+                    "description": "Improves threat reduction by 8%.",
                     "indentation": 0
                 },
                 {
+                    "description": "Improves the reuse speed by 4 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 270
+            },
+            "id": 2518098901,
+            "last_update": 1387585588.720077,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Concussive",
+            "name_lower": "enhance: concussive",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585588.720077,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3661126935,
+            "deity": 0,
+            "description": "Hastens the reuse speed of Concussive.",
+            "description_pvp": "Hastens the reuse speed of Concussive.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves threat reduction by 6%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the reuse speed by 3 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 270
+            },
+            "id": 4091185429,
+            "last_update": 1387585588.641256,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Concussive",
+            "name_lower": "enhance: concussive",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585588.641256,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3661126935,
+            "deity": 0,
+            "description": "Hastens the reuse speed of Concussive.",
+            "description_pvp": "Hastens the reuse speed of Concussive.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves threat reduction by 4%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the reuse speed by 2 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 270
+            },
+            "id": 1859479651,
+            "last_update": 1387585588.59962,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Concussive",
+            "name_lower": "enhance: concussive",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585588.59962,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3661126935,
+            "deity": 0,
+            "description": "Hastens the reuse speed of Concussive.",
+            "description_pvp": "Hastens the reuse speed of Concussive.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
                     "description": "Improves threat reduction by 2%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the reuse speed by 1 seconds.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +289,7 @@
                 "id": 270
             },
             "id": 313806264,
-            "last_update": 1366730637.036609,
+            "last_update": 1387585588.520634,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Concussive",
@@ -289,10 +299,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730637.036609,
+            "ts": 1387585588.520634,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

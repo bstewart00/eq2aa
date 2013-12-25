@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730571.508093,
+    "min_ts": 1387584412.358505,
     "returned": 5,
-    "seconds": 0.01981377601623535,
+    "seconds": 0.022625207901000977,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,62 +25,8 @@
             },
             "crc": 3806040660,
             "deity": 0,
-            "description": "Adds an additional effect to Inquisition so that when the target radiates heals they will be more powerful.",
-            "description_pvp": "Adds an additional effect to Inquisition so that when the target radiates heals they will be more powerful.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the heal amount of Inquisition by 16%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 56
-            },
-            "id": 975958368,
-            "last_update": 1366730637.719482,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Devoted Following",
-            "name_lower": "devoted following",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730637.719482,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3806040660,
-            "deity": 0,
-            "description": "Adds an additional effect to Inquisition so that when the target radiates heals they will be more powerful.",
-            "description_pvp": "Adds an additional effect to Inquisition so that when the target radiates heals they will be more powerful.",
+            "description": "Increases the amount of healing done by Inquisition.",
+            "description_pvp": "Increases the amount of healing done by Inquisition.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -97,7 +45,7 @@
                 "id": 56
             },
             "id": 2804158486,
-            "last_update": 1366730632.081036,
+            "last_update": 1387584412.587551,
             "level": 0,
             "max_targets": 0,
             "name": "Devoted Following",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730632.081036,
+            "ts": 1387584412.587551,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -131,8 +81,64 @@
             },
             "crc": 3806040660,
             "deity": 0,
-            "description": "Adds an additional effect to Inquisition so that when the target radiates heals they will be more powerful.",
-            "description_pvp": "Adds an additional effect to Inquisition so that when the target radiates heals they will be more powerful.",
+            "description": "Increases the amount of healing done by Inquisition.",
+            "description_pvp": "Increases the amount of healing done by Inquisition.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the heal amount of Inquisition by 16%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 56
+            },
+            "id": 975958368,
+            "last_update": 1387584412.548193,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Devoted Following",
+            "name_lower": "devoted following",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584412.548193,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3806040660,
+            "deity": 0,
+            "description": "Increases the amount of healing done by Inquisition.",
+            "description_pvp": "Increases the amount of healing done by Inquisition.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -151,7 +157,7 @@
                 "id": 56
             },
             "id": 1608932256,
-            "last_update": 1366730620.287245,
+            "last_update": 1387584412.478673,
             "level": 0,
             "max_targets": 0,
             "name": "Devoted Following",
@@ -161,10 +167,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730620.287245,
+            "ts": 1387584412.478673,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -185,8 +193,8 @@
             },
             "crc": 3806040660,
             "deity": 0,
-            "description": "Adds an additional effect to Inquisition so that when the target radiates heals they will be more powerful.",
-            "description_pvp": "Adds an additional effect to Inquisition so that when the target radiates heals they will be more powerful.",
+            "description": "Increases the amount of healing done by Inquisition.",
+            "description_pvp": "Increases the amount of healing done by Inquisition.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -205,7 +213,7 @@
                 "id": 56
             },
             "id": 3270097622,
-            "last_update": 1366730616.928065,
+            "last_update": 1387584412.401036,
             "level": 0,
             "max_targets": 0,
             "name": "Devoted Following",
@@ -215,10 +223,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730616.928065,
+            "ts": 1387584412.401036,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +236,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -239,8 +249,8 @@
             },
             "crc": 3806040660,
             "deity": 0,
-            "description": "Adds an additional effect to Inquisition so that when the target radiates heals they will be more powerful.",
-            "description_pvp": "Adds an additional effect to Inquisition so that when the target radiates heals they will be more powerful.",
+            "description": "Increases the amount of healing done by Inquisition.",
+            "description_pvp": "Increases the amount of healing done by Inquisition.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -252,14 +262,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 56
             },
             "id": 3196624653,
-            "last_update": 1366730571.508093,
+            "last_update": 1387584412.358505,
             "level": 0,
             "max_targets": 0,
             "name": "Devoted Following",
@@ -269,10 +279,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730571.508093,
+            "ts": 1387584412.358505,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

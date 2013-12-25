@@ -1,19 +1,21 @@
 {
     "limit": 10,
-    "min_ts": 1366730429.621287,
+    "min_ts": 1387584212.740252,
     "returned": 1,
-    "seconds": 0.01423788070678711,
+    "seconds": 0.0186920166015625,
     "spell_list": [
         {
             "alternate_advancement": 1,
-            "aoe_radius_meters": 5.0,
+            "aoe_radius_meters": 0.0,
             "beneficial": 1,
             "cast_secs_hundredths": 161,
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -27,8 +29,8 @@
             "description_pvp": "As long as your primary pet is standing near you, it gains non-direct area effect avoidance.",
             "duration": {
                 "does_not_expire": 1,
-                "max_sec_tenths": 36000,
-                "min_sec_tenths": 36000
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
             },
             "effect_list": [
                 {
@@ -43,20 +45,20 @@
                 "id": 239
             },
             "id": 3591612943,
-            "last_update": 1366730429.621287,
+            "last_update": 1387584212.740252,
             "level": 0,
             "max_targets": 0,
             "name": "Bubble",
             "name_lower": "bubble",
             "recast_secs": 4.940711,
             "recovery_secs_tenths": 50,
-            "spellbook": 0,
+            "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730429.621287,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
+            "ts": 1387584212.740252,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

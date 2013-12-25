@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730452.329772,
+    "min_ts": 1387584864.758141,
     "returned": 3,
-    "seconds": 0.01848912239074707,
+    "seconds": 0.015234947204589844,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -38,66 +40,12 @@
             ],
             "given_by": "alternateadvancement",
             "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 472
-            },
-            "id": 2054751409,
-            "last_update": 1366730642.005225,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Perfected Inquest",
-            "name_lower": "perfected inquest",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730642.005225,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 163357636,
-            "deity": 0,
-            "description": "Inquest will grant additional power to the group.",
-            "description_pvp": "Inquest will grant additional power to the group.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Inquest gains a second trigger that restores power to the group. This cannot trigger if the target of Inquest is an inquisitor.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
+                "backdrop": 314,
                 "icon_heroic_op": -1,
                 "id": 472
             },
             "id": 438678010,
-            "last_update": 1366730456.073514,
+            "last_update": 1387584864.877592,
             "level": 0,
             "max_targets": 0,
             "name": "Perfected Inquest",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730456.073514,
+            "ts": 1387584864.877592,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -146,12 +96,12 @@
             ],
             "given_by": "alternateadvancement",
             "icon": {
-                "backdrop": 316,
+                "backdrop": 314,
                 "icon_heroic_op": -1,
                 "id": 472
             },
             "id": 3350423679,
-            "last_update": 1366730452.329772,
+            "last_update": 1387584864.820535,
             "level": 0,
             "max_targets": 0,
             "name": "Perfected Inquest",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730452.329772,
+            "ts": 1387584864.820535,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 163357636,
+            "deity": 0,
+            "description": "Inquest will grant additional power to the group.",
+            "description_pvp": "Inquest will grant additional power to the group.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Inquest gains a second trigger that restores power to the group. This cannot trigger if the target of Inquest is an inquisitor.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 472
+            },
+            "id": 2054751409,
+            "last_update": 1387584864.758141,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Perfected Inquest",
+            "name_lower": "perfected inquest",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584864.758141,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

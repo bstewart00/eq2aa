@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730136.469696,
+    "min_ts": 1387584426.829698,
     "returned": 10,
-    "seconds": 0.02210402488708496,
+    "seconds": 0.01731109619140625,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,11 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Adds an effect that increases accuracy by 20%.",
+                    "description": "Makes the caster immune to stun, stifle, root and daze effects.",
                     "indentation": 0
                 },
                 {
-                    "description": "Makes the caster immune to stun, stifle, root and daze effects.",
+                    "description": "Adds an effect that increases accuracy by 20%.",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 924
             },
             "id": 1602628950,
-            "last_update": 1366730630.589752,
+            "last_update": 1387584427.606423,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Experienced Insight",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730630.589752,
+            "ts": 1387584427.606423,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -74,414 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 383136652,
-            "deity": 0,
-            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases threat amount by 35%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds an effect that increases accuracy by 14%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 924
-            },
-            "id": 3403919753,
-            "last_update": 1366730630.418281,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Experienced Insight",
-            "name_lower": "enhance: experienced insight",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730630.418281,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 383136652,
-            "deity": 0,
-            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases threat amount by 40%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds an effect that increases accuracy by 16%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 924
-            },
-            "id": 3985859772,
-            "last_update": 1366730624.540898,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Experienced Insight",
-            "name_lower": "enhance: experienced insight",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730624.540898,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 383136652,
-            "deity": 0,
-            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases threat amount by 20%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds an effect that increases accuracy by 8%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 924
-            },
-            "id": 1999232327,
-            "last_update": 1366730622.272558,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Experienced Insight",
-            "name_lower": "enhance: experienced insight",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730622.272558,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 383136652,
-            "deity": 0,
-            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases threat amount by 5%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds an effect that increases accuracy by 2%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 924
-            },
-            "id": 1778806356,
-            "last_update": 1366730619.946221,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Experienced Insight",
-            "name_lower": "enhance: experienced insight",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730619.946221,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 383136652,
-            "deity": 0,
-            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases threat amount by 10%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds an effect that increases accuracy by 4%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 924
-            },
-            "id": 3620471450,
-            "last_update": 1366730616.798157,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Experienced Insight",
-            "name_lower": "enhance: experienced insight",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730616.798157,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 383136652,
-            "deity": 0,
-            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases threat amount by 25%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds an effect that increases accuracy by 10%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 924
-            },
-            "id": 2864645314,
-            "last_update": 1366730460.098663,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Experienced Insight",
-            "name_lower": "enhance: experienced insight",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730460.098663,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 383136652,
-            "deity": 0,
-            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Increases threat amount by 15%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds an effect that increases accuracy by 6%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 924
-            },
-            "id": 173726495,
-            "last_update": 1366730457.426357,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Experienced Insight",
-            "name_lower": "enhance: experienced insight",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730457.426357,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -515,7 +113,7 @@
                 "id": 924
             },
             "id": 805682489,
-            "last_update": 1366730433.337383,
+            "last_update": 1387584427.472775,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Experienced Insight",
@@ -525,10 +123,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730433.337383,
+            "ts": 1387584427.472775,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -538,8 +136,130 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 383136652,
+            "deity": 0,
+            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases threat amount by 40%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an effect that increases accuracy by 16%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 924
+            },
+            "id": 3985859772,
+            "last_update": 1387584427.392962,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Experienced Insight",
+            "name_lower": "enhance: experienced insight",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584427.392962,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 383136652,
+            "deity": 0,
+            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases threat amount by 35%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an effect that increases accuracy by 14%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 924
+            },
+            "id": 3403919753,
+            "last_update": 1387584427.324353,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Experienced Insight",
+            "name_lower": "enhance: experienced insight",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584427.324353,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -573,7 +293,7 @@
                 "id": 924
             },
             "id": 393570316,
-            "last_update": 1366730136.469696,
+            "last_update": 1387584427.231396,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Experienced Insight",
@@ -583,10 +303,310 @@
             "spellbook": 4,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730136.469696,
+            "ts": 1387584427.231396,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 383136652,
+            "deity": 0,
+            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases threat amount by 25%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an effect that increases accuracy by 10%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 924
+            },
+            "id": 2864645314,
+            "last_update": 1387584427.160823,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Experienced Insight",
+            "name_lower": "enhance: experienced insight",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584427.160823,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 383136652,
+            "deity": 0,
+            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases threat amount by 20%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an effect that increases accuracy by 8%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 924
+            },
+            "id": 1999232327,
+            "last_update": 1387584427.070636,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Experienced Insight",
+            "name_lower": "enhance: experienced insight",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584427.070636,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 383136652,
+            "deity": 0,
+            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases threat amount by 15%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an effect that increases accuracy by 6%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 924
+            },
+            "id": 173726495,
+            "last_update": 1387584427.001899,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Experienced Insight",
+            "name_lower": "enhance: experienced insight",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584427.001899,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 383136652,
+            "deity": 0,
+            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases threat amount by 10%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an effect that increases accuracy by 4%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 924
+            },
+            "id": 3620471450,
+            "last_update": 1387584426.909354,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Experienced Insight",
+            "name_lower": "enhance: experienced insight",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584426.909354,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 383136652,
+            "deity": 0,
+            "description": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "description_pvp": "Increases the threat amount and adds additional accuracy to Experienced Insight. The final rank will grant the warrior immunity to stun, stifle, root and daze.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Increases threat amount by 5%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an effect that increases accuracy by 2%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 924
+            },
+            "id": 1778806356,
+            "last_update": 1387584426.829698,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Experienced Insight",
+            "name_lower": "enhance: experienced insight",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584426.829698,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

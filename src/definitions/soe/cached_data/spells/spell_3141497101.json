@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730632.738248,
+    "min_ts": 1387585053.140857,
     "returned": 1,
-    "seconds": 0.013866901397705078,
+    "seconds": 0.11930298805236816,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 3141497101,
             "deity": 0,
-            "description": "The templar gains additional Crit Bonus from Potency.",
-            "description_pvp": "The templar gains additional Crit Bonus from Potency.",
+            "description": "The templar gains additional Potency based on their current Potency.",
+            "description_pvp": "The templar gains additional Potency based on their current Potency.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "For every 12 points of Potency, the caster gains 1% Crit Bonus.",
+                    "description": "For every 12 points of Potency, the caster gains an additional 1% Potency.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 897
             },
             "id": 2298619561,
-            "last_update": 1366730632.738248,
+            "last_update": 1387585053.140857,
             "level": 0,
             "max_targets": 0,
             "name": "Potent Protector",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730632.738248,
+            "ts": 1387585053.140857,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

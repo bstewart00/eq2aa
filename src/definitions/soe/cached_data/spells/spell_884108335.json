@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.743617,
+    "min_ts": 1387585597.84077,
     "returned": 3,
-    "seconds": 0.014709949493408203,
+    "seconds": 0.019114017486572266,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 154
             },
             "id": 606242401,
-            "last_update": 1366730650.83341,
+            "last_update": 1387585597.960007,
             "level": 0,
             "max_targets": 0,
             "name": "Barrier of Divinity",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730650.83341,
+            "ts": 1387585597.960007,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,62 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 884108335,
-            "deity": 0,
-            "description": "Divinity's Aid will ward the target.",
-            "description_pvp": "Divinity's Aid will ward the target.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Divinity's Aid will ward the target for a small amount of damage.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 154
-            },
-            "id": 1149121322,
-            "last_update": 1366730463.305555,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Barrier of Divinity",
-            "name_lower": "barrier of divinity",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730463.305555,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 154
             },
             "id": 4189347812,
-            "last_update": 1366730440.743617,
+            "last_update": 1387585597.879842,
             "level": 0,
             "max_targets": 0,
             "name": "Barrier of Divinity",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730440.743617,
+            "ts": 1387585597.879842,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 884108335,
+            "deity": 0,
+            "description": "Divinity's Aid will ward the target.",
+            "description_pvp": "Divinity's Aid will ward the target.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Divinity's Aid will ward the target for a small amount of damage.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 154
+            },
+            "id": 1149121322,
+            "last_update": 1387585597.84077,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Barrier of Divinity",
+            "name_lower": "barrier of divinity",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585597.84077,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

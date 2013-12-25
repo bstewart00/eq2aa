@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730432.045875,
+    "min_ts": 1387584304.027258,
     "returned": 10,
-    "seconds": 0.02828502655029297,
+    "seconds": 0.018903017044067383,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,372 @@
             },
             "crc": 1820937063,
             "deity": 0,
-            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
+            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage of Thunderclap by 60%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an additional trigger to Thunderclap if the target is within 25 meters.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an additional strike to Thunderclap if the target is within 15 meters.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 878
+            },
+            "id": 3771663473,
+            "last_update": 1387584304.659638,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Thunderclap",
+            "name_lower": "enhance: thunderclap",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 10,
+            "tier_name": "Grandmaster",
+            "ts": 1387584304.659638,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1820937063,
+            "deity": 0,
+            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage of Thunderclap by 54%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an additional trigger to Thunderclap if the target is within 25 meters.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 878
+            },
+            "id": 1034812200,
+            "last_update": 1387584304.587349,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Thunderclap",
+            "name_lower": "enhance: thunderclap",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 9,
+            "tier_name": "Master",
+            "ts": 1387584304.587349,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1820937063,
+            "deity": 0,
+            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage of Thunderclap by 48%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an additional trigger to Thunderclap if the target is within 25 meters.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 878
+            },
+            "id": 2694978142,
+            "last_update": 1387584304.539418,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Thunderclap",
+            "name_lower": "enhance: thunderclap",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584304.539418,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1820937063,
+            "deity": 0,
+            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage of Thunderclap by 42%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an additional trigger to Thunderclap if the target is within 25 meters.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 878
+            },
+            "id": 4130778792,
+            "last_update": 1387584304.460343,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Thunderclap",
+            "name_lower": "enhance: thunderclap",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584304.460343,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1820937063,
+            "deity": 0,
+            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage of Thunderclap by 36%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an additional trigger to Thunderclap if the target is within 25 meters.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 878
+            },
+            "id": 1798918110,
+            "last_update": 1387584304.387796,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Thunderclap",
+            "name_lower": "enhance: thunderclap",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584304.387796,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1820937063,
+            "deity": 0,
+            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage of Thunderclap by 30%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds an additional trigger to Thunderclap if the target is within 25 meters.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 878
+            },
+            "id": 391670277,
+            "last_update": 1387584304.328882,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Thunderclap",
+            "name_lower": "enhance: thunderclap",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584304.328882,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1820937063,
+            "deity": 0,
+            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 6000,
@@ -43,7 +409,7 @@
                 "id": 878
             },
             "id": 2320993139,
-            "last_update": 1366730642.951546,
+            "last_update": 1387584304.219248,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Thunderclap",
@@ -53,10 +419,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730642.951546,
+            "ts": 1387584304.219248,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,8 +432,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -77,8 +445,8 @@
             },
             "crc": 1820937063,
             "deity": 0,
-            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
+            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 6000,
@@ -97,7 +465,7 @@
                 "id": 878
             },
             "id": 4019855795,
-            "last_update": 1366730632.638864,
+            "last_update": 1387584304.139027,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Thunderclap",
@@ -107,10 +475,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730632.638864,
+            "ts": 1387584304.139027,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +488,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -131,302 +501,8 @@
             },
             "crc": 1820937063,
             "deity": 0,
-            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Adds an additional trigger to Thunderclap if the target is within 20 meters.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Thunderclap by 54%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 878
-            },
-            "id": 1034812200,
-            "last_update": 1366730619.793318,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Thunderclap",
-            "name_lower": "enhance: thunderclap",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 9,
-            "tier_name": "Master",
-            "ts": 1366730619.793318,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1820937063,
-            "deity": 0,
-            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Adds an additional trigger to Thunderclap if the target is within 20 meters.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Thunderclap by 36%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 878
-            },
-            "id": 1798918110,
-            "last_update": 1366730460.512698,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Thunderclap",
-            "name_lower": "enhance: thunderclap",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730460.512698,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1820937063,
-            "deity": 0,
-            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Adds an additional trigger to Thunderclap if the target is within 20 meters.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Thunderclap by 42%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 878
-            },
-            "id": 4130778792,
-            "last_update": 1366730457.71368,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Thunderclap",
-            "name_lower": "enhance: thunderclap",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730457.71368,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1820937063,
-            "deity": 0,
-            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Adds an additional trigger to Thunderclap if the target is within 20 meters.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Thunderclap by 48%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 878
-            },
-            "id": 2694978142,
-            "last_update": 1366730451.675397,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Thunderclap",
-            "name_lower": "enhance: thunderclap",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730451.675397,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1820937063,
-            "deity": 0,
-            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Adds an additional trigger to Thunderclap if the target is within 20 meters.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds an additional strike to Thunderclap if the target is within 10 meters.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Thunderclap by 60%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 878
-            },
-            "id": 3771663473,
-            "last_update": 1366730444.812411,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Thunderclap",
-            "name_lower": "enhance: thunderclap",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 10,
-            "tier_name": "Grandmaster",
-            "ts": 1366730444.812411,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1820937063,
-            "deity": 0,
-            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
+            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 6000,
@@ -445,7 +521,7 @@
                 "id": 878
             },
             "id": 1922416837,
-            "last_update": 1366730440.963634,
+            "last_update": 1387584304.099254,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Thunderclap",
@@ -455,10 +531,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730440.963634,
+            "ts": 1387584304.099254,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -468,8 +544,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -479,66 +557,8 @@
             },
             "crc": 1820937063,
             "deity": 0,
-            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Adds an additional trigger to Thunderclap if the target is within 20 meters.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Thunderclap by 30%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 878
-            },
-            "id": 391670277,
-            "last_update": 1366730439.627723,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Thunderclap",
-            "name_lower": "enhance: thunderclap",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730439.627723,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1820937063,
-            "deity": 0,
-            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
-            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 20 meters and 10 meters of the sorcerer respectively.",
+            "description": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
+            "description_pvp": "Improves the damage of Thunderclap. At ranks 5 and 10, Thunderclap gains additional damage if the target is within 25 meters and 15 meters of the sorcerer respectively.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 6000,
@@ -557,7 +577,7 @@
                 "id": 878
             },
             "id": 250930462,
-            "last_update": 1366730432.045875,
+            "last_update": 1387584304.027258,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Thunderclap",
@@ -567,10 +587,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730432.045875,
+            "ts": 1387584304.027258,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

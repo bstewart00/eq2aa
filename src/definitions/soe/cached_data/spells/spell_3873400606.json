@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730437.011817,
+    "min_ts": 1387584866.91931,
     "returned": 3,
-    "seconds": 0.024031877517700195,
+    "seconds": 0.01524496078491211,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,94 +38,20 @@
                     "indentation": 0
                 },
                 {
-                    "description": "On a damage spell hit this spell will cast Noxious Influx on target of spell.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "The damage is multiplied by the increment amount",
-                    "indentation": 2
-                },
-                {
-                    "description": "Inflicts 5 - 9 disease damage on target",
-                    "indentation": 2
-                },
-                {
                     "description": "This spell can only trigger from noxious and elemental attacks.",
                     "indentation": 1
-                },
-                {
-                    "description": "Inflicts 9 - 16 magic damage on target",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 833
-            },
-            "id": 928866262,
-            "last_update": 1366730630.707834,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Occult Bolt",
-            "name_lower": "occult bolt",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730630.707834,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 18,
-                "savagery": 0
-            },
-            "crc": 3873400606,
-            "deity": 0,
-            "description": "Inflicts disease damage on the target and allows the warlock's next noxious and elemental spells to inflict additional damage. This effect can increment up to 3 with each increment allowing more damage. Higher ranks of this ability reduce the base reuse time.",
-            "description_pvp": "Inflicts disease damage on the target and allows the warlock's next noxious and elemental spells to inflict additional damage. This effect can increment up to 3 with each increment allowing more damage. Higher ranks of this ability reduce the base reuse time.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Noxious Influx.  Lasts for 30.0 seconds.",
-                    "indentation": 0
                 },
                 {
                     "description": "On a damage spell hit this spell will cast Noxious Influx on target of spell.  ",
                     "indentation": 1
                 },
                 {
-                    "description": "The damage is multiplied by the increment amount",
-                    "indentation": 2
-                },
-                {
                     "description": "Inflicts 5 - 9 disease damage on target",
                     "indentation": 2
                 },
                 {
-                    "description": "This spell can only trigger from noxious and elemental attacks.",
-                    "indentation": 1
+                    "description": "The damage is multiplied by the increment amount",
+                    "indentation": 2
                 },
                 {
                     "description": "Inflicts 9 - 16 magic damage on target",
@@ -137,7 +65,7 @@
                 "id": 833
             },
             "id": 3593706363,
-            "last_update": 1366730452.633594,
+            "last_update": 1387584867.480258,
             "level": 0,
             "max_targets": 0,
             "name": "Occult Bolt",
@@ -147,10 +75,10 @@
             "spellbook": 0,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730452.633594,
+            "ts": 1387584867.480258,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -160,8 +88,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -184,20 +114,20 @@
                     "indentation": 0
                 },
                 {
-                    "description": "On a damage spell hit this spell will cast Noxious Influx on target of spell.  ",
+                    "description": "This spell can only trigger from noxious and elemental attacks.",
                     "indentation": 1
                 },
                 {
-                    "description": "The damage is multiplied by the increment amount",
-                    "indentation": 2
+                    "description": "On a damage spell hit this spell will cast Noxious Influx on target of spell.  ",
+                    "indentation": 1
                 },
                 {
                     "description": "Inflicts 5 - 9 disease damage on target",
                     "indentation": 2
                 },
                 {
-                    "description": "This spell can only trigger from noxious and elemental attacks.",
-                    "indentation": 1
+                    "description": "The damage is multiplied by the increment amount",
+                    "indentation": 2
                 },
                 {
                     "description": "Inflicts 9 - 16 magic damage on target",
@@ -211,7 +141,7 @@
                 "id": 833
             },
             "id": 1262254605,
-            "last_update": 1366730437.011817,
+            "last_update": 1387584867.243767,
             "level": 0,
             "max_targets": 0,
             "name": "Occult Bolt",
@@ -221,10 +151,86 @@
             "spellbook": 0,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730437.011817,
+            "ts": 1387584867.243767,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 3873400606,
+            "deity": 0,
+            "description": "Inflicts disease damage on the target and allows the warlock's next noxious and elemental spells to inflict additional damage. This effect can increment up to 3 with each increment allowing more damage. Higher ranks of this ability reduce the base reuse time.",
+            "description_pvp": "Inflicts disease damage on the target and allows the warlock's next noxious and elemental spells to inflict additional damage. This effect can increment up to 3 with each increment allowing more damage. Higher ranks of this ability reduce the base reuse time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Noxious Influx.  Lasts for 30.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "This spell can only trigger from noxious and elemental attacks.",
+                    "indentation": 1
+                },
+                {
+                    "description": "On a damage spell hit this spell will cast Noxious Influx on target of spell.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 5 - 9 disease damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "The damage is multiplied by the increment amount",
+                    "indentation": 2
+                },
+                {
+                    "description": "Inflicts 9 - 16 magic damage on target",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 833
+            },
+            "id": 928866262,
+            "last_update": 1387584866.91931,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Occult Bolt",
+            "name_lower": "occult bolt",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584866.91931,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
         }
     ]
 }

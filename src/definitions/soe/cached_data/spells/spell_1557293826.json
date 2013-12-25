@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730439.589759,
+    "min_ts": 1387584424.639648,
     "returned": 3,
-    "seconds": 0.022178173065185547,
+    "seconds": 0.017838001251220703,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1557293826,
-            "deity": 0,
-            "description": "Causes Thug's Poison to increase incoming physical damage to the target. This effect does not increase with increments.",
-            "description_pvp": "Causes Thug's Poison to increase incoming physical damage to the target. This effect does not increase with increments.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Thug's Poison will increase incoming physical damage to the target by 0.5%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 376
-            },
-            "id": 2245602008,
-            "last_update": 1366730630.623907,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Vital Weakness",
-            "name_lower": "vital weakness",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730630.623907,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1557293826,
-            "deity": 0,
-            "description": "Causes Thug's Poison to increase incoming physical damage to the target. This effect does not increase with increments.",
-            "description_pvp": "Causes Thug's Poison to increase incoming physical damage to the target. This effect does not increase with increments.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Thug's Poison will increase incoming physical damage to the target by 1%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 376
-            },
-            "id": 4189589251,
-            "last_update": 1366730616.978691,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Vital Weakness",
-            "name_lower": "vital weakness",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730616.978691,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 376
             },
             "id": 1689775733,
-            "last_update": 1366730439.589759,
+            "last_update": 1387584424.757157,
             "level": 0,
             "max_targets": 0,
             "name": "Vital Weakness",
@@ -161,10 +55,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730439.589759,
+            "ts": 1387584424.757157,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1557293826,
+            "deity": 0,
+            "description": "Causes Thug's Poison to increase incoming physical damage to the target. This effect does not increase with increments.",
+            "description_pvp": "Causes Thug's Poison to increase incoming physical damage to the target. This effect does not increase with increments.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Thug's Poison will increase incoming physical damage to the target by 1%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 376
+            },
+            "id": 4189589251,
+            "last_update": 1387584424.689551,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Vital Weakness",
+            "name_lower": "vital weakness",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584424.689551,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1557293826,
+            "deity": 0,
+            "description": "Causes Thug's Poison to increase incoming physical damage to the target. This effect does not increase with increments.",
+            "description_pvp": "Causes Thug's Poison to increase incoming physical damage to the target. This effect does not increase with increments.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Thug's Poison will increase incoming physical damage to the target by 0.5%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 376
+            },
+            "id": 2245602008,
+            "last_update": 1387584424.639648,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Vital Weakness",
+            "name_lower": "vital weakness",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584424.639648,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

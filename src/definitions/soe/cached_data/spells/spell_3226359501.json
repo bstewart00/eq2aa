@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.20131,
+    "min_ts": 1387585228.93607,
     "returned": 3,
-    "seconds": 0.01570606231689453,
+    "seconds": 0.08438897132873535,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3226359501,
-            "deity": 0,
-            "description": "Quick Shot and Makeshift Arrow will fire a second shot when triggered.",
-            "description_pvp": "Quick Shot and Makeshift Arrow will fire a second shot when triggered.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Quick Shot and Makeshift Arrow apply a second hit that deals 15% of the initial damage.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 361
-            },
-            "id": 2355375923,
-            "last_update": 1366730642.269424,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Arrow Followup",
-            "name_lower": "arrow followup",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730642.269424,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3226359501,
-            "deity": 0,
-            "description": "Quick Shot and Makeshift Arrow will fire a second shot when triggered.",
-            "description_pvp": "Quick Shot and Makeshift Arrow will fire a second shot when triggered.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Quick Shot and Makeshift Arrow apply a second hit that deals 30% of the initial damage.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 361
-            },
-            "id": 4026862312,
-            "last_update": 1366730640.220811,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Arrow Followup",
-            "name_lower": "arrow followup",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730640.220811,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 361
             },
             "id": 1829432222,
-            "last_update": 1366730443.20131,
+            "last_update": 1387585229.054001,
             "level": 0,
             "max_targets": 0,
             "name": "Arrow Followup",
@@ -161,10 +55,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730443.20131,
+            "ts": 1387585229.054001,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3226359501,
+            "deity": 0,
+            "description": "Quick Shot and Makeshift Arrow will fire a second shot when triggered.",
+            "description_pvp": "Quick Shot and Makeshift Arrow will fire a second shot when triggered.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Quick Shot and Makeshift Arrow apply a second hit that deals 30% of the initial damage.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 361
+            },
+            "id": 4026862312,
+            "last_update": 1387585228.975528,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Arrow Followup",
+            "name_lower": "arrow followup",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585228.975528,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3226359501,
+            "deity": 0,
+            "description": "Quick Shot and Makeshift Arrow will fire a second shot when triggered.",
+            "description_pvp": "Quick Shot and Makeshift Arrow will fire a second shot when triggered.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Quick Shot and Makeshift Arrow apply a second hit that deals 15% of the initial damage.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 361
+            },
+            "id": 2355375923,
+            "last_update": 1387585228.93607,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Arrow Followup",
+            "name_lower": "arrow followup",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585228.93607,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

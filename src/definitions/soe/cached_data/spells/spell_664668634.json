@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730561.714966,
+    "min_ts": 1387585202.984175,
     "returned": 1,
-    "seconds": 0.016387939453125,
+    "seconds": 0.014835834503173828,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,14 +38,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 313,
                 "icon_heroic_op": -1,
                 "id": 184
             },
             "id": 2059390447,
-            "last_update": 1366730561.714966,
+            "last_update": 1387585202.984175,
             "level": 0,
             "max_targets": 0,
             "name": "Gut Roar",
@@ -53,10 +55,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730561.714966,
+            "ts": 1387585202.984175,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

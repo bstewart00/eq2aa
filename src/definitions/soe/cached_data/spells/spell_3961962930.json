@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730466.669922,
+    "min_ts": 1387585376.177641,
     "returned": 5,
-    "seconds": 0.0191650390625,
+    "seconds": 0.017480134963989258,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 342
             },
             "id": 846875143,
-            "last_update": 1366730656.135175,
+            "last_update": 1387585376.494363,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Focus Aim",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730656.135175,
+            "ts": 1387585376.494363,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +101,7 @@
                 "id": 342
             },
             "id": 2943724401,
-            "last_update": 1366730638.57564,
+            "last_update": 1387585376.379166,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Focus Aim",
@@ -107,10 +111,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730638.57564,
+            "ts": 1387585376.379166,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +157,7 @@
                 "id": 342
             },
             "id": 3401056689,
-            "last_update": 1366730634.319985,
+            "last_update": 1387585376.297915,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Focus Aim",
@@ -161,10 +167,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730634.319985,
+            "ts": 1387585376.297915,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,62 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3961962930,
-            "deity": 0,
-            "description": "Increases the duration of Focus Aim and its upgrades.",
-            "description_pvp": "Increases the duration of Focus Aim and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases duration by 1 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 342
-            },
-            "id": 735495452,
-            "last_update": 1366730583.783587,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Focus Aim",
-            "name_lower": "enhance: focus aim",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730583.783587,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +213,7 @@
                 "id": 342
             },
             "id": 1471668423,
-            "last_update": 1366730466.669922,
+            "last_update": 1387585376.294797,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Focus Aim",
@@ -269,10 +223,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730466.669922,
+            "ts": 1387585376.294797,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3961962930,
+            "deity": 0,
+            "description": "Increases the duration of Focus Aim and its upgrades.",
+            "description_pvp": "Increases the duration of Focus Aim and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases duration by 1 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 342
+            },
+            "id": 735495452,
+            "last_update": 1387585376.177641,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Focus Aim",
+            "name_lower": "enhance: focus aim",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585376.177641,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

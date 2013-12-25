@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730439.273424,
+    "min_ts": 1387585381.49322,
     "returned": 1,
-    "seconds": 0.019565105438232422,
+    "seconds": 0.014732122421264648,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,13 +12,15 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
-                    "power": 9,
+                    "power": 3,
                     "savagery": 0
                 },
-                "power": 9,
+                "power": 3,
                 "savagery": 0
             },
             "crc": 3266496340,
@@ -32,18 +34,6 @@
             },
             "effect_list": [
                 {
-                    "description": "Prevents AOE (except when direct) ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Prevents caster from being Interrupted due to movement",
-                    "indentation": 0
-                },
-                {
-                    "description": "Prevents caster from being Interrupted",
-                    "indentation": 0
-                },
-                {
                     "description": "Applies Mystical Field.",
                     "indentation": 0
                 },
@@ -52,7 +42,19 @@
                     "indentation": 1
                 },
                 {
+                    "description": "Prevents caster from being Interrupted",
+                    "indentation": 0
+                },
+                {
+                    "description": "Prevents AOE (except when direct) ",
+                    "indentation": 0
+                },
+                {
                     "description": "Hits a maximum of 8 targets at 15 meters base radius",
+                    "indentation": 0
+                },
+                {
+                    "description": "Prevents caster from being Interrupted due to movement",
                     "indentation": 0
                 }
             ],
@@ -63,20 +65,20 @@
                 "id": 511
             },
             "id": 2673763590,
-            "last_update": 1366730439.273424,
+            "last_update": 1387585381.49322,
             "level": 0,
             "max_targets": 0,
             "name": "Mystical Field",
             "name_lower": "mystical field",
-            "recast_secs": 177.865616,
+            "recast_secs": 88.932808,
             "recovery_secs_tenths": 50,
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730439.273424,
+            "ts": 1387585381.49322,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730461.875865,
+    "min_ts": 1387585533.671233,
     "returned": 3,
-    "seconds": 0.015161991119384766,
+    "seconds": 0.019238948822021484,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 3281761274,
             "deity": 0,
-            "description": "Passively allows the wizard to build charges of Frozen Solid when using damage spells. The trigger chance on Frozen Solid is 33% at Rank 1, 66% at Rank 2 and 100% at Rank 3. Frozen Solid increments at 3 per attack target and maxes at 180. Frozen Rain inflicts cold damage to the wizard's target. The damage is substantially higher with 180 charges of Frozen Solid.",
-            "description_pvp": "Passively allows the wizard to build charges of Frozen Solid when using damage spells. The trigger chance on Frozen Solid is 33% at Rank 1, 66% at Rank 2 and 100% at Rank 3. Frozen Solid increments at 3 per attack target and maxes at 180. Frozen Rain inflicts cold damage to the wizard's target. The damage is substantially higher with 180 charges of Frozen Solid.",
+            "description": "Passively allows the wizard to build charges of Frozen Solid when using damage spells. The trigger chance on Frozen Solid is 33% at Rank 1, 66% at Rank 2 and 100% at Rank 3. Frozen Solid increments at 3 per attack target and maxes at 150. Frozen Rain inflicts cold damage to the wizard's target. The damage is substantially higher with more charges of Frozen Solid.",
+            "description_pvp": "Passively allows the wizard to build charges of Frozen Solid when using damage spells. The trigger chance on Frozen Solid is 33% at Rank 1, 66% at Rank 2 and 100% at Rank 3. Frozen Solid increments at 3 per attack target and maxes at 150. Frozen Rain inflicts cold damage to the wizard's target. The damage is substantially higher with more charges of Frozen Solid.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -36,89 +38,43 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 19 - 36 cold damage on target",
+                    "description": "Inflicts 30 - 55 cold damage on target",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 167 - 311 cold damage on target",
+                    "description": "Inflicts 45 - 83 cold damage on target",
                     "indentation": 0
                 },
                 {
-                    "description": "Requires 180 increments of Frozen Solid",
+                    "description": "Requires 150 increments of Frozen Solid",
                     "indentation": 1
                 },
                 {
-                    "description": "You must have at least 10 increments of Frozen Solid to use Frozen Rain!",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 256
-            },
-            "id": 4225919377,
-            "last_update": 1366730650.009309,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Frozen Rain",
-            "name_lower": "frozen rain",
-            "recast_secs": 9.881423,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730650.009309,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 18,
-                "savagery": 0
-            },
-            "crc": 3281761274,
-            "deity": 0,
-            "description": "Passively allows the wizard to build charges of Frozen Solid when using damage spells. The trigger chance on Frozen Solid is 33% at Rank 1, 66% at Rank 2 and 100% at Rank 3. Frozen Solid increments at 3 per attack target and maxes at 180. Frozen Rain inflicts cold damage to the wizard's target. The damage is substantially higher with 180 charges of Frozen Solid.",
-            "description_pvp": "Passively allows the wizard to build charges of Frozen Solid when using damage spells. The trigger chance on Frozen Solid is 33% at Rank 1, 66% at Rank 2 and 100% at Rank 3. Frozen Solid increments at 3 per attack target and maxes at 180. Frozen Rain inflicts cold damage to the wizard's target. The damage is substantially higher with 180 charges of Frozen Solid.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Consumes all increments of Frozen Solid",
+                    "description": "Inflicts 37 - 69 cold damage on target",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 19 - 36 cold damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 167 - 311 cold damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Requires 180 increments of Frozen Solid",
+                    "description": "Requires 90 increments of Frozen Solid",
                     "indentation": 1
                 },
                 {
-                    "description": "You must have at least 10 increments of Frozen Solid to use Frozen Rain!",
+                    "description": "Inflicts 41 - 76 cold damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Requires 120 increments of Frozen Solid",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 34 - 62 cold damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Requires 60  increments of Frozen Solid",
+                    "indentation": 1
+                },
+                {
+                    "description": "You must have at least 30 increments of Frozen Solid to use Frozen Rain!",
                     "indentation": 0
                 }
             ],
@@ -129,7 +85,7 @@
                 "id": 256
             },
             "id": 445427004,
-            "last_update": 1366730640.016889,
+            "last_update": 1387585534.127326,
             "level": 0,
             "max_targets": 0,
             "name": "Frozen Rain",
@@ -139,10 +95,10 @@
             "spellbook": 0,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730640.016889,
+            "ts": 1387585534.127326,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -152,8 +108,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -163,8 +121,8 @@
             },
             "crc": 3281761274,
             "deity": 0,
-            "description": "Passively allows the wizard to build charges of Frozen Solid when using damage spells. The trigger chance on Frozen Solid is 33% at Rank 1, 66% at Rank 2 and 100% at Rank 3. Frozen Solid increments at 3 per attack target and maxes at 180. Frozen Rain inflicts cold damage to the wizard's target. The damage is substantially higher with 180 charges of Frozen Solid.",
-            "description_pvp": "Passively allows the wizard to build charges of Frozen Solid when using damage spells. The trigger chance on Frozen Solid is 33% at Rank 1, 66% at Rank 2 and 100% at Rank 3. Frozen Solid increments at 3 per attack target and maxes at 180. Frozen Rain inflicts cold damage to the wizard's target. The damage is substantially higher with 180 charges of Frozen Solid.",
+            "description": "Passively allows the wizard to build charges of Frozen Solid when using damage spells. The trigger chance on Frozen Solid is 33% at Rank 1, 66% at Rank 2 and 100% at Rank 3. Frozen Solid increments at 3 per attack target and maxes at 150. Frozen Rain inflicts cold damage to the wizard's target. The damage is substantially higher with more charges of Frozen Solid.",
+            "description_pvp": "Passively allows the wizard to build charges of Frozen Solid when using damage spells. The trigger chance on Frozen Solid is 33% at Rank 1, 66% at Rank 2 and 100% at Rank 3. Frozen Solid increments at 3 per attack target and maxes at 150. Frozen Rain inflicts cold damage to the wizard's target. The damage is substantially higher with more charges of Frozen Solid.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -176,19 +134,43 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 19 - 36 cold damage on target",
+                    "description": "Inflicts 30 - 55 cold damage on target",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 167 - 311 cold damage on target",
+                    "description": "Inflicts 45 - 83 cold damage on target",
                     "indentation": 0
                 },
                 {
-                    "description": "Requires 180 increments of Frozen Solid",
+                    "description": "Requires 150 increments of Frozen Solid",
                     "indentation": 1
                 },
                 {
-                    "description": "You must have at least 10 increments of Frozen Solid to use Frozen Rain!",
+                    "description": "Inflicts 37 - 69 cold damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Requires 90 increments of Frozen Solid",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 41 - 76 cold damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Requires 120 increments of Frozen Solid",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 34 - 62 cold damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Requires 60  increments of Frozen Solid",
+                    "indentation": 1
+                },
+                {
+                    "description": "You must have at least 30 increments of Frozen Solid to use Frozen Rain!",
                     "indentation": 0
                 }
             ],
@@ -199,7 +181,7 @@
                 "id": 256
             },
             "id": 2273528906,
-            "last_update": 1366730461.875865,
+            "last_update": 1387585533.871998,
             "level": 0,
             "max_targets": 0,
             "name": "Frozen Rain",
@@ -209,10 +191,106 @@
             "spellbook": 0,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730461.875865,
+            "ts": 1387585533.871998,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 3281761274,
+            "deity": 0,
+            "description": "Passively allows the wizard to build charges of Frozen Solid when using damage spells. The trigger chance on Frozen Solid is 33% at Rank 1, 66% at Rank 2 and 100% at Rank 3. Frozen Solid increments at 3 per attack target and maxes at 150. Frozen Rain inflicts cold damage to the wizard's target. The damage is substantially higher with more charges of Frozen Solid.",
+            "description_pvp": "Passively allows the wizard to build charges of Frozen Solid when using damage spells. The trigger chance on Frozen Solid is 33% at Rank 1, 66% at Rank 2 and 100% at Rank 3. Frozen Solid increments at 3 per attack target and maxes at 150. Frozen Rain inflicts cold damage to the wizard's target. The damage is substantially higher with more charges of Frozen Solid.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Consumes all increments of Frozen Solid",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 30 - 55 cold damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 45 - 83 cold damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Requires 150 increments of Frozen Solid",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 37 - 69 cold damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Requires 90 increments of Frozen Solid",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 41 - 76 cold damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Requires 120 increments of Frozen Solid",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 34 - 62 cold damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Requires 60  increments of Frozen Solid",
+                    "indentation": 1
+                },
+                {
+                    "description": "You must have at least 30 increments of Frozen Solid to use Frozen Rain!",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 256
+            },
+            "id": 4225919377,
+            "last_update": 1387585533.671233,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Frozen Rain",
+            "name_lower": "frozen rain",
+            "recast_secs": 9.881423,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585533.671233,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
         }
     ]
 }

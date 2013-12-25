@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730650.346128,
+    "min_ts": 1387585052.010512,
     "returned": 1,
-    "seconds": 0.015980005264282227,
+    "seconds": 0.014664173126220703,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,11 +38,15 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Clears almost all of the pet's threat",
+                    "description": "Heals target for 100.0% of max health",
                     "indentation": 1
                 },
                 {
-                    "description": "Heals target for 100.0% of max health",
+                    "description": "Dispels 13 levels of any hostile effects on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Clears almost all of the pet's threat",
                     "indentation": 1
                 },
                 {
@@ -59,7 +65,7 @@
                 "id": 384
             },
             "id": 1746380934,
-            "last_update": 1366730650.346128,
+            "last_update": 1387585052.010512,
             "level": 0,
             "max_targets": 0,
             "name": "Reanimate",
@@ -69,10 +75,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730650.346128,
+            "ts": 1387585052.010512,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

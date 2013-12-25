@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730458.745828,
+    "min_ts": 1387585365.379247,
     "returned": 3,
-    "seconds": 0.015516996383666992,
+    "seconds": 0.015280961990356445,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1125298575,
-            "deity": 0,
-            "description": "Applies an additional effect to all targets hit by Dashing Flourish. This effect deals bonus damage to the enemy and another target when the enemy attacks.",
-            "description_pvp": "Applies an additional effect to all targets hit by Dashing Flourish. This effect deals bonus damage to the enemy and another target when the enemy attacks.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Dashing Flourish applies an additional effect that will inflict extra damage to the target and a nearby enemy when targets attack.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 263
-            },
-            "id": 2127090249,
-            "last_update": 1366730652.941351,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Pirate's Retaliation",
-            "name_lower": "pirate's retaliation",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730652.941351,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1125298575,
-            "deity": 0,
-            "description": "Applies an additional effect to all targets hit by Dashing Flourish. This effect deals bonus damage to the enemy and another target when the enemy attacks.",
-            "description_pvp": "Applies an additional effect to all targets hit by Dashing Flourish. This effect deals bonus damage to the enemy and another target when the enemy attacks.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Dashing Flourish applies an additional effect that will inflict extra damage to the target and a nearby enemy when targets attack.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 263
-            },
-            "id": 44693394,
-            "last_update": 1366730635.976557,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Pirate's Retaliation",
-            "name_lower": "pirate's retaliation",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730635.976557,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 263
             },
             "id": 2678462180,
-            "last_update": 1366730458.745828,
+            "last_update": 1387585365.538219,
             "level": 0,
             "max_targets": 0,
             "name": "Pirate's Retaliation",
@@ -161,10 +55,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730458.745828,
+            "ts": 1387585365.538219,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1125298575,
+            "deity": 0,
+            "description": "Applies an additional effect to all targets hit by Dashing Flourish. This effect deals bonus damage to the enemy and another target when the enemy attacks.",
+            "description_pvp": "Applies an additional effect to all targets hit by Dashing Flourish. This effect deals bonus damage to the enemy and another target when the enemy attacks.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Dashing Flourish applies an additional effect that will inflict extra damage to the target and a nearby enemy when targets attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 263
+            },
+            "id": 44693394,
+            "last_update": 1387585365.42362,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Pirate's Retaliation",
+            "name_lower": "pirate's retaliation",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585365.42362,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1125298575,
+            "deity": 0,
+            "description": "Applies an additional effect to all targets hit by Dashing Flourish. This effect deals bonus damage to the enemy and another target when the enemy attacks.",
+            "description_pvp": "Applies an additional effect to all targets hit by Dashing Flourish. This effect deals bonus damage to the enemy and another target when the enemy attacks.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Dashing Flourish applies an additional effect that will inflict extra damage to the target and a nearby enemy when targets attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 263
+            },
+            "id": 2127090249,
+            "last_update": 1387585365.379247,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Pirate's Retaliation",
+            "name_lower": "pirate's retaliation",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585365.379247,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

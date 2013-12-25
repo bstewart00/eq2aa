@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730458.040665,
+    "min_ts": 1387585443.942152,
     "returned": 5,
-    "seconds": 0.018519878387451172,
+    "seconds": 0.015417098999023438,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,7 +38,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Adds a positional detaunt to Terror Chant",
+                    "description": "Adds an extra hate position reduction to Terror Chant",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 157
             },
             "id": 2454670010,
-            "last_update": 1366730646.967472,
+            "last_update": 1387585444.185038,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Terror Chant",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730646.967472,
+            "ts": 1387585444.185038,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -101,7 +105,7 @@
                 "id": 157
             },
             "id": 255896524,
-            "last_update": 1366730617.498316,
+            "last_update": 1387585444.142755,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Terror Chant",
@@ -111,10 +115,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730617.498316,
+            "ts": 1387585444.142755,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -124,116 +128,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1741280705,
-            "deity": 0,
-            "description": "Improves the reuse speed of Terror Chant and its upgrades. The final rank adds a hate position reduction.",
-            "description_pvp": "Improves the reuse speed of Terror Chant and its upgrades. The final rank adds a hate position reduction.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 60 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 157
-            },
-            "id": 4152549498,
-            "last_update": 1366730467.534321,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Terror Chant",
-            "name_lower": "enhance: terror chant",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730467.534321,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1741280705,
-            "deity": 0,
-            "description": "Improves the reuse speed of Terror Chant and its upgrades. The final rank adds a hate position reduction.",
-            "description_pvp": "Improves the reuse speed of Terror Chant and its upgrades. The final rank adds a hate position reduction.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 30 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 157
-            },
-            "id": 2346960289,
-            "last_update": 1366730463.958306,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Terror Chant",
-            "name_lower": "enhance: terror chant",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730463.958306,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -263,7 +161,7 @@
                 "id": 157
             },
             "id": 1787625740,
-            "last_update": 1366730458.040665,
+            "last_update": 1387585444.062622,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Terror Chant",
@@ -273,10 +171,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730458.040665,
+            "ts": 1387585444.062622,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1741280705,
+            "deity": 0,
+            "description": "Improves the reuse speed of Terror Chant and its upgrades. The final rank adds a hate position reduction.",
+            "description_pvp": "Improves the reuse speed of Terror Chant and its upgrades. The final rank adds a hate position reduction.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 60 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 157
+            },
+            "id": 4152549498,
+            "last_update": 1387585443.98647,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Terror Chant",
+            "name_lower": "enhance: terror chant",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585443.98647,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1741280705,
+            "deity": 0,
+            "description": "Improves the reuse speed of Terror Chant and its upgrades. The final rank adds a hate position reduction.",
+            "description_pvp": "Improves the reuse speed of Terror Chant and its upgrades. The final rank adds a hate position reduction.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 30 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 157
+            },
+            "id": 2346960289,
+            "last_update": 1387585443.942152,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Terror Chant",
+            "name_lower": "enhance: terror chant",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585443.942152,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

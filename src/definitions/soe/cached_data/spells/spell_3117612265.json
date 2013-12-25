@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730578.964288,
+    "min_ts": 1387585459.610578,
     "returned": 1,
-    "seconds": 0.016321897506713867,
+    "seconds": 0.018605947494506836,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,14 +38,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 316,
                 "icon_heroic_op": -1,
                 "id": 889
             },
             "id": 3139820233,
-            "last_update": 1366730578.964288,
+            "last_update": 1387585459.610578,
             "level": 0,
             "max_targets": 0,
             "name": "Natural Regeneration",
@@ -53,10 +55,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730578.964288,
+            "ts": 1387585459.610578,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

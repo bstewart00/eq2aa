@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730460.115495,
+    "min_ts": 1387585235.731343,
     "returned": 1,
-    "seconds": 0.01627492904663086,
+    "seconds": 0.01648092269897461,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,15 +34,15 @@
             },
             "effect_list": [
                 {
+                    "description": "Inflicts 16 - 27 cold damage on target",
+                    "indentation": 0
+                },
+                {
                     "description": "Increases power of caster by 2 - 4",
                     "indentation": 0
                 },
                 {
                     "description": "Increases power of pet by 2 - 4",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 16 - 27 cold damage on target",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 826
             },
             "id": 81326608,
-            "last_update": 1366730460.115495,
+            "last_update": 1387585235.731343,
             "level": 0,
             "max_targets": 0,
             "name": "Primal Consumption",
@@ -61,10 +63,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730460.115495,
+            "ts": 1387585235.731343,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

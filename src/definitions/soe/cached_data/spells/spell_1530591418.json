@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730570.538751,
+    "min_ts": 1387584590.448377,
     "returned": 1,
-    "seconds": 0.0175018310546875,
+    "seconds": 0.015053987503051758,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,14 +38,6 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Applies Getaway Speed on termination.  Lasts for 10.0 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases in-combat movement speed of caster by 50.0%",
-                    "indentation": 1
-                },
-                {
                     "description": "Grants stealth to caster",
                     "indentation": 0
                 },
@@ -52,18 +46,26 @@
                     "indentation": 0
                 },
                 {
+                    "description": "Applies Getaway Speed on termination.  Lasts for 10.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases in-combat movement speed of caster by 50.0%",
+                    "indentation": 1
+                },
+                {
                     "description": "Dispelled when target takes damage",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 557
             },
             "id": 4103234114,
-            "last_update": 1366730570.538751,
+            "last_update": 1387584590.448377,
             "level": 0,
             "max_targets": 0,
             "name": "Getaway",
@@ -73,10 +75,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730570.538751,
+            "ts": 1387584590.448377,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

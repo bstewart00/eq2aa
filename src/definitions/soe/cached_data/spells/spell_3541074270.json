@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730453.900919,
+    "min_ts": 1387585559.873982,
     "returned": 1,
-    "seconds": 0.014369010925292969,
+    "seconds": 0.01440882682800293,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,14 +38,6 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Dispels 8 levels of any hostile effects on caster",
-                    "indentation": 1
-                },
-                {
-                    "description": "Triggers when the caster is stunned, stifled or dazed. This can only trigger once every 60 seconds for each control effect.",
-                    "indentation": 1
-                },
-                {
                     "description": "Makes caster immune to Stun effects",
                     "indentation": 1
                 },
@@ -52,7 +46,15 @@
                     "indentation": 1
                 },
                 {
+                    "description": "Triggers when the caster is stunned, stifled or dazed. This can only trigger once every 60 seconds for each control effect.",
+                    "indentation": 1
+                },
+                {
                     "description": "Makes caster immune to Daze effects",
+                    "indentation": 1
+                },
+                {
+                    "description": "Dispels 8 levels of any hostile effects on caster",
                     "indentation": 1
                 },
                 {
@@ -67,7 +69,7 @@
                 "id": 815
             },
             "id": 3640278068,
-            "last_update": 1366730453.900919,
+            "last_update": 1387585559.873982,
             "level": 0,
             "max_targets": 0,
             "name": "Unstoppable",
@@ -77,10 +79,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730453.900919,
+            "ts": 1387585559.873982,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

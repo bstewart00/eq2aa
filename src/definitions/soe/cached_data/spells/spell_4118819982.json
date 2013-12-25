@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730457.283558,
+    "min_ts": 1387584776.177724,
     "returned": 5,
-    "seconds": 0.017490863800048828,
+    "seconds": 0.01604485511779785,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,128 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves reuse speed by 2 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases reuse speed bonus by 4%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 492
-            },
-            "id": 845751615,
-            "last_update": 1366730650.503856,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Jester's Cap",
-            "name_lower": "enhance: jester's cap",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730650.503856,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4118819982,
-            "deity": 0,
-            "description": "Increases the reuse speed bonus and hastens the reuse speed of Jester's Cap.",
-            "description_pvp": "Increases the reuse speed bonus and hastens the reuse speed of Jester's Cap.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 3 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases reuse speed bonus by 6%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 492
-            },
-            "id": 2942747721,
-            "last_update": 1366730642.693452,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Jester's Cap",
-            "name_lower": "enhance: jester's cap",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730642.693452,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4118819982,
-            "deity": 0,
-            "description": "Increases the reuse speed bonus and hastens the reuse speed of Jester's Cap.",
-            "description_pvp": "Increases the reuse speed bonus and hastens the reuse speed of Jester's Cap.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 5 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases reuse speed bonus by 10%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 5 seconds",
                     "indentation": 0
                 }
             ],
@@ -163,7 +49,7 @@
                 "id": 492
             },
             "id": 1470402559,
-            "last_update": 1366730632.603717,
+            "last_update": 1387584776.477047,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Jester's Cap",
@@ -173,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730632.603717,
+            "ts": 1387584776.477047,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,70 +93,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves reuse speed by 1 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases reuse speed bonus by 2%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 492
-            },
-            "id": 1309147364,
-            "last_update": 1366730630.762699,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Jester's Cap",
-            "name_lower": "enhance: jester's cap",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730630.762699,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4118819982,
-            "deity": 0,
-            "description": "Increases the reuse speed bonus and hastens the reuse speed of Jester's Cap.",
-            "description_pvp": "Increases the reuse speed bonus and hastens the reuse speed of Jester's Cap.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 4 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases reuse speed bonus by 8%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 4 seconds",
                     "indentation": 0
                 }
             ],
@@ -279,7 +109,7 @@
                 "id": 492
             },
             "id": 3400232585,
-            "last_update": 1366730457.283558,
+            "last_update": 1387584776.417373,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Jester's Cap",
@@ -289,10 +119,190 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730457.283558,
+            "ts": 1387584776.417373,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4118819982,
+            "deity": 0,
+            "description": "Increases the reuse speed bonus and hastens the reuse speed of Jester's Cap.",
+            "description_pvp": "Increases the reuse speed bonus and hastens the reuse speed of Jester's Cap.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases reuse speed bonus by 6%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 3 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 492
+            },
+            "id": 2942747721,
+            "last_update": 1387584776.337292,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Jester's Cap",
+            "name_lower": "enhance: jester's cap",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584776.337292,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4118819982,
+            "deity": 0,
+            "description": "Increases the reuse speed bonus and hastens the reuse speed of Jester's Cap.",
+            "description_pvp": "Increases the reuse speed bonus and hastens the reuse speed of Jester's Cap.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases reuse speed bonus by 4%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 2 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 492
+            },
+            "id": 845751615,
+            "last_update": 1387584776.257822,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Jester's Cap",
+            "name_lower": "enhance: jester's cap",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584776.257822,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4118819982,
+            "deity": 0,
+            "description": "Increases the reuse speed bonus and hastens the reuse speed of Jester's Cap.",
+            "description_pvp": "Increases the reuse speed bonus and hastens the reuse speed of Jester's Cap.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases reuse speed bonus by 2%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 1 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 492
+            },
+            "id": 1309147364,
+            "last_update": 1387584776.177724,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Jester's Cap",
+            "name_lower": "enhance: jester's cap",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584776.177724,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

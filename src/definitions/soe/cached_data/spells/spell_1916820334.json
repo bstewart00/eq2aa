@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.711445,
+    "min_ts": 1387584834.544145,
     "returned": 10,
-    "seconds": 0.021391868591308594,
+    "seconds": 0.016954898834228516,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +49,7 @@
                 "id": 11
             },
             "id": 2421506040,
-            "last_update": 1366730648.976172,
+            "last_update": 1387584835.622394,
             "level": 0,
             "max_targets": 0,
             "name": "Solid Armor",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730648.976172,
+            "ts": 1387584835.622394,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,298 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1916820334,
-            "deity": 0,
-            "description": "Reduces the amount of damage the warder receives.",
-            "description_pvp": "Reduces the amount of damage the warder receives.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Solid Armor to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to caster by 7%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 2259457313,
-            "last_update": 1366730632.864501,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Solid Armor",
-            "name_lower": "solid armor",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730632.864501,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1916820334,
-            "deity": 0,
-            "description": "Reduces the amount of damage the warder receives.",
-            "description_pvp": "Reduces the amount of damage the warder receives.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Solid Armor to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to caster by 1%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 2121195159,
-            "last_update": 1366730586.456603,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Solid Armor",
-            "name_lower": "solid armor",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730586.456603,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1916820334,
-            "deity": 0,
-            "description": "Reduces the amount of damage the warder receives.",
-            "description_pvp": "Reduces the amount of damage the warder receives.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Solid Armor to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to caster by 4%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 4207784186,
-            "last_update": 1366730464.871841,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Solid Armor",
-            "name_lower": "solid armor",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730464.871841,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1916820334,
-            "deity": 0,
-            "description": "Reduces the amount of damage the warder receives.",
-            "description_pvp": "Reduces the amount of damage the warder receives.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Solid Armor to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to caster by 8%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3493339607,
-            "last_update": 1366730463.785175,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Solid Armor",
-            "name_lower": "solid armor",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730463.785175,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1916820334,
-            "deity": 0,
-            "description": "Reduces the amount of damage the warder receives.",
-            "description_pvp": "Reduces the amount of damage the warder receives.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Solid Armor to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to caster by 5%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 1740788108,
-            "last_update": 1366730458.824703,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Solid Armor",
-            "name_lower": "solid armor",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730458.824703,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -395,7 +109,7 @@
                 "id": 11
             },
             "id": 1295499425,
-            "last_update": 1366730458.097888,
+            "last_update": 1387584835.503088,
             "level": 0,
             "max_targets": 0,
             "name": "Solid Armor",
@@ -405,10 +119,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730458.097888,
+            "ts": 1387584835.503088,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -418,8 +132,130 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1916820334,
+            "deity": 0,
+            "description": "Reduces the amount of damage the warder receives.",
+            "description_pvp": "Reduces the amount of damage the warder receives.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Solid Armor to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces all damage done to caster by 8%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 3493339607,
+            "last_update": 1387584835.362507,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Solid Armor",
+            "name_lower": "solid armor",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584835.362507,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1916820334,
+            "deity": 0,
+            "description": "Reduces the amount of damage the warder receives.",
+            "description_pvp": "Reduces the amount of damage the warder receives.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Solid Armor to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces all damage done to caster by 7%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 2259457313,
+            "last_update": 1387584835.243613,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Solid Armor",
+            "name_lower": "solid armor",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584835.243613,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -453,7 +289,7 @@
                 "id": 11
             },
             "id": 463696983,
-            "last_update": 1366730457.426768,
+            "last_update": 1387584835.122311,
             "level": 0,
             "max_targets": 0,
             "name": "Solid Armor",
@@ -463,10 +299,10 @@
             "spellbook": 4,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730457.426768,
+            "ts": 1387584835.122311,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -476,8 +312,130 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1916820334,
+            "deity": 0,
+            "description": "Reduces the amount of damage the warder receives.",
+            "description_pvp": "Reduces the amount of damage the warder receives.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Solid Armor to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces all damage done to caster by 5%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 1740788108,
+            "last_update": 1387584835.023775,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Solid Armor",
+            "name_lower": "solid armor",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584835.023775,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1916820334,
+            "deity": 0,
+            "description": "Reduces the amount of damage the warder receives.",
+            "description_pvp": "Reduces the amount of damage the warder receives.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Solid Armor to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces all damage done to caster by 4%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 4207784186,
+            "last_update": 1387584834.881716,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Solid Armor",
+            "name_lower": "solid armor",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584834.881716,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -511,7 +469,7 @@
                 "id": 11
             },
             "id": 2667584058,
-            "last_update": 1366730445.584375,
+            "last_update": 1387584834.762105,
             "level": 0,
             "max_targets": 0,
             "name": "Solid Armor",
@@ -521,10 +479,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730445.584375,
+            "ts": 1387584834.762105,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -534,8 +492,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -569,7 +529,7 @@
                 "id": 11
             },
             "id": 34601804,
-            "last_update": 1366730443.711445,
+            "last_update": 1387584834.665129,
             "level": 0,
             "max_targets": 0,
             "name": "Solid Armor",
@@ -579,10 +539,70 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730443.711445,
+            "ts": 1387584834.665129,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1916820334,
+            "deity": 0,
+            "description": "Reduces the amount of damage the warder receives.",
+            "description_pvp": "Reduces the amount of damage the warder receives.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Solid Armor to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces all damage done to caster by 1%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 2121195159,
+            "last_update": 1387584834.544145,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Solid Armor",
+            "name_lower": "solid armor",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584834.544145,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

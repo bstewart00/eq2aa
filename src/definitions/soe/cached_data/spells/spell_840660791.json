@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730615.157918,
+    "min_ts": 1387584279.988828,
     "returned": 1,
-    "seconds": 0.014372825622558594,
+    "seconds": 0.01564192771911621,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 840660791,
             "deity": 0,
-            "description": "Greatly increases the damage of Lung Puncture. Additionally, Lung Puncture grants the swashbuckler increased damage per second and attack speed while active.",
-            "description_pvp": "Greatly increases the damage of Lung Puncture. Additionally, Lung Puncture grants the swashbuckler increased damage per second and attack speed while active.",
+            "description": "Greatly increases the damage of Lung Puncture. Additionally, Lung Puncture grants the swashbuckler increased Multi-Attack Chance and attack speed while active.",
+            "description_pvp": "Greatly increases the damage of Lung Puncture. Additionally, Lung Puncture grants the swashbuckler increased Multi-Attack Chance and attack speed while active.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -43,7 +45,7 @@
                 "id": 376
             },
             "id": 1256483790,
-            "last_update": 1366730615.157918,
+            "last_update": 1387584279.988828,
             "level": 0,
             "max_targets": 0,
             "name": "Pinpoint Puncture",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730615.157918,
+            "ts": 1387584279.988828,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

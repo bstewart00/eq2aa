@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730445.244229,
+    "min_ts": 1387584787.708327,
     "returned": 10,
-    "seconds": 0.01594400405883789,
+    "seconds": 0.030651092529296875,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,504 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1833056667,
-            "deity": 0,
-            "description": "The warder gains a chance to restore some of their health when attacking.",
-            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Restoring Soul to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 0.6 times per minute. ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Heals caster for 2.0% of max health",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3768943803,
-            "last_update": 1366730649.129722,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Restoring Soul",
-            "name_lower": "restoring soul",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730649.129722,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1833056667,
-            "deity": 0,
-            "description": "The warder gains a chance to restore some of their health when attacking.",
-            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Restoring Soul to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 4.2 times per minute. ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Heals caster for 2.0% of max health",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 409456397,
-            "last_update": 1366730637.405766,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Restoring Soul",
-            "name_lower": "restoring soul",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730637.405766,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1833056667,
-            "deity": 0,
-            "description": "The warder gains a chance to restore some of their health when attacking.",
-            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Restoring Soul to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 5.4 times per minute. ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Heals caster for 2.0% of max health",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3556547213,
-            "last_update": 1366730634.80461,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Restoring Soul",
-            "name_lower": "restoring soul",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 9,
-            "tier_name": "Master",
-            "ts": 1366730634.80461,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1833056667,
-            "deity": 0,
-            "description": "The warder gains a chance to restore some of their health when attacking.",
-            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Restoring Soul to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 3.6 times per minute. ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Heals caster for 2.0% of max health",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 2238197371,
-            "last_update": 1366730620.794861,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Restoring Soul",
-            "name_lower": "restoring soul",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730620.794861,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1833056667,
-            "deity": 0,
-            "description": "The warder gains a chance to restore some of their health when attacking.",
-            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Restoring Soul to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 1.8 times per minute. ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Heals caster for 2.0% of max health",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 30097430,
-            "last_update": 1366730462.722814,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Restoring Soul",
-            "name_lower": "restoring soul",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730462.722814,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1833056667,
-            "deity": 0,
-            "description": "The warder gains a chance to restore some of their health when attacking.",
-            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Restoring Soul to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 4.8 times per minute. ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Heals caster for 2.0% of max health",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 1324579835,
-            "last_update": 1366730462.095018,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Restoring Soul",
-            "name_lower": "restoring soul",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730462.095018,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1833056667,
-            "deity": 0,
-            "description": "The warder gains a chance to restore some of their health when attacking.",
-            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Restoring Soul to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 1.2 times per minute. ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Heals caster for 2.0% of max health",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 2630132064,
-            "last_update": 1366730457.828082,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Restoring Soul",
-            "name_lower": "restoring soul",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730457.828082,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1833056667,
-            "deity": 0,
-            "description": "The warder gains a chance to restore some of their health when attacking.",
-            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Restoring Soul to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 3.0 times per minute. ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Heals caster for 2.0% of max health",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 4178119584,
-            "last_update": 1366730455.198464,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Restoring Soul",
-            "name_lower": "restoring soul",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730455.198464,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -547,7 +53,7 @@
                 "id": 11
             },
             "id": 245261780,
-            "last_update": 1366730451.05527,
+            "last_update": 1387584789.460613,
             "level": 0,
             "max_targets": 0,
             "name": "Restoring Soul",
@@ -557,10 +63,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730451.05527,
+            "ts": 1387584789.460613,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -570,8 +76,330 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1833056667,
+            "deity": 0,
+            "description": "The warder gains a chance to restore some of their health when attacking.",
+            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Restoring Soul to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 5.4 times per minute. ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Heals caster for 2.0% of max health",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 3556547213,
+            "last_update": 1387584789.260879,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Restoring Soul",
+            "name_lower": "restoring soul",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 9,
+            "tier_name": "Master",
+            "ts": 1387584789.260879,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1833056667,
+            "deity": 0,
+            "description": "The warder gains a chance to restore some of their health when attacking.",
+            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Restoring Soul to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 4.8 times per minute. ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Heals caster for 2.0% of max health",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 1324579835,
+            "last_update": 1387584789.040718,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Restoring Soul",
+            "name_lower": "restoring soul",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584789.040718,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1833056667,
+            "deity": 0,
+            "description": "The warder gains a chance to restore some of their health when attacking.",
+            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Restoring Soul to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 4.2 times per minute. ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Heals caster for 2.0% of max health",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 409456397,
+            "last_update": 1387584788.860563,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Restoring Soul",
+            "name_lower": "restoring soul",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584788.860563,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1833056667,
+            "deity": 0,
+            "description": "The warder gains a chance to restore some of their health when attacking.",
+            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Restoring Soul to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 3.6 times per minute. ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Heals caster for 2.0% of max health",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 2238197371,
+            "last_update": 1387584788.66048,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Restoring Soul",
+            "name_lower": "restoring soul",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584788.66048,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1833056667,
+            "deity": 0,
+            "description": "The warder gains a chance to restore some of their health when attacking.",
+            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Restoring Soul to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 3.0 times per minute. ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Heals caster for 2.0% of max health",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 4178119584,
+            "last_update": 1387584788.440567,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Restoring Soul",
+            "name_lower": "restoring soul",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584788.440567,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -609,7 +437,7 @@
                 "id": 11
             },
             "id": 1678174934,
-            "last_update": 1366730445.244229,
+            "last_update": 1387584788.239905,
             "level": 0,
             "max_targets": 0,
             "name": "Restoring Soul",
@@ -619,10 +447,202 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730445.244229,
+            "ts": 1387584788.239905,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1833056667,
+            "deity": 0,
+            "description": "The warder gains a chance to restore some of their health when attacking.",
+            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Restoring Soul to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 1.8 times per minute. ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Heals caster for 2.0% of max health",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 30097430,
+            "last_update": 1387584788.040778,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Restoring Soul",
+            "name_lower": "restoring soul",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584788.040778,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1833056667,
+            "deity": 0,
+            "description": "The warder gains a chance to restore some of their health when attacking.",
+            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Restoring Soul to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 1.2 times per minute. ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Heals caster for 2.0% of max health",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 2630132064,
+            "last_update": 1387584787.840555,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Restoring Soul",
+            "name_lower": "restoring soul",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584787.840555,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1833056667,
+            "deity": 0,
+            "description": "The warder gains a chance to restore some of their health when attacking.",
+            "description_pvp": "The warder gains a chance to restore some of their health when attacking.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Restoring Soul to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell may cast Restoring Soul on caster.  Triggers about 0.6 times per minute. ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Heals caster for 2.0% of max health",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 3768943803,
+            "last_update": 1387584787.708327,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Restoring Soul",
+            "name_lower": "restoring soul",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584787.708327,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

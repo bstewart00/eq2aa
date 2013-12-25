@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730454.321507,
+    "min_ts": 1387585034.279124,
     "returned": 2,
-    "seconds": 0.0160830020904541,
+    "seconds": 0.01499319076538086,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,130 +38,40 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 2 disease damage on target encounter",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 2 heat damage on target encounter",
-                    "indentation": 1
-                },
-                {
-                    "description": "Decreases Threat to target encounter by 22 ",
+                    "description": "Decreases Threat to target encounter by 70 ",
                     "indentation": 1
                 },
                 {
                     "description": "If not fighter",
                     "indentation": 2
-                },
-                {
-                    "description": "When a combat art is used this spell will cast Elemental Toxicity on target of combat art.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 disease damage on target encounter",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 2 heat damage on target encounter",
-                    "indentation": 1
-                },
-                {
-                    "description": "Decreases Threat to target encounter by 22 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If not fighter",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 481
-            },
-            "id": 3202365141,
-            "last_update": 1366730643.940491,
-            "level": 0,
-            "max_targets": -1,
-            "name": "Elemental Toxicity",
-            "name_lower": "elemental toxicity",
-            "recast_secs": 148.221344,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730643.940491,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 35.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 6,
-                "savagery": 0
-            },
-            "crc": 2126829397,
-            "deity": 0,
-            "description": "The summoner surrounds their allies with elemental and noxious energy, granting them all additional damage to the target encounter with each attack. This ability can trigger multiple times when Area of Effect spells are cast.",
-            "description_pvp": "The summoner surrounds their allies with elemental and noxious energy, granting them all additional damage to the target encounter with each attack. This ability can trigger multiple times when Area of Effect spells are cast.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 150,
-                "min_sec_tenths": 150
-            },
-            "effect_list": [
-                {
-                    "description": "On a damage spell hit this spell will cast Elemental Toxicity on target of spell.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 4 disease damage on target encounter",
-                    "indentation": 1
                 },
                 {
                     "description": "Inflicts 3 - 4 heat damage on target encounter",
                     "indentation": 1
                 },
                 {
-                    "description": "Decreases Threat to target encounter by 44 ",
+                    "description": "Inflicts 3 - 4 disease damage on target encounter",
                     "indentation": 1
-                },
-                {
-                    "description": "If not fighter",
-                    "indentation": 2
                 },
                 {
                     "description": "When a combat art is used this spell will cast Elemental Toxicity on target of combat art.  ",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 3 - 4 disease damage on target encounter",
+                    "description": "Decreases Threat to target encounter by 70 ",
                     "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
                 },
                 {
                     "description": "Inflicts 3 - 4 heat damage on target encounter",
                     "indentation": 1
                 },
                 {
-                    "description": "Decreases Threat to target encounter by 44 ",
+                    "description": "Inflicts 3 - 4 disease damage on target encounter",
                     "indentation": 1
-                },
-                {
-                    "description": "If not fighter",
-                    "indentation": 2
                 }
             ],
             "given_by": "alternateadvancement",
@@ -169,7 +81,7 @@
                 "id": 481
             },
             "id": 3263238926,
-            "last_update": 1366730454.321507,
+            "last_update": 1387585034.544318,
             "level": 0,
             "max_targets": -1,
             "name": "Elemental Toxicity",
@@ -179,10 +91,102 @@
             "spellbook": 0,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730454.321507,
+            "ts": 1387585034.544318,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 35.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 6,
+                "savagery": 0
+            },
+            "crc": 2126829397,
+            "deity": 0,
+            "description": "The summoner surrounds their allies with elemental and noxious energy, granting them all additional damage to the target encounter with each attack. This ability can trigger multiple times when Area of Effect spells are cast.",
+            "description_pvp": "The summoner surrounds their allies with elemental and noxious energy, granting them all additional damage to the target encounter with each attack. This ability can trigger multiple times when Area of Effect spells are cast.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 150,
+                "min_sec_tenths": 150
+            },
+            "effect_list": [
+                {
+                    "description": "On a damage spell hit this spell will cast Elemental Toxicity on target of spell.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Threat to target encounter by 35 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Inflicts 2 heat damage on target encounter",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 2 disease damage on target encounter",
+                    "indentation": 1
+                },
+                {
+                    "description": "When a combat art is used this spell will cast Elemental Toxicity on target of combat art.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Threat to target encounter by 35 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Inflicts 2 heat damage on target encounter",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 2 disease damage on target encounter",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 481
+            },
+            "id": 3202365141,
+            "last_update": 1387585034.279124,
+            "level": 0,
+            "max_targets": -1,
+            "name": "Elemental Toxicity",
+            "name_lower": "elemental toxicity",
+            "recast_secs": 148.221344,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585034.279124,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
         }
     ]
 }

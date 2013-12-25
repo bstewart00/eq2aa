@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730572.832929,
+    "min_ts": 1387585158.328274,
     "returned": 1,
-    "seconds": 0.01719808578491211,
+    "seconds": 0.014902830123901367,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases effectiveness of potions by 20%",
+                    "description": "Increases duration of potions by 100%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases duration of potions by 100%",
+                    "description": "Increases effectiveness of potions by 20%",
                     "indentation": 0
                 },
                 {
@@ -44,14 +46,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 187
             },
             "id": 3798829188,
-            "last_update": 1366730572.832929,
+            "last_update": 1387585158.328274,
             "level": 0,
             "max_targets": 0,
             "name": "Conservation",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730572.832929,
+            "ts": 1387585158.328274,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

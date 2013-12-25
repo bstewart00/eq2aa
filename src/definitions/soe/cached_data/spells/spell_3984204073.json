@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.86399,
+    "min_ts": 1387584804.214893,
     "returned": 3,
-    "seconds": 0.01407313346862793,
+    "seconds": 0.014954090118408203,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,14 +25,18 @@
             },
             "crc": 3984204073,
             "deity": 0,
-            "description": "Reduces incoming damage to the shadowknight for a very short duration following Chaotic Blade.",
-            "description_pvp": "Reduces incoming damage to the shadowknight for a very short duration following Chaotic Blade.",
+            "description": "Reduces incoming damage to the shadowknight for a very short duration following Chaotic Blade. The third point makes Chaotic Blade apply a hate position.",
+            "description_pvp": "Reduces incoming damage to the shadowknight for a very short duration following Chaotic Blade. The third point makes Chaotic Blade apply a hate position.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
                 "min_sec_tenths": 0
             },
             "effect_list": [
+                {
+                    "description": "Chaotic Blade will increase the shadowknight's threat position by 1",
+                    "indentation": 0
+                },
                 {
                     "description": "Reduces incoming damage to the Shadowknight by 90% for a very short duration following Chaotic Blade.",
                     "indentation": 0
@@ -43,7 +49,7 @@
                 "id": 843
             },
             "id": 3209873834,
-            "last_update": 1366730640.386118,
+            "last_update": 1387584804.375781,
             "level": 0,
             "max_targets": 0,
             "name": "Chaos Barrier",
@@ -53,10 +59,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730640.386118,
+            "ts": 1387584804.375781,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -77,62 +85,8 @@
             },
             "crc": 3984204073,
             "deity": 0,
-            "description": "Reduces incoming damage to the shadowknight for a very short duration following Chaotic Blade.",
-            "description_pvp": "Reduces incoming damage to the shadowknight for a very short duration following Chaotic Blade.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces incoming damage to the Shadowknight by 30% for a very short duration following Chaotic Blade.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 843
-            },
-            "id": 1580993799,
-            "last_update": 1366730620.498173,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Chaos Barrier",
-            "name_lower": "chaos barrier",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730620.498173,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3984204073,
-            "deity": 0,
-            "description": "Reduces incoming damage to the shadowknight for a very short duration following Chaotic Blade.",
-            "description_pvp": "Reduces incoming damage to the shadowknight for a very short duration following Chaotic Blade.",
+            "description": "Reduces incoming damage to the shadowknight for a very short duration following Chaotic Blade. The third point makes Chaotic Blade apply a hate position.",
+            "description_pvp": "Reduces incoming damage to the shadowknight for a very short duration following Chaotic Blade. The third point makes Chaotic Blade apply a hate position.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -151,7 +105,7 @@
                 "id": 843
             },
             "id": 576530652,
-            "last_update": 1366730443.86399,
+            "last_update": 1387584804.275027,
             "level": 0,
             "max_targets": 0,
             "name": "Chaos Barrier",
@@ -161,10 +115,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730443.86399,
+            "ts": 1387584804.275027,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3984204073,
+            "deity": 0,
+            "description": "Reduces incoming damage to the shadowknight for a very short duration following Chaotic Blade. The third point makes Chaotic Blade apply a hate position.",
+            "description_pvp": "Reduces incoming damage to the shadowknight for a very short duration following Chaotic Blade. The third point makes Chaotic Blade apply a hate position.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces incoming damage to the Shadowknight by 30% for a very short duration following Chaotic Blade.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 843
+            },
+            "id": 1580993799,
+            "last_update": 1387584804.214893,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Chaos Barrier",
+            "name_lower": "chaos barrier",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584804.214893,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730640.563208,
+    "min_ts": 1387585097.834035,
     "returned": 1,
-    "seconds": 0.01752495765686035,
+    "seconds": 0.014766931533813477,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 2085833036,
             "deity": 0,
-            "description": "Greatly increases the Tiger Sifu's attack speed and damage per second, and improves speed of all casting times, recovery times, and reuse times.",
-            "description_pvp": "Greatly increases the Tiger Sifu's attack speed and damage per second, and improves speed of all casting times, recovery times, and reuse times.",
+            "description": "Greatly increases the Tiger Sifu's attack speed and Multi-Attack Chance, and improves speed of all casting times, recovery times, and reuse times.",
+            "description_pvp": "Greatly increases the Tiger Sifu's attack speed and Multi-Attack Chance, and improves speed of all casting times, recovery times, and reuse times.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 300,
@@ -32,23 +34,23 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Ability Reuse Speed of caster by 50.0%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 50.0",
-                    "indentation": 0
-                },
-                {
                     "description": "Increases Attack Speed of caster by 50.0",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Ability Recovery Speed of caster by 100.0%",
+                    "description": "Increases Multi Attack Chance of caster by 50.0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Ability Reuse Speed of caster by 50.0%",
                     "indentation": 0
                 },
                 {
                     "description": "Increases Ability Casting Speed of caster by 100.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Ability Recovery Speed of caster by 100.0%",
                     "indentation": 0
                 }
             ],
@@ -59,7 +61,7 @@
                 "id": 614
             },
             "id": 3569388370,
-            "last_update": 1366730640.563208,
+            "last_update": 1387585097.834035,
             "level": 0,
             "max_targets": 0,
             "name": "Chi",
@@ -69,10 +71,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730640.563208,
+            "ts": 1387585097.834035,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

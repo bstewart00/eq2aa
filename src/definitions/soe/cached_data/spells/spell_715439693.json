@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730457.729719,
+    "min_ts": 1387585212.772857,
     "returned": 2,
-    "seconds": 0.014075994491577148,
+    "seconds": 0.01523590087890625,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -48,6 +50,18 @@
                     "indentation": 1
                 },
                 {
+                    "description": "Applies Stoneskin Reaction on termination.  Lasts for 1.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Triggers when a Stoneskin is consumed. Suspends all other stoneskins that match the damage types of this effect.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Reduces all damage done to target by 100%",
+                    "indentation": 1
+                },
+                {
                     "description": "Eagle Shriek must be active to use Eagle's Patience.",
                     "indentation": 0
                 }
@@ -59,7 +73,7 @@
                 "id": 796
             },
             "id": 631473144,
-            "last_update": 1366730648.667311,
+            "last_update": 1387585213.011041,
             "level": 0,
             "max_targets": 0,
             "name": "Eagle's Patience",
@@ -69,10 +83,10 @@
             "spellbook": 1,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730648.667311,
+            "ts": 1387585213.011041,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -82,8 +96,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -118,6 +134,18 @@
                     "indentation": 1
                 },
                 {
+                    "description": "Applies Stoneskin Reaction on termination.  Lasts for 1.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Triggers when a Stoneskin is consumed. Suspends all other stoneskins that match the damage types of this effect.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Reduces all damage done to target by 100%",
+                    "indentation": 1
+                },
+                {
                     "description": "Eagle Shriek must be active to use Eagle's Patience.",
                     "indentation": 0
                 }
@@ -129,7 +157,7 @@
                 "id": 796
             },
             "id": 2557079350,
-            "last_update": 1366730457.729719,
+            "last_update": 1387585212.772857,
             "level": 0,
             "max_targets": 0,
             "name": "Eagle's Patience",
@@ -139,10 +167,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730457.729719,
+            "ts": 1387585212.772857,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

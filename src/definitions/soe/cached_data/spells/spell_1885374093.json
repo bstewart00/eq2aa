@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730431.564348,
+    "min_ts": 1387584602.535404,
     "returned": 5,
-    "seconds": 0.01887989044189453,
+    "seconds": 0.05757284164428711,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1885374093,
-            "deity": 0,
-            "description": "Increases the trigger frequency of Fettering poisons.",
-            "description_pvp": "Increases the trigger frequency of Fettering poisons.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases trigger chance and snare amount by 3%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 308
-            },
-            "id": 205185270,
-            "last_update": 1366730584.619415,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Fettering Poison",
-            "name_lower": "enhance: fettering poison",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730584.619415,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1885374093,
-            "deity": 0,
-            "description": "Increases the trigger frequency of Fettering poisons.",
-            "description_pvp": "Increases the trigger frequency of Fettering poisons.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases trigger chance and snare amount by 12%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 308
-            },
-            "id": 2291764891,
-            "last_update": 1366730456.066639,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Fettering Poison",
-            "name_lower": "enhance: fettering poison",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730456.066639,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 308
             },
             "id": 362180589,
-            "last_update": 1366730455.902087,
+            "last_update": 1387584602.784803,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Fettering Poison",
@@ -161,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730455.902087,
+            "ts": 1387584602.784803,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -194,7 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases trigger chance and snare amount by 6%",
+                    "description": "Increases trigger chance and snare amount by 12%",
                     "indentation": 0
                 }
             ],
@@ -204,8 +100,8 @@
                 "icon_heroic_op": -1,
                 "id": 308
             },
-            "id": 1885062445,
-            "last_update": 1366730451.402878,
+            "id": 2291764891,
+            "last_update": 1387584602.7197,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Fettering Poison",
@@ -213,12 +109,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730451.402878,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584602.7197,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +157,7 @@
                 "id": 308
             },
             "id": 3981714523,
-            "last_update": 1366730431.564348,
+            "last_update": 1387584602.640601,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Fettering Poison",
@@ -269,10 +167,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730431.564348,
+            "ts": 1387584602.640601,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1885374093,
+            "deity": 0,
+            "description": "Increases the trigger frequency of Fettering poisons.",
+            "description_pvp": "Increases the trigger frequency of Fettering poisons.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases trigger chance and snare amount by 6%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 308
+            },
+            "id": 1885062445,
+            "last_update": 1387584602.575493,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Fettering Poison",
+            "name_lower": "enhance: fettering poison",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584602.575493,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1885374093,
+            "deity": 0,
+            "description": "Increases the trigger frequency of Fettering poisons.",
+            "description_pvp": "Increases the trigger frequency of Fettering poisons.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases trigger chance and snare amount by 3%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 308
+            },
+            "id": 205185270,
+            "last_update": 1387584602.535404,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Fettering Poison",
+            "name_lower": "enhance: fettering poison",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584602.535404,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

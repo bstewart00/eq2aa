@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730555.607781,
+    "min_ts": 1387584968.566915,
     "returned": 3,
-    "seconds": 0.015967130661010742,
+    "seconds": 0.14303088188171387,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,15 +34,15 @@
             },
             "effect_list": [
                 {
+                    "description": "Allows Synergism to trigger off of combat arts.",
+                    "indentation": 0
+                },
+                {
                     "description": "Adds Agility and Strength to Rune of Thought.",
                     "indentation": 0
                 },
                 {
                     "description": "Adds Agility, Strength and Weapon Skills to Flash of Brilliance.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Allows Synergism to trigger off of combat arts.",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 272
             },
             "id": 1673147229,
-            "last_update": 1366730631.497291,
+            "last_update": 1387584968.752442,
             "level": 0,
             "max_targets": 0,
             "name": "Illusionist's Gifts",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730631.497291,
+            "ts": 1387584968.752442,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -74,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -109,7 +113,7 @@
                 "id": 272
             },
             "id": 4273328683,
-            "last_update": 1366730622.178731,
+            "last_update": 1387584968.673948,
             "level": 0,
             "max_targets": 0,
             "name": "Illusionist's Gifts",
@@ -119,10 +123,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730622.178731,
+            "ts": 1387584968.673948,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -132,8 +136,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -156,14 +162,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 272
             },
             "id": 2194995184,
-            "last_update": 1366730555.607781,
+            "last_update": 1387584968.566915,
             "level": 0,
             "max_targets": 0,
             "name": "Illusionist's Gifts",
@@ -173,10 +179,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730555.607781,
+            "ts": 1387584968.566915,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

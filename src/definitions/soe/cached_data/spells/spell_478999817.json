@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730614.13627,
+    "min_ts": 1387584231.658463,
     "returned": 2,
-    "seconds": 0.015076875686645508,
+    "seconds": 0.015564203262329102,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,70 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 478999817,
-            "deity": 0,
-            "description": "Raging Whirlwind has a chance to finish the reuse of Call of Storms.",
-            "description_pvp": "Raging Whirlwind has a chance to finish the reuse of Call of Storms.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a spell cast this spell has a 12.5% chance to cast Storm Call on caster.  Lasts for 5.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "This effect only triggers when Raging Whirlwind is cast.",
-                    "indentation": 1
-                },
-                {
-                    "description": "Clears the reuse on Call of Storms.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 126
-            },
-            "id": 895013840,
-            "last_update": 1366730632.882355,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Storm Call",
-            "name_lower": "storm call",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730632.882355,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -113,7 +53,7 @@
                 "id": 126
             },
             "id": 2291318558,
-            "last_update": 1366730614.13627,
+            "last_update": 1387584231.743956,
             "level": 0,
             "max_targets": 0,
             "name": "Storm Call",
@@ -123,10 +63,74 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730614.13627,
+            "ts": 1387584231.743956,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 478999817,
+            "deity": 0,
+            "description": "Raging Whirlwind has a chance to finish the reuse of Call of Storms.",
+            "description_pvp": "Raging Whirlwind has a chance to finish the reuse of Call of Storms.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a spell cast this spell has a 12.5% chance to cast Storm Call on caster.  Lasts for 5.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "This effect only triggers when Raging Whirlwind is cast.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Clears the reuse on Call of Storms.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 126
+            },
+            "id": 895013840,
+            "last_update": 1387584231.658463,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Storm Call",
+            "name_lower": "storm call",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584231.658463,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

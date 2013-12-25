@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.85864,
+    "min_ts": 1387585204.017923,
     "returned": 10,
-    "seconds": 0.020856857299804688,
+    "seconds": 0.01680588722229004,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,508 +33,12 @@
                 "min_sec_tenths": 240
             },
             "effect_list": [
-                {
-                    "description": "Increases Mitigation of target vs noxious damage by 0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Your target must be poisoned to use this ability!",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 693
-            },
-            "id": 2624429456,
-            "last_update": 1366730649.658081,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Poison Combination",
-            "name_lower": "poison combination",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730649.658081,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 2963789172,
-            "deity": 0,
-            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 240,
-                "min_sec_tenths": 240
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Mitigation of target vs noxious damage by 0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 - 3 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Your target must be poisoned to use this ability!",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 693
-            },
-            "id": 2244022923,
-            "last_update": 1366730639.712504,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Poison Combination",
-            "name_lower": "poison combination",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730639.712504,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 2963789172,
-            "deity": 0,
-            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 240,
-                "min_sec_tenths": 240
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Mitigation of target vs noxious damage by 0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 - 3 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Your target must be poisoned to use this ability!",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 693
-            },
-            "id": 4188026704,
-            "last_update": 1366730638.179154,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Poison Combination",
-            "name_lower": "poison combination",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730638.179154,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 2963789172,
-            "deity": 0,
-            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 240,
-                "min_sec_tenths": 240
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Mitigation of target vs noxious damage by 0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 5 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Your target must be poisoned to use this ability!",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 693
-            },
-            "id": 731377099,
-            "last_update": 1366730633.22548,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Poison Combination",
-            "name_lower": "poison combination",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730633.22548,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 2963789172,
-            "deity": 0,
-            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 240,
-                "min_sec_tenths": 240
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Mitigation of target vs noxious damage by 0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 - 3 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Your target must be poisoned to use this ability!",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 693
-            },
-            "id": 1689245222,
-            "last_update": 1366730623.318953,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Poison Combination",
-            "name_lower": "poison combination",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730623.318953,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 2963789172,
-            "deity": 0,
-            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 240,
-                "min_sec_tenths": 240
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Mitigation of target vs noxious damage by 0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Your target must be poisoned to use this ability!",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 693
-            },
-            "id": 3758929995,
-            "last_update": 1366730621.965061,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Poison Combination",
-            "name_lower": "poison combination",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730621.965061,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 2963789172,
-            "deity": 0,
-            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 240,
-                "min_sec_tenths": 240
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Mitigation of target vs noxious damage by 0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Your target must be poisoned to use this ability!",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 693
-            },
-            "id": 23231718,
-            "last_update": 1366730460.138672,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Poison Combination",
-            "name_lower": "poison combination",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730460.138672,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 2963789172,
-            "deity": 0,
-            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 240,
-                "min_sec_tenths": 240
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Mitigation of target vs noxious damage by 0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 5 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Your target must be poisoned to use this ability!",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 693
-            },
-            "id": 2097371453,
-            "last_update": 1366730459.367958,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Poison Combination",
-            "name_lower": "poison combination",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730459.367958,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 2963789172,
-            "deity": 0,
-            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 240,
-                "min_sec_tenths": 240
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Mitigation of target vs noxious damage by 0",
-                    "indentation": 0
-                },
                 {
                     "description": "Inflicts 3 - 6 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Mitigation of target vs noxious damage by 0",
                     "indentation": 0
                 },
                 {
@@ -547,7 +53,7 @@
                 "id": 693
             },
             "id": 1811608548,
-            "last_update": 1366730451.408705,
+            "last_update": 1387585205.170862,
             "level": 0,
             "max_targets": 0,
             "name": "Poison Combination",
@@ -557,10 +63,10 @@
             "spellbook": 1,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730451.408705,
+            "ts": 1387585205.170862,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -570,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -590,11 +98,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Mitigation of target vs noxious damage by 0",
+                    "description": "Inflicts 3 - 5 melee damage on target",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 3 - 5 melee damage on target",
+                    "description": "Increases Mitigation of target vs noxious damage by 0",
                     "indentation": 0
                 },
                 {
@@ -609,7 +117,7 @@
                 "id": 693
             },
             "id": 3063418045,
-            "last_update": 1366730438.85864,
+            "last_update": 1387585205.007667,
             "level": 0,
             "max_targets": 0,
             "name": "Poison Combination",
@@ -619,10 +127,522 @@
             "spellbook": 1,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730438.85864,
+            "ts": 1387585205.007667,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 2963789172,
+            "deity": 0,
+            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 3 - 5 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Mitigation of target vs noxious damage by 0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Your target must be poisoned to use this ability!",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 693
+            },
+            "id": 731377099,
+            "last_update": 1387585204.8573,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Poison Combination",
+            "name_lower": "poison combination",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387585204.8573,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 2963789172,
+            "deity": 0,
+            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 3 - 5 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Mitigation of target vs noxious damage by 0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Your target must be poisoned to use this ability!",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 693
+            },
+            "id": 2097371453,
+            "last_update": 1387585204.754131,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Poison Combination",
+            "name_lower": "poison combination",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585204.754131,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 2963789172,
+            "deity": 0,
+            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 2 - 4 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Mitigation of target vs noxious damage by 0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Your target must be poisoned to use this ability!",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 693
+            },
+            "id": 3758929995,
+            "last_update": 1387585204.618407,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Poison Combination",
+            "name_lower": "poison combination",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387585204.618407,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 2963789172,
+            "deity": 0,
+            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 2 - 4 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Mitigation of target vs noxious damage by 0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Your target must be poisoned to use this ability!",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 693
+            },
+            "id": 2624429456,
+            "last_update": 1387585204.527307,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Poison Combination",
+            "name_lower": "poison combination",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585204.527307,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 2963789172,
+            "deity": 0,
+            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 2 - 4 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Mitigation of target vs noxious damage by 0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Your target must be poisoned to use this ability!",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 693
+            },
+            "id": 23231718,
+            "last_update": 1387585204.367225,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Poison Combination",
+            "name_lower": "poison combination",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585204.367225,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 2963789172,
+            "deity": 0,
+            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 2 - 3 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Mitigation of target vs noxious damage by 0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Your target must be poisoned to use this ability!",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 693
+            },
+            "id": 1689245222,
+            "last_update": 1387585204.218708,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Poison Combination",
+            "name_lower": "poison combination",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585204.218708,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 2963789172,
+            "deity": 0,
+            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 2 - 3 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Mitigation of target vs noxious damage by 0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Your target must be poisoned to use this ability!",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 693
+            },
+            "id": 4188026704,
+            "last_update": 1387585204.099597,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Poison Combination",
+            "name_lower": "poison combination",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585204.099597,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 2963789172,
+            "deity": 0,
+            "description": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "description_pvp": "A melee attack that can only be used on a poisoned target. It severely reduces the target's poison resistance for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 2 - 3 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Mitigation of target vs noxious damage by 0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Your target must be poisoned to use this ability!",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 693
+            },
+            "id": 2244022923,
+            "last_update": 1387585204.017923,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Poison Combination",
+            "name_lower": "poison combination",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585204.017923,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

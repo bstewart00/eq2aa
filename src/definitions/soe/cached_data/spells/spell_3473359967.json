@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.089977,
+    "min_ts": 1387585101.874195,
     "returned": 3,
-    "seconds": 0.015969038009643555,
+    "seconds": 0.018008947372436523,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3473359967,
-            "deity": 0,
-            "description": "Increases the group's potency when Sanctify loses an increment. This effect can increment up to 10 times.",
-            "description_pvp": "Increases the group's potency when Sanctify loses an increment. This effect can increment up to 10 times.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Sanctify will increase the target group's potency by 0.5% when triggered. This increments up to 10 times.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 516
-            },
-            "id": 1401261229,
-            "last_update": 1366730617.294382,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Holy Army",
-            "name_lower": "holy army",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730617.294382,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3473359967,
-            "deity": 0,
-            "description": "Increases the group's potency when Sanctify loses an increment. This effect can increment up to 10 times.",
-            "description_pvp": "Increases the group's potency when Sanctify loses an increment. This effect can increment up to 10 times.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Sanctify will increase the target group's potency by 1% when triggered. This increments up to 10 times.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 516
-            },
-            "id": 803514742,
-            "last_update": 1366730460.45266,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Holy Army",
-            "name_lower": "holy army",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730460.45266,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 516
             },
             "id": 3001763840,
-            "last_update": 1366730440.089977,
+            "last_update": 1387585101.965723,
             "level": 0,
             "max_targets": 0,
             "name": "Holy Army",
@@ -161,10 +55,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730440.089977,
+            "ts": 1387585101.965723,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3473359967,
+            "deity": 0,
+            "description": "Increases the group's potency when Sanctify loses an increment. This effect can increment up to 10 times.",
+            "description_pvp": "Increases the group's potency when Sanctify loses an increment. This effect can increment up to 10 times.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Sanctify will increase the target group's potency by 1% when triggered. This increments up to 10 times.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 516
+            },
+            "id": 803514742,
+            "last_update": 1387585101.914076,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Holy Army",
+            "name_lower": "holy army",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585101.914076,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3473359967,
+            "deity": 0,
+            "description": "Increases the group's potency when Sanctify loses an increment. This effect can increment up to 10 times.",
+            "description_pvp": "Increases the group's potency when Sanctify loses an increment. This effect can increment up to 10 times.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Sanctify will increase the target group's potency by 0.5% when triggered. This increments up to 10 times.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 516
+            },
+            "id": 1401261229,
+            "last_update": 1387585101.874195,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Holy Army",
+            "name_lower": "holy army",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585101.874195,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

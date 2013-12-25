@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730583.052949,
+    "min_ts": 1387584369.598046,
     "returned": 1,
-    "seconds": 0.014184951782226562,
+    "seconds": 0.01481008529663086,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -48,14 +50,14 @@
                     "indentation": 1
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 591
             },
             "id": 1800706038,
-            "last_update": 1366730583.052949,
+            "last_update": 1387584369.598046,
             "level": 0,
             "max_targets": 0,
             "name": "Mesmerizing Trance",
@@ -65,10 +67,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730583.052949,
+            "ts": 1387584369.598046,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

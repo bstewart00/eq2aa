@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730633.832156,
+    "min_ts": 1387585485.901382,
     "returned": 1,
-    "seconds": 0.014136075973510742,
+    "seconds": 0.015822887420654297,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the damage of hostile spells and combat arts by 10%.",
+                    "description": "Increases the casting time of beneficial spells by 15%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the defilers heal and ward amounts by 10%.",
                     "indentation": 0
                 },
                 {
@@ -48,15 +54,11 @@
                     "indentation": 2
                 },
                 {
+                    "description": "Improves the damage of hostile spells and combat arts by 10%.",
+                    "indentation": 0
+                },
+                {
                     "description": "Improves the critical damage of hostile spells and combat arts by 5%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces the defilers heal and ward amounts by 10%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the casting time of beneficial spells by 15%.",
                     "indentation": 0
                 }
             ],
@@ -67,7 +69,7 @@
                 "id": 883
             },
             "id": 3617833653,
-            "last_update": 1366730633.832156,
+            "last_update": 1387585485.901382,
             "level": 0,
             "max_targets": 0,
             "name": "Spiritual Ally",
@@ -77,10 +79,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730633.832156,
+            "ts": 1387585485.901382,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

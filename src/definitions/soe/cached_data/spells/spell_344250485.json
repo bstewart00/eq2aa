@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730618.95248,
+    "min_ts": 1387584198.38241,
     "returned": 3,
-    "seconds": 0.015341043472290039,
+    "seconds": 0.016443967819213867,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -44,89 +46,15 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Crit Bonus of group members (AE) by 6.0%",
-                    "indentation": 2
-                },
-                {
                     "description": "Only triggers on auto-attack.",
                     "indentation": 2
                 },
                 {
                     "description": "Inflicts 3 - 6 slashing damage on target",
                     "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 862
-            },
-            "id": 1094045193,
-            "last_update": 1366730640.684021,
-            "level": 0,
-            "max_targets": 8,
-            "name": "Saga of Bloodshed",
-            "name_lower": "saga of bloodshed",
-            "recast_secs": 44.466404,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730640.684021,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 10.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 18,
-                "savagery": 0
-            },
-            "crc": 344250485,
-            "deity": 0,
-            "description": "Inflicts melee damage to enemies surrounding the berserker. For every target the spell hits, the berserker get an increment of Saga, which inflicts additional damage with the next strike and grants Crit Bonus to the berserker's group. Higher ranks of this ability reduce the reuse time. Saga can increment up to 6 times.",
-            "description_pvp": "Inflicts melee damage to enemies surrounding the berserker. For every target the spell hits, the berserker get an increment of Saga, which inflicts additional damage with the next strike and grants Crit Bonus to the berserker's group. Higher ranks of this ability reduce the reuse time. Saga can increment up to 6 times.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Inflicts 2 - 4 melee damage on targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "Applies Saga.  Lasts for 30.0 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "On a melee hit this spell will cast Saga on target of attack.  Lasts for 15.0 seconds.  ",
-                    "indentation": 1
                 },
                 {
                     "description": "Increases Crit Bonus of group members (AE) by 6.0%",
-                    "indentation": 2
-                },
-                {
-                    "description": "Only triggers on auto-attack.",
-                    "indentation": 2
-                },
-                {
-                    "description": "Inflicts 3 - 6 slashing damage on target",
                     "indentation": 2
                 }
             ],
@@ -137,7 +65,7 @@
                 "id": 862
             },
             "id": 2627934092,
-            "last_update": 1366730619.974529,
+            "last_update": 1387584199.100251,
             "level": 0,
             "max_targets": 8,
             "name": "Saga of Bloodshed",
@@ -147,10 +75,10 @@
             "spellbook": 1,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730619.974529,
+            "ts": 1387584199.100251,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -160,8 +88,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -192,8 +122,80 @@
                     "indentation": 1
                 },
                 {
+                    "description": "Only triggers on auto-attack.",
+                    "indentation": 2
+                },
+                {
+                    "description": "Inflicts 3 - 6 slashing damage on target",
+                    "indentation": 2
+                },
+                {
                     "description": "Increases Crit Bonus of group members (AE) by 6.0%",
                     "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 862
+            },
+            "id": 1094045193,
+            "last_update": 1387584198.742917,
+            "level": 0,
+            "max_targets": 8,
+            "name": "Saga of Bloodshed",
+            "name_lower": "saga of bloodshed",
+            "recast_secs": 44.466404,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584198.742917,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 10.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 344250485,
+            "deity": 0,
+            "description": "Inflicts melee damage to enemies surrounding the berserker. For every target the spell hits, the berserker get an increment of Saga, which inflicts additional damage with the next strike and grants Crit Bonus to the berserker's group. Higher ranks of this ability reduce the reuse time. Saga can increment up to 6 times.",
+            "description_pvp": "Inflicts melee damage to enemies surrounding the berserker. For every target the spell hits, the berserker get an increment of Saga, which inflicts additional damage with the next strike and grants Crit Bonus to the berserker's group. Higher ranks of this ability reduce the reuse time. Saga can increment up to 6 times.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 2 - 4 melee damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Saga.  Lasts for 30.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On a melee hit this spell will cast Saga on target of attack.  Lasts for 15.0 seconds.  ",
+                    "indentation": 1
                 },
                 {
                     "description": "Only triggers on auto-attack.",
@@ -201,6 +203,10 @@
                 },
                 {
                     "description": "Inflicts 3 - 6 slashing damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Increases Crit Bonus of group members (AE) by 6.0%",
                     "indentation": 2
                 }
             ],
@@ -211,7 +217,7 @@
                 "id": 862
             },
             "id": 4244611783,
-            "last_update": 1366730618.95248,
+            "last_update": 1387584198.38241,
             "level": 0,
             "max_targets": 8,
             "name": "Saga of Bloodshed",
@@ -221,10 +227,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730618.95248,
+            "ts": 1387584198.38241,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730619.780287,
+    "min_ts": 1387584607.719669,
     "returned": 1,
-    "seconds": 0.01628899574279785,
+    "seconds": 0.014986038208007812,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,11 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases threat priority of target by 1 position",
+                    "description": "Prevents you from recasting Safehouse for 5 minutes.",
                     "indentation": 1
                 },
                 {
-                    "description": "Prevents you from recasting Safehouse for 5 minutes.",
+                    "description": "Decreases threat priority of target by 1 position",
                     "indentation": 1
                 },
                 {
@@ -59,7 +61,7 @@
                 "id": 34
             },
             "id": 3993719710,
-            "last_update": 1366730619.780287,
+            "last_update": 1387584607.719669,
             "level": 0,
             "max_targets": 0,
             "name": "Safehouse",
@@ -69,10 +71,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730619.780287,
+            "ts": 1387584607.719669,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

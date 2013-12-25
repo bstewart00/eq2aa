@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730452.755458,
+    "min_ts": 1387584138.89519,
     "returned": 3,
-    "seconds": 0.021304845809936523,
+    "seconds": 0.015136957168579102,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,61 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the Stamina Bonus of Caster by 68.0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 43
-            },
-            "id": 1485943121,
-            "last_update": 1366730623.24939,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Battlescarred",
-            "name_lower": "battlescarred",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730623.24939,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3339475598,
-            "deity": 0,
-            "description": "Passively increases the amount of health gained from stamina.",
-            "description_pvp": "Passively increases the amount of health gained from stamina.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the Stamina Bonus of Caster by 102.0",
+                    "description": "Increases the Stamina Bonus of Caster by 300.0",
                     "indentation": 0
                 }
             ],
@@ -97,7 +45,7 @@
                 "id": 43
             },
             "id": 3315486759,
-            "last_update": 1366730622.51827,
+            "last_update": 1387584139.216872,
             "level": 0,
             "max_targets": 0,
             "name": "Battlescarred",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730622.51827,
+            "ts": 1387584139.216872,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -140,7 +90,63 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the Stamina Bonus of Caster by 34.0",
+                    "description": "Increases the Stamina Bonus of Caster by 200.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 43
+            },
+            "id": 1485943121,
+            "last_update": 1387584139.019314,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Battlescarred",
+            "name_lower": "battlescarred",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584139.019314,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3339475598,
+            "deity": 0,
+            "description": "Passively increases the amount of health gained from stamina.",
+            "description_pvp": "Passively increases the amount of health gained from stamina.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the Stamina Bonus of Caster by 100.0",
                     "indentation": 0
                 }
             ],
@@ -151,7 +157,7 @@
                 "id": 43
             },
             "id": 619746442,
-            "last_update": 1366730452.755458,
+            "last_update": 1387584138.89519,
             "level": 0,
             "max_targets": 0,
             "name": "Battlescarred",
@@ -161,10 +167,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730452.755458,
+            "ts": 1387584138.89519,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

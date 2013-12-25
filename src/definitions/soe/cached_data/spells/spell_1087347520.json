@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730454.530097,
+    "min_ts": 1387585623.483314,
     "returned": 5,
-    "seconds": 0.023540973663330078,
+    "seconds": 0.015482902526855469,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,244 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Enemies attacking the target of Demonstration of Faith will have their arcane mitigation reduced",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 6 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 469
-            },
-            "id": 1967122872,
-            "last_update": 1366730653.984616,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Demonstration of Faith",
-            "name_lower": "enhance: demonstration of faith",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730653.984616,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1087347520,
-            "deity": 0,
-            "description": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
-            "description_pvp": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Enemies attacking the target of Demonstration of Faith will have their arcane mitigation reduced",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 9 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 469
-            },
-            "id": 3895462094,
-            "last_update": 1366730648.560566,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Demonstration of Faith",
-            "name_lower": "enhance: demonstration of faith",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730648.560566,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1087347520,
-            "deity": 0,
-            "description": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
-            "description_pvp": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Enemies attacking the target of Demonstration of Faith will have their arcane mitigation reduced",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 12 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 469
-            },
-            "id": 2382209550,
-            "last_update": 1366730642.521303,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Demonstration of Faith",
-            "name_lower": "enhance: demonstration of faith",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730642.521303,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1087347520,
-            "deity": 0,
-            "description": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
-            "description_pvp": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Enemies attacking the target of Demonstration of Faith will have their arcane mitigation reduced",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 3 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 469
-            },
-            "id": 157207651,
-            "last_update": 1366730637.483126,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Demonstration of Faith",
-            "name_lower": "enhance: demonstration of faith",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730637.483126,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1087347520,
-            "deity": 0,
-            "description": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
-            "description_pvp": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Enemies attacking the target of Demonstration of Faith will have their arcane mitigation reduced",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves reuse speed by 15 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Enemies attacking the target of Demonstration of Faith will have their arcane mitigation reduced",
                     "indentation": 0
                 }
             ],
@@ -279,7 +49,7 @@
                 "id": 469
             },
             "id": 284312440,
-            "last_update": 1366730454.530097,
+            "last_update": 1387585623.76602,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Demonstration of Faith",
@@ -289,10 +59,250 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730454.530097,
+            "ts": 1387585623.76602,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1087347520,
+            "deity": 0,
+            "description": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
+            "description_pvp": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 12 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Enemies attacking the target of Demonstration of Faith will have their arcane mitigation reduced",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 469
+            },
+            "id": 2382209550,
+            "last_update": 1387585623.643659,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Demonstration of Faith",
+            "name_lower": "enhance: demonstration of faith",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585623.643659,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1087347520,
+            "deity": 0,
+            "description": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
+            "description_pvp": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 9 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Enemies attacking the target of Demonstration of Faith will have their arcane mitigation reduced",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 469
+            },
+            "id": 3895462094,
+            "last_update": 1387585623.563745,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Demonstration of Faith",
+            "name_lower": "enhance: demonstration of faith",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585623.563745,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1087347520,
+            "deity": 0,
+            "description": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
+            "description_pvp": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 3 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Enemies attacking the target of Demonstration of Faith will have their arcane mitigation reduced",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 469
+            },
+            "id": 157207651,
+            "last_update": 1387585623.484773,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Demonstration of Faith",
+            "name_lower": "enhance: demonstration of faith",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585623.484773,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1087347520,
+            "deity": 0,
+            "description": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
+            "description_pvp": "Enemies striking the target will have their arcane mitigation reduced. Additionally, this spell hastens the reuse speed of Demonstration of Faith.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 6 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Enemies attacking the target of Demonstration of Faith will have their arcane mitigation reduced",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 469
+            },
+            "id": 1967122872,
+            "last_update": 1387585623.483314,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Demonstration of Faith",
+            "name_lower": "enhance: demonstration of faith",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585623.483314,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730441.579726,
+    "min_ts": 1387584731.396754,
     "returned": 10,
-    "seconds": 0.0156710147857666,
+    "seconds": 0.01712799072265625,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +49,7 @@
                 "id": 11
             },
             "id": 1559541059,
-            "last_update": 1366730648.771129,
+            "last_update": 1387584732.278247,
             "level": 0,
             "max_targets": 0,
             "name": "Insect's Might",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730648.771129,
+            "ts": 1387584732.278247,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,356 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3527528487,
-            "deity": 0,
-            "description": "Improves the duration of Insect's Might.",
-            "description_pvp": "Improves the duration of Insect's Might.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Insect's Might to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the duration of Insect's Might by 80%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 479832940,
-            "last_update": 1366730640.340631,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Insect's Might",
-            "name_lower": "insect's might",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730640.340631,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3527528487,
-            "deity": 0,
-            "description": "Improves the duration of Insect's Might.",
-            "description_pvp": "Improves the duration of Insect's Might.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Insect's Might to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the duration of Insect's Might by 40%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 913062465,
-            "last_update": 1366730626.297797,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Insect's Might",
-            "name_lower": "insect's might",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730626.297797,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3527528487,
-            "deity": 0,
-            "description": "Improves the duration of Insect's Might.",
-            "description_pvp": "Improves the duration of Insect's Might.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Insect's Might to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the duration of Insect's Might by 60%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3607297772,
-            "last_update": 1366730463.920449,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Insect's Might",
-            "name_lower": "insect's might",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730463.920449,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3527528487,
-            "deity": 0,
-            "description": "Improves the duration of Insect's Might.",
-            "description_pvp": "Improves the duration of Insect's Might.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Insect's Might to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the duration of Insect's Might by 30%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 1403097217,
-            "last_update": 1366730460.648983,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Insect's Might",
-            "name_lower": "insect's might",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730460.648983,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3527528487,
-            "deity": 0,
-            "description": "Improves the duration of Insect's Might.",
-            "description_pvp": "Improves the duration of Insect's Might.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Insect's Might to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the duration of Insect's Might by 70%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 1242374042,
-            "last_update": 1366730457.755493,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Insect's Might",
-            "name_lower": "insect's might",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730457.755493,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3527528487,
-            "deity": 0,
-            "description": "Improves the duration of Insect's Might.",
-            "description_pvp": "Improves the duration of Insect's Might.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Insect's Might to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the duration of Insect's Might by 10%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 2999931948,
-            "last_update": 1366730452.05061,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Insect's Might",
-            "name_lower": "insect's might",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730452.05061,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -453,7 +109,7 @@
                 "id": 11
             },
             "id": 2174110234,
-            "last_update": 1366730445.390874,
+            "last_update": 1387584732.175934,
             "level": 0,
             "max_targets": 0,
             "name": "Insect's Might",
@@ -463,10 +119,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730445.390874,
+            "ts": 1387584732.175934,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -476,8 +132,190 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3527528487,
+            "deity": 0,
+            "description": "Improves the duration of Insect's Might.",
+            "description_pvp": "Improves the duration of Insect's Might.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Insect's Might to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the duration of Insect's Might by 80%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 479832940,
+            "last_update": 1387584732.076639,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Insect's Might",
+            "name_lower": "insect's might",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584732.076639,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3527528487,
+            "deity": 0,
+            "description": "Improves the duration of Insect's Might.",
+            "description_pvp": "Improves the duration of Insect's Might.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Insect's Might to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the duration of Insect's Might by 70%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 1242374042,
+            "last_update": 1387584731.975918,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Insect's Might",
+            "name_lower": "insect's might",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584731.975918,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3527528487,
+            "deity": 0,
+            "description": "Improves the duration of Insect's Might.",
+            "description_pvp": "Improves the duration of Insect's Might.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Insect's Might to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the duration of Insect's Might by 60%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 3607297772,
+            "last_update": 1387584731.895997,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Insect's Might",
+            "name_lower": "insect's might",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584731.895997,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -511,7 +349,7 @@
                 "id": 11
             },
             "id": 2875448119,
-            "last_update": 1366730443.913419,
+            "last_update": 1387584731.797921,
             "level": 0,
             "max_targets": 0,
             "name": "Insect's Might",
@@ -521,10 +359,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730443.913419,
+            "ts": 1387584731.797921,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -534,8 +372,130 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3527528487,
+            "deity": 0,
+            "description": "Improves the duration of Insect's Might.",
+            "description_pvp": "Improves the duration of Insect's Might.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Insect's Might to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the duration of Insect's Might by 40%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 913062465,
+            "last_update": 1387584731.676505,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Insect's Might",
+            "name_lower": "insect's might",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584731.676505,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3527528487,
+            "deity": 0,
+            "description": "Improves the duration of Insect's Might.",
+            "description_pvp": "Improves the duration of Insect's Might.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Insect's Might to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the duration of Insect's Might by 30%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 1403097217,
+            "last_update": 1387584731.615439,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Insect's Might",
+            "name_lower": "insect's might",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584731.615439,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -569,7 +529,7 @@
                 "id": 11
             },
             "id": 3467538935,
-            "last_update": 1366730441.579726,
+            "last_update": 1387584731.476005,
             "level": 0,
             "max_targets": 0,
             "name": "Insect's Might",
@@ -579,10 +539,70 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730441.579726,
+            "ts": 1387584731.476005,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3527528487,
+            "deity": 0,
+            "description": "Improves the duration of Insect's Might.",
+            "description_pvp": "Improves the duration of Insect's Might.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Insect's Might to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the duration of Insect's Might by 10%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 2999931948,
+            "last_update": 1387584731.396754,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Insect's Might",
+            "name_lower": "insect's might",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584731.396754,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

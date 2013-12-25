@@ -5,8 +5,8 @@
                 {
                     "classification": "Swiftwind",
                     "classificationpointsrequired": 0,
-                    "description": "Winds of Salvation will grant immunity to control effects for a short duration to both the caster and the target. The final rank allows Winds of Salvation to cure hostile effects from the target and the caster. The duration of this ability increases with each rank.",
-                    "firstparentid": 1789654371,
+                    "description": "Winds of Retribution gains a chance to trigger from attacks.",
+                    "firstparentid": 527285710,
                     "firstparentrequiredtier": 3,
                     "icon": {
                         "backdrop": 460,
@@ -14,7 +14,7 @@
                     },
                     "maxtier": 3,
                     "minlevel": 1,
-                    "name": "Tranquil Breeze",
+                    "name": "Winds of Destruction",
                     "nodeid": 128919327,
                     "pointspertier": 1,
                     "pointsspentgloballytounlock": 0,
@@ -45,6 +45,29 @@
                     "titlelevel": 0,
                     "xcoord": 29,
                     "ycoord": 4
+                },
+                {
+                    "classification": "Prestige Access",
+                    "classificationpointsrequired": 0,
+                    "description": "Whenever the monk avoids an attack, they will havce a chance to gain one of three possible defensive bonuses.",
+                    "firstparentid": 1000506401,
+                    "firstparentrequiredtier": 1,
+                    "icon": {
+                        "backdrop": 461,
+                        "id": 581
+                    },
+                    "maxtier": 3,
+                    "minlevel": 1,
+                    "name": "Winds of Retribution",
+                    "nodeid": 527285710,
+                    "pointspertier": 1,
+                    "pointsspentgloballytounlock": 0,
+                    "pointsspentintreetounlock": 0,
+                    "spellcrc": 947814972,
+                    "title": "",
+                    "titlelevel": 0,
+                    "xcoord": 8,
+                    "ycoord": 11
                 },
                 {
                     "classification": "Wavewalker",
@@ -179,33 +202,10 @@
                     "ycoord": 7
                 },
                 {
-                    "classification": "Prestige Access",
-                    "classificationpointsrequired": 0,
-                    "description": "Pulls the target ally to the monk if they are outside of 10 meters away. The ally will be immune to most Area Effect abilities and takes less damage. Higher ranks of this ability lower the base reuse speed.",
-                    "firstparentid": 1000506401,
-                    "firstparentrequiredtier": 1,
-                    "icon": {
-                        "backdrop": 460,
-                        "id": 411
-                    },
-                    "maxtier": 3,
-                    "minlevel": 1,
-                    "name": "Winds of Salvation",
-                    "nodeid": 1789654371,
-                    "pointspertier": 1,
-                    "pointsspentgloballytounlock": 0,
-                    "pointsspentintreetounlock": 0,
-                    "spellcrc": 1232632704,
-                    "title": "",
-                    "titlelevel": 0,
-                    "xcoord": 8,
-                    "ycoord": 11
-                },
-                {
                     "classification": "Swiftwind",
                     "classificationpointsrequired": 0,
-                    "description": "The monk will heal their target when using Winds of Salvation.",
-                    "firstparentid": 1789654371,
+                    "description": "Increases the trigger chance of Winds of Retribution.",
+                    "firstparentid": 527285710,
                     "firstparentrequiredtier": 3,
                     "icon": {
                         "backdrop": 460,
@@ -227,19 +227,19 @@
                 {
                     "classification": "Swiftwind",
                     "classificationpointsrequired": 6,
-                    "description": "Whenever the monk ripostes, they will gain maximum health and a small increase to their riposte chance for a short duration. This can increment up to 10 times, with each increment increasing the effects.",
+                    "description": "Bob and Weave allows the monk to dodge all incoming attacks.",
                     "icon": {
                         "backdrop": 461,
                         "id": 674
                     },
                     "maxtier": 1,
                     "minlevel": 1,
-                    "name": "Winds of Retribution",
+                    "name": "Bob and Weave",
                     "nodeid": 2339401823,
                     "pointspertier": 1,
                     "pointsspentgloballytounlock": 0,
                     "pointsspentintreetounlock": 0,
-                    "spellcrc": 3780164644,
+                    "spellcrc": 322414485,
                     "title": "the Swiftwind",
                     "titlelevel": 1,
                     "xcoord": 8,
@@ -269,8 +269,8 @@
                 {
                     "classification": "Swiftwind",
                     "classificationpointsrequired": 0,
-                    "description": "Winds of Salvation will reflect some of the damage reduced to the enemies attacking the target ally.",
-                    "firstparentid": 1789654371,
+                    "description": "Winds of Retribution's effects will grant the monk additional Weapon Damage Bonus.",
+                    "firstparentid": 527285710,
                     "firstparentrequiredtier": 3,
                     "icon": {
                         "backdrop": 459,
@@ -492,7 +492,7 @@
             "foreveryxpoints": 6,
             "id": 106,
             "iswardertree": "false",
-            "last_update": 1380751544.236615,
+            "last_update": 1386901258.546612,
             "maximumpoints": 0,
             "maxpointsperlevelnode_list": [
                 {
@@ -504,13 +504,13 @@
             "name": "Prestige",
             "ofxclassification": "Prestige",
             "ofyclassification": "Prestige Expertise",
-            "ts": 1380751544.236615,
+            "ts": 1386901258.546612,
             "unlocksypoints": 1,
             "version": 2
         }
     ],
     "limit": 1,
-    "min_ts": 1380751544.236615,
+    "min_ts": 1386901258.546612,
     "returned": 1,
-    "seconds": 0.014850139617919922
+    "seconds": 0.015758991241455078
 }

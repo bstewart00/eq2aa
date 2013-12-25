@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.29347,
+    "min_ts": 1387584492.753906,
     "returned": 3,
-    "seconds": 0.055567026138305664,
+    "seconds": 0.01694488525390625,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 741841378,
-            "deity": 0,
-            "description": "When Wraithwall absorbs damage, it will reduce incoming damage to the target for a short duration.",
-            "description_pvp": "When Wraithwall absorbs damage, it will reduce incoming damage to the target for a short duration.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Wraithwall will reduce damage to the target by 5% when the ward absorbs damage. This can only trigger once every 20 seconds per target.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 468
-            },
-            "id": 722126632,
-            "last_update": 1366730638.931259,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Dominated Defenses",
-            "name_lower": "dominated defenses",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730638.931259,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 741841378,
-            "deity": 0,
-            "description": "When Wraithwall absorbs damage, it will reduce incoming damage to the target for a short duration.",
-            "description_pvp": "When Wraithwall absorbs damage, it will reduce incoming damage to the target for a short duration.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Wraithwall will reduce damage to the target by 10% when the ward absorbs damage. This can only trigger once every 20 seconds per target.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 468
-            },
-            "id": 2529209318,
-            "last_update": 1366730461.034642,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Dominated Defenses",
-            "name_lower": "dominated defenses",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730461.034642,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 468
             },
             "id": 1263956579,
-            "last_update": 1366730443.29347,
+            "last_update": 1387584492.914311,
             "level": 0,
             "max_targets": 0,
             "name": "Dominated Defenses",
@@ -161,10 +55,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730443.29347,
+            "ts": 1387584492.914311,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 741841378,
+            "deity": 0,
+            "description": "When Wraithwall absorbs damage, it will reduce incoming damage to the target for a short duration.",
+            "description_pvp": "When Wraithwall absorbs damage, it will reduce incoming damage to the target for a short duration.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Wraithwall will reduce damage to the target by 10% when the ward absorbs damage. This can only trigger once every 20 seconds per target.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 468
+            },
+            "id": 2529209318,
+            "last_update": 1387584492.874323,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Dominated Defenses",
+            "name_lower": "dominated defenses",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584492.874323,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 741841378,
+            "deity": 0,
+            "description": "When Wraithwall absorbs damage, it will reduce incoming damage to the target for a short duration.",
+            "description_pvp": "When Wraithwall absorbs damage, it will reduce incoming damage to the target for a short duration.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Wraithwall will reduce damage to the target by 5% when the ward absorbs damage. This can only trigger once every 20 seconds per target.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 468
+            },
+            "id": 722126632,
+            "last_update": 1387584492.753906,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Dominated Defenses",
+            "name_lower": "dominated defenses",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584492.753906,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

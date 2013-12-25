@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730462.123584,
+    "min_ts": 1387584842.543094,
     "returned": 5,
-    "seconds": 0.01529693603515625,
+    "seconds": 0.01562809944152832,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 244
             },
             "id": 225166962,
-            "last_update": 1366730650.152324,
+            "last_update": 1387584842.783489,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Lunar Attendant",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730650.152324,
+            "ts": 1387584842.783489,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,170 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1516438690,
-            "deity": 0,
-            "description": "Improves the reuse speed of Lunar Attendant and its higher level upgrades.",
-            "description_pvp": "Improves the reuse speed of Lunar Attendant and its higher level upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 6 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 244
-            },
-            "id": 2422482692,
-            "last_update": 1366730642.771571,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Lunar Attendant",
-            "name_lower": "enhance: lunar attendant",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730642.771571,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1516438690,
-            "deity": 0,
-            "description": "Improves the reuse speed of Lunar Attendant and its higher level upgrades.",
-            "description_pvp": "Improves the reuse speed of Lunar Attendant and its higher level upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 3 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 244
-            },
-            "id": 3959751391,
-            "last_update": 1366730642.33401,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Lunar Attendant",
-            "name_lower": "enhance: lunar attendant",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730642.33401,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1516438690,
-            "deity": 0,
-            "description": "Improves the reuse speed of Lunar Attendant and its higher level upgrades.",
-            "description_pvp": "Improves the reuse speed of Lunar Attendant and its higher level upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 12 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 244
-            },
-            "id": 1755737266,
-            "last_update": 1366730617.825559,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Lunar Attendant",
-            "name_lower": "enhance: lunar attendant",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730617.825559,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +101,7 @@
                 "id": 244
             },
             "id": 4121529796,
-            "last_update": 1366730462.123584,
+            "last_update": 1387584842.762218,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Lunar Attendant",
@@ -269,10 +111,178 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730462.123584,
+            "ts": 1387584842.762218,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1516438690,
+            "deity": 0,
+            "description": "Improves the reuse speed of Lunar Attendant and its higher level upgrades.",
+            "description_pvp": "Improves the reuse speed of Lunar Attendant and its higher level upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 12 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 244
+            },
+            "id": 1755737266,
+            "last_update": 1387584842.762217,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Lunar Attendant",
+            "name_lower": "enhance: lunar attendant",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584842.762217,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1516438690,
+            "deity": 0,
+            "description": "Improves the reuse speed of Lunar Attendant and its higher level upgrades.",
+            "description_pvp": "Improves the reuse speed of Lunar Attendant and its higher level upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 6 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 244
+            },
+            "id": 2422482692,
+            "last_update": 1387584842.580424,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Lunar Attendant",
+            "name_lower": "enhance: lunar attendant",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584842.580424,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1516438690,
+            "deity": 0,
+            "description": "Improves the reuse speed of Lunar Attendant and its higher level upgrades.",
+            "description_pvp": "Improves the reuse speed of Lunar Attendant and its higher level upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 3 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 244
+            },
+            "id": 3959751391,
+            "last_update": 1387584842.543094,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Lunar Attendant",
+            "name_lower": "enhance: lunar attendant",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584842.543094,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

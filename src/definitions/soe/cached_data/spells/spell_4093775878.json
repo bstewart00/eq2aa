@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730631.896988,
+    "min_ts": 1387585192.771296,
     "returned": 1,
-    "seconds": 0.013916015625,
+    "seconds": 0.01429891586303711,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,14 +33,6 @@
                 "min_sec_tenths": 360
             },
             "effect_list": [
-                {
-                    "description": "Inflicts 7 - 12 melee damage on targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 2 - 3 piercing damage on targets in Area of Effect every 4 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Applies Snare.  Lasts for 24.0 seconds.",
                     "indentation": 0
@@ -58,6 +52,14 @@
                 {
                     "description": "If Target is not Epic",
                     "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 12 melee damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 2 - 3 piercing damage on targets in Area of Effect every 4 seconds",
+                    "indentation": 0
                 }
             ],
             "given_by": "alternateadvancement",
@@ -67,7 +69,7 @@
                 "id": 558
             },
             "id": 3671997635,
-            "last_update": 1366730631.896988,
+            "last_update": 1387585192.771296,
             "level": 0,
             "max_targets": 8,
             "name": "Lance",
@@ -77,10 +79,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730631.896988,
+            "ts": 1387585192.771296,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

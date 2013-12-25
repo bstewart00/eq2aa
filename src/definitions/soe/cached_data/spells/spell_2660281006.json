@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730445.575356,
+    "min_ts": 1387584506.480271,
     "returned": 5,
-    "seconds": 0.024235963821411133,
+    "seconds": 0.042672157287597656,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the chance to critically hit by 10%.",
+                    "description": "Improves the damage by 15%",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the damage by 15%",
+                    "description": "Improves the chance to critically hit by 10%.",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 377
             },
             "id": 2930493801,
-            "last_update": 1366730642.883079,
+            "last_update": 1387584506.98994,
             "level": 0,
             "max_targets": 0,
             "name": "Flanking Chorus",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730642.883079,
+            "ts": 1387584506.98994,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -90,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the chance to critically hit by 8%.",
+                    "description": "Improves the damage by 12%",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the damage by 12%",
+                    "description": "Improves the chance to critically hit by 8%.",
                     "indentation": 0
                 }
             ],
@@ -105,7 +109,7 @@
                 "id": 377
             },
             "id": 866396191,
-            "last_update": 1366730638.808154,
+            "last_update": 1387584506.674095,
             "level": 0,
             "max_targets": 0,
             "name": "Flanking Chorus",
@@ -115,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730638.808154,
+            "ts": 1387584506.674095,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -147,70 +153,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the chance to critically hit by 2%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage by 3%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 377
-            },
-            "id": 3070707314,
-            "last_update": 1366730632.725142,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Flanking Chorus",
-            "name_lower": "flanking chorus",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730632.725142,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2660281006,
-            "deity": 0,
-            "description": "Improves the damage done by the bard's flank attack.  Also grants them an additional chance to inflict critical damage.",
-            "description_pvp": "Improves the damage done by the bard's flank attack.  Also grants them an additional chance to inflict critical damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the chance to critically hit by 6%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves the damage by 9%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the chance to critically hit by 6%.",
                     "indentation": 0
                 }
             ],
@@ -221,7 +169,7 @@
                 "id": 377
             },
             "id": 1449755359,
-            "last_update": 1366730616.013064,
+            "last_update": 1387584506.624468,
             "level": 0,
             "max_targets": 0,
             "name": "Flanking Chorus",
@@ -231,10 +179,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730616.013064,
+            "ts": 1387584506.624468,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +214,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the chance to critically hit by 4%.",
+                    "description": "Improves the damage by 6%",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the damage by 6%",
+                    "description": "Improves the chance to critically hit by 4%.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +229,7 @@
                 "id": 377
             },
             "id": 3412485033,
-            "last_update": 1366730445.575356,
+            "last_update": 1387584506.517067,
             "level": 0,
             "max_targets": 0,
             "name": "Flanking Chorus",
@@ -289,10 +239,70 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730445.575356,
+            "ts": 1387584506.517067,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2660281006,
+            "deity": 0,
+            "description": "Improves the damage done by the bard's flank attack.  Also grants them an additional chance to inflict critical damage.",
+            "description_pvp": "Improves the damage done by the bard's flank attack.  Also grants them an additional chance to inflict critical damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the damage by 3%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the chance to critically hit by 2%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 377
+            },
+            "id": 3070707314,
+            "last_update": 1387584506.480271,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Flanking Chorus",
+            "name_lower": "flanking chorus",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584506.480271,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

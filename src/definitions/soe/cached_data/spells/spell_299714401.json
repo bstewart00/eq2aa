@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730437.844842,
+    "min_ts": 1387584131.600821,
     "returned": 10,
-    "seconds": 0.022641897201538086,
+    "seconds": 0.020943880081176758,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,90 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 299714401,
-            "deity": 0,
-            "description": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
-            "description_pvp": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "If in Spiritual Stance",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases healing received by 5.00%",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Potency of group members (AE) by 5.0%",
-                    "indentation": 1
-                },
-                {
-                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Potency of group members (AE) by 5.0%",
-                    "indentation": 1
-                },
-                {
-                    "description": "If in Feral Stance",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Crit Bonus of group members (AE) by 7.5%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 826
-            },
-            "id": 880035382,
-            "last_update": 1366730626.461428,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Advantageous Advance",
-            "name_lower": "advantageous advance",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730626.461428,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -153,7 +73,7 @@
                 "id": 826
             },
             "id": 3243077538,
-            "last_update": 1366730624.403692,
+            "last_update": 1387584134.293637,
             "level": 0,
             "max_targets": 0,
             "name": "Advantageous Advance",
@@ -163,10 +83,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730624.403692,
+            "ts": 1387584134.293637,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -176,336 +96,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 299714401,
-            "deity": 0,
-            "description": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
-            "description_pvp": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "If in Spiritual Stance",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases healing received by 7.00%",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Potency of group members (AE) by 7.0%",
-                    "indentation": 1
-                },
-                {
-                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Potency of group members (AE) by 7.0%",
-                    "indentation": 1
-                },
-                {
-                    "description": "If in Feral Stance",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Crit Bonus of group members (AE) by 10.5%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 826
-            },
-            "id": 1411969917,
-            "last_update": 1366730617.23623,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Advantageous Advance",
-            "name_lower": "advantageous advance",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730617.23623,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 299714401,
-            "deity": 0,
-            "description": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
-            "description_pvp": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "If in Spiritual Stance",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases healing received by 1.00%",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Potency of group members (AE) by 1.0%",
-                    "indentation": 1
-                },
-                {
-                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Potency of group members (AE) by 1.0%",
-                    "indentation": 1
-                },
-                {
-                    "description": "If in Feral Stance",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Crit Bonus of group members (AE) by 1.5%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 826
-            },
-            "id": 4107087008,
-            "last_update": 1366730459.449952,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Advantageous Advance",
-            "name_lower": "advantageous advance",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730459.449952,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 299714401,
-            "deity": 0,
-            "description": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
-            "description_pvp": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "If in Spiritual Stance",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases healing received by 2.00%",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Potency of group members (AE) by 2.0%",
-                    "indentation": 1
-                },
-                {
-                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Potency of group members (AE) by 2.0%",
-                    "indentation": 1
-                },
-                {
-                    "description": "If in Feral Stance",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Crit Bonus of group members (AE) by 3.0%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 826
-            },
-            "id": 1225212014,
-            "last_update": 1366730456.075811,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Advantageous Advance",
-            "name_lower": "advantageous advance",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730456.075811,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 299714401,
-            "deity": 0,
-            "description": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
-            "description_pvp": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "If in Spiritual Stance",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases healing received by 3.00%",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Potency of group members (AE) by 3.0%",
-                    "indentation": 1
-                },
-                {
-                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Potency of group members (AE) by 3.0%",
-                    "indentation": 1
-                },
-                {
-                    "description": "If in Feral Stance",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Crit Bonus of group members (AE) by 4.5%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 826
-            },
-            "id": 2492570091,
-            "last_update": 1366730447.06468,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Advantageous Advance",
-            "name_lower": "advantageous advance",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730447.06468,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -563,7 +157,7 @@
                 "id": 826
             },
             "id": 2932801485,
-            "last_update": 1366730443.879959,
+            "last_update": 1387584133.975483,
             "level": 0,
             "max_targets": 0,
             "name": "Advantageous Advance",
@@ -573,10 +167,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730443.879959,
+            "ts": 1387584133.975483,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -586,8 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -645,7 +241,7 @@
                 "id": 826
             },
             "id": 1935156808,
-            "last_update": 1366730441.459138,
+            "last_update": 1387584133.653568,
             "level": 0,
             "max_targets": 0,
             "name": "Advantageous Advance",
@@ -655,10 +251,10 @@
             "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730441.459138,
+            "ts": 1387584133.653568,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -668,8 +264,94 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 299714401,
+            "deity": 0,
+            "description": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
+            "description_pvp": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "If in Spiritual Stance",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases healing received by 7.00%",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Potency of group members (AE) by 7.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Potency of group members (AE) by 7.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "If in Feral Stance",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Crit Bonus of group members (AE) by 10.5%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 826
+            },
+            "id": 1411969917,
+            "last_update": 1387584133.370086,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Advantageous Advance",
+            "name_lower": "advantageous advance",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584133.370086,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -727,7 +409,7 @@
                 "id": 826
             },
             "id": 2310941432,
-            "last_update": 1366730438.343957,
+            "last_update": 1387584133.011197,
             "level": 0,
             "max_targets": 0,
             "name": "Advantageous Advance",
@@ -737,10 +419,10 @@
             "spellbook": 4,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730438.343957,
+            "ts": 1387584133.011197,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -750,8 +432,94 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 299714401,
+            "deity": 0,
+            "description": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
+            "description_pvp": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "If in Spiritual Stance",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases healing received by 5.00%",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Potency of group members (AE) by 5.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Potency of group members (AE) by 5.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "If in Feral Stance",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Crit Bonus of group members (AE) by 7.5%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 826
+            },
+            "id": 880035382,
+            "last_update": 1387584132.733421,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Advantageous Advance",
+            "name_lower": "advantageous advance",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584132.733421,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -809,7 +577,7 @@
                 "id": 826
             },
             "id": 3923943347,
-            "last_update": 1366730437.844842,
+            "last_update": 1387584132.466602,
             "level": 0,
             "max_targets": 0,
             "name": "Advantageous Advance",
@@ -819,10 +587,262 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730437.844842,
+            "ts": 1387584132.466602,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 299714401,
+            "deity": 0,
+            "description": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
+            "description_pvp": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "If in Spiritual Stance",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases healing received by 3.00%",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Potency of group members (AE) by 3.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Potency of group members (AE) by 3.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "If in Feral Stance",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Crit Bonus of group members (AE) by 4.5%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 826
+            },
+            "id": 2492570091,
+            "last_update": 1387584132.138213,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Advantageous Advance",
+            "name_lower": "advantageous advance",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584132.138213,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 299714401,
+            "deity": 0,
+            "description": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
+            "description_pvp": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "If in Spiritual Stance",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases healing received by 2.00%",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Potency of group members (AE) by 2.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Potency of group members (AE) by 2.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "If in Feral Stance",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Crit Bonus of group members (AE) by 3.0%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 826
+            },
+            "id": 1225212014,
+            "last_update": 1387584131.814361,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Advantageous Advance",
+            "name_lower": "advantageous advance",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584131.814361,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 299714401,
+            "deity": 0,
+            "description": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
+            "description_pvp": "The Animalist gains a passive effect that triggers when using advantages. The group receives a Potency increase. Additionally, if Feral Stance is active, the group gains Crit Bonus and if Spiritual Stance is active, the group will receive more healing from all incoming heals.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "If in Spiritual Stance",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases healing received by 1.00%",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Potency of group members (AE) by 1.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "When using an Advantage ability. this spell has a 20% chance to cast Advantageous Advance on target.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Potency of group members (AE) by 1.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "If in Feral Stance",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Crit Bonus of group members (AE) by 1.5%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 826
+            },
+            "id": 4107087008,
+            "last_update": 1387584131.600821,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Advantageous Advance",
+            "name_lower": "advantageous advance",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584131.600821,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

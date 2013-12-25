@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730630.499218,
+    "min_ts": 1387585053.279216,
     "returned": 3,
-    "seconds": 0.018744945526123047,
+    "seconds": 0.018915176391601562,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 45
             },
             "id": 1706571032,
-            "last_update": 1366730650.522827,
+            "last_update": 1387585053.398855,
             "level": 0,
             "max_targets": 0,
             "name": "Whispers of the Past",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730650.522827,
+            "ts": 1387585053.398855,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,62 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3474282624,
-            "deity": 0,
-            "description": "Ancestral Support will make the group immune to certain control effects.",
-            "description_pvp": "Ancestral Support will make the group immune to certain control effects.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Ancestral Support will make the group immune to mesmerize and root",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 45
-            },
-            "id": 2228679093,
-            "last_update": 1366730640.0318,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Whispers of the Past",
-            "name_lower": "whispers of the past",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730640.0318,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 45
             },
             "id": 4172797038,
-            "last_update": 1366730630.499218,
+            "last_update": 1387585053.333855,
             "level": 0,
             "max_targets": 0,
             "name": "Whispers of the Past",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730630.499218,
+            "ts": 1387585053.333855,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3474282624,
+            "deity": 0,
+            "description": "Ancestral Support will make the group immune to certain control effects.",
+            "description_pvp": "Ancestral Support will make the group immune to certain control effects.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Ancestral Support will make the group immune to mesmerize and root",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 45
+            },
+            "id": 2228679093,
+            "last_update": 1387585053.279216,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Whispers of the Past",
+            "name_lower": "whispers of the past",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585053.279216,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730616.944674,
+    "min_ts": 1387585363.021015,
     "returned": 5,
-    "seconds": 0.0410761833190918,
+    "seconds": 0.018412113189697266,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,120 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves reuse speed by 60 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 333
-            },
-            "id": 2741408361,
-            "last_update": 1366730652.932743,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Mortal Embrace",
-            "name_lower": "enhance: mortal embrace",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730652.932743,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3569209996,
-            "deity": 0,
-            "description": "Hastens the reuse speed of Mortal Embrace. The final rank gives a 50% chance to override a failed Feign Death.",
-            "description_pvp": "Hastens the reuse speed of Mortal Embrace. The final rank gives a 50% chance to override a failed Feign Death.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 30 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 333
-            },
-            "id": 3741824946,
-            "last_update": 1366730649.02695,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Mortal Embrace",
-            "name_lower": "enhance: mortal embrace",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730649.02695,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3569209996,
-            "deity": 0,
-            "description": "Hastens the reuse speed of Mortal Embrace. The final rank gives a 50% chance to override a failed Feign Death.",
-            "description_pvp": "Hastens the reuse speed of Mortal Embrace. The final rank gives a 50% chance to override a failed Feign Death.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Grants a 50% chance to override a Feign Death failure",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves reuse speed by 150 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Grants a 50% chance to override a Feign Death failure",
                     "indentation": 0
                 }
             ],
@@ -155,7 +49,7 @@
                 "id": 333
             },
             "id": 3333109929,
-            "last_update": 1366730646.308427,
+            "last_update": 1387585363.339926,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Mortal Embrace",
@@ -165,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730646.308427,
+            "ts": 1387585363.339926,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -178,62 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3569209996,
-            "deity": 0,
-            "description": "Hastens the reuse speed of Mortal Embrace. The final rank gives a 50% chance to override a failed Feign Death.",
-            "description_pvp": "Hastens the reuse speed of Mortal Embrace. The final rank gives a 50% chance to override a failed Feign Death.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 90 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 333
-            },
-            "id": 1047098143,
-            "last_update": 1366730641.876886,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Mortal Embrace",
-            "name_lower": "enhance: mortal embrace",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730641.876886,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -263,7 +105,7 @@
                 "id": 333
             },
             "id": 1537530335,
-            "last_update": 1366730616.944674,
+            "last_update": 1387585363.25991,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Mortal Embrace",
@@ -273,10 +115,178 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730616.944674,
+            "ts": 1387585363.25991,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3569209996,
+            "deity": 0,
+            "description": "Hastens the reuse speed of Mortal Embrace. The final rank gives a 50% chance to override a failed Feign Death.",
+            "description_pvp": "Hastens the reuse speed of Mortal Embrace. The final rank gives a 50% chance to override a failed Feign Death.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 90 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 333
+            },
+            "id": 1047098143,
+            "last_update": 1387585363.1444,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Mortal Embrace",
+            "name_lower": "enhance: mortal embrace",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585363.1444,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3569209996,
+            "deity": 0,
+            "description": "Hastens the reuse speed of Mortal Embrace. The final rank gives a 50% chance to override a failed Feign Death.",
+            "description_pvp": "Hastens the reuse speed of Mortal Embrace. The final rank gives a 50% chance to override a failed Feign Death.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 60 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 333
+            },
+            "id": 2741408361,
+            "last_update": 1387585363.113983,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Mortal Embrace",
+            "name_lower": "enhance: mortal embrace",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585363.113983,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3569209996,
+            "deity": 0,
+            "description": "Hastens the reuse speed of Mortal Embrace. The final rank gives a 50% chance to override a failed Feign Death.",
+            "description_pvp": "Hastens the reuse speed of Mortal Embrace. The final rank gives a 50% chance to override a failed Feign Death.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 30 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 333
+            },
+            "id": 3741824946,
+            "last_update": 1387585363.021015,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Mortal Embrace",
+            "name_lower": "enhance: mortal embrace",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585363.021015,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

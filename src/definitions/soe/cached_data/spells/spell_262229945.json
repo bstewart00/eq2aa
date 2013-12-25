@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730433.36994,
+    "min_ts": 1387584271.188819,
     "returned": 10,
-    "seconds": 0.023658037185668945,
+    "seconds": 0.016377925872802734,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +49,7 @@
                 "id": 11
             },
             "id": 2494859268,
-            "last_update": 1366730646.40848,
+            "last_update": 1387584272.027903,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Vicious Talons",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730646.40848,
+            "ts": 1387584272.027903,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,414 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 262229945,
-            "deity": 0,
-            "description": "Improves the damage of Vicious Talons.",
-            "description_pvp": "Improves the damage of Vicious Talons.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Vicious Talons by 6%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3695693150,
-            "last_update": 1366730622.294375,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Vicious Talons",
-            "name_lower": "enhance: vicious talons",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730622.294375,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 262229945,
-            "deity": 0,
-            "description": "Improves the damage of Vicious Talons.",
-            "description_pvp": "Improves the damage of Vicious Talons.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Vicious Talons by 4%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3155916821,
-            "last_update": 1366730621.181213,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Vicious Talons",
-            "name_lower": "enhance: vicious talons",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730621.181213,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 262229945,
-            "deity": 0,
-            "description": "Improves the damage of Vicious Talons.",
-            "description_pvp": "Improves the damage of Vicious Talons.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Vicious Talons by 5%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 1636671888,
-            "last_update": 1366730611.677009,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Vicious Talons",
-            "name_lower": "enhance: vicious talons",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730611.677009,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 262229945,
-            "deity": 0,
-            "description": "Improves the damage of Vicious Talons.",
-            "description_pvp": "Improves the damage of Vicious Talons.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Vicious Talons by 1%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 2704591622,
-            "last_update": 1366730585.590007,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Vicious Talons",
-            "name_lower": "enhance: vicious talons",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730585.590007,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 262229945,
-            "deity": 0,
-            "description": "Improves the damage of Vicious Talons.",
-            "description_pvp": "Improves the damage of Vicious Talons.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Vicious Talons by 8%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 648135150,
-            "last_update": 1366730458.234702,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Vicious Talons",
-            "name_lower": "enhance: vicious talons",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730458.234702,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 262229945,
-            "deity": 0,
-            "description": "Improves the damage of Vicious Talons.",
-            "description_pvp": "Improves the damage of Vicious Talons.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Vicious Talons by 3%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3244850765,
-            "last_update": 1366730451.246716,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Vicious Talons",
-            "name_lower": "enhance: vicious talons",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730451.246716,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 262229945,
-            "deity": 0,
-            "description": "Improves the damage of Vicious Talons.",
-            "description_pvp": "Improves the damage of Vicious Talons.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the damage of Vicious Talons by 7%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 30479579,
-            "last_update": 1366730445.472902,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Vicious Talons",
-            "name_lower": "enhance: vicious talons",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730445.472902,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -511,7 +109,7 @@
                 "id": 11
             },
             "id": 4214691947,
-            "last_update": 1366730439.346208,
+            "last_update": 1387584271.948228,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Vicious Talons",
@@ -521,10 +119,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730439.346208,
+            "ts": 1387584271.948228,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -534,8 +132,370 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 262229945,
+            "deity": 0,
+            "description": "Improves the damage of Vicious Talons.",
+            "description_pvp": "Improves the damage of Vicious Talons.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage of Vicious Talons by 8%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 648135150,
+            "last_update": 1387584271.82075,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Vicious Talons",
+            "name_lower": "enhance: vicious talons",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584271.82075,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 262229945,
+            "deity": 0,
+            "description": "Improves the damage of Vicious Talons.",
+            "description_pvp": "Improves the damage of Vicious Talons.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage of Vicious Talons by 7%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 30479579,
+            "last_update": 1387584271.788188,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Vicious Talons",
+            "name_lower": "enhance: vicious talons",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584271.788188,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 262229945,
+            "deity": 0,
+            "description": "Improves the damage of Vicious Talons.",
+            "description_pvp": "Improves the damage of Vicious Talons.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage of Vicious Talons by 6%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 3695693150,
+            "last_update": 1387584271.620824,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Vicious Talons",
+            "name_lower": "enhance: vicious talons",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584271.620824,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 262229945,
+            "deity": 0,
+            "description": "Improves the damage of Vicious Talons.",
+            "description_pvp": "Improves the damage of Vicious Talons.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage of Vicious Talons by 5%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 1636671888,
+            "last_update": 1387584271.582533,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Vicious Talons",
+            "name_lower": "enhance: vicious talons",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584271.582533,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 262229945,
+            "deity": 0,
+            "description": "Improves the damage of Vicious Talons.",
+            "description_pvp": "Improves the damage of Vicious Talons.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage of Vicious Talons by 4%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 3155916821,
+            "last_update": 1387584271.553384,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Vicious Talons",
+            "name_lower": "enhance: vicious talons",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584271.553384,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 262229945,
+            "deity": 0,
+            "description": "Improves the damage of Vicious Talons.",
+            "description_pvp": "Improves the damage of Vicious Talons.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage of Vicious Talons by 3%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 3244850765,
+            "last_update": 1387584271.388372,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Vicious Talons",
+            "name_lower": "enhance: vicious talons",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584271.388372,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -569,7 +529,7 @@
                 "id": 11
             },
             "id": 486451144,
-            "last_update": 1366730433.36994,
+            "last_update": 1387584271.260866,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Vicious Talons",
@@ -579,10 +539,70 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730433.36994,
+            "ts": 1387584271.260866,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 262229945,
+            "deity": 0,
+            "description": "Improves the damage of Vicious Talons.",
+            "description_pvp": "Improves the damage of Vicious Talons.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Vicious Talons to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage of Vicious Talons by 1%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 2704591622,
+            "last_update": 1387584271.188819,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Vicious Talons",
+            "name_lower": "enhance: vicious talons",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584271.188819,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

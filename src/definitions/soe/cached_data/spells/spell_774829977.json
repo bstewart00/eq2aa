@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730630.568128,
+    "min_ts": 1387585556.794573,
     "returned": 3,
-    "seconds": 0.01666879653930664,
+    "seconds": 0.021561145782470703,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,74 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 774829977,
+            "deity": 0,
+            "description": "Enhances the troubador's defensive songs. Rank 1 allows Rejuvenating Celebration to increase maximum health by a percentage. Rank 2 allows Requiem of Reflection to increase the amount of health the group receives when healed. Rank 3 allows Graceful Avoidance to cost no concentration and increase the group's chance to dodge attacks.",
+            "description_pvp": "Enhances the troubador's defensive songs. Rank 1 allows Rejuvenating Celebration to increase maximum health by a percentage. Rank 2 allows Requiem of Reflection to increase the amount of health the group receives when healed. Rank 3 allows Graceful Avoidance to cost no concentration and increase the group's chance to dodge attacks.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Graceful Avoidance will also grant a 3% chance to dodge attacks. It no longer costs concentration.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Requiem of Reflection will also increase the amount of health group members receive when healed by 5%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Rejuvenating Celebration will also grant 5% maximum health to the group.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 497
+            },
+            "id": 1077747503,
+            "last_update": 1387585556.993064,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Invigorating Ballad",
+            "name_lower": "invigorating ballad",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585556.993064,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +113,7 @@
                 "id": 497
             },
             "id": 2645280426,
-            "last_update": 1366730645.98492,
+            "last_update": 1387585556.912982,
             "level": 0,
             "max_targets": 0,
             "name": "Invigorating Ballad",
@@ -57,10 +123,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730645.98492,
+            "ts": 1387585556.912982,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +136,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -101,7 +169,7 @@
                 "id": 497
             },
             "id": 543271524,
-            "last_update": 1366730638.336385,
+            "last_update": 1387585556.794573,
             "level": 0,
             "max_targets": 0,
             "name": "Invigorating Ballad",
@@ -111,72 +179,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730638.336385,
+            "ts": 1387585556.794573,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 774829977,
-            "deity": 0,
-            "description": "Enhances the troubador's defensive songs. Rank 1 allows Rejuvenating Celebration to increase maximum health by a percentage. Rank 2 allows Requiem of Reflection to increase the amount of health the group receives when healed. Rank 3 allows Graceful Avoidance to cost no concentration and increase the group's chance to dodge attacks.",
-            "description_pvp": "Enhances the troubador's defensive songs. Rank 1 allows Rejuvenating Celebration to increase maximum health by a percentage. Rank 2 allows Requiem of Reflection to increase the amount of health the group receives when healed. Rank 3 allows Graceful Avoidance to cost no concentration and increase the group's chance to dodge attacks.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Requiem of Reflection will also increase the amount of health group members receive when healed by 5%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Rejuvenating Celebration will also grant 5% maximum health to the group.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Graceful Avoidance will also grant a 3% chance to dodge attacks. It no longer costs concentration.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 497
-            },
-            "id": 1077747503,
-            "last_update": 1366730630.568128,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Invigorating Ballad",
-            "name_lower": "invigorating ballad",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730630.568128,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

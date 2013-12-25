@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730451.660394,
+    "min_ts": 1387584886.759417,
     "returned": 5,
-    "seconds": 0.015712976455688477,
+    "seconds": 0.016217947006225586,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,70 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves reuse speed by 1.5 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.3 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 166
-            },
-            "id": 650235109,
-            "last_update": 1366730635.096226,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Forced Hesitation",
-            "name_lower": "enhance: forced hesitation",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730635.096226,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3449332638,
-            "deity": 0,
-            "description": "Hastens the casting and reuse speed of Forced Hesitation and its upgrades.",
-            "description_pvp": "Hastens the casting and reuse speed of Forced Hesitation and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 2.5 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves casting speed by 0.5 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 2.5 seconds",
                     "indentation": 0
                 }
             ],
@@ -105,7 +49,7 @@
                 "id": 166
             },
             "id": 3724773203,
-            "last_update": 1366730625.374093,
+            "last_update": 1387584887.038951,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Forced Hesitation",
@@ -115,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730625.374093,
+            "ts": 1387584887.038951,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -148,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 2 seconds",
+                    "description": "Improves casting speed by 0.4 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 0.4 seconds",
+                    "description": "Improves reuse speed by 2 seconds",
                     "indentation": 0
                 }
             ],
@@ -163,7 +109,7 @@
                 "id": 166
             },
             "id": 1124886053,
-            "last_update": 1366730621.972231,
+            "last_update": 1387584886.95929,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Forced Hesitation",
@@ -173,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730621.972231,
+            "ts": 1387584886.95929,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,11 +154,71 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 1 seconds",
+                    "description": "Improves casting speed by 0.3 seconds",
                     "indentation": 0
                 },
                 {
+                    "description": "Improves reuse speed by 1.5 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 166
+            },
+            "id": 650235109,
+            "last_update": 1387584886.879027,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Forced Hesitation",
+            "name_lower": "enhance: forced hesitation",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584886.879027,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3449332638,
+            "deity": 0,
+            "description": "Hastens the casting and reuse speed of Forced Hesitation and its upgrades.",
+            "description_pvp": "Hastens the casting and reuse speed of Forced Hesitation and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
                     "description": "Improves casting speed by 0.2 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 1 seconds",
                     "indentation": 0
                 }
             ],
@@ -221,7 +229,7 @@
                 "id": 166
             },
             "id": 3150851475,
-            "last_update": 1366730454.90198,
+            "last_update": 1387584886.821725,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Forced Hesitation",
@@ -231,10 +239,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730454.90198,
+            "ts": 1387584886.821725,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +252,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +274,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 0.5 seconds",
+                    "description": "Improves casting speed by 0.1 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 0.1 seconds",
+                    "description": "Improves reuse speed by 0.5 seconds",
                     "indentation": 0
                 }
             ],
@@ -279,7 +289,7 @@
                 "id": 166
             },
             "id": 3350136904,
-            "last_update": 1366730451.660394,
+            "last_update": 1387584886.759417,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Forced Hesitation",
@@ -289,10 +299,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730451.660394,
+            "ts": 1387584886.759417,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

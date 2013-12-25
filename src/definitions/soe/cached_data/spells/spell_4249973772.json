@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730442.970552,
+    "min_ts": 1387585582.721375,
     "returned": 10,
-    "seconds": 0.028261899948120117,
+    "seconds": 0.020254850387573242,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +49,7 @@
                 "id": 11
             },
             "id": 3515756346,
-            "last_update": 1366730653.987319,
+            "last_update": 1387585583.602185,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Frenzied Feeding",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730653.987319,
+            "ts": 1387585583.602185,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,356 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4249973772,
-            "deity": 0,
-            "description": "Improves the heal amount of Frenzied Feeding.",
-            "description_pvp": "Improves the heal amount of Frenzied Feeding.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Frenzied Feeding to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the heal amount of Hibernating Restoration by 6%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3738897144,
-            "last_update": 1366730652.472749,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Frenzied Feeding",
-            "name_lower": "enhance: frenzied feeding",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730652.472749,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4249973772,
-            "deity": 0,
-            "description": "Improves the heal amount of Frenzied Feeding.",
-            "description_pvp": "Improves the heal amount of Frenzied Feeding.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Frenzied Feeding to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the heal amount of Hibernating Restoration by 16%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 2447585557,
-            "last_update": 1366730637.530263,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Frenzied Feeding",
-            "name_lower": "enhance: frenzied feeding",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730637.530263,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4249973772,
-            "deity": 0,
-            "description": "Improves the heal amount of Frenzied Feeding.",
-            "description_pvp": "Improves the heal amount of Frenzied Feeding.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Frenzied Feeding to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the heal amount of Hibernating Restoration by 2%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 1068879445,
-            "last_update": 1366730629.366652,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Frenzied Feeding",
-            "name_lower": "enhance: frenzied feeding",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730629.366652,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4249973772,
-            "deity": 0,
-            "description": "Improves the heal amount of Frenzied Feeding.",
-            "description_pvp": "Improves the heal amount of Frenzied Feeding.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Frenzied Feeding to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the heal amount of Hibernating Restoration by 14%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3346499043,
-            "last_update": 1366730622.942752,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Frenzied Feeding",
-            "name_lower": "enhance: frenzied feeding",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730622.942752,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4249973772,
-            "deity": 0,
-            "description": "Improves the heal amount of Frenzied Feeding.",
-            "description_pvp": "Improves the heal amount of Frenzied Feeding.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Frenzied Feeding to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the heal amount of Hibernating Restoration by 4%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 1138027406,
-            "last_update": 1366730462.969891,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Frenzied Feeding",
-            "name_lower": "enhance: frenzied feeding",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730462.969891,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4249973772,
-            "deity": 0,
-            "description": "Improves the heal amount of Frenzied Feeding.",
-            "description_pvp": "Improves the heal amount of Frenzied Feeding.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Enhance: Frenzied Feeding to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the heal amount of Hibernating Restoration by 10%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 639189326,
-            "last_update": 1366730461.472554,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Frenzied Feeding",
-            "name_lower": "enhance: frenzied feeding",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730461.472554,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -453,7 +109,7 @@
                 "id": 11
             },
             "id": 216846435,
-            "last_update": 1366730459.97608,
+            "last_update": 1387585583.520554,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Frenzied Feeding",
@@ -463,10 +119,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730459.97608,
+            "ts": 1387585583.520554,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -476,8 +132,130 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4249973772,
+            "deity": 0,
+            "description": "Improves the heal amount of Frenzied Feeding.",
+            "description_pvp": "Improves the heal amount of Frenzied Feeding.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Frenzied Feeding to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the heal amount of Hibernating Restoration by 16%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 2447585557,
+            "last_update": 1387585583.400374,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Frenzied Feeding",
+            "name_lower": "enhance: frenzied feeding",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387585583.400374,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4249973772,
+            "deity": 0,
+            "description": "Improves the heal amount of Frenzied Feeding.",
+            "description_pvp": "Improves the heal amount of Frenzied Feeding.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Frenzied Feeding to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the heal amount of Hibernating Restoration by 14%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 3346499043,
+            "last_update": 1387585583.277268,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Frenzied Feeding",
+            "name_lower": "enhance: frenzied feeding",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585583.277268,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -511,7 +289,7 @@
                 "id": 11
             },
             "id": 1517839509,
-            "last_update": 1366730453.831199,
+            "last_update": 1387585583.202983,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Frenzied Feeding",
@@ -521,10 +299,10 @@
             "spellbook": 4,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730453.831199,
+            "ts": 1387585583.202983,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -534,8 +312,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -569,7 +349,7 @@
                 "id": 11
             },
             "id": 3138822200,
-            "last_update": 1366730442.970552,
+            "last_update": 1387585583.182968,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Frenzied Feeding",
@@ -579,10 +359,250 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730442.970552,
+            "ts": 1387585583.182968,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4249973772,
+            "deity": 0,
+            "description": "Improves the heal amount of Frenzied Feeding.",
+            "description_pvp": "Improves the heal amount of Frenzied Feeding.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Frenzied Feeding to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the heal amount of Hibernating Restoration by 6%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 3738897144,
+            "last_update": 1387585583.142397,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Frenzied Feeding",
+            "name_lower": "enhance: frenzied feeding",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585583.142397,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4249973772,
+            "deity": 0,
+            "description": "Improves the heal amount of Frenzied Feeding.",
+            "description_pvp": "Improves the heal amount of Frenzied Feeding.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Frenzied Feeding to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the heal amount of Hibernating Restoration by 10%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 639189326,
+            "last_update": 1387585583.142273,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Frenzied Feeding",
+            "name_lower": "enhance: frenzied feeding",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585583.142273,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4249973772,
+            "deity": 0,
+            "description": "Improves the heal amount of Frenzied Feeding.",
+            "description_pvp": "Improves the heal amount of Frenzied Feeding.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Frenzied Feeding to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the heal amount of Hibernating Restoration by 4%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 1138027406,
+            "last_update": 1387585582.837277,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Frenzied Feeding",
+            "name_lower": "enhance: frenzied feeding",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585582.837277,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4249973772,
+            "deity": 0,
+            "description": "Improves the heal amount of Frenzied Feeding.",
+            "description_pvp": "Improves the heal amount of Frenzied Feeding.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Enhance: Frenzied Feeding to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the heal amount of Hibernating Restoration by 2%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 1068879445,
+            "last_update": 1387585582.721375,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Frenzied Feeding",
+            "name_lower": "enhance: frenzied feeding",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585582.721375,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

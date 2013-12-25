@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730430.641152,
+    "min_ts": 1387584180.441261,
     "returned": 5,
-    "seconds": 0.021270036697387695,
+    "seconds": 0.018400907516479492,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 3538141920,
             "deity": 0,
-            "description": "Improves the hitpoint and power gain of the Harbinger and Premonition lines.",
-            "description_pvp": "Improves the hitpoint and power gain of the Harbinger and Premonition lines.",
+            "description": "Improves the stamina and power gain of the Harbinger and Premonition lines.",
+            "description_pvp": "Improves the stamina and power gain of the Harbinger and Premonition lines.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,115 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the additional hitpoints and power by 3%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 245
-            },
-            "id": 2376544797,
-            "last_update": 1366730568.266197,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Tribal Frenzy",
-            "name_lower": "tribal frenzy",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730568.266197,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3538141920,
-            "deity": 0,
-            "description": "Improves the hitpoint and power gain of the Harbinger and Premonition lines.",
-            "description_pvp": "Improves the hitpoint and power gain of the Harbinger and Premonition lines.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the additional hitpoints and power by 15%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 245
-            },
-            "id": 2483797254,
-            "last_update": 1366730444.374707,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Tribal Frenzy",
-            "name_lower": "tribal frenzy",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730444.374707,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3538141920,
-            "deity": 0,
-            "description": "Improves the hitpoint and power gain of the Harbinger and Premonition lines.",
-            "description_pvp": "Improves the hitpoint and power gain of the Harbinger and Premonition lines.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the additional hitpoints and power by 12%.",
+                    "description": "Improves the additional stamina and power by 12%.",
                     "indentation": 0
                 }
             ],
@@ -151,7 +45,7 @@
                 "id": 245
             },
             "id": 151280752,
-            "last_update": 1366730440.187571,
+            "last_update": 1387584180.789313,
             "level": 0,
             "max_targets": 0,
             "name": "Tribal Frenzy",
@@ -161,10 +55,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730440.187571,
+            "ts": 1387584180.789313,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -185,8 +81,8 @@
             },
             "crc": 3538141920,
             "deity": 0,
-            "description": "Improves the hitpoint and power gain of the Harbinger and Premonition lines.",
-            "description_pvp": "Improves the hitpoint and power gain of the Harbinger and Premonition lines.",
+            "description": "Improves the stamina and power gain of the Harbinger and Premonition lines.",
+            "description_pvp": "Improves the stamina and power gain of the Harbinger and Premonition lines.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -194,7 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the additional hitpoints and power by 6%.",
+                    "description": "Improves the additional stamina and power by 15%.",
                     "indentation": 0
                 }
             ],
@@ -204,8 +100,8 @@
                 "icon_heroic_op": -1,
                 "id": 245
             },
-            "id": 4056291270,
-            "last_update": 1366730439.346401,
+            "id": 2483797254,
+            "last_update": 1387584180.789034,
             "level": 0,
             "max_targets": 0,
             "name": "Tribal Frenzy",
@@ -213,12 +109,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730439.346401,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584180.789034,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -239,8 +137,8 @@
             },
             "crc": 3538141920,
             "deity": 0,
-            "description": "Improves the hitpoint and power gain of the Harbinger and Premonition lines.",
-            "description_pvp": "Improves the hitpoint and power gain of the Harbinger and Premonition lines.",
+            "description": "Improves the stamina and power gain of the Harbinger and Premonition lines.",
+            "description_pvp": "Improves the stamina and power gain of the Harbinger and Premonition lines.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -248,7 +146,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the additional hitpoints and power by 9%.",
+                    "description": "Improves the additional stamina and power by 9%.",
                     "indentation": 0
                 }
             ],
@@ -259,7 +157,7 @@
                 "id": 245
             },
             "id": 1825175216,
-            "last_update": 1366730430.641152,
+            "last_update": 1387584180.543322,
             "level": 0,
             "max_targets": 0,
             "name": "Tribal Frenzy",
@@ -269,10 +167,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730430.641152,
+            "ts": 1387584180.543322,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3538141920,
+            "deity": 0,
+            "description": "Improves the stamina and power gain of the Harbinger and Premonition lines.",
+            "description_pvp": "Improves the stamina and power gain of the Harbinger and Premonition lines.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the additional stamina and power by 6%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 245
+            },
+            "id": 4056291270,
+            "last_update": 1387584180.443712,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Tribal Frenzy",
+            "name_lower": "tribal frenzy",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584180.443712,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3538141920,
+            "deity": 0,
+            "description": "Improves the stamina and power gain of the Harbinger and Premonition lines.",
+            "description_pvp": "Improves the stamina and power gain of the Harbinger and Premonition lines.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the additional stamina and power by 3%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 245
+            },
+            "id": 2376544797,
+            "last_update": 1387584180.441261,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Tribal Frenzy",
+            "name_lower": "tribal frenzy",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584180.441261,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

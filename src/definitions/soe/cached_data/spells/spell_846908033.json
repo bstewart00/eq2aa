@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730464.68003,
+    "min_ts": 1387585532.631089,
     "returned": 5,
-    "seconds": 0.01926589012145996,
+    "seconds": 0.0157010555267334,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 846908033,
             "deity": 0,
-            "description": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire.",
-            "description_pvp": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire.",
+            "description": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire. The last two ranks each add an additional trigger.",
+            "description_pvp": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire. The last two ranks each add an additional trigger.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 5 seconds",
+                    "description": "Adds 2 triggers to Fae Fire",
                     "indentation": 0
                 },
                 {
@@ -41,6 +43,10 @@
                 },
                 {
                     "description": "Improves the casting speed by 1 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 5 seconds",
                     "indentation": 0
                 }
             ],
@@ -51,7 +57,7 @@
                 "id": 235
             },
             "id": 1132578011,
-            "last_update": 1366730645.360598,
+            "last_update": 1387585532.953301,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Fae Fire",
@@ -61,10 +67,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730645.360598,
+            "ts": 1387585532.953301,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -74,8 +80,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -85,8 +93,8 @@
             },
             "crc": 846908033,
             "deity": 0,
-            "description": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire.",
-            "description_pvp": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire.",
+            "description": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire. The last two ranks each add an additional trigger.",
+            "description_pvp": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire. The last two ranks each add an additional trigger.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -94,15 +102,19 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 4 seconds",
-                    "indentation": 0
-                },
-                {
                     "description": "Improves the Crit Bonus by 4%",
                     "indentation": 0
                 },
                 {
                     "description": "Improves the casting speed by 0.8 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 4 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds 1 trigger to Fae Fire",
                     "indentation": 0
                 }
             ],
@@ -113,7 +125,7 @@
                 "id": 235
             },
             "id": 2652314974,
-            "last_update": 1366730637.511812,
+            "last_update": 1387585532.913062,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Fae Fire",
@@ -123,10 +135,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730637.511812,
+            "ts": 1387585532.913062,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -136,8 +148,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -147,8 +161,8 @@
             },
             "crc": 846908033,
             "deity": 0,
-            "description": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire.",
-            "description_pvp": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire.",
+            "description": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire. The last two ranks each add an additional trigger.",
+            "description_pvp": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire. The last two ranks each add an additional trigger.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -156,15 +170,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 3 seconds",
-                    "indentation": 0
-                },
-                {
                     "description": "Improves the Crit Bonus by 3%",
                     "indentation": 0
                 },
                 {
                     "description": "Improves the casting speed by 0.6 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 3 seconds",
                     "indentation": 0
                 }
             ],
@@ -175,7 +189,7 @@
                 "id": 235
             },
             "id": 3814988550,
-            "last_update": 1366730635.307481,
+            "last_update": 1387585532.791256,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Fae Fire",
@@ -185,10 +199,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730635.307481,
+            "ts": 1387585532.791256,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -198,8 +212,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -209,86 +225,24 @@
             },
             "crc": 846908033,
             "deity": 0,
-            "description": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire.",
-            "description_pvp": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire.",
+            "description": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire. The last two ranks each add an additional trigger.",
+            "description_pvp": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire. The last two ranks each add an additional trigger.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves reuse speed by 1 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 1%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the casting speed by 0.2 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 235
-            },
-            "id": 2201529933,
-            "last_update": 1366730579.98255,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Fae Fire",
-            "name_lower": "enhance: fae fire",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730579.98255,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 846908033,
-            "deity": 0,
-            "description": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire.",
-            "description_pvp": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 2 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves the Crit Bonus by 2%",
                     "indentation": 0
                 },
                 {
                     "description": "Improves the casting speed by 0.4 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 2 seconds",
                     "indentation": 0
                 }
             ],
@@ -299,7 +253,7 @@
                 "id": 235
             },
             "id": 1056096899,
-            "last_update": 1366730464.68003,
+            "last_update": 1387585532.671715,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Fae Fire",
@@ -309,10 +263,74 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730464.68003,
+            "ts": 1387585532.671715,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 846908033,
+            "deity": 0,
+            "description": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire. The last two ranks each add an additional trigger.",
+            "description_pvp": "Improves the critical damage and hastens the casting and reuse speed of Fae Fire. The last two ranks each add an additional trigger.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the Crit Bonus by 1%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the casting speed by 0.2 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 1 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 235
+            },
+            "id": 2201529933,
+            "last_update": 1387585532.631089,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Fae Fire",
+            "name_lower": "enhance: fae fire",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585532.631089,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

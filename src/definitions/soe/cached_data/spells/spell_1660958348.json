@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730455.416774,
+    "min_ts": 1387584734.398221,
     "returned": 5,
-    "seconds": 0.021030902862548828,
+    "seconds": 0.01679396629333496,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the Crit Bonus by 5%",
+                    "description": "Improves casting speed by 1.5 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 1.5 seconds",
+                    "description": "Improves the Crit Bonus by 5%",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 508
             },
             "id": 726753224,
-            "last_update": 1366730630.338838,
+            "last_update": 1387584734.736869,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Shattered Earth",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730630.338838,
+            "ts": 1387584734.736869,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -89,70 +93,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the Crit Bonus by 3%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.9 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 508
-            },
-            "id": 3549631614,
-            "last_update": 1366730626.270652,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Shattered Earth",
-            "name_lower": "enhance: shattered earth",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730626.270652,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1660958348,
-            "deity": 0,
-            "description": "Improves the critical damage and hastens the casting speed of Shattered Earth and its higher level upgrades.",
-            "description_pvp": "Improves the critical damage and hastens the casting speed of Shattered Earth and its higher level upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the Crit Bonus by 4%",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves casting speed by 1.2 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 4%",
                     "indentation": 0
                 }
             ],
@@ -163,7 +109,7 @@
                 "id": 508
             },
             "id": 3059662526,
-            "last_update": 1366730614.43445,
+            "last_update": 1387584734.657528,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Shattered Earth",
@@ -173,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730614.43445,
+            "ts": 1387584734.657528,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,22 +154,22 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the Crit Bonus by 1%",
+                    "description": "Improves casting speed by 0.9 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 0.3 seconds",
+                    "description": "Improves the Crit Bonus by 3%",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 312,
                 "icon_heroic_op": -1,
                 "id": 508
             },
-            "id": 855494867,
-            "last_update": 1366730585.814129,
+            "id": 3549631614,
+            "last_update": 1387584734.576871,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Shattered Earth",
@@ -229,12 +177,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 1,
+            "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730585.814129,
+            "ts": 1387584734.576871,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +214,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the Crit Bonus by 2%",
+                    "description": "Improves casting speed by 0.6 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 0.6 seconds",
+                    "description": "Improves the Crit Bonus by 2%",
                     "indentation": 0
                 }
             ],
@@ -279,7 +229,7 @@
                 "id": 508
             },
             "id": 1318909192,
-            "last_update": 1366730455.416774,
+            "last_update": 1387584734.498244,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Shattered Earth",
@@ -289,10 +239,70 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730455.416774,
+            "ts": 1387584734.498244,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1660958348,
+            "deity": 0,
+            "description": "Improves the critical damage and hastens the casting speed of Shattered Earth and its higher level upgrades.",
+            "description_pvp": "Improves the critical damage and hastens the casting speed of Shattered Earth and its higher level upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting speed by 0.3 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 1%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 508
+            },
+            "id": 855494867,
+            "last_update": 1387584734.398221,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Shattered Earth",
+            "name_lower": "enhance: shattered earth",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584734.398221,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

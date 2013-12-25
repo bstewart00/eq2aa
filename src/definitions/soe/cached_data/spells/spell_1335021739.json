@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.750891,
+    "min_ts": 1387584961.842332,
     "returned": 3,
-    "seconds": 0.014631986618041992,
+    "seconds": 0.015182018280029297,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1335021739,
-            "deity": 0,
-            "description": "Improves the rate at which Toxic Aura increments.",
-            "description_pvp": "Improves the rate at which Toxic Aura increments.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the amount of increments Toxic Aura applies by 1",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 899
-            },
-            "id": 3050993792,
-            "last_update": 1366730649.925556,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Deadly Toxins",
-            "name_lower": "deadly toxins",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730649.925556,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 899
             },
             "id": 1421130797,
-            "last_update": 1366730640.056925,
+            "last_update": 1387584962.240408,
             "level": 0,
             "max_targets": 0,
             "name": "Deadly Toxins",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730640.056925,
+            "ts": 1387584962.240408,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 899
             },
             "id": 3384499547,
-            "last_update": 1366730438.750891,
+            "last_update": 1387584962.087544,
             "level": 0,
             "max_targets": 0,
             "name": "Deadly Toxins",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730438.750891,
+            "ts": 1387584962.087544,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1335021739,
+            "deity": 0,
+            "description": "Improves the rate at which Toxic Aura increments.",
+            "description_pvp": "Improves the rate at which Toxic Aura increments.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the amount of increments Toxic Aura applies by 1",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 899
+            },
+            "id": 3050993792,
+            "last_update": 1387584961.842332,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Deadly Toxins",
+            "name_lower": "deadly toxins",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584961.842332,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

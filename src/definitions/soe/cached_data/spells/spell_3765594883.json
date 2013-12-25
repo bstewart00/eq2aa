@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730637.871948,
+    "min_ts": 1387585376.967576,
     "returned": 3,
-    "seconds": 0.017876863479614258,
+    "seconds": 0.059092044830322266,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,11 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Enraging Demeanor has a chance to increase the target's threat on attacks.",
+                    "description": "Adds 3 hate positions to Coercive Shout.",
                     "indentation": 0
                 },
                 {
-                    "description": "Adds 3 hate positions to Coercive Shout.",
+                    "description": "Enraging Demeanor has a chance to increase the target's threat on attacks.",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 646
             },
             "id": 1576211456,
-            "last_update": 1366730654.488132,
+            "last_update": 1387585377.23984,
             "level": 0,
             "max_targets": 0,
             "name": "Coercive Presence",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730654.488132,
+            "ts": 1387585377.23984,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -74,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -95,76 +99,14 @@
             "effect_list": [
                 {
                     "description": "Peaceful Link has a chance to reduce the target's threat on attacks.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Enraging Demeanor has a chance to increase the target's threat on attacks.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds 1 hate position to Coercive Shout.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 646
-            },
-            "id": 3164459181,
-            "last_update": 1366730646.624858,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Coercive Presence",
-            "name_lower": "coercive presence",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730646.624858,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3765594883,
-            "deity": 0,
-            "description": "Enhances the effects of Peaceful Link, Enraging Demeanor and Coercive Shout.",
-            "description_pvp": "Enhances the effects of Peaceful Link, Enraging Demeanor and Coercive Shout.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Peaceful Link has a chance to reduce the target's threat on attacks.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Enraging Demeanor has a chance to increase the target's threat on attacks.",
                     "indentation": 0
                 },
                 {
                     "description": "Adds 2 hate positions to Coercive Shout.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Enraging Demeanor has a chance to increase the target's threat on attacks.",
                     "indentation": 0
                 }
             ],
@@ -175,7 +117,7 @@
                 "id": 646
             },
             "id": 3237803382,
-            "last_update": 1366730637.871948,
+            "last_update": 1387585377.204571,
             "level": 0,
             "max_targets": 0,
             "name": "Coercive Presence",
@@ -185,10 +127,74 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730637.871948,
+            "ts": 1387585377.204571,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3765594883,
+            "deity": 0,
+            "description": "Enhances the effects of Peaceful Link, Enraging Demeanor and Coercive Shout.",
+            "description_pvp": "Enhances the effects of Peaceful Link, Enraging Demeanor and Coercive Shout.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Peaceful Link has a chance to reduce the target's threat on attacks.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Adds 1 hate position to Coercive Shout.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Enraging Demeanor has a chance to increase the target's threat on attacks.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 646
+            },
+            "id": 3164459181,
+            "last_update": 1387585376.967576,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Coercive Presence",
+            "name_lower": "coercive presence",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585376.967576,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

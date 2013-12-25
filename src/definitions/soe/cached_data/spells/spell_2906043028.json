@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730451.072588,
+    "min_ts": 1387584953.137189,
     "returned": 5,
-    "seconds": 0.021183013916015625,
+    "seconds": 0.019468069076538086,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 879
             },
             "id": 588443905,
-            "last_update": 1366730650.215804,
+            "last_update": 1387584953.248414,
             "level": 0,
             "max_targets": 0,
             "name": "Prophetic Ailment",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730650.215804,
+            "ts": 1387584953.248414,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +101,7 @@
                 "id": 879
             },
             "id": 3189575799,
-            "last_update": 1366730643.503496,
+            "last_update": 1387584953.232803,
             "level": 0,
             "max_targets": 0,
             "name": "Prophetic Ailment",
@@ -107,10 +111,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730643.503496,
+            "ts": 1387584953.232803,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +157,7 @@
                 "id": 879
             },
             "id": 3687889591,
-            "last_update": 1366730464.87722,
+            "last_update": 1387584953.137257,
             "level": 0,
             "max_targets": 0,
             "name": "Prophetic Ailment",
@@ -161,10 +167,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730464.87722,
+            "ts": 1387584953.137257,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,62 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2906043028,
-            "deity": 0,
-            "description": "Improves the damage and critical amount of the mystic's disease based spells.",
-            "description_pvp": "Improves the damage and critical amount of the mystic's disease based spells.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the base and critical damage of disease based spells by 2%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 879
-            },
-            "id": 985562650,
-            "last_update": 1366730458.013645,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Prophetic Ailment",
-            "name_lower": "prophetic ailment",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730458.013645,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +213,7 @@
                 "id": 879
             },
             "id": 1189043137,
-            "last_update": 1366730451.072588,
+            "last_update": 1387584953.137212,
             "level": 0,
             "max_targets": 0,
             "name": "Prophetic Ailment",
@@ -269,10 +223,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730451.072588,
+            "ts": 1387584953.137212,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2906043028,
+            "deity": 0,
+            "description": "Improves the damage and critical amount of the mystic's disease based spells.",
+            "description_pvp": "Improves the damage and critical amount of the mystic's disease based spells.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the base and critical damage of disease based spells by 2%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 879
+            },
+            "id": 985562650,
+            "last_update": 1387584953.137189,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Prophetic Ailment",
+            "name_lower": "prophetic ailment",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584953.137189,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

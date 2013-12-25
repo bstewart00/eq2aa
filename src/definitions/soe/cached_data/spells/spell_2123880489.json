@@ -1,61 +1,51 @@
 {
     "limit": 10,
-    "min_ts": 1366730589.650677,
+    "min_ts": 1387584484.15529,
     "returned": 1,
-    "seconds": 0.014213085174560547,
+    "seconds": 0.01930689811706543,
     "spell_list": [
         {
             "alternate_advancement": 1,
             "aoe_radius_meters": 0.0,
             "beneficial": 1,
-            "cast_secs_hundredths": 161,
+            "cast_secs_hundredths": 0,
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
                 },
-                "power": 4,
+                "power": 0,
                 "savagery": 0
             },
             "crc": 2123880489,
             "deity": 0,
-            "description": "Rebirth will resurrect the Hierophant automatically after their death (Except for falling deaths). The automatic resurrection can be cancelled after death by cancelling the flashing Regenesis icon that appears after dying.",
-            "description_pvp": "Rebirth will resurrect the Hierophant automatically after their death (Except for falling deaths). The automatic resurrection can be cancelled after death by cancelling the flashing Regenesis icon that appears after dying.",
+            "description": "Rebirth will allow the Hierophant to resurrect themselves. This can only be cast while dead.",
+            "description_pvp": "Rebirth will allow the Hierophant to resurrect themselves. This can only be cast while dead.",
             "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 432000,
-                "min_sec_tenths": 432000
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
             },
             "effect_list": [
                 {
-                    "description": "On death this spell will cast Regenesis on target.  Lasts for 5.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Applies Regenesis on termination.",
-                    "indentation": 1
-                },
-                {
                     "description": "Resurrects target with 40% health and power",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
+                    "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 545
             },
             "id": 546063514,
-            "last_update": 1366730589.650677,
+            "last_update": 1387584484.15529,
             "level": 0,
             "max_targets": 0,
             "name": "Rebirth",
@@ -65,10 +55,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730589.650677,
+            "ts": 1387584484.15529,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

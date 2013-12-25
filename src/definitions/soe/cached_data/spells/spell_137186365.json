@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.303709,
+    "min_ts": 1387584791.341004,
     "returned": 5,
-    "seconds": 0.01892399787902832,
+    "seconds": 0.036032915115356445,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 822
             },
             "id": 3913163163,
-            "last_update": 1366730636.376578,
+            "last_update": 1387584791.699988,
             "level": 0,
             "max_targets": 0,
             "name": "Poison Mastery",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730636.376578,
+            "ts": 1387584791.699988,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,116 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 137186365,
-            "deity": 0,
-            "description": "Improves the base damage of poisons.",
-            "description_pvp": "Improves the base damage of poisons.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the base damage of poisons by 9%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 318,
-                "icon_heroic_op": -1,
-                "id": 822
-            },
-            "id": 1239154246,
-            "last_update": 1366730624.416495,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Poison Mastery",
-            "name_lower": "poison mastery",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730624.416495,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 137186365,
-            "deity": 0,
-            "description": "Improves the base damage of poisons.",
-            "description_pvp": "Improves the base damage of poisons.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the base damage of poisons by 3%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 318,
-                "icon_heroic_op": -1,
-                "id": 822
-            },
-            "id": 696732429,
-            "last_update": 1366730556.665465,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Poison Mastery",
-            "name_lower": "poison mastery",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730556.665465,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,7 +101,7 @@
                 "id": 822
             },
             "id": 883488798,
-            "last_update": 1366730450.970687,
+            "last_update": 1387584791.540209,
             "level": 0,
             "max_targets": 0,
             "name": "Poison Mastery",
@@ -215,10 +111,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730450.970687,
+            "ts": 1387584791.540209,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +124,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 137186365,
+            "deity": 0,
+            "description": "Improves the base damage of poisons.",
+            "description_pvp": "Improves the base damage of poisons.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the base damage of poisons by 9%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 318,
+                "icon_heroic_op": -1,
+                "id": 822
+            },
+            "id": 1239154246,
+            "last_update": 1387584791.461067,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Poison Mastery",
+            "name_lower": "poison mastery",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584791.461067,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +213,7 @@
                 "id": 822
             },
             "id": 2488084419,
-            "last_update": 1366730443.303709,
+            "last_update": 1387584791.420896,
             "level": 0,
             "max_targets": 0,
             "name": "Poison Mastery",
@@ -269,10 +223,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730443.303709,
+            "ts": 1387584791.420896,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 137186365,
+            "deity": 0,
+            "description": "Improves the base damage of poisons.",
+            "description_pvp": "Improves the base damage of poisons.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the base damage of poisons by 3%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 318,
+                "icon_heroic_op": -1,
+                "id": 822
+            },
+            "id": 696732429,
+            "last_update": 1387584791.341004,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Poison Mastery",
+            "name_lower": "poison mastery",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584791.341004,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

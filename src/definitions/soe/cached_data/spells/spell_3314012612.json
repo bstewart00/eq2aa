@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730452.659734,
+    "min_ts": 1387584588.246876,
     "returned": 5,
-    "seconds": 0.016375064849853516,
+    "seconds": 0.0182340145111084,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3314012612,
-            "deity": 0,
-            "description": "Improves the duration of all Advantages that equip in the second advantage slot.",
-            "description_pvp": "Improves the duration of all Advantages that equip in the second advantage slot.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the duration by 3",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 878
-            },
-            "id": 1159750874,
-            "last_update": 1366730630.164919,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Second Advantage",
-            "name_lower": "enhance: second advantage",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730630.164919,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 878
             },
             "id": 3185717100,
-            "last_update": 1366730626.238759,
+            "last_update": 1387584588.474458,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Second Advantage",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730626.238759,
+            "ts": 1387584588.474458,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 878
             },
             "id": 552455706,
-            "last_update": 1366730621.960604,
+            "last_update": 1387584588.432973,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Second Advantage",
@@ -161,10 +111,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730621.960604,
+            "ts": 1387584588.432973,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +124,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3314012612,
+            "deity": 0,
+            "description": "Improves the duration of all Advantages that equip in the second advantage slot.",
+            "description_pvp": "Improves the duration of all Advantages that equip in the second advantage slot.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the duration by 3",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 878
+            },
+            "id": 1159750874,
+            "last_update": 1387584588.353433,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Second Advantage",
+            "name_lower": "enhance: second advantage",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584588.353433,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,7 +213,7 @@
                 "id": 878
             },
             "id": 3626993068,
-            "last_update": 1366730615.779956,
+            "last_update": 1387584588.273285,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Second Advantage",
@@ -215,10 +223,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730615.779956,
+            "ts": 1387584588.273285,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +236,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +269,7 @@
                 "id": 878
             },
             "id": 2756616311,
-            "last_update": 1366730452.659734,
+            "last_update": 1387584588.246876,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Second Advantage",
@@ -269,10 +279,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730452.659734,
+            "ts": 1387584588.246876,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

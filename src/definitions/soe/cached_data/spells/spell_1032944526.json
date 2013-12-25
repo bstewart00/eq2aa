@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730620.386996,
+    "min_ts": 1387584975.804252,
     "returned": 1,
-    "seconds": 0.016988039016723633,
+    "seconds": 0.014978885650634766,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1032944526,
             "deity": 0,
-            "description": "A large direct damage arrow attack that explodes upon contact enveloping the target in flames which spread to nearby encounter members.",
-            "description_pvp": "A large direct damage arrow attack that explodes upon contact enveloping the target in flames which spread to nearby encounter members.",
+            "description": "A large direct damage arrow attack that explodes upon contact enveloping the target in flames which spread to nearby enemies.",
+            "description_pvp": "A large direct damage arrow attack that explodes upon contact enveloping the target in flames which spread to nearby enemies.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -46,12 +48,12 @@
             ],
             "given_by": "alternateadvancement",
             "icon": {
-                "backdrop": 315,
+                "backdrop": 313,
                 "icon_heroic_op": -1,
                 "id": 811
             },
             "id": 1547818543,
-            "last_update": 1366730620.386996,
+            "last_update": 1387584975.804252,
             "level": 0,
             "max_targets": 0,
             "name": "Explosive Arrow",
@@ -61,10 +63,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730620.386996,
+            "ts": 1387584975.804252,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730467.037549,
+    "min_ts": 1387585540.238716,
     "returned": 1,
-    "seconds": 0.018549203872680664,
+    "seconds": 0.018314123153686523,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,16 +38,16 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Slows target by 50.0%",
-                    "indentation": 1
-                },
-                {
                     "description": "Roots target",
                     "indentation": 1
                 },
                 {
                     "description": "If Target is not Epic",
                     "indentation": 2
+                },
+                {
+                    "description": "Slows target by 50.0%",
+                    "indentation": 1
                 },
                 {
                     "description": "25% chance to dispel when target takes damage",
@@ -63,7 +65,7 @@
                 "id": 6
             },
             "id": 3542046378,
-            "last_update": 1366730467.037549,
+            "last_update": 1387585540.238716,
             "level": 0,
             "max_targets": 0,
             "name": "Kudzu",
@@ -73,10 +75,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730467.037549,
+            "ts": 1387585540.238716,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

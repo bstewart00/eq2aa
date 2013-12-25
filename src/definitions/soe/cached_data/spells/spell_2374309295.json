@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730642.87903,
+    "min_ts": 1387584441.878637,
     "returned": 1,
-    "seconds": 0.018362998962402344,
+    "seconds": 0.025156021118164062,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 2374309295,
             "deity": 0,
-            "description": {},
-            "description_pvp": {},
+            "description": "Improves the caster's critical damage and chance for a short duration.",
+            "description_pvp": "Improves the caster's critical damage and chance for a short duration.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 100,
@@ -32,15 +34,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Doublecast Chance of caster by 100.0%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Roots caster",
+                    "description": "Increases Crit Chance of caster by 100.0",
                     "indentation": 0
                 },
                 {
                     "description": "Prevents caster from being Interrupted",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Crit Bonus by 75% of the caster's base Crit Bonus",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 300
             },
             "id": 2963450278,
-            "last_update": 1366730642.87903,
+            "last_update": 1387584441.878637,
             "level": 0,
             "max_targets": 0,
             "name": "Focused Casting",
@@ -61,10 +63,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730642.87903,
+            "ts": 1387584441.878637,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

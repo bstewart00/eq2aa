@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730451.43708,
+    "min_ts": 1387585516.437202,
     "returned": 10,
-    "seconds": 0.017744064331054688,
+    "seconds": 0.02485513687133789,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +49,7 @@
                 "id": 11
             },
             "id": 1116571213,
-            "last_update": 1366730650.066532,
+            "last_update": 1387585517.63457,
             "level": 0,
             "max_targets": 0,
             "name": "Stout Warder",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730650.066532,
+            "ts": 1387585517.63457,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,182 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3853918005,
-            "deity": 0,
-            "description": "Improves the warder's maximum health.",
-            "description_pvp": "Improves the warder's maximum health.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Stout Warder to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Max Health of caster by 5.0%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3038439481,
-            "last_update": 1366730646.303372,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Stout Warder",
-            "name_lower": "stout warder",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730646.303372,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3853918005,
-            "deity": 0,
-            "description": "Improves the warder's maximum health.",
-            "description_pvp": "Improves the warder's maximum health.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Stout Warder to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Max Health of caster by 7.0%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 1416899732,
-            "last_update": 1366730637.213418,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Stout Warder",
-            "name_lower": "stout warder",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730637.213418,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3853918005,
-            "deity": 0,
-            "description": "Improves the warder's maximum health.",
-            "description_pvp": "Improves the warder's maximum health.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Stout Warder to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Max Health of caster by 6.0%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 3380334050,
-            "last_update": 1366730630.56728,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Stout Warder",
-            "name_lower": "stout warder",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730630.56728,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -279,7 +109,7 @@
                 "id": 11
             },
             "id": 2683271444,
-            "last_update": 1366730621.742519,
+            "last_update": 1387585517.4777,
             "level": 0,
             "max_targets": 0,
             "name": "Stout Warder",
@@ -289,10 +119,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730621.742519,
+            "ts": 1387585517.4777,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -302,66 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3853918005,
-            "deity": 0,
-            "description": "Improves the warder's maximum health.",
-            "description_pvp": "Improves the warder's maximum health.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Stout Warder to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Max Health of caster by 1.0%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 11
-            },
-            "id": 2897635106,
-            "last_update": 1366730589.638917,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Stout Warder",
-            "name_lower": "stout warder",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730589.638917,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -395,7 +169,7 @@
                 "id": 11
             },
             "id": 48273506,
-            "last_update": 1366730462.191034,
+            "last_update": 1387585517.352555,
             "level": 0,
             "max_targets": 0,
             "name": "Stout Warder",
@@ -405,10 +179,10 @@
             "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730462.191034,
+            "ts": 1387585517.352555,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -418,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -442,7 +218,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Max Health of caster by 3.0%",
+                    "description": "Increases Max Health of caster by 7.0%",
                     "indentation": 1
                 }
             ],
@@ -452,8 +228,8 @@
                 "icon_heroic_op": -1,
                 "id": 11
             },
-            "id": 1306043279,
-            "last_update": 1366730461.928167,
+            "id": 1416899732,
+            "last_update": 1387585517.197936,
             "level": 0,
             "max_targets": 0,
             "name": "Stout Warder",
@@ -461,12 +237,12 @@
             "recast_secs": 1.976285,
             "recovery_secs_tenths": 50,
             "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730461.928167,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585517.197936,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -476,8 +252,130 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3853918005,
+            "deity": 0,
+            "description": "Improves the warder's maximum health.",
+            "description_pvp": "Improves the warder's maximum health.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Stout Warder to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Max Health of caster by 6.0%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 3380334050,
+            "last_update": 1387585517.074341,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Stout Warder",
+            "name_lower": "stout warder",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387585517.074341,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3853918005,
+            "deity": 0,
+            "description": "Improves the warder's maximum health.",
+            "description_pvp": "Improves the warder's maximum health.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Stout Warder to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Max Health of caster by 5.0%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 3038439481,
+            "last_update": 1387585516.954499,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Stout Warder",
+            "name_lower": "stout warder",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585516.954499,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -511,7 +409,7 @@
                 "id": 11
             },
             "id": 672467279,
-            "last_update": 1366730457.197642,
+            "last_update": 1387585516.79536,
             "level": 0,
             "max_targets": 0,
             "name": "Stout Warder",
@@ -521,10 +419,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730457.197642,
+            "ts": 1387585516.79536,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -534,8 +432,70 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3853918005,
+            "deity": 0,
+            "description": "Improves the warder's maximum health.",
+            "description_pvp": "Improves the warder's maximum health.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Stout Warder to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Max Health of caster by 3.0%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 1306043279,
+            "last_update": 1387585516.673547,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Stout Warder",
+            "name_lower": "stout warder",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585516.673547,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -569,7 +529,7 @@
                 "id": 11
             },
             "id": 3503768313,
-            "last_update": 1366730451.43708,
+            "last_update": 1387585516.593436,
             "level": 0,
             "max_targets": 0,
             "name": "Stout Warder",
@@ -579,10 +539,70 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730451.43708,
+            "ts": 1387585516.593436,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3853918005,
+            "deity": 0,
+            "description": "Improves the warder's maximum health.",
+            "description_pvp": "Improves the warder's maximum health.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Stout Warder to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Max Health of caster by 1.0%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 11
+            },
+            "id": 2897635106,
+            "last_update": 1387585516.437202,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Stout Warder",
+            "name_lower": "stout warder",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585516.437202,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

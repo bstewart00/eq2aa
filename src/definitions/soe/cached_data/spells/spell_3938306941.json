@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730451.063375,
+    "min_ts": 1387585196.522316,
     "returned": 1,
-    "seconds": 0.01419687271118164,
+    "seconds": 0.02701401710510254,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 3938306941,
             "deity": 0,
-            "description": "The defiler gains additional potency from Crit Bonus.",
-            "description_pvp": "The defiler gains additional potency from Crit Bonus.",
+            "description": "The defiler gains additional Crit Bonus based on their current Crit Bonus.",
+            "description_pvp": "The defiler gains additional Crit Bonus based on their current Crit Bonus.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "For every 12% of Crit Bonus, the caster gains 1% potency.",
+                    "description": "For every 12% of Crit Bonus, the caster gains an additional 1% Crit Bonus.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 42
             },
             "id": 1867606379,
-            "last_update": 1366730451.063375,
+            "last_update": 1387585196.522316,
             "level": 0,
             "max_targets": 0,
             "name": "Critical Channeling",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730451.063375,
+            "ts": 1387585196.522316,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

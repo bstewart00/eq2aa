@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730647.647944,
+    "min_ts": 1387584904.793392,
     "returned": 1,
-    "seconds": 0.027745962142944336,
+    "seconds": 0.015025138854980469,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -48,15 +50,15 @@
                     "indentation": 0
                 },
                 {
-                    "description": "If in Spiritual Stance",
-                    "indentation": 1
-                },
-                {
                     "description": "Increases power of group members (AE) by 4 - 5",
                     "indentation": 1
                 },
                 {
                     "description": "Heals group members (AE) for 12 - 19",
+                    "indentation": 1
+                },
+                {
+                    "description": "If in Spiritual Stance",
                     "indentation": 1
                 }
             ],
@@ -67,7 +69,7 @@
                 "id": 897
             },
             "id": 3067650152,
-            "last_update": 1366730647.647944,
+            "last_update": 1387584904.793392,
             "level": 0,
             "max_targets": 0,
             "name": "Primal Assault",
@@ -77,10 +79,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730647.647944,
+            "ts": 1387584904.793392,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

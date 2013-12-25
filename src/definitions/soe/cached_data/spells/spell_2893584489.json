@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730439.419612,
+    "min_ts": 1387584261.280898,
     "returned": 5,
-    "seconds": 0.015045881271362305,
+    "seconds": 0.03532886505126953,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 147
             },
             "id": 4212516101,
-            "last_update": 1366730624.563381,
+            "last_update": 1387584261.387168,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Cure II",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730624.563381,
+            "ts": 1387584261.387168,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,170 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2893584489,
-            "deity": 0,
-            "description": {},
-            "description_pvp": {},
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Your Cure ability can place a temporary stoneskin effect on the target cure if they are low health.  Increasing ranks increase the maximum health the target can have.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 147
-            },
-            "id": 64466611,
-            "last_update": 1366730458.808703,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Cure II",
-            "name_lower": "enhance: cure ii",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730458.808703,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2893584489,
-            "deity": 0,
-            "description": {},
-            "description_pvp": {},
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Your Cure ability can place a temporary stoneskin effect on the target cure if they are low health.  Increasing ranks increase the maximum health the target can have.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 147
-            },
-            "id": 3803802142,
-            "last_update": 1366730455.594572,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Cure II",
-            "name_lower": "enhance: cure ii",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730455.594572,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2893584489,
-            "deity": 0,
-            "description": {},
-            "description_pvp": {},
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Your Cure ability can place a temporary stoneskin effect on the target cure if they are low health.  Increasing ranks increase the maximum health the target can have.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 147
-            },
-            "id": 1712981107,
-            "last_update": 1366730450.853892,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Cure II",
-            "name_lower": "enhance: cure ii",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730450.853892,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +101,7 @@
                 "id": 147
             },
             "id": 2664976325,
-            "last_update": 1366730439.419612,
+            "last_update": 1387584261.281059,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Cure II",
@@ -269,10 +111,178 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730439.419612,
+            "ts": 1387584261.281059,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2893584489,
+            "deity": 0,
+            "description": {},
+            "description_pvp": {},
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Your Cure ability can place a temporary stoneskin effect on the target cure if they are low health.  Increasing ranks increase the maximum health the target can have.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 147
+            },
+            "id": 3803802142,
+            "last_update": 1387584261.281045,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Cure II",
+            "name_lower": "enhance: cure ii",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584261.281045,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2893584489,
+            "deity": 0,
+            "description": {},
+            "description_pvp": {},
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Your Cure ability can place a temporary stoneskin effect on the target cure if they are low health.  Increasing ranks increase the maximum health the target can have.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 147
+            },
+            "id": 1712981107,
+            "last_update": 1387584261.280947,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Cure II",
+            "name_lower": "enhance: cure ii",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584261.280947,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2893584489,
+            "deity": 0,
+            "description": {},
+            "description_pvp": {},
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Your Cure ability can place a temporary stoneskin effect on the target cure if they are low health.  Increasing ranks increase the maximum health the target can have.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 147
+            },
+            "id": 64466611,
+            "last_update": 1387584261.280898,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Cure II",
+            "name_lower": "enhance: cure ii",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584261.280898,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

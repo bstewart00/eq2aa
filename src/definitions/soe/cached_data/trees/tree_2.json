@@ -5,7 +5,7 @@
                 {
                     "classification": "Wisdom",
                     "classificationpointsrequired": 22,
-                    "description": "Crane Flock causes all auto-attacks made to attack up to 4 enemies surrounding the Crane Sensei. The Crane Sensei's primary target will be hit twice.",
+                    "description": "Crane Flock causes all auto-attacks made to attack up to 4 enemies surrounding the Crane Sensei. The Crane Sensei's damage per second will be increased.",
                     "icon": {
                         "backdrop": -1,
                         "id": 137
@@ -49,7 +49,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Grants the Mantis Master a chance at an additional piercing attack with every successful hit in combat.",
                     "firstparentid": 1842826173,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 151
@@ -72,7 +72,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Increases the Monkey Guru's defense.",
                     "firstparentid": 3220242405,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 113
@@ -95,7 +95,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Your chance to parry incoming attacks is increased.",
                     "firstparentid": 3123833838,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 121
@@ -160,9 +160,9 @@
                 {
                     "classification": "Strength",
                     "classificationpointsrequired": 0,
-                    "description": "Increases the brawler's chance to double attack.",
+                    "description": "Increases the brawler's Damage Per Second.",
                     "firstparentid": 974398158,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 130
@@ -250,7 +250,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Increases the Crane Sensei's maximum health.",
                     "firstparentid": 3910054841,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 106
@@ -273,7 +273,7 @@
                     "classificationpointsrequired": 0,
                     "description": "You have an increased chance to deflect incoming attacks.",
                     "firstparentid": 449870635,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 0
@@ -317,7 +317,7 @@
                 {
                     "classification": "Strength",
                     "classificationpointsrequired": 22,
-                    "description": "Greatly increases the Tiger Sifu's attack speed and damage per second, and improves speed of all casting times, recovery times, and reuse times.",
+                    "description": "Greatly increases the Tiger Sifu's attack speed and Multi-Attack Chance, and improves speed of all casting times, recovery times, and reuse times.",
                     "icon": {
                         "backdrop": -1,
                         "id": 74
@@ -382,7 +382,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Your chance to critically hit with melee attacks is increased.",
                     "firstparentid": 3442924408,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 109
@@ -426,7 +426,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Speeds up the Monkey Guru's reuse timers.",
                     "firstparentid": 3371683699,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 82
@@ -495,7 +495,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Increases the brawler's base chance to deflect an attack.",
                     "firstparentid": 1293095512,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 102
@@ -539,7 +539,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Provides a chance to inflict additional damage on all enemies surrounding the Crane Sensei. In addition, Crane Twirl grants the brawler a chance to strike multiple enemies within melee range with every auto-attack.",
                     "firstparentid": 2651423535,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 80
@@ -602,7 +602,7 @@
             ],
             "id": 2,
             "iswardertree": "false",
-            "last_update": 1380751542.40284,
+            "last_update": 1387585898.13057,
             "maximumpoints": 0,
             "maxpointsperlevelnode_list": [
                 {
@@ -612,12 +612,12 @@
             ],
             "minimumpointsrequired": 0,
             "name": "Brawler",
-            "ts": 1380751542.40284,
+            "ts": 1387585898.13057,
             "version": 2
         }
     ],
     "limit": 1,
-    "min_ts": 1380751542.40284,
+    "min_ts": 1387585898.13057,
     "returned": 1,
-    "seconds": 0.01597285270690918
+    "seconds": 0.10075497627258301
 }

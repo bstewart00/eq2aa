@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730560.90964,
+    "min_ts": 1387585008.569082,
     "returned": 3,
-    "seconds": 0.015081167221069336,
+    "seconds": 0.015115022659301758,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1444853068,
             "deity": 0,
-            "description": "Divine Justice will automatically increase or reduce threat to the targets the paladin is attacking is attacking by a percentage of the damage the paladin inflicts. It increases by default, and reduces when the paladin has Recklessness active.",
-            "description_pvp": "Divine Justice will automatically increase or reduce threat to the targets the paladin is attacking is attacking by a percentage of the damage the paladin inflicts. It increases by default, and reduces when the paladin has Recklessness active.",
+            "description": "Divine Justice will automatically increase or reduce threat to the targets the paladin is attacking by a percentage of the damage the paladin inflicts. It increases by default, and reduces when the paladin has Recklessness active.",
+            "description_pvp": "Divine Justice will automatically increase or reduce threat to the targets the paladin is attacking by a percentage of the damage the paladin inflicts. It increases by default, and reduces when the paladin has Recklessness active.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Divine Justice will allow the paladin to incease their threat by 0.24% of their damage inflicted per increment. If the paladin has Recklessness active, their threat is reduced instead.",
+                    "description": "Divine Justice will allow the paladin to increase their threat by 0.24% of their damage inflicted per increment. If the paladin has Recklessness active, their threat is reduced instead.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 874
             },
             "id": 1730320361,
-            "last_update": 1366730646.932263,
+            "last_update": 1387585008.674071,
             "level": 0,
             "max_targets": 0,
             "name": "For Justice",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730646.932263,
+            "ts": 1387585008.674071,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -77,8 +81,8 @@
             },
             "crc": 1444853068,
             "deity": 0,
-            "description": "Divine Justice will automatically increase or reduce threat to the targets the paladin is attacking is attacking by a percentage of the damage the paladin inflicts. It increases by default, and reduces when the paladin has Recklessness active.",
-            "description_pvp": "Divine Justice will automatically increase or reduce threat to the targets the paladin is attacking is attacking by a percentage of the damage the paladin inflicts. It increases by default, and reduces when the paladin has Recklessness active.",
+            "description": "Divine Justice will automatically increase or reduce threat to the targets the paladin is attacking by a percentage of the damage the paladin inflicts. It increases by default, and reduces when the paladin has Recklessness active.",
+            "description_pvp": "Divine Justice will automatically increase or reduce threat to the targets the paladin is attacking by a percentage of the damage the paladin inflicts. It increases by default, and reduces when the paladin has Recklessness active.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -86,7 +90,63 @@
             },
             "effect_list": [
                 {
-                    "description": "Divine Justice will allow the paladin to incease their threat by 0.16% of their damage inflicted per increment. If the paladin has Recklessness active, their threat is reduced instead.",
+                    "description": "Divine Justice will allow the paladin to increase their threat by 0.08% of their damage inflicted per increment. If the paladin has Recklessness active, their threat is reduced instead.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 874
+            },
+            "id": 2253148996,
+            "last_update": 1387585008.5947,
+            "level": 0,
+            "max_targets": 0,
+            "name": "For Justice",
+            "name_lower": "for justice",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585008.5947,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1444853068,
+            "deity": 0,
+            "description": "Divine Justice will automatically increase or reduce threat to the targets the paladin is attacking by a percentage of the damage the paladin inflicts. It increases by default, and reduces when the paladin has Recklessness active.",
+            "description_pvp": "Divine Justice will automatically increase or reduce threat to the targets the paladin is attacking by a percentage of the damage the paladin inflicts. It increases by default, and reduces when the paladin has Recklessness active.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Divine Justice will allow the paladin to increase their threat by 0.16% of their damage inflicted per increment. If the paladin has Recklessness active, their threat is reduced instead.",
                     "indentation": 0
                 }
             ],
@@ -97,7 +157,7 @@
                 "id": 874
             },
             "id": 4197283487,
-            "last_update": 1366730639.170891,
+            "last_update": 1387585008.569082,
             "level": 0,
             "max_targets": 0,
             "name": "For Justice",
@@ -107,64 +167,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730639.170891,
+            "ts": 1387585008.569082,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1444853068,
-            "deity": 0,
-            "description": "Divine Justice will automatically increase or reduce threat to the targets the paladin is attacking is attacking by a percentage of the damage the paladin inflicts. It increases by default, and reduces when the paladin has Recklessness active.",
-            "description_pvp": "Divine Justice will automatically increase or reduce threat to the targets the paladin is attacking is attacking by a percentage of the damage the paladin inflicts. It increases by default, and reduces when the paladin has Recklessness active.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Divine Justice will allow the paladin to incease their threat by 0.08% of their damage inflicted per increment. If the paladin has Recklessness active, their threat is reduced instead.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 874
-            },
-            "id": 2253148996,
-            "last_update": 1366730560.90964,
-            "level": 0,
-            "max_targets": 0,
-            "name": "For Justice",
-            "name_lower": "for justice",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730560.90964,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

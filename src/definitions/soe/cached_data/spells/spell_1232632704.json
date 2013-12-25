@@ -2,7 +2,7 @@
     "limit": 10,
     "min_ts": 1366730441.758321,
     "returned": 3,
-    "seconds": 0.02484893798828125,
+    "seconds": 0.01739215850830078,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1232632704,
             "deity": 0,
-            "description": "Pulls the target ally to the monk if they are outside of 10 meters away. The ally will be immune to most Area Effect abilities and takes less damage. Higher ranks of this ability lower the base reuse speed.",
-            "description_pvp": "Pulls the target ally to the monk if they are outside of 10 meters away. The ally will be immune to most Area Effect abilities and takes less damage. Higher ranks of this ability lower the base reuse speed.",
+            "description": "Pulls the target ally to the monk if they are outside of 10 meters away. The ally will be immune to most Area Effect abilities and takes less damage.",
+            "description_pvp": "Pulls the target ally to the monk if they are outside of 10 meters away. The ally will be immune to most Area Effect abilities and takes less damage.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 50,
@@ -51,20 +53,20 @@
                 "id": 267
             },
             "id": 3407222896,
-            "last_update": 1366730636.108483,
+            "last_update": 1387584899.549077,
             "level": 0,
             "max_targets": 0,
             "name": "Winds of Salvation",
             "name_lower": "winds of salvation",
-            "recast_secs": 177.865616,
+            "recast_secs": 88.932808,
             "recovery_secs_tenths": 50,
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730636.108483,
+            "ts": 1387584899.549077,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,

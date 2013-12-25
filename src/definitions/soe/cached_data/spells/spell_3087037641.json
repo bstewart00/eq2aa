@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730630.576159,
+    "min_ts": 1387585449.103482,
     "returned": 3,
-    "seconds": 0.014271020889282227,
+    "seconds": 0.01601696014404297,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3087037641,
-            "deity": 0,
-            "description": "Sanctify will apply a damage shield to the target.",
-            "description_pvp": "Sanctify will apply a damage shield to the target.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Sanctify will apply a damage shield to the target that can trigger once every 3 seconds. The damage is attributed to the templar.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 190
-            },
-            "id": 436509609,
-            "last_update": 1366730642.278599,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Purification",
-            "name_lower": "purification",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730642.278599,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 190
             },
             "id": 4218052356,
-            "last_update": 1366730633.339725,
+            "last_update": 1387585449.223777,
             "level": 0,
             "max_targets": 0,
             "name": "Purification",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730633.339725,
+            "ts": 1387585449.223777,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 190
             },
             "id": 1717943922,
-            "last_update": 1366730630.576159,
+            "last_update": 1387585449.182835,
             "level": 0,
             "max_targets": 0,
             "name": "Purification",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730630.576159,
+            "ts": 1387585449.182835,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3087037641,
+            "deity": 0,
+            "description": "Sanctify will apply a damage shield to the target.",
+            "description_pvp": "Sanctify will apply a damage shield to the target.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Sanctify will apply a damage shield to the target that can trigger once every 3 seconds. The damage is attributed to the templar.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 190
+            },
+            "id": 436509609,
+            "last_update": 1387585449.103482,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Purification",
+            "name_lower": "purification",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585449.103482,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

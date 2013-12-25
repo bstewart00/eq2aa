@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730461.880318,
+    "min_ts": 1387584619.514424,
     "returned": 1,
-    "seconds": 0.01720404624938965,
+    "seconds": 0.019671916961669922,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Adds a trigger to Sandstorm that makes the target taking or avoiding damage immune to indirect area of effect spells.",
+                    "description": "When Sandstorm triggers its effects, the group will gain additional Crit Bonus for every trigger.",
                     "indentation": 0
                 },
                 {
-                    "description": "When Sandstorm triggers its effects, the group will gain additional Crit Bonus for every trigger.",
+                    "description": "Adds a trigger to Sandstorm that makes the target taking or avoiding damage immune to indirect area of effect spells.",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 509
             },
             "id": 3573645825,
-            "last_update": 1366730461.880318,
+            "last_update": 1387584619.514424,
             "level": 0,
             "max_targets": 0,
             "name": "Blinding Sands",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730461.880318,
+            "ts": 1387584619.514424,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

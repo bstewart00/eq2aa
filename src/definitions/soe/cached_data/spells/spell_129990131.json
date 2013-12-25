@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730439.619886,
+    "min_ts": 1387585047.203606,
     "returned": 5,
-    "seconds": 0.02002120018005371,
+    "seconds": 0.018074989318847656,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,128 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Increases the chance to critical by 6.  The critical damage is also improved by 6%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the base damage by 9%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 470
-            },
-            "id": 1485346230,
-            "last_update": 1366730645.963588,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Divine Empowerment",
-            "name_lower": "divine empowerment",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730645.963588,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 129990131,
-            "deity": 0,
-            "description": "Improves the damage of the Power Cleave line of skills.  This ability also grants Power Cleave an improved chance to critically attack and also improves its critical damage.",
-            "description_pvp": "Improves the damage of the Power Cleave line of skills.  This ability also grants Power Cleave an improved chance to critically attack and also improves its critical damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the chance to critical by 2.  The critical damage is also improved by 2%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the base damage by 3%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 470
-            },
-            "id": 953426173,
-            "last_update": 1366730644.445667,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Divine Empowerment",
-            "name_lower": "divine empowerment",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730644.445667,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 129990131,
-            "deity": 0,
-            "description": "Improves the damage of the Power Cleave line of skills.  This ability also grants Power Cleave an improved chance to critically attack and also improves its critical damage.",
-            "description_pvp": "Improves the damage of the Power Cleave line of skills.  This ability also grants Power Cleave an improved chance to critically attack and also improves its critical damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the chance to critical by 10.  The critical damage is also improved by 10%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves the base damage by 15%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the chance to critical by 10.  The critical damage is also improved by 10%.",
                     "indentation": 0
                 }
             ],
@@ -163,7 +49,7 @@
                 "id": 470
             },
             "id": 4167912043,
-            "last_update": 1366730641.030957,
+            "last_update": 1387585047.55032,
             "level": 0,
             "max_targets": 0,
             "name": "Divine Empowerment",
@@ -173,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730641.030957,
+            "ts": 1387585047.55032,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,70 +93,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Increases the chance to critical by 4.  The critical damage is also improved by 4%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the base damage by 6%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 470
-            },
-            "id": 2233355315,
-            "last_update": 1366730616.953063,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Divine Empowerment",
-            "name_lower": "divine empowerment",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730616.953063,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 129990131,
-            "deity": 0,
-            "description": "Improves the damage of the Power Cleave line of skills.  This ability also grants Power Cleave an improved chance to critically attack and also improves its critical damage.",
-            "description_pvp": "Improves the damage of the Power Cleave line of skills.  This ability also grants Power Cleave an improved chance to critically attack and also improves its critical damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the chance to critical by 8.  The critical damage is also improved by 8%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves the base damage by 12%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the chance to critical by 8.  The critical damage is also improved by 8%.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +109,7 @@
                 "id": 470
             },
             "id": 637244398,
-            "last_update": 1366730439.619886,
+            "last_update": 1387585047.444203,
             "level": 0,
             "max_targets": 0,
             "name": "Divine Empowerment",
@@ -289,10 +119,190 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730439.619886,
+            "ts": 1387585047.444203,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 129990131,
+            "deity": 0,
+            "description": "Improves the damage of the Power Cleave line of skills.  This ability also grants Power Cleave an improved chance to critically attack and also improves its critical damage.",
+            "description_pvp": "Improves the damage of the Power Cleave line of skills.  This ability also grants Power Cleave an improved chance to critically attack and also improves its critical damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the base damage by 9%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the chance to critical by 6.  The critical damage is also improved by 6%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 470
+            },
+            "id": 1485346230,
+            "last_update": 1387585047.390519,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Divine Empowerment",
+            "name_lower": "divine empowerment",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585047.390519,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 129990131,
+            "deity": 0,
+            "description": "Improves the damage of the Power Cleave line of skills.  This ability also grants Power Cleave an improved chance to critically attack and also improves its critical damage.",
+            "description_pvp": "Improves the damage of the Power Cleave line of skills.  This ability also grants Power Cleave an improved chance to critically attack and also improves its critical damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the base damage by 6%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the chance to critical by 4.  The critical damage is also improved by 4%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 470
+            },
+            "id": 2233355315,
+            "last_update": 1387585047.282691,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Divine Empowerment",
+            "name_lower": "divine empowerment",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585047.282691,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 129990131,
+            "deity": 0,
+            "description": "Improves the damage of the Power Cleave line of skills.  This ability also grants Power Cleave an improved chance to critically attack and also improves its critical damage.",
+            "description_pvp": "Improves the damage of the Power Cleave line of skills.  This ability also grants Power Cleave an improved chance to critically attack and also improves its critical damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the base damage by 3%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the chance to critical by 2.  The critical damage is also improved by 2%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 470
+            },
+            "id": 953426173,
+            "last_update": 1387585047.203606,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Divine Empowerment",
+            "name_lower": "divine empowerment",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585047.203606,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

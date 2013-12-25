@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730453.643505,
+    "min_ts": 1387584542.137207,
     "returned": 5,
-    "seconds": 0.017834901809692383,
+    "seconds": 0.015655994415283203,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,70 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the overtime heal amount by 4%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces the casting time by 0.1 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 189
-            },
-            "id": 1225085309,
-            "last_update": 1366730646.935063,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Natural Restoration",
-            "name_lower": "natural restoration",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730646.935063,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 597064087,
-            "deity": 0,
-            "description": "Autumn's Kiss and its upgrades will have a shorter casting time.  In addition, the overtime component will heal for more.",
-            "description_pvp": "Autumn's Kiss and its upgrades will have a shorter casting time.  In addition, the overtime component will heal for more.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the overtime heal amount by 20%",
-                    "indentation": 0
-                },
                 {
                     "description": "Reduces the casting time by 0.5 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the overtime heal amount by 20%",
                     "indentation": 0
                 }
             ],
@@ -105,7 +49,7 @@
                 "id": 189
             },
             "id": 2310814699,
-            "last_update": 1366730636.130431,
+            "last_update": 1387584542.141588,
             "level": 0,
             "max_targets": 0,
             "name": "Natural Restoration",
@@ -115,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730636.130431,
+            "ts": 1387584542.141588,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -148,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the overtime heal amount by 16%",
+                    "description": "Reduces the casting time by 0.4 seconds.",
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces the casting time by 0.4 seconds.",
+                    "description": "Improves the overtime heal amount by 16%",
                     "indentation": 0
                 }
             ],
@@ -163,7 +109,7 @@
                 "id": 189
             },
             "id": 1412096622,
-            "last_update": 1366730630.795919,
+            "last_update": 1387584542.140943,
             "level": 0,
             "max_targets": 0,
             "name": "Natural Restoration",
@@ -173,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730630.795919,
+            "ts": 1387584542.140943,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the overtime heal amount by 8%",
+                    "description": "Reduces the casting time by 0.2 seconds.",
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces the casting time by 0.2 seconds.",
+                    "description": "Improves the overtime heal amount by 8%",
                     "indentation": 0
                 }
             ],
@@ -221,7 +169,7 @@
                 "id": 189
             },
             "id": 4107222451,
-            "last_update": 1366730614.583433,
+            "last_update": 1387584542.137727,
             "level": 0,
             "max_targets": 0,
             "name": "Natural Restoration",
@@ -231,10 +179,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730614.583433,
+            "ts": 1387584542.137727,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +214,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the overtime heal amount by 12%",
+                    "description": "Reduces the casting time by 0.3 seconds.",
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces the casting time by 0.3 seconds.",
+                    "description": "Improves the overtime heal amount by 12%",
                     "indentation": 0
                 }
             ],
@@ -279,7 +229,7 @@
                 "id": 189
             },
             "id": 693756982,
-            "last_update": 1366730453.643505,
+            "last_update": 1387584542.137727,
             "level": 0,
             "max_targets": 0,
             "name": "Natural Restoration",
@@ -289,10 +239,70 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730453.643505,
+            "ts": 1387584542.137727,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 597064087,
+            "deity": 0,
+            "description": "Autumn's Kiss and its upgrades will have a shorter casting time.  In addition, the overtime component will heal for more.",
+            "description_pvp": "Autumn's Kiss and its upgrades will have a shorter casting time.  In addition, the overtime component will heal for more.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the casting time by 0.1 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the overtime heal amount by 4%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 189
+            },
+            "id": 1225085309,
+            "last_update": 1387584542.137207,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Natural Restoration",
+            "name_lower": "natural restoration",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584542.137207,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

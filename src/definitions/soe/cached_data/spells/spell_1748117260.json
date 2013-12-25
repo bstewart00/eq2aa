@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.296942,
+    "min_ts": 1387585147.602855,
     "returned": 10,
-    "seconds": 0.02176499366760254,
+    "seconds": 0.026320934295654297,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -51,7 +53,7 @@
                 "id": 555
             },
             "id": 3337148569,
-            "last_update": 1366730644.367538,
+            "last_update": 1387585149.147788,
             "level": 0,
             "max_targets": 0,
             "name": "Combat Leadership",
@@ -61,10 +63,10 @@
             "spellbook": 1,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730644.367538,
+            "ts": 1387585149.147788,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -74,442 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 1748117260,
-            "deity": 0,
-            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 6 - 10 slashing damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 555
-            },
-            "id": 3490804288,
-            "last_update": 1366730621.274244,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Combat Leadership",
-            "name_lower": "combat leadership",
-            "recast_secs": 59.28854,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730621.274244,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 1748117260,
-            "deity": 0,
-            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 - 7 slashing damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 555
-            },
-            "id": 3384671579,
-            "last_update": 1366730466.358642,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Combat Leadership",
-            "name_lower": "combat leadership",
-            "recast_secs": 59.28854,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730466.358642,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 1748117260,
-            "deity": 0,
-            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 5 - 9 slashing damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 555
-            },
-            "id": 1293849398,
-            "last_update": 1366730465.819382,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Combat Leadership",
-            "name_lower": "combat leadership",
-            "recast_secs": 59.28854,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730465.819382,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 1748117260,
-            "deity": 0,
-            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 5 - 8 slashing damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 555
-            },
-            "id": 830453485,
-            "last_update": 1366730465.274713,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Combat Leadership",
-            "name_lower": "combat leadership",
-            "recast_secs": 59.28854,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730465.274713,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 1748117260,
-            "deity": 0,
-            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 - 6 slashing damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 555
-            },
-            "id": 1420958765,
-            "last_update": 1366730460.514532,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Combat Leadership",
-            "name_lower": "combat leadership",
-            "recast_secs": 59.28854,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730460.514532,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 1748117260,
-            "deity": 0,
-            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 - 6 slashing damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 555
-            },
-            "id": 684931574,
-            "last_update": 1366730459.957913,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Combat Leadership",
-            "name_lower": "combat leadership",
-            "recast_secs": 59.28854,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730459.957913,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 2,
-                "savagery": 0
-            },
-            "crc": 1748117260,
-            "deity": 0,
-            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 6 - 10 slashing damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 555
-            },
-            "id": 2256914102,
-            "last_update": 1366730457.883647,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Combat Leadership",
-            "name_lower": "combat leadership",
-            "recast_secs": 59.28854,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730457.883647,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -547,7 +117,7 @@
                 "id": 555
             },
             "id": 462038976,
-            "last_update": 1366730452.771179,
+            "last_update": 1387585149.121199,
             "level": 0,
             "max_targets": 0,
             "name": "Combat Leadership",
@@ -557,10 +127,10 @@
             "spellbook": 1,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730452.771179,
+            "ts": 1387585149.121199,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -570,8 +140,330 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 1748117260,
+            "deity": 0,
+            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 5 - 9 slashing damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 555
+            },
+            "id": 1293849398,
+            "last_update": 1387585148.066826,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Combat Leadership",
+            "name_lower": "combat leadership",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387585148.066826,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 1748117260,
+            "deity": 0,
+            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 6 - 10 slashing damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 555
+            },
+            "id": 3490804288,
+            "last_update": 1387585148.066407,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Combat Leadership",
+            "name_lower": "combat leadership",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585148.066407,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 1748117260,
+            "deity": 0,
+            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 6 - 10 slashing damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 555
+            },
+            "id": 2256914102,
+            "last_update": 1387585148.043234,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Combat Leadership",
+            "name_lower": "combat leadership",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387585148.043234,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 1748117260,
+            "deity": 0,
+            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 5 - 8 slashing damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 555
+            },
+            "id": 830453485,
+            "last_update": 1387585147.67212,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Combat Leadership",
+            "name_lower": "combat leadership",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585147.67212,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 1748117260,
+            "deity": 0,
+            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 6 slashing damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 555
+            },
+            "id": 1420958765,
+            "last_update": 1387585147.638764,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Combat Leadership",
+            "name_lower": "combat leadership",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585147.638764,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -609,7 +501,7 @@
                 "id": 555
             },
             "id": 2893043611,
-            "last_update": 1366730440.296942,
+            "last_update": 1387585147.634682,
             "level": 0,
             "max_targets": 0,
             "name": "Combat Leadership",
@@ -619,10 +511,138 @@
             "spellbook": 1,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730440.296942,
+            "ts": 1387585147.634682,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 1748117260,
+            "deity": 0,
+            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 7 slashing damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 555
+            },
+            "id": 3384671579,
+            "last_update": 1387585147.63261,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Combat Leadership",
+            "name_lower": "combat leadership",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585147.63261,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 2,
+                "savagery": 0
+            },
+            "crc": 1748117260,
+            "deity": 0,
+            "description": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "description_pvp": "The Knight's group will deal additional slashing damage on their next attack or spell.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "On any combat or spell hit this spell will cast Fierce Combat on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 6 slashing damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 555
+            },
+            "id": 684931574,
+            "last_update": 1387585147.602855,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Combat Leadership",
+            "name_lower": "combat leadership",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585147.602855,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

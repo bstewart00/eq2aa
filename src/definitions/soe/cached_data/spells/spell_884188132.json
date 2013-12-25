@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730459.50987,
+    "min_ts": 1387584915.536977,
     "returned": 5,
-    "seconds": 0.015866994857788086,
+    "seconds": 0.015774011611938477,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,73 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces power cost by 40%",
+                    "description": "Improves casting speed by 0.5 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the Crit Bonus by 4%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.4 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 0.4 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 152
-            },
-            "id": 4106324533,
-            "last_update": 1366730642.322441,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Divine Smite",
-            "name_lower": "enhance: divine smite",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730642.322441,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 884188132,
-            "deity": 0,
-            "description": "Improves the critical damage; hastens the casting and reuse speed and reduces the power cost of Divine Smite and its upgrades.",
-            "description_pvp": "Improves the critical damage; hastens the casting and reuse speed and reduces the power cost of Divine Smite and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces power cost by 50%",
+                    "description": "Improves reuse speed by 0.5 seconds",
                     "indentation": 0
                 },
                 {
@@ -106,11 +46,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 0.5 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 0.5 seconds",
+                    "description": "Reduces power cost by 50%",
                     "indentation": 0
                 }
             ],
@@ -121,7 +57,7 @@
                 "id": 152
             },
             "id": 693588912,
-            "last_update": 1366730633.272311,
+            "last_update": 1387584915.879464,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Divine Smite",
@@ -131,10 +67,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730633.272311,
+            "ts": 1387584915.879464,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -144,8 +80,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -164,19 +102,19 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces power cost by 10%",
+                    "description": "Improves casting speed by 0.4 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the Crit Bonus by 1%",
+                    "description": "Improves reuse speed by 0.4 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 0.1 seconds",
+                    "description": "Improves the Crit Bonus by 4%",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves reuse speed by 0.1 seconds",
+                    "description": "Reduces power cost by 40%",
                     "indentation": 0
                 }
             ],
@@ -186,8 +124,8 @@
                 "icon_heroic_op": -1,
                 "id": 152
             },
-            "id": 3924703526,
-            "last_update": 1366730633.017784,
+            "id": 4106324533,
+            "last_update": 1387584915.809742,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Divine Smite",
@@ -195,12 +133,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730633.017784,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584915.809742,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -210,8 +148,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -230,73 +170,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces power cost by 20%",
+                    "description": "Improves casting speed by 0.3 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the Crit Bonus by 2%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.2 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 0.2 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 152
-            },
-            "id": 1411667432,
-            "last_update": 1366730465.944114,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Divine Smite",
-            "name_lower": "enhance: divine smite",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730465.944114,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 884188132,
-            "deity": 0,
-            "description": "Improves the critical damage; hastens the casting and reuse speed and reduces the power cost of Divine Smite and its upgrades.",
-            "description_pvp": "Improves the critical damage; hastens the casting and reuse speed and reduces the power cost of Divine Smite and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces power cost by 30%",
+                    "description": "Improves reuse speed by 0.3 seconds",
                     "indentation": 0
                 },
                 {
@@ -304,11 +182,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed by 0.3 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 0.3 seconds",
+                    "description": "Reduces power cost by 30%",
                     "indentation": 0
                 }
             ],
@@ -319,7 +193,7 @@
                 "id": 152
             },
             "id": 2310179949,
-            "last_update": 1366730459.50987,
+            "last_update": 1387584915.68074,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Divine Smite",
@@ -329,10 +203,146 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730459.50987,
+            "ts": 1387584915.68074,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 884188132,
+            "deity": 0,
+            "description": "Improves the critical damage; hastens the casting and reuse speed and reduces the power cost of Divine Smite and its upgrades.",
+            "description_pvp": "Improves the critical damage; hastens the casting and reuse speed and reduces the power cost of Divine Smite and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting speed by 0.2 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 0.2 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 2%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces power cost by 20%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 152
+            },
+            "id": 1411667432,
+            "last_update": 1387584915.606513,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Divine Smite",
+            "name_lower": "enhance: divine smite",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584915.606513,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 884188132,
+            "deity": 0,
+            "description": "Improves the critical damage; hastens the casting and reuse speed and reduces the power cost of Divine Smite and its upgrades.",
+            "description_pvp": "Improves the critical damage; hastens the casting and reuse speed and reduces the power cost of Divine Smite and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting speed by 0.1 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 0.1 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 1%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces power cost by 10%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 152
+            },
+            "id": 3924703526,
+            "last_update": 1387584915.536977,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Divine Smite",
+            "name_lower": "enhance: divine smite",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584915.536977,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

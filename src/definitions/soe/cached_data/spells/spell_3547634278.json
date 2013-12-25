@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730614.610329,
+    "min_ts": 1387584223.062057,
     "returned": 3,
-    "seconds": 0.015618085861206055,
+    "seconds": 0.020995140075683594,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -45,6 +47,10 @@
                 },
                 {
                     "description": "Increments up to 50 times",
+                    "indentation": 1
+                },
+                {
+                    "description": "In PVP, this is limited to 25 triggers of Damage Reduction per group member.",
                     "indentation": 1
                 },
                 {
@@ -71,7 +77,7 @@
                 "id": 858
             },
             "id": 2001076300,
-            "last_update": 1366730635.087166,
+            "last_update": 1387584223.420275,
             "level": 0,
             "max_targets": 0,
             "name": "Champion's Interception",
@@ -81,10 +87,10 @@
             "spellbook": 1,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730635.087166,
+            "ts": 1387584223.420275,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -94,8 +100,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -127,6 +135,10 @@
                 },
                 {
                     "description": "Increments up to 50 times",
+                    "indentation": 1
+                },
+                {
+                    "description": "In PVP, this is limited to 25 triggers of Damage Reduction per group member.",
                     "indentation": 1
                 },
                 {
@@ -153,7 +165,7 @@
                 "id": 858
             },
             "id": 3930710330,
-            "last_update": 1366730617.215463,
+            "last_update": 1387584223.223838,
             "level": 0,
             "max_targets": 0,
             "name": "Champion's Interception",
@@ -163,10 +175,10 @@
             "spellbook": 1,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730617.215463,
+            "ts": 1387584223.223838,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -176,8 +188,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -212,6 +226,10 @@
                     "indentation": 1
                 },
                 {
+                    "description": "In PVP, this is limited to 25 triggers of Damage Reduction per group member.",
+                    "indentation": 1
+                },
+                {
                     "description": "Cannot be modified except by direct means",
                     "indentation": 1
                 },
@@ -235,7 +253,7 @@
                 "id": 858
             },
             "id": 2519254241,
-            "last_update": 1366730614.610329,
+            "last_update": 1387584223.062057,
             "level": 0,
             "max_targets": 0,
             "name": "Champion's Interception",
@@ -245,10 +263,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730614.610329,
+            "ts": 1387584223.062057,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

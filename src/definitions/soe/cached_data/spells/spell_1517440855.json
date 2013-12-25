@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730431.592376,
+    "min_ts": 1387584232.90591,
     "returned": 10,
-    "seconds": 0.05854010581970215,
+    "seconds": 0.022017955780029297,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -40,11 +42,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Blurs vision of target",
+                    "description": "Throws target back",
                     "indentation": 1
                 },
                 {
-                    "description": "Throws target back",
+                    "description": "Blurs vision of target",
                     "indentation": 1
                 },
                 {
@@ -67,7 +69,7 @@
                 "id": 694
             },
             "id": 94145138,
-            "last_update": 1366730641.523835,
+            "last_update": 1387584234.645551,
             "level": 0,
             "max_targets": 0,
             "name": "Point Blank Shot",
@@ -77,10 +79,10 @@
             "spellbook": 1,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730641.523835,
+            "ts": 1387584234.645551,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -90,320 +92,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 4,
-                "savagery": 0
-            },
-            "crc": 1517440855,
-            "deity": 0,
-            "description": "A short-ranged bow attack that knocks down the target on a successful hit.",
-            "description_pvp": "A short-ranged bow attack that knocks down the target on a successful hit.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Inflicts 4 - 7 ranged damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Applies Knockdown.  Lasts for 2.6 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Blurs vision of target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Throws target back",
-                    "indentation": 1
-                },
-                {
-                    "description": "Stuns target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Does not affect Epic targets",
-                    "indentation": 1
-                },
-                {
-                    "description": "If Bow equipped in Ranged",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 694
-            },
-            "id": 2389361117,
-            "last_update": 1366730631.055701,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Point Blank Shot",
-            "name_lower": "point blank shot",
-            "recast_secs": 44.466404,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730631.055701,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 4,
-                "savagery": 0
-            },
-            "crc": 1517440855,
-            "deity": 0,
-            "description": "A short-ranged bow attack that knocks down the target on a successful hit.",
-            "description_pvp": "A short-ranged bow attack that knocks down the target on a successful hit.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Inflicts 4 - 6 ranged damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Applies Knockdown.  Lasts for 2.4 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Blurs vision of target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Throws target back",
-                    "indentation": 1
-                },
-                {
-                    "description": "Stuns target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Does not affect Epic targets",
-                    "indentation": 1
-                },
-                {
-                    "description": "If Bow equipped in Ranged",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 694
-            },
-            "id": 4060865542,
-            "last_update": 1366730622.15642,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Point Blank Shot",
-            "name_lower": "point blank shot",
-            "recast_secs": 44.466404,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730622.15642,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 4,
-                "savagery": 0
-            },
-            "crc": 1517440855,
-            "deity": 0,
-            "description": "A short-ranged bow attack that knocks down the target on a successful hit.",
-            "description_pvp": "A short-ranged bow attack that knocks down the target on a successful hit.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Inflicts 5 - 8 ranged damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Applies Knockdown.  Lasts for 3.0 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Blurs vision of target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Throws target back",
-                    "indentation": 1
-                },
-                {
-                    "description": "Stuns target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Does not affect Epic targets",
-                    "indentation": 1
-                },
-                {
-                    "description": "If Bow equipped in Ranged",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 694
-            },
-            "id": 1173460061,
-            "last_update": 1366730619.96262,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Point Blank Shot",
-            "name_lower": "point blank shot",
-            "recast_secs": 44.466404,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730619.96262,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 4,
-                "savagery": 0
-            },
-            "crc": 1517440855,
-            "deity": 0,
-            "description": "A short-ranged bow attack that knocks down the target on a successful hit.",
-            "description_pvp": "A short-ranged bow attack that knocks down the target on a successful hit.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Inflicts 3 - 5 ranged damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Applies Knockdown.  Lasts for 1.8 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Blurs vision of target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Throws target back",
-                    "indentation": 1
-                },
-                {
-                    "description": "Stuns target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Does not affect Epic targets",
-                    "indentation": 1
-                },
-                {
-                    "description": "If Bow equipped in Ranged",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 694
-            },
-            "id": 3953617693,
-            "last_update": 1366730612.448208,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Point Blank Shot",
-            "name_lower": "point blank shot",
-            "recast_secs": 44.466404,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730612.448208,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -430,11 +122,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Blurs vision of target",
+                    "description": "Throws target back",
                     "indentation": 1
                 },
                 {
-                    "description": "Throws target back",
+                    "description": "Blurs vision of target",
                     "indentation": 1
                 },
                 {
@@ -457,7 +149,7 @@
                 "id": 694
             },
             "id": 3640554795,
-            "last_update": 1366730460.102613,
+            "last_update": 1387584234.420516,
             "level": 0,
             "max_targets": 0,
             "name": "Point Blank Shot",
@@ -467,10 +159,10 @@
             "spellbook": 1,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730460.102613,
+            "ts": 1387584234.420516,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -480,8 +172,90 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 4,
+                "savagery": 0
+            },
+            "crc": 1517440855,
+            "deity": 0,
+            "description": "A short-ranged bow attack that knocks down the target on a successful hit.",
+            "description_pvp": "A short-ranged bow attack that knocks down the target on a successful hit.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 5 - 8 ranged damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Knockdown.  Lasts for 3.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Throws target back",
+                    "indentation": 1
+                },
+                {
+                    "description": "Blurs vision of target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Stuns target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Does not affect Epic targets",
+                    "indentation": 1
+                },
+                {
+                    "description": "If Bow equipped in Ranged",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 694
+            },
+            "id": 1173460061,
+            "last_update": 1387584234.227408,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Point Blank Shot",
+            "name_lower": "point blank shot",
+            "recast_secs": 44.466404,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584234.227408,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -508,11 +282,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Blurs vision of target",
+                    "description": "Throws target back",
                     "indentation": 1
                 },
                 {
-                    "description": "Throws target back",
+                    "description": "Blurs vision of target",
                     "indentation": 1
                 },
                 {
@@ -535,7 +309,7 @@
                 "id": 694
             },
             "id": 325394603,
-            "last_update": 1366730458.102013,
+            "last_update": 1387584234.092603,
             "level": 0,
             "max_targets": 0,
             "name": "Point Blank Shot",
@@ -545,10 +319,10 @@
             "spellbook": 1,
             "tier": 7,
             "tier_name": "Expert",
-            "ts": 1366730458.102013,
+            "ts": 1387584234.092603,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -558,8 +332,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -578,19 +354,19 @@
             },
             "effect_list": [
                 {
-                    "description": "Inflicts 3 - 5 ranged damage on target",
+                    "description": "Inflicts 4 - 7 ranged damage on target",
                     "indentation": 0
                 },
                 {
-                    "description": "Applies Knockdown.  Lasts for 1.9 seconds.",
+                    "description": "Applies Knockdown.  Lasts for 2.6 seconds.",
                     "indentation": 0
-                },
-                {
-                    "description": "Blurs vision of target",
-                    "indentation": 1
                 },
                 {
                     "description": "Throws target back",
+                    "indentation": 1
+                },
+                {
+                    "description": "Blurs vision of target",
                     "indentation": 1
                 },
                 {
@@ -612,8 +388,8 @@
                 "icon_heroic_op": -1,
                 "id": 694
             },
-            "id": 2546355910,
-            "last_update": 1366730450.576724,
+            "id": 2389361117,
+            "last_update": 1387584234.047975,
             "level": 0,
             "max_targets": 0,
             "name": "Point Blank Shot",
@@ -621,12 +397,12 @@
             "recast_secs": 44.466404,
             "recovery_secs_tenths": 50,
             "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730450.576724,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584234.047975,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -636,8 +412,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -656,19 +434,19 @@
             },
             "effect_list": [
                 {
-                    "description": "Inflicts 3 - 5 ranged damage on target",
+                    "description": "Inflicts 4 - 6 ranged damage on target",
                     "indentation": 0
                 },
                 {
-                    "description": "Applies Knockdown.  Lasts for 2.0 seconds.",
+                    "description": "Applies Knockdown.  Lasts for 2.4 seconds.",
                     "indentation": 0
-                },
-                {
-                    "description": "Blurs vision of target",
-                    "indentation": 1
                 },
                 {
                     "description": "Throws target back",
+                    "indentation": 1
+                },
+                {
+                    "description": "Blurs vision of target",
                     "indentation": 1
                 },
                 {
@@ -690,8 +468,8 @@
                 "icon_heroic_op": -1,
                 "id": 694
             },
-            "id": 180989872,
-            "last_update": 1366730439.749011,
+            "id": 4060865542,
+            "last_update": 1387584233.626226,
             "level": 0,
             "max_targets": 0,
             "name": "Point Blank Shot",
@@ -699,12 +477,12 @@
             "recast_secs": 44.466404,
             "recovery_secs_tenths": 50,
             "spellbook": 1,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730439.749011,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584233.626226,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -714,8 +492,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -742,11 +522,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Blurs vision of target",
+                    "description": "Throws target back",
                     "indentation": 1
                 },
                 {
-                    "description": "Throws target back",
+                    "description": "Blurs vision of target",
                     "indentation": 1
                 },
                 {
@@ -769,7 +549,7 @@
                 "id": 694
             },
             "id": 1862534512,
-            "last_update": 1366730431.592376,
+            "last_update": 1387584233.518948,
             "level": 0,
             "max_targets": 0,
             "name": "Point Blank Shot",
@@ -779,10 +559,250 @@
             "spellbook": 1,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730431.592376,
+            "ts": 1387584233.518948,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 4,
+                "savagery": 0
+            },
+            "crc": 1517440855,
+            "deity": 0,
+            "description": "A short-ranged bow attack that knocks down the target on a successful hit.",
+            "description_pvp": "A short-ranged bow attack that knocks down the target on a successful hit.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 3 - 5 ranged damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Knockdown.  Lasts for 2.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Throws target back",
+                    "indentation": 1
+                },
+                {
+                    "description": "Blurs vision of target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Stuns target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Does not affect Epic targets",
+                    "indentation": 1
+                },
+                {
+                    "description": "If Bow equipped in Ranged",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 694
+            },
+            "id": 180989872,
+            "last_update": 1387584233.299767,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Point Blank Shot",
+            "name_lower": "point blank shot",
+            "recast_secs": 44.466404,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584233.299767,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 4,
+                "savagery": 0
+            },
+            "crc": 1517440855,
+            "deity": 0,
+            "description": "A short-ranged bow attack that knocks down the target on a successful hit.",
+            "description_pvp": "A short-ranged bow attack that knocks down the target on a successful hit.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 3 - 5 ranged damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Knockdown.  Lasts for 1.9 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Throws target back",
+                    "indentation": 1
+                },
+                {
+                    "description": "Blurs vision of target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Stuns target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Does not affect Epic targets",
+                    "indentation": 1
+                },
+                {
+                    "description": "If Bow equipped in Ranged",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 694
+            },
+            "id": 2546355910,
+            "last_update": 1387584233.119976,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Point Blank Shot",
+            "name_lower": "point blank shot",
+            "recast_secs": 44.466404,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584233.119976,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 4,
+                "savagery": 0
+            },
+            "crc": 1517440855,
+            "deity": 0,
+            "description": "A short-ranged bow attack that knocks down the target on a successful hit.",
+            "description_pvp": "A short-ranged bow attack that knocks down the target on a successful hit.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 3 - 5 ranged damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Knockdown.  Lasts for 1.8 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Throws target back",
+                    "indentation": 1
+                },
+                {
+                    "description": "Blurs vision of target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Stuns target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Does not affect Epic targets",
+                    "indentation": 1
+                },
+                {
+                    "description": "If Bow equipped in Ranged",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 694
+            },
+            "id": 3953617693,
+            "last_update": 1387584232.90591,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Point Blank Shot",
+            "name_lower": "point blank shot",
+            "recast_secs": 44.466404,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584232.90591,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

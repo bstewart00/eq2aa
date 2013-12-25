@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730469.420335,
+    "min_ts": 1387584880.20603,
     "returned": 1,
-    "seconds": 0.015193939208984375,
+    "seconds": 0.020272016525268555,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Inflicts 6 - 9 piercing damage on target every 6 seconds",
+                    "description": "Inflicts 16 - 27 piercing damage on target",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 16 - 27 piercing damage on target",
+                    "description": "Inflicts 6 - 9 piercing damage on target every 6 seconds",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 868
             },
             "id": 1862451774,
-            "last_update": 1366730469.420335,
+            "last_update": 1387584880.20603,
             "level": 0,
             "max_targets": 0,
             "name": "Kaldrahir's Growl",
@@ -57,10 +59,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730469.420335,
+            "ts": 1387584880.20603,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

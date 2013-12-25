@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730654.962792,
+    "min_ts": 1387585556.673641,
     "returned": 1,
-    "seconds": 0.01752495765686035,
+    "seconds": 0.015993118286132812,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Inflicts 10 - 15 ranged damage on target encounter",
+                    "description": "Inflicts 10 - 15 piercing damage on target encounter instantly and every 3 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 10 - 15 piercing damage on target encounter instantly and every 3 seconds",
+                    "description": "Inflicts 10 - 15 ranged damage on target encounter",
                     "indentation": 0
                 },
                 {
@@ -51,7 +53,7 @@
                 "id": 811
             },
             "id": 564572280,
-            "last_update": 1366730654.962792,
+            "last_update": 1387585556.673641,
             "level": 0,
             "max_targets": -1,
             "name": "Arrow Barrage",
@@ -61,10 +63,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730654.962792,
+            "ts": 1387585556.673641,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

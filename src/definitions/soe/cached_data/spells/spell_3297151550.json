@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.285551,
+    "min_ts": 1387584278.458742,
     "returned": 10,
-    "seconds": 0.02345418930053711,
+    "seconds": 0.018877029418945312,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,128 +33,12 @@
                 "min_sec_tenths": 1800
             },
             "effect_list": [
-                {
-                    "description": "Improves hate reduction of Evade by 40%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Hate Gain of caster by 12.0%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 696
-            },
-            "id": 1529055910,
-            "last_update": 1366730645.116491,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Evasiveness",
-            "name_lower": "evasiveness",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730645.116491,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3297151550,
-            "deity": 0,
-            "description": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
-            "description_pvp": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 1800,
-                "min_sec_tenths": 1800
-            },
-            "effect_list": [
-                {
-                    "description": "Improves hate reduction of Evade by 25%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Hate Gain of caster by 7.5%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 696
-            },
-            "id": 3973708541,
-            "last_update": 1366730642.311301,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Evasiveness",
-            "name_lower": "evasiveness",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730642.311301,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3297151550,
-            "deity": 0,
-            "description": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
-            "description_pvp": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 1800,
-                "min_sec_tenths": 1800
-            },
-            "effect_list": [
-                {
-                    "description": "Improves hate reduction of Evade by 50%",
-                    "indentation": 0
-                },
                 {
                     "description": "Decreases Hate Gain of caster by 15.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves hate reduction of Evade by 50%",
                     "indentation": 0
                 }
             ],
@@ -163,7 +49,7 @@
                 "id": 696
             },
             "id": 458134665,
-            "last_update": 1366730635.914521,
+            "last_update": 1387584279.298974,
             "level": 0,
             "max_targets": 0,
             "name": "Evasiveness",
@@ -173,10 +59,10 @@
             "spellbook": 1,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730635.914521,
+            "ts": 1387584279.298974,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,186 +93,12 @@
                 "min_sec_tenths": 1800
             },
             "effect_list": [
-                {
-                    "description": "Improves hate reduction of Evade by 30%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Hate Gain of caster by 9.0%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 696
-            },
-            "id": 2428034854,
-            "last_update": 1366730620.643854,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Evasiveness",
-            "name_lower": "evasiveness",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730620.643854,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3297151550,
-            "deity": 0,
-            "description": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
-            "description_pvp": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 1800,
-                "min_sec_tenths": 1800
-            },
-            "effect_list": [
-                {
-                    "description": "Improves hate reduction of Evade by 20%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Hate Gain of caster by 6.0%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 696
-            },
-            "id": 1909857163,
-            "last_update": 1366730620.031548,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Evasiveness",
-            "name_lower": "evasiveness",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730620.031548,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3297151550,
-            "deity": 0,
-            "description": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
-            "description_pvp": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 1800,
-                "min_sec_tenths": 1800
-            },
-            "effect_list": [
-                {
-                    "description": "Improves hate reduction of Evade by 5%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Hate Gain of caster by 1.5%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 696
-            },
-            "id": 4118115814,
-            "last_update": 1366730619.810276,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Evasiveness",
-            "name_lower": "evasiveness",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730619.810276,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3297151550,
-            "deity": 0,
-            "description": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
-            "description_pvp": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 1800,
-                "min_sec_tenths": 1800
-            },
-            "effect_list": [
-                {
-                    "description": "Improves hate reduction of Evade by 45%",
-                    "indentation": 0
-                },
                 {
                     "description": "Decreases Hate Gain of caster by 13.5%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves hate reduction of Evade by 45%",
                     "indentation": 0
                 }
             ],
@@ -395,7 +109,7 @@
                 "id": 696
             },
             "id": 3324799952,
-            "last_update": 1366730454.569388,
+            "last_update": 1387584279.219553,
             "level": 0,
             "max_targets": 0,
             "name": "Evasiveness",
@@ -405,10 +119,10 @@
             "spellbook": 1,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730454.569388,
+            "ts": 1387584279.219553,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -418,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -438,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves hate reduction of Evade by 15%",
+                    "description": "Decreases Hate Gain of caster by 12.0%",
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases Hate Gain of caster by 4.5%",
+                    "description": "Improves hate reduction of Evade by 40%",
                     "indentation": 0
                 }
             ],
@@ -452,8 +168,8 @@
                 "icon_heroic_op": -1,
                 "id": 696
             },
-            "id": 337359179,
-            "last_update": 1366730445.136879,
+            "id": 1529055910,
+            "last_update": 1387584279.140693,
             "level": 0,
             "max_targets": 0,
             "name": "Evasiveness",
@@ -461,12 +177,12 @@
             "recast_secs": 1.976285,
             "recovery_secs_tenths": 50,
             "spellbook": 1,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730445.136879,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584279.140693,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -476,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -496,11 +214,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves hate reduction of Evade by 35%",
+                    "description": "Decreases Hate Gain of caster by 10.5%",
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases Hate Gain of caster by 10.5%",
+                    "description": "Improves hate reduction of Evade by 35%",
                     "indentation": 0
                 }
             ],
@@ -511,7 +229,7 @@
                 "id": 696
             },
             "id": 230112848,
-            "last_update": 1366730441.309712,
+            "last_update": 1387584279.028234,
             "level": 0,
             "max_targets": 0,
             "name": "Evasiveness",
@@ -521,10 +239,10 @@
             "spellbook": 1,
             "tier": 7,
             "tier_name": "Expert",
-            "ts": 1366730441.309712,
+            "ts": 1387584279.028234,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -534,8 +252,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -554,11 +274,131 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves hate reduction of Evade by 10%",
+                    "description": "Decreases Hate Gain of caster by 9.0%",
                     "indentation": 0
                 },
                 {
+                    "description": "Improves hate reduction of Evade by 30%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 696
+            },
+            "id": 2428034854,
+            "last_update": 1387584278.940044,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Evasiveness",
+            "name_lower": "evasiveness",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584278.940044,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3297151550,
+            "deity": 0,
+            "description": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
+            "description_pvp": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 1800,
+                "min_sec_tenths": 1800
+            },
+            "effect_list": [
+                {
+                    "description": "Decreases Hate Gain of caster by 7.5%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves hate reduction of Evade by 25%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 696
+            },
+            "id": 3973708541,
+            "last_update": 1387584278.882786,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Evasiveness",
+            "name_lower": "evasiveness",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584278.882786,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3297151550,
+            "deity": 0,
+            "description": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
+            "description_pvp": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 1800,
+                "min_sec_tenths": 1800
+            },
+            "effect_list": [
+                {
                     "description": "Decreases Hate Gain of caster by 3.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves hate reduction of Evade by 10%",
                     "indentation": 0
                 }
             ],
@@ -569,7 +409,7 @@
                 "id": 696
             },
             "id": 2299809853,
-            "last_update": 1366730440.285551,
+            "last_update": 1387584278.750133,
             "level": 0,
             "max_targets": 0,
             "name": "Evasiveness",
@@ -579,10 +419,190 @@
             "spellbook": 1,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730440.285551,
+            "ts": 1387584278.750133,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3297151550,
+            "deity": 0,
+            "description": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
+            "description_pvp": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 1800,
+                "min_sec_tenths": 1800
+            },
+            "effect_list": [
+                {
+                    "description": "Decreases Hate Gain of caster by 4.5%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves hate reduction of Evade by 15%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 696
+            },
+            "id": 337359179,
+            "last_update": 1387584278.749924,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Evasiveness",
+            "name_lower": "evasiveness",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584278.749924,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3297151550,
+            "deity": 0,
+            "description": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
+            "description_pvp": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 1800,
+                "min_sec_tenths": 1800
+            },
+            "effect_list": [
+                {
+                    "description": "Decreases Hate Gain of caster by 6.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves hate reduction of Evade by 20%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 696
+            },
+            "id": 1909857163,
+            "last_update": 1387584278.743065,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Evasiveness",
+            "name_lower": "evasiveness",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584278.743065,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3297151550,
+            "deity": 0,
+            "description": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
+            "description_pvp": "The Thief accrues less hate with enemies in combat, allowing him to get away with dealing greater amounts of damage without bringing attention to himself. This ability must be activated in order to take effect.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 1800,
+                "min_sec_tenths": 1800
+            },
+            "effect_list": [
+                {
+                    "description": "Decreases Hate Gain of caster by 1.5%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves hate reduction of Evade by 5%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 696
+            },
+            "id": 4118115814,
+            "last_update": 1387584278.458742,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Evasiveness",
+            "name_lower": "evasiveness",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584278.458742,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

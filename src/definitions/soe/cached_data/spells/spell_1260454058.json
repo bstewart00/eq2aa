@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730445.226823,
+    "min_ts": 1387585658.852913,
     "returned": 5,
-    "seconds": 0.02438807487487793,
+    "seconds": 0.020889997482299805,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 512
             },
             "id": 2611490234,
-            "last_update": 1366730645.804816,
+            "last_update": 1387585659.089811,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Merciless Stomp",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730645.804816,
+            "ts": 1387585659.089811,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,170 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1260454058,
-            "deity": 0,
-            "description": "Increases the damage of Merciless Stomp and its upgrades.",
-            "description_pvp": "Increases the damage of Merciless Stomp and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases damage by 10%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 512
-            },
-            "id": 4268066682,
-            "last_update": 1366730639.449058,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Merciless Stomp",
-            "name_lower": "enhance: merciless stomp",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730639.449058,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1260454058,
-            "deity": 0,
-            "description": "Increases the damage of Merciless Stomp and its upgrades.",
-            "description_pvp": "Increases the damage of Merciless Stomp and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases damage by 5%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 512
-            },
-            "id": 2181341857,
-            "last_update": 1366730570.727828,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Merciless Stomp",
-            "name_lower": "enhance: merciless stomp",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730570.727828,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1260454058,
-            "deity": 0,
-            "description": "Increases the damage of Merciless Stomp and its upgrades.",
-            "description_pvp": "Increases the damage of Merciless Stomp and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases damage by 15%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 512
-            },
-            "id": 1667917324,
-            "last_update": 1366730460.900766,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Merciless Stomp",
-            "name_lower": "enhance: merciless stomp",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730460.900766,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +101,7 @@
                 "id": 512
             },
             "id": 111660236,
-            "last_update": 1366730445.226823,
+            "last_update": 1387585659.054153,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Merciless Stomp",
@@ -269,10 +111,178 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730445.226823,
+            "ts": 1387585659.054153,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1260454058,
+            "deity": 0,
+            "description": "Increases the damage of Merciless Stomp and its upgrades.",
+            "description_pvp": "Increases the damage of Merciless Stomp and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases damage by 10%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 512
+            },
+            "id": 4268066682,
+            "last_update": 1387585658.932829,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Merciless Stomp",
+            "name_lower": "enhance: merciless stomp",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585658.932829,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1260454058,
+            "deity": 0,
+            "description": "Increases the damage of Merciless Stomp and its upgrades.",
+            "description_pvp": "Increases the damage of Merciless Stomp and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases damage by 15%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 512
+            },
+            "id": 1667917324,
+            "last_update": 1387585658.929593,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Merciless Stomp",
+            "name_lower": "enhance: merciless stomp",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585658.929593,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1260454058,
+            "deity": 0,
+            "description": "Increases the damage of Merciless Stomp and its upgrades.",
+            "description_pvp": "Increases the damage of Merciless Stomp and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases damage by 5%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 512
+            },
+            "id": 2181341857,
+            "last_update": 1387585658.852913,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Merciless Stomp",
+            "name_lower": "enhance: merciless stomp",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585658.852913,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

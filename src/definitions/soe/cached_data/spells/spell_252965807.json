@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.257208,
+    "min_ts": 1387584310.511187,
     "returned": 5,
-    "seconds": 0.015069961547851562,
+    "seconds": 0.017622947692871094,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,136 +33,12 @@
                 "min_sec_tenths": 240
             },
             "effect_list": [
-                {
-                    "description": "Decreases WIS of target by 5.5",
-                    "indentation": 0
-                },
                 {
                     "description": "Inflicts 1 divine damage on target every 4 seconds",
                     "indentation": 0
                 },
-                {
-                    "description": "Inflicts 2 melee damage on target",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": 14,
-                "id": 159
-            },
-            "id": 1822775378,
-            "last_update": 1366730624.293683,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Strike of Corruption",
-            "name_lower": "strike of corruption",
-            "recast_secs": 19.762846,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730624.293683,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 252965807,
-            "deity": 0,
-            "description": "As an alternative to Smite Corruption, you can use Strike of Corruption as a melee attack.",
-            "description_pvp": "As an alternative to Smite Corruption, you can use Strike of Corruption as a melee attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 240,
-                "min_sec_tenths": 240
-            },
-            "effect_list": [
-                {
-                    "description": "Decreases WIS of target by 4.5",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 1 divine damage on target every 4 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 1 - 2 melee damage on target",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": 14,
-                "id": 159
-            },
-            "id": 1904929601,
-            "last_update": 1366730572.843965,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Strike of Corruption",
-            "name_lower": "strike of corruption",
-            "recast_secs": 19.762846,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730572.843965,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 0,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 252965807,
-            "deity": 0,
-            "description": "As an alternative to Smite Corruption, you can use Strike of Corruption as a melee attack.",
-            "description_pvp": "As an alternative to Smite Corruption, you can use Strike of Corruption as a melee attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 240,
-                "min_sec_tenths": 240
-            },
-            "effect_list": [
                 {
                     "description": "Decreases WIS of target by 6.0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 1 divine damage on target every 4 seconds",
                     "indentation": 0
                 },
                 {
@@ -175,7 +53,7 @@
                 "id": 159
             },
             "id": 2972942807,
-            "last_update": 1366730459.861927,
+            "last_update": 1387584311.02885,
             "level": 0,
             "max_targets": 0,
             "name": "Strike of Corruption",
@@ -185,10 +63,10 @@
             "spellbook": 1,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730459.861927,
+            "ts": 1387584311.02885,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -198,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -218,15 +98,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Decreases WIS of target by 4.7",
-                    "indentation": 0
-                },
-                {
                     "description": "Inflicts 1 divine damage on target every 4 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 1 - 2 melee damage on target",
+                    "description": "Decreases WIS of target by 5.5",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 2 melee damage on target",
                     "indentation": 0
                 }
             ],
@@ -236,8 +116,8 @@
                 "icon_heroic_op": 14,
                 "id": 159
             },
-            "id": 3426781071,
-            "last_update": 1366730457.973037,
+            "id": 1822775378,
+            "last_update": 1387584310.948345,
             "level": 0,
             "max_targets": 0,
             "name": "Strike of Corruption",
@@ -245,12 +125,12 @@
             "recast_secs": 19.762846,
             "recovery_secs_tenths": 50,
             "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730457.973037,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584310.948345,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -260,8 +140,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -280,11 +162,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Decreases WIS of target by 5.0",
+                    "description": "Inflicts 1 divine damage on target every 4 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 1 divine damage on target every 4 seconds",
+                    "description": "Decreases WIS of target by 5.0",
                     "indentation": 0
                 },
                 {
@@ -299,7 +181,7 @@
                 "id": 159
             },
             "id": 299261450,
-            "last_update": 1366730440.257208,
+            "last_update": 1387584310.819214,
             "level": 0,
             "max_targets": 0,
             "name": "Strike of Corruption",
@@ -309,10 +191,138 @@
             "spellbook": 1,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730440.257208,
+            "ts": 1387584310.819214,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 252965807,
+            "deity": 0,
+            "description": "As an alternative to Smite Corruption, you can use Strike of Corruption as a melee attack.",
+            "description_pvp": "As an alternative to Smite Corruption, you can use Strike of Corruption as a melee attack.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 1 divine damage on target every 4 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases WIS of target by 4.7",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 1 - 2 melee damage on target",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": 14,
+                "id": 159
+            },
+            "id": 3426781071,
+            "last_update": 1387584310.624465,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Strike of Corruption",
+            "name_lower": "strike of corruption",
+            "recast_secs": 19.762846,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584310.624465,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 252965807,
+            "deity": 0,
+            "description": "As an alternative to Smite Corruption, you can use Strike of Corruption as a melee attack.",
+            "description_pvp": "As an alternative to Smite Corruption, you can use Strike of Corruption as a melee attack.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 240,
+                "min_sec_tenths": 240
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts 1 divine damage on target every 4 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases WIS of target by 4.5",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 1 - 2 melee damage on target",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": 14,
+                "id": 159
+            },
+            "id": 1904929601,
+            "last_update": 1387584310.511187,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Strike of Corruption",
+            "name_lower": "strike of corruption",
+            "recast_secs": 19.762846,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584310.511187,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

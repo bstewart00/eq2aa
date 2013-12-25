@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730650.689472,
+    "min_ts": 1387585541.43294,
     "returned": 1,
-    "seconds": 0.01743912696838379,
+    "seconds": 0.014430999755859375,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Inflicts 11 - 17 melee damage on target",
+                    "description": "Increases threat priority of target by 6 positions",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases threat priority of target by 6 positions",
+                    "description": "Inflicts 11 - 17 melee damage on target",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 855
             },
             "id": 2635358389,
-            "last_update": 1366730650.689472,
+            "last_update": 1387585541.43294,
             "level": 0,
             "max_targets": 0,
             "name": "Hidden Openings",
@@ -57,10 +59,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730650.689472,
+            "ts": 1387585541.43294,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

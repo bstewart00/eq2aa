@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730562.633649,
+    "min_ts": 1387584884.312329,
     "returned": 1,
-    "seconds": 0.016263961791992188,
+    "seconds": 0.015197992324829102,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,22 +34,22 @@
             },
             "effect_list": [
                 {
-                    "description": "If the assassin is over 10 meters away, they teleport to the target.",
+                    "description": "Inflicts 51 - 96 poison damage on target",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 51 - 96 poison damage on target",
+                    "description": "If the assassin is over 10 meters away, they teleport to the target.",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 315,
                 "icon_heroic_op": -1,
                 "id": 929
             },
             "id": 2949940433,
-            "last_update": 1366730562.633649,
+            "last_update": 1387584884.312329,
             "level": 0,
             "max_targets": 0,
             "name": "Shadow Step",
@@ -57,10 +59,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730562.633649,
+            "ts": 1387584884.312329,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

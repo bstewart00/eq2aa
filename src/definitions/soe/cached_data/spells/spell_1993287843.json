@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730640.417367,
+    "min_ts": 1387584615.810745,
     "returned": 1,
-    "seconds": 0.0169219970703125,
+    "seconds": 0.015130043029785156,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1993287843,
             "deity": 0,
-            "description": "Increases your chance to fire with two arrows on every ranged autoattack.",
-            "description_pvp": "Increases your chance to fire with two arrows on every ranged autoattack.",
+            "description": "Increases your Damage Per Second. Additionally, Searing Shot will reduce the target's maximum health for a short duration.",
+            "description_pvp": "Increases your Damage Per Second. Additionally, Searing Shot will reduce the target's maximum health for a short duration.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,7 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of caster by 8.0",
+                    "description": "Increases Damage Per Second of caster by 8.0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Searing Shot will reduce the target's maximum health by 5% for a short duration.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +49,7 @@
                 "id": 362
             },
             "id": 1413416318,
-            "last_update": 1366730640.417367,
+            "last_update": 1387584615.810745,
             "level": 0,
             "max_targets": 0,
             "name": "Double Arrow",
@@ -53,10 +59,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730640.417367,
+            "ts": 1387584615.810745,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

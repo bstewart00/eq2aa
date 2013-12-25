@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730465.717856,
+    "min_ts": 1387584204.974676,
     "returned": 1,
-    "seconds": 0.016741037368774414,
+    "seconds": 0.017384052276611328,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,6 +38,18 @@
                     "indentation": 0
                 },
                 {
+                    "description": "Applies Stoneskin Reaction.  Lasts for 1.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Triggers when a Stoneskin is consumed. Suspends all other stoneskins that match the damage types of this effect.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Reduces all damage done to target by 100%",
+                    "indentation": 1
+                },
+                {
                     "description": "If any of the following are true:",
                     "indentation": 0
                 },
@@ -51,7 +65,7 @@
                 "id": 925
             },
             "id": 3589205054,
-            "last_update": 1366730465.717856,
+            "last_update": 1387584204.974676,
             "level": 0,
             "max_targets": 0,
             "name": "Sonic Barrier",
@@ -61,10 +75,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730465.717856,
+            "ts": 1387584204.974676,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

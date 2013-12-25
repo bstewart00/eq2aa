@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.841876,
+    "min_ts": 1387585347.944582,
     "returned": 5,
-    "seconds": 0.02094101905822754,
+    "seconds": 0.01642298698425293,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 308
             },
             "id": 2231541557,
-            "last_update": 1366730647.732538,
+            "last_update": 1387585348.422922,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Vine Net",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730647.732538,
+            "ts": 1387585348.422922,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,170 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1595315290,
-            "deity": 0,
-            "description": "Opponents hit by your Vine Net will have their noxious and elemental resistances reduced even further.",
-            "description_pvp": "Opponents hit by your Vine Net will have their noxious and elemental resistances reduced even further.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases noxious and elemental resist reduction by 18%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 308
-            },
-            "id": 2109789315,
-            "last_update": 1366730646.808058,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Vine Net",
-            "name_lower": "enhance: vine net",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730646.808058,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1595315290,
-            "deity": 0,
-            "description": "Opponents hit by your Vine Net will have their noxious and elemental resistances reduced even further.",
-            "description_pvp": "Opponents hit by your Vine Net will have their noxious and elemental resistances reduced even further.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases noxious and elemental resist reduction by 12%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 308
-            },
-            "id": 3771676149,
-            "last_update": 1366730635.08147,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Vine Net",
-            "name_lower": "enhance: vine net",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730635.08147,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1595315290,
-            "deity": 0,
-            "description": "Opponents hit by your Vine Net will have their noxious and elemental resistances reduced even further.",
-            "description_pvp": "Opponents hit by your Vine Net will have their noxious and elemental resistances reduced even further.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases noxious and elemental resist reduction by 6%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 308
-            },
-            "id": 2628653102,
-            "last_update": 1366730626.315939,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Vine Net",
-            "name_lower": "enhance: vine net",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730626.315939,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +101,7 @@
                 "id": 308
             },
             "id": 403537475,
-            "last_update": 1366730438.841876,
+            "last_update": 1387585348.184715,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Vine Net",
@@ -269,10 +111,178 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730438.841876,
+            "ts": 1387585348.184715,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1595315290,
+            "deity": 0,
+            "description": "Opponents hit by your Vine Net will have their noxious and elemental resistances reduced even further.",
+            "description_pvp": "Opponents hit by your Vine Net will have their noxious and elemental resistances reduced even further.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases noxious and elemental resist reduction by 18%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 308
+            },
+            "id": 2109789315,
+            "last_update": 1387585348.139055,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Vine Net",
+            "name_lower": "enhance: vine net",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585348.139055,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1595315290,
+            "deity": 0,
+            "description": "Opponents hit by your Vine Net will have their noxious and elemental resistances reduced even further.",
+            "description_pvp": "Opponents hit by your Vine Net will have their noxious and elemental resistances reduced even further.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases noxious and elemental resist reduction by 12%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 308
+            },
+            "id": 3771676149,
+            "last_update": 1387585348.083324,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Vine Net",
+            "name_lower": "enhance: vine net",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585348.083324,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1595315290,
+            "deity": 0,
+            "description": "Opponents hit by your Vine Net will have their noxious and elemental resistances reduced even further.",
+            "description_pvp": "Opponents hit by your Vine Net will have their noxious and elemental resistances reduced even further.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases noxious and elemental resist reduction by 6%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 308
+            },
+            "id": 2628653102,
+            "last_update": 1387585347.944582,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Vine Net",
+            "name_lower": "enhance: vine net",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585347.944582,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

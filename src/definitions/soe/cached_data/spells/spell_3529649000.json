@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730650.986546,
+    "min_ts": 1387585590.679575,
     "returned": 1,
-    "seconds": 0.02005910873413086,
+    "seconds": 0.014700174331665039,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -44,12 +46,20 @@
                     "indentation": 0
                 },
                 {
-                    "description": "If under 25% Health",
+                    "description": "Certain enemies cannot be tamed.",
                     "indentation": 0
                 },
                 {
-                    "description": "Certain enemies cannot be tamed.",
+                    "description": "If any of the following are true:",
                     "indentation": 0
+                },
+                {
+                    "description": "If under 25% Health",
+                    "indentation": 1
+                },
+                {
+                    "description": "If target is of gray difficulty",
+                    "indentation": 1
                 },
                 {
                     "description": "Does not affect Epic targets",
@@ -67,7 +77,7 @@
                 "id": 931
             },
             "id": 36468845,
-            "last_update": 1366730650.986546,
+            "last_update": 1387585590.679575,
             "level": 0,
             "max_targets": 0,
             "name": "Tame Exotic Warder",
@@ -77,10 +87,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730650.986546,
+            "ts": 1387585590.679575,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

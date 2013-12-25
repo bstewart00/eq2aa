@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730432.256724,
+    "min_ts": 1387584214.781492,
     "returned": 5,
-    "seconds": 0.015824079513549805,
+    "seconds": 0.024305105209350586,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,244 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves reuse speed by 40 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves radius by 40%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 329
-            },
-            "id": 2928209378,
-            "last_update": 1366730635.338708,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Sentry Watch",
-            "name_lower": "enhance: sentry watch",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730635.338708,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 289216908,
-            "deity": 0,
-            "description": "Improves the radius and hastens the reuse speed of Sentry Watch.",
-            "description_pvp": "Improves the radius and hastens the reuse speed of Sentry Watch.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 30 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves radius by 30%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 329
-            },
-            "id": 3556502458,
-            "last_update": 1366730632.866696,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Sentry Watch",
-            "name_lower": "enhance: sentry watch",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730632.866696,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 289216908,
-            "deity": 0,
-            "description": "Improves the radius and hastens the reuse speed of Sentry Watch.",
-            "description_pvp": "Improves the radius and hastens the reuse speed of Sentry Watch.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 10 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves radius by 10%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 329
-            },
-            "id": 3014090481,
-            "last_update": 1366730574.617222,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Sentry Watch",
-            "name_lower": "enhance: sentry watch",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730574.617222,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 289216908,
-            "deity": 0,
-            "description": "Improves the radius and hastens the reuse speed of Sentry Watch.",
-            "description_pvp": "Improves the radius and hastens the reuse speed of Sentry Watch.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 20 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves radius by 20%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 329
-            },
-            "id": 242037311,
-            "last_update": 1366730465.948501,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Sentry Watch",
-            "name_lower": "enhance: sentry watch",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730465.948501,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 289216908,
-            "deity": 0,
-            "description": "Improves the radius and hastens the reuse speed of Sentry Watch.",
-            "description_pvp": "Improves the radius and hastens the reuse speed of Sentry Watch.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 50 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves radius by 50%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 50 seconds",
                     "indentation": 0
                 }
             ],
@@ -279,7 +49,7 @@
                 "id": 329
             },
             "id": 1931359335,
-            "last_update": 1366730432.256724,
+            "last_update": 1387584215.09943,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Sentry Watch",
@@ -289,10 +59,250 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730432.256724,
+            "ts": 1387584215.09943,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 289216908,
+            "deity": 0,
+            "description": "Improves the radius and hastens the reuse speed of Sentry Watch.",
+            "description_pvp": "Improves the radius and hastens the reuse speed of Sentry Watch.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves radius by 40%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 40 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 329
+            },
+            "id": 2928209378,
+            "last_update": 1387584214.979112,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Sentry Watch",
+            "name_lower": "enhance: sentry watch",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584214.979112,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 289216908,
+            "deity": 0,
+            "description": "Improves the radius and hastens the reuse speed of Sentry Watch.",
+            "description_pvp": "Improves the radius and hastens the reuse speed of Sentry Watch.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves radius by 30%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 30 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 329
+            },
+            "id": 3556502458,
+            "last_update": 1387584214.978656,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Sentry Watch",
+            "name_lower": "enhance: sentry watch",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584214.978656,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 289216908,
+            "deity": 0,
+            "description": "Improves the radius and hastens the reuse speed of Sentry Watch.",
+            "description_pvp": "Improves the radius and hastens the reuse speed of Sentry Watch.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves radius by 20%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 20 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 329
+            },
+            "id": 242037311,
+            "last_update": 1387584214.897068,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Sentry Watch",
+            "name_lower": "enhance: sentry watch",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584214.897068,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 289216908,
+            "deity": 0,
+            "description": "Improves the radius and hastens the reuse speed of Sentry Watch.",
+            "description_pvp": "Improves the radius and hastens the reuse speed of Sentry Watch.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves radius by 10%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 10 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 329
+            },
+            "id": 3014090481,
+            "last_update": 1387584214.781492,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Sentry Watch",
+            "name_lower": "enhance: sentry watch",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584214.781492,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

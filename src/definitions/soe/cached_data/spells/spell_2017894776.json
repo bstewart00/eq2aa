@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.726994,
+    "min_ts": 1387584575.893328,
     "returned": 1,
-    "seconds": 0.014283895492553711,
+    "seconds": 0.015456199645996094,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,6 +33,10 @@
                 "min_sec_tenths": 600
             },
             "effect_list": [
+                {
+                    "description": "When target ally's death is prevented by this spell, the enemy encounter's hate towards the caster increases by 2 positions",
+                    "indentation": 0
+                },
                 {
                     "description": "On death this spell will cast Feign Death on caster.  Lasts for 36.0 seconds.  ",
                     "indentation": 0
@@ -54,10 +60,6 @@
                 {
                     "description": "Grants a total of 1 trigger of the spell.",
                     "indentation": 1
-                },
-                {
-                    "description": "When target ally's death is prevented by this spell, the enemy encounter's hate towards the caster increases by 2 positions",
-                    "indentation": 0
                 }
             ],
             "given_by": "alternateadvancement",
@@ -67,7 +69,7 @@
                 "id": 667
             },
             "id": 3931402953,
-            "last_update": 1366730440.726994,
+            "last_update": 1387584575.893328,
             "level": 0,
             "max_targets": 0,
             "name": "Altruism",
@@ -77,10 +79,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730440.726994,
+            "ts": 1387584575.893328,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

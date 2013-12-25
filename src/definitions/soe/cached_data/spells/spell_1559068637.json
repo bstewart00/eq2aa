@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730442.500336,
+    "min_ts": 1387584844.022039,
     "returned": 10,
-    "seconds": 0.016357898712158203,
+    "seconds": 0.01607203483581543,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,277 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Caster has a 20.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 692
-            },
-            "id": 2958115736,
-            "last_update": 1366730637.231228,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Dragoon's Cyclone",
-            "name_lower": "dragoon's cyclone",
-            "recast_secs": 9.881423,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730637.231228,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1559068637,
-            "deity": 0,
-            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 360,
-                "min_sec_tenths": 360
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 16.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 692
-            },
-            "id": 761176814,
-            "last_update": 1366730630.738355,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Dragoon's Cyclone",
-            "name_lower": "dragoon's cyclone",
-            "recast_secs": 9.881423,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730630.738355,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1559068637,
-            "deity": 0,
-            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 360,
-                "min_sec_tenths": 360
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 32.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 692
-            },
-            "id": 128660419,
-            "last_update": 1366730630.060031,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Dragoon's Cyclone",
-            "name_lower": "dragoon's cyclone",
-            "recast_secs": 9.881423,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730630.060031,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1559068637,
-            "deity": 0,
-            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 360,
-                "min_sec_tenths": 360
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 12.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 692
-            },
-            "id": 1217595438,
-            "last_update": 1366730625.360149,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Dragoon's Cyclone",
-            "name_lower": "dragoon's cyclone",
-            "recast_secs": 9.881423,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730625.360149,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1559068637,
-            "deity": 0,
-            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 360,
-                "min_sec_tenths": 360
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 4.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 692
-            },
-            "id": 2851982467,
-            "last_update": 1366730594.997544,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Dragoon's Cyclone",
-            "name_lower": "dragoon's cyclone",
-            "recast_secs": 9.881423,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730594.997544,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1559068637,
-            "deity": 0,
-            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 360,
-                "min_sec_tenths": 360
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 40.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
+                    "description": "Caster has a 40.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
                     "indentation": 0
                 }
             ],
@@ -313,20 +45,20 @@
                 "id": 692
             },
             "id": 1204170220,
-            "last_update": 1366730465.105485,
+            "last_update": 1387584844.800312,
             "level": 0,
             "max_targets": 0,
             "name": "Dragoon's Cyclone",
             "name_lower": "dragoon's cyclone",
             "recast_secs": 9.881423,
             "recovery_secs_tenths": 50,
-            "spellbook": 1,
+            "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730465.105485,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
+            "ts": 1387584844.800312,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -336,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -356,115 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Caster has a 28.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 692
-            },
-            "id": 1363117877,
-            "last_update": 1366730461.819424,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Dragoon's Cyclone",
-            "name_lower": "dragoon's cyclone",
-            "recast_secs": 9.881423,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730461.819424,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1559068637,
-            "deity": 0,
-            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 360,
-                "min_sec_tenths": 360
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 8.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 692
-            },
-            "id": 3583830360,
-            "last_update": 1366730459.485549,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Dragoon's Cyclone",
-            "name_lower": "dragoon's cyclone",
-            "recast_secs": 9.881423,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730459.485549,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1559068637,
-            "deity": 0,
-            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 360,
-                "min_sec_tenths": 360
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 36.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
+                    "description": "Caster has a 36.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
                     "indentation": 0
                 }
             ],
@@ -475,20 +101,20 @@
                 "id": 692
             },
             "id": 2594493109,
-            "last_update": 1366730445.761176,
+            "last_update": 1387584844.718895,
             "level": 0,
             "max_targets": 0,
             "name": "Dragoon's Cyclone",
             "name_lower": "dragoon's cyclone",
             "recast_secs": 9.881423,
             "recovery_secs_tenths": 50,
-            "spellbook": 1,
+            "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730445.761176,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
+            "ts": 1387584844.718895,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -498,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -518,7 +146,119 @@
             },
             "effect_list": [
                 {
-                    "description": "Caster has a 24.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
+                    "description": "Caster has a 32.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 692
+            },
+            "id": 128660419,
+            "last_update": 1387584844.661064,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Dragoon's Cyclone",
+            "name_lower": "dragoon's cyclone",
+            "recast_secs": 9.881423,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584844.661064,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1559068637,
+            "deity": 0,
+            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 360,
+                "min_sec_tenths": 360
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 28.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 692
+            },
+            "id": 1363117877,
+            "last_update": 1387584844.580867,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Dragoon's Cyclone",
+            "name_lower": "dragoon's cyclone",
+            "recast_secs": 9.881423,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584844.580867,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1559068637,
+            "deity": 0,
+            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 360,
+                "min_sec_tenths": 360
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 24.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
                     "indentation": 0
                 }
             ],
@@ -529,20 +269,300 @@
                 "id": 692
             },
             "id": 3425723971,
-            "last_update": 1366730442.500336,
+            "last_update": 1387584844.462143,
             "level": 0,
             "max_targets": 0,
             "name": "Dragoon's Cyclone",
             "name_lower": "dragoon's cyclone",
             "recast_secs": 9.881423,
             "recovery_secs_tenths": 50,
-            "spellbook": 1,
+            "spellbook": 4,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730442.500336,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
+            "ts": 1387584844.462143,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1559068637,
+            "deity": 0,
+            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 360,
+                "min_sec_tenths": 360
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 20.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 692
+            },
+            "id": 2958115736,
+            "last_update": 1387584844.359711,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Dragoon's Cyclone",
+            "name_lower": "dragoon's cyclone",
+            "recast_secs": 9.881423,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584844.359711,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1559068637,
+            "deity": 0,
+            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 360,
+                "min_sec_tenths": 360
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 16.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 692
+            },
+            "id": 761176814,
+            "last_update": 1387584844.278884,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Dragoon's Cyclone",
+            "name_lower": "dragoon's cyclone",
+            "recast_secs": 9.881423,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584844.278884,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1559068637,
+            "deity": 0,
+            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 360,
+                "min_sec_tenths": 360
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 12.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 692
+            },
+            "id": 1217595438,
+            "last_update": 1387584844.200921,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Dragoon's Cyclone",
+            "name_lower": "dragoon's cyclone",
+            "recast_secs": 9.881423,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584844.200921,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1559068637,
+            "deity": 0,
+            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 360,
+                "min_sec_tenths": 360
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 8.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 692
+            },
+            "id": 3583830360,
+            "last_update": 1387584844.142093,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Dragoon's Cyclone",
+            "name_lower": "dragoon's cyclone",
+            "recast_secs": 9.881423,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584844.142093,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1559068637,
+            "deity": 0,
+            "description": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "description_pvp": "Grants a chance that the Dragoon's auto-attacks will attack up to 4 enemies in an area surrounding the Dragoon.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 360,
+                "min_sec_tenths": 360
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 4.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 692
+            },
+            "id": 2851982467,
+            "last_update": 1387584844.022039,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Dragoon's Cyclone",
+            "name_lower": "dragoon's cyclone",
+            "recast_secs": 9.881423,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584844.022039,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

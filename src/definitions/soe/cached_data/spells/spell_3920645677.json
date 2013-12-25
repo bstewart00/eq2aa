@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730462.879033,
+    "min_ts": 1387585568.726347,
     "returned": 3,
-    "seconds": 0.014871835708618164,
+    "seconds": 0.017019033432006836,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,66 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3920645677,
-            "deity": 0,
-            "description": "The conjuror summons additional energy from the planes of power, allowing them to deal damage to enemies surrounding their target when casting damaging spells.",
-            "description_pvp": "The conjuror summons additional energy from the planes of power, allowing them to deal damage to enemies surrounding their target when casting damaging spells.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 10,
-                "min_sec_tenths": 10
-            },
-            "effect_list": [
-                {
-                    "description": "On a damage spell hit this spell may cast Planar Detonation on target of spell.  Lasts for 4.0 seconds.  Triggers about 2.0 times per minute. ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 4 - 7 magic damage on targets in Area of Effect instantly and every second",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 263
-            },
-            "id": 4009627332,
-            "last_update": 1366730578.913031,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Planar Detonation",
-            "name_lower": "planar detonation",
-            "recast_secs": 0.988142,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730578.913031,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 20,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -105,7 +49,7 @@
                 "id": 263
             },
             "id": 261147241,
-            "last_update": 1366730468.133057,
+            "last_update": 1387585569.00734,
             "level": 0,
             "max_targets": 0,
             "name": "Planar Detonation",
@@ -115,10 +59,10 @@
             "spellbook": 0,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730468.133057,
+            "ts": 1387585569.00734,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -163,7 +109,7 @@
                 "id": 263
             },
             "id": 2459904799,
-            "last_update": 1366730462.879033,
+            "last_update": 1387585568.887083,
             "level": 0,
             "max_targets": 0,
             "name": "Planar Detonation",
@@ -173,10 +119,70 @@
             "spellbook": 0,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730462.879033,
+            "ts": 1387585568.887083,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 20,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3920645677,
+            "deity": 0,
+            "description": "The conjuror summons additional energy from the planes of power, allowing them to deal damage to enemies surrounding their target when casting damaging spells.",
+            "description_pvp": "The conjuror summons additional energy from the planes of power, allowing them to deal damage to enemies surrounding their target when casting damaging spells.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 10,
+                "min_sec_tenths": 10
+            },
+            "effect_list": [
+                {
+                    "description": "On a damage spell hit this spell may cast Planar Detonation on target of spell.  Lasts for 4.0 seconds.  Triggers about 2.0 times per minute. ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 4 - 7 magic damage on targets in Area of Effect instantly and every second",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 263
+            },
+            "id": 4009627332,
+            "last_update": 1387585568.726347,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Planar Detonation",
+            "name_lower": "planar detonation",
+            "recast_secs": 0.988142,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585568.726347,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
         }
     ]
 }

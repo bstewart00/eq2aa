@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730459.423146,
+    "min_ts": 1387585443.503399,
     "returned": 5,
-    "seconds": 0.015527963638305664,
+    "seconds": 0.01703786849975586,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,70 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Increases the critical damage by 2%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the base damage by 3%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 494
-            },
-            "id": 3258082842,
-            "last_update": 1366730653.412617,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bite of the Cobra",
-            "name_lower": "bite of the cobra",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730653.412617,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2140201042,
-            "deity": 0,
-            "description": "Adds additional base and critical damage to the Striking Cobra line of skills.",
-            "description_pvp": "Adds additional base and critical damage to the Striking Cobra line of skills.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the critical damage by 10%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases the base damage by 15%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the critical damage by 10%.",
                     "indentation": 0
                 }
             ],
@@ -105,7 +49,7 @@
                 "id": 494
             },
             "id": 3684624641,
-            "last_update": 1366730646.450737,
+            "last_update": 1387585443.785362,
             "level": 0,
             "max_targets": 0,
             "name": "Bite of the Cobra",
@@ -115,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730646.450737,
+            "ts": 1387585443.785362,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -148,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the critical damage by 8%.",
+                    "description": "Increases the base damage by 12%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases the base damage by 12%.",
+                    "description": "Increases the critical damage by 8%.",
                     "indentation": 0
                 }
             ],
@@ -163,7 +109,7 @@
                 "id": 494
             },
             "id": 1183910007,
-            "last_update": 1366730638.748159,
+            "last_update": 1387585443.742792,
             "level": 0,
             "max_targets": 0,
             "name": "Bite of the Cobra",
@@ -173,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730638.748159,
+            "ts": 1387585443.742792,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the critical damage by 4%.",
+                    "description": "Increases the base damage by 6%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases the base damage by 6%.",
+                    "description": "Increases the critical damage by 4%.",
                     "indentation": 0
                 }
             ],
@@ -221,7 +169,7 @@
                 "id": 494
             },
             "id": 3193127873,
-            "last_update": 1366730623.91571,
+            "last_update": 1387585443.688784,
             "level": 0,
             "max_targets": 0,
             "name": "Bite of the Cobra",
@@ -231,10 +179,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730623.91571,
+            "ts": 1387585443.688784,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +214,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the critical damage by 6%.",
+                    "description": "Increases the base damage by 9%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases the base damage by 9%.",
+                    "description": "Increases the critical damage by 6%.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +229,7 @@
                 "id": 494
             },
             "id": 593273527,
-            "last_update": 1366730459.423146,
+            "last_update": 1387585443.688657,
             "level": 0,
             "max_targets": 0,
             "name": "Bite of the Cobra",
@@ -289,10 +239,70 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730459.423146,
+            "ts": 1387585443.688657,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2140201042,
+            "deity": 0,
+            "description": "Adds additional base and critical damage to the Striking Cobra line of skills.",
+            "description_pvp": "Adds additional base and critical damage to the Striking Cobra line of skills.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the base damage by 3%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the critical damage by 2%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 494
+            },
+            "id": 3258082842,
+            "last_update": 1387585443.503399,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bite of the Cobra",
+            "name_lower": "bite of the cobra",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585443.503399,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730612.342716,
+    "min_ts": 1387584437.408266,
     "returned": 1,
-    "seconds": 0.02314901351928711,
+    "seconds": 0.014575004577636719,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,15 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases Mitigation of target vs physical and noxious damage by 46",
+                    "description": "Decreases Mitigation of target vs physical, elemental and noxious damage by 46",
                     "indentation": 1
                 },
                 {
                     "description": "Inflicts 54 - 91 melee damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Decreases Mitigation of target vs elemental damage by 46",
                     "indentation": 1
                 }
             ],
@@ -55,7 +53,7 @@
                 "id": 11
             },
             "id": 3852405257,
-            "last_update": 1366730612.342716,
+            "last_update": 1387584437.408266,
             "level": 0,
             "max_targets": 0,
             "name": "Exposed Weaknesses",
@@ -65,10 +63,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730612.342716,
+            "ts": 1387584437.408266,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730562.601616,
+    "min_ts": 1387584275.417228,
     "returned": 1,
-    "seconds": 0.01577615737915039,
+    "seconds": 0.016706228256225586,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 2866230855,
             "deity": 0,
-            "description": "As long as you have not recently cast a beneficial spell, all Holy Divine Smite spells do additional damage.",
-            "description_pvp": "As long as you have not recently cast a beneficial spell, all Holy Divine Smite spells do additional damage.",
+            "description": "All damage spells do additional damage.",
+            "description_pvp": "All damage spells do additional damage.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,26 +34,18 @@
             },
             "effect_list": [
                 {
-                    "description": "On a beneficial spell cast this spell will cast Disable Smite Wrath on caster.  Lasts for 7.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Disables the bonus of Smite Wrath for 7 seconds.",
-                    "indentation": 1
-                },
-                {
                     "description": "Increases spell damage by 25%",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 224
             },
             "id": 957614825,
-            "last_update": 1366730562.601616,
+            "last_update": 1387584275.417228,
             "level": 0,
             "max_targets": 0,
             "name": "Smite Wrath",
@@ -61,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730562.601616,
+            "ts": 1387584275.417228,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

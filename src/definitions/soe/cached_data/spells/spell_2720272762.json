@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730641.802867,
+    "min_ts": 1387585418.819427,
     "returned": 1,
-    "seconds": 0.015612125396728516,
+    "seconds": 0.03911089897155762,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,15 +34,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases duration by 25%",
-                    "indentation": 0
-                },
-                {
                     "description": "Improves casting speed by 50%",
                     "indentation": 0
                 },
                 {
                     "description": "Reduces power cost by 25%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases duration by 25%",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 257
             },
             "id": 3769307630,
-            "last_update": 1366730641.802867,
+            "last_update": 1387585418.819427,
             "level": 0,
             "max_targets": 0,
             "name": "Degredate",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730641.802867,
+            "ts": 1387585418.819427,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

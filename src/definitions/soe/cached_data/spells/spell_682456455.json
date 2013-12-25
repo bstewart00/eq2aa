@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730442.982765,
+    "min_ts": 1387584886.261375,
     "returned": 3,
-    "seconds": 0.018114089965820312,
+    "seconds": 0.019283056259155273,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -38,120 +40,12 @@
             ],
             "given_by": "alternateadvancement",
             "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 31
-            },
-            "id": 3297445233,
-            "last_update": 1366730648.380264,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Helpful Spirits",
-            "name_lower": "helpful spirits",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730648.380264,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 682456455,
-            "deity": 0,
-            "description": "Ancestral Support will heal the target when it triggers.",
-            "description_pvp": "Ancestral Support will heal the target when it triggers.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Ancestral Support will apply a buff that heals the mystic's allies when they attack.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 31
-            },
-            "id": 2034330047,
-            "last_update": 1366730641.49278,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Helpful Spirits",
-            "name_lower": "helpful spirits",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730641.49278,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 682456455,
-            "deity": 0,
-            "description": "Ancestral Support will heal the target when it triggers.",
-            "description_pvp": "Ancestral Support will heal the target when it triggers.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Ancestral Support will apply a buff that heals the mystic's allies when they attack.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
+                "backdrop": 314,
                 "icon_heroic_op": -1,
                 "id": 31
             },
             "id": 2765598778,
-            "last_update": 1366730442.982765,
+            "last_update": 1387584886.399106,
             "level": 0,
             "max_targets": 0,
             "name": "Helpful Spirits",
@@ -161,10 +55,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730442.982765,
+            "ts": 1387584886.399106,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 682456455,
+            "deity": 0,
+            "description": "Ancestral Support will heal the target when it triggers.",
+            "description_pvp": "Ancestral Support will heal the target when it triggers.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Ancestral Support will apply a buff that heals the mystic's allies when they attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 31
+            },
+            "id": 2034330047,
+            "last_update": 1387584886.320413,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Helpful Spirits",
+            "name_lower": "helpful spirits",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584886.320413,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 682456455,
+            "deity": 0,
+            "description": "Ancestral Support will heal the target when it triggers.",
+            "description_pvp": "Ancestral Support will heal the target when it triggers.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Ancestral Support will apply a buff that heals the mystic's allies when they attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 31
+            },
+            "id": 3297445233,
+            "last_update": 1387584886.261375,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Helpful Spirits",
+            "name_lower": "helpful spirits",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584886.261375,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

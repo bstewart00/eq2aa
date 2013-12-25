@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.046289,
+    "min_ts": 1387585493.22983,
     "returned": 10,
-    "seconds": 0.019648075103759766,
+    "seconds": 0.08555197715759277,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,86 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 6,
-                "savagery": 0
-            },
-            "crc": 3774041482,
-            "deity": 0,
-            "description": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
-            "description_pvp": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 80,
-                "min_sec_tenths": 80
-            },
-            "effect_list": [
-                {
-                    "description": "Roots targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
-                    "description": "Applies Hierophant Breakaway.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Dispels 6 levels of hostile Root effects on caster",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "10% chance to dispel when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 559
-            },
-            "id": 3601888232,
-            "last_update": 1366730654.465739,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Hierophant Grasp",
-            "name_lower": "hierophant grasp",
-            "recast_secs": 59.28854,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730654.465739,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 7.5,
-            "beneficial": 0,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -110,19 +34,19 @@
             },
             "effect_list": [
                 {
-                    "description": "Roots targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
                     "description": "Applies Hierophant Breakaway.",
                     "indentation": 0
                 },
                 {
                     "description": "Dispels 10 levels of hostile Root effects on caster",
+                    "indentation": 1
+                },
+                {
+                    "description": "Roots targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
                     "indentation": 1
                 },
                 {
@@ -145,7 +69,7 @@
                 "id": 559
             },
             "id": 3655685674,
-            "last_update": 1366730651.563966,
+            "last_update": 1387585494.913099,
             "level": 0,
             "max_targets": 0,
             "name": "Hierophant Grasp",
@@ -155,10 +79,10 @@
             "spellbook": 1,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730651.563966,
+            "ts": 1387585494.913099,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -168,86 +92,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 6,
-                "savagery": 0
-            },
-            "crc": 3774041482,
-            "deity": 0,
-            "description": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
-            "description_pvp": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 76,
-                "min_sec_tenths": 76
-            },
-            "effect_list": [
-                {
-                    "description": "Roots targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
-                    "description": "Applies Hierophant Breakaway.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Dispels 6 levels of hostile Root effects on caster",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 2 - 3 melee damage on targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "10% chance to dispel when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 559
-            },
-            "id": 1270846110,
-            "last_update": 1366730650.754016,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Hierophant Grasp",
-            "name_lower": "hierophant grasp",
-            "recast_secs": 59.28854,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730650.754016,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 7.5,
-            "beneficial": 0,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -266,19 +114,19 @@
             },
             "effect_list": [
                 {
-                    "description": "Roots targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
                     "description": "Applies Hierophant Breakaway.",
                     "indentation": 0
                 },
                 {
                     "description": "Dispels 10 levels of hostile Root effects on caster",
+                    "indentation": 1
+                },
+                {
+                    "description": "Roots targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
                     "indentation": 1
                 },
                 {
@@ -301,7 +149,7 @@
                 "id": 559
             },
             "id": 75999603,
-            "last_update": 1366730645.744642,
+            "last_update": 1387585494.7124,
             "level": 0,
             "max_targets": 0,
             "name": "Hierophant Grasp",
@@ -311,10 +159,10 @@
             "spellbook": 1,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730645.744642,
+            "ts": 1387585494.7124,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -324,320 +172,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 6,
-                "savagery": 0
-            },
-            "crc": 3774041482,
-            "deity": 0,
-            "description": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
-            "description_pvp": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 88,
-                "min_sec_tenths": 88
-            },
-            "effect_list": [
-                {
-                    "description": "Roots targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
-                    "description": "Applies Hierophant Breakaway.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Dispels 7 levels of hostile Root effects on caster",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 2 - 4 melee damage on targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "10% chance to dispel when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 559
-            },
-            "id": 3011369256,
-            "last_update": 1366730643.051438,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Hierophant Grasp",
-            "name_lower": "hierophant grasp",
-            "recast_secs": 59.28854,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730643.051438,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 7.5,
-            "beneficial": 0,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 6,
-                "savagery": 0
-            },
-            "crc": 3774041482,
-            "deity": 0,
-            "description": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
-            "description_pvp": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 104,
-                "min_sec_tenths": 104
-            },
-            "effect_list": [
-                {
-                    "description": "Roots targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
-                    "description": "Applies Hierophant Breakaway.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Dispels 8 levels of hostile Root effects on caster",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 3 - 5 melee damage on targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "10% chance to dispel when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 559
-            },
-            "id": 1376984453,
-            "last_update": 1366730461.682367,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Hierophant Grasp",
-            "name_lower": "hierophant grasp",
-            "recast_secs": 59.28854,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730461.682367,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 7.5,
-            "beneficial": 0,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 6,
-                "savagery": 0
-            },
-            "crc": 3774041482,
-            "deity": 0,
-            "description": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
-            "description_pvp": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 112,
-                "min_sec_tenths": 112
-            },
-            "effect_list": [
-                {
-                    "description": "Roots targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
-                    "description": "Applies Hierophant Breakaway.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Dispels 8 levels of hostile Root effects on caster",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 3 - 5 melee damage on targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "10% chance to dispel when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 559
-            },
-            "id": 3474783475,
-            "last_update": 1366730460.920319,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Hierophant Grasp",
-            "name_lower": "hierophant grasp",
-            "recast_secs": 59.28854,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730460.920319,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 7.5,
-            "beneficial": 0,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 6,
-                "savagery": 0
-            },
-            "crc": 3774041482,
-            "deity": 0,
-            "description": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
-            "description_pvp": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 70,
-                "min_sec_tenths": 70
-            },
-            "effect_list": [
-                {
-                    "description": "Roots targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
-                    "description": "Applies Hierophant Breakaway.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Dispels 5 levels of hostile Root effects on caster",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 2 - 3 melee damage on targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "10% chance to dispel when target takes damage",
-                    "indentation": 0
-                },
-                {
-                    "description": "Resistibility increases against targets higher than level 29.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 559
-            },
-            "id": 937342789,
-            "last_update": 1366730460.616836,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Hierophant Grasp",
-            "name_lower": "hierophant grasp",
-            "recast_secs": 59.28854,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730460.616836,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 7.5,
-            "beneficial": 0,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -656,19 +194,19 @@
             },
             "effect_list": [
                 {
-                    "description": "Roots targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
                     "description": "Applies Hierophant Breakaway.",
                     "indentation": 0
                 },
                 {
                     "description": "Dispels 9 levels of hostile Root effects on caster",
+                    "indentation": 1
+                },
+                {
+                    "description": "Roots targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
                     "indentation": 1
                 },
                 {
@@ -691,7 +229,7 @@
                 "id": 559
             },
             "id": 2575845381,
-            "last_update": 1366730444.762103,
+            "last_update": 1387585494.513303,
             "level": 0,
             "max_targets": 0,
             "name": "Hierophant Grasp",
@@ -701,10 +239,10 @@
             "spellbook": 1,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730444.762103,
+            "ts": 1387585494.513303,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -714,8 +252,170 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 6,
+                "savagery": 0
+            },
+            "crc": 3774041482,
+            "deity": 0,
+            "description": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
+            "description_pvp": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 112,
+                "min_sec_tenths": 112
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Hierophant Breakaway.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Dispels 8 levels of hostile Root effects on caster",
+                    "indentation": 1
+                },
+                {
+                    "description": "Roots targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 3 - 5 melee damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "10% chance to dispel when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 559
+            },
+            "id": 3474783475,
+            "last_update": 1387585494.430443,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Hierophant Grasp",
+            "name_lower": "hierophant grasp",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585494.430443,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 7.5,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 6,
+                "savagery": 0
+            },
+            "crc": 3774041482,
+            "deity": 0,
+            "description": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
+            "description_pvp": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 104,
+                "min_sec_tenths": 104
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Hierophant Breakaway.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Dispels 8 levels of hostile Root effects on caster",
+                    "indentation": 1
+                },
+                {
+                    "description": "Roots targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 3 - 5 melee damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "10% chance to dispel when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 559
+            },
+            "id": 1376984453,
+            "last_update": 1387585494.190914,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Hierophant Grasp",
+            "name_lower": "hierophant grasp",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387585494.190914,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 7.5,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -734,19 +434,19 @@
             },
             "effect_list": [
                 {
-                    "description": "Roots targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "If Target is not Epic",
-                    "indentation": 1
-                },
-                {
                     "description": "Applies Hierophant Breakaway.",
                     "indentation": 0
                 },
                 {
                     "description": "Dispels 7 levels of hostile Root effects on caster",
+                    "indentation": 1
+                },
+                {
+                    "description": "Roots targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
                     "indentation": 1
                 },
                 {
@@ -769,7 +469,7 @@
                 "id": 559
             },
             "id": 779237470,
-            "last_update": 1366730438.046289,
+            "last_update": 1387585494.030717,
             "level": 0,
             "max_targets": 0,
             "name": "Hierophant Grasp",
@@ -779,10 +479,330 @@
             "spellbook": 1,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730438.046289,
+            "ts": 1387585494.030717,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 7.5,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 6,
+                "savagery": 0
+            },
+            "crc": 3774041482,
+            "deity": 0,
+            "description": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
+            "description_pvp": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 88,
+                "min_sec_tenths": 88
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Hierophant Breakaway.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Dispels 7 levels of hostile Root effects on caster",
+                    "indentation": 1
+                },
+                {
+                    "description": "Roots targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 2 - 4 melee damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "10% chance to dispel when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 559
+            },
+            "id": 3011369256,
+            "last_update": 1387585493.817131,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Hierophant Grasp",
+            "name_lower": "hierophant grasp",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585493.817131,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 7.5,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 6,
+                "savagery": 0
+            },
+            "crc": 3774041482,
+            "deity": 0,
+            "description": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
+            "description_pvp": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 80,
+                "min_sec_tenths": 80
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Hierophant Breakaway.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Dispels 6 levels of hostile Root effects on caster",
+                    "indentation": 1
+                },
+                {
+                    "description": "Roots targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 2 - 4 melee damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "10% chance to dispel when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 559
+            },
+            "id": 3601888232,
+            "last_update": 1387585493.663554,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Hierophant Grasp",
+            "name_lower": "hierophant grasp",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585493.663554,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 7.5,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 6,
+                "savagery": 0
+            },
+            "crc": 3774041482,
+            "deity": 0,
+            "description": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
+            "description_pvp": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 76,
+                "min_sec_tenths": 76
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Hierophant Breakaway.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Dispels 6 levels of hostile Root effects on caster",
+                    "indentation": 1
+                },
+                {
+                    "description": "Roots targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 2 - 3 melee damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "10% chance to dispel when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 559
+            },
+            "id": 1270846110,
+            "last_update": 1387585493.466189,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Hierophant Grasp",
+            "name_lower": "hierophant grasp",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585493.466189,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 7.5,
+            "beneficial": 0,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 6,
+                "savagery": 0
+            },
+            "crc": 3774041482,
+            "deity": 0,
+            "description": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
+            "description_pvp": "A melee attack that damages and roots those near the Hierophant, and dispels a root effect from the Hierophant if it strikes anyone. The root effect has a chance at breaking every time the target receives damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 70,
+                "min_sec_tenths": 70
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Hierophant Breakaway.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Dispels 5 levels of hostile Root effects on caster",
+                    "indentation": 1
+                },
+                {
+                    "description": "Roots targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "If Target is not Epic",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 2 - 3 melee damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "10% chance to dispel when target takes damage",
+                    "indentation": 0
+                },
+                {
+                    "description": "Resistibility increases against targets higher than level 29.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 559
+            },
+            "id": 937342789,
+            "last_update": 1387585493.22983,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Hierophant Grasp",
+            "name_lower": "hierophant grasp",
+            "recast_secs": 59.28854,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585493.22983,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730430.936945,
+    "min_ts": 1387584528.894561,
     "returned": 10,
-    "seconds": 0.0243070125579834,
+    "seconds": 0.05200505256652832,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 2503011449,
             "deity": 0,
-            "description": "Increases the brawler's chance to double attack.",
-            "description_pvp": "Increases the brawler's chance to double attack.",
+            "description": "Increases the brawler's Damage Per Second.",
+            "description_pvp": "Increases the brawler's Damage Per Second.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,385 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of caster by 16.9",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 670
-            },
-            "id": 1683563998,
-            "last_update": 1366730642.445944,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Relentless Punches",
-            "name_lower": "relentless punches",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730642.445944,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2503011449,
-            "deity": 0,
-            "description": "Increases the brawler's chance to double attack.",
-            "description_pvp": "Increases the brawler's chance to double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 4.2",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 670
-            },
-            "id": 3060727621,
-            "last_update": 1366730638.671264,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Relentless Punches",
-            "name_lower": "relentless punches",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730638.671264,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2503011449,
-            "deity": 0,
-            "description": "Increases the brawler's chance to double attack.",
-            "description_pvp": "Increases the brawler's chance to double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 6.3",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 670
-            },
-            "id": 727785011,
-            "last_update": 1366730638.322104,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Relentless Punches",
-            "name_lower": "relentless punches",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730638.322104,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2503011449,
-            "deity": 0,
-            "description": "Increases the brawler's chance to double attack.",
-            "description_pvp": "Increases the brawler's chance to double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 14.8",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 670
-            },
-            "id": 852332840,
-            "last_update": 1366730633.301364,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Relentless Punches",
-            "name_lower": "relentless punches",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730633.301364,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2503011449,
-            "deity": 0,
-            "description": "Increases the brawler's chance to double attack.",
-            "description_pvp": "Increases the brawler's chance to double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 8.4",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 670
-            },
-            "id": 1319941363,
-            "last_update": 1366730617.772068,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Relentless Punches",
-            "name_lower": "relentless punches",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730617.772068,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2503011449,
-            "deity": 0,
-            "description": "Increases the brawler's chance to double attack.",
-            "description_pvp": "Increases the brawler's chance to double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 12.7",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 670
-            },
-            "id": 2948755550,
-            "last_update": 1366730459.130803,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Relentless Punches",
-            "name_lower": "relentless punches",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730459.130803,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2503011449,
-            "deity": 0,
-            "description": "Increases the brawler's chance to double attack.",
-            "description_pvp": "Increases the brawler's chance to double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 10.6",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 670
-            },
-            "id": 3550696837,
-            "last_update": 1366730454.109028,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Relentless Punches",
-            "name_lower": "relentless punches",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730454.109028,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2503011449,
-            "deity": 0,
-            "description": "Increases the brawler's chance to double attack.",
-            "description_pvp": "Increases the brawler's chance to double attack.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 21.1",
+                    "description": "Increases Damage Per Second of caster by 21.1",
                     "indentation": 0
                 }
             ],
@@ -421,7 +45,7 @@
                 "id": 670
             },
             "id": 607402993,
-            "last_update": 1366730441.670846,
+            "last_update": 1387584529.57232,
             "level": 0,
             "max_targets": 0,
             "name": "Relentless Punches",
@@ -431,10 +55,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730441.670846,
+            "ts": 1387584529.57232,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -444,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -455,8 +81,8 @@
             },
             "crc": 2503011449,
             "deity": 0,
-            "description": "Increases the brawler's chance to double attack.",
-            "description_pvp": "Increases the brawler's chance to double attack.",
+            "description": "Increases the brawler's Damage Per Second.",
+            "description_pvp": "Increases the brawler's Damage Per Second.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -464,7 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of caster by 19.0",
+                    "description": "Increases Damage Per Second of caster by 19.0",
                     "indentation": 0
                 }
             ],
@@ -475,7 +101,7 @@
                 "id": 670
             },
             "id": 4183213224,
-            "last_update": 1366730440.501481,
+            "last_update": 1387584529.478612,
             "level": 0,
             "max_targets": 0,
             "name": "Relentless Punches",
@@ -485,10 +111,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730440.501481,
+            "ts": 1387584529.478612,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -498,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -509,8 +137,8 @@
             },
             "crc": 2503011449,
             "deity": 0,
-            "description": "Increases the brawler's chance to double attack.",
-            "description_pvp": "Increases the brawler's chance to double attack.",
+            "description": "Increases the brawler's Damage Per Second.",
+            "description_pvp": "Increases the brawler's Damage Per Second.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -518,7 +146,399 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of caster by 2.1",
+                    "description": "Increases Damage Per Second of caster by 16.9",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 670
+            },
+            "id": 1683563998,
+            "last_update": 1387584529.413033,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Relentless Punches",
+            "name_lower": "relentless punches",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584529.413033,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2503011449,
+            "deity": 0,
+            "description": "Increases the brawler's Damage Per Second.",
+            "description_pvp": "Increases the brawler's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 14.8",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 670
+            },
+            "id": 852332840,
+            "last_update": 1387584529.331867,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Relentless Punches",
+            "name_lower": "relentless punches",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584529.331867,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2503011449,
+            "deity": 0,
+            "description": "Increases the brawler's Damage Per Second.",
+            "description_pvp": "Increases the brawler's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 12.7",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 670
+            },
+            "id": 2948755550,
+            "last_update": 1387584529.238355,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Relentless Punches",
+            "name_lower": "relentless punches",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584529.238355,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2503011449,
+            "deity": 0,
+            "description": "Increases the brawler's Damage Per Second.",
+            "description_pvp": "Increases the brawler's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 10.6",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 670
+            },
+            "id": 3550696837,
+            "last_update": 1387584529.198705,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Relentless Punches",
+            "name_lower": "relentless punches",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584529.198705,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2503011449,
+            "deity": 0,
+            "description": "Increases the brawler's Damage Per Second.",
+            "description_pvp": "Increases the brawler's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 8.4",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 670
+            },
+            "id": 1319941363,
+            "last_update": 1387584529.132297,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Relentless Punches",
+            "name_lower": "relentless punches",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584529.132297,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2503011449,
+            "deity": 0,
+            "description": "Increases the brawler's Damage Per Second.",
+            "description_pvp": "Increases the brawler's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 6.3",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 670
+            },
+            "id": 727785011,
+            "last_update": 1387584529.039764,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Relentless Punches",
+            "name_lower": "relentless punches",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584529.039764,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2503011449,
+            "deity": 0,
+            "description": "Increases the brawler's Damage Per Second.",
+            "description_pvp": "Increases the brawler's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 4.2",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 670
+            },
+            "id": 3060727621,
+            "last_update": 1387584528.972595,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Relentless Punches",
+            "name_lower": "relentless punches",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584528.972595,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2503011449,
+            "deity": 0,
+            "description": "Increases the brawler's Damage Per Second.",
+            "description_pvp": "Increases the brawler's Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 2.1",
                     "indentation": 0
                 }
             ],
@@ -529,7 +549,7 @@
                 "id": 670
             },
             "id": 3390036638,
-            "last_update": 1366730430.936945,
+            "last_update": 1387584528.894561,
             "level": 0,
             "max_targets": 0,
             "name": "Relentless Punches",
@@ -539,10 +559,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730430.936945,
+            "ts": 1387584528.894561,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

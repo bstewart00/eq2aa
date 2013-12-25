@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730458.831659,
+    "min_ts": 1387584334.310925,
     "returned": 1,
-    "seconds": 0.018458127975463867,
+    "seconds": 0.015178918838500977,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 880918620,
             "deity": 0,
-            "description": "The ranger gains additional potency from Multi-Attack.",
-            "description_pvp": "The ranger gains additional potency from Multi-Attack.",
+            "description": "The ranger gains additional potency from Damage Per Second.",
+            "description_pvp": "The ranger gains additional potency from Damage Per Second.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "For every 30 points of Multi-Attack Chance, the caster gains 1% Potency.",
+                    "description": "For every 30 points of Damage Per Second, the caster gains 1% Potency.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 342
             },
             "id": 246987713,
-            "last_update": 1366730458.831659,
+            "last_update": 1387584334.310925,
             "level": 0,
             "max_targets": 0,
             "name": "Bombardier",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730458.831659,
+            "ts": 1387584334.310925,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

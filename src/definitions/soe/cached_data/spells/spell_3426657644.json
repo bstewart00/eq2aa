@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730650.666974,
+    "min_ts": 1387584886.142426,
     "returned": 1,
-    "seconds": 0.018742084503173828,
+    "seconds": 0.014491796493530273,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,15 @@
             },
             "effect_list": [
                 {
+                    "description": "Improves reuse speed of beneficial spells by 10%",
+                    "indentation": 0
+                },
+                {
                     "description": "Wards: Increases ward amount by 15%",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves casting speed of beneficial spells by 15%",
+                    "description": "Regeneration: Increases heal amount by 15%",
                     "indentation": 0
                 },
                 {
@@ -44,11 +50,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Improves reuse speed of beneficial spells by 10%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Regeneration: Increases heal amount by 15%",
+                    "description": "Improves casting speed of beneficial spells by 15%",
                     "indentation": 0
                 }
             ],
@@ -59,7 +61,7 @@
                 "id": 154
             },
             "id": 1496072171,
-            "last_update": 1366730650.666974,
+            "last_update": 1387584886.142426,
             "level": 0,
             "max_targets": 0,
             "name": "Coercive Healing",
@@ -69,10 +71,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730650.666974,
+            "ts": 1387584886.142426,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

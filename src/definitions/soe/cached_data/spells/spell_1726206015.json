@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730644.925392,
+    "min_ts": 1387584165.552847,
     "returned": 1,
-    "seconds": 0.01409912109375,
+    "seconds": 0.014680862426757812,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the critical damage of all magic based profession spells by 5%",
+                    "description": "Improves the base damage of all magic based profession spells by 10%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the base damage of all magic based profession spells by 10%.",
+                    "description": "Increases the critical damage of all magic based profession spells by 5%",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 895
             },
             "id": 2170863985,
-            "last_update": 1366730644.925392,
+            "last_update": 1387584165.552847,
             "level": 0,
             "max_targets": 0,
             "name": "Magic Mastery",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730644.925392,
+            "ts": 1387584165.552847,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

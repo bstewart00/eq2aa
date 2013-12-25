@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730626.451225,
+    "min_ts": 1387584169.460128,
     "returned": 1,
-    "seconds": 0.014261960983276367,
+    "seconds": 0.015633821487426758,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1540446168,
             "deity": 0,
-            "description": "The templar gains additional potency from Crit Bonus.",
-            "description_pvp": "The templar gains additional potency from Crit Bonus.",
+            "description": "The templar gains additional Crit Bonus based on their current Crit Bonus.",
+            "description_pvp": "The templar gains additional Crit Bonus based on their current Crit Bonus.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "For every 12% of Crit Bonus, the caster gains 1% potency.",
+                    "description": "For every 12% of Crit Bonus, the caster gains an additional 1% Crit Bonus.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 198
             },
             "id": 432410842,
-            "last_update": 1366730626.451225,
+            "last_update": 1387584169.460128,
             "level": 0,
             "max_targets": 0,
             "name": "Critical Invoker",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730626.451225,
+            "ts": 1387584169.460128,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

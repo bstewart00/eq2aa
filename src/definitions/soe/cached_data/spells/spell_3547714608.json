@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730437.94769,
+    "min_ts": 1387585069.287661,
     "returned": 5,
-    "seconds": 0.015136957168579102,
+    "seconds": 0.019548892974853516,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,70 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3547714608,
+            "deity": 0,
+            "description": "Shot of Adrenaline reduces the recast and power reduction of the ability Adrenaline.",
+            "description_pvp": "Shot of Adrenaline reduces the recast and power reduction of the ability Adrenaline.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the power drain to 1% per tick",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the reuse speed by 30 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 16
+            },
+            "id": 1985017124,
+            "last_update": 1387585069.637255,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Shot of Adrenaline",
+            "name_lower": "shot of adrenaline",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585069.637255,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,7 +98,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces the power drain by 20%.",
+                    "description": "Reduces the power drain to 1.1% per tick",
                     "indentation": 0
                 }
             ],
@@ -47,7 +109,7 @@
                 "id": 16
             },
             "id": 3948876882,
-            "last_update": 1366730632.965067,
+            "last_update": 1387585069.431247,
             "level": 0,
             "max_targets": 0,
             "name": "Shot of Adrenaline",
@@ -57,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730632.965067,
+            "ts": 1387585069.431247,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,182 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3547714608,
-            "deity": 0,
-            "description": "Shot of Adrenaline reduces the recast and power reduction of the ability Adrenaline.",
-            "description_pvp": "Shot of Adrenaline reduces the recast and power reduction of the ability Adrenaline.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the reuse speed by 6 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces the power drain by 5%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 16
-            },
-            "id": 1878817343,
-            "last_update": 1366730458.355718,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Shot of Adrenaline",
-            "name_lower": "shot of adrenaline",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730458.355718,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3547714608,
-            "deity": 0,
-            "description": "Shot of Adrenaline reduces the recast and power reduction of the ability Adrenaline.",
-            "description_pvp": "Shot of Adrenaline reduces the recast and power reduction of the ability Adrenaline.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the reuse speed by 30 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces the power drain by 25%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 16
-            },
-            "id": 1985017124,
-            "last_update": 1366730457.202587,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Shot of Adrenaline",
-            "name_lower": "shot of adrenaline",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730457.202587,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3547714608,
-            "deity": 0,
-            "description": "Shot of Adrenaline reduces the recast and power reduction of the ability Adrenaline.",
-            "description_pvp": "Shot of Adrenaline reduces the recast and power reduction of the ability Adrenaline.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the reuse speed by 12 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces the power drain by 10%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 16
-            },
-            "id": 329080804,
-            "last_update": 1366730445.45774,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Shot of Adrenaline",
-            "name_lower": "shot of adrenaline",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730445.45774,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -268,7 +158,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces the power drain by 15%.",
+                    "description": "Reduces the power drain to 1.2% per tick",
                     "indentation": 0
                 }
             ],
@@ -279,7 +169,7 @@
                 "id": 16
             },
             "id": 2391981714,
-            "last_update": 1366730437.94769,
+            "last_update": 1387585069.391441,
             "level": 0,
             "max_targets": 0,
             "name": "Shot of Adrenaline",
@@ -289,10 +179,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730437.94769,
+            "ts": 1387585069.391441,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3547714608,
+            "deity": 0,
+            "description": "Shot of Adrenaline reduces the recast and power reduction of the ability Adrenaline.",
+            "description_pvp": "Shot of Adrenaline reduces the recast and power reduction of the ability Adrenaline.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the reuse speed by 12 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the power drain to 1.3% per tick",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 16
+            },
+            "id": 329080804,
+            "last_update": 1387585069.316543,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Shot of Adrenaline",
+            "name_lower": "shot of adrenaline",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585069.316543,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3547714608,
+            "deity": 0,
+            "description": "Shot of Adrenaline reduces the recast and power reduction of the ability Adrenaline.",
+            "description_pvp": "Shot of Adrenaline reduces the recast and power reduction of the ability Adrenaline.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the reuse speed by 6 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the power drain to 1.4% per tick",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 16
+            },
+            "id": 1878817343,
+            "last_update": 1387585069.287661,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Shot of Adrenaline",
+            "name_lower": "shot of adrenaline",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585069.287661,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

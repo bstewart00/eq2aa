@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730659.372313,
+    "min_ts": 1387584994.209552,
     "returned": 1,
-    "seconds": 0.018583059310913086,
+    "seconds": 0.015625953674316406,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,19 +34,19 @@
             },
             "effect_list": [
                 {
+                    "description": "Inflicts 6 - 11 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 6 - 11 melee damage on target",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 6 - 11 melee damage on target",
+                    "indentation": 0
+                },
+                {
                     "description": "Inflicts damage for each increment of Carnage on the target, up to 5.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 6 - 11 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 6 - 11 melee damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 6 - 11 melee damage on target",
                     "indentation": 0
                 },
                 {
@@ -63,7 +65,7 @@
                 "id": 383
             },
             "id": 2382609439,
-            "last_update": 1366730659.372313,
+            "last_update": 1387584994.209552,
             "level": 0,
             "max_targets": 0,
             "name": "Bloodflurry",
@@ -73,10 +75,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730659.372313,
+            "ts": 1387584994.209552,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

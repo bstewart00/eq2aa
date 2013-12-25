@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730458.178164,
+    "min_ts": 1387585431.665601,
     "returned": 10,
-    "seconds": 0.01636791229248047,
+    "seconds": 0.023867130279541016,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,169 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves base auto attack multiplier of caster by 0.192",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 650
-            },
-            "id": 770167498,
-            "last_update": 1366730650.927366,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ancestral Authority",
-            "name_lower": "ancestral authority",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730650.927366,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1392068505,
-            "deity": 0,
-            "description": "Increases the amount of melee damage done by the Chieftain.",
-            "description_pvp": "Increases the amount of melee damage done by the Chieftain.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves base auto attack multiplier of caster by 0.064",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 650
-            },
-            "id": 877354449,
-            "last_update": 1366730646.935765,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ancestral Authority",
-            "name_lower": "ancestral authority",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730646.935765,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1392068505,
-            "deity": 0,
-            "description": "Increases the amount of melee damage done by the Chieftain.",
-            "description_pvp": "Increases the amount of melee damage done by the Chieftain.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves base auto attack multiplier of caster by 0.160",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 650
-            },
-            "id": 1367799569,
-            "last_update": 1366730645.169478,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ancestral Authority",
-            "name_lower": "ancestral authority",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730645.169478,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1392068505,
-            "deity": 0,
-            "description": "Increases the amount of melee damage done by the Chieftain.",
-            "description_pvp": "Increases the amount of melee damage done by the Chieftain.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves base auto attack multiplier of caster by 0.320",
+                    "description": "Improves base auto-attack multiplier of caster by 0.320. Does not apply to spell weapons.",
                     "indentation": 0
                 }
             ],
@@ -205,7 +45,7 @@
                 "id": 650
             },
             "id": 2786171237,
-            "last_update": 1366730636.102694,
+            "last_update": 1387585432.341127,
             "level": 0,
             "max_targets": 0,
             "name": "Ancestral Authority",
@@ -215,10 +55,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730636.102694,
+            "ts": 1387585432.341127,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -248,7 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves base auto attack multiplier of caster by 0.288",
+                    "description": "Improves base auto-attack multiplier of caster by 0.288. Does not apply to spell weapons.",
                     "indentation": 0
                 }
             ],
@@ -259,7 +101,7 @@
                 "id": 650
             },
             "id": 2071160380,
-            "last_update": 1366730633.669656,
+            "last_update": 1387585432.301893,
             "level": 0,
             "max_targets": 0,
             "name": "Ancestral Authority",
@@ -269,10 +111,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730633.669656,
+            "ts": 1387585432.301893,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -282,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -302,115 +146,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves base auto attack multiplier of caster by 0.128",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 650
-            },
-            "id": 3431536231,
-            "last_update": 1366730630.534264,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ancestral Authority",
-            "name_lower": "ancestral authority",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730630.534264,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1392068505,
-            "deity": 0,
-            "description": "Increases the amount of melee damage done by the Chieftain.",
-            "description_pvp": "Increases the amount of melee damage done by the Chieftain.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves base auto attack multiplier of caster by 0.032",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 650
-            },
-            "id": 1210742794,
-            "last_update": 1366730597.163111,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ancestral Authority",
-            "name_lower": "ancestral authority",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730597.163111,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1392068505,
-            "deity": 0,
-            "description": "Increases the amount of melee damage done by the Chieftain.",
-            "description_pvp": "Increases the amount of melee damage done by the Chieftain.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves base auto attack multiplier of caster by 0.256",
+                    "description": "Improves base auto-attack multiplier of caster by 0.256. Does not apply to spell weapons.",
                     "indentation": 0
                 }
             ],
@@ -421,7 +157,7 @@
                 "id": 650
             },
             "id": 3866920778,
-            "last_update": 1366730464.117736,
+            "last_update": 1387585432.221312,
             "level": 0,
             "max_targets": 0,
             "name": "Ancestral Authority",
@@ -431,10 +167,10 @@
             "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730464.117736,
+            "ts": 1387585432.221312,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -444,8 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -464,61 +202,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves base auto attack multiplier of caster by 0.096",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 650
-            },
-            "id": 2839854247,
-            "last_update": 1366730460.482702,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Ancestral Authority",
-            "name_lower": "ancestral authority",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730460.482702,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1392068505,
-            "deity": 0,
-            "description": "Increases the amount of melee damage done by the Chieftain.",
-            "description_pvp": "Increases the amount of melee damage done by the Chieftain.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves base auto attack multiplier of caster by 0.224",
+                    "description": "Improves base auto-attack multiplier of caster by 0.224. Does not apply to spell weapons.",
                     "indentation": 0
                 }
             ],
@@ -529,7 +213,7 @@
                 "id": 650
             },
             "id": 2968007612,
-            "last_update": 1366730458.178164,
+            "last_update": 1387585432.214335,
             "level": 0,
             "max_targets": 0,
             "name": "Ancestral Authority",
@@ -539,10 +223,346 @@
             "spellbook": 4,
             "tier": 7,
             "tier_name": "Expert",
-            "ts": 1366730458.178164,
+            "ts": 1387585432.214335,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1392068505,
+            "deity": 0,
+            "description": "Increases the amount of melee damage done by the Chieftain.",
+            "description_pvp": "Increases the amount of melee damage done by the Chieftain.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves base auto-attack multiplier of caster by 0.192. Does not apply to spell weapons.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 650
+            },
+            "id": 770167498,
+            "last_update": 1387585432.109349,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ancestral Authority",
+            "name_lower": "ancestral authority",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387585432.109349,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1392068505,
+            "deity": 0,
+            "description": "Increases the amount of melee damage done by the Chieftain.",
+            "description_pvp": "Increases the amount of melee damage done by the Chieftain.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves base auto-attack multiplier of caster by 0.160. Does not apply to spell weapons.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 650
+            },
+            "id": 1367799569,
+            "last_update": 1387585432.107983,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ancestral Authority",
+            "name_lower": "ancestral authority",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585432.107983,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1392068505,
+            "deity": 0,
+            "description": "Increases the amount of melee damage done by the Chieftain.",
+            "description_pvp": "Increases the amount of melee damage done by the Chieftain.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves base auto-attack multiplier of caster by 0.128. Does not apply to spell weapons.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 650
+            },
+            "id": 3431536231,
+            "last_update": 1387585431.975737,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ancestral Authority",
+            "name_lower": "ancestral authority",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585431.975737,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1392068505,
+            "deity": 0,
+            "description": "Increases the amount of melee damage done by the Chieftain.",
+            "description_pvp": "Increases the amount of melee damage done by the Chieftain.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves base auto-attack multiplier of caster by 0.096. Does not apply to spell weapons.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 650
+            },
+            "id": 2839854247,
+            "last_update": 1387585431.844287,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ancestral Authority",
+            "name_lower": "ancestral authority",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585431.844287,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1392068505,
+            "deity": 0,
+            "description": "Increases the amount of melee damage done by the Chieftain.",
+            "description_pvp": "Increases the amount of melee damage done by the Chieftain.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves base auto-attack multiplier of caster by 0.064. Does not apply to spell weapons.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 650
+            },
+            "id": 877354449,
+            "last_update": 1387585431.781808,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ancestral Authority",
+            "name_lower": "ancestral authority",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585431.781808,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1392068505,
+            "deity": 0,
+            "description": "Increases the amount of melee damage done by the Chieftain.",
+            "description_pvp": "Increases the amount of melee damage done by the Chieftain.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves base auto-attack multiplier of caster by 0.032. Does not apply to spell weapons.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 650
+            },
+            "id": 1210742794,
+            "last_update": 1387585431.665601,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Ancestral Authority",
+            "name_lower": "ancestral authority",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585431.665601,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

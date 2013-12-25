@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.296492,
+    "min_ts": 1387584866.118672,
     "returned": 3,
-    "seconds": 0.014966011047363281,
+    "seconds": 0.11694097518920898,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 31
             },
             "id": 2355669938,
-            "last_update": 1366730648.986539,
+            "last_update": 1387584866.279274,
             "level": 0,
             "max_targets": 0,
             "name": "Aura of Justice",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730648.986539,
+            "ts": 1387584866.279274,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,62 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2980485195,
-            "deity": 0,
-            "description": "The group will gain increased health based on the amount of increments of Divine Justice the paladin has active.",
-            "description_pvp": "The group will gain increased health based on the amount of increments of Divine Justice the paladin has active.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the group's maximum health by 0.07% per increment of Divine Justice",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 31
-            },
-            "id": 1829138207,
-            "last_update": 1366730645.062752,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Aura of Justice",
-            "name_lower": "aura of justice",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730645.062752,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 31
             },
             "id": 291982020,
-            "last_update": 1366730443.296492,
+            "last_update": 1387584866.220871,
             "level": 0,
             "max_targets": 0,
             "name": "Aura of Justice",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730443.296492,
+            "ts": 1387584866.220871,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2980485195,
+            "deity": 0,
+            "description": "The group will gain increased health based on the amount of increments of Divine Justice the paladin has active.",
+            "description_pvp": "The group will gain increased health based on the amount of increments of Divine Justice the paladin has active.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the group's maximum health by 0.07% per increment of Divine Justice",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 31
+            },
+            "id": 1829138207,
+            "last_update": 1387584866.118672,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Aura of Justice",
+            "name_lower": "aura of justice",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584866.118672,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

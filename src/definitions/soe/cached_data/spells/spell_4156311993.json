@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730461.078347,
+    "min_ts": 1387585485.469867,
     "returned": 2,
-    "seconds": 0.016549110412597656,
+    "seconds": 0.014376163482666016,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4156311993,
-            "deity": 0,
-            "description": "Lung Puncture has a chance to finish the reuse of Inspired Daring.",
-            "description_pvp": "Lung Puncture has a chance to finish the reuse of Inspired Daring.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Lung Puncture has a has a 5% chance to clear the reuse of Inspired Daring.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 337
-            },
-            "id": 1527950520,
-            "last_update": 1366730652.637505,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Inspiration",
-            "name_lower": "inspiration",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730652.637505,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 337
             },
             "id": 661883235,
-            "last_update": 1366730461.078347,
+            "last_update": 1387585485.509577,
             "level": 0,
             "max_targets": 0,
             "name": "Inspiration",
@@ -107,10 +55,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730461.078347,
+            "ts": 1387585485.509577,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4156311993,
+            "deity": 0,
+            "description": "Lung Puncture has a chance to finish the reuse of Inspired Daring.",
+            "description_pvp": "Lung Puncture has a chance to finish the reuse of Inspired Daring.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Lung Puncture has a has a 5% chance to clear the reuse of Inspired Daring.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 337
+            },
+            "id": 1527950520,
+            "last_update": 1387585485.469867,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Inspiration",
+            "name_lower": "inspiration",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585485.469867,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

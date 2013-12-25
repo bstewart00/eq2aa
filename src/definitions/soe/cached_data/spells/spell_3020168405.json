@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730459.717197,
+    "min_ts": 1387585181.452053,
     "returned": 5,
-    "seconds": 0.015208005905151367,
+    "seconds": 0.020600080490112305,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,244 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the casting time by 0.3 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves healing and critical healing by 9%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 185
-            },
-            "id": 2488788146,
-            "last_update": 1366730655.771347,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Devoted Healing",
-            "name_lower": "devoted healing",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730655.771347,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3020168405,
-            "deity": 0,
-            "description": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
-            "description_pvp": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the casting time by 0.4 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves healing and critical healing by 12%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 185
-            },
-            "id": 4053421682,
-            "last_update": 1366730647.661311,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Devoted Healing",
-            "name_lower": "devoted healing",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730647.661311,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3020168405,
-            "deity": 0,
-            "description": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
-            "description_pvp": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the casting time by 0.2 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves healing and critical healing by 6%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 185
-            },
-            "id": 156763588,
-            "last_update": 1366730636.392005,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Devoted Healing",
-            "name_lower": "devoted healing",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730636.392005,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3020168405,
-            "deity": 0,
-            "description": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
-            "description_pvp": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the casting time by 0.1 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves healing and critical healing by 3%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 185
-            },
-            "id": 1966678047,
-            "last_update": 1366730592.903025,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Devoted Healing",
-            "name_lower": "devoted healing",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730592.903025,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3020168405,
-            "deity": 0,
-            "description": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
-            "description_pvp": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the casting time by 0.5 seconds.",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves healing and critical healing by 15%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the casting time by 0.5 seconds.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +49,7 @@
                 "id": 185
             },
             "id": 1821748996,
-            "last_update": 1366730459.717197,
+            "last_update": 1387585181.773871,
             "level": 0,
             "max_targets": 0,
             "name": "Devoted Healing",
@@ -289,10 +59,250 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730459.717197,
+            "ts": 1387585181.773871,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3020168405,
+            "deity": 0,
+            "description": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
+            "description_pvp": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves healing and critical healing by 12%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the casting time by 0.4 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 185
+            },
+            "id": 4053421682,
+            "last_update": 1387585181.693756,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Devoted Healing",
+            "name_lower": "devoted healing",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585181.693756,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3020168405,
+            "deity": 0,
+            "description": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
+            "description_pvp": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves healing and critical healing by 9%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the casting time by 0.3 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 185
+            },
+            "id": 2488788146,
+            "last_update": 1387585181.645094,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Devoted Healing",
+            "name_lower": "devoted healing",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585181.645094,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3020168405,
+            "deity": 0,
+            "description": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
+            "description_pvp": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves healing and critical healing by 6%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the casting time by 0.2 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 185
+            },
+            "id": 156763588,
+            "last_update": 1387585181.531756,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Devoted Healing",
+            "name_lower": "devoted healing",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585181.531756,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3020168405,
+            "deity": 0,
+            "description": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
+            "description_pvp": "Improves the casting time and critical amount for the cleric's Vital Intercession and Penance line of heals.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves healing and critical healing by 3%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the casting time by 0.1 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 185
+            },
+            "id": 1966678047,
+            "last_update": 1387585181.452053,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Devoted Healing",
+            "name_lower": "devoted healing",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585181.452053,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

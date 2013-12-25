@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730587.558203,
+    "min_ts": 1387584588.766846,
     "returned": 1,
-    "seconds": 0.014415979385375977,
+    "seconds": 0.014646053314208984,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -40,14 +42,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 912
             },
             "id": 72929941,
-            "last_update": 1366730587.558203,
+            "last_update": 1387584588.766846,
             "level": 0,
             "max_targets": 0,
             "name": "Psychic Blast",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730587.558203,
+            "ts": 1387584588.766846,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

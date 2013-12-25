@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730442.654987,
+    "min_ts": 1387584847.461408,
     "returned": 1,
-    "seconds": 0.014104843139648438,
+    "seconds": 0.015069961547851562,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces the duration of poison based damage over time spells by 20%",
+                    "description": "Adds an additional 5% to the base damage of poison spells.",
                     "indentation": 0
                 },
                 {
-                    "description": "Adds an additional 5% to the base damage of poison spells.",
+                    "description": "Reduces the duration of poison based damage over time spells by 20%",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 898
             },
             "id": 2084737003,
-            "last_update": 1366730442.654987,
+            "last_update": 1387584847.461408,
             "level": 0,
             "max_targets": 0,
             "name": "Poison Mastery",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730442.654987,
+            "ts": 1387584847.461408,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

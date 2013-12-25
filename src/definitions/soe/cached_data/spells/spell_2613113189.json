@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730644.943702,
+    "min_ts": 1387584971.561842,
     "returned": 1,
-    "seconds": 0.16060686111450195,
+    "seconds": 0.015938997268676758,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Inflicts 17 - 29 melee damage on targets in Area of Effect",
+                    "description": "Increases Mitigation of targets in Area of Effect vs all damage by 0",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Mitigation of targets in Area of Effect vs all damage by 0",
+                    "description": "Inflicts 17 - 29 melee damage on targets in Area of Effect",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 926
             },
             "id": 4093865996,
-            "last_update": 1366730644.943702,
+            "last_update": 1387584971.561842,
             "level": 0,
             "max_targets": 8,
             "name": "Cornered",
@@ -57,10 +59,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730644.943702,
+            "ts": 1387584971.561842,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

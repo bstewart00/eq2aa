@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730461.760594,
+    "min_ts": 1387585625.563668,
     "returned": 3,
-    "seconds": 0.01448512077331543,
+    "seconds": 0.020390987396240234,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 2784522106,
             "deity": 0,
-            "description": "When Incineration hits 5 increments, the wizard will gain some power and Manaburn's base reuse and casting times will be reduced.",
-            "description_pvp": "When Incineration hits 5 increments, the wizard will gain some power and Manaburn's base reuse and casting times will be reduced.",
+            "description": "When Incineration hits 3 increments, the wizard will gain some power and Manaburn's base reuse and casting times will be reduced.",
+            "description_pvp": "When Incineration hits 3 increments, the wizard will gain some power and Manaburn's base reuse and casting times will be reduced.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Restores 0.9% power to the wizard over time and reduces the base reuse time of Manaburn to 150 seconds and its casting time to 3 seconds when the wizard reaches 5 increments of Incineration.",
+                    "description": "Restores 4.5% power to the wizard over time and reduces the base reuse time of Manaburn to 150 seconds and its casting time to 3 seconds when the wizard reaches 3 increments of Incineration.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 221
             },
             "id": 3826601341,
-            "last_update": 1366730651.317938,
+            "last_update": 1387585625.723986,
             "level": 0,
             "max_targets": 0,
             "name": "Mystical Heat",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730651.317938,
+            "ts": 1387585625.723986,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -77,8 +81,8 @@
             },
             "crc": 2784522106,
             "deity": 0,
-            "description": "When Incineration hits 5 increments, the wizard will gain some power and Manaburn's base reuse and casting times will be reduced.",
-            "description_pvp": "When Incineration hits 5 increments, the wizard will gain some power and Manaburn's base reuse and casting times will be reduced.",
+            "description": "When Incineration hits 3 increments, the wizard will gain some power and Manaburn's base reuse and casting times will be reduced.",
+            "description_pvp": "When Incineration hits 3 increments, the wizard will gain some power and Manaburn's base reuse and casting times will be reduced.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -86,61 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Restores 0.3% power to the wizard over time and reduces the base reuse time of Manaburn to 250 seconds and its casting time to 5 seconds when the wizard reaches 5 increments of Incineration.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 221
-            },
-            "id": 91982288,
-            "last_update": 1366730641.406391,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Mystical Heat",
-            "name_lower": "mystical heat",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730641.406391,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2784522106,
-            "deity": 0,
-            "description": "When Incineration hits 5 increments, the wizard will gain some power and Manaburn's base reuse and casting times will be reduced.",
-            "description_pvp": "When Incineration hits 5 increments, the wizard will gain some power and Manaburn's base reuse and casting times will be reduced.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Restores 0.6% power to the wizard over time and reduces the base reuse time of Manaburn to 200 seconds and its casting time to 4 seconds when the wizard reaches 5 increments of Incineration.",
+                    "description": "Restores 3% power to the wizard over time and reduces the base reuse time of Manaburn to 200 seconds and its casting time to 4 seconds when the wizard reaches 3 increments of Incineration.",
                     "indentation": 0
                 }
             ],
@@ -151,7 +101,7 @@
                 "id": 221
             },
             "id": 2031791115,
-            "last_update": 1366730461.760594,
+            "last_update": 1387585625.685357,
             "level": 0,
             "max_targets": 0,
             "name": "Mystical Heat",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730461.760594,
+            "ts": 1387585625.685357,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2784522106,
+            "deity": 0,
+            "description": "When Incineration hits 3 increments, the wizard will gain some power and Manaburn's base reuse and casting times will be reduced.",
+            "description_pvp": "When Incineration hits 3 increments, the wizard will gain some power and Manaburn's base reuse and casting times will be reduced.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Restores 1.5% power to the wizard over time and reduces the base reuse time of Manaburn to 250 seconds and its casting time to 5 seconds when the wizard reaches 3 increments of Incineration.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 221
+            },
+            "id": 91982288,
+            "last_update": 1387585625.563668,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Mystical Heat",
+            "name_lower": "mystical heat",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585625.563668,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

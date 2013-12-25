@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730619.504965,
+    "min_ts": 1387584617.955383,
     "returned": 1,
-    "seconds": 0.014719009399414062,
+    "seconds": 0.014234066009521484,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1544074010,
             "deity": 0,
-            "description": "When the beastlord is in Feral Rampage or Spirituality, their warder will regenerate power over time.",
-            "description_pvp": "When the beastlord is in Feral Rampage or Spirituality, their warder will regenerate power over time.",
+            "description": "When the beastlord is in Feral Rampage or Spirituality, their warder will regenerate power over time. Additionally, using Advantages will make the beastlord's warder immune to indirect area of effect abilities for a short duration.",
+            "description_pvp": "When the beastlord is in Feral Rampage or Spirituality, their warder will regenerate power over time. Additionally, using Advantages will make the beastlord's warder immune to indirect area of effect abilities for a short duration.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -34,6 +36,18 @@
                 {
                     "description": "While in Feral Rampage or Spirituality, the beastlord's warder will gain power over time.",
                     "indentation": 0
+                },
+                {
+                    "description": "When using an Advantage ability. this spell will cast Spirit of Restoration on target.  Lasts for 6.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Prevents AOE (except when direct) ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Applies to the beastlord's warder",
+                    "indentation": 1
                 }
             ],
             "given_by": "alternateadvancement",
@@ -43,7 +57,7 @@
                 "id": 15
             },
             "id": 3689525318,
-            "last_update": 1366730619.504965,
+            "last_update": 1387584617.955383,
             "level": 0,
             "max_targets": 0,
             "name": "Spirit of Restoration",
@@ -53,10 +67,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730619.504965,
+            "ts": 1387584617.955383,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

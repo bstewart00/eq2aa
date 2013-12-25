@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730441.606074,
+    "min_ts": 1387584398.397824,
     "returned": 3,
-    "seconds": 0.014330863952636719,
+    "seconds": 0.015342950820922852,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,128 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Rock Skin will increase Extra Riposte Chance by 2.5%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Bruising Spirit will increase Extra Riposte Chance by 2%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 329
-            },
-            "id": 854566892,
-            "last_update": 1366730630.064088,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Combat Counters",
-            "name_lower": "combat counters",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730630.064088,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 398445297,
-            "deity": 0,
-            "description": "The bruiser's temporary mitigation augmentations will also increase their chance to riposte.",
-            "description_pvp": "The bruiser's temporary mitigation augmentations will also increase their chance to riposte.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Rock Skin will increase Extra Riposte Chance by 1.25%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Bruising Spirit will increase Extra Riposte Chance by 1%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 329
-            },
-            "id": 2401618722,
-            "last_update": 1366730595.443228,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Combat Counters",
-            "name_lower": "combat counters",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730595.443228,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 398445297,
-            "deity": 0,
-            "description": "The bruiser's temporary mitigation augmentations will also increase their chance to riposte.",
-            "description_pvp": "The bruiser's temporary mitigation augmentations will also increase their chance to riposte.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Rock Skin will increase Extra Riposte Chance by 3.75%",
-                    "indentation": 0
-                },
                 {
                     "description": "Bruising Spirit will increase Extra Riposte Chance by 3%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Rock Skin will increase Extra Riposte Chance by 3.75%",
                     "indentation": 0
                 }
             ],
@@ -163,7 +49,7 @@
                 "id": 329
             },
             "id": 4017716841,
-            "last_update": 1366730441.606074,
+            "last_update": 1387584398.556334,
             "level": 0,
             "max_targets": 0,
             "name": "Combat Counters",
@@ -173,10 +59,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730441.606074,
+            "ts": 1387584398.556334,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 398445297,
+            "deity": 0,
+            "description": "The bruiser's temporary mitigation augmentations will also increase their chance to riposte.",
+            "description_pvp": "The bruiser's temporary mitigation augmentations will also increase their chance to riposte.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Bruising Spirit will increase Extra Riposte Chance by 2%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Rock Skin will increase Extra Riposte Chance by 2.5%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 329
+            },
+            "id": 854566892,
+            "last_update": 1387584398.47819,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Combat Counters",
+            "name_lower": "combat counters",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584398.47819,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 398445297,
+            "deity": 0,
+            "description": "The bruiser's temporary mitigation augmentations will also increase their chance to riposte.",
+            "description_pvp": "The bruiser's temporary mitigation augmentations will also increase their chance to riposte.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Bruising Spirit will increase Extra Riposte Chance by 1%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Rock Skin will increase Extra Riposte Chance by 1.25%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 329
+            },
+            "id": 2401618722,
+            "last_update": 1387584398.397824,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Combat Counters",
+            "name_lower": "combat counters",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584398.397824,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

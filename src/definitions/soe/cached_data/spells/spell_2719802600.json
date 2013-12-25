@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730456.964657,
+    "min_ts": 1387585168.692381,
     "returned": 1,
-    "seconds": 0.014290094375610352,
+    "seconds": 0.014345169067382812,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,12 +38,16 @@
                     "indentation": 0
                 },
                 {
+                    "description": "Increases Threat to targets in Area of Effect by 62 - 93 ",
+                    "indentation": 1
+                },
+                {
                     "description": "Inflicts 13 - 20 disease damage on targets in Area of Effect",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Threat to targets in Area of Effect by 46 - 69 ",
-                    "indentation": 1
+                    "description": "Will absorb all damage when the amount is greater than 25% of the target's maximum health. This spell will absorb a total of 1 attack.",
+                    "indentation": 0
                 },
                 {
                     "description": "Applies Hateful Respite on termination.",
@@ -60,8 +66,16 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Will absorb all damage when the amount is greater than 25% of the target's maximum health. This spell will absorb a total of 1 attack.",
+                    "description": "Applies Stoneskin Reaction on termination.  Lasts for 1.0 seconds.",
                     "indentation": 0
+                },
+                {
+                    "description": "Triggers when a Stoneskin is consumed. Suspends all other stoneskins that match the damage types of this effect.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Reduces all damage done to target by 100%",
+                    "indentation": 1
                 }
             ],
             "given_by": "alternateadvancement",
@@ -71,7 +85,7 @@
                 "id": 260
             },
             "id": 1368457269,
-            "last_update": 1366730456.964657,
+            "last_update": 1387585168.692381,
             "level": 0,
             "max_targets": 0,
             "name": "Hateful Respite",
@@ -81,10 +95,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730456.964657,
+            "ts": 1387585168.692381,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730441.512916,
+    "min_ts": 1387584460.009584,
     "returned": 3,
-    "seconds": 0.022170066833496094,
+    "seconds": 0.017698049545288086,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,74 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4179643856,
-            "deity": 0,
-            "description": "Applies an incremental damage over time effect when the assassin uses their bleed attacks. This ability can increment up to 5 times.",
-            "description_pvp": "Applies an incremental damage over time effect when the assassin uses their bleed attacks. This ability can increment up to 5 times.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "When a combat art is used this spell has a 50% chance to cast Carnage on target of combat art.  Lasts for 16.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 5 piercing damage on target every 4 seconds",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 20 - 33 piercing damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "This effect can only trigger from bleeding attacks.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 496
-            },
-            "id": 2082994443,
-            "last_update": 1366730636.815299,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Carnage",
-            "name_lower": "carnage",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730636.815299,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -102,15 +38,15 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 3 - 5 piercing damage on target every 4 seconds",
-                    "indentation": 1
-                },
-                {
                     "description": "Inflicts 20 - 33 piercing damage on target",
                     "indentation": 1
                 },
                 {
                     "description": "This effect can only trigger from bleeding attacks.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 3 - 5 piercing damage on target every 4 seconds",
                     "indentation": 1
                 }
             ],
@@ -121,7 +57,7 @@
                 "id": 496
             },
             "id": 3777501309,
-            "last_update": 1366730612.259852,
+            "last_update": 1387584460.374021,
             "level": 0,
             "max_targets": 0,
             "name": "Carnage",
@@ -131,10 +67,10 @@
             "spellbook": 1,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730612.259852,
+            "ts": 1387584460.374021,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -144,8 +80,78 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4179643856,
+            "deity": 0,
+            "description": "Applies an incremental damage over time effect when the assassin uses their bleed attacks. This ability can increment up to 5 times.",
+            "description_pvp": "Applies an incremental damage over time effect when the assassin uses their bleed attacks. This ability can increment up to 5 times.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "When a combat art is used this spell has a 50% chance to cast Carnage on target of combat art.  Lasts for 16.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 20 - 33 piercing damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "This effect can only trigger from bleeding attacks.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 3 - 5 piercing damage on target every 4 seconds",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 496
+            },
+            "id": 2082994443,
+            "last_update": 1387584460.215328,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Carnage",
+            "name_lower": "carnage",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584460.215328,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -168,15 +174,15 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 3 - 5 piercing damage on target every 4 seconds",
-                    "indentation": 1
-                },
-                {
                     "description": "Inflicts 20 - 33 piercing damage on target",
                     "indentation": 1
                 },
                 {
                     "description": "This effect can only trigger from bleeding attacks.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 3 - 5 piercing damage on target every 4 seconds",
                     "indentation": 1
                 }
             ],
@@ -187,7 +193,7 @@
                 "id": 496
             },
             "id": 4644048,
-            "last_update": 1366730441.512916,
+            "last_update": 1387584460.009584,
             "level": 0,
             "max_targets": 0,
             "name": "Carnage",
@@ -197,10 +203,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730441.512916,
+            "ts": 1387584460.009584,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

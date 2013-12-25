@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730458.910033,
+    "min_ts": 1387584178.938894,
     "returned": 5,
-    "seconds": 0.01544499397277832,
+    "seconds": 0.01570606231689453,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the critical damage by 5%.",
+                    "description": "Increases the base damage by 10%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases the base damage by 10%",
+                    "description": "Increases the critical damage by 5%.",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 228
             },
             "id": 2776661553,
-            "last_update": 1366730636.379226,
+            "last_update": 1387584179.021095,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Flames of Velious",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730636.379226,
+            "ts": 1387584179.021095,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -89,186 +93,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Increases the critical damage by 3%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the base damage by 6%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 228
-            },
-            "id": 90546668,
-            "last_update": 1366730622.106694,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Flames of Velious",
-            "name_lower": "enhance: flames of velious",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730622.106694,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 138302311,
-            "deity": 0,
-            "description": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.",
-            "description_pvp": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the critical damage by 2%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the base damage by 4%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 228
-            },
-            "id": 3639834729,
-            "last_update": 1366730619.761355,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Flames of Velious",
-            "name_lower": "enhance: flames of velious",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730619.761355,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 138302311,
-            "deity": 0,
-            "description": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.",
-            "description_pvp": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the critical damage by 1%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the base damage by 2%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 228
-            },
-            "id": 1698239655,
-            "last_update": 1366730573.764302,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Flames of Velious",
-            "name_lower": "enhance: flames of velious",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730573.764302,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 138302311,
-            "deity": 0,
-            "description": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.",
-            "description_pvp": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the critical damage by 4%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases the base damage by 8%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the critical damage by 4%.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +109,7 @@
                 "id": 228
             },
             "id": 2014750644,
-            "last_update": 1366730458.910033,
+            "last_update": 1387584178.976407,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Flames of Velious",
@@ -289,10 +119,190 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730458.910033,
+            "ts": 1387584178.976407,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 138302311,
+            "deity": 0,
+            "description": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.",
+            "description_pvp": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the base damage by 4%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the critical damage by 2%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 228
+            },
+            "id": 3639834729,
+            "last_update": 1387584178.94862,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Flames of Velious",
+            "name_lower": "enhance: flames of velious",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584178.94862,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 138302311,
+            "deity": 0,
+            "description": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.",
+            "description_pvp": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the base damage by 6%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the critical damage by 3%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 228
+            },
+            "id": 90546668,
+            "last_update": 1387584178.943936,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Flames of Velious",
+            "name_lower": "enhance: flames of velious",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584178.943936,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 138302311,
+            "deity": 0,
+            "description": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.",
+            "description_pvp": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the base damage by 2%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the critical damage by 1%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 228
+            },
+            "id": 1698239655,
+            "last_update": 1387584178.938894,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Flames of Velious",
+            "name_lower": "enhance: flames of velious",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584178.938894,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

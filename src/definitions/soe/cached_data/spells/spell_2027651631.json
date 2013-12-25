@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730589.461731,
+    "min_ts": 1387585229.887192,
     "returned": 1,
-    "seconds": 0.017886877059936523,
+    "seconds": 0.014674901962280273,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 2027651631,
             "deity": 0,
-            "description": "The beastlord gains additional Crit Bonus from damage per second.",
-            "description_pvp": "The beastlord gains additional Crit Bonus from damage per second.",
+            "description": "The beastlord gains additional Crit Bonus from Multi-Attack Chance.",
+            "description_pvp": "The beastlord gains additional Crit Bonus from Multi-Attack Chance.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,18 +34,18 @@
             },
             "effect_list": [
                 {
-                    "description": "For every 25 points of damage per second, the caster gains 1% Crit Bonus.",
+                    "description": "For every 25 points of Multi-Attack Chance, the caster gains 1% Crit Bonus.",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 868
             },
             "id": 1463104505,
-            "last_update": 1366730589.461731,
+            "last_update": 1387585229.887192,
             "level": 0,
             "max_targets": 0,
             "name": "Call of the Wild",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730589.461731,
+            "ts": 1387585229.887192,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

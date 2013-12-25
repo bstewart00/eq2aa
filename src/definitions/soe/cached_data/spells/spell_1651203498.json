@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730436.34911,
+    "min_ts": 1387584632.330386,
     "returned": 5,
-    "seconds": 0.015299081802368164,
+    "seconds": 0.01592278480529785,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1651203498,
-            "deity": 0,
-            "description": "The brawler is able to increase their chance to deflect incoming attacks.",
-            "description_pvp": "The brawler is able to increase their chance to deflect incoming attacks.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases caster's chance to block by 2.4%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 856
-            },
-            "id": 2745395493,
-            "last_update": 1366730649.698116,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Deflecting Blow",
-            "name_lower": "deflecting blow",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730649.698116,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1651203498,
-            "deity": 0,
-            "description": "The brawler is able to increase their chance to deflect incoming attacks.",
-            "description_pvp": "The brawler is able to increase their chance to deflect incoming attacks.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases caster's chance to block by 4.8%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 856
-            },
-            "id": 1533092499,
-            "last_update": 1366730630.890472,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Deflecting Blow",
-            "name_lower": "deflecting blow",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730630.890472,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 856
             },
             "id": 3329147877,
-            "last_update": 1366730630.822236,
+            "last_update": 1387584632.620043,
             "level": 0,
             "max_targets": 0,
             "name": "Deflecting Blow",
@@ -161,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730630.822236,
+            "ts": 1387584632.620043,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +68,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1651203498,
+            "deity": 0,
+            "description": "The brawler is able to increase their chance to deflect incoming attacks.",
+            "description_pvp": "The brawler is able to increase their chance to deflect incoming attacks.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases caster's chance to block by 4.8%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 856
+            },
+            "id": 1533092499,
+            "last_update": 1387584632.520715,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Deflecting Blow",
+            "name_lower": "deflecting blow",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584632.520715,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,7 +157,7 @@
                 "id": 856
             },
             "id": 1051494483,
-            "last_update": 1366730457.908238,
+            "last_update": 1387584632.440991,
             "level": 0,
             "max_targets": 0,
             "name": "Deflecting Blow",
@@ -215,10 +167,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730457.908238,
+            "ts": 1387584632.440991,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +180,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1651203498,
+            "deity": 0,
+            "description": "The brawler is able to increase their chance to deflect incoming attacks.",
+            "description_pvp": "The brawler is able to increase their chance to deflect incoming attacks.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases caster's chance to block by 2.4%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 856
+            },
+            "id": 2745395493,
+            "last_update": 1387584632.377803,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Deflecting Blow",
+            "name_lower": "deflecting blow",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584632.377803,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +269,7 @@
                 "id": 856
             },
             "id": 3754052862,
-            "last_update": 1366730436.34911,
+            "last_update": 1387584632.330386,
             "level": 0,
             "max_targets": 0,
             "name": "Deflecting Blow",
@@ -269,10 +279,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730436.34911,
+            "ts": 1387584632.330386,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

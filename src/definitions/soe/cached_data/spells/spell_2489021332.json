@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730458.844651,
+    "min_ts": 1387584446.53939,
     "returned": 3,
-    "seconds": 0.01832103729248047,
+    "seconds": 0.014975786209106445,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 83
             },
             "id": 3522391441,
-            "last_update": 1366730635.999912,
+            "last_update": 1387584446.648585,
             "level": 0,
             "max_targets": 0,
             "name": "Fanatical Grace",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730635.999912,
+            "ts": 1387584446.648585,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,62 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2489021332,
-            "deity": 0,
-            "description": "Fanatic's Protection will restore power to the target ally's group when damage is taken.",
-            "description_pvp": "Fanatic's Protection will restore power to the target ally's group when damage is taken.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Fanatic's Protection will restore 0.15% power to the target ally's group when triggered.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 83
-            },
-            "id": 815638844,
-            "last_update": 1366730461.810639,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Fanatical Grace",
-            "name_lower": "fanatical grace",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730461.810639,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 83
             },
             "id": 1291619559,
-            "last_update": 1366730458.844651,
+            "last_update": 1387584446.596511,
             "level": 0,
             "max_targets": 0,
             "name": "Fanatical Grace",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730458.844651,
+            "ts": 1387584446.596511,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2489021332,
+            "deity": 0,
+            "description": "Fanatic's Protection will restore power to the target ally's group when damage is taken.",
+            "description_pvp": "Fanatic's Protection will restore power to the target ally's group when damage is taken.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Fanatic's Protection will restore 0.15% power to the target ally's group when triggered.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 83
+            },
+            "id": 815638844,
+            "last_update": 1387584446.53939,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Fanatical Grace",
+            "name_lower": "fanatical grace",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584446.53939,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

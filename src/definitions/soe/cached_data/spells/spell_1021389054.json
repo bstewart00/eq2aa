@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730634.344505,
+    "min_ts": 1387584460.725528,
     "returned": 1,
-    "seconds": 0.04484891891479492,
+    "seconds": 0.014247894287109375,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,15 +34,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Decreases Max Health of target by 3.0%",
-                    "indentation": 0
-                },
-                {
                     "description": "Inflicts 10 - 16 melee damage on target",
                     "indentation": 0
                 },
                 {
-                    "description": "Must be behind",
+                    "description": "Decreases Max Health of target by 3.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Must be flanking or behind",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 808
             },
             "id": 2424762262,
-            "last_update": 1366730634.344505,
+            "last_update": 1387584460.725528,
             "level": 0,
             "max_targets": 0,
             "name": "Will to Survive",
@@ -61,10 +63,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730634.344505,
+            "ts": 1387584460.725528,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

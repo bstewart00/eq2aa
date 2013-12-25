@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730632.743769,
+    "min_ts": 1387584808.332708,
     "returned": 1,
-    "seconds": 0.015152931213378906,
+    "seconds": 0.014413833618164062,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -44,11 +46,11 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Increases the ranger's potency by 12.5% of their base potency",
+                    "description": "Applies when reaching 12 increments of Burning Intensity",
                     "indentation": 2
                 },
                 {
-                    "description": "Applies when reaching 12 increments of Burning Intensity",
+                    "description": "Increases the ranger's potency by 12.5% of their base potency",
                     "indentation": 2
                 },
                 {
@@ -63,7 +65,7 @@
                 "id": 242
             },
             "id": 3865624251,
-            "last_update": 1366730632.743769,
+            "last_update": 1387584808.332708,
             "level": 0,
             "max_targets": 0,
             "name": "Burning Intensity",
@@ -73,10 +75,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730632.743769,
+            "ts": 1387584808.332708,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

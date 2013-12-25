@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730633.046119,
+    "min_ts": 1387585104.516509,
     "returned": 1,
-    "seconds": 0.020032882690429688,
+    "seconds": 0.014662027359008789,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -44,11 +46,11 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Applies when reaching 12 increments of Nightblade's Intensity",
+                    "description": "Increases the assassin's potency by 20% of their base potency",
                     "indentation": 2
                 },
                 {
-                    "description": "Increases the assassin's potency by 20% of their base potency",
+                    "description": "Applies when reaching 12 increments of Nightblade's Intensity",
                     "indentation": 2
                 },
                 {
@@ -63,7 +65,7 @@
                 "id": 804
             },
             "id": 1103947132,
-            "last_update": 1366730633.046119,
+            "last_update": 1387585104.516509,
             "level": 0,
             "max_targets": 0,
             "name": "Nightblade's Intensity",
@@ -73,10 +75,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730633.046119,
+            "ts": 1387585104.516509,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

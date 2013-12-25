@@ -196,7 +196,7 @@
                     "classificationpointsrequired": 10,
                     "description": "Sneering Assault does a medium amount of damage while also adding additional hate and forces the fighter several positions up the hate list.",
                     "icon": {
-                        "backdrop": -1,
+                        "backdrop": 459,
                         "id": 656
                     },
                     "maxtier": 1,
@@ -299,19 +299,19 @@
                 {
                     "classification": "Monk ",
                     "classificationpointsrequired": 10,
-                    "description": "Bob and Weave allows the monk a greater chance to dodge, parry and deflect attacks for a short duration.",
+                    "description": "Pulls the target ally to the monk if they are outside of 10 meters away. The ally will be immune to most Area Effect abilities and takes less damage.",
                     "icon": {
-                        "backdrop": 461,
-                        "id": 674
+                        "backdrop": 460,
+                        "id": 411
                     },
                     "maxtier": 1,
                     "minlevel": 1,
-                    "name": "Bob and Weave",
+                    "name": "Winds of Salvation",
                     "nodeid": 2131448124,
                     "pointspertier": 2,
                     "pointsspentgloballytounlock": 170,
                     "pointsspentintreetounlock": 0,
-                    "spellcrc": 322414485,
+                    "spellcrc": 1232632704,
                     "title": "Grandmaster",
                     "titlelevel": 1,
                     "xcoord": 38,
@@ -593,22 +593,22 @@
             ],
             "id": 47,
             "iswardertree": "false",
-            "last_update": 1375803049.146559,
+            "last_update": 1387590836.683197,
             "maximumpoints": 0,
             "maxpointsperlevelnode_list": [
                 {
                     "level": 10,
-                    "maxpoints": 70
+                    "maxpoints": 100
                 }
             ],
             "minimumpointsrequired": 0,
             "name": "Shadows",
-            "ts": 1375803049.146559,
-            "version": 1
+            "ts": 1387590836.683197,
+            "version": 2
         }
     ],
     "limit": 1,
-    "min_ts": 1375803049.146559,
+    "min_ts": 1387590836.683197,
     "returned": 1,
-    "seconds": 0.015545129776000977
+    "seconds": 0.018201112747192383
 }

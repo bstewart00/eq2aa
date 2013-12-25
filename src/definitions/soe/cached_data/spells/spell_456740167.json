@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730451.898516,
+    "min_ts": 1387584507.232348,
     "returned": 1,
-    "seconds": 0.040715932846069336,
+    "seconds": 0.12483501434326172,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 456740167,
             "deity": 0,
-            "description": "The bruiser gains additional Potency from Multi-Attack Chance.",
-            "description_pvp": "The bruiser gains additional Potency from Multi-Attack Chance.",
+            "description": "The bruiser gains additional Potency from Damage Per Second.",
+            "description_pvp": "The bruiser gains additional Potency from Damage Per Second.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "For every 30 points of Multi-Attack Chance, the caster gains 1% Potency.",
+                    "description": "For every 30 points of Damage Per Second, the caster gains 1% Potency.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 882
             },
             "id": 3628132595,
-            "last_update": 1366730451.898516,
+            "last_update": 1387584507.232348,
             "level": 0,
             "max_targets": 0,
             "name": "Bruising Power",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730451.898516,
+            "ts": 1387584507.232348,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

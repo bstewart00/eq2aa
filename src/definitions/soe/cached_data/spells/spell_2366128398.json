@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730633.790083,
+    "min_ts": 1387585006.352143,
     "returned": 3,
-    "seconds": 0.03461909294128418,
+    "seconds": 0.016571044921875,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2366128398,
-            "deity": 0,
-            "description": "Applies damage reduction to the group when using Ralissk's Perception. The amount of damage types improve with higher ranks.",
-            "description_pvp": "Applies damage reduction to the group when using Ralissk's Perception. The amount of damage types improve with higher ranks.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies 6% noxious damage reduction to the group when Ralissk's Perception is triggered.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 290
-            },
-            "id": 458242965,
-            "last_update": 1366730651.990751,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Defensive Perception",
-            "name_lower": "defensive perception",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730651.990751,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2366128398,
-            "deity": 0,
-            "description": "Applies damage reduction to the group when using Ralissk's Perception. The amount of damage types improve with higher ranks.",
-            "description_pvp": "Applies damage reduction to the group when using Ralissk's Perception. The amount of damage types improve with higher ranks.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies 6% noxious and arcane damage reduction to the group when Ralissk's Perception is triggered.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 290
-            },
-            "id": 1731272270,
-            "last_update": 1366730645.9806,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Defensive Perception",
-            "name_lower": "defensive perception",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730645.9806,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 290
             },
             "id": 4198432568,
-            "last_update": 1366730633.790083,
+            "last_update": 1387585006.487023,
             "level": 0,
             "max_targets": 0,
             "name": "Defensive Perception",
@@ -161,10 +55,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730633.790083,
+            "ts": 1387585006.487023,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2366128398,
+            "deity": 0,
+            "description": "Applies damage reduction to the group when using Ralissk's Perception. The amount of damage types improve with higher ranks.",
+            "description_pvp": "Applies damage reduction to the group when using Ralissk's Perception. The amount of damage types improve with higher ranks.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies 6% noxious and arcane damage reduction to the group when Ralissk's Perception is triggered.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 290
+            },
+            "id": 1731272270,
+            "last_update": 1387585006.406883,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Defensive Perception",
+            "name_lower": "defensive perception",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585006.406883,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2366128398,
+            "deity": 0,
+            "description": "Applies damage reduction to the group when using Ralissk's Perception. The amount of damage types improve with higher ranks.",
+            "description_pvp": "Applies damage reduction to the group when using Ralissk's Perception. The amount of damage types improve with higher ranks.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies 6% noxious damage reduction to the group when Ralissk's Perception is triggered.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 290
+            },
+            "id": 458242965,
+            "last_update": 1387585006.352143,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Defensive Perception",
+            "name_lower": "defensive perception",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585006.352143,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

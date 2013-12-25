@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730646.320267,
+    "min_ts": 1387584527.972098,
     "returned": 1,
-    "seconds": 0.014507055282592773,
+    "seconds": 0.014375925064086914,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,11 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Adds 10% Strikethrough to Perfect Finesse and allows the swashbuckler to reduce the target's damage per second and attack speed as an additional effect.",
+                    "description": "Reduces the casting speed of Inspired Daring by 1 second and improves the duration by 3 seconds.",
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces the casting speed of Inspired Daring by 1 second and improves the duration by 3 seconds.",
+                    "description": "Adds 10% Strikethrough to Perfect Finesse and allows the swashbuckler to reduce the target's damage per second and attack speed as an additional effect.",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 927
             },
             "id": 587950260,
-            "last_update": 1366730646.320267,
+            "last_update": 1387584527.972098,
             "level": 0,
             "max_targets": 0,
             "name": "Swarthy Expertise",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730646.320267,
+            "ts": 1387584527.972098,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

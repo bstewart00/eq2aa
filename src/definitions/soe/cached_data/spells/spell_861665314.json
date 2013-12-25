@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730643.160633,
+    "min_ts": 1387584242.941909,
     "returned": 1,
-    "seconds": 0.014173030853271484,
+    "seconds": 0.014590978622436523,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,14 +25,18 @@
             },
             "crc": 861665314,
             "deity": 0,
-            "description": "Increases the range of all of your spells.",
-            "description_pvp": "Increases the range of all of your spells.",
+            "description": "Increases the range and radius of all of your spells.",
+            "description_pvp": "Increases the range and radius of all of your spells.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
                 "min_sec_tenths": 0
             },
             "effect_list": [
+                {
+                    "description": "Improves radius by 25%.",
+                    "indentation": 0
+                },
                 {
                     "description": "Increases range by 6",
                     "indentation": 0
@@ -43,7 +49,7 @@
                 "id": 540
             },
             "id": 651313518,
-            "last_update": 1366730643.160633,
+            "last_update": 1387584242.941909,
             "level": 0,
             "max_targets": 0,
             "name": "Spell Reach",
@@ -53,10 +59,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730643.160633,
+            "ts": 1387584242.941909,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

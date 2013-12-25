@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730455.973252,
+    "min_ts": 1387584572.650304,
     "returned": 3,
-    "seconds": 0.014163017272949219,
+    "seconds": 0.019260168075561523,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3311836273,
-            "deity": 0,
-            "description": "Increases the weapon damage bonus of the group when the mystic enters Ferocity of Spirits with two spell increments. Cannot trigger more than once every 30 seconds.",
-            "description_pvp": "Increases the weapon damage bonus of the group when the mystic enters Ferocity of Spirits with two spell increments. Cannot trigger more than once every 30 seconds.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the Weapon Damage Bonus of the group by 4% when the mystic gets two increment of Ferocity of Spirits.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 326
-            },
-            "id": 3386111558,
-            "last_update": 1366730597.12624,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Snow Rhino's Power",
-            "name_lower": "snow rhino's power",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730597.12624,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3311836273,
-            "deity": 0,
-            "description": "Increases the weapon damage bonus of the group when the mystic enters Ferocity of Spirits with two spell increments. Cannot trigger more than once every 30 seconds.",
-            "description_pvp": "Increases the weapon damage bonus of the group when the mystic enters Ferocity of Spirits with two spell increments. Cannot trigger more than once every 30 seconds.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the Weapon Damage Bonus of the group by 8% when the mystic gets two increment of Ferocity of Spirits.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 326
-            },
-            "id": 3048395677,
-            "last_update": 1366730457.277811,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Snow Rhino's Power",
-            "name_lower": "snow rhino's power",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730457.277811,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 326
             },
             "id": 683487979,
-            "last_update": 1366730455.973252,
+            "last_update": 1387584572.758587,
             "level": 0,
             "max_targets": 0,
             "name": "Snow Rhino's Power",
@@ -161,10 +55,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730455.973252,
+            "ts": 1387584572.758587,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3311836273,
+            "deity": 0,
+            "description": "Increases the weapon damage bonus of the group when the mystic enters Ferocity of Spirits with two spell increments. Cannot trigger more than once every 30 seconds.",
+            "description_pvp": "Increases the weapon damage bonus of the group when the mystic enters Ferocity of Spirits with two spell increments. Cannot trigger more than once every 30 seconds.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the Weapon Damage Bonus of the group by 8% when the mystic gets two increment of Ferocity of Spirits.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 326
+            },
+            "id": 3048395677,
+            "last_update": 1387584572.729999,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Snow Rhino's Power",
+            "name_lower": "snow rhino's power",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584572.729999,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3311836273,
+            "deity": 0,
+            "description": "Increases the weapon damage bonus of the group when the mystic enters Ferocity of Spirits with two spell increments. Cannot trigger more than once every 30 seconds.",
+            "description_pvp": "Increases the weapon damage bonus of the group when the mystic enters Ferocity of Spirits with two spell increments. Cannot trigger more than once every 30 seconds.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the Weapon Damage Bonus of the group by 4% when the mystic gets two increment of Ferocity of Spirits.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 326
+            },
+            "id": 3386111558,
+            "last_update": 1387584572.650304,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Snow Rhino's Power",
+            "name_lower": "snow rhino's power",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584572.650304,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

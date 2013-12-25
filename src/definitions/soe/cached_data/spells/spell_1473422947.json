@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730632.627723,
+    "min_ts": 1387584458.676179,
     "returned": 1,
-    "seconds": 0.01421809196472168,
+    "seconds": 0.0152130126953125,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1473422947,
             "deity": 0,
-            "description": "The assassin gains additional Crit Bonus from Multi-Attack.",
-            "description_pvp": "The assassin gains additional Crit Bonus from Multi-Attack.",
+            "description": "The assassin gains additional Crit Bonus from Damage Per Second.",
+            "description_pvp": "The assassin gains additional Crit Bonus from Damage Per Second.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "For every 30 points of Multi-Attack Chance, the caster gains 1% Crit Bonus.",
+                    "description": "For every 30 points of Damage Per Second, the caster gains 1% Crit Bonus.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 267
             },
             "id": 492983739,
-            "last_update": 1366730632.627723,
+            "last_update": 1387584458.676179,
             "level": 0,
             "max_targets": 0,
             "name": "Bloody Assassin",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730632.627723,
+            "ts": 1387584458.676179,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

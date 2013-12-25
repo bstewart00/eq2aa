@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730450.964692,
+    "min_ts": 1387584211.97916,
     "returned": 3,
-    "seconds": 0.01483297348022461,
+    "seconds": 0.01468205451965332,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1093636477,
-            "deity": 0,
-            "description": "Improves the duration of Clearwater Current.",
-            "description_pvp": "Improves the duration of Clearwater Current.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Lowers the duration of Clearwater Current by 12 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 879
-            },
-            "id": 1750404436,
-            "last_update": 1366730620.181057,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Raging Current",
-            "name_lower": "raging current",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730620.181057,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 879
             },
             "id": 4116376610,
-            "last_update": 1366730614.848931,
+            "last_update": 1387584212.065878,
             "level": 0,
             "max_targets": 0,
             "name": "Raging Current",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730614.848931,
+            "ts": 1387584212.065878,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1093636477,
+            "deity": 0,
+            "description": "Improves the duration of Clearwater Current.",
+            "description_pvp": "Improves the duration of Clearwater Current.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Lowers the duration of Clearwater Current by 12 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 879
+            },
+            "id": 1750404436,
+            "last_update": 1387584212.05984,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Raging Current",
+            "name_lower": "raging current",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584212.05984,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +157,7 @@
                 "id": 879
             },
             "id": 2302396921,
-            "last_update": 1366730450.964692,
+            "last_update": 1387584211.97916,
             "level": 0,
             "max_targets": 0,
             "name": "Raging Current",
@@ -161,10 +167,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730450.964692,
+            "ts": 1387584211.97916,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

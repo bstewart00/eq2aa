@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.320142,
+    "min_ts": 1387584576.571823,
     "returned": 1,
-    "seconds": 0.014422178268432617,
+    "seconds": 0.0160369873046875,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1877562585,
             "deity": 0,
-            "description": "Convert Power instantly switches the enchanter's current health and power. Any power or health that would go over the enchanter's maximum pools will be lost. For a few seconds, the enchanter's spells cost drastically less and they are immune to damage.",
-            "description_pvp": "Convert Power instantly switches the enchanter's current health and power. Any power or health that would go over the enchanter's maximum pools will be lost. For a few seconds, the enchanter's spells cost drastically less and they are immune to damage.",
+            "description": "Convert Power instantly switches the enchanter's current health and power percentages. For a few seconds, the enchanter's spells cost drastically less and they are immune to damage.",
+            "description_pvp": "Convert Power instantly switches the enchanter's current health and power percentages. For a few seconds, the enchanter's spells cost drastically less and they are immune to damage.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 50,
@@ -32,15 +34,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces the power cost of all spells by 100%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Swaps the caster's health and power pools.",
+                    "description": "Swaps the caster's health and power pools by percentage",
                     "indentation": 0
                 },
                 {
                     "description": "Will absorb all damage. ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the power cost of all spells by 100%.",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 914
             },
             "id": 2053382301,
-            "last_update": 1366730438.320142,
+            "last_update": 1387584576.571823,
             "level": 0,
             "max_targets": 0,
             "name": "Convert Power",
@@ -61,10 +63,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730438.320142,
+            "ts": 1387584576.571823,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730453.827341,
+    "min_ts": 1387584589.312891,
     "returned": 1,
-    "seconds": 0.015494108200073242,
+    "seconds": 0.014635801315307617,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -27,8 +29,8 @@
             "description_pvp": "Nature's Ferocity improves the number of ticks, base and critical amount of the Fury's heals.  As a penalty for these improvements, the fury will have increased casting and reuse speed for hostile spells.  Hostile spells will also do less damage.",
             "duration": {
                 "does_not_expire": 1,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
             },
             "effect_list": [
                 {
@@ -36,11 +38,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces the damage of hostile spells by 15%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the casting time and reuse of hostile spells by 15%.",
+                    "description": "Improves the critical amount of heals by 5%.",
                     "indentation": 0
                 },
                 {
@@ -48,7 +46,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the critical amount of heals by 5%.",
+                    "description": "Increases the casting time and reuse of hostile spells by 15%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the damage of hostile spells by 15%.",
                     "indentation": 0
                 }
             ],
@@ -59,7 +61,7 @@
                 "id": 887
             },
             "id": 52570681,
-            "last_update": 1366730453.827341,
+            "last_update": 1387584589.312891,
             "level": 0,
             "max_targets": 0,
             "name": "Nature's Ferocity",
@@ -69,10 +71,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730453.827341,
+            "ts": 1387584589.312891,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

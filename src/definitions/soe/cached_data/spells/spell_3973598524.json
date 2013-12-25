@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730632.889981,
+    "min_ts": 1387584437.127961,
     "returned": 1,
-    "seconds": 0.01671004295349121,
+    "seconds": 0.014513015747070312,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Decreases WIS and INT of target by 7.0",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Crit Chance of target by 10.0",
+                    "description": "Decreases AGI and STR of target by 7.0",
                     "indentation": 0
                 },
                 {
@@ -44,7 +42,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases STR and AGI of target by 7.0",
+                    "description": "Decreases WIS and INT of target by 7.0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Crit Chance of target by 10.0",
                     "indentation": 0
                 }
             ],
@@ -55,7 +57,7 @@
                 "id": 803
             },
             "id": 4255149913,
-            "last_update": 1366730632.889981,
+            "last_update": 1387584437.127961,
             "level": 0,
             "max_targets": 0,
             "name": "Noxious Enfeeblement",
@@ -65,10 +67,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730632.889981,
+            "ts": 1387584437.127961,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

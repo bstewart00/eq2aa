@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730575.549989,
+    "min_ts": 1387584982.559017,
     "returned": 1,
-    "seconds": 0.017923831939697266,
+    "seconds": 0.014683008193969727,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,6 +34,18 @@
             },
             "effect_list": [
                 {
+                    "description": "Applies Stoneskin Reaction.  Lasts for 1.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Triggers when a Stoneskin is consumed. Suspends all other stoneskins that match the damage types of this effect.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Reduces all damage done to target by 100%",
+                    "indentation": 1
+                },
+                {
                     "description": "Will absorb all damage when the amount is greater than 35% of the target's maximum health. This spell will absorb a total of 1 attack.",
                     "indentation": 0
                 },
@@ -40,14 +54,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 563
             },
             "id": 193460407,
-            "last_update": 1366730575.549989,
+            "last_update": 1387584982.559017,
             "level": 0,
             "max_targets": 0,
             "name": "Superior Guard",
@@ -57,10 +71,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730575.549989,
+            "ts": 1387584982.559017,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

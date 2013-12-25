@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730435.615725,
+    "min_ts": 1387584201.860116,
     "returned": 8,
-    "seconds": 0.015580892562866211,
+    "seconds": 0.018038034439086914,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 832
             },
             "id": 1186012823,
-            "last_update": 1366730634.82348,
+            "last_update": 1387584202.308106,
             "level": 0,
             "max_targets": 0,
             "name": "Bewilderment",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730634.82348,
+            "ts": 1387584202.308106,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,278 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3367832718,
-            "deity": 0,
-            "description": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
-            "description_pvp": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Temporarily improves the predator's chance to hit their target following a successful Masked Strike or Sneak Attack.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 832
-            },
-            "id": 1816432570,
-            "last_update": 1366730630.721099,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bewilderment",
-            "name_lower": "bewilderment",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730630.721099,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3367832718,
-            "deity": 0,
-            "description": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
-            "description_pvp": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Temporarily improves the predator's chance to hit their target following a successful Masked Strike or Sneak Attack.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 832
-            },
-            "id": 3907510743,
-            "last_update": 1366730619.938914,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bewilderment",
-            "name_lower": "bewilderment",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730619.938914,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3367832718,
-            "deity": 0,
-            "description": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
-            "description_pvp": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Temporarily improves the predator's chance to hit their target following a successful Masked Strike or Sneak Attack.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 832
-            },
-            "id": 159982970,
-            "last_update": 1366730442.548975,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bewilderment",
-            "name_lower": "bewilderment",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730442.548975,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3367832718,
-            "deity": 0,
-            "description": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
-            "description_pvp": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Temporarily improves the predator's chance to hit their target following a successful Masked Strike or Sneak Attack.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 832
-            },
-            "id": 4048252620,
-            "last_update": 1366730442.500496,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bewilderment",
-            "name_lower": "bewilderment",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730442.500496,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3367832718,
-            "deity": 0,
-            "description": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
-            "description_pvp": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Temporarily improves the predator's chance to hit their target following a successful Masked Strike or Sneak Attack.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 832
-            },
-            "id": 2491859980,
-            "last_update": 1366730438.074146,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bewilderment",
-            "name_lower": "bewilderment",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730438.074146,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -367,7 +101,7 @@
                 "id": 832
             },
             "id": 270903905,
-            "last_update": 1366730437.494191,
+            "last_update": 1387584202.226126,
             "level": 0,
             "max_targets": 0,
             "name": "Bewilderment",
@@ -377,10 +111,10 @@
             "spellbook": 4,
             "tier": 7,
             "tier_name": "Expert",
-            "ts": 1366730437.494191,
+            "ts": 1387584202.226126,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -390,8 +124,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3367832718,
+            "deity": 0,
+            "description": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
+            "description_pvp": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Temporarily improves the predator's chance to hit their target following a successful Masked Strike or Sneak Attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 832
+            },
+            "id": 4048252620,
+            "last_update": 1387584202.106387,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bewilderment",
+            "name_lower": "bewilderment",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584202.106387,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -421,7 +213,7 @@
                 "id": 832
             },
             "id": 2368359191,
-            "last_update": 1366730435.615725,
+            "last_update": 1387584202.106001,
             "level": 0,
             "max_targets": 0,
             "name": "Bewilderment",
@@ -431,10 +223,234 @@
             "spellbook": 4,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730435.615725,
+            "ts": 1387584202.106001,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3367832718,
+            "deity": 0,
+            "description": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
+            "description_pvp": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Temporarily improves the predator's chance to hit their target following a successful Masked Strike or Sneak Attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 832
+            },
+            "id": 1816432570,
+            "last_update": 1387584201.983953,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bewilderment",
+            "name_lower": "bewilderment",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584201.983953,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3367832718,
+            "deity": 0,
+            "description": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
+            "description_pvp": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Temporarily improves the predator's chance to hit their target following a successful Masked Strike or Sneak Attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 832
+            },
+            "id": 159982970,
+            "last_update": 1387584201.904089,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bewilderment",
+            "name_lower": "bewilderment",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584201.904089,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3367832718,
+            "deity": 0,
+            "description": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
+            "description_pvp": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Temporarily improves the predator's chance to hit their target following a successful Masked Strike or Sneak Attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 832
+            },
+            "id": 2491859980,
+            "last_update": 1387584201.898817,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bewilderment",
+            "name_lower": "bewilderment",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584201.898817,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3367832718,
+            "deity": 0,
+            "description": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
+            "description_pvp": "Coming out of a shroud effect will temporarily confuse any adversaries allowing you a greater chance to strike your target.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Temporarily improves the predator's chance to hit their target following a successful Masked Strike or Sneak Attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 832
+            },
+            "id": 3907510743,
+            "last_update": 1387584201.860116,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bewilderment",
+            "name_lower": "bewilderment",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584201.860116,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

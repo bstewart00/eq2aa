@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.824489,
+    "min_ts": 1387584980.00257,
     "returned": 3,
-    "seconds": 0.021285057067871094,
+    "seconds": 0.02814006805419922,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,204 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 18,
-                "savagery": 0
-            },
-            "crc": 1269522457,
-            "deity": 0,
-            "description": "Attacking will grant the conjuror a chance to trigger one of three spells. Windlord and Firelord will remove the casting speed of certain spells, and Earthlord will reduce the reuse speed of certain spells.",
-            "description_pvp": "Attacking will grant the conjuror a chance to trigger one of three spells. Windlord and Firelord will remove the casting speed of certain spells, and Earthlord will reduce the reuse speed of certain spells.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 10,
-                "min_sec_tenths": 10
-            },
-            "effect_list": [
-                {
-                    "description": "These effects dispel after one trigger.",
-                    "indentation": 0
-                },
-                {
-                    "description": "On a damage spell hit this spell may cast Conjure Elements on target.  Triggers about 2.0 times per minute. ",
-                    "indentation": 0
-                },
-                {
-                    "description": "33% chance to apply Firelord.  Lasts for 30.0 seconds.",
-                    "indentation": 1
-                },
-                {
-                    "description": "Elemental Toxicity, Elemental Blast, Fiery Annihilation and Blazing Avatar will cast instantly",
-                    "indentation": 2
-                },
-                {
-                    "description": "Cannot be modified except by direct means",
-                    "indentation": 2
-                },
-                {
-                    "description": "33% chance to apply Windlord.  Lasts for 30.0 seconds.",
-                    "indentation": 1
-                },
-                {
-                    "description": "Crystal Blast, Ice Storm, Vampire Bats and Winds of Velious will cast instantly",
-                    "indentation": 2
-                },
-                {
-                    "description": "Cannot be modified except by direct means",
-                    "indentation": 2
-                },
-                {
-                    "description": "33% chance to apply Earthlord.  Lasts for 30.0 seconds.",
-                    "indentation": 1
-                },
-                {
-                    "description": "Halves the base reuse time of Stoneskin, Stoneskins, Sacrifice and Elemental Barrier",
-                    "indentation": 2
-                },
-                {
-                    "description": "Cannot be modified except by direct means",
-                    "indentation": 2
-                },
-                {
-                    "description": "Cannot be modified except by direct means",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 509
-            },
-            "id": 2690393997,
-            "last_update": 1366730640.187687,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Conjure Elements",
-            "name_lower": "conjure elements",
-            "recast_secs": 2.0,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730640.187687,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 400,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 18,
-                "savagery": 0
-            },
-            "crc": 1269522457,
-            "deity": 0,
-            "description": "Attacking will grant the conjuror a chance to trigger one of three spells. Windlord and Firelord will remove the casting speed of certain spells, and Earthlord will reduce the reuse speed of certain spells.",
-            "description_pvp": "Attacking will grant the conjuror a chance to trigger one of three spells. Windlord and Firelord will remove the casting speed of certain spells, and Earthlord will reduce the reuse speed of certain spells.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 10,
-                "min_sec_tenths": 10
-            },
-            "effect_list": [
-                {
-                    "description": "These effects dispel after one trigger.",
-                    "indentation": 0
-                },
-                {
-                    "description": "On a damage spell hit this spell may cast Conjure Elements on target.  Triggers about 1.0 times per minute. ",
-                    "indentation": 0
-                },
-                {
-                    "description": "33% chance to apply Firelord.  Lasts for 30.0 seconds.",
-                    "indentation": 1
-                },
-                {
-                    "description": "Elemental Toxicity, Elemental Blast, Fiery Annihilation and Blazing Avatar will cast instantly",
-                    "indentation": 2
-                },
-                {
-                    "description": "Cannot be modified except by direct means",
-                    "indentation": 2
-                },
-                {
-                    "description": "33% chance to apply Windlord.  Lasts for 30.0 seconds.",
-                    "indentation": 1
-                },
-                {
-                    "description": "Crystal Blast, Ice Storm, Vampire Bats and Winds of Velious will cast instantly",
-                    "indentation": 2
-                },
-                {
-                    "description": "Cannot be modified except by direct means",
-                    "indentation": 2
-                },
-                {
-                    "description": "33% chance to apply Earthlord.  Lasts for 30.0 seconds.",
-                    "indentation": 1
-                },
-                {
-                    "description": "Halves the base reuse time of Stoneskin, Stoneskins, Sacrifice and Elemental Barrier",
-                    "indentation": 2
-                },
-                {
-                    "description": "Cannot be modified except by direct means",
-                    "indentation": 2
-                },
-                {
-                    "description": "Cannot be modified except by direct means",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 509
-            },
-            "id": 3694985814,
-            "last_update": 1366730620.079824,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Conjure Elements",
-            "name_lower": "conjure elements",
-            "recast_secs": 2.0,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730620.079824,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 400,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -283,7 +89,7 @@
                 "id": 509
             },
             "id": 1028900603,
-            "last_update": 1366730438.824489,
+            "last_update": 1387584980.512551,
             "level": 0,
             "max_targets": 0,
             "name": "Conjure Elements",
@@ -293,10 +99,210 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730438.824489,
+            "ts": 1387584980.512551,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 400,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 1269522457,
+            "deity": 0,
+            "description": "Attacking will grant the conjuror a chance to trigger one of three spells. Windlord and Firelord will remove the casting speed of certain spells, and Earthlord will reduce the reuse speed of certain spells.",
+            "description_pvp": "Attacking will grant the conjuror a chance to trigger one of three spells. Windlord and Firelord will remove the casting speed of certain spells, and Earthlord will reduce the reuse speed of certain spells.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 10,
+                "min_sec_tenths": 10
+            },
+            "effect_list": [
+                {
+                    "description": "These effects dispel after one trigger.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On a damage spell hit this spell may cast Conjure Elements on target.  Triggers about 2.0 times per minute. ",
+                    "indentation": 0
+                },
+                {
+                    "description": "33% chance to apply Firelord.  Lasts for 30.0 seconds.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Elemental Toxicity, Elemental Blast, Fiery Annihilation and Blazing Avatar will cast instantly",
+                    "indentation": 2
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 2
+                },
+                {
+                    "description": "33% chance to apply Windlord.  Lasts for 30.0 seconds.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Crystal Blast, Ice Storm, Vampire Bats and Winds of Velious will cast instantly",
+                    "indentation": 2
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 2
+                },
+                {
+                    "description": "33% chance to apply Earthlord.  Lasts for 30.0 seconds.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Halves the base reuse time of Stoneskin, Stoneskins, Sacrifice and Elemental Barrier",
+                    "indentation": 2
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 2
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 509
+            },
+            "id": 2690393997,
+            "last_update": 1387584980.167149,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Conjure Elements",
+            "name_lower": "conjure elements",
+            "recast_secs": 2.0,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584980.167149,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 400,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 18,
+                "savagery": 0
+            },
+            "crc": 1269522457,
+            "deity": 0,
+            "description": "Attacking will grant the conjuror a chance to trigger one of three spells. Windlord and Firelord will remove the casting speed of certain spells, and Earthlord will reduce the reuse speed of certain spells.",
+            "description_pvp": "Attacking will grant the conjuror a chance to trigger one of three spells. Windlord and Firelord will remove the casting speed of certain spells, and Earthlord will reduce the reuse speed of certain spells.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 10,
+                "min_sec_tenths": 10
+            },
+            "effect_list": [
+                {
+                    "description": "These effects dispel after one trigger.",
+                    "indentation": 0
+                },
+                {
+                    "description": "On a damage spell hit this spell may cast Conjure Elements on target.  Triggers about 1.0 times per minute. ",
+                    "indentation": 0
+                },
+                {
+                    "description": "33% chance to apply Firelord.  Lasts for 30.0 seconds.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Elemental Toxicity, Elemental Blast, Fiery Annihilation and Blazing Avatar will cast instantly",
+                    "indentation": 2
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 2
+                },
+                {
+                    "description": "33% chance to apply Windlord.  Lasts for 30.0 seconds.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Crystal Blast, Ice Storm, Vampire Bats and Winds of Velious will cast instantly",
+                    "indentation": 2
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 2
+                },
+                {
+                    "description": "33% chance to apply Earthlord.  Lasts for 30.0 seconds.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Halves the base reuse time of Stoneskin, Stoneskins, Sacrifice and Elemental Barrier",
+                    "indentation": 2
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 2
+                },
+                {
+                    "description": "Cannot be modified except by direct means",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 509
+            },
+            "id": 3694985814,
+            "last_update": 1387584980.00257,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Conjure Elements",
+            "name_lower": "conjure elements",
+            "recast_secs": 2.0,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584980.00257,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

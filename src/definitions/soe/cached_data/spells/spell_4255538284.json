@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730444.857385,
+    "min_ts": 1387585142.729465,
     "returned": 2,
-    "seconds": 0.2088179588317871,
+    "seconds": 0.05985093116760254,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Mark of Nobility will increase the target's strikethrough by 8%. If the target is not a fighter, Mark of Nobility will also reduce their hate gain by 8%.",
+                    "description": "Divine Fate of Healing has a 30% chance to clear the reuse on Repent. This effect can only trigger once every 5 seconds.",
                     "indentation": 0
                 },
                 {
-                    "description": "Divine Fate of Healing has a 30% chance to clear the reuse on Repent. This effect can only trigger once every 5 seconds.",
+                    "description": "Mark of Nobility will increase the target's strikethrough by 8%. If the target is not a fighter, Mark of Nobility will also reduce their hate gain by 8%.",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 243
             },
             "id": 1974279119,
-            "last_update": 1366730454.126339,
+            "last_update": 1387585142.957179,
             "level": 0,
             "max_targets": 0,
             "name": "Divine Repentance",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730454.126339,
+            "ts": 1387585142.957179,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -90,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Mark of Nobility will increase the target's strikethrough by 4%. If the target is not a fighter, Mark of Nobility will also reduce their hate gain by 4%.",
+                    "description": "Divine Fate of Healing has a 15% chance to clear the reuse on Repent. This effect can only trigger once every 5 seconds.",
                     "indentation": 0
                 },
                 {
-                    "description": "Divine Fate of Healing has a 15% chance to clear the reuse on Repent. This effect can only trigger once every 5 seconds.",
+                    "description": "Mark of Nobility will increase the target's strikethrough by 4%. If the target is not a fighter, Mark of Nobility will also reduce their hate gain by 4%.",
                     "indentation": 0
                 }
             ],
@@ -105,7 +109,7 @@
                 "id": 243
             },
             "id": 164380180,
-            "last_update": 1366730444.857385,
+            "last_update": 1387585142.729465,
             "level": 0,
             "max_targets": 0,
             "name": "Divine Repentance",
@@ -115,10 +119,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730444.857385,
+            "ts": 1387585142.729465,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

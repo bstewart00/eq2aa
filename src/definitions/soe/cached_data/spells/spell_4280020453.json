@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730647.095071,
+    "min_ts": 1387585360.939034,
     "returned": 1,
-    "seconds": 0.01494598388671875,
+    "seconds": 0.01909184455871582,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,15 +34,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Decreases Weapon Damage Bonus of target by 5.0",
-                    "indentation": 0
-                },
-                {
                     "description": "Inflicts 6 - 11 melee damage on target",
                     "indentation": 0
                 },
                 {
                     "description": "Target will have their chance to hit with a weapon lowered by 30.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Weapon Damage Bonus of target by 5.0",
                     "indentation": 0
                 },
                 {
@@ -55,7 +57,7 @@
                 "id": 690
             },
             "id": 1202652114,
-            "last_update": 1366730647.095071,
+            "last_update": 1387585360.939034,
             "level": 0,
             "max_targets": 0,
             "name": "Coule",
@@ -65,10 +67,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730647.095071,
+            "ts": 1387585360.939034,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

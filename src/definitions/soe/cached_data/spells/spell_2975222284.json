@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730630.503252,
+    "min_ts": 1387585174.491272,
     "returned": 1,
-    "seconds": 0.01531219482421875,
+    "seconds": 0.023447036743164062,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Ability Recovery Speed of target by 33.3%",
+                    "description": "Increases Ability Casting Speed of target by 33.3%",
                     "indentation": 0
                 },
                 {
@@ -40,7 +42,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Ability Casting Speed of target by 33.3%",
+                    "description": "Increases Ability Recovery Speed of target by 33.3%",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 619
             },
             "id": 2340040351,
-            "last_update": 1366730630.503252,
+            "last_update": 1387585174.491272,
             "level": 0,
             "max_targets": 0,
             "name": "Ritual of Alacrity",
@@ -61,10 +63,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730630.503252,
+            "ts": 1387585174.491272,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730465.340466,
+    "min_ts": 1387585665.091003,
     "returned": 3,
-    "seconds": 0.020234107971191406,
+    "seconds": 0.01645803451538086,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 2492377128,
             "deity": 0,
-            "description": "If any non-fighter near the target the bruiser leapt to takes damage, the bruiser will gain increased damage and avoidance for a short duration.",
-            "description_pvp": "If any non-fighter near the target the bruiser leapt to takes damage, the bruiser will gain increased damage and avoidance for a short duration.",
+            "description": "Improves the effects of Martial Retaliation.",
+            "description_pvp": "Improves the effects of Martial Retaliation.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,61 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "If a non-fighter takes damage near the target of Martial Leap, the bruiser will gain 6 Weapon Damage Bonus and Potency, along with 5% Extra Riposte Chance for a short duration.",
+                    "description": "Increases the armor mitigation granted by Martial Retaliation by 66%",
                     "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 7
-            },
-            "id": 2383124422,
-            "last_update": 1366730640.677374,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Martial Justice",
-            "name_lower": "martial justice",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730640.677374,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
                 },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2492377128,
-            "deity": 0,
-            "description": "If any non-fighter near the target the bruiser leapt to takes damage, the bruiser will gain increased damage and avoidance for a short duration.",
-            "description_pvp": "If any non-fighter near the target the bruiser leapt to takes damage, the bruiser will gain increased damage and avoidance for a short duration.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
                 {
-                    "description": "If a non-fighter takes damage near the target of Martial Leap, the bruiser will gain 4 Weapon Damage Bonus and Potency, along with 5% Extra Riposte Chance for a short duration.",
+                    "description": "Increases the riposte chance granted by Martial Retaliation by 40%",
                     "indentation": 0
                 }
             ],
@@ -97,7 +49,7 @@
                 "id": 7
             },
             "id": 319059632,
-            "last_update": 1366730639.9854,
+            "last_update": 1387585665.169543,
             "level": 0,
             "max_targets": 0,
             "name": "Martial Justice",
@@ -107,10 +59,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730639.9854,
+            "ts": 1387585665.169543,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -131,8 +85,8 @@
             },
             "crc": 2492377128,
             "deity": 0,
-            "description": "If any non-fighter near the target the bruiser leapt to takes damage, the bruiser will gain increased damage and avoidance for a short duration.",
-            "description_pvp": "If any non-fighter near the target the bruiser leapt to takes damage, the bruiser will gain increased damage and avoidance for a short duration.",
+            "description": "Improves the effects of Martial Retaliation.",
+            "description_pvp": "Improves the effects of Martial Retaliation.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -140,7 +94,71 @@
             },
             "effect_list": [
                 {
-                    "description": "If a non-fighter takes damage near the target of Martial Leap, the bruiser will gain 2 Weapon Damage Bonus and Potency, along with 5% Extra Riposte Chance for a short duration.",
+                    "description": "Increases the riposte chance granted by Martial Retaliation by 60%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the armor mitigation granted by Martial Retaliation by 100%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 7
+            },
+            "id": 2383124422,
+            "last_update": 1387585665.165678,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Martial Justice",
+            "name_lower": "martial justice",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585665.165678,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2492377128,
+            "deity": 0,
+            "description": "Improves the effects of Martial Retaliation.",
+            "description_pvp": "Improves the effects of Martial Retaliation.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the riposte chance granted by Martial Retaliation by 20%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the armor mitigation granted by Martial Retaliation by 33%",
                     "indentation": 0
                 }
             ],
@@ -151,7 +169,7 @@
                 "id": 7
             },
             "id": 1868911467,
-            "last_update": 1366730465.340466,
+            "last_update": 1387585665.091003,
             "level": 0,
             "max_targets": 0,
             "name": "Martial Justice",
@@ -161,10 +179,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730465.340466,
+            "ts": 1387585665.091003,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730436.941281,
+    "min_ts": 1387585003.647351,
     "returned": 5,
-    "seconds": 0.015594005584716797,
+    "seconds": 0.020051002502441406,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 1,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,7 +38,67 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases Threat to target by 11 ",
+                    "description": "Decreases Threat to target by 21 ",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 554
+            },
+            "id": 1864795539,
+            "last_update": 1387585004.15504,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Alternate: Mongoose Stance",
+            "name_lower": "alternate: mongoose stance",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585004.15504,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 241,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 1,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1184698603,
+            "deity": 0,
+            "description": "As an alternative to Dragon Rage, this stance has a chance of reducing your enemies' hate towards you on a successful strike.",
+            "description_pvp": "As an alternative to Dragon Rage, this stance has a chance of reducing your enemies' hate towards you on a successful strike.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 432000,
+                "min_sec_tenths": 432000
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell has a 50% chance to cast Mongoose Dodge on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Threat to target by 17 ",
                     "indentation": 1
                 }
             ],
@@ -47,7 +109,7 @@
                 "id": 554
             },
             "id": 4062799077,
-            "last_update": 1366730645.289392,
+            "last_update": 1387585004.046665,
             "level": 0,
             "max_targets": 0,
             "name": "Alternate: Mongoose Stance",
@@ -57,10 +119,10 @@
             "spellbook": 1,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730645.289392,
+            "ts": 1387585004.046665,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,124 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 1,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1184698603,
-            "deity": 0,
-            "description": "As an alternative to Dragon Rage, this stance has a chance of reducing your enemies' hate towards you on a successful strike.",
-            "description_pvp": "As an alternative to Dragon Rage, this stance has a chance of reducing your enemies' hate towards you on a successful strike.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 432000,
-                "min_sec_tenths": 432000
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell has a 50% chance to cast Mongoose Dodge on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Threat to target by 5 ",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 554
-            },
-            "id": 183185235,
-            "last_update": 1366730643.184878,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Alternate: Mongoose Stance",
-            "name_lower": "alternate: mongoose stance",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730643.184878,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 241,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 1,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1184698603,
-            "deity": 0,
-            "description": "As an alternative to Dragon Rage, this stance has a chance of reducing your enemies' hate towards you on a successful strike.",
-            "description_pvp": "As an alternative to Dragon Rage, this stance has a chance of reducing your enemies' hate towards you on a successful strike.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 432000,
-                "min_sec_tenths": 432000
-            },
-            "effect_list": [
-                {
-                    "description": "On a melee hit this spell has a 50% chance to cast Mongoose Dodge on target of attack.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Threat to target by 2 ",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 554
-            },
-            "id": 1988758152,
-            "last_update": 1366730445.462806,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Alternate: Mongoose Stance",
-            "name_lower": "alternate: mongoose stance",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730445.462806,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 241,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 1,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -220,8 +168,8 @@
                 "icon_heroic_op": -1,
                 "id": 554
             },
-            "id": 1864795539,
-            "last_update": 1366730439.385902,
+            "id": 2548354597,
+            "last_update": 1387585003.874383,
             "level": 0,
             "max_targets": 0,
             "name": "Alternate: Mongoose Stance",
@@ -229,12 +177,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 50,
             "spellbook": 1,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730439.385902,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585003.874383,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 1,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -278,8 +228,8 @@
                 "icon_heroic_op": -1,
                 "id": 554
             },
-            "id": 2548354597,
-            "last_update": 1366730436.941281,
+            "id": 183185235,
+            "last_update": 1387585003.767843,
             "level": 0,
             "max_targets": 0,
             "name": "Alternate: Mongoose Stance",
@@ -287,12 +237,72 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 50,
             "spellbook": 1,
-            "tier": 3,
+            "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730436.941281,
+            "ts": 1387585003.767843,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 241,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 1,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1184698603,
+            "deity": 0,
+            "description": "As an alternative to Dragon Rage, this stance has a chance of reducing your enemies' hate towards you on a successful strike.",
+            "description_pvp": "As an alternative to Dragon Rage, this stance has a chance of reducing your enemies' hate towards you on a successful strike.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 432000,
+                "min_sec_tenths": 432000
+            },
+            "effect_list": [
+                {
+                    "description": "On a melee hit this spell has a 50% chance to cast Mongoose Dodge on target of attack.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Threat to target by 4 ",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 554
+            },
+            "id": 1988758152,
+            "last_update": 1387585003.647351,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Alternate: Mongoose Stance",
+            "name_lower": "alternate: mongoose stance",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585003.647351,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

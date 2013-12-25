@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730457.758732,
+    "min_ts": 1387585218.266479,
     "returned": 3,
-    "seconds": 0.01459503173828125,
+    "seconds": 0.014775991439819336,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2616143529,
-            "deity": 0,
-            "description": "The paladin's single target profession heal spells will trigger a small amount of avoidance to the target of the heal. These effects can stack.",
-            "description_pvp": "The paladin's single target profession heal spells will trigger a small amount of avoidance to the target of the heal. These effects can stack.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "The paladin's single target profession heal spells will trigger a short duration avoidance augmentation on the target. These effects can stack.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 17
-            },
-            "id": 4015830358,
-            "last_update": 1366730640.167981,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Faithful Protection",
-            "name_lower": "faithful protection",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730640.167981,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 17
             },
             "id": 1918063648,
-            "last_update": 1366730626.480161,
+            "last_update": 1387585218.378921,
             "level": 0,
             "max_targets": 0,
             "name": "Faithful Protection",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730626.480161,
+            "ts": 1387585218.378921,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2616143529,
+            "deity": 0,
+            "description": "The paladin's single target profession heal spells will trigger a small amount of avoidance to the target of the heal. These effects can stack.",
+            "description_pvp": "The paladin's single target profession heal spells will trigger a small amount of avoidance to the target of the heal. These effects can stack.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "The paladin's single target profession heal spells will trigger a short duration avoidance augmentation on the target. These effects can stack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 17
+            },
+            "id": 4015830358,
+            "last_update": 1387585218.371604,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Faithful Protection",
+            "name_lower": "faithful protection",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585218.371604,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +157,7 @@
                 "id": 17
             },
             "id": 2470285453,
-            "last_update": 1366730457.758732,
+            "last_update": 1387585218.266479,
             "level": 0,
             "max_targets": 0,
             "name": "Faithful Protection",
@@ -161,10 +167,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730457.758732,
+            "ts": 1387585218.266479,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

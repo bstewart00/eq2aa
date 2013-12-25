@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730657.540533,
+    "min_ts": 1387584867.597273,
     "returned": 1,
-    "seconds": 0.01587510108947754,
+    "seconds": 0.014264106750488281,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1486017380,
             "deity": 0,
-            "description": "The shadowknight gains additional crit bonus from damage per second.",
-            "description_pvp": "The shadowknight gains additional crit bonus from damage per second.",
+            "description": "The shadowknight gains additional crit bonus from Multi-Attack Chance.",
+            "description_pvp": "The shadowknight gains additional crit bonus from Multi-Attack Chance.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "For every 20 points of damage per second, the caster gains 1% crit bonus.",
+                    "description": "For every 20 points of Multi-Attack Chance, the caster gains 1% crit bonus.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 928
             },
             "id": 1121189693,
-            "last_update": 1366730657.540533,
+            "last_update": 1387584867.597273,
             "level": 0,
             "max_targets": 0,
             "name": "Chaos Knight",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730657.540533,
+            "ts": 1387584867.597273,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

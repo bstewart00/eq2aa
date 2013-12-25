@@ -235,16 +235,16 @@
                "cost": 1, 
                "description": "A ranged kinetic attack that damages the target using your melee weapon and reduces its hate towards the Kineticist.", 
                "effects": [
-                  "<ul><li>Decreases Threat to target by 29 </li><li>Inflicts 1 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 31 </li><li>Inflicts 1 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 33 </li><li>Inflicts 1 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 36 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 39 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 43 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 46 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 49 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 53 </li><li>Inflicts 1 - 2 melee damage on target</li></ul>", 
-                  "<ul><li>Decreases Threat to target by 54 </li><li>Inflicts 1 - 3 melee damage on target</li></ul>"
+                  "<ul><li>Inflicts 1 melee damage on target</li><li>Decreases Threat to target by 39 </li></ul>", 
+                  "<ul><li>Inflicts 1 melee damage on target</li><li>Decreases Threat to target by 41 </li></ul>", 
+                  "<ul><li>Inflicts 1 melee damage on target</li><li>Decreases Threat to target by 43 </li></ul>", 
+                  "<ul><li>Inflicts 1 - 2 melee damage on target</li><li>Decreases Threat to target by 47 </li></ul>", 
+                  "<ul><li>Inflicts 1 - 2 melee damage on target</li><li>Decreases Threat to target by 52 </li></ul>", 
+                  "<ul><li>Inflicts 1 - 2 melee damage on target</li><li>Decreases Threat to target by 56 </li></ul>", 
+                  "<ul><li>Inflicts 1 - 2 melee damage on target</li><li>Decreases Threat to target by 60 </li></ul>", 
+                  "<ul><li>Inflicts 1 - 2 melee damage on target</li><li>Decreases Threat to target by 65 </li></ul>", 
+                  "<ul><li>Inflicts 1 - 2 melee damage on target</li><li>Decreases Threat to target by 69 </li></ul>", 
+                  "<ul><li>Inflicts 1 - 3 melee damage on target</li><li>Decreases Threat to target by 71 </li></ul>"
                ], 
                "id": 5, 
                "level": 0, 
@@ -295,7 +295,7 @@
                ], 
                "prereqs": {
                   "global": 0, 
-                  "parent": 4, 
+                  "parent": 1, 
                   "parent_subtree": 0, 
                   "subtree": 0, 
                   "tree": 0
@@ -315,16 +315,16 @@
                "cost": 1, 
                "description": "Increases the Spellshifter's movement speed.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 1.3%</li><li>Increases in-combat movement speed of caster by 1.3%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 2.5%</li><li>Increases in-combat movement speed of caster by 2.5%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 3.7%</li><li>Increases in-combat movement speed of caster by 3.7%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 5.0%</li><li>Increases in-combat movement speed of caster by 5.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 6.2%</li><li>Increases in-combat movement speed of caster by 6.2%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 7.5%</li><li>Increases in-combat movement speed of caster by 7.5%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 8.8%</li><li>Increases in-combat movement speed of caster by 8.8%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 10.0%</li><li>Increases in-combat movement speed of caster by 10.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 11.3%</li><li>Increases in-combat movement speed of caster by 11.3%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 12.5%</li><li>Increases in-combat movement speed of caster by 12.5%</li></ul>"
+                  "<ul><li>Increases in-combat movement speed of caster by 1.3%</li><li>Increases speed of caster by 1.3%</li></ul>", 
+                  "<ul><li>Increases in-combat movement speed of caster by 2.5%</li><li>Increases speed of caster by 2.5%</li></ul>", 
+                  "<ul><li>Increases in-combat movement speed of caster by 3.7%</li><li>Increases speed of caster by 3.7%</li></ul>", 
+                  "<ul><li>Increases in-combat movement speed of caster by 5.0%</li><li>Increases speed of caster by 5.0%</li></ul>", 
+                  "<ul><li>Increases in-combat movement speed of caster by 6.2%</li><li>Increases speed of caster by 6.2%</li></ul>", 
+                  "<ul><li>Increases in-combat movement speed of caster by 7.5%</li><li>Increases speed of caster by 7.5%</li></ul>", 
+                  "<ul><li>Increases in-combat movement speed of caster by 8.8%</li><li>Increases speed of caster by 8.8%</li></ul>", 
+                  "<ul><li>Increases in-combat movement speed of caster by 10.0%</li><li>Increases speed of caster by 10.0%</li></ul>", 
+                  "<ul><li>Increases in-combat movement speed of caster by 11.3%</li><li>Increases speed of caster by 11.3%</li></ul>", 
+                  "<ul><li>Increases in-combat movement speed of caster by 12.5%</li><li>Increases speed of caster by 12.5%</li></ul>"
                ], 
                "id": 7, 
                "level": 0, 
@@ -335,7 +335,7 @@
                ], 
                "prereqs": {
                   "global": 0, 
-                  "parent": 4, 
+                  "parent": 1, 
                   "parent_subtree": 0, 
                   "subtree": 0, 
                   "tree": 0
@@ -375,7 +375,7 @@
                ], 
                "prereqs": {
                   "global": 0, 
-                  "parent": 4, 
+                  "parent": 1, 
                   "parent_subtree": 0, 
                   "subtree": 0, 
                   "tree": 0
@@ -415,7 +415,7 @@
                ], 
                "prereqs": {
                   "global": 0, 
-                  "parent": 4, 
+                  "parent": 1, 
                   "parent_subtree": 0, 
                   "subtree": 0, 
                   "tree": 0
@@ -455,7 +455,7 @@
                ], 
                "prereqs": {
                   "global": 0, 
-                  "parent": 4, 
+                  "parent": 1, 
                   "parent_subtree": 0, 
                   "subtree": 0, 
                   "tree": 0
@@ -493,7 +493,7 @@
                ], 
                "prereqs": {
                   "global": 0, 
-                  "parent": 4, 
+                  "parent": 1, 
                   "parent_subtree": 0, 
                   "subtree": 0, 
                   "tree": 0
@@ -531,7 +531,7 @@
                ], 
                "prereqs": {
                   "global": 0, 
-                  "parent": 4, 
+                  "parent": 1, 
                   "parent_subtree": 0, 
                   "subtree": 0, 
                   "tree": 0
@@ -549,16 +549,16 @@
                "cost": 1, 
                "description": "Improves the Battlemage's focus, disruption, ordination, and subjugation skills.", 
                "effects": [
-                  "<ul><li>Increases Ordination, Disruption, Subjugation and Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Ordination, Disruption, Subjugation and Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Ordination, Disruption, Subjugation and Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Ordination, Disruption, Subjugation and Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Ordination, Disruption, Subjugation and Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Ordination, Disruption, Subjugation and Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Ordination, Disruption, Subjugation and Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Ordination, Disruption, Subjugation and Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Ordination, Disruption, Subjugation and Focus of caster by 0.0</li></ul>", 
-                  "<ul><li>Increases Ordination, Disruption, Subjugation and Focus of caster by 0.0</li></ul>"
+                  "<ul><li>Increases Subjugation, Focus, Ordination and Disruption of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Focus, Ordination and Disruption of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Focus, Ordination and Disruption of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Focus, Ordination and Disruption of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Focus, Ordination and Disruption of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Focus, Ordination and Disruption of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Focus, Ordination and Disruption of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Focus, Ordination and Disruption of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Focus, Ordination and Disruption of caster by 0.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Focus, Ordination and Disruption of caster by 0.0</li></ul>"
                ], 
                "id": 13, 
                "level": 0, 
@@ -569,7 +569,7 @@
                ], 
                "prereqs": {
                   "global": 0, 
-                  "parent": 4, 
+                  "parent": 1, 
                   "parent_subtree": 0, 
                   "subtree": 0, 
                   "tree": 0
@@ -607,7 +607,7 @@
                ], 
                "prereqs": {
                   "global": 0, 
-                  "parent": 4, 
+                  "parent": 1, 
                   "parent_subtree": 0, 
                   "subtree": 0, 
                   "tree": 0
@@ -645,7 +645,7 @@
                ], 
                "prereqs": {
                   "global": 0, 
-                  "parent": 4, 
+                  "parent": 1, 
                   "parent_subtree": 0, 
                   "subtree": 0, 
                   "tree": 0
@@ -663,7 +663,7 @@
                "cost": 2, 
                "description": "Allows the Invoker to sacrifice health in order to guarantee that their next spell will critical and do additional critical damage.", 
                "effects": [
-                  "<ul><li>Improves the critical multiplier of the next spell by 25%.</li><li>Makes caster always do critical damage on spell attacks</li><li>Dispelled when target casts a hostile spell</li></ul>"
+                  "<ul><li>Makes caster always do critical damage on spell attacks</li><li>Improves the critical multiplier of the next spell by 25%.</li><li>Dispelled when target casts a hostile spell</li></ul>"
                ], 
                "id": 16, 
                "level": 0, 
@@ -717,7 +717,7 @@
                "cost": 2, 
                "description": "Allows the Battlemage to consume power to prevent the loss of health for a short duration.", 
                "effects": [
-                  "<ul><li>Decreases Lethality of caster by 4,000.0</li><li>Damage received is prevented and drains power instead at the cost of 2 power per 3 points of damage prevented.</li></ul>"
+                  "<ul><li>Damage received is prevented and drains power instead at the cost of 2 power per 3 points of damage prevented.</li><li>Increases Lethality of caster by 0.0</li></ul>"
                ], 
                "id": 18, 
                "level": 0, 
@@ -771,7 +771,7 @@
                "cost": 2, 
                "description": "A powerful kinetic blast that targets an enemy and affects all surrounding enemies, stunning them for a short duration and inflicting magical damage. Their hate towards the Kineticist is reduced.", 
                "effects": [
-                  "<ul><li>Inflicts 9 - 16 magic damage on targets in Area of Effect</li><li>Decreases threat priority of targets in Area of Effect by 2 positions</li><li>Stuns targets in Area of Effect</li><ul><li>If Target is not Epic</li></ul><li>Resistibility increases against targets higher than level 29.</li></ul>"
+                  "<ul><li>Decreases threat priority of targets in Area of Effect by 2 positions</li><li>Inflicts 9 - 16 magic damage on targets in Area of Effect</li><li>Stuns targets in Area of Effect</li><ul><li>If Target is not Epic</li></ul><li>Resistibility increases against targets higher than level 29.</li></ul>"
                ], 
                "id": 20, 
                "level": 0, 
@@ -798,14 +798,14 @@
                "cost": 1, 
                "description": "Reduces the recast time of Catalyst and reduces resistibility while Catalyst is active.", 
                "effects": [
-                  "<ul><li>Reduces the reuse time of Catalyst by 3 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 2%</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Catalyst by 6 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 4%</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Catalyst by 9 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 6%</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Catalyst by 12 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 8%</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Catalyst by 15 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 10%</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Catalyst by 18 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 12%</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Catalyst by 21 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 14%</li></ul>", 
-                  "<ul><li>Reduces the reuse time of Catalyst by 24 seconds.</li><li>Adds a component to Catalyst that reduces resistibility of the next spell by 16%</li></ul>"
+                  "<ul><li>Adds a component to Catalyst that reduces resistibility of the next spell by 2%</li><li>Reduces the reuse time of Catalyst by 3 seconds.</li></ul>", 
+                  "<ul><li>Adds a component to Catalyst that reduces resistibility of the next spell by 4%</li><li>Reduces the reuse time of Catalyst by 6 seconds.</li></ul>", 
+                  "<ul><li>Adds a component to Catalyst that reduces resistibility of the next spell by 6%</li><li>Reduces the reuse time of Catalyst by 9 seconds.</li></ul>", 
+                  "<ul><li>Adds a component to Catalyst that reduces resistibility of the next spell by 8%</li><li>Reduces the reuse time of Catalyst by 12 seconds.</li></ul>", 
+                  "<ul><li>Adds a component to Catalyst that reduces resistibility of the next spell by 10%</li><li>Reduces the reuse time of Catalyst by 15 seconds.</li></ul>", 
+                  "<ul><li>Adds a component to Catalyst that reduces resistibility of the next spell by 12%</li><li>Reduces the reuse time of Catalyst by 18 seconds.</li></ul>", 
+                  "<ul><li>Adds a component to Catalyst that reduces resistibility of the next spell by 14%</li><li>Reduces the reuse time of Catalyst by 21 seconds.</li></ul>", 
+                  "<ul><li>Adds a component to Catalyst that reduces resistibility of the next spell by 16%</li><li>Reduces the reuse time of Catalyst by 24 seconds.</li></ul>"
                ], 
                "id": 21, 
                "level": 0, 
@@ -1161,11 +1161,11 @@
                "cost": 1, 
                "description": "Improves the critical damage and hastens the reuse speed and effects of Acid and its upgrades, causing its damage to occur faster.", 
                "effects": [
-                  "<ul><li>Improves the Crit Bonus by 2%</li><li>Reduces duration by 1.5 seconds</li><li>Improves reuse speed by 0.5 seconds</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 4%</li><li>Reduces duration by 3 seconds</li><li>Improves reuse speed by 1 seconds</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 6%</li><li>Reduces duration by 4.5 seconds</li><li>Improves reuse speed by 1.5 seconds</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 8%</li><li>Reduces duration by 6 seconds</li><li>Improves reuse speed by 2 seconds</li></ul>", 
-                  "<ul><li>Improves the Crit Bonus by 10%</li><li>Reduces duration by 7.5 seconds</li><li>Improves reuse speed by 2.5 seconds</li></ul>"
+                  "<ul><li>Improves reuse speed by 0.5 seconds</li><li>Reduces duration by 1.5 seconds</li><li>Improves the Crit Bonus by 2%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 1 seconds</li><li>Reduces duration by 3 seconds</li><li>Improves the Crit Bonus by 4%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 1.5 seconds</li><li>Reduces duration by 4.5 seconds</li><li>Improves the Crit Bonus by 6%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 2 seconds</li><li>Reduces duration by 6 seconds</li><li>Improves the Crit Bonus by 8%</li></ul>", 
+                  "<ul><li>Improves reuse speed by 2.5 seconds</li><li>Reduces duration by 7.5 seconds</li><li>Improves the Crit Bonus by 10%</li></ul>"
                ], 
                "id": 4, 
                "level": 0, 
@@ -1250,11 +1250,11 @@
                "cost": 1, 
                "description": "Increases the damage and size of Dark Nebula and its upgrades.", 
                "effects": [
-                  "<ul><li>Increases damage by 2%</li><li>Increases radius by 15%</li></ul>", 
-                  "<ul><li>Increases damage by 4%</li><li>Increases radius by 30%</li></ul>", 
-                  "<ul><li>Increases damage by 6%</li><li>Increases radius by 45%</li></ul>", 
-                  "<ul><li>Increases damage by 8%</li><li>Increases radius by 60%</li></ul>", 
-                  "<ul><li>Increases damage by 10%</li><li>Increases radius by 75%</li></ul>"
+                  "<ul><li>Increases radius by 15%</li><li>Increases damage by 2%</li></ul>", 
+                  "<ul><li>Increases radius by 30%</li><li>Increases damage by 4%</li></ul>", 
+                  "<ul><li>Increases radius by 45%</li><li>Increases damage by 6%</li></ul>", 
+                  "<ul><li>Increases radius by 60%</li><li>Increases damage by 8%</li></ul>", 
+                  "<ul><li>Increases radius by 75%</li><li>Increases damage by 10%</li></ul>"
                ], 
                "id": 7, 
                "level": 0, 
@@ -1374,11 +1374,11 @@
                "cost": 1, 
                "description": "Improves the critical damage and hastens the casting and reuse speed of Distortion and its upgrades.", 
                "effects": [
-                  "<ul><li>Improves casting speed by 0.1 seconds</li><li>Improves reuse speed by 0.6 seconds</li><li>Improves the Crit Bonus by 1%</li></ul>", 
-                  "<ul><li>Improves casting speed by 0.2 seconds</li><li>Improves reuse speed by 1.2 seconds</li><li>Improves the Crit Bonus by 2%</li></ul>", 
-                  "<ul><li>Improves casting speed by 0.3 seconds</li><li>Improves reuse speed by 1.8 seconds</li><li>Improves the Crit Bonus by 3%</li></ul>", 
-                  "<ul><li>Improves casting speed by 0.4 seconds</li><li>Improves reuse speed by 2.4 seconds</li><li>Improves the Crit Bonus by 4%</li></ul>", 
-                  "<ul><li>Improves casting speed by 0.5 seconds</li><li>Improves reuse speed by 3 seconds</li><li>Improves the Crit Bonus by 5%</li></ul>"
+                  "<ul><li>Improves casting speed by 0.1 seconds</li><li>Improves the Crit Bonus by 1%</li><li>Improves reuse speed by 0.6 seconds</li></ul>", 
+                  "<ul><li>Improves casting speed by 0.2 seconds</li><li>Improves the Crit Bonus by 2%</li><li>Improves reuse speed by 1.2 seconds</li></ul>", 
+                  "<ul><li>Improves casting speed by 0.3 seconds</li><li>Improves the Crit Bonus by 3%</li><li>Improves reuse speed by 1.8 seconds</li></ul>", 
+                  "<ul><li>Improves casting speed by 0.4 seconds</li><li>Improves the Crit Bonus by 4%</li><li>Improves reuse speed by 2.4 seconds</li></ul>", 
+                  "<ul><li>Improves casting speed by 0.5 seconds</li><li>Improves the Crit Bonus by 5%</li><li>Improves reuse speed by 3 seconds</li></ul>"
                ], 
                "id": 11, 
                "level": 0, 
@@ -1467,11 +1467,11 @@
                "cost": 1, 
                "description": "Curse of Void and its upgrades become more effective at reducing opponents' strength and intelligence.", 
                "effects": [
-                  "<ul><li>Hastens casting speed by 0.2 seconds</li><li>Increases strength and intelligence reduction by 8%</li></ul>", 
-                  "<ul><li>Hastens casting speed by 0.4 seconds</li><li>Increases strength and intelligence reduction by 16%</li></ul>", 
-                  "<ul><li>Hastens casting speed by 0.6 seconds</li><li>Increases strength and intelligence reduction by 24%</li></ul>", 
-                  "<ul><li>Hastens casting speed by 0.8 seconds</li><li>Increases strength and intelligence reduction by 32%</li></ul>", 
-                  "<ul><li>Hastens casting speed by 1 seconds</li><li>Increases strength and intelligence reduction by 40%</li></ul>"
+                  "<ul><li>Increases strength and intelligence reduction by 8%</li><li>Hastens casting speed by 0.2 seconds</li></ul>", 
+                  "<ul><li>Increases strength and intelligence reduction by 16%</li><li>Hastens casting speed by 0.4 seconds</li></ul>", 
+                  "<ul><li>Increases strength and intelligence reduction by 24%</li><li>Hastens casting speed by 0.6 seconds</li></ul>", 
+                  "<ul><li>Increases strength and intelligence reduction by 32%</li><li>Hastens casting speed by 0.8 seconds</li></ul>", 
+                  "<ul><li>Increases strength and intelligence reduction by 40%</li><li>Hastens casting speed by 1 seconds</li></ul>"
                ], 
                "id": 14, 
                "level": 0, 
@@ -1498,11 +1498,11 @@
                "cost": 1, 
                "description": "Increases the trigger chance of Dark Infestation and the duration of its Broodlings.", 
                "effects": [
-                  "<ul><li>Increases duration by 1 seconds</li><li>Increases trigger chance by 3%</li></ul>", 
-                  "<ul><li>Increases duration by 2 seconds</li><li>Increases trigger chance by 6%</li></ul>", 
-                  "<ul><li>Increases duration by 3 seconds</li><li>Increases trigger chance by 9%</li></ul>", 
-                  "<ul><li>Increases duration by 4 seconds</li><li>Increases trigger chance by 12%</li></ul>", 
-                  "<ul><li>Increases duration by 5 seconds</li><li>Increases trigger chance by 15%</li></ul>"
+                  "<ul><li>Increases trigger chance by 3%</li><li>Increases duration by 0.6 seconds</li></ul>", 
+                  "<ul><li>Increases trigger chance by 6%</li><li>Increases duration by 1.2 seconds</li></ul>", 
+                  "<ul><li>Increases trigger chance by 9%</li><li>Increases duration by 1.8 seconds</li></ul>", 
+                  "<ul><li>Increases trigger chance by 12%</li><li>Increases duration by 2.4 seconds</li></ul>", 
+                  "<ul><li>Increases trigger chance by 15%</li><li>Increases duration by 3 seconds</li></ul>"
                ], 
                "id": 15, 
                "level": 0, 
@@ -1591,11 +1591,11 @@
                "cost": 1, 
                "description": "Curse of Darkness and its upgrades gain in potency, improving base damage and casting time.", 
                "effects": [
-                  "<ul><li>Improves casting speed by 0.2 seconds</li><li>Improves the base damage by 3%</li></ul>", 
-                  "<ul><li>Improves casting speed by 0.4 seconds</li><li>Improves the base damage by 6%</li></ul>", 
-                  "<ul><li>Improves casting speed by 0.6 seconds</li><li>Improves the base damage by 9%</li></ul>", 
-                  "<ul><li>Improves casting speed by 0.8 seconds</li><li>Improves the base damage by 12%</li></ul>", 
-                  "<ul><li>Improves casting speed by 1 seconds</li><li>Improves the base damage by 15%</li></ul>"
+                  "<ul><li>Improves the base damage by 3%</li><li>Improves casting speed by 0.2 seconds</li></ul>", 
+                  "<ul><li>Improves the base damage by 6%</li><li>Improves casting speed by 0.4 seconds</li></ul>", 
+                  "<ul><li>Improves the base damage by 9%</li><li>Improves casting speed by 0.6 seconds</li></ul>", 
+                  "<ul><li>Improves the base damage by 12%</li><li>Improves casting speed by 0.8 seconds</li></ul>", 
+                  "<ul><li>Improves the base damage by 15%</li><li>Improves casting speed by 1 seconds</li></ul>"
                ], 
                "id": 18, 
                "level": 0, 
@@ -1653,11 +1653,11 @@
                "cost": 1, 
                "description": "Hastens the reuse speed and increases the damage of Rift.", 
                "effects": [
-                  "<ul><li>Improves reuse speed by 4 seconds</li><li>Increases damage by 2%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 8 seconds</li><li>Increases damage by 4%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 12 seconds</li><li>Increases damage by 6%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 16 seconds</li><li>Increases damage by 8%</li></ul>", 
-                  "<ul><li>Improves reuse speed by 20 seconds</li><li>Increases damage by 10%</li></ul>"
+                  "<ul><li>Increases damage by 2%</li><li>Improves reuse speed by 4 seconds</li></ul>", 
+                  "<ul><li>Increases damage by 4%</li><li>Improves reuse speed by 8 seconds</li></ul>", 
+                  "<ul><li>Increases damage by 6%</li><li>Improves reuse speed by 12 seconds</li></ul>", 
+                  "<ul><li>Increases damage by 8%</li><li>Improves reuse speed by 16 seconds</li></ul>", 
+                  "<ul><li>Increases damage by 10%</li><li>Improves reuse speed by 20 seconds</li></ul>"
                ], 
                "id": 20, 
                "level": 0, 
@@ -1682,9 +1682,9 @@
                   292
                ], 
                "cost": 1, 
-               "description": "", 
+               "description": "Improves the caster's critical damage and chance for a short duration.", 
                "effects": [
-                  "<ul><li>Increases Doublecast Chance of caster by 100.0%</li><li>Roots caster</li><li>Prevents caster from being Interrupted</li></ul>"
+                  "<ul><li>Increases Crit Chance of caster by 100.0</li><li>Prevents caster from being Interrupted</li><li>Increases Crit Bonus by 75% of the caster's base Crit Bonus</li></ul>"
                ], 
                "id": 21, 
                "level": 0, 
@@ -1916,11 +1916,11 @@
                "cost": 1, 
                "description": "Improves the power return on Dark Siphoning.  The duration is also reduced causing the damage and power returns to happen faster.", 
                "effects": [
-                  "<ul><li>Reduces the duration by 2.4 seconds.</li><li>Improves the power return by 20%.</li></ul>", 
-                  "<ul><li>Reduces the duration by 4.8 seconds.</li><li>Improves the power return by 40%.</li></ul>", 
-                  "<ul><li>Reduces the duration by 7.2 seconds.</li><li>Improves the power return by 60%.</li></ul>", 
-                  "<ul><li>Reduces the duration by 9.6 seconds.</li><li>Improves the power return by 80%.</li></ul>", 
-                  "<ul><li>Reduces the duration by 12 seconds.</li><li>Improves the power return by 100%.</li></ul>"
+                  "<ul><li>Improves the power return by 20%.</li><li>Reduces the duration by 2.4 seconds.</li></ul>", 
+                  "<ul><li>Improves the power return by 40%.</li><li>Reduces the duration by 4.8 seconds.</li></ul>", 
+                  "<ul><li>Improves the power return by 60%.</li><li>Reduces the duration by 7.2 seconds.</li></ul>", 
+                  "<ul><li>Improves the power return by 80%.</li><li>Reduces the duration by 9.6 seconds.</li></ul>", 
+                  "<ul><li>Improves the power return by 100%.</li><li>Reduces the duration by 12 seconds.</li></ul>"
                ], 
                "id": 29, 
                "level": 0, 
@@ -1978,7 +1978,7 @@
                "cost": 2, 
                "description": "This ability grants the warlock an innate ability to infect their enemies with a dormant disease with every hostile spell. Dark Incubation has a 5% chance to trigger and lasts for 12 seconds. Once the target is infected, the warlock will be able to cast Dark Aggravation, dealing substantial damage to the target and surrounding enemies.", 
                "effects": [
-                  "<ul><li>Inflicts 36 - 53 disease damage on target</li><li>Applies Dark Overflow.</li><ul><li>Removes Dark Incubation from the caster.</li><li>Inflicts 88 - 131 disease damage on targets in Area of Effect</li></ul><li>You must be maintaining Dark Incubation.</li></ul>"
+                  "<ul><li>Inflicts 36 - 53 disease damage on target</li><li>Applies Dark Overflow.</li><ul><li>Removes Dark Incubation from the caster. This can only hit up to 5 targets.</li><li>Inflicts 88 - 131 disease damage on targets in Area of Effect</li></ul><li>You must be maintaining Dark Incubation.</li></ul>"
                ], 
                "id": 31, 
                "level": 0, 
@@ -2243,11 +2243,11 @@
                "cost": 1, 
                "description": "Improves the duration and resistibility of the mage's single target root spell.", 
                "effects": [
-                  "<ul><li>Reduces the chance to be resisted by 2% and increases the duration by 2 seconds.</li></ul>", 
-                  "<ul><li>Reduces the chance to be resisted by 4% and increases the duration by 4 seconds.</li></ul>", 
-                  "<ul><li>Reduces the chance to be resisted by 6% and increases the duration by 6 seconds.</li></ul>", 
-                  "<ul><li>Reduces the chance to be resisted by 8% and increases the duration by 8 seconds.</li></ul>", 
-                  "<ul><li>Reduces the chance to be resisted by 10% and increases the duration by 10 seconds.</li></ul>"
+                  "<ul><li>Reduces the chance to be resisted by 2% and increases the duration by 6%</li></ul>", 
+                  "<ul><li>Reduces the chance to be resisted by 4% and increases the duration by 6%</li></ul>", 
+                  "<ul><li>Reduces the chance to be resisted by 6% and increases the duration by 6%</li></ul>", 
+                  "<ul><li>Reduces the chance to be resisted by 8% and increases the duration by 6%</li></ul>", 
+                  "<ul><li>Reduces the chance to be resisted by 10% and increases the duration by 6%</li></ul>"
                ], 
                "id": 6, 
                "level": 0, 
@@ -2429,7 +2429,7 @@
                "cost": 1, 
                "description": "Bewilders the target forcing them to switch to another target while dropping the mage down the hate list.", 
                "effects": [
-                  "<ul><li>Inflicts 10 - 18 magic damage on target</li><li>Decreases threat priority of target by 1 position</li></ul>"
+                  "<ul><li>Decreases threat priority of target by 1 position</li><li>Inflicts 10 - 18 magic damage on target</li></ul>"
                ], 
                "id": 12, 
                "level": 0, 
@@ -2487,11 +2487,11 @@
                "cost": 1, 
                "description": "Enhances the Flames of Velious line by granting the spell additional base and critical damage.", 
                "effects": [
-                  "<ul><li>Increases the critical damage by 1%.</li><li>Increases the base damage by 2%</li></ul>", 
-                  "<ul><li>Increases the critical damage by 2%.</li><li>Increases the base damage by 4%</li></ul>", 
-                  "<ul><li>Increases the critical damage by 3%.</li><li>Increases the base damage by 6%</li></ul>", 
-                  "<ul><li>Increases the critical damage by 4%.</li><li>Increases the base damage by 8%</li></ul>", 
-                  "<ul><li>Increases the critical damage by 5%.</li><li>Increases the base damage by 10%</li></ul>"
+                  "<ul><li>Increases the base damage by 2%</li><li>Increases the critical damage by 1%.</li></ul>", 
+                  "<ul><li>Increases the base damage by 4%</li><li>Increases the critical damage by 2%.</li></ul>", 
+                  "<ul><li>Increases the base damage by 6%</li><li>Increases the critical damage by 3%.</li></ul>", 
+                  "<ul><li>Increases the base damage by 8%</li><li>Increases the critical damage by 4%.</li></ul>", 
+                  "<ul><li>Increases the base damage by 10%</li><li>Increases the critical damage by 5%.</li></ul>"
                ], 
                "id": 14, 
                "level": 0, 
@@ -2855,7 +2855,7 @@
                "cost": 2, 
                "description": "A master of poisons, the warlock gains additional damage to all poison based spells and reduces their duration allowing the damage to apply faster.", 
                "effects": [
-                  "<ul><li>Reduces the duration of poison based damage over time spells by 20%</li><li>Adds an additional 5% to the base damage of poison spells.</li></ul>"
+                  "<ul><li>Adds an additional 5% to the base damage of poison spells.</li><li>Reduces the duration of poison based damage over time spells by 20%</li></ul>"
                ], 
                "id": 26, 
                "level": 0, 
@@ -2903,7 +2903,7 @@
          ], 
          "id": 2, 
          "is_warder_tree": false, 
-         "max_points": 70, 
+         "max_points": 100, 
          "name": "Shadows", 
          "orphans": [
             0, 
@@ -2958,16 +2958,16 @@
                "cost": 1, 
                "description": "Increases all stats except for Stamina.", 
                "effects": [
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 0.6</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.2</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 1.8</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 2.4</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.0</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 3.6</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.2</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 4.8</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 5.4</li></ul>", 
-                  "<ul><li>Increases STR, AGI, WIS and INT of caster by 6.0</li></ul>"
+                  "<ul><li>Increases INT, AGI, STR and WIS of caster by 0.6</li></ul>", 
+                  "<ul><li>Increases INT, AGI, STR and WIS of caster by 1.2</li></ul>", 
+                  "<ul><li>Increases INT, AGI, STR and WIS of caster by 1.8</li></ul>", 
+                  "<ul><li>Increases INT, AGI, STR and WIS of caster by 2.4</li></ul>", 
+                  "<ul><li>Increases INT, AGI, STR and WIS of caster by 3.0</li></ul>", 
+                  "<ul><li>Increases INT, AGI, STR and WIS of caster by 3.6</li></ul>", 
+                  "<ul><li>Increases INT, AGI, STR and WIS of caster by 4.2</li></ul>", 
+                  "<ul><li>Increases INT, AGI, STR and WIS of caster by 4.8</li></ul>", 
+                  "<ul><li>Increases INT, AGI, STR and WIS of caster by 5.4</li></ul>", 
+                  "<ul><li>Increases INT, AGI, STR and WIS of caster by 6.0</li></ul>"
                ], 
                "id": 0, 
                "level": 0, 
@@ -2998,7 +2998,7 @@
                   "<ul><li>Increases Ability Modifier of caster by 20.7</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 31.1</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 41.4</li></ul>", 
-                  "<ul><li>Increases Ability Modifier of caster by 51.7</li></ul>", 
+                  "<ul><li>Increases Ability Modifier of caster by 51.8</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 62.1</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 72.5</li></ul>", 
                   "<ul><li>Increases Ability Modifier of caster by 82.8</li></ul>", 
@@ -3214,12 +3214,12 @@
                   "<ul><li>Improves the damage of Thunderclap by 12%.</li></ul>", 
                   "<ul><li>Improves the damage of Thunderclap by 18%.</li></ul>", 
                   "<ul><li>Improves the damage of Thunderclap by 24%.</li></ul>", 
-                  "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Improves the damage of Thunderclap by 30%.</li></ul>", 
-                  "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Improves the damage of Thunderclap by 36%.</li></ul>", 
-                  "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Improves the damage of Thunderclap by 42%.</li></ul>", 
-                  "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Improves the damage of Thunderclap by 48%.</li></ul>", 
-                  "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Improves the damage of Thunderclap by 54%.</li></ul>", 
-                  "<ul><li>Adds an additional trigger to Thunderclap if the target is within 20 meters.</li><li>Adds an additional strike to Thunderclap if the target is within 10 meters.</li><li>Improves the damage of Thunderclap by 60%.</li></ul>"
+                  "<ul><li>Improves the damage of Thunderclap by 30%.</li><li>Adds an additional trigger to Thunderclap if the target is within 25 meters.</li></ul>", 
+                  "<ul><li>Improves the damage of Thunderclap by 36%.</li><li>Adds an additional trigger to Thunderclap if the target is within 25 meters.</li></ul>", 
+                  "<ul><li>Improves the damage of Thunderclap by 42%.</li><li>Adds an additional trigger to Thunderclap if the target is within 25 meters.</li></ul>", 
+                  "<ul><li>Improves the damage of Thunderclap by 48%.</li><li>Adds an additional trigger to Thunderclap if the target is within 25 meters.</li></ul>", 
+                  "<ul><li>Improves the damage of Thunderclap by 54%.</li><li>Adds an additional trigger to Thunderclap if the target is within 25 meters.</li></ul>", 
+                  "<ul><li>Improves the damage of Thunderclap by 60%.</li><li>Adds an additional trigger to Thunderclap if the target is within 25 meters.</li><li>Adds an additional strike to Thunderclap if the target is within 15 meters.</li></ul>"
                ], 
                "id": 7, 
                "level": 0, 
@@ -3318,7 +3318,7 @@
                "cost": 2, 
                "description": "The sorcerer summons shackles from the Ethernere to bind their target's movement and prevent them from attacking. The chains deal direct damage and reduce the sorcerer's threat position.", 
                "effects": [
-                  "<ul><li>Slows target by 75.0%</li><li>Decreases threat priority of target by 3 positions</li><li>Dazes target</li><ul><li>If Target is not Epic</li></ul><li>Inflicts 42 - 77 magic damage on target</li></ul>"
+                  "<ul><li>Dazes target</li><ul><li>If Target is not Epic</li></ul><li>Inflicts 42 - 77 magic damage on target</li><li>Decreases threat priority of target by 3 positions</li><li>Slows target by 75.0%</li></ul>"
                ], 
                "id": 10, 
                "level": 0, 
@@ -3345,7 +3345,7 @@
                "cost": 2, 
                "description": "Mystical Field surrounds the sorcerer in arcane magicks, preventing them from being hit with Area of Effect abilities and being interrupted and allowing them to cast while moving for a short duration. Any enemy entering the field around the sorcerer will take magic damage. This spell drains power at a prodigious rate and can be toggled off early.  If the caster enters PVP combat, the duration of this effect will be reduced.", 
                "effects": [
-                  "<ul><li>Prevents AOE (except when direct) </li><li>Prevents caster from being Interrupted due to movement</li><li>Prevents caster from being Interrupted</li><li>Applies Mystical Field.</li><ul><li>Inflicts 36 magic damage on targets in Area of Effect</li></ul><li>Hits a maximum of 8 targets at 15 meters base radius</li></ul>"
+                  "<ul><li>Applies Mystical Field.</li><ul><li>Inflicts 36 magic damage on targets in Area of Effect</li></ul><li>Prevents caster from being Interrupted</li><li>Prevents AOE (except when direct) </li><li>Hits a maximum of 8 targets at 15 meters base radius</li><li>Prevents caster from being Interrupted due to movement</li></ul>"
                ], 
                "id": 11, 
                "level": 0, 
@@ -3372,7 +3372,7 @@
                "cost": 2, 
                "description": "The sorcerer uses their own blood to amplify the damage of their magic, restoring the power used to cast the spell instantly at the cost of their health. Sanguine Sacrifice has a recurring health cost of 1% every second.", 
                "effects": [
-                  "<ul><li>Increases power of caster by 5.0%</li><li>Increases power of caster by 1.0% every second</li><li>Increases Potency by 1.5% of the caster's intelligence.</li><li>Any power the sorcerer uses to cast spells is instantly refreshed and the spell instead uses health.</li></ul>"
+                  "<ul><li>Increases Potency by 1.5% of the caster's intelligence.</li><li>Increases power of caster by 5.0%</li><li>Increases power of caster by 1.0% every second</li><li>Any power the sorcerer uses to cast spells is instantly refreshed and the spell instead uses health.</li></ul>"
                ], 
                "id": 12, 
                "level": 0, 
@@ -3393,7 +3393,7 @@
          ], 
          "id": 3, 
          "is_warder_tree": false, 
-         "max_points": 50, 
+         "max_points": 100, 
          "name": "Heroic", 
          "orphans": [
             0, 
@@ -3492,11 +3492,11 @@
                "cost": 1, 
                "description": "Using the best materials increases the percentage of durability gained while crafting. Additionally, the duration of food and drinks is improved.", 
                "effects": [
-                  "<ul><li>Improves the duration of food and drink by 2.5%</li><li>Increases the durability gain by 2.0%.</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 5%</li><li>Increases the durability gain by 4.0%.</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 7.5%</li><li>Increases the durability gain by 6.0%.</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 10%</li><li>Increases the durability gain by 8.0%.</li></ul>", 
-                  "<ul><li>Improves the duration of food and drink by 12.5%</li><li>Increases the durability gain by 10.0%.</li></ul>"
+                  "<ul><li>Increases the durability gain by 2.0%.</li><li>Improves the duration of food and drink by 2.5%</li></ul>", 
+                  "<ul><li>Increases the durability gain by 4.0%.</li><li>Improves the duration of food and drink by 5%</li></ul>", 
+                  "<ul><li>Increases the durability gain by 6.0%.</li><li>Improves the duration of food and drink by 7.5%</li></ul>", 
+                  "<ul><li>Increases the durability gain by 8.0%.</li><li>Improves the duration of food and drink by 10%</li></ul>", 
+                  "<ul><li>Increases the durability gain by 10.0%.</li><li>Improves the duration of food and drink by 12.5%</li></ul>"
                ], 
                "id": 2, 
                "level": 0, 
@@ -3736,9 +3736,9 @@
                "cost": 1, 
                "description": "When casting hostile spells, the mage has a chance to increase the group's maximum health, power and the amount they are healed for when a healing spell is cast.", 
                "effects": [
-                  "<ul><li>On a hostile spell cast this spell may cast Enchanted Overflow on caster.  Lasts for 10.0 seconds.  Triggers about 1.0 times per minute. </li><ul><li>Increases Max Power of group members (AE) by 2.0%</li><li>Increases healing received by 2.00%</li><li>Increases Max Health of group members (AE) by 2.0%</li><li>This effect can be stacked by multiple casters.</li></ul></ul>", 
-                  "<ul><li>On a hostile spell cast this spell may cast Enchanted Overflow on caster.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Increases Max Power of group members (AE) by 2.0%</li><li>Increases healing received by 2.00%</li><li>Increases Max Health of group members (AE) by 2.0%</li><li>This effect can be stacked by multiple casters.</li></ul></ul>", 
-                  "<ul><li>On a hostile spell cast this spell may cast Enchanted Overflow on caster.  Lasts for 10.0 seconds.  Triggers about 3.0 times per minute. </li><ul><li>Increases Max Power of group members (AE) by 2.0%</li><li>Increases healing received by 2.00%</li><li>Increases Max Health of group members (AE) by 2.0%</li><li>This effect can be stacked by multiple casters.</li></ul></ul>"
+                  "<ul><li>On a hostile spell cast this spell may cast Enchanted Overflow on caster.  Lasts for 10.0 seconds.  Triggers about 1.0 times per minute. </li><ul><li>Increases Max Health of group members (AE) by 2.0%</li><li>Increases Max Power of group members (AE) by 2.0%</li><li>This effect can be stacked by multiple casters.</li><li>Increases healing received by 2.00%</li></ul></ul>", 
+                  "<ul><li>On a hostile spell cast this spell may cast Enchanted Overflow on caster.  Lasts for 10.0 seconds.  Triggers about 2.0 times per minute. </li><ul><li>Increases Max Health of group members (AE) by 2.0%</li><li>Increases Max Power of group members (AE) by 2.0%</li><li>This effect can be stacked by multiple casters.</li><li>Increases healing received by 2.00%</li></ul></ul>", 
+                  "<ul><li>On a hostile spell cast this spell may cast Enchanted Overflow on caster.  Lasts for 10.0 seconds.  Triggers about 3.0 times per minute. </li><ul><li>Increases Max Health of group members (AE) by 2.0%</li><li>Increases Max Power of group members (AE) by 2.0%</li><li>This effect can be stacked by multiple casters.</li><li>Increases healing received by 2.00%</li></ul></ul>"
                ], 
                "id": 0, 
                "level": 0, 
@@ -4040,9 +4040,9 @@
                "cost": 1, 
                "description": "Inflicts disease damage on the target and allows the warlock's next noxious and elemental spells to inflict additional damage. This effect can increment up to 3 with each increment allowing more damage. Higher ranks of this ability reduce the base reuse time.", 
                "effects": [
-                  "<ul><li>Applies Noxious Influx.  Lasts for 30.0 seconds.</li><ul><li>On a damage spell hit this spell will cast Noxious Influx on target of spell.  </li><ul><li>The damage is multiplied by the increment amount</li><li>Inflicts 5 - 9 disease damage on target</li></ul><li>This spell can only trigger from noxious and elemental attacks.</li></ul><li>Inflicts 9 - 16 magic damage on target</li></ul>", 
-                  "<ul><li>Applies Noxious Influx.  Lasts for 30.0 seconds.</li><ul><li>On a damage spell hit this spell will cast Noxious Influx on target of spell.  </li><ul><li>The damage is multiplied by the increment amount</li><li>Inflicts 5 - 9 disease damage on target</li></ul><li>This spell can only trigger from noxious and elemental attacks.</li></ul><li>Inflicts 9 - 16 magic damage on target</li></ul>", 
-                  "<ul><li>Applies Noxious Influx.  Lasts for 30.0 seconds.</li><ul><li>On a damage spell hit this spell will cast Noxious Influx on target of spell.  </li><ul><li>The damage is multiplied by the increment amount</li><li>Inflicts 5 - 9 disease damage on target</li></ul><li>This spell can only trigger from noxious and elemental attacks.</li></ul><li>Inflicts 9 - 16 magic damage on target</li></ul>"
+                  "<ul><li>Applies Noxious Influx.  Lasts for 30.0 seconds.</li><ul><li>This spell can only trigger from noxious and elemental attacks.</li><li>On a damage spell hit this spell will cast Noxious Influx on target of spell.  </li><ul><li>Inflicts 5 - 9 disease damage on target</li><li>The damage is multiplied by the increment amount</li></ul><li>Inflicts 9 - 16 magic damage on target</li></ul></ul>", 
+                  "<ul><li>Applies Noxious Influx.  Lasts for 30.0 seconds.</li><ul><li>This spell can only trigger from noxious and elemental attacks.</li><li>On a damage spell hit this spell will cast Noxious Influx on target of spell.  </li><ul><li>Inflicts 5 - 9 disease damage on target</li><li>The damage is multiplied by the increment amount</li></ul><li>Inflicts 9 - 16 magic damage on target</li></ul></ul>", 
+                  "<ul><li>Applies Noxious Influx.  Lasts for 30.0 seconds.</li><ul><li>This spell can only trigger from noxious and elemental attacks.</li><li>On a damage spell hit this spell will cast Noxious Influx on target of spell.  </li><ul><li>Inflicts 5 - 9 disease damage on target</li><li>The damage is multiplied by the increment amount</li></ul><li>Inflicts 9 - 16 magic damage on target</li></ul></ul>"
                ], 
                "id": 10, 
                "level": 0, 
@@ -4104,9 +4104,9 @@
                "cost": 1, 
                "description": "Passively allows the warlock to build charges of Toxic Aura when using damage spells. The trigger chance on Toxic Aura is 33% at Rank 1, 66% at Rank 2 and 100% at Rank 3. Toxic Aura increments at 3 per attack target and maxes at 180. Toxic Assault inflicts disease damage to the warlock's target. The damage is substantially higher with more charges of Toxic Aura.", 
                "effects": [
-                  "<ul><li>Inflicts 19 - 36 disease damage on target</li><li>Inflicts 167 - 311 disease damage on target</li><ul><li>Requires 180 increments of Toxic Aura</li></ul><li>Consumes all increments of Toxic Aura</li><li>You must have at least 10 increments of Toxic Aura to use Toxic Assault!</li></ul>", 
-                  "<ul><li>Inflicts 19 - 36 disease damage on target</li><li>Inflicts 167 - 311 disease damage on target</li><ul><li>Requires 180 increments of Toxic Aura</li></ul><li>Consumes all increments of Toxic Aura</li><li>You must have at least 10 increments of Toxic Aura to use Toxic Assault!</li></ul>", 
-                  "<ul><li>Inflicts 19 - 36 disease damage on target</li><li>Inflicts 167 - 311 disease damage on target</li><ul><li>Requires 180 increments of Toxic Aura</li></ul><li>Consumes all increments of Toxic Aura</li><li>You must have at least 10 increments of Toxic Aura to use Toxic Assault!</li></ul>"
+                  "<ul><li>Inflicts 39 - 73 disease damage on target</li><ul><li>Requires 108 increments of Toxic Aura</li></ul><li>Inflicts 35 - 65 disease damage on target</li><ul><li>Requires 72 increments of Toxic Aura</li></ul><li>Inflicts 47 - 87 disease damage on target</li><ul><li>Requires 180 increments of Toxic Aura</li></ul><li>Consumes all increments of Toxic Aura</li><li>Inflicts 31 - 58 disease damage on target</li><li>Inflicts 43 - 80 disease damage on target</li><ul><li>Requires 144 increments of Toxic Aura</li></ul><li>You must have at least 36 increments of Toxic Aura to use Toxic Assault!</li></ul>", 
+                  "<ul><li>Inflicts 39 - 73 disease damage on target</li><ul><li>Requires 108 increments of Toxic Aura</li></ul><li>Inflicts 35 - 65 disease damage on target</li><ul><li>Requires 72 increments of Toxic Aura</li></ul><li>Inflicts 47 - 87 disease damage on target</li><ul><li>Requires 180 increments of Toxic Aura</li></ul><li>Consumes all increments of Toxic Aura</li><li>Inflicts 31 - 58 disease damage on target</li><li>Inflicts 43 - 80 disease damage on target</li><ul><li>Requires 144 increments of Toxic Aura</li></ul><li>You must have at least 36 increments of Toxic Aura to use Toxic Assault!</li></ul>", 
+                  "<ul><li>Inflicts 39 - 73 disease damage on target</li><ul><li>Requires 108 increments of Toxic Aura</li></ul><li>Inflicts 35 - 65 disease damage on target</li><ul><li>Requires 72 increments of Toxic Aura</li></ul><li>Inflicts 47 - 87 disease damage on target</li><ul><li>Requires 180 increments of Toxic Aura</li></ul><li>Consumes all increments of Toxic Aura</li><li>Inflicts 31 - 58 disease damage on target</li><li>Inflicts 43 - 80 disease damage on target</li><ul><li>Requires 144 increments of Toxic Aura</li></ul><li>You must have at least 36 increments of Toxic Aura to use Toxic Assault!</li></ul>"
                ], 
                "id": 12, 
                "level": 0, 
@@ -4292,7 +4292,7 @@
                "effects": [
                   "<ul><li>At 36 increments of Toxic Aura, Rift and Apocalypse will have their base cast times reduced by 20%</li></ul>", 
                   "<ul><li>At 36 increments of Toxic Aura, Rift and Apocalypse will have their base cast times reduced by 20%</li><li>At 72 increments of Toxic Aura, Rift and Apocalypse will have their base cast times reduced by 40% and by 60% at 108 increments.</li></ul>", 
-                  "<ul><li>At 144 increments of Toxic Aura, Rift and Apocalypse will have their base cast times reduced by 80% and removed at 180 increments.</li><li>At 36 increments of Toxic Aura, Rift and Apocalypse will have their base cast times reduced by 20%</li><li>At 72 increments of Toxic Aura, Rift and Apocalypse will have their base cast times reduced by 40% and by 60% at 108 increments.</li></ul>"
+                  "<ul><li>At 36 increments of Toxic Aura, Rift and Apocalypse will have their base cast times reduced by 20%</li><li>At 144 increments of Toxic Aura, Rift and Apocalypse will have their base cast times reduced by 80% and removed at 180 increments.</li><li>At 72 increments of Toxic Aura, Rift and Apocalypse will have their base cast times reduced by 40% and by 60% at 108 increments.</li></ul>"
                ], 
                "id": 18, 
                "level": 0, 
@@ -4375,7 +4375,7 @@
                "cost": 1, 
                "description": "An alternate ability for Toxic Assault. Caustic Detonation inflicts disease damage to the targets surrounding the primary target. The damage is substantially higher with more charges of Toxic Aura.", 
                "effects": [
-                  "<ul><li>Inflicts 6 - 12 disease damage on targets in Area of Effect</li><li>Inflicts 56 - 104 disease damage on targets in Area of Effect</li><ul><li>Requires 180 increments of Toxic Aura</li></ul><li>Consumes all increments of Toxic Aura</li><li>You must have at least 10 increments of Toxic Aura to use Caustic Detonation!</li></ul>"
+                  "<ul><li>Inflicts 10 - 19 disease damage on targets in Area of Effect</li><li>Inflicts 14 - 27 disease damage on targets in Area of Effect</li><ul><li>Requires 144 increments of Toxic Aura</li></ul><li>Inflicts 12 - 22 disease damage on targets in Area of Effect</li><ul><li>Requires 72 increments of Toxic Aura</li></ul><li>Inflicts 16 - 29 disease damage on targets in Area of Effect</li><ul><li>Requires 180 increments of Toxic Aura</li></ul><li>Consumes all increments of Toxic Aura</li><li>Inflicts 13 - 24 disease damage on targets in Area of Effect</li><ul><li>Requires 108 increments of Toxic Aura</li></ul><li>You must have at least 36 increments of Toxic Aura to use Caustic Detonation!</li></ul>"
                ], 
                "id": 21, 
                "level": 0, 
@@ -4777,11 +4777,11 @@
                "cost": 1, 
                "description": "Increases the Artisan's Ground and Mount Speed.", 
                "effects": [
-                  "<ul><li>Increases speed of caster by 2.0%</li><li>Increases Ground Mount Speed of caster by 2.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 4.0%</li><li>Increases Ground Mount Speed of caster by 4.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 6.0%</li><li>Increases Ground Mount Speed of caster by 6.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 8.0%</li><li>Increases Ground Mount Speed of caster by 8.0%</li></ul>", 
-                  "<ul><li>Increases speed of caster by 10.0%</li><li>Increases Ground Mount Speed of caster by 10.0%</li></ul>"
+                  "<ul><li>Increases Ground Mount Speed of caster by 2.0%</li><li>Increases speed of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 4.0%</li><li>Increases speed of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 6.0%</li><li>Increases speed of caster by 6.0%</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 8.0%</li><li>Increases speed of caster by 8.0%</li></ul>", 
+                  "<ul><li>Increases Ground Mount Speed of caster by 10.0%</li><li>Increases speed of caster by 10.0%</li></ul>"
                ], 
                "id": 10, 
                "level": 0, 
@@ -4949,6 +4949,745 @@
             "Refining": 0
          }, 
          "type": "TradeskillPrestige", 
+         "x_subclass": "", 
+         "x_y_ratio": 0, 
+         "y_subclass": ""
+      }, 
+      {
+         "aa": [
+            {
+               "children": [
+                  4
+               ], 
+               "coords": [
+                  29, 
+                  15
+               ], 
+               "cost": 1, 
+               "description": "The mage regenerates their health and power quickly when out of combat.", 
+               "effects": [
+                  "<ul><li>Suspends when the mage is engaged in combat</li><li>Heals caster for 1.0% of max health instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Increases power of caster by 1.0% instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Suspends when the mage is engaged in combat</li><li>Heals caster for 2.0% of max health instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Increases power of caster by 2.0% instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Suspends when the mage is engaged in combat</li><li>Heals caster for 3.0% of max health instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Increases power of caster by 3.0% instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Suspends when the mage is engaged in combat</li><li>Heals caster for 4.0% of max health instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Increases power of caster by 4.0% instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Suspends when the mage is engaged in combat</li><li>Heals caster for 5.0% of max health instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Increases power of caster by 5.0% instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Suspends when the mage is engaged in combat</li><li>Heals caster for 6.0% of max health instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Increases power of caster by 6.0% instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Suspends when the mage is engaged in combat</li><li>Heals caster for 7.0% of max health instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Increases power of caster by 7.0% instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Suspends when the mage is engaged in combat</li><li>Heals caster for 8.0% of max health instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Increases power of caster by 8.0% instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Suspends when the mage is engaged in combat</li><li>Heals caster for 9.0% of max health instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Increases power of caster by 9.0% instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Cannot be modified except by direct means</li></ul>", 
+                  "<ul><li>Suspends when the mage is engaged in combat</li><li>Heals caster for 10.0% of max health instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Increases power of caster by 10.0% instantly and every 3 seconds</li><ul><li>This effect cannot be critically applied.</li></ul><li>Cannot be modified except by direct means</li></ul>"
+               ], 
+               "id": 0, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Impatience", 
+               "parent_ids": [], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 0, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 1479577987, 
+               "subclass": "Trakanon's Essence", 
+               "title": ""
+            }, 
+            {
+               "children": [
+                  5
+               ], 
+               "coords": [
+                  81, 
+                  15
+               ], 
+               "cost": 1, 
+               "description": "Increases the maximum health of the mage.", 
+               "effects": [
+                  "<ul><li>Increases Max Health of caster by 0.8%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 1.6%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 2.4%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 3.2%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 4.8%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 5.6%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 6.4%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 7.2%</li></ul>", 
+                  "<ul><li>Increases Max Health of caster by 8.0%</li></ul>"
+               ], 
+               "id": 1, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Dragon Scales", 
+               "parent_ids": [], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 0, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 1931330112, 
+               "subclass": "Noxious Dragon Scales", 
+               "title": ""
+            }, 
+            {
+               "children": [
+                  6
+               ], 
+               "coords": [
+                  133, 
+                  15
+               ], 
+               "cost": 1, 
+               "description": "Improves the base casting speed of Master's Strike.", 
+               "effects": [
+                  "<ul><li>Reduces the base casting time of Master's Strike by 8.75%</li></ul>", 
+                  "<ul><li>Reduces the base casting time of Master's Strike by 17.5%</li></ul>", 
+                  "<ul><li>Reduces the base casting time of Master's Strike by 26.25%</li></ul>", 
+                  "<ul><li>Reduces the base casting time of Master's Strike by 35%</li></ul>", 
+                  "<ul><li>Reduces the base casting time of Master's Strike by 43.75%</li></ul>", 
+                  "<ul><li>Reduces the base casting time of Master's Strike by 52.5%</li></ul>", 
+                  "<ul><li>Reduces the base casting time of Master's Strike by 61.25%</li></ul>", 
+                  "<ul><li>Reduces the base casting time of Master's Strike by 70%</li></ul>", 
+                  "<ul><li>Reduces the base casting time of Master's Strike by 78.75%</li></ul>", 
+                  "<ul><li>Reduces the base casting time of Master's Strike by 87.5%</li></ul>"
+               ], 
+               "id": 2, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Spellbinder's Mastery", 
+               "parent_ids": [], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 0, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 1778840321, 
+               "subclass": "Draconic Spellbinding", 
+               "title": ""
+            }, 
+            {
+               "children": [
+                  7
+               ], 
+               "coords": [
+                  185, 
+                  15
+               ], 
+               "cost": 1, 
+               "description": "Increases the base and critical damage of certain types of spells, based on the mage's class.", 
+               "effects": [], 
+               "id": 3, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Improved Sorcery", 
+               "parent_ids": [], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 0, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 625436102, 
+               "subclass": "Ancient Fury", 
+               "title": ""
+            }, 
+            {
+               "children": [
+                  8
+               ], 
+               "coords": [
+                  29, 
+                  40
+               ], 
+               "cost": 1, 
+               "description": "When casting damage spells, the mage will have a chance to stun their target.", 
+               "effects": [
+                  "<ul><li>On a damage spell hit this spell has a 1% chance to cast Kinetic Assault on target of spell.  Lasts for 3.0 seconds.  </li><ul><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell has a 2% chance to cast Kinetic Assault on target of spell.  Lasts for 3.0 seconds.  </li><ul><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell has a 3% chance to cast Kinetic Assault on target of spell.  Lasts for 3.0 seconds.  </li><ul><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell has a 4% chance to cast Kinetic Assault on target of spell.  Lasts for 3.0 seconds.  </li><ul><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell has a 5% chance to cast Kinetic Assault on target of spell.  Lasts for 3.0 seconds.  </li><ul><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell has a 6% chance to cast Kinetic Assault on target of spell.  Lasts for 3.0 seconds.  </li><ul><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell has a 7% chance to cast Kinetic Assault on target of spell.  Lasts for 3.0 seconds.  </li><ul><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell has a 8% chance to cast Kinetic Assault on target of spell.  Lasts for 3.0 seconds.  </li><ul><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell has a 9% chance to cast Kinetic Assault on target of spell.  Lasts for 3.0 seconds.  </li><ul><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>", 
+                  "<ul><li>On a damage spell hit this spell has a 10% chance to cast Kinetic Assault on target of spell.  Lasts for 3.0 seconds.  </li><ul><li>Stuns target</li><li>Does not affect Epic targets</li></ul></ul>"
+               ], 
+               "id": 4, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Kinetic Assault", 
+               "parent_ids": [
+                  0
+               ], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 1, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 3241787449, 
+               "subclass": "Trakanon's Essence", 
+               "title": ""
+            }, 
+            {
+               "children": [
+                  9
+               ], 
+               "coords": [
+                  81, 
+                  40
+               ], 
+               "cost": 1, 
+               "description": "When the mage is damaged highly, they will reduce incoming damage for a short duration.", 
+               "effects": [
+                  "<ul><li>When target falls below 25% health this spell will cast Scale Barrier on target.  Lasts for 3.0 seconds.  </li><ul><li>Reduces all damage done to caster by 10%</li><li>This effect can only trigger once every 90 seconds.</li></ul></ul>", 
+                  "<ul><li>When target falls below 25% health this spell will cast Scale Barrier on target.  Lasts for 3.0 seconds.  </li><ul><li>Reduces all damage done to caster by 20%</li><li>This effect can only trigger once every 90 seconds.</li></ul></ul>", 
+                  "<ul><li>When target falls below 25% health this spell will cast Scale Barrier on target.  Lasts for 3.0 seconds.  </li><ul><li>Reduces all damage done to caster by 30%</li><li>This effect can only trigger once every 90 seconds.</li></ul></ul>", 
+                  "<ul><li>When target falls below 25% health this spell will cast Scale Barrier on target.  Lasts for 3.0 seconds.  </li><ul><li>Reduces all damage done to caster by 40%</li><li>This effect can only trigger once every 90 seconds.</li></ul></ul>", 
+                  "<ul><li>When target falls below 25% health this spell will cast Scale Barrier on target.  Lasts for 3.0 seconds.  </li><ul><li>Reduces all damage done to caster by 50%</li><li>This effect can only trigger once every 90 seconds.</li></ul></ul>", 
+                  "<ul><li>When target falls below 25% health this spell will cast Scale Barrier on target.  Lasts for 3.0 seconds.  </li><ul><li>Reduces all damage done to caster by 60%</li><li>This effect can only trigger once every 90 seconds.</li></ul></ul>", 
+                  "<ul><li>When target falls below 25% health this spell will cast Scale Barrier on target.  Lasts for 3.0 seconds.  </li><ul><li>Reduces all damage done to caster by 70%</li><li>This effect can only trigger once every 90 seconds.</li></ul></ul>", 
+                  "<ul><li>When target falls below 25% health this spell will cast Scale Barrier on target.  Lasts for 3.0 seconds.  </li><ul><li>Reduces all damage done to caster by 80%</li><li>This effect can only trigger once every 90 seconds.</li></ul></ul>", 
+                  "<ul><li>When target falls below 25% health this spell will cast Scale Barrier on target.  Lasts for 3.0 seconds.  </li><ul><li>Reduces all damage done to caster by 90%</li><li>This effect can only trigger once every 90 seconds.</li></ul></ul>", 
+                  "<ul><li>When target falls below 25% health this spell will cast Scale Barrier on target.  Lasts for 3.0 seconds.  </li><ul><li>Reduces all damage done to caster by 100%</li><li>This effect can only trigger once every 90 seconds.</li></ul></ul>"
+               ], 
+               "id": 5, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Scale Barrier", 
+               "parent_ids": [
+                  1
+               ], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 1, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 3927217146, 
+               "subclass": "Noxious Dragon Scales", 
+               "title": ""
+            }, 
+            {
+               "children": [
+                  10
+               ], 
+               "coords": [
+                  133, 
+                  40
+               ], 
+               "cost": 1, 
+               "description": "Increases the Doublecast Chance of the caster. The final point adds a trigger to Iceshield, Aura of the Void, Theorems, Prismatic Chaos, Destructive Mind, Hostage and Spell Curse.", 
+               "effects": [
+                  "<ul><li>Increases Doublecast Chance of caster by 0.5%</li></ul>", 
+                  "<ul><li>Increases Doublecast Chance of caster by 1.0%</li></ul>", 
+                  "<ul><li>Increases Doublecast Chance of caster by 1.5%</li></ul>", 
+                  "<ul><li>Increases Doublecast Chance of caster by 2.0%</li></ul>", 
+                  "<ul><li>Increases Doublecast Chance of caster by 2.5%</li></ul>", 
+                  "<ul><li>Increases Doublecast Chance of caster by 3.0%</li></ul>", 
+                  "<ul><li>Increases Doublecast Chance of caster by 3.5%</li></ul>", 
+                  "<ul><li>Increases Doublecast Chance of caster by 4.0%</li></ul>", 
+                  "<ul><li>Increases Doublecast Chance of caster by 4.5%</li></ul>", 
+                  "<ul><li>Increases Doublecast Chance of caster by 5.0%</li></ul>"
+               ], 
+               "id": 6, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Split Channeling", 
+               "parent_ids": [
+                  2
+               ], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 1, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 4077888187, 
+               "subclass": "Draconic Spellbinding", 
+               "title": ""
+            }, 
+            {
+               "children": [
+                  11
+               ], 
+               "coords": [
+                  185, 
+                  40
+               ], 
+               "cost": 1, 
+               "description": "Increases the mage's chance to AE Auto Attack", 
+               "effects": [
+                  "<ul><li>Caster has a 2% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 4% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 6% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 8% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 10% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 12% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 14% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 16% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 18% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>", 
+                  "<ul><li>Caster has a 20% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.</li></ul>"
+               ], 
+               "id": 7, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Ancient Wave", 
+               "parent_ids": [
+                  3
+               ], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 1, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 3159241852, 
+               "subclass": "Ancient Fury", 
+               "title": ""
+            }, 
+            {
+               "children": [
+                  12
+               ], 
+               "coords": [
+                  29, 
+                  61
+               ], 
+               "cost": 1, 
+               "description": "When taking damage, the mage has a chance to restore some health.", 
+               "effects": [
+                  "<ul><li>When any damage is received this spell has a 15% chance to cast Kinetic Absorption on target.  </li><ul><li>Heals caster for 1</li><li>This effect can only trigger once every 1 second.</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 15% chance to cast Kinetic Absorption on target.  </li><ul><li>Heals caster for 1</li><li>This effect can only trigger once every 1 second.</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 15% chance to cast Kinetic Absorption on target.  </li><ul><li>Heals caster for 1</li><li>This effect can only trigger once every 1 second.</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 15% chance to cast Kinetic Absorption on target.  </li><ul><li>Heals caster for 1</li><li>This effect can only trigger once every 1 second.</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 15% chance to cast Kinetic Absorption on target.  </li><ul><li>Heals caster for 1 - 2</li><li>This effect can only trigger once every 1 second.</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 15% chance to cast Kinetic Absorption on target.  </li><ul><li>Heals caster for 2</li><li>This effect can only trigger once every 1 second.</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 15% chance to cast Kinetic Absorption on target.  </li><ul><li>Heals caster for 2 - 3</li><li>This effect can only trigger once every 1 second.</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 15% chance to cast Kinetic Absorption on target.  </li><ul><li>Heals caster for 2 - 3</li><li>This effect can only trigger once every 1 second.</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 15% chance to cast Kinetic Absorption on target.  </li><ul><li>Heals caster for 3</li><li>This effect can only trigger once every 1 second.</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 15% chance to cast Kinetic Absorption on target.  </li><ul><li>Heals caster for 3 - 4</li><li>This effect can only trigger once every 1 second.</li></ul></ul>"
+               ], 
+               "id": 8, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Kinetic Absorption", 
+               "parent_ids": [
+                  4
+               ], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 1, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 3057578159, 
+               "subclass": "Trakanon's Essence", 
+               "title": ""
+            }, 
+            {
+               "children": [
+                  13
+               ], 
+               "coords": [
+                  81, 
+                  61
+               ], 
+               "cost": 1, 
+               "description": "Increases the physical mitigation of the mage.", 
+               "effects": [
+                  "<ul><li>Increases the caster's effectiveness of worn armor vs physical damage by 2%</li></ul>", 
+                  "<ul><li>Increases the caster's effectiveness of worn armor vs physical damage by 3%</li></ul>", 
+                  "<ul><li>Increases the caster's effectiveness of worn armor vs physical damage by 5%</li></ul>", 
+                  "<ul><li>Increases the caster's effectiveness of worn armor vs physical damage by 6%</li></ul>", 
+                  "<ul><li>Increases the caster's effectiveness of worn armor vs physical damage by 8%</li></ul>", 
+                  "<ul><li>Increases the caster's effectiveness of worn armor vs physical damage by 9%</li></ul>", 
+                  "<ul><li>Increases the caster's effectiveness of worn armor vs physical damage by 11%</li></ul>", 
+                  "<ul><li>Increases the caster's effectiveness of worn armor vs physical damage by 12%</li></ul>", 
+                  "<ul><li>Increases the caster's effectiveness of worn armor vs physical damage by 14%</li></ul>", 
+                  "<ul><li>Increases the caster's effectiveness of worn armor vs physical damage by 15%</li></ul>"
+               ], 
+               "id": 9, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Ancient Shield", 
+               "parent_ids": [
+                  5
+               ], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 1, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 2635309932, 
+               "subclass": "Noxious Dragon Scales", 
+               "title": ""
+            }, 
+            {
+               "children": [
+                  14
+               ], 
+               "coords": [
+                  133, 
+                  61
+               ], 
+               "cost": 1, 
+               "description": "Increases the spell casting skills of the mage.", 
+               "effects": [
+                  "<ul><li>Increases Subjugation, Ordination, Disruption and Focus of caster by 1.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Ordination, Disruption and Focus of caster by 2.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Ordination, Disruption and Focus of caster by 3.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Ordination, Disruption and Focus of caster by 4.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Ordination, Disruption and Focus of caster by 5.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Ordination, Disruption and Focus of caster by 6.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Ordination, Disruption and Focus of caster by 7.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Ordination, Disruption and Focus of caster by 8.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Ordination, Disruption and Focus of caster by 9.0</li></ul>", 
+                  "<ul><li>Increases Subjugation, Ordination, Disruption and Focus of caster by 10.0</li></ul>"
+               ], 
+               "id": 10, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Weave", 
+               "parent_ids": [
+                  6
+               ], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 1, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 2215154221, 
+               "subclass": "Draconic Spellbinding", 
+               "title": ""
+            }, 
+            {
+               "children": [
+                  15
+               ], 
+               "coords": [
+                  185, 
+                  61
+               ], 
+               "cost": 1, 
+               "description": "The mage's procs will have increased trigger chance.", 
+               "effects": [
+                  "<ul><li>Increases trigger percentage of spells by 0.3%</li></ul>", 
+                  "<ul><li>Increases trigger percentage of spells by 0.6%</li></ul>", 
+                  "<ul><li>Increases trigger percentage of spells by 0.9%</li></ul>", 
+                  "<ul><li>Increases trigger percentage of spells by 1.2%</li></ul>", 
+                  "<ul><li>Increases trigger percentage of spells by 1.5%</li></ul>", 
+                  "<ul><li>Increases trigger percentage of spells by 1.8%</li></ul>", 
+                  "<ul><li>Increases trigger percentage of spells by 2.1%</li></ul>", 
+                  "<ul><li>Increases trigger percentage of spells by 2.4%</li></ul>", 
+                  "<ul><li>Increases trigger percentage of spells by 2.7%</li></ul>", 
+                  "<ul><li>Increases trigger percentage of spells by 3%</li></ul>"
+               ], 
+               "id": 11, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Reaction", 
+               "parent_ids": [
+                  7
+               ], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 1, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 3410560234, 
+               "subclass": "Ancient Fury", 
+               "title": ""
+            }, 
+            {
+               "children": [], 
+               "coords": [
+                  29, 
+                  82
+               ], 
+               "cost": 1, 
+               "description": "When taking damage, the mage has a chance to get a short duration speed boost.", 
+               "effects": [
+                  "<ul><li>When any damage is received this spell has a 50% chance to cast Archimage's Alacrity on target.  Lasts for 10.0 seconds.  </li><ul><li>Increases in-combat movement speed of caster by 1.5%</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 50% chance to cast Archimage's Alacrity on target.  Lasts for 10.0 seconds.  </li><ul><li>Increases in-combat movement speed of caster by 3.0%</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 50% chance to cast Archimage's Alacrity on target.  Lasts for 10.0 seconds.  </li><ul><li>Increases in-combat movement speed of caster by 4.5%</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 50% chance to cast Archimage's Alacrity on target.  Lasts for 10.0 seconds.  </li><ul><li>Increases in-combat movement speed of caster by 6.0%</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 50% chance to cast Archimage's Alacrity on target.  Lasts for 10.0 seconds.  </li><ul><li>Increases in-combat movement speed of caster by 7.5%</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 50% chance to cast Archimage's Alacrity on target.  Lasts for 10.0 seconds.  </li><ul><li>Increases in-combat movement speed of caster by 9.0%</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 50% chance to cast Archimage's Alacrity on target.  Lasts for 10.0 seconds.  </li><ul><li>Increases in-combat movement speed of caster by 10.5%</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 50% chance to cast Archimage's Alacrity on target.  Lasts for 10.0 seconds.  </li><ul><li>Increases in-combat movement speed of caster by 12.0%</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 50% chance to cast Archimage's Alacrity on target.  Lasts for 10.0 seconds.  </li><ul><li>Increases in-combat movement speed of caster by 13.5%</li></ul></ul>", 
+                  "<ul><li>When any damage is received this spell has a 50% chance to cast Archimage's Alacrity on target.  Lasts for 10.0 seconds.  </li><ul><li>Increases in-combat movement speed of caster by 15.0%</li></ul></ul>"
+               ], 
+               "id": 12, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Trakanon's Alacrity", 
+               "parent_ids": [
+                  8
+               ], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 1, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 677012748, 
+               "subclass": "Trakanon's Essence", 
+               "title": ""
+            }, 
+            {
+               "children": [], 
+               "coords": [
+                  81, 
+                  82
+               ], 
+               "cost": 1, 
+               "description": "Passively applies a regenerating ward to the mage.", 
+               "effects": [
+                  "<ul><li>Wards caster against 0 points of all damage</li><li>Regenerates 33% of the ward every 3 seconds</li></ul>", 
+                  "<ul><li>Wards caster against 0 points of all damage</li><li>Regenerates 33% of the ward every 3 seconds</li></ul>", 
+                  "<ul><li>Wards caster against 0 points of all damage</li><li>Regenerates 33% of the ward every 3 seconds</li></ul>", 
+                  "<ul><li>Wards caster against 1 points of all damage</li><li>Regenerates 33% of the ward every 3 seconds</li></ul>", 
+                  "<ul><li>Wards caster against 1 points of all damage</li><li>Regenerates 33% of the ward every 3 seconds</li></ul>", 
+                  "<ul><li>Wards caster against 1 points of all damage</li><li>Regenerates 33% of the ward every 3 seconds</li></ul>", 
+                  "<ul><li>Wards caster against 2 points of all damage</li><li>Regenerates 33% of the ward every 3 seconds</li></ul>", 
+                  "<ul><li>Wards caster against 2 points of all damage</li><li>Regenerates 33% of the ward every 3 seconds</li></ul>", 
+                  "<ul><li>Wards caster against 2 points of all damage</li><li>Regenerates 33% of the ward every 3 seconds</li></ul>", 
+                  "<ul><li>Wards caster against 3 points of all damage</li><li>Regenerates 33% of the ward every 3 seconds</li></ul>"
+               ], 
+               "id": 13, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Scaled Protection", 
+               "parent_ids": [
+                  9
+               ], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 1, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 58144463, 
+               "subclass": "Noxious Dragon Scales", 
+               "title": ""
+            }, 
+            {
+               "children": [], 
+               "coords": [
+                  133, 
+                  82
+               ], 
+               "cost": 1, 
+               "description": "Improves the damage and resistibility of Arcane Bewilderment.", 
+               "effects": [
+                  "<ul><li>Increases the damage of Arcane Bewilderment by 10%</li><li>Reduces the resistibility of Arcane Bewilderment by 1%</li></ul>", 
+                  "<ul><li>Increases the damage of Arcane Bewilderment by 20%</li><li>Reduces the resistibility of Arcane Bewilderment by 2%</li></ul>", 
+                  "<ul><li>Increases the damage of Arcane Bewilderment by 30%</li><li>Reduces the resistibility of Arcane Bewilderment by 3%</li></ul>", 
+                  "<ul><li>Increases the damage of Arcane Bewilderment by 40%</li><li>Reduces the resistibility of Arcane Bewilderment by 4%</li></ul>", 
+                  "<ul><li>Increases the damage of Arcane Bewilderment by 50%</li><li>Reduces the resistibility of Arcane Bewilderment by 5%</li></ul>", 
+                  "<ul><li>Increases the damage of Arcane Bewilderment by 60%</li><li>Reduces the resistibility of Arcane Bewilderment by 6%</li></ul>", 
+                  "<ul><li>Increases the damage of Arcane Bewilderment by 70%</li><li>Reduces the resistibility of Arcane Bewilderment by 7%</li></ul>", 
+                  "<ul><li>Increases the damage of Arcane Bewilderment by 80%</li><li>Reduces the resistibility of Arcane Bewilderment by 8%</li></ul>", 
+                  "<ul><li>Increases the damage of Arcane Bewilderment by 90%</li><li>Reduces the resistibility of Arcane Bewilderment by 9%</li></ul>", 
+                  "<ul><li>Increases the damage of Arcane Bewilderment by 100%</li><li>Reduces the resistibility of Arcane Bewilderment by 10%</li></ul>"
+               ], 
+               "id": 14, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "True Bewilderment", 
+               "parent_ids": [
+                  10
+               ], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 1, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 443287438, 
+               "subclass": "Draconic Spellbinding", 
+               "title": ""
+            }, 
+            {
+               "children": [], 
+               "coords": [
+                  185, 
+                  82
+               ], 
+               "cost": 1, 
+               "description": "The mage has a chance to increase incoming damage to their damage type when using damage spells.", 
+               "effects": [], 
+               "id": 15, 
+               "level": 0, 
+               "max_level": 10, 
+               "name": "Resist Break", 
+               "parent_ids": [
+                  11
+               ], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 1, 
+                  "parent_subtree": 0, 
+                  "subtree": 0, 
+                  "tree": 0
+               }, 
+               "soe_id": 1429049673, 
+               "subclass": "Ancient Fury", 
+               "title": ""
+            }, 
+            {
+               "children": [], 
+               "coords": [
+                  29, 
+                  103
+               ], 
+               "cost": 1, 
+               "description": "Clears most of the mage's reuses.", 
+               "effects": [
+                  "<ul><li>Clears the reuse of most modifiable abilities in the mage's spellbook.</li><li>This effect cannot be cast during combat</li><li>Cannot be modified except by direct means</li></ul>"
+               ], 
+               "id": 16, 
+               "level": 0, 
+               "max_level": 1, 
+               "name": "Draconic Recovery", 
+               "parent_ids": [], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 0, 
+                  "parent_subtree": 0, 
+                  "subtree": 30, 
+                  "tree": 0
+               }, 
+               "soe_id": 2310292709, 
+               "subclass": "Trakanon's Essence", 
+               "title": ""
+            }, 
+            {
+               "children": [], 
+               "coords": [
+                  81, 
+                  103
+               ], 
+               "cost": 1, 
+               "description": "The mage is able to prevent their own death.", 
+               "effects": [
+                  "<ul><li>Does not trigger if a priest death prevention or Equilibrium is active</li><li>On death this spell will cast Undeath on target.  </li><ul><li>Heals caster for 100.0% of max health</li><li>Grants a total of 1 trigger of the spell.</li></ul><li>This effect cannot be cast during combat</li><li>Cannot be modified except by direct means</li></ul>"
+               ], 
+               "id": 17, 
+               "level": 0, 
+               "max_level": 1, 
+               "name": "Undeath", 
+               "parent_ids": [], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 0, 
+                  "parent_subtree": 0, 
+                  "subtree": 30, 
+                  "tree": 0
+               }, 
+               "soe_id": 3457433141, 
+               "subclass": "Noxious Dragon Scales", 
+               "title": ""
+            }, 
+            {
+               "children": [], 
+               "coords": [
+                  133, 
+                  103
+               ], 
+               "cost": 1, 
+               "description": "Increases the caster's potency by a percentage of their base potency.", 
+               "effects": [
+                  "<ul><li>Increases potency by 25% of the caster's base potency</li></ul>"
+               ], 
+               "id": 18, 
+               "level": 0, 
+               "max_level": 1, 
+               "name": "Spellbind", 
+               "parent_ids": [], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 0, 
+                  "parent_subtree": 0, 
+                  "subtree": 30, 
+                  "tree": 0
+               }, 
+               "soe_id": 4084471685, 
+               "subclass": "Draconic Spellbinding", 
+               "title": ""
+            }, 
+            {
+               "children": [], 
+               "coords": [
+                  185, 
+                  103
+               ], 
+               "cost": 1, 
+               "description": "Adds two ticks to all of the mage's damage over time abilities.", 
+               "effects": [
+                  "<ul><li>Suspends when either Upbeat Tempo or Time Compression is active</li><li>Adds 2 ticks to damage over time abilities</li></ul>"
+               ], 
+               "id": 19, 
+               "level": 0, 
+               "max_level": 1, 
+               "name": "Ancient Fury", 
+               "parent_ids": [], 
+               "prereqs": {
+                  "global": 0, 
+                  "parent": 0, 
+                  "parent_subtree": 0, 
+                  "subtree": 30, 
+                  "tree": 0
+               }, 
+               "soe_id": 1096076181, 
+               "subclass": "Ancient Fury", 
+               "title": ""
+            }
+         ], 
+         "id": 7, 
+         "is_warder_tree": false, 
+         "max_points": 100, 
+         "name": "Dragon", 
+         "orphans": [
+            0, 
+            1, 
+            2, 
+            3, 
+            16, 
+            17, 
+            18, 
+            19
+         ], 
+         "soe_id": 129, 
+         "subtrees": {
+            "Ancient Fury": 0, 
+            "Draconic Spellbinding": 0, 
+            "Noxious Dragon Scales": 0, 
+            "Trakanon's Essence": 0
+         }, 
+         "type": "Dragon", 
          "x_subclass": "", 
          "x_y_ratio": 0, 
          "y_subclass": ""

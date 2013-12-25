@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730456.434802,
+    "min_ts": 1387584167.53201,
     "returned": 3,
-    "seconds": 0.014976024627685547,
+    "seconds": 0.016182899475097656,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1049577299,
             "deity": 0,
-            "description": "Winds of Salvation will grant immunity to control effects for a short duration to both the caster and the target. The final rank allows Winds of Salvation to cure hostile effects from the target and the caster. The duration of this ability increases with each rank.",
-            "description_pvp": "Winds of Salvation will grant immunity to control effects for a short duration to both the caster and the target. The final rank allows Winds of Salvation to cure hostile effects from the target and the caster. The duration of this ability increases with each rank.",
+            "description": "Winds of Retribution gains a chance to trigger from attacks.",
+            "description_pvp": "Winds of Retribution gains a chance to trigger from attacks.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Applies a short duration immunity to most control effects to both the monk and their target following the use of Winds of Salvation.",
+                    "description": "Winds of Retribution will trigger 2.4 times per minute on any offensive attack.",
                     "indentation": 0
                 }
             ],
@@ -40,81 +42,23 @@
             "icon": {
                 "backdrop": 316,
                 "icon_heroic_op": -1,
-                "id": 42
-            },
-            "id": 5262422,
-            "last_update": 1366730633.289137,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Tranquil Breeze",
-            "name_lower": "tranquil breeze",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730633.289137,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1049577299,
-            "deity": 0,
-            "description": "Winds of Salvation will grant immunity to control effects for a short duration to both the caster and the target. The final rank allows Winds of Salvation to cure hostile effects from the target and the caster. The duration of this ability increases with each rank.",
-            "description_pvp": "Winds of Salvation will grant immunity to control effects for a short duration to both the caster and the target. The final rank allows Winds of Salvation to cure hostile effects from the target and the caster. The duration of this ability increases with each rank.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies a short duration immunity to most control effects to both the monk and their target following the use of Winds of Salvation.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Cures the target and the caster when Winds of Salvation is cast.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 42
+                "id": 169
             },
             "id": 3778971899,
-            "last_update": 1366730630.108451,
+            "last_update": 1387584167.612245,
             "level": 0,
             "max_targets": 0,
-            "name": "Tranquil Breeze",
-            "name_lower": "tranquil breeze",
+            "name": "Winds of Destruction",
+            "name_lower": "winds of destruction",
             "recast_secs": 1.976285,
             "recovery_secs_tenths": 50,
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730630.108451,
+            "ts": 1387584167.612245,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -124,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -135,8 +81,8 @@
             },
             "crc": 1049577299,
             "deity": 0,
-            "description": "Winds of Salvation will grant immunity to control effects for a short duration to both the caster and the target. The final rank allows Winds of Salvation to cure hostile effects from the target and the caster. The duration of this ability increases with each rank.",
-            "description_pvp": "Winds of Salvation will grant immunity to control effects for a short duration to both the caster and the target. The final rank allows Winds of Salvation to cure hostile effects from the target and the caster. The duration of this ability increases with each rank.",
+            "description": "Winds of Retribution gains a chance to trigger from attacks.",
+            "description_pvp": "Winds of Retribution gains a chance to trigger from attacks.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -144,7 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Applies a short duration immunity to most control effects to both the monk and their target following the use of Winds of Salvation.",
+                    "description": "Winds of Retribution will trigger 0.8 times per minute on any offensive attack.",
                     "indentation": 0
                 }
             ],
@@ -152,23 +98,79 @@
             "icon": {
                 "backdrop": 316,
                 "icon_heroic_op": -1,
-                "id": 42
+                "id": 169
             },
-            "id": 2083613069,
-            "last_update": 1366730456.434802,
+            "id": 5262422,
+            "last_update": 1387584167.536493,
             "level": 0,
             "max_targets": 0,
-            "name": "Tranquil Breeze",
-            "name_lower": "tranquil breeze",
+            "name": "Winds of Destruction",
+            "name_lower": "winds of destruction",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584167.536493,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1049577299,
+            "deity": 0,
+            "description": "Winds of Retribution gains a chance to trigger from attacks.",
+            "description_pvp": "Winds of Retribution gains a chance to trigger from attacks.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Winds of Retribution will trigger 1.6 times per minute on any offensive attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 169
+            },
+            "id": 2083613069,
+            "last_update": 1387584167.53201,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Winds of Destruction",
+            "name_lower": "winds of destruction",
             "recast_secs": 1.976285,
             "recovery_secs_tenths": 50,
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730456.434802,
+            "ts": 1387584167.53201,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

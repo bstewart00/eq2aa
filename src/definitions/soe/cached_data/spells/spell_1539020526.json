@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.366896,
+    "min_ts": 1387584548.287158,
     "returned": 1,
-    "seconds": 0.014889001846313477,
+    "seconds": 0.014369010925292969,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,14 +34,6 @@
             },
             "effect_list": [
                 {
-                    "description": "Slows target by 75.0%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases threat priority of target by 3 positions",
-                    "indentation": 0
-                },
-                {
                     "description": "Dazes target",
                     "indentation": 0
                 },
@@ -50,6 +44,14 @@
                 {
                     "description": "Inflicts 42 - 77 magic damage on target",
                     "indentation": 0
+                },
+                {
+                    "description": "Decreases threat priority of target by 3 positions",
+                    "indentation": 0
+                },
+                {
+                    "description": "Slows target by 75.0%",
+                    "indentation": 0
                 }
             ],
             "given_by": "alternateadvancement",
@@ -59,7 +61,7 @@
                 "id": 828
             },
             "id": 872215717,
-            "last_update": 1366730443.366896,
+            "last_update": 1387584548.287158,
             "level": 0,
             "max_targets": 0,
             "name": "Ethernere Chains",
@@ -69,10 +71,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730443.366896,
+            "ts": 1387584548.287158,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

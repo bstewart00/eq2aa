@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730640.507622,
+    "min_ts": 1387584632.957451,
     "returned": 1,
-    "seconds": 0.015198945999145508,
+    "seconds": 0.02049994468688965,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Ability Recovery Speed of caster by 25.0%",
+                    "description": "Increases Ability Casting Speed of caster by 25.0%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Ability Casting Speed of caster by 25.0%",
+                    "description": "Increases Ability Recovery Speed of caster by 25.0%",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 643
             },
             "id": 1237065361,
-            "last_update": 1366730640.507622,
+            "last_update": 1387584632.957451,
             "level": 0,
             "max_targets": 0,
             "name": "Sailwind",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730640.507622,
+            "ts": 1387584632.957451,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

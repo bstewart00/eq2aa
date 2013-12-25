@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730630.310193,
+    "min_ts": 1387584229.123403,
     "returned": 1,
-    "seconds": 0.13416481018066406,
+    "seconds": 0.015944957733154297,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 994240094,
             "deity": 0,
-            "description": "A replacement for Grave Sacrament. Increases the hatred of the shadowknight to targets in the area of effect. This spell can be cast while moving and grants an additional threat position.",
-            "description_pvp": "A replacement for Grave Sacrament. Increases the hatred of the shadowknight to targets in the area of effect. This spell can be cast while moving and grants an additional threat position.",
+            "description": "A replacement for Grave Sacrament. Increases the hatred of the shadowknight to targets in the area of effect. This spell grants an additional threat position.",
+            "description_pvp": "A replacement for Grave Sacrament. Increases the hatred of the shadowknight to targets in the area of effect. This spell grants an additional threat position.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 200,
@@ -32,11 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Inflicts 14 - 21 disease damage on targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 7 - 10 disease damage on targets in Area of Effect every 4 seconds",
+                    "description": "Increases threat priority of targets in Area of Effect by 3 positions",
                     "indentation": 0
                 },
                 {
@@ -44,7 +42,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Increases threat priority of targets in Area of Effect by 3 positions",
+                    "description": "Inflicts 14 - 21 disease damage on targets in Area of Effect",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 7 - 10 disease damage on targets in Area of Effect every 4 seconds",
                     "indentation": 0
                 }
             ],
@@ -55,7 +57,7 @@
                 "id": 237
             },
             "id": 2795617587,
-            "last_update": 1366730630.310193,
+            "last_update": 1387584229.123403,
             "level": 0,
             "max_targets": 0,
             "name": "Chaos Cloud",
@@ -65,10 +67,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730630.310193,
+            "ts": 1387584229.123403,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

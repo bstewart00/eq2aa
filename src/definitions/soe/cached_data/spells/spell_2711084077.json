@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730647.807794,
+    "min_ts": 1387585509.274451,
     "returned": 1,
-    "seconds": 0.026111125946044922,
+    "seconds": 0.039804935455322266,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -40,11 +42,11 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Applies when reaching 10 increments of Ferocity",
+                    "description": "Increases the beastlord's potency by 20% of their base potency",
                     "indentation": 2
                 },
                 {
-                    "description": "Increases the beastlord's potency by 20% of their base potency",
+                    "description": "Applies when reaching 10 increments of Ferocity",
                     "indentation": 2
                 },
                 {
@@ -59,7 +61,7 @@
                 "id": 479
             },
             "id": 1319020532,
-            "last_update": 1366730647.807794,
+            "last_update": 1387585509.274451,
             "level": 0,
             "max_targets": 0,
             "name": "Truespirit's Ferocity",
@@ -69,10 +71,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730647.807794,
+            "ts": 1387585509.274451,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

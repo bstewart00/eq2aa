@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.320031,
+    "min_ts": 1387584370.549396,
     "returned": 10,
-    "seconds": 0.01697087287902832,
+    "seconds": 0.01824498176574707,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,35 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
+                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 13 - 21 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When deflected this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 13 - 21 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 13 - 21 melee damage on target",
+                    "description": "Inflicts 13 - 22 melee damage on target",
                     "indentation": 2
                 },
                 {
@@ -76,7 +54,19 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 13 - 21 melee damage on target",
+                    "description": "Inflicts 13 - 22 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 13 - 22 melee damage on target",
                     "indentation": 2
                 },
                 {
@@ -85,588 +75,6 @@
                 },
                 {
                     "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 13 - 21 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 13 - 21 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 672
-            },
-            "id": 3011737448,
-            "last_update": 1366730653.390071,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lunge Reversal",
-            "name_lower": "lunge reversal",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 9,
-            "tier_name": "Master",
-            "ts": 1366730653.390071,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1635743814,
-            "deity": 0,
-            "description": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
-            "description_pvp": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 150,
-                "min_sec_tenths": 150
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Lunge Reversal.  Lasts for 30.0 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 13 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When deflected this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 13 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 13 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 13 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 13 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 8 - 13 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 672
-            },
-            "id": 1639230963,
-            "last_update": 1366730645.273882,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lunge Reversal",
-            "name_lower": "lunge reversal",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730645.273882,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1635743814,
-            "deity": 0,
-            "description": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
-            "description_pvp": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 150,
-                "min_sec_tenths": 150
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Lunge Reversal.  Lasts for 30.0 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 7 - 12 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When deflected this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 7 - 12 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 7 - 12 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 7 - 12 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 7 - 12 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 7 - 12 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 672
-            },
-            "id": 2161797470,
-            "last_update": 1366730640.506062,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lunge Reversal",
-            "name_lower": "lunge reversal",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730640.506062,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1635743814,
-            "deity": 0,
-            "description": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
-            "description_pvp": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 150,
-                "min_sec_tenths": 150
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Lunge Reversal.  Lasts for 30.0 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 11 - 19 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When deflected this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 11 - 19 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 11 - 19 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 11 - 19 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 11 - 19 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 11 - 19 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 672
-            },
-            "id": 2014847720,
-            "last_update": 1366730612.378448,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lunge Reversal",
-            "name_lower": "lunge reversal",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730612.378448,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1635743814,
-            "deity": 0,
-            "description": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
-            "description_pvp": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 150,
-                "min_sec_tenths": 150
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Lunge Reversal.  Lasts for 30.0 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 9 - 15 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When deflected this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 9 - 15 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 9 - 15 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 9 - 15 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 9 - 15 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 9 - 15 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 672
-            },
-            "id": 75040563,
-            "last_update": 1366730451.694888,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Lunge Reversal",
-            "name_lower": "lunge reversal",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730451.694888,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1635743814,
-            "deity": 0,
-            "description": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
-            "description_pvp": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 150,
-                "min_sec_tenths": 150
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Lunge Reversal.  Lasts for 30.0 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -691,42 +99,6 @@
                 },
                 {
                     "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 13 - 22 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 13 - 22 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 13 - 22 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -745,7 +117,7 @@
                 "id": 672
             },
             "id": 1860274225,
-            "last_update": 1366730451.401468,
+            "last_update": 1387584377.997247,
             "level": 0,
             "max_targets": 0,
             "name": "Lunge Reversal",
@@ -755,10 +127,10 @@
             "spellbook": 1,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730451.401468,
+            "ts": 1387584377.997247,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -768,8 +140,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -792,7 +166,171 @@
                     "indentation": 0
                 },
                 {
+                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 13 - 21 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 13 - 21 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
                     "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 13 - 21 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 13 - 21 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 13 - 21 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 13 - 21 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 672
+            },
+            "id": 3011737448,
+            "last_update": 1387584377.156663,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lunge Reversal",
+            "name_lower": "lunge reversal",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 9,
+            "tier_name": "Master",
+            "ts": 1387584377.156663,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1635743814,
+            "deity": 0,
+            "description": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
+            "description_pvp": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 150,
+                "min_sec_tenths": 150
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Lunge Reversal.  Lasts for 30.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 12 - 20 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 12 - 20 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 12 - 20 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -817,42 +355,6 @@
                 },
                 {
                     "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 12 - 20 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 12 - 20 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 12 - 20 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -871,7 +373,7 @@
                 "id": 672
             },
             "id": 780965406,
-            "last_update": 1366730443.790699,
+            "last_update": 1387584376.367804,
             "level": 0,
             "max_targets": 0,
             "name": "Lunge Reversal",
@@ -881,10 +383,10 @@
             "spellbook": 1,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730443.790699,
+            "ts": 1387584376.367804,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -894,8 +396,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -918,35 +422,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
+                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 9 - 16 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When deflected this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 9 - 16 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 9 - 16 melee damage on target",
+                    "description": "Inflicts 11 - 19 melee damage on target",
                     "indentation": 2
                 },
                 {
@@ -958,7 +438,19 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 9 - 16 melee damage on target",
+                    "description": "Inflicts 11 - 19 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 11 - 19 melee damage on target",
                     "indentation": 2
                 },
                 {
@@ -970,7 +462,7 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 9 - 16 melee damage on target",
+                    "description": "Inflicts 11 - 19 melee damage on target",
                     "indentation": 2
                 },
                 {
@@ -978,11 +470,23 @@
                     "indentation": 2
                 },
                 {
-                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
+                    "description": "When deflected this spell will cast Lunge Reversal on target's victim.  ",
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 9 - 16 melee damage on target",
+                    "description": "Inflicts 11 - 19 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 11 - 19 melee damage on target",
                     "indentation": 2
                 },
                 {
@@ -996,8 +500,8 @@
                 "icon_heroic_op": -1,
                 "id": 672
             },
-            "id": 2574706245,
-            "last_update": 1366730443.452186,
+            "id": 2014847720,
+            "last_update": 1387584375.526578,
             "level": 0,
             "max_targets": 0,
             "name": "Lunge Reversal",
@@ -1005,12 +509,12 @@
             "recast_secs": 29.64427,
             "recovery_secs_tenths": 50,
             "spellbook": 1,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730443.452186,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584375.526578,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -1020,8 +524,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -1044,7 +550,43 @@
                     "indentation": 0
                 },
                 {
+                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 10 - 17 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 10 - 17 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
                     "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 10 - 17 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -1069,42 +611,6 @@
                 },
                 {
                     "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 10 - 17 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 10 - 17 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 10 - 17 melee damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a total of 1 trigger of the spell.",
-                    "indentation": 2
-                },
-                {
-                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -1123,7 +629,7 @@
                 "id": 672
             },
             "id": 3843539870,
-            "last_update": 1366730441.577539,
+            "last_update": 1387584374.686182,
             "level": 0,
             "max_targets": 0,
             "name": "Lunge Reversal",
@@ -1133,10 +639,10 @@
             "spellbook": 1,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730441.577539,
+            "ts": 1387584374.686182,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -1146,8 +652,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -1170,7 +678,427 @@
                     "indentation": 0
                 },
                 {
+                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 16 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 16 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
                     "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 16 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 16 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 16 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 16 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 672
+            },
+            "id": 2574706245,
+            "last_update": 1387584373.837058,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lunge Reversal",
+            "name_lower": "lunge reversal",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584373.837058,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1635743814,
+            "deity": 0,
+            "description": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
+            "description_pvp": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 150,
+                "min_sec_tenths": 150
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Lunge Reversal.  Lasts for 30.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 15 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 15 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 15 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 15 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 15 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 15 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 672
+            },
+            "id": 75040563,
+            "last_update": 1387584373.037647,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lunge Reversal",
+            "name_lower": "lunge reversal",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584373.037647,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1635743814,
+            "deity": 0,
+            "description": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
+            "description_pvp": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 150,
+                "min_sec_tenths": 150
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Lunge Reversal.  Lasts for 30.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 13 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 13 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 13 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 13 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When deflected this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 13 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 8 - 13 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 672
+            },
+            "id": 1639230963,
+            "last_update": 1387584372.206334,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lunge Reversal",
+            "name_lower": "lunge reversal",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584372.206334,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1635743814,
+            "deity": 0,
+            "description": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
+            "description_pvp": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 150,
+                "min_sec_tenths": 150
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Lunge Reversal.  Lasts for 30.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 12 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 12 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 12 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a parry this spell will cast Lunge Reversal on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -1204,9 +1132,89 @@
                 {
                     "description": "Grants a total of 1 trigger of the spell.",
                     "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 672
+            },
+            "id": 4240133253,
+            "last_update": 1387584371.39654,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Lunge Reversal",
+            "name_lower": "lunge reversal",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584371.39654,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1635743814,
+            "deity": 0,
+            "description": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
+            "description_pvp": "The next time the Fencer or an enemy attacking the Fencer uses a defensive maneuver to avoid an attack, the Fencer returns with a melee attack. This effect refreshes every 15 seconds.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 150,
+                "min_sec_tenths": 150
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Lunge Reversal.  Lasts for 30.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 12 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
                 },
                 {
                     "description": "When parried this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 12 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "When riposted this spell will cast Lunge Reversal on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -1230,7 +1238,19 @@
                     "indentation": 2
                 },
                 {
-                    "description": "When blocked this spell will cast Lunge Reversal on target's victim.  ",
+                    "description": "When deflected this spell will cast Lunge Reversal on target's victim.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 7 - 12 melee damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a total of 1 trigger of the spell.",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a riposte this spell will cast Lunge Reversal on target's victim.  ",
                     "indentation": 1
                 },
                 {
@@ -1248,8 +1268,8 @@
                 "icon_heroic_op": -1,
                 "id": 672
             },
-            "id": 4240133253,
-            "last_update": 1366730440.320031,
+            "id": 2161797470,
+            "last_update": 1387584370.549396,
             "level": 0,
             "max_targets": 0,
             "name": "Lunge Reversal",
@@ -1257,12 +1277,12 @@
             "recast_secs": 29.64427,
             "recovery_secs_tenths": 50,
             "spellbook": 1,
-            "tier": 2,
+            "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730440.320031,
+            "ts": 1387584370.549396,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

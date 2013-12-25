@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730442.409482,
+    "min_ts": 1387585531.241748,
     "returned": 8,
-    "seconds": 0.032921791076660156,
+    "seconds": 0.016460895538330078,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 830
             },
             "id": 1950494124,
-            "last_update": 1366730654.728822,
+            "last_update": 1387585531.71234,
             "level": 0,
             "max_targets": 0,
             "name": "Stealthy Avoidance",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730654.728822,
+            "ts": 1387585531.71234,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,170 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2941349201,
-            "deity": 0,
-            "description": "Coming out of Stalk, this fools the enemy for a short duration allowing you to greatly reduce incoming damage for a short duration.",
-            "description_pvp": "Coming out of Stalk, this fools the enemy for a short duration allowing you to greatly reduce incoming damage for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Grants a temporary reduction to the next damaging attack.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 830
-            },
-            "id": 2792748855,
-            "last_update": 1366730654.378556,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Stealthy Avoidance",
-            "name_lower": "stealthy avoidance",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730654.378556,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2941349201,
-            "deity": 0,
-            "description": "Coming out of Stalk, this fools the enemy for a short duration allowing you to greatly reduce incoming damage for a short duration.",
-            "description_pvp": "Coming out of Stalk, this fools the enemy for a short duration allowing you to greatly reduce incoming damage for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Grants a temporary reduction to the next damaging attack.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 830
-            },
-            "id": 3283639799,
-            "last_update": 1366730639.545057,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Stealthy Avoidance",
-            "name_lower": "stealthy avoidance",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730639.545057,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2941349201,
-            "deity": 0,
-            "description": "Coming out of Stalk, this fools the enemy for a short duration allowing you to greatly reduce incoming damage for a short duration.",
-            "description_pvp": "Coming out of Stalk, this fools the enemy for a short duration allowing you to greatly reduce incoming damage for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Grants a temporary reduction to the next damaging attack.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 830
-            },
-            "id": 3658797804,
-            "last_update": 1366730466.433466,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Stealthy Avoidance",
-            "name_lower": "stealthy avoidance",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730466.433466,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +101,7 @@
                 "id": 830
             },
             "id": 584489306,
-            "last_update": 1366730464.899365,
+            "last_update": 1387585531.67302,
             "level": 0,
             "max_targets": 0,
             "name": "Stealthy Avoidance",
@@ -269,10 +111,10 @@
             "spellbook": 4,
             "tier": 7,
             "tier_name": "Expert",
-            "ts": 1366730464.899365,
+            "ts": 1387585531.67302,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -282,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -313,7 +157,7 @@
                 "id": 830
             },
             "id": 3218700332,
-            "last_update": 1366730460.961006,
+            "last_update": 1387585531.591108,
             "level": 0,
             "max_targets": 0,
             "name": "Stealthy Avoidance",
@@ -323,10 +167,10 @@
             "spellbook": 4,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730460.961006,
+            "ts": 1387585531.591108,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -336,8 +180,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2941349201,
+            "deity": 0,
+            "description": "Coming out of Stalk, this fools the enemy for a short duration allowing you to greatly reduce incoming damage for a short duration.",
+            "description_pvp": "Coming out of Stalk, this fools the enemy for a short duration allowing you to greatly reduce incoming damage for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Grants a temporary reduction to the next damaging attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 830
+            },
+            "id": 3283639799,
+            "last_update": 1387585531.509922,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Stealthy Avoidance",
+            "name_lower": "stealthy avoidance",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585531.509922,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -367,7 +269,7 @@
                 "id": 830
             },
             "id": 1589099649,
-            "last_update": 1366730460.024188,
+            "last_update": 1387585531.471984,
             "level": 0,
             "max_targets": 0,
             "name": "Stealthy Avoidance",
@@ -377,10 +279,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730460.024188,
+            "ts": 1387585531.471984,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -390,8 +292,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -421,7 +325,7 @@
                 "id": 830
             },
             "id": 997856833,
-            "last_update": 1366730442.409482,
+            "last_update": 1387585531.353557,
             "level": 0,
             "max_targets": 0,
             "name": "Stealthy Avoidance",
@@ -431,10 +335,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730442.409482,
+            "ts": 1387585531.353557,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2941349201,
+            "deity": 0,
+            "description": "Coming out of Stalk, this fools the enemy for a short duration allowing you to greatly reduce incoming damage for a short duration.",
+            "description_pvp": "Coming out of Stalk, this fools the enemy for a short duration allowing you to greatly reduce incoming damage for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Grants a temporary reduction to the next damaging attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 830
+            },
+            "id": 2792748855,
+            "last_update": 1387585531.311524,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Stealthy Avoidance",
+            "name_lower": "stealthy avoidance",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585531.311524,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2941349201,
+            "deity": 0,
+            "description": "Coming out of Stalk, this fools the enemy for a short duration allowing you to greatly reduce incoming damage for a short duration.",
+            "description_pvp": "Coming out of Stalk, this fools the enemy for a short duration allowing you to greatly reduce incoming damage for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Grants a temporary reduction to the next damaging attack.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 830
+            },
+            "id": 3658797804,
+            "last_update": 1387585531.241748,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Stealthy Avoidance",
+            "name_lower": "stealthy avoidance",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585531.241748,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

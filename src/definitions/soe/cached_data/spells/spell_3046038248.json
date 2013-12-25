@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730637.223081,
+    "min_ts": 1387585049.998893,
     "returned": 1,
-    "seconds": 0.014186859130859375,
+    "seconds": 0.015330076217651367,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Caster will Parry 100.0% of incoming attacks",
+                    "description": "Prevents AOE (except when direct) ",
                     "indentation": 0
                 },
                 {
-                    "description": "Prevents AOE (except when direct) ",
+                    "description": "Caster will Parry 100.0% of incoming attacks",
                     "indentation": 0
                 },
                 {
@@ -55,7 +57,7 @@
                 "id": 560
             },
             "id": 3446310268,
-            "last_update": 1366730637.223081,
+            "last_update": 1387585049.998893,
             "level": 0,
             "max_targets": 0,
             "name": "Dragoon's Reflexes",
@@ -65,10 +67,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730637.223081,
+            "ts": 1387585049.998893,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

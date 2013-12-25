@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730437.6983,
+    "min_ts": 1387585005.670858,
     "returned": 5,
-    "seconds": 0.015535116195678711,
+    "seconds": 0.015437126159667969,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +49,7 @@
                 "id": 219
             },
             "id": 2796513443,
-            "last_update": 1366730659.402657,
+            "last_update": 1387585005.953136,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Feral Tenacity",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730659.402657,
+            "ts": 1387585005.953136,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -105,7 +109,7 @@
                 "id": 219
             },
             "id": 1000376789,
-            "last_update": 1366730637.722342,
+            "last_update": 1387585005.885403,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Feral Tenacity",
@@ -115,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730637.722342,
+            "ts": 1387585005.885403,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,124 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1195066446,
-            "deity": 0,
-            "description": "Increases the critical amount and hastens the reuse speed of Feral Tenacity and its upgrades.",
-            "description_pvp": "Increases the critical amount and hastens the reuse speed of Feral Tenacity and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 120 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 10%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 219
-            },
-            "id": 3278029411,
-            "last_update": 1366730632.606095,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Feral Tenacity",
-            "name_lower": "enhance: feral tenacity",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730632.606095,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1195066446,
-            "deity": 0,
-            "description": "Increases the critical amount and hastens the reuse speed of Feral Tenacity and its upgrades.",
-            "description_pvp": "Increases the critical amount and hastens the reuse speed of Feral Tenacity and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 60 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 5%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 219
-            },
-            "id": 3204704184,
-            "last_update": 1366730585.590126,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Feral Tenacity",
-            "name_lower": "enhance: feral tenacity",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730585.590126,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -279,7 +169,7 @@
                 "id": 219
             },
             "id": 1584210709,
-            "last_update": 1366730437.6983,
+            "last_update": 1387585005.832617,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Feral Tenacity",
@@ -289,10 +179,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730437.6983,
+            "ts": 1387585005.832617,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1195066446,
+            "deity": 0,
+            "description": "Increases the critical amount and hastens the reuse speed of Feral Tenacity and its upgrades.",
+            "description_pvp": "Increases the critical amount and hastens the reuse speed of Feral Tenacity and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 120 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 10%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 219
+            },
+            "id": 3278029411,
+            "last_update": 1387585005.75138,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Feral Tenacity",
+            "name_lower": "enhance: feral tenacity",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585005.75138,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1195066446,
+            "deity": 0,
+            "description": "Increases the critical amount and hastens the reuse speed of Feral Tenacity and its upgrades.",
+            "description_pvp": "Increases the critical amount and hastens the reuse speed of Feral Tenacity and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 60 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 5%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 219
+            },
+            "id": 3204704184,
+            "last_update": 1387585005.670858,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Feral Tenacity",
+            "name_lower": "enhance: feral tenacity",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585005.670858,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

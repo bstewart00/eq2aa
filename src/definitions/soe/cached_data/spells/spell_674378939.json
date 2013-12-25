@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730441.699222,
+    "min_ts": 1387585066.15316,
     "returned": 10,
-    "seconds": 0.017467975616455078,
+    "seconds": 0.016466140747070312,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 674378939,
             "deity": 0,
-            "description": "Increases your group's chance at striking twice with each auto attack.",
-            "description_pvp": "Increases your group's chance at striking twice with each auto attack.",
+            "description": "Increases your group's damage per second.",
+            "description_pvp": "Increases your group's damage per second.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 1800,
@@ -32,115 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of group members (AE) by 5.0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 670
-            },
-            "id": 1860969572,
-            "last_update": 1366730642.136531,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Fortissimo",
-            "name_lower": "fortissimo",
-            "recast_secs": 4.940711,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730642.136531,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 674378939,
-            "deity": 0,
-            "description": "Increases your group's chance at striking twice with each auto attack.",
-            "description_pvp": "Increases your group's chance at striking twice with each auto attack.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 1800,
-                "min_sec_tenths": 1800
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of group members (AE) by 7.0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 670
-            },
-            "id": 246452527,
-            "last_update": 1366730640.043204,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Fortissimo",
-            "name_lower": "fortissimo",
-            "recast_secs": 4.940711,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730640.043204,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 674378939,
-            "deity": 0,
-            "description": "Increases your group's chance at striking twice with each auto attack.",
-            "description_pvp": "Increases your group's chance at striking twice with each auto attack.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 1800,
-                "min_sec_tenths": 1800
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of group members (AE) by 10.0",
+                    "description": "Increases Damage Per Second of group members (AE) by 10.0",
                     "indentation": 0
                 }
             ],
@@ -151,7 +45,7 @@
                 "id": 670
             },
             "id": 2614431216,
-            "last_update": 1366730632.857082,
+            "last_update": 1387585066.912279,
             "level": 0,
             "max_targets": 0,
             "name": "Fortissimo",
@@ -161,10 +55,10 @@
             "spellbook": 0,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730632.857082,
+            "ts": 1387585066.912279,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -185,8 +81,8 @@
             },
             "crc": 674378939,
             "deity": 0,
-            "description": "Increases your group's chance at striking twice with each auto attack.",
-            "description_pvp": "Increases your group's chance at striking twice with each auto attack.",
+            "description": "Increases your group's damage per second.",
+            "description_pvp": "Increases your group's damage per second.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 1800,
@@ -194,7 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of group members (AE) by 9.0",
+                    "description": "Increases Damage Per Second of group members (AE) by 9.0",
                     "indentation": 0
                 }
             ],
@@ -205,7 +101,7 @@
                 "id": 670
             },
             "id": 4099317151,
-            "last_update": 1366730630.630241,
+            "last_update": 1387585066.832059,
             "level": 0,
             "max_targets": 0,
             "name": "Fortissimo",
@@ -215,10 +111,10 @@
             "spellbook": 0,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730630.630241,
+            "ts": 1387585066.832059,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -239,8 +137,8 @@
             },
             "crc": 674378939,
             "deity": 0,
-            "description": "Increases your group's chance at striking twice with each auto attack.",
-            "description_pvp": "Increases your group's chance at striking twice with each auto attack.",
+            "description": "Increases your group's damage per second.",
+            "description_pvp": "Increases your group's damage per second.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 1800,
@@ -248,115 +146,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of group members (AE) by 1.0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 670
-            },
-            "id": 2924826354,
-            "last_update": 1366730614.422805,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Fortissimo",
-            "name_lower": "fortissimo",
-            "recast_secs": 4.940711,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730614.422805,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 674378939,
-            "deity": 0,
-            "description": "Increases your group's chance at striking twice with each auto attack.",
-            "description_pvp": "Increases your group's chance at striking twice with each auto attack.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 1800,
-                "min_sec_tenths": 1800
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of group members (AE) by 6.0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 670
-            },
-            "id": 3542501546,
-            "last_update": 1366730463.315733,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Fortissimo",
-            "name_lower": "fortissimo",
-            "recast_secs": 4.940711,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730463.315733,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 50.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 674378939,
-            "deity": 0,
-            "description": "Increases your group's chance at striking twice with each auto attack.",
-            "description_pvp": "Increases your group's chance at striking twice with each auto attack.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 1800,
-                "min_sec_tenths": 1800
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of group members (AE) by 8.0",
+                    "description": "Increases Damage Per Second of group members (AE) by 8.0",
                     "indentation": 0
                 }
             ],
@@ -367,7 +157,7 @@
                 "id": 670
             },
             "id": 700466202,
-            "last_update": 1366730461.554755,
+            "last_update": 1387585066.754206,
             "level": 0,
             "max_targets": 0,
             "name": "Fortissimo",
@@ -377,10 +167,10 @@
             "spellbook": 0,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730461.554755,
+            "ts": 1387585066.754206,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -390,8 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -401,8 +193,8 @@
             },
             "crc": 674378939,
             "deity": 0,
-            "description": "Increases your group's chance at striking twice with each auto attack.",
-            "description_pvp": "Increases your group's chance at striking twice with each auto attack.",
+            "description": "Increases your group's damage per second.",
+            "description_pvp": "Increases your group's damage per second.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 1800,
@@ -410,7 +202,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of group members (AE) by 2.0",
+                    "description": "Increases Damage Per Second of group members (AE) by 7.0",
                     "indentation": 0
                 }
             ],
@@ -420,8 +212,8 @@
                 "icon_heroic_op": -1,
                 "id": 670
             },
-            "id": 329196092,
-            "last_update": 1366730458.852161,
+            "id": 246452527,
+            "last_update": 1387585066.672142,
             "level": 0,
             "max_targets": 0,
             "name": "Fortissimo",
@@ -429,12 +221,12 @@
             "recast_secs": 4.940711,
             "recovery_secs_tenths": 50,
             "spellbook": 0,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730458.852161,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585066.672142,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -444,8 +236,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -455,8 +249,8 @@
             },
             "crc": 674378939,
             "deity": 0,
-            "description": "Increases your group's chance at striking twice with each auto attack.",
-            "description_pvp": "Increases your group's chance at striking twice with each auto attack.",
+            "description": "Increases your group's damage per second.",
+            "description_pvp": "Increases your group's damage per second.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 1800,
@@ -464,7 +258,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of group members (AE) by 3.0",
+                    "description": "Increases Damage Per Second of group members (AE) by 6.0",
                     "indentation": 0
                 }
             ],
@@ -474,8 +268,8 @@
                 "icon_heroic_op": -1,
                 "id": 670
             },
-            "id": 3456760761,
-            "last_update": 1366730458.72101,
+            "id": 3542501546,
+            "last_update": 1387585066.565039,
             "level": 0,
             "max_targets": 0,
             "name": "Fortissimo",
@@ -483,12 +277,12 @@
             "recast_secs": 4.940711,
             "recovery_secs_tenths": 50,
             "spellbook": 0,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730458.72101,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387585066.565039,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -498,8 +292,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -509,8 +305,8 @@
             },
             "crc": 674378939,
             "deity": 0,
-            "description": "Increases your group's chance at striking twice with each auto attack.",
-            "description_pvp": "Increases your group's chance at striking twice with each auto attack.",
+            "description": "Increases your group's damage per second.",
+            "description_pvp": "Increases your group's damage per second.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 1800,
@@ -518,7 +314,63 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of group members (AE) by 4.0",
+                    "description": "Increases Damage Per Second of group members (AE) by 5.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 670
+            },
+            "id": 1860969572,
+            "last_update": 1387585066.485126,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Fortissimo",
+            "name_lower": "fortissimo",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585066.485126,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 674378939,
+            "deity": 0,
+            "description": "Increases your group's damage per second.",
+            "description_pvp": "Increases your group's damage per second.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 1800,
+                "min_sec_tenths": 1800
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of group members (AE) by 4.0",
                     "indentation": 0
                 }
             ],
@@ -529,7 +381,7 @@
                 "id": 670
             },
             "id": 3011182049,
-            "last_update": 1366730441.699222,
+            "last_update": 1387585066.395129,
             "level": 0,
             "max_targets": 0,
             "name": "Fortissimo",
@@ -539,10 +391,178 @@
             "spellbook": 0,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730441.699222,
+            "ts": 1387585066.395129,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 674378939,
+            "deity": 0,
+            "description": "Increases your group's damage per second.",
+            "description_pvp": "Increases your group's damage per second.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 1800,
+                "min_sec_tenths": 1800
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of group members (AE) by 3.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 670
+            },
+            "id": 3456760761,
+            "last_update": 1387585066.285843,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Fortissimo",
+            "name_lower": "fortissimo",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585066.285843,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 674378939,
+            "deity": 0,
+            "description": "Increases your group's damage per second.",
+            "description_pvp": "Increases your group's damage per second.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 1800,
+                "min_sec_tenths": 1800
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of group members (AE) by 2.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 670
+            },
+            "id": 329196092,
+            "last_update": 1387585066.204868,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Fortissimo",
+            "name_lower": "fortissimo",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585066.204868,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 50.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 674378939,
+            "deity": 0,
+            "description": "Increases your group's damage per second.",
+            "description_pvp": "Increases your group's damage per second.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 1800,
+                "min_sec_tenths": 1800
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of group members (AE) by 1.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 670
+            },
+            "id": 2924826354,
+            "last_update": 1387585066.15316,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Fortissimo",
+            "name_lower": "fortissimo",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585066.15316,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
         }
     ]
 }

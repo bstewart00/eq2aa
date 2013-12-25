@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730648.604855,
+    "min_ts": 1387584855.997473,
     "returned": 1,
-    "seconds": 0.01749420166015625,
+    "seconds": 0.014590024948120117,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,15 +34,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the hitpoints and dps of the pet by 20%.  Also increases the attributes and crushing skill of the pet.",
-                    "indentation": 0
-                },
-                {
                     "description": "Caster will Parry 7.5% of incoming attacks",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Crushing and Piercing of caster by 3.0",
+                    "description": "Increases Piercing and Crushing of caster by 3.0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the hitpoints and Multi-Attack Chance of the pet by 20%.  Also increases the attributes and weapon skills of the pet.",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 307
             },
             "id": 2305151192,
-            "last_update": 1366730648.604855,
+            "last_update": 1387584855.997473,
             "level": 0,
             "max_targets": 0,
             "name": "Weapon Mastery",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730648.604855,
+            "ts": 1387584855.997473,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

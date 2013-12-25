@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730460.099689,
+    "min_ts": 1387584958.913254,
     "returned": 2,
-    "seconds": 0.01444101333618164,
+    "seconds": 0.016633987426757812,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,67 +34,9 @@
             },
             "effect_list": [
                 {
-                    "description": "When any damage is received this spell will cast Divine Guidance on target.  ",
+                    "description": "Increases Max Health of group members (AE) by 20.0%",
                     "indentation": 0
                 },
-                {
-                    "description": "Heals target for 8 - 10",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Max Health of group members (AE) by 10.0%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 800
-            },
-            "id": 3701762928,
-            "last_update": 1366730591.719048,
-            "level": 0,
-            "max_targets": -1,
-            "name": "Divine Guidance",
-            "name_lower": "divine guidance",
-            "recast_secs": 177.865616,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730591.719048,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 35.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3407524969,
-            "deity": 0,
-            "description": "Greatly improves the maximum health of the cleric's group and grants them a large heal when they take damage for a short duration.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "description_pvp": "Greatly improves the maximum health of the cleric's group and grants them a large heal when they take damage for a short duration.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
                 {
                     "description": "When any damage is received this spell will cast Divine Guidance on target.  ",
                     "indentation": 0
@@ -100,10 +44,6 @@
                 {
                     "description": "Heals target for 16 - 19",
                     "indentation": 1
-                },
-                {
-                    "description": "Increases Max Health of group members (AE) by 20.0%",
-                    "indentation": 0
                 }
             ],
             "given_by": "alternateadvancement",
@@ -113,7 +53,7 @@
                 "id": 800
             },
             "id": 2697285291,
-            "last_update": 1366730460.099689,
+            "last_update": 1387584959.060001,
             "level": 0,
             "max_targets": -1,
             "name": "Divine Guidance",
@@ -123,10 +63,74 @@
             "spellbook": 0,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730460.099689,
+            "ts": 1387584959.060001,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 35.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3407524969,
+            "deity": 0,
+            "description": "Greatly improves the maximum health of the cleric's group and grants them a large heal when they take damage for a short duration.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "description_pvp": "Greatly improves the maximum health of the cleric's group and grants them a large heal when they take damage for a short duration.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Max Health of group members (AE) by 10.0%",
+                    "indentation": 0
+                },
+                {
+                    "description": "When any damage is received this spell will cast Divine Guidance on target.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Heals target for 8 - 10",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 800
+            },
+            "id": 3701762928,
+            "last_update": 1387584958.913254,
+            "level": 0,
+            "max_targets": -1,
+            "name": "Divine Guidance",
+            "name_lower": "divine guidance",
+            "recast_secs": 177.865616,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584958.913254,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
         }
     ]
 }

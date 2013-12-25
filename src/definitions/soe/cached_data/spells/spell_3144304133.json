@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730456.101597,
+    "min_ts": 1387585445.422249,
     "returned": 3,
-    "seconds": 0.01951909065246582,
+    "seconds": 0.015161991119384766,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,132 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3144304133,
-            "deity": 0,
-            "description": "The brigand applies an extra layer of poison to their weapons, allowing them to deal damage to enemies surrounding their target when using back and flanking combat arts.",
-            "description_pvp": "The brigand applies an extra layer of poison to their weapons, allowing them to deal damage to enemies surrounding their target when using back and flanking combat arts.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 10,
-                "min_sec_tenths": 10
-            },
-            "effect_list": [
-                {
-                    "description": "When a combat art is used this spell has a 50% chance to cast Venom Explosion on target of combat art.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 14 - 23 poison damage on targets in Area of Effect",
-                    "indentation": 1
-                },
-                {
-                    "description": "This effect can only trigger from back or flanking attacks.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 238
-            },
-            "id": 1624826653,
-            "last_update": 1366730635.351693,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Venom Explosion",
-            "name_lower": "venom explosion",
-            "recast_secs": 0.988142,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730635.351693,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 20,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3144304133,
-            "deity": 0,
-            "description": "The brigand applies an extra layer of poison to their weapons, allowing them to deal damage to enemies surrounding their target when using back and flanking combat arts.",
-            "description_pvp": "The brigand applies an extra layer of poison to their weapons, allowing them to deal damage to enemies surrounding their target when using back and flanking combat arts.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 10,
-                "min_sec_tenths": 10
-            },
-            "effect_list": [
-                {
-                    "description": "When a combat art is used this spell has a 25% chance to cast Venom Explosion on target of combat art.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 14 - 23 poison damage on targets in Area of Effect",
-                    "indentation": 1
-                },
-                {
-                    "description": "This effect can only trigger from back or flanking attacks.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 238
-            },
-            "id": 481937094,
-            "last_update": 1366730467.436956,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Venom Explosion",
-            "name_lower": "venom explosion",
-            "recast_secs": 0.988142,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730467.436956,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 20,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -175,7 +53,7 @@
                 "id": 238
             },
             "id": 4258726507,
-            "last_update": 1366730456.101597,
+            "last_update": 1387585445.70237,
             "level": 0,
             "max_targets": 0,
             "name": "Venom Explosion",
@@ -185,10 +63,138 @@
             "spellbook": 1,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730456.101597,
+            "ts": 1387585445.70237,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 20,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3144304133,
+            "deity": 0,
+            "description": "The brigand applies an extra layer of poison to their weapons, allowing them to deal damage to enemies surrounding their target when using back and flanking combat arts.",
+            "description_pvp": "The brigand applies an extra layer of poison to their weapons, allowing them to deal damage to enemies surrounding their target when using back and flanking combat arts.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 10,
+                "min_sec_tenths": 10
+            },
+            "effect_list": [
+                {
+                    "description": "When a combat art is used this spell has a 50% chance to cast Venom Explosion on target of combat art.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 14 - 23 poison damage on targets in Area of Effect",
+                    "indentation": 1
+                },
+                {
+                    "description": "This effect can only trigger from back or flanking attacks.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 238
+            },
+            "id": 1624826653,
+            "last_update": 1387585445.542231,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Venom Explosion",
+            "name_lower": "venom explosion",
+            "recast_secs": 0.988142,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585445.542231,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 20,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3144304133,
+            "deity": 0,
+            "description": "The brigand applies an extra layer of poison to their weapons, allowing them to deal damage to enemies surrounding their target when using back and flanking combat arts.",
+            "description_pvp": "The brigand applies an extra layer of poison to their weapons, allowing them to deal damage to enemies surrounding their target when using back and flanking combat arts.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 10,
+                "min_sec_tenths": 10
+            },
+            "effect_list": [
+                {
+                    "description": "When a combat art is used this spell has a 25% chance to cast Venom Explosion on target of combat art.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 14 - 23 poison damage on targets in Area of Effect",
+                    "indentation": 1
+                },
+                {
+                    "description": "This effect can only trigger from back or flanking attacks.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 238
+            },
+            "id": 481937094,
+            "last_update": 1387585445.422249,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Venom Explosion",
+            "name_lower": "venom explosion",
+            "recast_secs": 0.988142,
+            "recovery_secs_tenths": 50,
+            "spellbook": 1,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585445.422249,
+            "type": "arts",
+            "typeid": 1,
+            "version": 2
         }
     ]
 }

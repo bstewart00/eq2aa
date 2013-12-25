@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730632.765219,
+    "min_ts": 1387584174.176541,
     "returned": 1,
-    "seconds": 0.017868995666503906,
+    "seconds": 0.016009092330932617,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,10 +34,6 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the Potency of all abilities by 20.0% to 41.0%, increasing every few seconds.",
-                    "indentation": 0
-                },
-                {
                     "description": "Applies Grand Finale on termination.  Lasts for 20.0 seconds.",
                     "indentation": 0
                 },
@@ -50,6 +48,10 @@
                 {
                     "description": "Grants a total of 3 triggers of the spell.",
                     "indentation": 2
+                },
+                {
+                    "description": "Increases the Potency of all abilities by 20.0% to 41.0%, increasing every few seconds.",
+                    "indentation": 0
                 }
             ],
             "given_by": "alternateadvancement",
@@ -59,7 +61,7 @@
                 "id": 817
             },
             "id": 3713739165,
-            "last_update": 1366730632.765219,
+            "last_update": 1387584174.176541,
             "level": 0,
             "max_targets": 0,
             "name": "Cadence of Destruction",
@@ -69,10 +71,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730632.765219,
+            "ts": 1387584174.176541,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

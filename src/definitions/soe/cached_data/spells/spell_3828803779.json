@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730628.647415,
+    "min_ts": 1387585401.266206,
     "returned": 5,
-    "seconds": 0.015275001525878906,
+    "seconds": 0.021439075469970703,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,61 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 60 seconds",
+                    "description": "Improves reuse speed by 150 seconds",
                     "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 157
-            },
-            "id": 3130044007,
-            "last_update": 1366730653.053814,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Disorientation",
-            "name_lower": "enhance: disorientation",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730653.053814,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
                 },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3828803779,
-            "deity": 0,
-            "description": "Improves the reuse speed of Disorientation. The final rank adds a hate position reduction.",
-            "description_pvp": "Improves the reuse speed of Disorientation. The final rank adds a hate position reduction.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
                 {
-                    "description": "Improves reuse speed by 30 seconds",
+                    "description": "Adds an extra hate position reduction to Disorientation",
                     "indentation": 0
                 }
             ],
@@ -96,8 +48,8 @@
                 "icon_heroic_op": -1,
                 "id": 157
             },
-            "id": 3337718716,
-            "last_update": 1366730647.29934,
+            "id": 3747415207,
+            "last_update": 1387585401.503815,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Disorientation",
@@ -105,12 +57,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730647.29934,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585401.503815,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +105,7 @@
                 "id": 157
             },
             "id": 1112729041,
-            "last_update": 1366730644.157893,
+            "last_update": 1387585401.423856,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Disorientation",
@@ -161,10 +115,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730644.157893,
+            "ts": 1387585401.423856,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +128,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,7 +161,7 @@
                 "id": 157
             },
             "id": 664751889,
-            "last_update": 1366730636.303919,
+            "last_update": 1387585401.384026,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Disorientation",
@@ -215,10 +171,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730636.303919,
+            "ts": 1387585401.384026,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +184,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -248,11 +206,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 150 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Adds a positional detaunt to Disorientation",
+                    "description": "Improves reuse speed by 60 seconds",
                     "indentation": 0
                 }
             ],
@@ -262,8 +216,8 @@
                 "icon_heroic_op": -1,
                 "id": 157
             },
-            "id": 3747415207,
-            "last_update": 1366730628.647415,
+            "id": 3130044007,
+            "last_update": 1387585401.305297,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Disorientation",
@@ -271,12 +225,68 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730628.647415,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585401.305297,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3828803779,
+            "deity": 0,
+            "description": "Improves the reuse speed of Disorientation. The final rank adds a hate position reduction.",
+            "description_pvp": "Improves the reuse speed of Disorientation. The final rank adds a hate position reduction.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 30 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 157
+            },
+            "id": 3337718716,
+            "last_update": 1387585401.266206,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Disorientation",
+            "name_lower": "enhance: disorientation",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585401.266206,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

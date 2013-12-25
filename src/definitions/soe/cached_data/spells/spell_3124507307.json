@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730616.343842,
+    "min_ts": 1387584741.282436,
     "returned": 1,
-    "seconds": 0.014528989791870117,
+    "seconds": 0.014214038848876953,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Threat to target by 58 - 96 ",
+                    "description": "Increases threat priority of target by 3 positions",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases threat priority of target by 3 positions",
+                    "description": "Increases Threat to target by 68 - 113 ",
                     "indentation": 0
                 },
                 {
@@ -51,7 +53,7 @@
                 "id": 836
             },
             "id": 838778886,
-            "last_update": 1366730616.343842,
+            "last_update": 1387584741.282436,
             "level": 0,
             "max_targets": 0,
             "name": "Sneering Assault",
@@ -61,10 +63,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730616.343842,
+            "ts": 1387584741.282436,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730463.135787,
+    "min_ts": 1387585492.187877,
     "returned": 3,
-    "seconds": 0.015692949295043945,
+    "seconds": 0.024098873138427734,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 489696347,
-            "deity": 0,
-            "description": "Adds additional damage to Pulverize if the bruiser is behind or flanking their target. The bonus damage is single target.",
-            "description_pvp": "Adds additional damage to Pulverize if the bruiser is behind or flanking their target. The bonus damage is single target.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Inflicts additional damage when Pulverize triggers if the bruiser is behind or flanking their target. Only applies to the target the bruiser is actively attacking.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 275
-            },
-            "id": 802299681,
-            "last_update": 1366730647.832541,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Rabbit Punch",
-            "name_lower": "rabbit punch",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730647.832541,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 275
             },
             "id": 4064593572,
-            "last_update": 1366730463.75409,
+            "last_update": 1387585492.426135,
             "level": 0,
             "max_targets": 0,
             "name": "Rabbit Punch",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730463.75409,
+            "ts": 1387585492.426135,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 489696347,
+            "deity": 0,
+            "description": "Adds additional damage to Pulverize if the bruiser is behind or flanking their target. The bonus damage is single target.",
+            "description_pvp": "Adds additional damage to Pulverize if the bruiser is behind or flanking their target. The bonus damage is single target.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Inflicts additional damage when Pulverize triggers if the bruiser is behind or flanking their target. Only applies to the target the bruiser is actively attacking.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 275
+            },
+            "id": 802299681,
+            "last_update": 1387585492.267691,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Rabbit Punch",
+            "name_lower": "rabbit punch",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585492.267691,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +157,7 @@
                 "id": 275
             },
             "id": 2451076079,
-            "last_update": 1366730463.135787,
+            "last_update": 1387585492.187877,
             "level": 0,
             "max_targets": 0,
             "name": "Rabbit Punch",
@@ -161,10 +167,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730463.135787,
+            "ts": 1387585492.187877,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

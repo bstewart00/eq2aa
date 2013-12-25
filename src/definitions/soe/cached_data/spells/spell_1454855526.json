@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.655912,
+    "min_ts": 1387584551.790809,
     "returned": 5,
-    "seconds": 0.03809309005737305,
+    "seconds": 0.018005847930908203,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 299
             },
             "id": 4080970229,
-            "last_update": 1366730633.671694,
+            "last_update": 1387584552.088045,
             "level": 0,
             "max_targets": 0,
             "name": "Flurry of Arrows",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730633.671694,
+            "ts": 1387584552.088045,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,62 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1454855526,
-            "deity": 0,
-            "description": "Improves the base damage and critical damage of Stream of Arrows and its upgrades.",
-            "description_pvp": "Improves the base damage and critical damage of Stream of Arrows and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the base damage and critical damage by 4%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 299
-            },
-            "id": 3935446766,
-            "last_update": 1366730595.702115,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Flurry of Arrows",
-            "name_lower": "flurry of arrows",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730595.702115,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 299
             },
             "id": 1848723587,
-            "last_update": 1366730459.352428,
+            "last_update": 1387584552.026394,
             "level": 0,
             "max_targets": 0,
             "name": "Flurry of Arrows",
@@ -161,10 +111,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730459.352428,
+            "ts": 1387584552.026394,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,7 +157,7 @@
                 "id": 299
             },
             "id": 201122371,
-            "last_update": 1366730454.260767,
+            "last_update": 1387584551.912193,
             "level": 0,
             "max_targets": 0,
             "name": "Flurry of Arrows",
@@ -215,10 +167,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730454.260767,
+            "ts": 1387584551.912193,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +213,7 @@
                 "id": 299
             },
             "id": 2532508469,
-            "last_update": 1366730438.655912,
+            "last_update": 1387584551.870584,
             "level": 0,
             "max_targets": 0,
             "name": "Flurry of Arrows",
@@ -269,10 +223,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730438.655912,
+            "ts": 1387584551.870584,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1454855526,
+            "deity": 0,
+            "description": "Improves the base damage and critical damage of Stream of Arrows and its upgrades.",
+            "description_pvp": "Improves the base damage and critical damage of Stream of Arrows and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the base damage and critical damage by 4%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 299
+            },
+            "id": 3935446766,
+            "last_update": 1387584551.790809,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Flurry of Arrows",
+            "name_lower": "flurry of arrows",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584551.790809,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

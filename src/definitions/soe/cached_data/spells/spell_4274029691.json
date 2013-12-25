@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.396401,
+    "min_ts": 1387584504.691584,
     "returned": 5,
-    "seconds": 0.015227079391479492,
+    "seconds": 0.016666889190673828,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,186 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the Crit Bonus by 10%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 120 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 194
-            },
-            "id": 714515826,
-            "last_update": 1366730633.214393,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Emergency Warding",
-            "name_lower": "enhance: emergency warding",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730633.214393,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4274029691,
-            "deity": 0,
-            "description": "Increases the critical amount and improves the reuse speed of Eidolic Ward and Purulence.",
-            "description_pvp": "Increases the critical amount and improves the reuse speed of Eidolic Ward and Purulence.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the Crit Bonus by 5%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 60 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 194
-            },
-            "id": 1459060905,
-            "last_update": 1366730581.945461,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Emergency Warding",
-            "name_lower": "enhance: emergency warding",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730581.945461,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4274029691,
-            "deity": 0,
-            "description": "Increases the critical amount and improves the reuse speed of Eidolic Ward and Purulence.",
-            "description_pvp": "Increases the critical amount and improves the reuse speed of Eidolic Ward and Purulence.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the Crit Bonus by 15%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 180 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 194
-            },
-            "id": 3080274948,
-            "last_update": 1366730457.803585,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Emergency Warding",
-            "name_lower": "enhance: emergency warding",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730457.803585,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4274029691,
-            "deity": 0,
-            "description": "Increases the critical amount and improves the reuse speed of Eidolic Ward and Purulence.",
-            "description_pvp": "Increases the critical amount and improves the reuse speed of Eidolic Ward and Purulence.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the Crit Bonus by 25%",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves reuse speed by 300 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 25%",
                     "indentation": 0
                 }
             ],
@@ -221,7 +49,7 @@
                 "id": 194
             },
             "id": 1331367858,
-            "last_update": 1366730441.583756,
+            "last_update": 1387584504.959891,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Emergency Warding",
@@ -231,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730441.583756,
+            "ts": 1387584504.959891,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the Crit Bonus by 20%",
+                    "description": "Improves reuse speed by 240 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves reuse speed by 240 seconds",
+                    "description": "Improves the Crit Bonus by 20%",
                     "indentation": 0
                 }
             ],
@@ -279,7 +109,7 @@
                 "id": 194
             },
             "id": 3528781508,
-            "last_update": 1366730440.396401,
+            "last_update": 1387584504.891254,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Emergency Warding",
@@ -289,10 +119,190 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730440.396401,
+            "ts": 1387584504.891254,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4274029691,
+            "deity": 0,
+            "description": "Increases the critical amount and improves the reuse speed of Eidolic Ward and Purulence.",
+            "description_pvp": "Increases the critical amount and improves the reuse speed of Eidolic Ward and Purulence.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 180 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 15%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 194
+            },
+            "id": 3080274948,
+            "last_update": 1387584504.838649,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Emergency Warding",
+            "name_lower": "enhance: emergency warding",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584504.838649,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4274029691,
+            "deity": 0,
+            "description": "Increases the critical amount and improves the reuse speed of Eidolic Ward and Purulence.",
+            "description_pvp": "Increases the critical amount and improves the reuse speed of Eidolic Ward and Purulence.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 120 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 10%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 194
+            },
+            "id": 714515826,
+            "last_update": 1387584504.758619,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Emergency Warding",
+            "name_lower": "enhance: emergency warding",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584504.758619,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4274029691,
+            "deity": 0,
+            "description": "Increases the critical amount and improves the reuse speed of Eidolic Ward and Purulence.",
+            "description_pvp": "Increases the critical amount and improves the reuse speed of Eidolic Ward and Purulence.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 60 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 5%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 194
+            },
+            "id": 1459060905,
+            "last_update": 1387584504.691584,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Emergency Warding",
+            "name_lower": "enhance: emergency warding",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584504.691584,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

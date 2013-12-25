@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730431.2944,
+    "min_ts": 1387584259.759841,
     "returned": 5,
-    "seconds": 0.015989065170288086,
+    "seconds": 0.020173072814941406,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "On a critical combat hit this spell has a 6% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
+                    "description": "On a critical combat hit this spell has a 15% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
                     "indentation": 0
                 },
                 {
@@ -40,11 +42,11 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 2 - 3 divine damage on target",
+                    "description": "Inflicts 5 - 7 divine damage on target",
                     "indentation": 2
                 },
                 {
-                    "description": "On a critical spell hit this spell has a 6% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
+                    "description": "On a critical spell hit this spell has a 15% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
                     "indentation": 0
                 },
                 {
@@ -52,7 +54,7 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 2 - 3 divine damage on target",
+                    "description": "Inflicts 5 - 7 divine damage on target",
                     "indentation": 2
                 }
             ],
@@ -62,8 +64,8 @@
                 "icon_heroic_op": -1,
                 "id": 864
             },
-            "id": 1882464973,
-            "last_update": 1366730631.022409,
+            "id": 222766229,
+            "last_update": 1387584261.274376,
             "level": 0,
             "max_targets": 0,
             "name": "Fanatical Devotion",
@@ -71,12 +73,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730631.022409,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584261.274376,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -86,8 +88,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -137,7 +141,7 @@
                 "id": 864
             },
             "id": 3503422736,
-            "last_update": 1366730617.596353,
+            "last_update": 1387584260.711593,
             "level": 0,
             "max_targets": 0,
             "name": "Fanatical Devotion",
@@ -147,10 +151,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730617.596353,
+            "ts": 1387584260.711593,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -160,8 +164,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -180,155 +186,7 @@
             },
             "effect_list": [
                 {
-                    "description": "On a critical spell hit this spell has a 3% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "On any combat or spell hit this spell will cast Fanatical Devotion on target of attack.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 1 divine damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a critical combat hit this spell has a 3% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "On any combat or spell hit this spell will cast Fanatical Devotion on target of attack.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 1 divine damage on target",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 864
-            },
-            "id": 3455995395,
-            "last_update": 1366730440.125136,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Fanatical Devotion",
-            "name_lower": "fanatical devotion",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730440.125136,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 877241871,
-            "deity": 0,
-            "description": "A critical attack will grant the inquisitor's group a chance to proc additional divine damage for a short duration.",
-            "description_pvp": "A critical attack will grant the inquisitor's group a chance to proc additional divine damage for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a critical spell hit this spell has a 15% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "On any combat or spell hit this spell will cast Fanatical Devotion on target of attack.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 5 - 7 divine damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "On a critical combat hit this spell has a 15% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "On any combat or spell hit this spell will cast Fanatical Devotion on target of attack.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 5 - 7 divine damage on target",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 864
-            },
-            "id": 222766229,
-            "last_update": 1366730436.016666,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Fanatical Devotion",
-            "name_lower": "fanatical devotion",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730436.016666,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 877241871,
-            "deity": 0,
-            "description": "A critical attack will grant the inquisitor's group a chance to proc additional divine damage for a short duration.",
-            "description_pvp": "A critical attack will grant the inquisitor's group a chance to proc additional divine damage for a short duration.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a critical spell hit this spell has a 9% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
+                    "description": "On a critical combat hit this spell has a 9% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
                     "indentation": 0
                 },
                 {
@@ -340,7 +198,7 @@
                     "indentation": 2
                 },
                 {
-                    "description": "On a critical combat hit this spell has a 9% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
+                    "description": "On a critical spell hit this spell has a 9% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
                     "indentation": 0
                 },
                 {
@@ -359,7 +217,7 @@
                 "id": 864
             },
             "id": 2913139528,
-            "last_update": 1366730431.2944,
+            "last_update": 1387584260.343852,
             "level": 0,
             "max_targets": 0,
             "name": "Fanatical Devotion",
@@ -369,10 +227,162 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730431.2944,
+            "ts": 1387584260.343852,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 877241871,
+            "deity": 0,
+            "description": "A critical attack will grant the inquisitor's group a chance to proc additional divine damage for a short duration.",
+            "description_pvp": "A critical attack will grant the inquisitor's group a chance to proc additional divine damage for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a critical spell hit this spell has a 6% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell will cast Fanatical Devotion on target of attack.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 2 - 3 divine damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a critical combat hit this spell has a 6% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell will cast Fanatical Devotion on target of attack.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 2 - 3 divine damage on target",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 864
+            },
+            "id": 1882464973,
+            "last_update": 1387584260.104298,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Fanatical Devotion",
+            "name_lower": "fanatical devotion",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584260.104298,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 877241871,
+            "deity": 0,
+            "description": "A critical attack will grant the inquisitor's group a chance to proc additional divine damage for a short duration.",
+            "description_pvp": "A critical attack will grant the inquisitor's group a chance to proc additional divine damage for a short duration.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a critical combat hit this spell has a 3% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell will cast Fanatical Devotion on target of attack.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 1 divine damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "On a critical spell hit this spell has a 3% chance to cast Fanatical Devotion on the group.  Lasts for 10.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "On any combat or spell hit this spell will cast Fanatical Devotion on target of attack.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 1 divine damage on target",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 864
+            },
+            "id": 3455995395,
+            "last_update": 1387584259.759841,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Fanatical Devotion",
+            "name_lower": "fanatical devotion",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584259.759841,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

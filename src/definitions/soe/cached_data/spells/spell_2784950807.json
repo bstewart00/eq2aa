@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.2723,
+    "min_ts": 1387585170.971695,
     "returned": 5,
-    "seconds": 0.017590999603271484,
+    "seconds": 0.02011704444885254,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2784950807,
-            "deity": 0,
-            "description": "Increases damage of Storm of Steel.",
-            "description_pvp": "Increases damage of Storm of Steel.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases damage by 20%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 299
-            },
-            "id": 2531604548,
-            "last_update": 1366730649.096506,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Storm of Steel",
-            "name_lower": "enhance: storm of steel",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730649.096506,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -96,8 +44,8 @@
                 "icon_heroic_op": -1,
                 "id": 299
             },
-            "id": 4079522436,
-            "last_update": 1366730645.881172,
+            "id": 199940402,
+            "last_update": 1387585171.2123,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Storm of Steel",
@@ -105,12 +53,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730645.881172,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585171.2123,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -140,7 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases damage by 5%",
+                    "description": "Increases damage by 12%",
                     "indentation": 0
                 }
             ],
@@ -150,8 +100,8 @@
                 "icon_heroic_op": -1,
                 "id": 299
             },
-            "id": 306599465,
-            "last_update": 1366730637.615049,
+            "id": 2531604548,
+            "last_update": 1387585171.162393,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Storm of Steel",
@@ -159,12 +109,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730637.615049,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585171.162393,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -194,7 +146,63 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases damage by 10%",
+                    "description": "Increases damage by 9%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 299
+            },
+            "id": 4079522436,
+            "last_update": 1387585171.092296,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Storm of Steel",
+            "name_lower": "enhance: storm of steel",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585171.092296,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2784950807,
+            "deity": 0,
+            "description": "Increases damage of Storm of Steel.",
+            "description_pvp": "Increases damage of Storm of Steel.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases damage by 6%",
                     "indentation": 0
                 }
             ],
@@ -205,7 +213,7 @@
                 "id": 299
             },
             "id": 1848079346,
-            "last_update": 1366730622.911093,
+            "last_update": 1387585171.041233,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Storm of Steel",
@@ -215,10 +223,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730622.911093,
+            "ts": 1387585171.041233,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +236,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -248,7 +258,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases damage by 25%",
+                    "description": "Increases damage by 3%",
                     "indentation": 0
                 }
             ],
@@ -258,8 +268,8 @@
                 "icon_heroic_op": -1,
                 "id": 299
             },
-            "id": 199940402,
-            "last_update": 1366730440.2723,
+            "id": 306599465,
+            "last_update": 1387585170.971695,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Storm of Steel",
@@ -267,12 +277,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730440.2723,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585170.971695,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.758736,
+    "min_ts": 1387584964.863752,
     "returned": 3,
-    "seconds": 0.021763086318969727,
+    "seconds": 0.01772618293762207,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Disheartening Descant will increase the group's strength and agility.",
+                    "description": "Zander's Choral Rebuff will grant a triggered damage effect that applies on spell attacks.",
                     "indentation": 0
                 },
                 {
@@ -40,143 +42,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Zander's Choral Rebuff will grant a triggered damage effect that applies on spell attacks.",
-                    "indentation": 0
-                },
-                {
                     "description": "Daro's Sorrowful Dirge will increase the group's attack speed and movement speed.",
                     "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 207
-            },
-            "id": 3987757946,
-            "last_update": 1366730640.541386,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Siphoning Requiem",
-            "name_lower": "siphoning requiem",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730640.541386,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
                 },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2983151374,
-            "deity": 0,
-            "description": "The dirge's impairments that affect encounters will siphon a portion of what they impair back to the dirge's group. Mitigation impairments will grant the group a triggered effect instead of mitigation.",
-            "description_pvp": "The dirge's impairments that affect encounters will siphon a portion of what they impair back to the dirge's group. Mitigation impairments will grant the group a triggered effect instead of mitigation.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
                 {
                     "description": "Disheartening Descant will increase the group's strength and agility.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Clara's Chaotic Cacophony will grant a triggered damage effect on melee attacks.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Zander's Choral Rebuff will grant a triggered damage effect that applies on spell attacks.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Daro's Sorrowful Dirge will increase the group's attack speed and movement speed.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 207
-            },
-            "id": 2446425761,
-            "last_update": 1366730596.100099,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Siphoning Requiem",
-            "name_lower": "siphoning requiem",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730596.100099,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2983151374,
-            "deity": 0,
-            "description": "The dirge's impairments that affect encounters will siphon a portion of what they impair back to the dirge's group. Mitigation impairments will grant the group a triggered effect instead of mitigation.",
-            "description_pvp": "The dirge's impairments that affect encounters will siphon a portion of what they impair back to the dirge's group. Mitigation impairments will grant the group a triggered effect instead of mitigation.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Disheartening Descant will increase the group's strength and agility.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Clara's Chaotic Cacophony will grant a triggered damage effect on melee attacks.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Zander's Choral Rebuff will grant a triggered damage effect that applies on spell attacks.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Daro's Sorrowful Dirge will increase the group's attack speed and movement speed.",
                     "indentation": 0
                 }
             ],
@@ -187,7 +57,7 @@
                 "id": 207
             },
             "id": 1891613196,
-            "last_update": 1366730440.758736,
+            "last_update": 1387584964.999345,
             "level": 0,
             "max_targets": 0,
             "name": "Siphoning Requiem",
@@ -197,10 +67,146 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730440.758736,
+            "ts": 1387584964.999345,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2983151374,
+            "deity": 0,
+            "description": "The dirge's impairments that affect encounters will siphon a portion of what they impair back to the dirge's group. Mitigation impairments will grant the group a triggered effect instead of mitigation.",
+            "description_pvp": "The dirge's impairments that affect encounters will siphon a portion of what they impair back to the dirge's group. Mitigation impairments will grant the group a triggered effect instead of mitigation.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Zander's Choral Rebuff will grant a triggered damage effect that applies on spell attacks.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Clara's Chaotic Cacophony will grant a triggered damage effect on melee attacks.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Daro's Sorrowful Dirge will increase the group's attack speed and movement speed.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Disheartening Descant will increase the group's strength and agility.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 207
+            },
+            "id": 3987757946,
+            "last_update": 1387584964.990417,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Siphoning Requiem",
+            "name_lower": "siphoning requiem",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584964.990417,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2983151374,
+            "deity": 0,
+            "description": "The dirge's impairments that affect encounters will siphon a portion of what they impair back to the dirge's group. Mitigation impairments will grant the group a triggered effect instead of mitigation.",
+            "description_pvp": "The dirge's impairments that affect encounters will siphon a portion of what they impair back to the dirge's group. Mitigation impairments will grant the group a triggered effect instead of mitigation.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Zander's Choral Rebuff will grant a triggered damage effect that applies on spell attacks.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Clara's Chaotic Cacophony will grant a triggered damage effect on melee attacks.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Daro's Sorrowful Dirge will increase the group's attack speed and movement speed.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Disheartening Descant will increase the group's strength and agility.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 207
+            },
+            "id": 2446425761,
+            "last_update": 1387584964.863752,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Siphoning Requiem",
+            "name_lower": "siphoning requiem",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584964.863752,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

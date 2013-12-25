@@ -63,7 +63,7 @@ class AAFactory(object):
 
         spells = self._data_provider.spells(aa_node["spellcrc"])["spell_list"]
         
-        icon = { "icon": spells[0]["icon"]["id"], "backdrop": spells[0]["icon"]["backdrop"] }
+        icon = { "icon": aa_node["icon"]["id"], "backdrop": aa_node["icon"]["backdrop"] }
         effects = list(self._get_effects(spells))
         
         parents = []

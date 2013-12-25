@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730650.803889,
+    "min_ts": 1387585588.400043,
     "returned": 1,
-    "seconds": 0.014067888259887695,
+    "seconds": 0.016705989837646484,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,15 +34,15 @@
             },
             "effect_list": [
                 {
+                    "description": "Inflicts 8 - 13 melee damage on target",
+                    "indentation": 0
+                },
+                {
                     "description": "Inflicts 3 - 4 crushing damage on target every 4 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Threat to target by 55 - 83  instantly and by 13 - 20  every 4 seconds thereafter",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 8 - 13 melee damage on target",
+                    "description": "Increases Threat to target by 65 - 98  instantly and by 16 - 25  every 4 seconds thereafter",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 833
             },
             "id": 164955275,
-            "last_update": 1366730650.803889,
+            "last_update": 1387585588.400043,
             "level": 0,
             "max_targets": 0,
             "name": "Sentinel Strike",
@@ -61,10 +63,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730650.803889,
+            "ts": 1387585588.400043,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

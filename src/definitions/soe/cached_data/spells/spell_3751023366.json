@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730440.314707,
+    "min_ts": 1387584174.371716,
     "returned": 5,
-    "seconds": 0.02123093605041504,
+    "seconds": 0.023779869079589844,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,15 +34,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces duration by 4 seconds",
-                    "indentation": 0
-                },
-                {
                     "description": "Improves casting speed by 1 seconds",
                     "indentation": 0
                 },
                 {
                     "description": "Improves the Crit Bonus by 10%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces duration by 4 seconds",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 511
             },
             "id": 2273825469,
-            "last_update": 1366730652.015182,
+            "last_update": 1387584174.691331,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Tempest",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730652.015182,
+            "ts": 1387584174.691331,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -74,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -93,140 +97,16 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Reduces duration by 2.4 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.6 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 6%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 511
-            },
-            "id": 2135267595,
-            "last_update": 1366730611.257019,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Tempest",
-            "name_lower": "enhance: tempest",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730611.257019,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3751023366,
-            "deity": 0,
-            "description": "Increases the critical damage and hastens the casting speed and effects of Tempest and its upgrades, causing damage to occur faster.",
-            "description_pvp": "Increases the critical damage and hastens the casting speed and effects of Tempest and its upgrades, causing damage to occur faster.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces duration by 0.8 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.2 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 2%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 511
-            },
-            "id": 2653642150,
-            "last_update": 1366730575.324135,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Tempest",
-            "name_lower": "enhance: tempest",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730575.324135,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3751023366,
-            "deity": 0,
-            "description": "Increases the critical damage and hastens the casting speed and effects of Tempest and its upgrades, causing damage to occur faster.",
-            "description_pvp": "Increases the critical damage and hastens the casting speed and effects of Tempest and its upgrades, causing damage to occur faster.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces duration by 3.2 seconds",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves casting speed by 0.8 seconds",
                     "indentation": 0
                 },
                 {
                     "description": "Improves the Crit Bonus by 8%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces duration by 3.2 seconds",
                     "indentation": 0
                 }
             ],
@@ -237,7 +117,7 @@
                 "id": 511
             },
             "id": 445133771,
-            "last_update": 1366730442.618888,
+            "last_update": 1387584174.616035,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Tempest",
@@ -247,10 +127,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730442.618888,
+            "ts": 1387584174.616035,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -260,8 +140,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -280,15 +162,79 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces duration by 1.6 seconds",
+                    "description": "Improves casting speed by 0.6 seconds",
                     "indentation": 0
                 },
+                {
+                    "description": "Improves the Crit Bonus by 6%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces duration by 2.4 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 511
+            },
+            "id": 2135267595,
+            "last_update": 1387584174.536211,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Tempest",
+            "name_lower": "enhance: tempest",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584174.536211,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3751023366,
+            "deity": 0,
+            "description": "Increases the critical damage and hastens the casting speed and effects of Tempest and its upgrades, causing damage to occur faster.",
+            "description_pvp": "Increases the critical damage and hastens the casting speed and effects of Tempest and its upgrades, causing damage to occur faster.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
                 {
                     "description": "Improves casting speed by 0.4 seconds",
                     "indentation": 0
                 },
                 {
                     "description": "Improves the Crit Bonus by 4%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces duration by 1.6 seconds",
                     "indentation": 0
                 }
             ],
@@ -299,7 +245,7 @@
                 "id": 511
             },
             "id": 3796531325,
-            "last_update": 1366730440.314707,
+            "last_update": 1387584174.451464,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Tempest",
@@ -309,10 +255,74 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730440.314707,
+            "ts": 1387584174.451464,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3751023366,
+            "deity": 0,
+            "description": "Increases the critical damage and hastens the casting speed and effects of Tempest and its upgrades, causing damage to occur faster.",
+            "description_pvp": "Increases the critical damage and hastens the casting speed and effects of Tempest and its upgrades, causing damage to occur faster.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting speed by 0.2 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 2%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces duration by 0.8 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 511
+            },
+            "id": 2653642150,
+            "last_update": 1387584174.371716,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Tempest",
+            "name_lower": "enhance: tempest",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584174.371716,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

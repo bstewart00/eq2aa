@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730582.710041,
+    "min_ts": 1387585501.358122,
     "returned": 1,
-    "seconds": 0.016452789306640625,
+    "seconds": 0.015059947967529297,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,26 +38,22 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases Mitigation of target vs physical and noxious damage by 46",
+                    "description": "Decreases Mitigation of target vs physical, elemental and noxious damage by 46",
                     "indentation": 1
                 },
                 {
                     "description": "Inflicts 54 - 91 melee damage on target",
                     "indentation": 1
-                },
-                {
-                    "description": "Decreases Mitigation of target vs elemental damage by 46",
-                    "indentation": 1
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 11
             },
             "id": 3634300345,
-            "last_update": 1366730582.710041,
+            "last_update": 1387585501.358122,
             "level": 0,
             "max_targets": 0,
             "name": "Exposed Weaknesses",
@@ -65,10 +63,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730582.710041,
+            "ts": 1387585501.358122,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

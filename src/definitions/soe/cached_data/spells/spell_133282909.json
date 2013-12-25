@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730442.381492,
+    "min_ts": 1387584759.708075,
     "returned": 1,
-    "seconds": 0.015232086181640625,
+    "seconds": 0.024415016174316406,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,10 +33,6 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Resurrects target with 100% health and power",
-                    "indentation": 0
-                },
                 {
                     "description": "Applies Revived Sickness on termination.  Lasts for 1 minute 30 seconds.",
                     "indentation": 0
@@ -72,6 +70,10 @@
                     "indentation": 2
                 },
                 {
+                    "description": "Resurrects target with 100% health and power",
+                    "indentation": 0
+                },
+                {
                     "description": "Must not be engaged in combat",
                     "indentation": 0
                 }
@@ -83,7 +85,7 @@
                 "id": 873
             },
             "id": 2252727452,
-            "last_update": 1366730442.381492,
+            "last_update": 1387584759.708075,
             "level": 0,
             "max_targets": 24,
             "name": "Supplication of the Fallen",
@@ -93,10 +95,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730442.381492,
+            "ts": 1387584759.708075,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

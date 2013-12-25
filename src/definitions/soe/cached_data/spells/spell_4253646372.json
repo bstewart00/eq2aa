@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730439.767134,
+    "min_ts": 1387585378.460076,
     "returned": 5,
-    "seconds": 0.015949010848999023,
+    "seconds": 0.0216219425201416,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -55,7 +57,7 @@
                 "id": 74
             },
             "id": 3370290805,
-            "last_update": 1366730643.164096,
+            "last_update": 1387585379.455915,
             "level": 0,
             "max_targets": 0,
             "name": "Spirit of the Ancients",
@@ -65,10 +67,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730643.164096,
+            "ts": 1387585379.455915,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -78,74 +80,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4253646372,
-            "deity": 0,
-            "description": "Grants the Ancestral Sentry additional health and mitigation for physical attacks.  In addition, the recast time of Ancestral Sentry will be reduced.",
-            "description_pvp": "Grants the Ancestral Sentry additional health and mitigation for physical attacks.  In addition, the recast time of Ancestral Sentry will be reduced.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces the reuse time by 6 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Applies Spirit of the Ancients to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Max Health of target by 4.0%",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Mitigation of target vs physical damage by 9",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 74
-            },
-            "id": 3511550318,
-            "last_update": 1366730459.879669,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Spirit of the Ancients",
-            "name_lower": "spirit of the ancients",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730459.879669,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -187,7 +125,7 @@
                 "id": 74
             },
             "id": 1441623811,
-            "last_update": 1366730451.702824,
+            "last_update": 1387585379.407242,
             "level": 0,
             "max_targets": 0,
             "name": "Spirit of the Ancients",
@@ -197,10 +135,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730451.702824,
+            "ts": 1387585379.407242,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -210,74 +148,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4253646372,
-            "deity": 0,
-            "description": "Grants the Ancestral Sentry additional health and mitigation for physical attacks.  In addition, the recast time of Ancestral Sentry will be reduced.",
-            "description_pvp": "Grants the Ancestral Sentry additional health and mitigation for physical attacks.  In addition, the recast time of Ancestral Sentry will be reduced.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces the reuse time by 12 seconds.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Applies Spirit of the Ancients to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Max Health of target by 8.0%",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Mitigation of target vs physical damage by 18",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 74
-            },
-            "id": 2905547957,
-            "last_update": 1366730451.443559,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Spirit of the Ancients",
-            "name_lower": "spirit of the ancients",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730451.443559,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -319,7 +193,7 @@
                 "id": 74
             },
             "id": 807454147,
-            "last_update": 1366730439.767134,
+            "last_update": 1387585378.976147,
             "level": 0,
             "max_targets": 0,
             "name": "Spirit of the Ancients",
@@ -329,10 +203,146 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730439.767134,
+            "ts": 1387585378.976147,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4253646372,
+            "deity": 0,
+            "description": "Grants the Ancestral Sentry additional health and mitigation for physical attacks.  In addition, the recast time of Ancestral Sentry will be reduced.",
+            "description_pvp": "Grants the Ancestral Sentry additional health and mitigation for physical attacks.  In addition, the recast time of Ancestral Sentry will be reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the reuse time by 12 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Spirit of the Ancients to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Max Health of target by 8.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Mitigation of target vs physical damage by 18",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 74
+            },
+            "id": 2905547957,
+            "last_update": 1387585378.820443,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Spirit of the Ancients",
+            "name_lower": "spirit of the ancients",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585378.820443,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4253646372,
+            "deity": 0,
+            "description": "Grants the Ancestral Sentry additional health and mitigation for physical attacks.  In addition, the recast time of Ancestral Sentry will be reduced.",
+            "description_pvp": "Grants the Ancestral Sentry additional health and mitigation for physical attacks.  In addition, the recast time of Ancestral Sentry will be reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the reuse time by 6 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Applies Spirit of the Ancients to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Max Health of target by 4.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Mitigation of target vs physical damage by 9",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 74
+            },
+            "id": 3511550318,
+            "last_update": 1387585378.460076,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Spirit of the Ancients",
+            "name_lower": "spirit of the ancients",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585378.460076,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

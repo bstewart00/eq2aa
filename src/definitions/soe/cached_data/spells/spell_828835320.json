@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730585.93925,
+    "min_ts": 1387584959.378309,
     "returned": 1,
-    "seconds": 0.01802802085876465,
+    "seconds": 0.019895076751708984,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -40,18 +42,18 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Threat to targets in Area of Effect by 12 ",
+                    "description": "Increases Threat to targets in Area of Effect by 14 ",
                     "indentation": 2
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 316,
                 "icon_heroic_op": -1,
                 "id": 150
             },
             "id": 3920262045,
-            "last_update": 1366730585.93925,
+            "last_update": 1387584959.378309,
             "level": 0,
             "max_targets": 0,
             "name": "Cure Spells",
@@ -61,10 +63,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730585.93925,
+            "ts": 1387584959.378309,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730644.947924,
+    "min_ts": 1387584882.23887,
     "returned": 1,
-    "seconds": 0.014204978942871094,
+    "seconds": 0.017593860626220703,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,12 +34,16 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves spell damage by 20%",
+                    "description": "Makes caster immune to strikethrough attacks.",
                     "indentation": 0
                 },
                 {
-                    "description": "Makes caster immune to strikethrough attacks.",
+                    "description": "On any combat or spell hit this spell will cast Shadowknight's Furor on target of attack.  ",
                     "indentation": 0
+                },
+                {
+                    "description": "Increases Threat to target by 62 - 93 ",
+                    "indentation": 1
                 },
                 {
                     "description": "Prevents caster from being Interrupted",
@@ -48,12 +54,8 @@
                     "indentation": 0
                 },
                 {
-                    "description": "On any combat or spell hit this spell will cast Shadowknight's Furor on target of attack.  ",
+                    "description": "Improves spell damage by 20%",
                     "indentation": 0
-                },
-                {
-                    "description": "Increases Threat to target by 46 - 69 ",
-                    "indentation": 1
                 }
             ],
             "given_by": "alternateadvancement",
@@ -63,7 +65,7 @@
                 "id": 851
             },
             "id": 2605897792,
-            "last_update": 1366730644.947924,
+            "last_update": 1387584882.23887,
             "level": 0,
             "max_targets": 0,
             "name": "Shadowknight's Furor",
@@ -73,10 +75,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730644.947924,
+            "ts": 1387584882.23887,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

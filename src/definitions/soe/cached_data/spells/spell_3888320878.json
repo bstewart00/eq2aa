@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730460.612233,
+    "min_ts": 1387585200.201199,
     "returned": 3,
-    "seconds": 0.015609979629516602,
+    "seconds": 0.014514923095703125,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3888320878,
-            "deity": 0,
-            "description": "Provoke has a chance to provide increments of Champion's Sight.",
-            "description_pvp": "Provoke has a chance to provide increments of Champion's Sight.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Provoke has a 66% chance to grant an increment of Champion's Sight.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 172
-            },
-            "id": 1438239049,
-            "last_update": 1366730643.033479,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Champion's Glare",
-            "name_lower": "champion's glare",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730643.033479,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 172
             },
             "id": 702082194,
-            "last_update": 1366730472.101492,
+            "last_update": 1387585200.237915,
             "level": 0,
             "max_targets": 0,
             "name": "Champion's Glare",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730472.101492,
+            "ts": 1387585200.237915,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 172
             },
             "id": 3367381055,
-            "last_update": 1366730460.612233,
+            "last_update": 1387585200.220549,
             "level": 0,
             "max_targets": 0,
             "name": "Champion's Glare",
@@ -161,10 +111,66 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730460.612233,
+            "ts": 1387585200.220549,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3888320878,
+            "deity": 0,
+            "description": "Provoke has a chance to provide increments of Champion's Sight.",
+            "description_pvp": "Provoke has a chance to provide increments of Champion's Sight.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Provoke has a 66% chance to grant an increment of Champion's Sight.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 172
+            },
+            "id": 1438239049,
+            "last_update": 1387585200.201199,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Champion's Glare",
+            "name_lower": "champion's glare",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585200.201199,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

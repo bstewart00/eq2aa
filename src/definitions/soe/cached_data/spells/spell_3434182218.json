@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730439.727064,
+    "min_ts": 1387585428.425578,
     "returned": 10,
-    "seconds": 0.018012046813964844,
+    "seconds": 0.018005847930908203,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,128 +33,12 @@
                 "min_sec_tenths": 6000
             },
             "effect_list": [
-                {
-                    "description": "Thieving Essence will also siphon Potency.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the ability modifier effects of Thieving Essence by 80%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 815
-            },
-            "id": 231523733,
-            "last_update": 1366730653.030668,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Thieving Essence",
-            "name_lower": "enhance: thieving essence",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730653.030668,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3434182218,
-            "deity": 0,
-            "description": "Thieving Essence will siphon Potency and improves the Ability Modifier effects.",
-            "description_pvp": "Thieving Essence will siphon Potency and improves the Ability Modifier effects.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Thieving Essence will also siphon Potency.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the ability modifier effects of Thieving Essence by 60%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 815
-            },
-            "id": 3327627285,
-            "last_update": 1366730650.179369,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Thieving Essence",
-            "name_lower": "enhance: thieving essence",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730650.179369,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3434182218,
-            "deity": 0,
-            "description": "Thieving Essence will siphon Potency and improves the Ability Modifier effects.",
-            "description_pvp": "Thieving Essence will siphon Potency and improves the Ability Modifier effects.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Thieving Essence will also siphon Potency.",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves the ability modifier effects of Thieving Essence by 100%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Thieving Essence will also siphon Potency.",
                     "indentation": 0
                 }
             ],
@@ -163,7 +49,7 @@
                 "id": 815
             },
             "id": 1302453178,
-            "last_update": 1366730640.114585,
+            "last_update": 1387585429.141148,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Thieving Essence",
@@ -173,10 +59,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730640.114585,
+            "ts": 1387585429.141148,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Thieving Essence will also siphon Potency.",
+                    "description": "Improves the ability modifier effects of Thieving Essence by 90%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the ability modifier effects of Thieving Essence by 90%.",
+                    "description": "Thieving Essence will also siphon Potency.",
                     "indentation": 0
                 }
             ],
@@ -221,7 +109,7 @@
                 "id": 815
             },
             "id": 2428708067,
-            "last_update": 1366730460.401543,
+            "last_update": 1387585429.061221,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Thieving Essence",
@@ -231,10 +119,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730460.401543,
+            "ts": 1387585429.061221,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Thieving Essence will also siphon Potency.",
+                    "description": "Improves the ability modifier effects of Thieving Essence by 80%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the ability modifier effects of Thieving Essence by 20%.",
+                    "description": "Thieving Essence will also siphon Potency.",
                     "indentation": 0
                 }
             ],
@@ -278,8 +168,8 @@
                 "icon_heroic_op": -1,
                 "id": 815
             },
-            "id": 3757776654,
-            "last_update": 1366730458.340844,
+            "id": 231523733,
+            "last_update": 1387585428.989383,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Thieving Essence",
@@ -287,12 +177,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730458.340844,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387585428.989383,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -302,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -321,70 +213,12 @@
                 "min_sec_tenths": 6000
             },
             "effect_list": [
-                {
-                    "description": "Thieving Essence will also siphon Potency.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the ability modifier effects of Thieving Essence by 10%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 815
-            },
-            "id": 2744793813,
-            "last_update": 1366730451.894122,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Thieving Essence",
-            "name_lower": "enhance: thieving essence",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730451.894122,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3434182218,
-            "deity": 0,
-            "description": "Thieving Essence will siphon Potency and improves the Ability Modifier effects.",
-            "description_pvp": "Thieving Essence will siphon Potency and improves the Ability Modifier effects.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Thieving Essence will also siphon Potency.",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves the ability modifier effects of Thieving Essence by 70%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Thieving Essence will also siphon Potency.",
                     "indentation": 0
                 }
             ],
@@ -395,7 +229,7 @@
                 "id": 815
             },
             "id": 1532522851,
-            "last_update": 1366730451.874626,
+            "last_update": 1387585428.908709,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Thieving Essence",
@@ -405,10 +239,10 @@
             "spellbook": 4,
             "tier": 7,
             "tier_name": "Expert",
-            "ts": 1366730451.874626,
+            "ts": 1387585428.908709,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -418,8 +252,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -438,11 +274,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Thieving Essence will also siphon Potency.",
+                    "description": "Improves the ability modifier effects of Thieving Essence by 60%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the ability modifier effects of Thieving Essence by 40%.",
+                    "description": "Thieving Essence will also siphon Potency.",
                     "indentation": 0
                 }
             ],
@@ -452,8 +288,8 @@
                 "icon_heroic_op": -1,
                 "id": 815
             },
-            "id": 658068664,
-            "last_update": 1366730444.407736,
+            "id": 3327627285,
+            "last_update": 1387585428.828828,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Thieving Essence",
@@ -461,12 +297,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730444.407736,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387585428.828828,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -476,8 +312,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -496,11 +334,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Thieving Essence will also siphon Potency.",
+                    "description": "Improves the ability modifier effects of Thieving Essence by 50%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the ability modifier effects of Thieving Essence by 50%.",
+                    "description": "Thieving Essence will also siphon Potency.",
                     "indentation": 0
                 }
             ],
@@ -511,7 +349,7 @@
                 "id": 815
             },
             "id": 3124147662,
-            "last_update": 1366730443.387158,
+            "last_update": 1387585428.783368,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Thieving Essence",
@@ -521,10 +359,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730443.387158,
+            "ts": 1387585428.783368,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -534,8 +372,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -554,11 +394,71 @@
             },
             "effect_list": [
                 {
-                    "description": "Thieving Essence will also siphon Potency.",
+                    "description": "Improves the ability modifier effects of Thieving Essence by 40%.",
                     "indentation": 0
                 },
                 {
+                    "description": "Thieving Essence will also siphon Potency.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 815
+            },
+            "id": 658068664,
+            "last_update": 1387585428.666376,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Thieving Essence",
+            "name_lower": "enhance: thieving essence",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585428.666376,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3434182218,
+            "deity": 0,
+            "description": "Thieving Essence will siphon Potency and improves the Ability Modifier effects.",
+            "description_pvp": "Thieving Essence will siphon Potency and improves the Ability Modifier effects.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
                     "description": "Improves the ability modifier effects of Thieving Essence by 30%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Thieving Essence will also siphon Potency.",
                     "indentation": 0
                 }
             ],
@@ -569,7 +469,7 @@
                 "id": 815
             },
             "id": 1123352184,
-            "last_update": 1366730439.727064,
+            "last_update": 1387585428.621194,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Thieving Essence",
@@ -579,10 +479,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730439.727064,
+            "ts": 1387585428.621194,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3434182218,
+            "deity": 0,
+            "description": "Thieving Essence will siphon Potency and improves the Ability Modifier effects.",
+            "description_pvp": "Thieving Essence will siphon Potency and improves the Ability Modifier effects.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the ability modifier effects of Thieving Essence by 20%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Thieving Essence will also siphon Potency.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 815
+            },
+            "id": 3757776654,
+            "last_update": 1387585428.54064,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Thieving Essence",
+            "name_lower": "enhance: thieving essence",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585428.54064,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3434182218,
+            "deity": 0,
+            "description": "Thieving Essence will siphon Potency and improves the Ability Modifier effects.",
+            "description_pvp": "Thieving Essence will siphon Potency and improves the Ability Modifier effects.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the ability modifier effects of Thieving Essence by 10%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Thieving Essence will also siphon Potency.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 815
+            },
+            "id": 2744793813,
+            "last_update": 1387585428.425578,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Thieving Essence",
+            "name_lower": "enhance: thieving essence",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585428.425578,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

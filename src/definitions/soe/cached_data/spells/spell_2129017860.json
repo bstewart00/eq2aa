@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730612.973451,
+    "min_ts": 1387584295.184802,
     "returned": 1,
-    "seconds": 0.015820026397705078,
+    "seconds": 0.01713705062866211,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,11 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Removes all penalties associated with your hunker abilities.",
+                    "description": "Removes all penalties associated with your offensive stance.",
                     "indentation": 0
                 },
                 {
-                    "description": "Removes all penalties associated with your offensive stance.",
+                    "description": "Removes all penalties associated with your hunker abilities.",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 695
             },
             "id": 372092735,
-            "last_update": 1366730612.973451,
+            "last_update": 1387584295.184802,
             "level": 0,
             "max_targets": 0,
             "name": "Stance Mastery",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730612.973451,
+            "ts": 1387584295.184802,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

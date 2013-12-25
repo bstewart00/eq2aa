@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730445.245384,
+    "min_ts": 1387585029.517589,
     "returned": 5,
-    "seconds": 0.01702880859375,
+    "seconds": 0.019082069396972656,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 271
             },
             "id": 1246583108,
-            "last_update": 1366730645.906507,
+            "last_update": 1387585029.812554,
             "level": 0,
             "max_targets": 0,
             "name": "Advanced Strike",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730645.906507,
+            "ts": 1387585029.812554,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,62 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2889651461,
-            "deity": 0,
-            "description": "Improves the base damage of the triggered effect Interrupt that is found on Daring Advance and its upgrades.",
-            "description_pvp": "Improves the base damage of the triggered effect Interrupt that is found on Daring Advance and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the base damage of Interrupt by 20%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 271
-            },
-            "id": 1407309407,
-            "last_update": 1366730584.901736,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Advanced Strike",
-            "name_lower": "advanced strike",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730584.901736,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 271
             },
             "id": 3611473970,
-            "last_update": 1366730466.994152,
+            "last_update": 1387585029.732592,
             "level": 0,
             "max_targets": 0,
             "name": "Advanced Strike",
@@ -161,10 +111,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730466.994152,
+            "ts": 1387585029.732592,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,7 +157,7 @@
                 "id": 271
             },
             "id": 2995720946,
-            "last_update": 1366730451.558843,
+            "last_update": 1387585029.652496,
             "level": 0,
             "max_targets": 0,
             "name": "Advanced Strike",
@@ -215,10 +167,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730451.558843,
+            "ts": 1387585029.652496,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +213,7 @@
                 "id": 271
             },
             "id": 796980100,
-            "last_update": 1366730445.245384,
+            "last_update": 1387585029.598863,
             "level": 0,
             "max_targets": 0,
             "name": "Advanced Strike",
@@ -269,10 +223,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730445.245384,
+            "ts": 1387585029.598863,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2889651461,
+            "deity": 0,
+            "description": "Improves the base damage of the triggered effect Interrupt that is found on Daring Advance and its upgrades.",
+            "description_pvp": "Improves the base damage of the triggered effect Interrupt that is found on Daring Advance and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the base damage of Interrupt by 20%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 271
+            },
+            "id": 1407309407,
+            "last_update": 1387585029.517589,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Advanced Strike",
+            "name_lower": "advanced strike",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585029.517589,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

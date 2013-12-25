@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730457.852634,
+    "min_ts": 1387584891.242262,
     "returned": 5,
-    "seconds": 0.015426158905029297,
+    "seconds": 0.021001815795898438,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the heal amount by 20%.",
+                    "description": "Reduces the casting time by 1 seconds.",
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces the casting time by 1 seconds.",
+                    "description": "Improves the heal amount by 20%.",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 293
             },
             "id": 542506455,
-            "last_update": 1366730641.643819,
+            "last_update": 1387584891.520205,
             "level": 0,
             "max_targets": 0,
             "name": "Restorative Healing",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730641.643819,
+            "ts": 1387584891.520205,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -89,186 +93,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the heal amount by 8%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces the casting time by 0.4 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 293
-            },
-            "id": 1167611671,
-            "last_update": 1366730637.218886,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Restorative Healing",
-            "name_lower": "restorative healing",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730637.218886,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2116491113,
-            "deity": 0,
-            "description": "Improves the cast time and heal amount for the Word of Redemption line of spells.",
-            "description_pvp": "Improves the cast time and heal amount for the Word of Redemption line of spells.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the heal amount by 12%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces the casting time by 0.6 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 293
-            },
-            "id": 3633821281,
-            "last_update": 1366730612.721239,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Restorative Healing",
-            "name_lower": "restorative healing",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730612.721239,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2116491113,
-            "deity": 0,
-            "description": "Improves the cast time and heal amount for the Word of Redemption line of spells.",
-            "description_pvp": "Improves the cast time and heal amount for the Word of Redemption line of spells.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the heal amount by 4%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces the casting time by 0.2 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 293
-            },
-            "id": 972649164,
-            "last_update": 1366730595.656631,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Restorative Healing",
-            "name_lower": "restorative healing",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730595.656631,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2116491113,
-            "deity": 0,
-            "description": "Improves the cast time and heal amount for the Word of Redemption line of spells.",
-            "description_pvp": "Improves the cast time and heal amount for the Word of Redemption line of spells.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the heal amount by 16%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Reduces the casting time by 0.8 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the heal amount by 16%.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +109,7 @@
                 "id": 293
             },
             "id": 3176799393,
-            "last_update": 1366730457.852634,
+            "last_update": 1387584891.462937,
             "level": 0,
             "max_targets": 0,
             "name": "Restorative Healing",
@@ -289,10 +119,190 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730457.852634,
+            "ts": 1387584891.462937,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2116491113,
+            "deity": 0,
+            "description": "Improves the cast time and heal amount for the Word of Redemption line of spells.",
+            "description_pvp": "Improves the cast time and heal amount for the Word of Redemption line of spells.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the casting time by 0.6 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the heal amount by 12%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 293
+            },
+            "id": 3633821281,
+            "last_update": 1387584891.359267,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Restorative Healing",
+            "name_lower": "restorative healing",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584891.359267,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2116491113,
+            "deity": 0,
+            "description": "Improves the cast time and heal amount for the Word of Redemption line of spells.",
+            "description_pvp": "Improves the cast time and heal amount for the Word of Redemption line of spells.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the casting time by 0.4 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the heal amount by 8%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 293
+            },
+            "id": 1167611671,
+            "last_update": 1387584891.319443,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Restorative Healing",
+            "name_lower": "restorative healing",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584891.319443,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2116491113,
+            "deity": 0,
+            "description": "Improves the cast time and heal amount for the Word of Redemption line of spells.",
+            "description_pvp": "Improves the cast time and heal amount for the Word of Redemption line of spells.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces the casting time by 0.2 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the heal amount by 4%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 293
+            },
+            "id": 972649164,
+            "last_update": 1387584891.242262,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Restorative Healing",
+            "name_lower": "restorative healing",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584891.242262,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

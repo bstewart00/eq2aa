@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730461.942428,
+    "min_ts": 1387585605.003663,
     "returned": 10,
-    "seconds": 0.01667189598083496,
+    "seconds": 0.0750880241394043,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,14 +38,6 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases Threat to target encounter by 49 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If not fighter",
-                    "indentation": 2
-                },
-                {
                     "description": "Grants a 100% chance to attempt to increase your pet's hate position with its enemy.",
                     "indentation": 1
                 },
@@ -52,69 +46,7 @@
                     "indentation": 2
                 },
                 {
-                    "description": "Increases Threat to target encounter by 87 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If fighter",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 610
-            },
-            "id": 3968578591,
-            "last_update": 1366730652.561772,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Magic Leash",
-            "name_lower": "magic leash",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730652.561772,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4181278196,
-            "deity": 0,
-            "description": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
-            "description_pvp": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Magic Leash.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Threat to target encounter by 54 ",
+                    "description": "Decreases Threat to target encounter by 86 ",
                     "indentation": 1
                 },
                 {
@@ -122,15 +54,7 @@
                     "indentation": 2
                 },
                 {
-                    "description": "Grants a 100% chance to attempt to increase your pet's hate position with its enemy.",
-                    "indentation": 1
-                },
-                {
-                    "description": "If fighter",
-                    "indentation": 2
-                },
-                {
-                    "description": "Increases Threat to target encounter by 95 ",
+                    "description": "Increases Threat to target encounter by 127 ",
                     "indentation": 1
                 },
                 {
@@ -145,7 +69,7 @@
                 "id": 610
             },
             "id": 2900798000,
-            "last_update": 1366730651.323826,
+            "last_update": 1387585606.604756,
             "level": 0,
             "max_targets": 0,
             "name": "Magic Leash",
@@ -155,10 +79,10 @@
             "spellbook": 0,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730651.323826,
+            "ts": 1387585606.604756,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -168,8 +92,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -190,170 +116,6 @@
                 {
                     "description": "Applies Magic Leash.",
                     "indentation": 0
-                },
-                {
-                    "description": "Decreases Threat to target encounter by 46 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If not fighter",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a 87% chance to attempt to increase your pet's hate position with its enemy.",
-                    "indentation": 1
-                },
-                {
-                    "description": "If fighter",
-                    "indentation": 2
-                },
-                {
-                    "description": "Increases Threat to target encounter by 81 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If fighter",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 610
-            },
-            "id": 3122594025,
-            "last_update": 1366730646.630387,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Magic Leash",
-            "name_lower": "magic leash",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730646.630387,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4181278196,
-            "deity": 0,
-            "description": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
-            "description_pvp": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Magic Leash.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Threat to target encounter by 31 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If not fighter",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a 25% chance to attempt to increase your pet's hate position with its enemy.",
-                    "indentation": 1
-                },
-                {
-                    "description": "If fighter",
-                    "indentation": 2
-                },
-                {
-                    "description": "Increases Threat to target encounter by 55 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If fighter",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 610
-            },
-            "id": 1052536452,
-            "last_update": 1366730644.962752,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Magic Leash",
-            "name_lower": "magic leash",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730644.962752,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4181278196,
-            "deity": 0,
-            "description": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
-            "description_pvp": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Magic Leash.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Threat to target encounter by 53 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If not fighter",
-                    "indentation": 2
                 },
                 {
                     "description": "Grants a 100% chance to attempt to increase your pet's hate position with its enemy.",
@@ -364,7 +126,15 @@
                     "indentation": 2
                 },
                 {
-                    "description": "Increases Threat to target encounter by 92 ",
+                    "description": "Decreases Threat to target encounter by 84 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Increases Threat to target encounter by 124 ",
                     "indentation": 1
                 },
                 {
@@ -379,7 +149,7 @@
                 "id": 610
             },
             "id": 1904498025,
-            "last_update": 1366730644.781855,
+            "last_update": 1387585606.404513,
             "level": 0,
             "max_targets": 0,
             "name": "Magic Leash",
@@ -389,10 +159,10 @@
             "spellbook": 0,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730644.781855,
+            "ts": 1387585606.404513,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -402,8 +172,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -426,15 +198,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases Threat to target encounter by 43 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If not fighter",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a 75% chance to attempt to increase your pet's hate position with its enemy.",
+                    "description": "Grants a 100% chance to attempt to increase your pet's hate position with its enemy.",
                     "indentation": 1
                 },
                 {
@@ -442,7 +206,175 @@
                     "indentation": 2
                 },
                 {
-                    "description": "Increases Threat to target encounter by 75 ",
+                    "description": "Decreases Threat to target encounter by 78 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Increases Threat to target encounter by 116 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If fighter",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 610
+            },
+            "id": 3968578591,
+            "last_update": 1387585606.284935,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Magic Leash",
+            "name_lower": "magic leash",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387585606.284935,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4181278196,
+            "deity": 0,
+            "description": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
+            "description_pvp": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Magic Leash.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Threat to target encounter by 73 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Increases Threat to target encounter by 108 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a 87% chance to attempt to increase your pet's hate position with its enemy.",
+                    "indentation": 1
+                },
+                {
+                    "description": "If fighter",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 610
+            },
+            "id": 3122594025,
+            "last_update": 1387585606.044633,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Magic Leash",
+            "name_lower": "magic leash",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585606.044633,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4181278196,
+            "deity": 0,
+            "description": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
+            "description_pvp": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Magic Leash.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Threat to target encounter by 68 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Increases Threat to target encounter by 100 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a 75% chance to attempt to increase your pet's hate position with its enemy.",
                     "indentation": 1
                 },
                 {
@@ -457,7 +389,7 @@
                 "id": 610
             },
             "id": 655417759,
-            "last_update": 1366730631.840679,
+            "last_update": 1387585605.88319,
             "level": 0,
             "max_targets": 0,
             "name": "Magic Leash",
@@ -467,10 +399,10 @@
             "spellbook": 0,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730631.840679,
+            "ts": 1387585605.88319,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -480,8 +412,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -504,7 +438,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Decreases Threat to target encounter by 33 ",
+                    "description": "Decreases Threat to target encounter by 63 ",
                     "indentation": 1
                 },
                 {
@@ -512,241 +446,7 @@
                     "indentation": 2
                 },
                 {
-                    "description": "Grants a 37% chance to attempt to increase your pet's hate position with its enemy.",
-                    "indentation": 1
-                },
-                {
-                    "description": "If fighter",
-                    "indentation": 2
-                },
-                {
-                    "description": "Increases Threat to target encounter by 58 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If fighter",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 610
-            },
-            "id": 2746454002,
-            "last_update": 1366730619.569466,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Magic Leash",
-            "name_lower": "magic leash",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730619.569466,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4181278196,
-            "deity": 0,
-            "description": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
-            "description_pvp": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Magic Leash.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Threat to target encounter by 29 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If not fighter",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a 12% chance to attempt to increase your pet's hate position with its enemy.",
-                    "indentation": 1
-                },
-                {
-                    "description": "If fighter",
-                    "indentation": 2
-                },
-                {
-                    "description": "Increases Threat to target encounter by 52 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If fighter",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 610
-            },
-            "id": 1121799007,
-            "last_update": 1366730568.529851,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Magic Leash",
-            "name_lower": "magic leash",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730568.529851,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4181278196,
-            "deity": 0,
-            "description": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
-            "description_pvp": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Magic Leash.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Threat to target encounter by 36 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If not fighter",
-                    "indentation": 2
-                },
-                {
-                    "description": "Grants a 50% chance to attempt to increase your pet's hate position with its enemy.",
-                    "indentation": 1
-                },
-                {
-                    "description": "If fighter",
-                    "indentation": 2
-                },
-                {
-                    "description": "Increases Threat to target encounter by 63 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If fighter",
-                    "indentation": 2
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 610
-            },
-            "id": 3330155826,
-            "last_update": 1366730462.086994,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Magic Leash",
-            "name_lower": "magic leash",
-            "recast_secs": 29.64427,
-            "recovery_secs_tenths": 0,
-            "spellbook": 0,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730462.086994,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4181278196,
-            "deity": 0,
-            "description": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
-            "description_pvp": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Magic Leash.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Decreases Threat to target encounter by 39 ",
-                    "indentation": 1
-                },
-                {
-                    "description": "If not fighter",
-                    "indentation": 2
-                },
-                {
-                    "description": "Increases Threat to target encounter by 69 ",
+                    "description": "Increases Threat to target encounter by 93 ",
                     "indentation": 1
                 },
                 {
@@ -769,7 +469,7 @@
                 "id": 610
             },
             "id": 1534182468,
-            "last_update": 1366730461.942428,
+            "last_update": 1387585605.745074,
             "level": 0,
             "max_targets": 0,
             "name": "Magic Leash",
@@ -779,10 +479,330 @@
             "spellbook": 0,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730461.942428,
+            "ts": 1387585605.745074,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4181278196,
+            "deity": 0,
+            "description": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
+            "description_pvp": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Magic Leash.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Threat to target encounter by 57 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Increases Threat to target encounter by 85 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a 50% chance to attempt to increase your pet's hate position with its enemy.",
+                    "indentation": 1
+                },
+                {
+                    "description": "If fighter",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 610
+            },
+            "id": 3330155826,
+            "last_update": 1387585605.524348,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Magic Leash",
+            "name_lower": "magic leash",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585605.524348,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4181278196,
+            "deity": 0,
+            "description": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
+            "description_pvp": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Magic Leash.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Grants a 37% chance to attempt to increase your pet's hate position with its enemy.",
+                    "indentation": 1
+                },
+                {
+                    "description": "If fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Decreases Threat to target encounter by 52 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Increases Threat to target encounter by 77 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If fighter",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 610
+            },
+            "id": 2746454002,
+            "last_update": 1387585605.404224,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Magic Leash",
+            "name_lower": "magic leash",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585605.404224,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4181278196,
+            "deity": 0,
+            "description": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
+            "description_pvp": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Magic Leash.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Threat to target encounter by 50 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Increases Threat to target encounter by 73 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a 25% chance to attempt to increase your pet's hate position with its enemy.",
+                    "indentation": 1
+                },
+                {
+                    "description": "If fighter",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 610
+            },
+            "id": 1052536452,
+            "last_update": 1387585605.204756,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Magic Leash",
+            "name_lower": "magic leash",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585605.204756,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4181278196,
+            "deity": 0,
+            "description": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
+            "description_pvp": "The encounter that the pet has targeted has their hate decreased towards the pet if the pet is not a fighter. If the pet is a fighter, hate is increased instead and has a chance to increase hate position as well.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Magic Leash.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Decreases Threat to target encounter by 47 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If not fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Increases Threat to target encounter by 69 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "If fighter",
+                    "indentation": 2
+                },
+                {
+                    "description": "Grants a 12% chance to attempt to increase your pet's hate position with its enemy.",
+                    "indentation": 1
+                },
+                {
+                    "description": "If fighter",
+                    "indentation": 2
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 610
+            },
+            "id": 1121799007,
+            "last_update": 1387585605.003663,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Magic Leash",
+            "name_lower": "magic leash",
+            "recast_secs": 29.64427,
+            "recovery_secs_tenths": 0,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585605.003663,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
         }
     ]
 }

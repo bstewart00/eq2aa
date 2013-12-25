@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730455.268341,
+    "min_ts": 1387585632.770929,
     "returned": 5,
-    "seconds": 0.021396875381469727,
+    "seconds": 0.026661157608032227,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Adds a positional detaunt to Harmony",
+                    "description": "Adds an extra hate position reduction to Harmony",
                     "indentation": 0
                 },
                 {
@@ -47,7 +49,7 @@
                 "id": 157
             },
             "id": 4073513286,
-            "last_update": 1366730651.309365,
+            "last_update": 1387585633.01237,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Harmony",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730651.309365,
+            "ts": 1387585633.01237,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,116 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1100366318,
-            "deity": 0,
-            "description": "Hastens the reuse speed of Harmony and its upgrades. The final rank adds a hate position reduction.",
-            "description_pvp": "Hastens the reuse speed of Harmony and its upgrades. The final rank adds a hate position reduction.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 90 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 157
-            },
-            "id": 168733424,
-            "last_update": 1366730649.693968,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Harmony",
-            "name_lower": "enhance: harmony",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730649.693968,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1100366318,
-            "deity": 0,
-            "description": "Hastens the reuse speed of Harmony and its upgrades. The final rank adds a hate position reduction.",
-            "description_pvp": "Hastens the reuse speed of Harmony and its upgrades. The final rank adds a hate position reduction.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 30 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 157
-            },
-            "id": 3948965469,
-            "last_update": 1366730632.364467,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Harmony",
-            "name_lower": "enhance: harmony",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730632.364467,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -209,7 +105,7 @@
                 "id": 157
             },
             "id": 1875050544,
-            "last_update": 1366730622.990149,
+            "last_update": 1387585632.970351,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Harmony",
@@ -219,10 +115,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730622.990149,
+            "ts": 1387585632.970351,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -232,8 +128,66 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1100366318,
+            "deity": 0,
+            "description": "Hastens the reuse speed of Harmony and its upgrades. The final rank adds a hate position reduction.",
+            "description_pvp": "Hastens the reuse speed of Harmony and its upgrades. The final rank adds a hate position reduction.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 90 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 157
+            },
+            "id": 168733424,
+            "last_update": 1387585632.84919,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Harmony",
+            "name_lower": "enhance: harmony",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585632.84919,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -263,7 +217,7 @@
                 "id": 157
             },
             "id": 2533444486,
-            "last_update": 1366730455.268341,
+            "last_update": 1387585632.812114,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Harmony",
@@ -273,10 +227,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730455.268341,
+            "ts": 1387585632.812114,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1100366318,
+            "deity": 0,
+            "description": "Hastens the reuse speed of Harmony and its upgrades. The final rank adds a hate position reduction.",
+            "description_pvp": "Hastens the reuse speed of Harmony and its upgrades. The final rank adds a hate position reduction.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 30 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 157
+            },
+            "id": 3948965469,
+            "last_update": 1387585632.770929,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Harmony",
+            "name_lower": "enhance: harmony",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585632.770929,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

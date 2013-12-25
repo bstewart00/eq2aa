@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730433.118741,
+    "min_ts": 1387584461.233484,
     "returned": 5,
-    "seconds": 0.01540517807006836,
+    "seconds": 0.019483089447021484,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,128 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the Crit Bonus by 10%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 90 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 219
-            },
-            "id": 725693064,
-            "last_update": 1366730633.039421,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Ancestral Avenger",
-            "name_lower": "enhance: ancestral avenger",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730633.039421,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2311566573,
-            "deity": 0,
-            "description": "Increases the critical amount and improves the reuse speed of Ancestral Avenger and its upgrades.",
-            "description_pvp": "Increases the critical amount and improves the reuse speed of Ancestral Avenger and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the Crit Bonus by 20%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 180 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 316,
-                "icon_heroic_op": -1,
-                "id": 219
-            },
-            "id": 3548608830,
-            "last_update": 1366730620.114658,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Ancestral Avenger",
-            "name_lower": "enhance: ancestral avenger",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730620.114658,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2311566573,
-            "deity": 0,
-            "description": "Increases the critical amount and improves the reuse speed of Ancestral Avenger and its upgrades.",
-            "description_pvp": "Increases the critical amount and improves the reuse speed of Ancestral Avenger and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the Crit Bonus by 25%",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves reuse speed by 225 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 25%",
                     "indentation": 0
                 }
             ],
@@ -163,7 +49,7 @@
                 "id": 219
             },
             "id": 1317836872,
-            "last_update": 1366730617.091243,
+            "last_update": 1387584461.512489,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Ancestral Avenger",
@@ -173,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730617.091243,
+            "ts": 1387584461.512489,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the Crit Bonus by 5%",
+                    "description": "Improves reuse speed by 180 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves reuse speed by 45 seconds",
+                    "description": "Improves the Crit Bonus by 20%",
                     "indentation": 0
                 }
             ],
@@ -220,8 +108,8 @@
                 "icon_heroic_op": -1,
                 "id": 219
             },
-            "id": 1461720915,
-            "last_update": 1366730441.414927,
+            "id": 3548608830,
+            "last_update": 1387584461.450794,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Ancestral Avenger",
@@ -229,12 +117,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730441.414927,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584461.450794,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the Crit Bonus by 15%",
+                    "description": "Improves reuse speed by 135 seconds",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves reuse speed by 135 seconds",
+                    "description": "Improves the Crit Bonus by 15%",
                     "indentation": 0
                 }
             ],
@@ -279,7 +169,7 @@
                 "id": 219
             },
             "id": 3058619390,
-            "last_update": 1366730433.118741,
+            "last_update": 1387584461.352955,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Ancestral Avenger",
@@ -289,10 +179,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730433.118741,
+            "ts": 1387584461.352955,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2311566573,
+            "deity": 0,
+            "description": "Increases the critical amount and improves the reuse speed of Ancestral Avenger and its upgrades.",
+            "description_pvp": "Increases the critical amount and improves the reuse speed of Ancestral Avenger and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 90 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 10%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 219
+            },
+            "id": 725693064,
+            "last_update": 1387584461.312894,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Ancestral Avenger",
+            "name_lower": "enhance: ancestral avenger",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584461.312894,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2311566573,
+            "deity": 0,
+            "description": "Increases the critical amount and improves the reuse speed of Ancestral Avenger and its upgrades.",
+            "description_pvp": "Increases the critical amount and improves the reuse speed of Ancestral Avenger and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 45 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 5%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 316,
+                "icon_heroic_op": -1,
+                "id": 219
+            },
+            "id": 1461720915,
+            "last_update": 1387584461.233484,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Ancestral Avenger",
+            "name_lower": "enhance: ancestral avenger",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584461.233484,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

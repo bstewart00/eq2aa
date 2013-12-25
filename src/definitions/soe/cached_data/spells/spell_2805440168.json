@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.709464,
+    "min_ts": 1387585185.165555,
     "returned": 5,
-    "seconds": 0.01578211784362793,
+    "seconds": 0.021911144256591797,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases wisdom reduction by 60%",
+                    "description": "Increases the base damage by 10%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases the base damage by 10%",
+                    "description": "Increases wisdom reduction by 60%",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 268
             },
             "id": 3909860628,
-            "last_update": 1366730642.396947,
+            "last_update": 1387585185.443026,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Cleave Flesh",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730642.396947,
+            "ts": 1387585185.443026,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -90,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases wisdom reduction by 48%",
+                    "description": "Increases the base damage by 8%",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases the base damage by 8%",
+                    "description": "Increases wisdom reduction by 48%",
                     "indentation": 0
                 }
             ],
@@ -105,7 +109,7 @@
                 "id": 268
             },
             "id": 1946442850,
-            "last_update": 1366730633.719551,
+            "last_update": 1387585185.332893,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Cleave Flesh",
@@ -115,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730633.719551,
+            "ts": 1387585185.332893,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -128,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -147,128 +153,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Increases wisdom reduction by 12%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the base damage by 2%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 268
-            },
-            "id": 4037489167,
-            "last_update": 1366730459.102255,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Cleave Flesh",
-            "name_lower": "enhance: cleave flesh",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730459.102255,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2805440168,
-            "deity": 0,
-            "description": "Cleave Flesh and its upgrades become more effective at reducing your opponents' wisdom.",
-            "description_pvp": "Cleave Flesh and its upgrades become more effective at reducing your opponents' wisdom.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases wisdom reduction by 24%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the base damage by 4%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 268
-            },
-            "id": 2361792468,
-            "last_update": 1366730449.250836,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Cleave Flesh",
-            "name_lower": "enhance: cleave flesh",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730449.250836,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2805440168,
-            "deity": 0,
-            "description": "Cleave Flesh and its upgrades become more effective at reducing your opponents' wisdom.",
-            "description_pvp": "Cleave Flesh and its upgrades become more effective at reducing your opponents' wisdom.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases wisdom reduction by 36%",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases the base damage by 6%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases wisdom reduction by 36%",
                     "indentation": 0
                 }
             ],
@@ -279,7 +169,7 @@
                 "id": 268
             },
             "id": 298448546,
-            "last_update": 1366730438.709464,
+            "last_update": 1387585185.302631,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Cleave Flesh",
@@ -289,10 +179,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730438.709464,
+            "ts": 1387585185.302631,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2805440168,
+            "deity": 0,
+            "description": "Cleave Flesh and its upgrades become more effective at reducing your opponents' wisdom.",
+            "description_pvp": "Cleave Flesh and its upgrades become more effective at reducing your opponents' wisdom.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the base damage by 4%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases wisdom reduction by 24%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 268
+            },
+            "id": 2361792468,
+            "last_update": 1387585185.244467,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Cleave Flesh",
+            "name_lower": "enhance: cleave flesh",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585185.244467,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2805440168,
+            "deity": 0,
+            "description": "Cleave Flesh and its upgrades become more effective at reducing your opponents' wisdom.",
+            "description_pvp": "Cleave Flesh and its upgrades become more effective at reducing your opponents' wisdom.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the base damage by 2%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases wisdom reduction by 12%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 268
+            },
+            "id": 4037489167,
+            "last_update": 1387585185.165555,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Cleave Flesh",
+            "name_lower": "enhance: cleave flesh",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585185.165555,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

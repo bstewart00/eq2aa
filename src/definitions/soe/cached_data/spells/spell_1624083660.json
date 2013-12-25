@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730636.05903,
+    "min_ts": 1387584300.764915,
     "returned": 1,
-    "seconds": 0.014227151870727539,
+    "seconds": 0.015261173248291016,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -30,6 +32,12 @@
                 "max_sec_tenths": 300,
                 "min_sec_tenths": 300
             },
+            "effect_list": [
+                {
+                    "description": "Wards group members (AE) collectively against 40 total points of all damage",
+                    "indentation": 0
+                }
+            ],
             "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 314,
@@ -37,7 +45,7 @@
                 "id": 192
             },
             "id": 1883291673,
-            "last_update": 1366730636.05903,
+            "last_update": 1387584300.764915,
             "level": 0,
             "max_targets": 0,
             "name": "Umbral Barrier",
@@ -47,10 +55,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730636.05903,
+            "ts": 1387584300.764915,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

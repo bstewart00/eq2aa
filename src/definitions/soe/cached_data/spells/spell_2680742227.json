@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730449.274726,
+    "min_ts": 1387585172.220621,
     "returned": 5,
-    "seconds": 0.02643609046936035,
+    "seconds": 0.015684127807617188,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,77 +34,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 120 seconds",
+                    "description": "Improves casting speed by 1.5 seconds",
                     "indentation": 0
                 },
-                {
-                    "description": "Reduces the power cost by 40%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.6 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 353
-            },
-            "id": 533800125,
-            "last_update": 1366730632.216943,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Escape",
-            "name_lower": "enhance: escape",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730632.216943,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2680742227,
-            "deity": 0,
-            "description": "Improves the power cost, casting and reuse speed of Escape.",
-            "description_pvp": "Improves the power cost, casting and reuse speed of Escape.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
                 {
                     "description": "Improves reuse speed by 300 seconds",
                     "indentation": 0
                 },
                 {
                     "description": "Reduces the power cost by 100%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 1.5 seconds",
                     "indentation": 0
                 }
             ],
@@ -113,7 +53,7 @@
                 "id": 353
             },
             "id": 2048691837,
-            "last_update": 1366730631.409775,
+            "last_update": 1387585172.610312,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Escape",
@@ -123,10 +63,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730631.409775,
+            "ts": 1387585172.610312,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -136,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -156,139 +98,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves reuse speed by 60 seconds",
+                    "description": "Improves casting speed by 1.2 seconds",
                     "indentation": 0
                 },
-                {
-                    "description": "Reduces the power cost by 20%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.3 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 353
-            },
-            "id": 1672479078,
-            "last_update": 1366730595.532146,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Escape",
-            "name_lower": "enhance: escape",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730595.532146,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2680742227,
-            "deity": 0,
-            "description": "Improves the power cost, casting and reuse speed of Escape.",
-            "description_pvp": "Improves the power cost, casting and reuse speed of Escape.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves reuse speed by 180 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces the power cost by 60%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 0.9 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 314,
-                "icon_heroic_op": -1,
-                "id": 353
-            },
-            "id": 2195637707,
-            "last_update": 1366730455.584441,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Escape",
-            "name_lower": "enhance: escape",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730455.584441,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2680742227,
-            "deity": 0,
-            "description": "Improves the power cost, casting and reuse speed of Escape.",
-            "description_pvp": "Improves the power cost, casting and reuse speed of Escape.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
                 {
                     "description": "Improves reuse speed by 240 seconds",
                     "indentation": 0
                 },
                 {
                     "description": "Reduces the power cost by 80%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves casting speed by 1.2 seconds",
                     "indentation": 0
                 }
             ],
@@ -299,7 +117,7 @@
                 "id": 353
             },
             "id": 3876810507,
-            "last_update": 1366730449.274726,
+            "last_update": 1387585172.53014,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Escape",
@@ -309,10 +127,202 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730449.274726,
+            "ts": 1387585172.53014,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2680742227,
+            "deity": 0,
+            "description": "Improves the power cost, casting and reuse speed of Escape.",
+            "description_pvp": "Improves the power cost, casting and reuse speed of Escape.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting speed by 0.9 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 180 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the power cost by 60%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 353
+            },
+            "id": 2195637707,
+            "last_update": 1387585172.452941,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Escape",
+            "name_lower": "enhance: escape",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585172.452941,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2680742227,
+            "deity": 0,
+            "description": "Improves the power cost, casting and reuse speed of Escape.",
+            "description_pvp": "Improves the power cost, casting and reuse speed of Escape.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting speed by 0.6 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 120 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the power cost by 40%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 353
+            },
+            "id": 533800125,
+            "last_update": 1387585172.375976,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Escape",
+            "name_lower": "enhance: escape",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585172.375976,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2680742227,
+            "deity": 0,
+            "description": "Improves the power cost, casting and reuse speed of Escape.",
+            "description_pvp": "Improves the power cost, casting and reuse speed of Escape.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves casting speed by 0.3 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 60 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the power cost by 20%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 314,
+                "icon_heroic_op": -1,
+                "id": 353
+            },
+            "id": 1672479078,
+            "last_update": 1387585172.220621,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Escape",
+            "name_lower": "enhance: escape",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585172.220621,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

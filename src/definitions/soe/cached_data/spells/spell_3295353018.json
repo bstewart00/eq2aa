@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730592.874009,
+    "min_ts": 1387585488.468814,
     "returned": 1,
-    "seconds": 0.014409065246582031,
+    "seconds": 0.019748210906982422,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,6 +34,10 @@
             },
             "effect_list": [
                 {
+                    "description": "Inflicts 1 - 2 divine damage on target",
+                    "indentation": 0
+                },
+                {
                     "description": "Applies True Territory.  Lasts for 30.0 seconds.",
                     "indentation": 0
                 },
@@ -40,15 +46,11 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Damage Per Second of caster by 6.0",
+                    "description": "Increases Multi Attack Chance of caster by 6.0",
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts up to 7 times the listed damage, based on the amount of increments of Divine Justice the paladin has active. Consumes all Divine Justice charges when used.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 1 - 2 divine damage on target",
+                    "description": "Inflicts up to 40 times the listed damage, based on the amount of increments of Divine Justice the paladin has active. Consumes all Divine Justice charges when used.",
                     "indentation": 0
                 },
                 {
@@ -56,14 +58,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 315,
                 "icon_heroic_op": -1,
                 "id": 844
             },
             "id": 3914826386,
-            "last_update": 1366730592.874009,
+            "last_update": 1387585488.468814,
             "level": 0,
             "max_targets": 0,
             "name": "Harbinger of Justice",
@@ -73,10 +75,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730592.874009,
+            "ts": 1387585488.468814,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

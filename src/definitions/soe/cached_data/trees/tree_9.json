@@ -74,7 +74,7 @@
                 {
                     "classification": "Agility",
                     "classificationpointsrequired": 22,
-                    "description": "Grants the Chieftain chances to become enraged in combat, increasing attack speed and double-attack chances.",
+                    "description": "Grants the Chieftain chances to become enraged in combat, increasing attack speed and damage.",
                     "icon": {
                         "backdrop": -1,
                         "id": 49
@@ -204,7 +204,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Increases the Chieftain's chances to critical.",
                     "firstparentid": 3476023623,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 108
@@ -227,7 +227,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Increases the Ritualist's ordination, subjugation, and disruption skills.",
                     "firstparentid": 736865834,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 57
@@ -248,9 +248,9 @@
                 {
                     "classification": "Stamina",
                     "classificationpointsrequired": 0,
-                    "description": "Increases the Witchdoctor's block and doubleattack chances.",
+                    "description": "Increases the Witchdoctor's block chance and Damage Per Second.",
                     "firstparentid": 487087391,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 23
@@ -273,7 +273,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Increases the Blighter's base spell damage.",
                     "firstparentid": 457774134,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 111
@@ -296,7 +296,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Your group receives an increase in combat attack speed while near your pet.",
                     "firstparentid": 45891356,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 7
@@ -426,7 +426,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Improves the Ritualist's reuse speed.",
                     "firstparentid": 1559011004,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 50
@@ -449,7 +449,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Increases the amount of melee damage done by the Chieftain.",
                     "firstparentid": 3089684945,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 110
@@ -470,7 +470,7 @@
                 {
                     "classification": "Sentinel's Fate Attributes",
                     "classificationpointsrequired": 0,
-                    "description": "Reduces the reuse speed of the Witchdoctor's group cure.",
+                    "description": "Reduces the base reuse speed of the Witchdoctor's group cure.",
                     "icon": {
                         "backdrop": 458,
                         "id": 292
@@ -514,7 +514,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Every time your pet attacks, there is a chance that a group ward will be cast on the party.",
                     "firstparentid": 1975193482,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 12
@@ -558,7 +558,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Nearby group allies gain a chance to outright prevent hostile spells from landing on them.",
                     "firstparentid": 1817060512,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 47
@@ -581,7 +581,7 @@
                     "classificationpointsrequired": 0,
                     "description": "Basic single target cure spells have reduced casting and recovery times, and cost less power.",
                     "firstparentid": 1779395977,
-                    "firstparentrequiredtier": 4,
+                    "firstparentrequiredtier": 1,
                     "icon": {
                         "backdrop": -1,
                         "id": 22
@@ -602,7 +602,7 @@
             ],
             "id": 9,
             "iswardertree": "false",
-            "last_update": 1380751542.940815,
+            "last_update": 1387586626.676072,
             "maximumpoints": 0,
             "maxpointsperlevelnode_list": [
                 {
@@ -612,12 +612,12 @@
             ],
             "minimumpointsrequired": 0,
             "name": "Shaman",
-            "ts": 1380751542.940815,
+            "ts": 1387586626.676072,
             "version": 2
         }
     ],
     "limit": 1,
-    "min_ts": 1380751542.940815,
+    "min_ts": 1387586626.676072,
     "returned": 1,
-    "seconds": 0.023315906524658203
+    "seconds": 0.13121700286865234
 }

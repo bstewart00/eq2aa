@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730435.97492,
+    "min_ts": 1387584631.92047,
     "returned": 5,
-    "seconds": 0.019334077835083008,
+    "seconds": 0.018535852432250977,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -33,68 +35,10 @@
             "effect_list": [
                 {
                     "description": "Ambush and Emberstrike will inflict their damage twice.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Jugular Slice and Rear Shot will inflict their damage twice.",
                     "indentation": 0
                 },
                 {
                     "description": "Masked Strike and Sneak Attack will inflict their damage twice.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 832
-            },
-            "id": 2865139971,
-            "last_update": 1366730656.180199,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Dexterous Attacks",
-            "name_lower": "dexterous attacks",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730656.180199,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 746589422,
-            "deity": 0,
-            "description": "Certain attacks will inflict their damage twice.",
-            "description_pvp": "Certain attacks will inflict their damage twice.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Ambush and Emberstrike will inflict their damage twice.",
                     "indentation": 0
                 },
                 {
@@ -103,10 +47,6 @@
                 },
                 {
                     "description": "Eviscerate and Ranger's Blade will inflict their damage twice.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Masked Strike and Sneak Attack will inflict their damage twice.",
                     "indentation": 0
                 },
                 {
@@ -121,7 +61,7 @@
                 "id": 832
             },
             "id": 170086110,
-            "last_update": 1366730640.127197,
+            "last_update": 1387584632.201984,
             "level": 0,
             "max_targets": 0,
             "name": "Dexterous Attacks",
@@ -131,10 +71,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730640.127197,
+            "ts": 1387584632.201984,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -144,8 +84,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -168,15 +110,15 @@
                     "indentation": 0
                 },
                 {
+                    "description": "Masked Strike and Sneak Attack will inflict their damage twice.",
+                    "indentation": 0
+                },
+                {
                     "description": "Jugular Slice and Rear Shot will inflict their damage twice.",
                     "indentation": 0
                 },
                 {
                     "description": "Eviscerate and Ranger's Blade will inflict their damage twice.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Masked Strike and Sneak Attack will inflict their damage twice.",
                     "indentation": 0
                 }
             ],
@@ -187,7 +129,7 @@
                 "id": 832
             },
             "id": 3619002203,
-            "last_update": 1366730638.043128,
+            "last_update": 1387584632.120542,
             "level": 0,
             "max_targets": 0,
             "name": "Dexterous Attacks",
@@ -197,10 +139,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730638.043128,
+            "ts": 1387584632.120542,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -210,8 +152,74 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 746589422,
+            "deity": 0,
+            "description": "Certain attacks will inflict their damage twice.",
+            "description_pvp": "Certain attacks will inflict their damage twice.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Ambush and Emberstrike will inflict their damage twice.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Masked Strike and Sneak Attack will inflict their damage twice.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Jugular Slice and Rear Shot will inflict their damage twice.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 832
+            },
+            "id": 2865139971,
+            "last_update": 1387584632.058498,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Dexterous Attacks",
+            "name_lower": "dexterous attacks",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584632.058498,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -245,7 +253,7 @@
                 "id": 832
             },
             "id": 2001750150,
-            "last_update": 1366730633.748066,
+            "last_update": 1387584631.960955,
             "level": 0,
             "max_targets": 0,
             "name": "Dexterous Attacks",
@@ -255,10 +263,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730633.748066,
+            "ts": 1387584631.960955,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -268,8 +276,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -299,7 +309,7 @@
                 "id": 832
             },
             "id": 3399099464,
-            "last_update": 1366730435.97492,
+            "last_update": 1387584631.92047,
             "level": 0,
             "max_targets": 0,
             "name": "Dexterous Attacks",
@@ -309,10 +319,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730435.97492,
+            "ts": 1387584631.92047,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

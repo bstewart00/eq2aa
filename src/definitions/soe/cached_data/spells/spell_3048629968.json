@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.941167,
+    "min_ts": 1387585188.812252,
     "returned": 1,
-    "seconds": 0.014393091201782227,
+    "seconds": 0.014843940734863281,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,6 +34,10 @@
             },
             "effect_list": [
                 {
+                    "description": "Inflicts 13 - 16 melee damage on target",
+                    "indentation": 0
+                },
+                {
                     "description": "Inflicts 6 - 7 divine damage on target instantly and every 4 seconds",
                     "indentation": 0
                 },
@@ -44,11 +50,7 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Threat to target by 46 - 56  instantly and every 4 seconds thereafter",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 13 - 16 melee damage on target",
+                    "description": "Increases Threat to target by 54 - 66  instantly and by 55 - 67  every 4 seconds thereafter",
                     "indentation": 0
                 },
                 {
@@ -63,7 +65,7 @@
                 "id": 848
             },
             "id": 4038319754,
-            "last_update": 1366730438.941167,
+            "last_update": 1387585188.812252,
             "level": 0,
             "max_targets": 0,
             "name": "Faithful Cry",
@@ -73,10 +75,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730438.941167,
+            "ts": 1387585188.812252,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

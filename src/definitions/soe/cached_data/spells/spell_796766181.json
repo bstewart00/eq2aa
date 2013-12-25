@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730585.19864,
+    "min_ts": 1387584460.472483,
     "returned": 1,
-    "seconds": 0.01857590675354004,
+    "seconds": 0.014574050903320312,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,14 +38,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 314,
                 "icon_heroic_op": -1,
                 "id": 863
             },
             "id": 2653504894,
-            "last_update": 1366730585.19864,
+            "last_update": 1387584460.472483,
             "level": 0,
             "max_targets": 0,
             "name": "Soulbreath",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730585.19864,
+            "ts": 1387584460.472483,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

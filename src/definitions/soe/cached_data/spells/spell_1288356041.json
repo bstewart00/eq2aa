@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730456.068359,
+    "min_ts": 1387584295.905807,
     "returned": 2,
-    "seconds": 0.01428985595703125,
+    "seconds": 0.016880035400390625,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,74 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1288356041,
-            "deity": 0,
-            "description": "Passively grants the defiler a chance for hostile spells to finish the reuse of Nightmares or Maelstrom.",
-            "description_pvp": "Passively grants the defiler a chance for hostile spells to finish the reuse of Nightmares or Maelstrom.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a hostile spell cast this spell has a 1% chance to cast Dream Haunter on target.  Lasts for 5.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Clears the reuse on Maelstrom.",
-                    "indentation": 1
-                },
-                {
-                    "description": "On a hostile spell cast this spell has a 4% chance to cast Dream Haunter on target.  Lasts for 5.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Clears the reuse on Nightmares.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 212
-            },
-            "id": 1940557602,
-            "last_update": 1366730615.068338,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Dream Haunter",
-            "name_lower": "dream haunter",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730615.068338,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -121,7 +57,7 @@
                 "id": 212
             },
             "id": 265005817,
-            "last_update": 1366730456.068359,
+            "last_update": 1387584296.058856,
             "level": 0,
             "max_targets": 0,
             "name": "Dream Haunter",
@@ -131,10 +67,78 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730456.068359,
+            "ts": 1387584296.058856,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1288356041,
+            "deity": 0,
+            "description": "Passively grants the defiler a chance for hostile spells to finish the reuse of Nightmares or Maelstrom.",
+            "description_pvp": "Passively grants the defiler a chance for hostile spells to finish the reuse of Nightmares or Maelstrom.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a hostile spell cast this spell has a 1% chance to cast Dream Haunter on target.  Lasts for 5.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Clears the reuse on Maelstrom.",
+                    "indentation": 1
+                },
+                {
+                    "description": "On a hostile spell cast this spell has a 4% chance to cast Dream Haunter on target.  Lasts for 5.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Clears the reuse on Nightmares.",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 212
+            },
+            "id": 1940557602,
+            "last_update": 1387584295.905807,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Dream Haunter",
+            "name_lower": "dream haunter",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584295.905807,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

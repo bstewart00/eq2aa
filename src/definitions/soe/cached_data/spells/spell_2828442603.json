@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730450.706001,
+    "min_ts": 1387585391.026638,
     "returned": 5,
-    "seconds": 0.01519012451171875,
+    "seconds": 0.018333911895751953,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,62 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2828442603,
-            "deity": 0,
-            "description": "The Conjuror's Pact line and its upgrades will increase the amount of elemental and magical resists debuffed.",
-            "description_pvp": "The Conjuror's Pact line and its upgrades will increase the amount of elemental and magical resists debuffed.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the mitigation reduction by 16%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 479
-            },
-            "id": 960010975,
-            "last_update": 1366730652.173692,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Elemental Pact",
-            "name_lower": "elemental pact",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730652.173692,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -97,7 +45,7 @@
                 "id": 479
             },
             "id": 2755099561,
-            "last_update": 1366730646.62057,
+            "last_update": 1387585391.341428,
             "level": 0,
             "max_targets": 0,
             "name": "Elemental Pact",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730646.62057,
+            "ts": 1387585391.341428,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -140,18 +90,18 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the mitigation reduction by 4%.",
+                    "description": "Improves the mitigation reduction by 16%.",
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 479
             },
-            "id": 3181114546,
-            "last_update": 1366730573.947565,
+            "id": 960010975,
+            "last_update": 1387585391.226505,
             "level": 0,
             "max_targets": 0,
             "name": "Elemental Pact",
@@ -159,12 +109,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730573.947565,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585391.226505,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,7 +157,7 @@
                 "id": 479
             },
             "id": 1559572511,
-            "last_update": 1366730467.575279,
+            "last_update": 1387585391.181298,
             "level": 0,
             "max_targets": 0,
             "name": "Elemental Pact",
@@ -215,10 +167,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730467.575279,
+            "ts": 1387585391.181298,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +213,7 @@
                 "id": 479
             },
             "id": 3254440297,
-            "last_update": 1366730450.706001,
+            "last_update": 1387585391.142927,
             "level": 0,
             "max_targets": 0,
             "name": "Elemental Pact",
@@ -269,10 +223,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730450.706001,
+            "ts": 1387585391.142927,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2828442603,
+            "deity": 0,
+            "description": "The Conjuror's Pact line and its upgrades will increase the amount of elemental and magical resists debuffed.",
+            "description_pvp": "The Conjuror's Pact line and its upgrades will increase the amount of elemental and magical resists debuffed.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the mitigation reduction by 4%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 479
+            },
+            "id": 3181114546,
+            "last_update": 1387585391.026638,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Elemental Pact",
+            "name_lower": "elemental pact",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585391.026638,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

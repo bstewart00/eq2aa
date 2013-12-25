@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730451.413339,
+    "min_ts": 1387584894.085026,
     "returned": 3,
-    "seconds": 0.019700050354003906,
+    "seconds": 0.017589092254638672,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1519575616,
             "deity": 0,
-            "description": "Applies an incremental damage over time effect when the wizard uses their single target heat spells. This ability can increment up to 5 times.",
-            "description_pvp": "Applies an incremental damage over time effect when the wizard uses their single target heat spells. This ability can increment up to 5 times.",
+            "description": "Applies an incremental damage over time effect when the wizard uses their single target heat spells. This ability can increment up to 3 times.",
+            "description_pvp": "Applies an incremental damage over time effect when the wizard uses their single target heat spells. This ability can increment up to 3 times.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 0,
@@ -32,151 +34,19 @@
             },
             "effect_list": [
                 {
-                    "description": "On a damage spell hit this spell has a 25% chance to cast Incineration on target of spell.  Lasts for 16.0 seconds.  ",
+                    "description": "On a damage spell hit this spell will cast Incineration on target of spell.  Lasts for 28.0 seconds.  ",
                     "indentation": 0
+                },
+                {
+                    "description": "This effect can only trigger from single target heat spells. Spells modified by Fireshape do not count.",
+                    "indentation": 1
                 },
                 {
                     "description": "Inflicts 20 - 33 heat damage on target",
                     "indentation": 1
                 },
                 {
-                    "description": "Inflicts 3 - 5 heat damage on target every 4 seconds",
-                    "indentation": 1
-                },
-                {
-                    "description": "This effect can only trigger from single target heat spells. Spells modified by Fireshape do not count.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 276
-            },
-            "id": 4148293811,
-            "last_update": 1366730649.051592,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Incineration",
-            "name_lower": "incineration",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730649.051592,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1519575616,
-            "deity": 0,
-            "description": "Applies an incremental damage over time effect when the wizard uses their single target heat spells. This ability can increment up to 5 times.",
-            "description_pvp": "Applies an incremental damage over time effect when the wizard uses their single target heat spells. This ability can increment up to 5 times.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a damage spell hit this spell has a 50% chance to cast Incineration on target of spell.  Lasts for 16.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 20 - 33 heat damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 3 - 5 heat damage on target every 4 seconds",
-                    "indentation": 1
-                },
-                {
-                    "description": "This effect can only trigger from single target heat spells. Spells modified by Fireshape do not count.",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 276
-            },
-            "id": 2334184808,
-            "last_update": 1366730452.943455,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Incineration",
-            "name_lower": "incineration",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730452.943455,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 40,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1519575616,
-            "deity": 0,
-            "description": "Applies an incremental damage over time effect when the wizard uses their single target heat spells. This ability can increment up to 5 times.",
-            "description_pvp": "Applies an incremental damage over time effect when the wizard uses their single target heat spells. This ability can increment up to 5 times.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a damage spell hit this spell has a 75% chance to cast Incineration on target of spell.  Lasts for 16.0 seconds.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 20 - 33 heat damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 3 - 5 heat damage on target every 4 seconds",
-                    "indentation": 1
-                },
-                {
-                    "description": "This effect can only trigger from single target heat spells. Spells modified by Fireshape do not count.",
+                    "description": "Inflicts 5 - 9 heat damage on target every 4 seconds",
                     "indentation": 1
                 }
             ],
@@ -187,7 +57,7 @@
                 "id": 276
             },
             "id": 372192286,
-            "last_update": 1366730451.413339,
+            "last_update": 1387584894.482464,
             "level": 0,
             "max_targets": 0,
             "name": "Incineration",
@@ -197,10 +67,146 @@
             "spellbook": 0,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730451.413339,
+            "ts": 1387584894.482464,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1519575616,
+            "deity": 0,
+            "description": "Applies an incremental damage over time effect when the wizard uses their single target heat spells. This ability can increment up to 3 times.",
+            "description_pvp": "Applies an incremental damage over time effect when the wizard uses their single target heat spells. This ability can increment up to 3 times.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a damage spell hit this spell has a 66% chance to cast Incineration on target of spell.  Lasts for 28.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "This effect can only trigger from single target heat spells. Spells modified by Fireshape do not count.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 20 - 33 heat damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 5 - 9 heat damage on target every 4 seconds",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 276
+            },
+            "id": 2334184808,
+            "last_update": 1387584894.282223,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Incineration",
+            "name_lower": "incineration",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584894.282223,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 40,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1519575616,
+            "deity": 0,
+            "description": "Applies an incremental damage over time effect when the wizard uses their single target heat spells. This ability can increment up to 3 times.",
+            "description_pvp": "Applies an incremental damage over time effect when the wizard uses their single target heat spells. This ability can increment up to 3 times.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a damage spell hit this spell has a 33% chance to cast Incineration on target of spell.  Lasts for 28.0 seconds.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "This effect can only trigger from single target heat spells. Spells modified by Fireshape do not count.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 20 - 33 heat damage on target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 5 - 9 heat damage on target every 4 seconds",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 276
+            },
+            "id": 4148293811,
+            "last_update": 1387584894.085026,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Incineration",
+            "name_lower": "incineration",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584894.085026,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
         }
     ]
 }

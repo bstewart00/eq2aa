@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730617.137922,
+    "min_ts": 1387584193.865933,
     "returned": 1,
-    "seconds": 0.019710063934326172,
+    "seconds": 0.015768051147460938,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 2798591403,
             "deity": 0,
-            "description": "Stuns and inflicts melee damage on the target enemy. The amount of damage is increased by the amount of Thug's Poison increments on the target. This ability does not work with Double Up.",
-            "description_pvp": "Stuns and inflicts melee damage on the target enemy. The amount of damage is increased by the amount of Thug's Poison increments on the target. This ability does not work with Double Up.",
+            "description": "Stuns and inflicts melee damage on the target enemy. The amount of damage is increased by the amount of Thug's Poison increments on the target.",
+            "description_pvp": "Stuns and inflicts melee damage on the target enemy. The amount of damage is increased by the amount of Thug's Poison increments on the target.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 5,
@@ -32,16 +34,16 @@
             },
             "effect_list": [
                 {
-                    "description": "The damage is multiplied by the amount of increments of Thug's Poison on the target.",
-                    "indentation": 0
-                },
-                {
                     "description": "Stuns target",
                     "indentation": 0
                 },
                 {
                     "description": "If Target is not Epic",
                     "indentation": 1
+                },
+                {
+                    "description": "The damage is multiplied by the amount of increments of Thug's Poison on the target.",
+                    "indentation": 0
                 },
                 {
                     "description": "Inflicts 3 - 5 melee damage on target",
@@ -59,7 +61,7 @@
                 "id": 470
             },
             "id": 498420641,
-            "last_update": 1366730617.137922,
+            "last_update": 1387584193.865933,
             "level": 0,
             "max_targets": 0,
             "name": "Shred",
@@ -69,10 +71,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730617.137922,
+            "ts": 1387584193.865933,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

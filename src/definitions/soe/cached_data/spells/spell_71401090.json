@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730625.319695,
+    "min_ts": 1387584227.659501,
     "returned": 1,
-    "seconds": 0.019017934799194336,
+    "seconds": 0.020406007766723633,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,10 +34,6 @@
             },
             "effect_list": [
                 {
-                    "description": "Inflicts 55 - 103 cold damage on targets in Area of Effect",
-                    "indentation": 0
-                },
-                {
                     "description": "Applies Knockdown on termination.  Lasts for 1.5 seconds.",
                     "indentation": 0
                 },
@@ -44,16 +42,20 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Stuns target",
+                    "description": "Blurs vision of target",
                     "indentation": 1
                 },
                 {
-                    "description": "Blurs vision of target",
+                    "description": "Stuns target",
                     "indentation": 1
                 },
                 {
                     "description": "Does not affect Epic targets",
                     "indentation": 1
+                },
+                {
+                    "description": "Inflicts 55 - 103 cold damage on targets in Area of Effect",
+                    "indentation": 0
                 }
             ],
             "given_by": "alternateadvancement",
@@ -63,7 +65,7 @@
                 "id": 252
             },
             "id": 3733956731,
-            "last_update": 1366730625.319695,
+            "last_update": 1387584227.659501,
             "level": 0,
             "max_targets": 5,
             "name": "E'ci's Frozen Wrath",
@@ -73,10 +75,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730625.319695,
+            "ts": 1387584227.659501,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

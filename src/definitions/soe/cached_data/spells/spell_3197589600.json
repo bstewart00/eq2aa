@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730451.233121,
+    "min_ts": 1387584320.072835,
     "returned": 5,
-    "seconds": 0.024829864501953125,
+    "seconds": 0.015384912490844727,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -43,7 +45,7 @@
                 "id": 327
             },
             "id": 214966892,
-            "last_update": 1366730630.796949,
+            "last_update": 1387584320.392042,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Mutilate",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730630.796949,
+            "ts": 1387584320.392042,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -66,62 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3197589600,
-            "deity": 0,
-            "description": "Mutilate and its upgrades become more potent.  Your opponent's attack speed is reduced even further.",
-            "description_pvp": "Mutilate and its upgrades become more potent.  Your opponent's attack speed is reduced even further.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases attack speed reduction by 2%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 327
-            },
-            "id": 360492407,
-            "last_update": 1366730581.183111,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Mutilate",
-            "name_lower": "enhance: mutilate",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730581.183111,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +101,7 @@
                 "id": 327
             },
             "id": 2447360794,
-            "last_update": 1366730458.903608,
+            "last_update": 1387584320.351028,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Mutilate",
@@ -161,10 +111,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730458.903608,
+            "ts": 1387584320.351028,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -205,7 +157,7 @@
                 "id": 327
             },
             "id": 4094847450,
-            "last_update": 1366730455.542525,
+            "last_update": 1387584320.224138,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Mutilate",
@@ -215,10 +167,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730455.542525,
+            "ts": 1387584320.224138,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -259,7 +213,7 @@
                 "id": 327
             },
             "id": 1763543212,
-            "last_update": 1366730451.233121,
+            "last_update": 1387584320.143807,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Mutilate",
@@ -269,10 +223,66 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730451.233121,
+            "ts": 1387584320.143807,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3197589600,
+            "deity": 0,
+            "description": "Mutilate and its upgrades become more potent.  Your opponent's attack speed is reduced even further.",
+            "description_pvp": "Mutilate and its upgrades become more potent.  Your opponent's attack speed is reduced even further.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases attack speed reduction by 2%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 327
+            },
+            "id": 360492407,
+            "last_update": 1387584320.072835,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Mutilate",
+            "name_lower": "enhance: mutilate",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584320.072835,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730584.422508,
+    "min_ts": 1387584588.647575,
     "returned": 1,
-    "seconds": 0.11237788200378418,
+    "seconds": 0.014152050018310547,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,26 +34,26 @@
             },
             "effect_list": [
                 {
+                    "description": "Increases Hate Gain of target by 20.0%",
+                    "indentation": 0
+                },
+                {
                     "description": "Gives target a 20.0% chance to strikethrough a successful avoidance check",
                     "indentation": 0
                 },
                 {
                     "description": "Improves the amount of taunts by 20%",
                     "indentation": 0
-                },
-                {
-                    "description": "Increases Hate Gain of target by 20.0%",
-                    "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 316,
                 "icon_heroic_op": -1,
                 "id": 58
             },
             "id": 464629741,
-            "last_update": 1366730584.422508,
+            "last_update": 1387584588.647575,
             "level": 0,
             "max_targets": 0,
             "name": "Illusionary Instigation",
@@ -61,10 +63,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730584.422508,
+            "ts": 1387584588.647575,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

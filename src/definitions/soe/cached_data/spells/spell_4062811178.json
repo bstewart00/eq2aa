@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730587.669317,
+    "min_ts": 1387585210.690037,
     "returned": 1,
-    "seconds": 0.01833200454711914,
+    "seconds": 0.015372991561889648,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,11 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Dispelled when a group member dies.",
+                    "description": "Increases Max Health of group members (AE) by 0.5%",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Max Health of group members (AE) by 0.5%",
+                    "description": "Dispelled when a group member dies.",
                     "indentation": 1
                 },
                 {
@@ -48,22 +50,22 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Dispelled when a group member dies.",
+                    "description": "Increases Max Health of group members (AE) by 0.5%",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Max Health of group members (AE) by 0.5%",
+                    "description": "Dispelled when a group member dies.",
                     "indentation": 1
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 314,
                 "icon_heroic_op": -1,
                 "id": 206
             },
             "id": 1529663094,
-            "last_update": 1366730587.669317,
+            "last_update": 1387585210.690037,
             "level": 0,
             "max_targets": 0,
             "name": "Necrotic Lifeforce",
@@ -73,10 +75,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730587.669317,
+            "ts": 1387585210.690037,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

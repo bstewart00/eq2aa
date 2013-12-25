@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730464.001698,
+    "min_ts": 1387585456.267812,
     "returned": 1,
-    "seconds": 0.0155029296875,
+    "seconds": 0.01485896110534668,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,16 +34,16 @@
             },
             "effect_list": [
                 {
+                    "description": "Inflicts 14 - 27 melee damage on target",
+                    "indentation": 0
+                },
+                {
                     "description": "When damaged this spell has a 10% chance to cast Sunder on caster.  ",
                     "indentation": 0
                 },
                 {
                     "description": "Inflicts 10 - 19 piercing damage on target",
                     "indentation": 1
-                },
-                {
-                    "description": "Inflicts 14 - 27 melee damage on target",
-                    "indentation": 0
                 }
             ],
             "given_by": "alternateadvancement",
@@ -51,7 +53,7 @@
                 "id": 927
             },
             "id": 507414474,
-            "last_update": 1366730464.001698,
+            "last_update": 1387585456.267812,
             "level": 0,
             "max_targets": 0,
             "name": "Sunder",
@@ -61,10 +63,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730464.001698,
+            "ts": 1387585456.267812,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

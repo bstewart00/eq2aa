@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730451.931354,
+    "min_ts": 1387585083.553511,
     "returned": 5,
-    "seconds": 0.02451491355895996,
+    "seconds": 0.016032934188842773,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the damage by 20%.",
+                    "description": "Increases the duration by 2 seconds.",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases the duration by 2 seconds.",
+                    "description": "Improves the damage by 20%.",
                     "indentation": 0
                 }
             ],
@@ -47,7 +49,7 @@
                 "id": 335
             },
             "id": 1649266834,
-            "last_update": 1366730652.572193,
+            "last_update": 1387585083.873115,
             "level": 0,
             "max_targets": 0,
             "name": "Snow Blindness",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730652.572193,
+            "ts": 1387585083.873115,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -89,70 +93,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Improves the damage by 8%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the duration by 0.8 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 335
-            },
-            "id": 524211914,
-            "last_update": 1366730460.150334,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Snow Blindness",
-            "name_lower": "snow blindness",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730460.150334,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 237338825,
-            "deity": 0,
-            "description": "Snow Blindness increases the damage and duration of the Arctic Talon line.  This means the target will not be able to auto attack for a longer period of time.",
-            "description_pvp": "Snow Blindness increases the damage and duration of the Arctic Talon line.  This means the target will not be able to auto attack for a longer period of time.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves the damage by 16%.",
-                    "indentation": 0
-                },
                 {
                     "description": "Increases the duration by 1.6 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage by 16%.",
                     "indentation": 0
                 }
             ],
@@ -163,7 +109,7 @@
                 "id": 335
             },
             "id": 3218802967,
-            "last_update": 1366730459.992851,
+            "last_update": 1387585083.793454,
             "level": 0,
             "max_targets": 0,
             "name": "Snow Blindness",
@@ -173,10 +119,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730459.992851,
+            "ts": 1387585083.793454,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -186,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -206,11 +154,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the damage by 12%.",
+                    "description": "Increases the duration by 1.2 seconds.",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases the duration by 1.2 seconds.",
+                    "description": "Improves the damage by 12%.",
                     "indentation": 0
                 }
             ],
@@ -221,7 +169,7 @@
                 "id": 335
             },
             "id": 3265793871,
-            "last_update": 1366730459.515358,
+            "last_update": 1387585083.685354,
             "level": 0,
             "max_targets": 0,
             "name": "Snow Blindness",
@@ -231,10 +179,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730459.515358,
+            "ts": 1387585083.685354,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -244,8 +192,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -264,11 +214,71 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves the damage by 4%.",
+                    "description": "Increases the duration by 0.8 seconds.",
                     "indentation": 0
                 },
                 {
+                    "description": "Improves the damage by 8%.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 335
+            },
+            "id": 524211914,
+            "last_update": 1387585083.632866,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Snow Blindness",
+            "name_lower": "snow blindness",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585083.632866,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 237338825,
+            "deity": 0,
+            "description": "Snow Blindness increases the damage and duration of the Arctic Talon line.  This means the target will not be able to auto attack for a longer period of time.",
+            "description_pvp": "Snow Blindness increases the damage and duration of the Arctic Talon line.  This means the target will not be able to auto attack for a longer period of time.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
                     "description": "Increases the duration by 0.4 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage by 4%.",
                     "indentation": 0
                 }
             ],
@@ -279,7 +289,7 @@
                 "id": 335
             },
             "id": 2733947396,
-            "last_update": 1366730451.931354,
+            "last_update": 1387585083.553511,
             "level": 0,
             "max_targets": 0,
             "name": "Snow Blindness",
@@ -289,10 +299,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730451.931354,
+            "ts": 1387585083.553511,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

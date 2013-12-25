@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730431.449089,
+    "min_ts": 1387584194.41783,
     "returned": 5,
-    "seconds": 0.014894962310791016,
+    "seconds": 0.023303985595703125,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,193 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces casting time by 0.8 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the Crit Bonus by 8%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces resistibility by 12%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 1
-            },
-            "id": 973237214,
-            "last_update": 1366730625.947978,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Call of Storms",
-            "name_lower": "enhance: call of storms",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730625.947978,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3640252191,
-            "deity": 0,
-            "description": "Increases the critical damage and reduces the casting time of Call of Storms and reduces the chance it will be resisted.",
-            "description_pvp": "Increases the critical damage and reduces the casting time of Call of Storms and reduces the chance it will be resisted.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces casting time by 0.4 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the Crit Bonus by 4%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces resistibility by 6%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 1
-            },
-            "id": 3267371112,
-            "last_update": 1366730622.070175,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Call of Storms",
-            "name_lower": "enhance: call of storms",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730622.070175,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3640252191,
-            "deity": 0,
-            "description": "Increases the critical damage and reduces the casting time of Call of Storms and reduces the chance it will be resisted.",
-            "description_pvp": "Increases the critical damage and reduces the casting time of Call of Storms and reduces the chance it will be resisted.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces casting time by 0.2 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the Crit Bonus by 2%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces resistibility by 3%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 1
-            },
-            "id": 3198223795,
-            "last_update": 1366730571.217676,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Call of Storms",
-            "name_lower": "enhance: call of storms",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730571.217676,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3640252191,
-            "deity": 0,
-            "description": "Increases the critical damage and reduces the casting time of Call of Storms and reduces the chance it will be resisted.",
-            "description_pvp": "Increases the critical damage and reduces the casting time of Call of Storms and reduces the chance it will be resisted.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces casting time by 1 seconds",
+                    "description": "Reduces resistibility by 15%",
                     "indentation": 0
                 },
                 {
@@ -226,7 +42,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces resistibility by 15%",
+                    "description": "Reduces casting time by 1 seconds",
                     "indentation": 0
                 }
             ],
@@ -237,7 +53,7 @@
                 "id": 1
             },
             "id": 2802682536,
-            "last_update": 1366730465.70868,
+            "last_update": 1387584194.776604,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Call of Storms",
@@ -247,10 +63,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730465.70868,
+            "ts": 1387584194.776604,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -260,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -280,7 +98,71 @@
             },
             "effect_list": [
                 {
-                    "description": "Reduces casting time by 0.6 seconds",
+                    "description": "Reduces resistibility by 12%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the Crit Bonus by 8%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces casting time by 0.8 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 1
+            },
+            "id": 973237214,
+            "last_update": 1387584194.691867,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Call of Storms",
+            "name_lower": "enhance: call of storms",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584194.691867,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3640252191,
+            "deity": 0,
+            "description": "Increases the critical damage and reduces the casting time of Call of Storms and reduces the chance it will be resisted.",
+            "description_pvp": "Increases the critical damage and reduces the casting time of Call of Storms and reduces the chance it will be resisted.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces resistibility by 9%",
                     "indentation": 0
                 },
                 {
@@ -288,7 +170,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Reduces resistibility by 9%",
+                    "description": "Reduces casting time by 0.6 seconds",
                     "indentation": 0
                 }
             ],
@@ -299,7 +181,7 @@
                 "id": 1
             },
             "id": 1607450910,
-            "last_update": 1366730431.449089,
+            "last_update": 1387584194.644178,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Call of Storms",
@@ -309,10 +191,138 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730431.449089,
+            "ts": 1387584194.644178,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3640252191,
+            "deity": 0,
+            "description": "Increases the critical damage and reduces the casting time of Call of Storms and reduces the chance it will be resisted.",
+            "description_pvp": "Increases the critical damage and reduces the casting time of Call of Storms and reduces the chance it will be resisted.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces resistibility by 6%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the Crit Bonus by 4%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces casting time by 0.4 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 1
+            },
+            "id": 3267371112,
+            "last_update": 1387584194.537066,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Call of Storms",
+            "name_lower": "enhance: call of storms",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584194.537066,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3640252191,
+            "deity": 0,
+            "description": "Increases the critical damage and reduces the casting time of Call of Storms and reduces the chance it will be resisted.",
+            "description_pvp": "Increases the critical damage and reduces the casting time of Call of Storms and reduces the chance it will be resisted.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces resistibility by 3%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the Crit Bonus by 2%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces casting time by 0.2 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 1
+            },
+            "id": 3198223795,
+            "last_update": 1387584194.41783,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Call of Storms",
+            "name_lower": "enhance: call of storms",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584194.41783,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

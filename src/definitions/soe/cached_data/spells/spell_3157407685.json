@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730444.405728,
+    "min_ts": 1387585582.277083,
     "returned": 3,
-    "seconds": 0.01429295539855957,
+    "seconds": 1.6444180011749268,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,66 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3157407685,
-            "deity": 0,
-            "description": "Adds additional damage to Mindbend, Stupefy and Cannibalize Thoughts.",
-            "description_pvp": "Adds additional damage to Mindbend, Stupefy and Cannibalize Thoughts.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Mindbend will inflict damage when triggered.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Stupefy will inflict damage when cast.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 172
-            },
-            "id": 2649885747,
-            "last_update": 1366730644.970755,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Mental Trauma",
-            "name_lower": "mental trauma",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730644.970755,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -94,11 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Mindbend will inflict damage when triggered.",
+                    "description": "Stupefy will inflict damage when cast.",
                     "indentation": 0
                 },
                 {
-                    "description": "Stupefy will inflict damage when cast.",
+                    "description": "Mindbend will inflict damage when triggered.",
                     "indentation": 0
                 }
             ],
@@ -109,7 +53,7 @@
                 "id": 172
             },
             "id": 16641349,
-            "last_update": 1366730467.958473,
+            "last_update": 1387585582.396717,
             "level": 0,
             "max_targets": 0,
             "name": "Mental Trauma",
@@ -119,10 +63,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730467.958473,
+            "ts": 1387585582.396717,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -132,8 +76,70 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3157407685,
+            "deity": 0,
+            "description": "Adds additional damage to Mindbend, Stupefy and Cannibalize Thoughts.",
+            "description_pvp": "Adds additional damage to Mindbend, Stupefy and Cannibalize Thoughts.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Stupefy will inflict damage when cast.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Mindbend will inflict damage when triggered.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 172
+            },
+            "id": 2649885747,
+            "last_update": 1387585582.317053,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Mental Trauma",
+            "name_lower": "mental trauma",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585582.317053,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -163,7 +169,7 @@
                 "id": 172
             },
             "id": 3784518120,
-            "last_update": 1366730444.405728,
+            "last_update": 1387585582.277083,
             "level": 0,
             "max_targets": 0,
             "name": "Mental Trauma",
@@ -173,10 +179,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730444.405728,
+            "ts": 1387585582.277083,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730644.974951,
+    "min_ts": 1387584365.746,
     "returned": 1,
-    "seconds": 0.014513015747070312,
+    "seconds": 0.017372846603393555,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 938230571,
             "deity": 0,
-            "description": "Sends multiple fireballs to the target. This spell hits once per increment of Incineration on the target up to a maximum of five strikes.",
-            "description_pvp": "Sends multiple fireballs to the target. This spell hits once per increment of Incineration on the target up to a maximum of five strikes.",
+            "description": "Sends multiple fireballs to the target. This spell hits once per increment of Incineration on the target up to a maximum of three strikes. If it strikes a target with three increments of Incineration, the wizard's ability modifier is drastically increased.",
+            "description_pvp": "Sends multiple fireballs to the target. This spell hits once per increment of Incineration on the target up to a maximum of three strikes. If it strikes a target with three increments of Incineration, the wizard's ability modifier is drastically increased.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,23 +34,35 @@
             },
             "effect_list": [
                 {
-                    "description": "Inflicts 5 - 10 heat damage on target",
+                    "description": "Inflicts 9 - 16 heat damage on target",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 5 - 10 heat damage on target",
+                    "description": "Applies Blaze.  Lasts for 10.0 seconds.",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 5 - 10 heat damage on target",
+                    "description": "Maxes out the caster's Ability Modifier",
+                    "indentation": 1
+                },
+                {
+                    "description": "Applies when Hellfire hits target that has 3 increments of Incineration",
+                    "indentation": 1
+                },
+                {
+                    "description": "Dispelled when target casts a hostile spell",
+                    "indentation": 1
+                },
+                {
+                    "description": "Dispelled when target casts a combat art",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 9 - 16 heat damage on target",
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 5 - 10 heat damage on target",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 5 - 10 heat damage on target",
+                    "description": "Inflicts 9 - 16 heat damage on target",
                     "indentation": 0
                 },
                 {
@@ -63,20 +77,20 @@
                 "id": 852
             },
             "id": 2864909429,
-            "last_update": 1366730644.974951,
+            "last_update": 1387584365.746,
             "level": 0,
             "max_targets": 0,
             "name": "Hellfire",
             "name_lower": "hellfire",
-            "recast_secs": 14.822135,
+            "recast_secs": 29.64427,
             "recovery_secs_tenths": 50,
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730644.974951,
+            "ts": 1387584365.746,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

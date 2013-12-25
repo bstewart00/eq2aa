@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730580.004573,
+    "min_ts": 1387584161.696784,
     "returned": 1,
-    "seconds": 0.01445913314819336,
+    "seconds": 0.014303922653198242,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "When the shadowknight falls below 10% power, they will gain 15% of their power back. This can only trigger once every 30 seconds.",
+                    "description": "When the shadowknight falls below 10% power, they will gain 15% of their power back. This can only trigger once every 30 seconds (180 seconds in PVP).",
                     "indentation": 0
                 },
                 {
@@ -40,14 +42,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 914
             },
             "id": 4163874129,
-            "last_update": 1366730580.004573,
+            "last_update": 1387584161.696784,
             "level": 0,
             "max_targets": 0,
             "name": "Unholy Mana",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730580.004573,
+            "ts": 1387584161.696784,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

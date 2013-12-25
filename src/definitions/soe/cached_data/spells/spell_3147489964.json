@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730446.410452,
+    "min_ts": 1387584335.384367,
     "returned": 1,
-    "seconds": 0.42886900901794434,
+    "seconds": 0.017052173614501953,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 3147489964,
             "deity": 0,
-            "description": "Grants the Chieftain chances to become enraged in combat, increasing attack speed and double-attack chances.",
-            "description_pvp": "Grants the Chieftain chances to become enraged in combat, increasing attack speed and double-attack chances.",
+            "description": "Grants the Chieftain chances to become enraged in combat, increasing attack speed and damage.",
+            "description_pvp": "Grants the Chieftain chances to become enraged in combat, increasing attack speed and damage.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -36,11 +38,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Attack Speed of caster by 35.0",
+                    "description": "Increases Damage Per Second of caster by 35.0",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Multi Attack Chance of caster by 35.0",
+                    "description": "Increases Attack Speed of caster by 35.0",
                     "indentation": 1
                 },
                 {
@@ -48,11 +50,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Attack Speed of caster by 35.0",
+                    "description": "Increases Damage Per Second of caster by 35.0",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Multi Attack Chance of caster by 35.0",
+                    "description": "Increases Attack Speed of caster by 35.0",
                     "indentation": 1
                 },
                 {
@@ -60,11 +62,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Attack Speed of caster by 35.0",
+                    "description": "Increases Damage Per Second of caster by 35.0",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Multi Attack Chance of caster by 35.0",
+                    "description": "Increases Attack Speed of caster by 35.0",
                     "indentation": 1
                 }
             ],
@@ -75,7 +77,7 @@
                 "id": 589
             },
             "id": 525225889,
-            "last_update": 1366730446.410452,
+            "last_update": 1387584335.384367,
             "level": 0,
             "max_targets": 0,
             "name": "Tribal Rage",
@@ -85,10 +87,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730446.410452,
+            "ts": 1387584335.384367,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

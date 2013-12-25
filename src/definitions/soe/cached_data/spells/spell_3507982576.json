@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730584.966419,
+    "min_ts": 1387584505.677652,
     "returned": 1,
-    "seconds": 0.015750885009765625,
+    "seconds": 0.2610650062561035,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Potency of caster by 25.0%",
+                    "description": "Suspends Recklessness",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the value of taunts by 100%",
                     "indentation": 0
                 },
                 {
@@ -44,14 +50,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 317,
                 "icon_heroic_op": -1,
                 "id": 860
             },
             "id": 1400384897,
-            "last_update": 1366730584.966419,
+            "last_update": 1387584505.677652,
             "level": 0,
             "max_targets": 0,
             "name": "Impenetrable Will",
@@ -61,10 +67,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730584.966419,
+            "ts": 1387584505.677652,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

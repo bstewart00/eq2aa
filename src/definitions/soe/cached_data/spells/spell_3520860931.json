@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730436.451094,
+    "min_ts": 1387584469.191122,
     "returned": 8,
-    "seconds": 0.01594090461730957,
+    "seconds": 0.017230987548828125,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,223 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Caster has a 6.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 89
-            },
-            "id": 2246851877,
-            "last_update": 1366730645.82114,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Wide Swings",
-            "name_lower": "wide swings",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730645.82114,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3520860931,
-            "deity": 0,
-            "description": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
-            "description_pvp": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 3.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 89
-            },
-            "id": 4186773758,
-            "last_update": 1366730633.630985,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Wide Swings",
-            "name_lower": "wide swings",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730633.630985,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3520860931,
-            "deity": 0,
-            "description": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
-            "description_pvp": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 9.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 89
-            },
-            "id": 417586259,
-            "last_update": 1366730632.374194,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Wide Swings",
-            "name_lower": "wide swings",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730632.374194,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3520860931,
-            "deity": 0,
-            "description": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
-            "description_pvp": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 12.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 89
-            },
-            "id": 2100197011,
-            "last_update": 1366730631.983728,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Wide Swings",
-            "name_lower": "wide swings",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730631.983728,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3520860931,
-            "deity": 0,
-            "description": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
-            "description_pvp": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 6000,
-                "min_sec_tenths": 6000
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 24.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
+                    "description": "Caster has a 24.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
                     "indentation": 0
                 }
             ],
@@ -259,20 +45,20 @@
                 "id": 89
             },
             "id": 1474029502,
-            "last_update": 1366730613.486613,
+            "last_update": 1387584469.724818,
             "level": 0,
             "max_targets": 0,
             "name": "Wide Swings",
             "name_lower": "wide swings",
             "recast_secs": 1.976285,
             "recovery_secs_tenths": 50,
-            "spellbook": 0,
+            "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730613.486613,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
+            "ts": 1387584469.724818,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -282,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -302,7 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Caster has a 21.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
+                    "description": "Caster has a 21.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
                     "indentation": 0
                 }
             ],
@@ -313,20 +101,20 @@
                 "id": 89
             },
             "id": 21975880,
-            "last_update": 1366730458.127278,
+            "last_update": 1387584469.64484,
             "level": 0,
             "max_targets": 0,
             "name": "Wide Swings",
             "name_lower": "wide swings",
             "recast_secs": 1.976285,
             "recovery_secs_tenths": 50,
-            "spellbook": 0,
+            "spellbook": 4,
             "tier": 7,
             "tier_name": "Expert",
-            "ts": 1366730458.127278,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
+            "ts": 1387584469.64484,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -336,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -356,7 +146,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Caster has a 18.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
+                    "description": "Caster has a 18.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
                     "indentation": 0
                 }
             ],
@@ -367,20 +157,20 @@
                 "id": 89
             },
             "id": 2621485630,
-            "last_update": 1366730455.054248,
+            "last_update": 1387584469.564325,
             "level": 0,
             "max_targets": 0,
             "name": "Wide Swings",
             "name_lower": "wide swings",
             "recast_secs": 1.976285,
             "recovery_secs_tenths": 50,
-            "spellbook": 0,
+            "spellbook": 4,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730455.054248,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
+            "ts": 1387584469.564325,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -390,8 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -410,7 +202,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Caster has a 15.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
+                    "description": "Caster has a 15.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
                     "indentation": 0
                 }
             ],
@@ -421,20 +213,244 @@
                 "id": 89
             },
             "id": 3760297957,
-            "last_update": 1366730436.451094,
+            "last_update": 1387584469.51331,
             "level": 0,
             "max_targets": 0,
             "name": "Wide Swings",
             "name_lower": "wide swings",
             "recast_secs": 1.976285,
             "recovery_secs_tenths": 50,
-            "spellbook": 0,
+            "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730436.451094,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
+            "ts": 1387584469.51331,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3520860931,
+            "deity": 0,
+            "description": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
+            "description_pvp": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 12.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 89
+            },
+            "id": 2100197011,
+            "last_update": 1387584469.443332,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Wide Swings",
+            "name_lower": "wide swings",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584469.443332,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3520860931,
+            "deity": 0,
+            "description": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
+            "description_pvp": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 9.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 89
+            },
+            "id": 417586259,
+            "last_update": 1387584469.36275,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Wide Swings",
+            "name_lower": "wide swings",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584469.36275,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3520860931,
+            "deity": 0,
+            "description": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
+            "description_pvp": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 6.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 89
+            },
+            "id": 2246851877,
+            "last_update": 1387584469.282866,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Wide Swings",
+            "name_lower": "wide swings",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584469.282866,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3520860931,
+            "deity": 0,
+            "description": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
+            "description_pvp": "Grants the enchanter a chance to strike multiple enemies with every melee auto-attack.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 6000,
+                "min_sec_tenths": 6000
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 3.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 89
+            },
+            "id": 4186773758,
+            "last_update": 1387584469.191122,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Wide Swings",
+            "name_lower": "wide swings",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584469.191122,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

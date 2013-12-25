@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730461.442724,
+    "min_ts": 1387584505.518705,
     "returned": 1,
-    "seconds": 0.07565093040466309,
+    "seconds": 0.02899479866027832,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,6 +34,10 @@
             },
             "effect_list": [
                 {
+                    "description": "Decreases Hate Gain of caster by 40.0%",
+                    "indentation": 0
+                },
+                {
                     "description": "When a combat art is used this spell will cast Direct Assault on target of combat art.  ",
                     "indentation": 0
                 },
@@ -42,10 +48,6 @@
                 {
                     "description": "The assassin can use stealth strikes when not in stealth.",
                     "indentation": 0
-                },
-                {
-                    "description": "Decreases Hate Gain of caster by 40.0%",
-                    "indentation": 0
                 }
             ],
             "given_by": "alternateadvancement",
@@ -55,7 +57,7 @@
                 "id": 231
             },
             "id": 3410252027,
-            "last_update": 1366730461.442724,
+            "last_update": 1387584505.518705,
             "level": 0,
             "max_targets": 0,
             "name": "In Plain Sight",
@@ -65,10 +67,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730461.442724,
+            "ts": 1387584505.518705,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730652.013523,
+    "min_ts": 1387585171.881513,
     "returned": 1,
-    "seconds": 0.01588606834411621,
+    "seconds": 0.01804208755493164,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,18 +34,6 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the casting time of beneficial spells by 15%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces the mystic's heals and ward by 10%.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the critical damage of hostile spells and combat arts by 5%.",
-                    "indentation": 0
-                },
-                {
                     "description": "Applies Ravenous Protector to qualifying pets.",
                     "indentation": 0
                 },
@@ -52,11 +42,23 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Improves the damage of spells and combat arts by 10%.",
+                    "description": "Increases the critical damage of hostile spells and combat arts by 5%.",
                     "indentation": 0
                 },
                 {
                     "description": "Lowers the cast time of hostile spells by 15%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases the casting time of beneficial spells by 15%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the damage of spells and combat arts by 10%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the mystic's heals and ward by 10%.",
                     "indentation": 0
                 }
             ],
@@ -67,7 +69,7 @@
                 "id": 880
             },
             "id": 2839859685,
-            "last_update": 1366730652.013523,
+            "last_update": 1387585171.881513,
             "level": 0,
             "max_targets": 0,
             "name": "Ravenous Protector",
@@ -77,10 +79,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730652.013523,
+            "ts": 1387585171.881513,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

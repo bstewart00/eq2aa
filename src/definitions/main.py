@@ -8,6 +8,9 @@ from definitions.soe.data_provider import CachedDataProvider, FileDataCache, Son
 from definitions.utils.url_reader import UrlReader
 from definitions.utils.logger import ConsoleLogger
 from definitions.utils.json_writer import JsonFileWriter
+from definitions.icons.icon_downloader import IconDownloader
+from definitions.icons.sprite_generator import SpriteGenerator
+from definitions.icons.image_manipulator import ImageManipulator
 import os
 import datetime
 
@@ -32,17 +35,31 @@ class AADefinitionApplication:
         
         json_writer = JsonFileWriter(logger)
         
+        icon_output_path = os.path.abspath('./output/icons')
+        self._ensure_dir_exists(icon_output_path)
+        icon_downloader = IconDownloader(data_provider, icon_output_path, logger)
+        
+        image_manipulator = ImageManipulator()
+        
+        sprite_output_path = os.path.abspath('./output/sprites')
+        self._ensure_dir_exists(sprite_output_path)
+        sprite_generator = SpriteGenerator(image_manipulator, icon_output_path, sprite_output_path, logger)
+        
         classes = list(class_factory.create_classes())
         
         for c in classes:
-            # icon_downloader.download_all(class)
-            # sprite_generator.generate(class), also does CSS
+            icon_downloader.download_all(c)
+            sprite_generator.generate(c)
             
             json_writer.write(c.to_dict(), './output/' + c.name + '.json', indent=3)
             json_writer.write(c.to_dict(), './output_min/' + c.name + '.json')
         
         end_time = datetime.datetime.now()
         logger.log('Done in {0}'.format(end_time - start_time))
+        
+    def _ensure_dir_exists(self, path):
+        if not os.path.exists(path):
+            os.makedirs(path)
 
 if __name__ == "__main__":
     app = AADefinitionApplication()

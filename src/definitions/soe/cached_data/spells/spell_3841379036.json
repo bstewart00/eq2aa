@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730626.827882,
+    "min_ts": 1387584942.738525,
     "returned": 1,
-    "seconds": 0.01564812660217285,
+    "seconds": 0.018476009368896484,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,19 +34,19 @@
             },
             "effect_list": [
                 {
-                    "description": "Grants the spell Ancient Claws.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 7 - 12 magic damage on target",
-                    "indentation": 1
-                },
-                {
                     "description": "Applies Ancient Pedigree to qualifying pets.",
                     "indentation": 0
                 },
                 {
                     "description": "Increases Max Health of target by 25.0%",
+                    "indentation": 1
+                },
+                {
+                    "description": "Grants the spell Ancient Claws.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Inflicts 7 - 12 magic damage on target",
                     "indentation": 1
                 }
             ],
@@ -55,7 +57,7 @@
                 "id": 868
             },
             "id": 3552625999,
-            "last_update": 1366730626.827882,
+            "last_update": 1387584942.738525,
             "level": 0,
             "max_targets": 0,
             "name": "Ancient Pedigree",
@@ -65,10 +67,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730626.827882,
+            "ts": 1387584942.738525,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

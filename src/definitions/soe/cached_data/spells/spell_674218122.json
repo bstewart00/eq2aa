@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730635.958514,
+    "min_ts": 1387584412.91877,
     "returned": 1,
-    "seconds": 0.015049934387207031,
+    "seconds": 0.014751911163330078,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 674218122,
             "deity": 0,
-            "description": "A replacement for Heresy. A curse that inflicts target encounter, causing anyone that attacks powerful divine damage and knocking them down for up to 3 triggers per enemy.",
-            "description_pvp": "A replacement for Heresy. A curse that inflicts target encounter, causing anyone that attacks powerful divine damage and knocking them down for up to 3 triggers per enemy.",
+            "description": "A replacement for Heresy. Whenever a member of the target encounter attacks, they will receive divine damage and be knocked down.",
+            "description_pvp": "A replacement for Heresy. Whenever a member of the target encounter attacks, they will receive divine damage and be knocked down.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 300,
@@ -71,7 +73,7 @@
                 "id": 159
             },
             "id": 1788072326,
-            "last_update": 1366730635.958514,
+            "last_update": 1387584412.91877,
             "level": 0,
             "max_targets": 0,
             "name": "Smite Heretic",
@@ -81,10 +83,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730635.958514,
+            "ts": 1387584412.91877,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

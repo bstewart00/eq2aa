@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730642.816289,
+    "min_ts": 1387584957.104217,
     "returned": 1,
-    "seconds": 0.017122983932495117,
+    "seconds": 0.014510154724121094,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,24 +34,24 @@
             },
             "effect_list": [
                 {
-                    "description": "Applies Unabate to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases the hit chance of pet combat arts by 15%",
-                    "indentation": 1
-                },
-                {
-                    "description": "Reduces the resistibility of all pet spells by 15%",
-                    "indentation": 1
-                },
-                {
                     "description": "Reduces the resistibility of all spells by 15%",
                     "indentation": 0
                 },
                 {
                     "description": "Increases the hit chance of combat arts by 15%",
                     "indentation": 0
+                },
+                {
+                    "description": "Applies Unabate to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces the resistibility of all pet spells by 15%",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases the hit chance of pet combat arts by 15%",
+                    "indentation": 1
                 }
             ],
             "given_by": "alternateadvancement",
@@ -59,7 +61,7 @@
                 "id": 257
             },
             "id": 2909025594,
-            "last_update": 1366730642.816289,
+            "last_update": 1387584957.104217,
             "level": 0,
             "max_targets": 0,
             "name": "Unabate",
@@ -69,10 +71,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730642.816289,
+            "ts": 1387584957.104217,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

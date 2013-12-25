@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730595.701184,
+    "min_ts": 1387585557.475618,
     "returned": 1,
-    "seconds": 0.014246940612792969,
+    "seconds": 0.021731853485107422,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Target encounter will reduce the chance for one of their weapons' autoattack to affect multiple targets by 100.0%",
+                    "description": "Target encounter will reduce the chance for one of their weapons' auto-attack to affect multiple targets by 100.0%",
                     "indentation": 0
                 },
                 {
@@ -44,14 +46,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 312,
                 "icon_heroic_op": -1,
                 "id": 930
             },
             "id": 3537563786,
-            "last_update": 1366730595.701184,
+            "last_update": 1387585557.475618,
             "level": 0,
             "max_targets": -1,
             "name": "Malicious Spirits",
@@ -61,10 +63,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730595.701184,
+            "ts": 1387585557.475618,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

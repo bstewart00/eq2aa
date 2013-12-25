@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730438.067043,
+    "min_ts": 1387585508.591051,
     "returned": 5,
-    "seconds": 0.015266180038452148,
+    "seconds": 0.028682947158813477,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 4141663990,
             "deity": 0,
-            "description": "Grants the druid a chance to double attack while auto attacking.",
-            "description_pvp": "Grants the druid a chance to double attack while auto attacking.",
+            "description": "Grants the druid improved Damage Per Second.",
+            "description_pvp": "Grants the druid improved Damage Per Second.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,223 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Multi Attack Chance of caster by 12.0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 302
-            },
-            "id": 1654424215,
-            "last_update": 1366730654.524658,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bladed Expertise",
-            "name_lower": "bladed expertise",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730654.524658,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4141663990,
-            "deity": 0,
-            "description": "Grants the druid a chance to double attack while auto attacking.",
-            "description_pvp": "Grants the druid a chance to double attack while auto attacking.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 8.0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 302
-            },
-            "id": 4287849441,
-            "last_update": 1366730650.758427,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bladed Expertise",
-            "name_lower": "bladed expertise",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730650.758427,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4141663990,
-            "deity": 0,
-            "description": "Grants the druid a chance to double attack while auto attacking.",
-            "description_pvp": "Grants the druid a chance to double attack while auto attacking.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 16.0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 302
-            },
-            "id": 122759255,
-            "last_update": 1366730643.411098,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bladed Expertise",
-            "name_lower": "bladed expertise",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730643.411098,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4141663990,
-            "deity": 0,
-            "description": "Grants the druid a chance to double attack while auto attacking.",
-            "description_pvp": "Grants the druid a chance to double attack while auto attacking.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 4.0",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 315,
-                "icon_heroic_op": -1,
-                "id": 302
-            },
-            "id": 2213692986,
-            "last_update": 1366730460.831585,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Bladed Expertise",
-            "name_lower": "bladed expertise",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730460.831585,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4141663990,
-            "deity": 0,
-            "description": "Grants the druid a chance to double attack while auto attacking.",
-            "description_pvp": "Grants the druid a chance to double attack while auto attacking.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Multi Attack Chance of caster by 20.0",
+                    "description": "Increases Damage Per Second of caster by 20.0",
                     "indentation": 0
                 }
             ],
@@ -259,7 +45,7 @@
                 "id": 302
             },
             "id": 2589903137,
-            "last_update": 1366730438.067043,
+            "last_update": 1387585508.999246,
             "level": 0,
             "max_targets": 0,
             "name": "Bladed Expertise",
@@ -269,10 +55,234 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730438.067043,
+            "ts": 1387585508.999246,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4141663990,
+            "deity": 0,
+            "description": "Grants the druid improved Damage Per Second.",
+            "description_pvp": "Grants the druid improved Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 16.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 302
+            },
+            "id": 122759255,
+            "last_update": 1387585508.908936,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bladed Expertise",
+            "name_lower": "bladed expertise",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585508.908936,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4141663990,
+            "deity": 0,
+            "description": "Grants the druid improved Damage Per Second.",
+            "description_pvp": "Grants the druid improved Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 12.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 302
+            },
+            "id": 1654424215,
+            "last_update": 1387585508.790884,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bladed Expertise",
+            "name_lower": "bladed expertise",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585508.790884,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4141663990,
+            "deity": 0,
+            "description": "Grants the druid improved Damage Per Second.",
+            "description_pvp": "Grants the druid improved Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 8.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 302
+            },
+            "id": 4287849441,
+            "last_update": 1387585508.710871,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bladed Expertise",
+            "name_lower": "bladed expertise",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585508.710871,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4141663990,
+            "deity": 0,
+            "description": "Grants the druid improved Damage Per Second.",
+            "description_pvp": "Grants the druid improved Damage Per Second.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases Damage Per Second of caster by 4.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 315,
+                "icon_heroic_op": -1,
+                "id": 302
+            },
+            "id": 2213692986,
+            "last_update": 1387585508.591051,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Bladed Expertise",
+            "name_lower": "bladed expertise",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585508.591051,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

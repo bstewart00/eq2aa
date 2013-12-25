@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730445.562931,
+    "min_ts": 1387585548.358185,
     "returned": 5,
-    "seconds": 0.01940011978149414,
+    "seconds": 0.015578985214233398,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -47,7 +49,7 @@
                 "id": 368
             },
             "id": 2329216235,
-            "last_update": 1366730634.850528,
+            "last_update": 1387585548.595099,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Dragonfire",
@@ -57,10 +59,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730634.850528,
+            "ts": 1387585548.595099,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -70,182 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 832184445,
-            "deity": 0,
-            "description": "Increases the striking radius of and hastens the reuse speed of Dragonfire and its upgrades",
-            "description_pvp": "Increases the striking radius of and hastens the reuse speed of Dragonfire and its upgrades",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases radius by 4",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 8 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 368
-            },
-            "id": 4154852019,
-            "last_update": 1366730459.33111,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Dragonfire",
-            "name_lower": "enhance: dragonfire",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730459.33111,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 832184445,
-            "deity": 0,
-            "description": "Increases the striking radius of and hastens the reuse speed of Dragonfire and its upgrades",
-            "description_pvp": "Increases the striking radius of and hastens the reuse speed of Dragonfire and its upgrades",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases radius by 6",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 12 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 368
-            },
-            "id": 707844918,
-            "last_update": 1366730458.423779,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Dragonfire",
-            "name_lower": "enhance: dragonfire",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730458.423779,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 832184445,
-            "deity": 0,
-            "description": "Increases the striking radius of and hastens the reuse speed of Dragonfire and its upgrades",
-            "description_pvp": "Increases the striking radius of and hastens the reuse speed of Dragonfire and its upgrades",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases radius by 2",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 4 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 368
-            },
-            "id": 1248620157,
-            "last_update": 1366730457.390278,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Dragonfire",
-            "name_lower": "enhance: dragonfire",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730457.390278,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -279,7 +109,7 @@
                 "id": 368
             },
             "id": 1464065390,
-            "last_update": 1366730445.562931,
+            "last_update": 1387585548.554992,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Dragonfire",
@@ -289,10 +119,190 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730445.562931,
+            "ts": 1387585548.554992,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 832184445,
+            "deity": 0,
+            "description": "Increases the striking radius of and hastens the reuse speed of Dragonfire and its upgrades",
+            "description_pvp": "Increases the striking radius of and hastens the reuse speed of Dragonfire and its upgrades",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases radius by 6",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 12 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 368
+            },
+            "id": 707844918,
+            "last_update": 1387585548.47197,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Dragonfire",
+            "name_lower": "enhance: dragonfire",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585548.47197,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 832184445,
+            "deity": 0,
+            "description": "Increases the striking radius of and hastens the reuse speed of Dragonfire and its upgrades",
+            "description_pvp": "Increases the striking radius of and hastens the reuse speed of Dragonfire and its upgrades",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases radius by 4",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 8 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 368
+            },
+            "id": 4154852019,
+            "last_update": 1387585548.432906,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Dragonfire",
+            "name_lower": "enhance: dragonfire",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585548.432906,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 832184445,
+            "deity": 0,
+            "description": "Increases the striking radius of and hastens the reuse speed of Dragonfire and its upgrades",
+            "description_pvp": "Increases the striking radius of and hastens the reuse speed of Dragonfire and its upgrades",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases radius by 2",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves reuse speed by 4 seconds",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 368
+            },
+            "id": 1248620157,
+            "last_update": 1387585548.358185,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Dragonfire",
+            "name_lower": "enhance: dragonfire",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585548.358185,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

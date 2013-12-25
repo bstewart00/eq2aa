@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730590.027516,
+    "min_ts": 1387585141.181343,
     "returned": 1,
-    "seconds": 0.01578998565673828,
+    "seconds": 0.014676809310913086,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 1787167736,
             "deity": 0,
-            "description": "Whenever the raid strikes a death blow, the caster's group will gain increased damage per second and weapon damage bonus. This also has a very small chance to increment when attacking. This increments up to 25 times. It is dispelled when any group member dies. Does not persist through zoning.",
-            "description_pvp": "Whenever the raid strikes a death blow, the caster's group will gain increased damage per second and weapon damage bonus. This also has a very small chance to increment when attacking. This increments up to 25 times. It is dispelled when any group member dies. Does not persist through zoning.",
+            "description": "Whenever the raid strikes a death blow, the caster's group will gain increased Multi-Attack Chance and weapon damage bonus. This also has a very small chance to increment when attacking. This increments up to 25 times. It is dispelled when any group member dies. Does not persist through zoning.",
+            "description_pvp": "Whenever the raid strikes a death blow, the caster's group will gain increased Multi-Attack Chance and weapon damage bonus. This also has a very small chance to increment when attacking. This increments up to 25 times. It is dispelled when any group member dies. Does not persist through zoning.",
             "duration": {
                 "does_not_expire": 1,
                 "max_sec_tenths": 10,
@@ -36,19 +38,19 @@
                     "indentation": 0
                 },
                 {
+                    "description": "Increases Spell Weapon Damage Bonus of group members (AE) by 0.2",
+                    "indentation": 1
+                },
+                {
                     "description": "Increases Weapon Damage Bonus of group members (AE) by 0.2",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Spell Weapon Damage Per Second of group members (AE) by 2.0",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Damage Per Second of group members (AE) by 4.0",
-                    "indentation": 1
-                },
-                {
                     "description": "Dispelled when a group member dies.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Increases Multi Attack Chance of group members (AE) by 4.0",
                     "indentation": 1
                 },
                 {
@@ -56,30 +58,30 @@
                     "indentation": 0
                 },
                 {
+                    "description": "Increases Spell Weapon Damage Bonus of group members (AE) by 0.2",
+                    "indentation": 1
+                },
+                {
                     "description": "Increases Weapon Damage Bonus of group members (AE) by 0.2",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Spell Weapon Damage Per Second of group members (AE) by 2.0",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Damage Per Second of group members (AE) by 4.0",
                     "indentation": 1
                 },
                 {
                     "description": "Dispelled when a group member dies.",
                     "indentation": 1
+                },
+                {
+                    "description": "Increases Multi Attack Chance of group members (AE) by 4.0",
+                    "indentation": 1
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": 314,
                 "icon_heroic_op": -1,
                 "id": 924
             },
             "id": 2848658395,
-            "last_update": 1366730590.027516,
+            "last_update": 1387585141.181343,
             "level": 0,
             "max_targets": 0,
             "name": "Eulogy of the Fallen",
@@ -89,10 +91,10 @@
             "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730590.027516,
+            "ts": 1387585141.181343,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         }
     ]
 }

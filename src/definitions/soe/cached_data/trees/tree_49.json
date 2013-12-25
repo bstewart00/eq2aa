@@ -236,7 +236,7 @@
                 {
                     "classification": "Priest",
                     "classificationpointsrequired": 0,
-                    "description": "Improves the mitigation amounts of the Symbol of Marzin, Fanatic's Faith, Noxious Efflux, Ancestral Mettle, Essence of the Great Bear, and Master of the Hunt spell lines.",
+                    "description": "Improves the mitigation amounts of the Symbol of Marzin, Fanatic's Faith, Noxious Efflux, Ancestral Mettle, Essence of the Great Bear, Marisha Kur's Blessing and Master of the Hunt spell lines.",
                     "icon": {
                         "backdrop": 458,
                         "id": 389
@@ -320,7 +320,7 @@
                 {
                     "classification": "Cleric",
                     "classificationpointsrequired": 0,
-                    "description": "When the cleric makes a critical melee attack, they have a chance to get a short duration spell which gives them a chance to flurry.",
+                    "description": "When the cleric makes a critical melee or spell weapon attack, they have a chance to get a short duration spell which gives them a chance to flurry.",
                     "icon": {
                         "backdrop": -1,
                         "id": 741
@@ -362,7 +362,7 @@
                 {
                     "classification": "Templar ",
                     "classificationpointsrequired": 0,
-                    "description": "Improves the hitpoints of the Holy Armor and Symbol of Marzin line of spells.",
+                    "description": "Improves the health stamina of the Holy Armor and Symbol of Marzin line of spells.",
                     "icon": {
                         "backdrop": -1,
                         "id": 501
@@ -551,7 +551,7 @@
                 {
                     "classification": "Templar ",
                     "classificationpointsrequired": 10,
-                    "description": "Peaceful Aggression is an offensive based spell which grants the Templar a chance to double attack, additional chance to critical hostile spells and improved spell damage and critical amount.  The templar will, however, have longer casting times on heals and also reduced heal effectiveness.",
+                    "description": "Peaceful Aggression is an offensive based spell which grants the Templar improved Damage Per Second, additional chance to critical hostile spells and improved spell damage and critical amount.  The templar will, however, have longer casting times on heals and also reduced heal effectiveness.",
                     "icon": {
                         "backdrop": -1,
                         "id": 690
@@ -593,22 +593,22 @@
             ],
             "id": 49,
             "iswardertree": "false",
-            "last_update": 1375804389.308375,
+            "last_update": 1387591046.92411,
             "maximumpoints": 0,
             "maxpointsperlevelnode_list": [
                 {
                     "level": 10,
-                    "maxpoints": 70
+                    "maxpoints": 100
                 }
             ],
             "minimumpointsrequired": 0,
             "name": "Shadows",
-            "ts": 1375804389.308375,
-            "version": 1
+            "ts": 1387591046.92411,
+            "version": 2
         }
     ],
     "limit": 1,
-    "min_ts": 1375804389.308375,
+    "min_ts": 1387591046.92411,
     "returned": 1,
-    "seconds": 0.015262126922607422
+    "seconds": 0.01613306999206543
 }

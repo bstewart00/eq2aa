@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730631.922899,
+    "min_ts": 1387584485.653073,
     "returned": 1,
-    "seconds": 0.01596212387084961,
+    "seconds": 0.014184951782226562,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,15 +34,15 @@
             },
             "effect_list": [
                 {
+                    "description": "Lowers the base reuse time of Cadence of Destruction to 120 seconds",
+                    "indentation": 0
+                },
+                {
                     "description": "Lowers the base reuse time of Rhythmic Overture to 120 seconds",
                     "indentation": 0
                 },
                 {
                     "description": "Lowers the base reuse time of Victorious Concerto to 240 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Lowers the base reuse time of Cadence of Destruction to 120 seconds",
                     "indentation": 0
                 }
             ],
@@ -51,7 +53,7 @@
                 "id": 602
             },
             "id": 3968998963,
-            "last_update": 1366730631.922899,
+            "last_update": 1387584485.653073,
             "level": 0,
             "max_targets": 0,
             "name": "Grave Echo",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730631.922899,
+            "ts": 1387584485.653073,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

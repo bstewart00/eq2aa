@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730583.590283,
+    "min_ts": 1387584556.04241,
     "returned": 1,
-    "seconds": 0.014292001724243164,
+    "seconds": 0.015523910522460938,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves base auto attack multiplier of caster by 0.225",
+                    "description": "Improves base auto-attack multiplier of caster by 0.225. Does not apply to spell weapons.",
                     "indentation": 0
                 },
                 {
@@ -44,14 +46,14 @@
                     "indentation": 0
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 666
             },
             "id": 883506850,
-            "last_update": 1366730583.590283,
+            "last_update": 1387584556.04241,
             "level": 0,
             "max_targets": 0,
             "name": "Eagle Shriek",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730583.590283,
+            "ts": 1387584556.04241,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

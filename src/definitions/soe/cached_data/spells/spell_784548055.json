@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730571.199531,
+    "min_ts": 1387584325.430563,
     "returned": 1,
-    "seconds": 0.018554210662841797,
+    "seconds": 0.016522884368896484,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -36,11 +38,7 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Blurs vision of target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Decreases Subjugation, Piercing and Crushing of target by 1.2",
+                    "description": "Decreases Piercing, Focus and Subjugation of target by 1.2",
                     "indentation": 1
                 },
                 {
@@ -48,7 +46,11 @@
                     "indentation": 1
                 },
                 {
-                    "description": "Decreases Focus, Ministration, Disruption, Slashing and Ordination of target by 1.2",
+                    "description": "Blurs vision of target",
+                    "indentation": 1
+                },
+                {
+                    "description": "Decreases Disruption, Slashing, Ministration, Ordination and Crushing of target by 1.2",
                     "indentation": 1
                 },
                 {
@@ -56,14 +58,14 @@
                     "indentation": 1
                 }
             ],
-            "given_by": "spellscroll",
+            "given_by": "alternateadvancement",
             "icon": {
                 "backdrop": -1,
                 "icon_heroic_op": -1,
                 "id": 651
             },
             "id": 2714370546,
-            "last_update": 1366730571.199531,
+            "last_update": 1387584325.430563,
             "level": 0,
             "max_targets": 0,
             "name": "Intoxication",
@@ -73,10 +75,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730571.199531,
+            "ts": 1387584325.430563,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

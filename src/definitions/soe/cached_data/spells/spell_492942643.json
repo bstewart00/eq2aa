@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730435.302428,
+    "min_ts": 1387584549.532165,
     "returned": 10,
-    "seconds": 0.01572895050048828,
+    "seconds": 0.025397062301635742,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,493 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Caster has a 28.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 573
-            },
-            "id": 2068979607,
-            "last_update": 1366730654.479364,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Trample",
-            "name_lower": "trample",
-            "recast_secs": 4.940711,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730654.479364,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 492942643,
-            "deity": 0,
-            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 4.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 573
-            },
-            "id": 3686252618,
-            "last_update": 1366730647.329547,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Trample",
-            "name_lower": "trample",
-            "recast_secs": 4.940711,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730647.329547,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 492942643,
-            "deity": 0,
-            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 8.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 573
-            },
-            "id": 1719512196,
-            "last_update": 1366730636.059184,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Trample",
-            "name_lower": "trample",
-            "recast_secs": 4.940711,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730636.059184,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 492942643,
-            "deity": 0,
-            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 12.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 573
-            },
-            "id": 3152770305,
-            "last_update": 1366730632.313111,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Trample",
-            "name_lower": "trample",
-            "recast_secs": 4.940711,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730632.313111,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 492942643,
-            "deity": 0,
-            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 20.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 573
-            },
-            "id": 453946076,
-            "last_update": 1366730613.489138,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Trample",
-            "name_lower": "trample",
-            "recast_secs": 4.940711,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730613.489138,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 492942643,
-            "deity": 0,
-            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 36.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 573
-            },
-            "id": 2176062247,
-            "last_update": 1366730455.568326,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Trample",
-            "name_lower": "trample",
-            "recast_secs": 4.940711,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 9,
-            "tier_name": "Master",
-            "ts": 1366730455.568326,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 492942643,
-            "deity": 0,
-            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 32.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 573
-            },
-            "id": 1545783970,
-            "last_update": 1366730453.039874,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Trample",
-            "name_lower": "trample",
-            "recast_secs": 4.940711,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730453.039874,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 492942643,
-            "deity": 0,
-            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 24.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 573
-            },
-            "id": 2797913618,
-            "last_update": 1366730447.295247,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Trample",
-            "name_lower": "trample",
-            "recast_secs": 4.940711,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730447.295247,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 492942643,
-            "deity": 0,
-            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 16.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 573
-            },
-            "id": 3331879769,
-            "last_update": 1366730443.10007,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Trample",
-            "name_lower": "trample",
-            "recast_secs": 4.940711,
-            "recovery_secs_tenths": 50,
-            "spellbook": 1,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730443.10007,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 161,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 492942643,
-            "deity": 0,
-            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 600,
-                "min_sec_tenths": 600
-            },
-            "effect_list": [
-                {
-                    "description": "Caster has a 40.0% chance of having one of their weapons' autoattack affect multiple targets they are facing, who are within range of that weapon.",
+                    "description": "Caster has a 40.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
                     "indentation": 0
                 }
             ],
@@ -529,20 +45,524 @@
                 "id": 573
             },
             "id": 3996615496,
-            "last_update": 1366730435.302428,
+            "last_update": 1387584550.165203,
             "level": 0,
             "max_targets": 0,
             "name": "Trample",
             "name_lower": "trample",
             "recast_secs": 4.940711,
             "recovery_secs_tenths": 50,
-            "spellbook": 1,
+            "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730435.302428,
-            "type": "arts",
-            "typeid": 1,
-            "version": 1
+            "ts": 1387584550.165203,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 492942643,
+            "deity": 0,
+            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 36.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 573
+            },
+            "id": 2176062247,
+            "last_update": 1387584550.071534,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Trample",
+            "name_lower": "trample",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 9,
+            "tier_name": "Master",
+            "ts": 1387584550.071534,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 492942643,
+            "deity": 0,
+            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 32.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 573
+            },
+            "id": 1545783970,
+            "last_update": 1387584550.005413,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Trample",
+            "name_lower": "trample",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584550.005413,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 492942643,
+            "deity": 0,
+            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 28.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 573
+            },
+            "id": 2068979607,
+            "last_update": 1387584549.91206,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Trample",
+            "name_lower": "trample",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584549.91206,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 492942643,
+            "deity": 0,
+            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 24.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 573
+            },
+            "id": 2797913618,
+            "last_update": 1387584549.846014,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Trample",
+            "name_lower": "trample",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584549.846014,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 492942643,
+            "deity": 0,
+            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 20.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 573
+            },
+            "id": 453946076,
+            "last_update": 1387584549.779622,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Trample",
+            "name_lower": "trample",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584549.779622,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 492942643,
+            "deity": 0,
+            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 16.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 573
+            },
+            "id": 3331879769,
+            "last_update": 1387584549.68684,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Trample",
+            "name_lower": "trample",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584549.68684,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 492942643,
+            "deity": 0,
+            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 12.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 573
+            },
+            "id": 3152770305,
+            "last_update": 1387584549.607478,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Trample",
+            "name_lower": "trample",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584549.607478,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 492942643,
+            "deity": 0,
+            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 8.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 573
+            },
+            "id": 1719512196,
+            "last_update": 1387584549.590668,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Trample",
+            "name_lower": "trample",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584549.590668,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 161,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 492942643,
+            "deity": 0,
+            "description": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "description_pvp": "The Cavalier's auto-attacks have a chance at attacking up to 4 nearby enemies surrounding the Cavalier.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 600,
+                "min_sec_tenths": 600
+            },
+            "effect_list": [
+                {
+                    "description": "Caster has a 4.0% chance of having one of their weapons' auto-attack affect multiple targets they are facing, who are within range of that weapon.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 573
+            },
+            "id": 3686252618,
+            "last_update": 1387584549.532165,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Trample",
+            "name_lower": "trample",
+            "recast_secs": 4.940711,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584549.532165,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

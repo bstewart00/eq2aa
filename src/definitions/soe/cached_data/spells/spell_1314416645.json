@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730457.080074,
+    "min_ts": 1387585512.197032,
     "returned": 10,
-    "seconds": 0.016405105590820312,
+    "seconds": 0.018271923065185547,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,275 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves base auto attack multiplier of caster by 0.030",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 4.8",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Multi Attack Chance of caster by 4.8",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Attack Speed of caster by 4.8",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 673
-            },
-            "id": 1465631981,
-            "last_update": 1366730645.632975,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Quickening",
-            "name_lower": "quickening",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730645.632975,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1314416645,
-            "deity": 0,
-            "description": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
-            "description_pvp": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves base auto attack multiplier of caster by 0.090",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 14.4",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Multi Attack Chance of caster by 14.4",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Attack Speed of caster by 14.4",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 673
-            },
-            "id": 3056926784,
-            "last_update": 1366730644.20012,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Quickening",
-            "name_lower": "quickening",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730644.20012,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1314416645,
-            "deity": 0,
-            "description": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
-            "description_pvp": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves base auto attack multiplier of caster by 0.060",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 9.6",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Multi Attack Chance of caster by 9.6",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Attack Speed of caster by 9.6",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 673
-            },
-            "id": 725279030,
-            "last_update": 1366730630.328444,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Quickening",
-            "name_lower": "quickening",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730630.328444,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1314416645,
-            "deity": 0,
-            "description": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
-            "description_pvp": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves base auto attack multiplier of caster by 0.210",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 33.6",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Multi Attack Chance of caster by 33.6",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Attack Speed of caster by 33.6",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 673
-            },
-            "id": 2946076507,
-            "last_update": 1366730626.28618,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Quickening",
-            "name_lower": "quickening",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730626.28618,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1314416645,
-            "deity": 0,
-            "description": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
-            "description_pvp": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves base auto attack multiplier of caster by 0.300",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 48.0",
+                    "description": "Improves base auto-attack multiplier of caster by 0.300. Does not apply to spell weapons.",
                     "indentation": 0
                 },
                 {
@@ -309,6 +43,10 @@
                 },
                 {
                     "description": "Increases Attack Speed of caster by 48.0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Damage Per Second of caster by 48.0",
                     "indentation": 0
                 }
             ],
@@ -319,7 +57,7 @@
                 "id": 673
             },
             "id": 3110086018,
-            "last_update": 1366730625.213414,
+            "last_update": 1387585513.638331,
             "level": 0,
             "max_targets": 0,
             "name": "Quickening",
@@ -329,10 +67,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730625.213414,
+            "ts": 1387585513.638331,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -342,8 +80,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -362,77 +102,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves base auto attack multiplier of caster by 0.120",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 19.2",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Multi Attack Chance of caster by 19.2",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Attack Speed of caster by 19.2",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 673
-            },
-            "id": 3556289152,
-            "last_update": 1366730467.596422,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Quickening",
-            "name_lower": "quickening",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730467.596422,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1314416645,
-            "deity": 0,
-            "description": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
-            "description_pvp": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves base auto attack multiplier of caster by 0.270",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 43.2",
+                    "description": "Improves base auto-attack multiplier of caster by 0.270. Does not apply to spell weapons.",
                     "indentation": 0
                 },
                 {
@@ -441,6 +111,10 @@
                 },
                 {
                     "description": "Increases Attack Speed of caster by 43.2",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Damage Per Second of caster by 43.2",
                     "indentation": 0
                 }
             ],
@@ -451,7 +125,7 @@
                 "id": 673
             },
             "id": 1677908699,
-            "last_update": 1366730465.130242,
+            "last_update": 1387585513.526857,
             "level": 0,
             "max_targets": 0,
             "name": "Quickening",
@@ -461,10 +135,10 @@
             "spellbook": 4,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730465.130242,
+            "ts": 1387585513.526857,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -474,8 +148,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -494,11 +170,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves base auto attack multiplier of caster by 0.240",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 38.4",
+                    "description": "Improves base auto-attack multiplier of caster by 0.240. Does not apply to spell weapons.",
                     "indentation": 0
                 },
                 {
@@ -507,6 +179,10 @@
                 },
                 {
                     "description": "Increases Attack Speed of caster by 38.4",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Damage Per Second of caster by 38.4",
                     "indentation": 0
                 }
             ],
@@ -517,7 +193,7 @@
                 "id": 673
             },
             "id": 4178394029,
-            "last_update": 1366730462.114816,
+            "last_update": 1387585513.355096,
             "level": 0,
             "max_targets": 0,
             "name": "Quickening",
@@ -527,10 +203,10 @@
             "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730462.114816,
+            "ts": 1387585513.355096,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -540,8 +216,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -560,19 +238,19 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves base auto attack multiplier of caster by 0.150",
+                    "description": "Improves base auto-attack multiplier of caster by 0.210. Does not apply to spell weapons.",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Damage Per Second of caster by 24.0",
+                    "description": "Increases Multi Attack Chance of caster by 33.6",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Multi Attack Chance of caster by 24.0",
+                    "description": "Increases Attack Speed of caster by 33.6",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases Attack Speed of caster by 24.0",
+                    "description": "Increases Damage Per Second of caster by 33.6",
                     "indentation": 0
                 }
             ],
@@ -582,8 +260,8 @@
                 "icon_heroic_op": -1,
                 "id": 673
             },
-            "id": 1324829686,
-            "last_update": 1366730457.961799,
+            "id": 2946076507,
+            "last_update": 1387585513.195824,
             "level": 0,
             "max_targets": 0,
             "name": "Quickening",
@@ -591,12 +269,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730457.961799,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387585513.195824,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -606,8 +284,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -626,11 +306,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves base auto attack multiplier of caster by 0.180",
-                    "indentation": 0
-                },
-                {
-                    "description": "Increases Damage Per Second of caster by 28.8",
+                    "description": "Improves base auto-attack multiplier of caster by 0.180. Does not apply to spell weapons.",
                     "indentation": 0
                 },
                 {
@@ -639,6 +315,10 @@
                 },
                 {
                     "description": "Increases Attack Speed of caster by 28.8",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Damage Per Second of caster by 28.8",
                     "indentation": 0
                 }
             ],
@@ -649,7 +329,7 @@
                 "id": 673
             },
             "id": 848719405,
-            "last_update": 1366730457.080074,
+            "last_update": 1387585513.035808,
             "level": 0,
             "max_targets": 0,
             "name": "Quickening",
@@ -659,10 +339,350 @@
             "spellbook": 4,
             "tier": 6,
             "tier_name": "Adept",
-            "ts": 1366730457.080074,
+            "ts": 1387585513.035808,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1314416645,
+            "deity": 0,
+            "description": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
+            "description_pvp": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves base auto-attack multiplier of caster by 0.150. Does not apply to spell weapons.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 24.0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Attack Speed of caster by 24.0",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Damage Per Second of caster by 24.0",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 673
+            },
+            "id": 1324829686,
+            "last_update": 1387585512.838499,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Quickening",
+            "name_lower": "quickening",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387585512.838499,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1314416645,
+            "deity": 0,
+            "description": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
+            "description_pvp": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves base auto-attack multiplier of caster by 0.120. Does not apply to spell weapons.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 19.2",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Attack Speed of caster by 19.2",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Damage Per Second of caster by 19.2",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 673
+            },
+            "id": 3556289152,
+            "last_update": 1387585512.677675,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Quickening",
+            "name_lower": "quickening",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387585512.677675,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1314416645,
+            "deity": 0,
+            "description": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
+            "description_pvp": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves base auto-attack multiplier of caster by 0.090. Does not apply to spell weapons.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 14.4",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Attack Speed of caster by 14.4",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Damage Per Second of caster by 14.4",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 673
+            },
+            "id": 3056926784,
+            "last_update": 1387585512.516083,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Quickening",
+            "name_lower": "quickening",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585512.516083,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1314416645,
+            "deity": 0,
+            "description": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
+            "description_pvp": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves base auto-attack multiplier of caster by 0.060. Does not apply to spell weapons.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 9.6",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Attack Speed of caster by 9.6",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Damage Per Second of caster by 9.6",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 673
+            },
+            "id": 725279030,
+            "last_update": 1387585512.392906,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Quickening",
+            "name_lower": "quickening",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585512.392906,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1314416645,
+            "deity": 0,
+            "description": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
+            "description_pvp": "Increases the Spellblade's chance at auto-attacks striking twice, increases auto-attack speed and damage.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves base auto-attack multiplier of caster by 0.030. Does not apply to spell weapons.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Multi Attack Chance of caster by 4.8",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Attack Speed of caster by 4.8",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Damage Per Second of caster by 4.8",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 673
+            },
+            "id": 1465631981,
+            "last_update": 1387585512.197032,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Quickening",
+            "name_lower": "quickening",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585512.197032,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

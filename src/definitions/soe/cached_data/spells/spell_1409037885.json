@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730459.146736,
+    "min_ts": 1387585537.910525,
     "returned": 5,
-    "seconds": 0.01547694206237793,
+    "seconds": 0.02110600471496582,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,139 +34,15 @@
             },
             "effect_list": [
                 {
-                    "description": "Improves casting speed by 0.3 seconds",
+                    "description": "Improves reuse speed by 7.5 seconds",
                     "indentation": 0
                 },
-                {
-                    "description": "Improves the Crit Bonus by 3%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 4.5 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 268
-            },
-            "id": 2163153090,
-            "last_update": 1366730642.936624,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Shock Wave",
-            "name_lower": "enhance: shock wave",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730642.936624,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1409037885,
-            "deity": 0,
-            "description": "Improves the critical damage and reduces the casting and reuse speed of Shock Wave and its upgrades.",
-            "description_pvp": "Improves the critical damage and reduces the casting and reuse speed of Shock Wave and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Improves casting speed by 0.1 seconds",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the Crit Bonus by 1%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 1.5 seconds",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 313,
-                "icon_heroic_op": -1,
-                "id": 268
-            },
-            "id": 1635900527,
-            "last_update": 1366730641.384412,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Shock Wave",
-            "name_lower": "enhance: shock wave",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730641.384412,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 1409037885,
-            "deity": 0,
-            "description": "Improves the critical damage and reduces the casting and reuse speed of Shock Wave and its upgrades.",
-            "description_pvp": "Improves the critical damage and reduces the casting and reuse speed of Shock Wave and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
                 {
                     "description": "Improves casting speed by 0.5 seconds",
                     "indentation": 0
                 },
                 {
                     "description": "Improves the Crit Bonus by 5%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 7.5 seconds",
                     "indentation": 0
                 }
             ],
@@ -175,7 +53,7 @@
                 "id": 268
             },
             "id": 2016236404,
-            "last_update": 1366730634.75884,
+            "last_update": 1387585538.270858,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Shock Wave",
@@ -185,10 +63,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730634.75884,
+            "ts": 1387585538.270858,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -198,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -218,15 +98,15 @@
             },
             "effect_list": [
                 {
+                    "description": "Improves reuse speed by 6 seconds",
+                    "indentation": 0
+                },
+                {
                     "description": "Improves casting speed by 0.4 seconds",
                     "indentation": 0
                 },
                 {
                     "description": "Improves the Crit Bonus by 4%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 6 seconds",
                     "indentation": 0
                 }
             ],
@@ -237,7 +117,7 @@
                 "id": 268
             },
             "id": 3844256258,
-            "last_update": 1366730632.076813,
+            "last_update": 1387585538.152584,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Shock Wave",
@@ -247,10 +127,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730632.076813,
+            "ts": 1387585538.152584,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -260,8 +140,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -280,15 +162,79 @@
             },
             "effect_list": [
                 {
+                    "description": "Improves reuse speed by 4.5 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves casting speed by 0.3 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 3%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 268
+            },
+            "id": 2163153090,
+            "last_update": 1387585538.070811,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Shock Wave",
+            "name_lower": "enhance: shock wave",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387585538.070811,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1409037885,
+            "deity": 0,
+            "description": "Improves the critical damage and reduces the casting and reuse speed of Shock Wave and its upgrades.",
+            "description_pvp": "Improves the critical damage and reduces the casting and reuse speed of Shock Wave and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 3 seconds",
+                    "indentation": 0
+                },
+                {
                     "description": "Improves casting speed by 0.2 seconds",
                     "indentation": 0
                 },
                 {
                     "description": "Improves the Crit Bonus by 2%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves reuse speed by 3 seconds",
                     "indentation": 0
                 }
             ],
@@ -299,7 +245,7 @@
                 "id": 268
             },
             "id": 501283252,
-            "last_update": 1366730459.146736,
+            "last_update": 1387585538.031099,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Shock Wave",
@@ -309,10 +255,74 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730459.146736,
+            "ts": 1387585538.031099,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 1409037885,
+            "deity": 0,
+            "description": "Improves the critical damage and reduces the casting and reuse speed of Shock Wave and its upgrades.",
+            "description_pvp": "Improves the critical damage and reduces the casting and reuse speed of Shock Wave and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves reuse speed by 1.5 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves casting speed by 0.1 seconds",
+                    "indentation": 0
+                },
+                {
+                    "description": "Improves the Crit Bonus by 1%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 313,
+                "icon_heroic_op": -1,
+                "id": 268
+            },
+            "id": 1635900527,
+            "last_update": 1387585537.910525,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Shock Wave",
+            "name_lower": "enhance: shock wave",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585537.910525,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

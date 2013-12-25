@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730638.105154,
+    "min_ts": 1387584565.370878,
     "returned": 1,
-    "seconds": 0.024627208709716797,
+    "seconds": 0.015204191207885742,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,11 +34,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Crit Chance of caster by 25.0",
+                    "description": "Increases taunt effect and damage of all combat arts by 15%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Increases taunt effect and damage of all combat arts by 15%.",
+                    "description": "Increases Crit Chance of caster by 25.0",
                     "indentation": 0
                 },
                 {
@@ -51,7 +53,7 @@
                 "id": 610
             },
             "id": 535406212,
-            "last_update": 1366730638.105154,
+            "last_update": 1387584565.370878,
             "level": 0,
             "max_targets": 0,
             "name": "Executioner's Fury",
@@ -61,10 +63,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730638.105154,
+            "ts": 1387584565.370878,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

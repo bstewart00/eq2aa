@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730434.526198,
+    "min_ts": 1387584141.500829,
     "returned": 5,
-    "seconds": 0.01562809944152832,
+    "seconds": 0.020946025848388672,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -52,11 +54,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 7 - 11 disease damage on target",
+                    "description": "Increases Threat to target by 46 - 56 ",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Threat to target by 34 - 42 ",
+                    "description": "Inflicts 7 - 11 disease damage on target",
                     "indentation": 1
                 }
             ],
@@ -67,7 +69,7 @@
                 "id": 849
             },
             "id": 3073203381,
-            "last_update": 1366730639.923174,
+            "last_update": 1387584142.338556,
             "level": 0,
             "max_targets": 0,
             "name": "Malevolent Protection",
@@ -77,10 +79,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730639.923174,
+            "ts": 1387584142.338556,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -90,164 +92,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3911590616,
-            "deity": 0,
-            "description": "The shadowknight gets a chance to damage their attacker or heal themselves when they successfully block an attack.  In addition to the damage, they will gain additional hate with the attacker.",
-            "description_pvp": "The shadowknight gets a chance to damage their attacker or heal themselves when they successfully block an attack.  In addition to the damage, they will gain additional hate with the attacker.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a block this spell has a 20% chance to cast Malevolent Hatred on caster.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Heals caster for 0.3 - 0.5% of max health",
-                    "indentation": 1
-                },
-                {
-                    "description": "This effect cannot be critically applied.",
-                    "indentation": 2
-                },
-                {
-                    "description": "The healing of this spell cannot be modified except by direct means",
-                    "indentation": 1
-                },
-                {
-                    "description": "On a block this spell has a 20% chance to cast Malevolent Hatred on target's victim.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 1 - 2 disease damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Threat to target by 6 - 8 ",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 849
-            },
-            "id": 2927743918,
-            "last_update": 1366730633.798845,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Malevolent Protection",
-            "name_lower": "malevolent protection",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730633.798845,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 3911590616,
-            "deity": 0,
-            "description": "The shadowknight gets a chance to damage their attacker or heal themselves when they successfully block an attack.  In addition to the damage, they will gain additional hate with the attacker.",
-            "description_pvp": "The shadowknight gets a chance to damage their attacker or heal themselves when they successfully block an attack.  In addition to the damage, they will gain additional hate with the attacker.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "On a block this spell has a 20% chance to cast Malevolent Hatred on caster.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Heals caster for 0.6 - 1.0% of max health",
-                    "indentation": 1
-                },
-                {
-                    "description": "This effect cannot be critically applied.",
-                    "indentation": 2
-                },
-                {
-                    "description": "The healing of this spell cannot be modified except by direct means",
-                    "indentation": 1
-                },
-                {
-                    "description": "On a block this spell has a 20% chance to cast Malevolent Hatred on target's victim.  ",
-                    "indentation": 0
-                },
-                {
-                    "description": "Inflicts 3 - 4 disease damage on target",
-                    "indentation": 1
-                },
-                {
-                    "description": "Increases Threat to target by 13 - 17 ",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 849
-            },
-            "id": 3537958517,
-            "last_update": 1366730633.274994,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Malevolent Protection",
-            "name_lower": "malevolent protection",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730633.274994,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -286,11 +134,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 6 - 9 disease damage on target",
+                    "description": "Increases Threat to target by 37 - 45 ",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Threat to target by 27 - 34 ",
+                    "description": "Inflicts 6 - 9 disease damage on target",
                     "indentation": 1
                 }
             ],
@@ -301,7 +149,7 @@
                 "id": 849
             },
             "id": 706919875,
-            "last_update": 1366730447.62393,
+            "last_update": 1387584142.10062,
             "level": 0,
             "max_targets": 0,
             "name": "Malevolent Protection",
@@ -311,10 +159,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730447.62393,
+            "ts": 1387584142.10062,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -324,8 +172,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -364,11 +214,11 @@
                     "indentation": 0
                 },
                 {
-                    "description": "Inflicts 4 - 7 disease damage on target",
+                    "description": "Increases Threat to target by 27 - 34 ",
                     "indentation": 1
                 },
                 {
-                    "description": "Increases Threat to target by 20 - 25 ",
+                    "description": "Inflicts 4 - 7 disease damage on target",
                     "indentation": 1
                 }
             ],
@@ -379,7 +229,7 @@
                 "id": 849
             },
             "id": 1341069059,
-            "last_update": 1366730434.526198,
+            "last_update": 1387584141.901102,
             "level": 0,
             "max_targets": 0,
             "name": "Malevolent Protection",
@@ -389,10 +239,170 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730434.526198,
+            "ts": 1387584141.901102,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3911590616,
+            "deity": 0,
+            "description": "The shadowknight gets a chance to damage their attacker or heal themselves when they successfully block an attack.  In addition to the damage, they will gain additional hate with the attacker.",
+            "description_pvp": "The shadowknight gets a chance to damage their attacker or heal themselves when they successfully block an attack.  In addition to the damage, they will gain additional hate with the attacker.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a block this spell has a 20% chance to cast Malevolent Hatred on caster.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Heals caster for 0.6 - 1.0% of max health",
+                    "indentation": 1
+                },
+                {
+                    "description": "This effect cannot be critically applied.",
+                    "indentation": 2
+                },
+                {
+                    "description": "The healing of this spell cannot be modified except by direct means",
+                    "indentation": 1
+                },
+                {
+                    "description": "On a block this spell has a 20% chance to cast Malevolent Hatred on target's victim.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Threat to target by 18 - 22 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 3 - 4 disease damage on target",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 849
+            },
+            "id": 3537958517,
+            "last_update": 1387584141.657242,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Malevolent Protection",
+            "name_lower": "malevolent protection",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584141.657242,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 3911590616,
+            "deity": 0,
+            "description": "The shadowknight gets a chance to damage their attacker or heal themselves when they successfully block an attack.  In addition to the damage, they will gain additional hate with the attacker.",
+            "description_pvp": "The shadowknight gets a chance to damage their attacker or heal themselves when they successfully block an attack.  In addition to the damage, they will gain additional hate with the attacker.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "On a block this spell has a 20% chance to cast Malevolent Hatred on caster.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Heals caster for 0.3 - 0.5% of max health",
+                    "indentation": 1
+                },
+                {
+                    "description": "This effect cannot be critically applied.",
+                    "indentation": 2
+                },
+                {
+                    "description": "The healing of this spell cannot be modified except by direct means",
+                    "indentation": 1
+                },
+                {
+                    "description": "On a block this spell has a 20% chance to cast Malevolent Hatred on target's victim.  ",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Threat to target by 9 - 11 ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 1 - 2 disease damage on target",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 849
+            },
+            "id": 2927743918,
+            "last_update": 1387584141.500829,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Malevolent Protection",
+            "name_lower": "malevolent protection",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584141.500829,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730646.846308,
+    "min_ts": 1387584409.156939,
     "returned": 1,
-    "seconds": 0.016967058181762695,
+    "seconds": 0.014879941940307617,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,30 +34,14 @@
             },
             "effect_list": [
                 {
-                    "description": "On any combat or spell hit this spell may cast Pirate's Perception on target.  Lasts for 15 minutes.  Triggers about 0.2 times per minute. ",
-                    "indentation": 0
-                },
-                {
-                    "description": "On any combat or spell hit this spell has a 1% chance to cast Pirate's Perception on target of attack.  ",
-                    "indentation": 1
-                },
-                {
-                    "description": "Inflicts 20 - 24 slashing damage on target",
-                    "indentation": 2
-                },
-                {
-                    "description": "The trigger chance is multiplied by the increment count.",
-                    "indentation": 2
-                },
-                {
-                    "description": "Dispelled when a group member dies.",
-                    "indentation": 1
-                },
-                {
                     "description": "On a death blow this spell will cast Pirate's Perception on target.  Lasts for 15 minutes.  ",
                     "indentation": 0
                 },
                 {
+                    "description": "Dispelled when a group member dies.",
+                    "indentation": 1
+                },
+                {
                     "description": "On any combat or spell hit this spell has a 1% chance to cast Pirate's Perception on target of attack.  ",
                     "indentation": 1
                 },
@@ -68,8 +54,24 @@
                     "indentation": 2
                 },
                 {
+                    "description": "On any combat or spell hit this spell may cast Pirate's Perception on target.  Lasts for 15 minutes.  Triggers about 0.2 times per minute. ",
+                    "indentation": 0
+                },
+                {
                     "description": "Dispelled when a group member dies.",
                     "indentation": 1
+                },
+                {
+                    "description": "On any combat or spell hit this spell has a 1% chance to cast Pirate's Perception on target of attack.  ",
+                    "indentation": 1
+                },
+                {
+                    "description": "Inflicts 20 - 24 slashing damage on target",
+                    "indentation": 2
+                },
+                {
+                    "description": "The trigger chance is multiplied by the increment count.",
+                    "indentation": 2
                 }
             ],
             "given_by": "alternateadvancement",
@@ -79,7 +81,7 @@
                 "id": 302
             },
             "id": 2504361559,
-            "last_update": 1366730646.846308,
+            "last_update": 1387584409.156939,
             "level": 0,
             "max_targets": 0,
             "name": "Pirate's Perception",
@@ -89,10 +91,10 @@
             "spellbook": 1,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730646.846308,
+            "ts": 1387584409.156939,
             "type": "arts",
             "typeid": 1,
-            "version": 1
+            "version": 2
         }
     ]
 }

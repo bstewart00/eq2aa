@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730452.081966,
+    "min_ts": 1387585147.603167,
     "returned": 5,
-    "seconds": 0.0343170166015625,
+    "seconds": 0.020658016204833984,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,8 +25,8 @@
             },
             "crc": 2992201103,
             "deity": 0,
-            "description": "Improves the damage per second bonus and duration of Deadly Focus and its upgrades.",
-            "description_pvp": "Improves the damage per second bonus and duration of Deadly Focus and its upgrades.",
+            "description": "Improves the Multi-Attack Chance and duration of Deadly Focus and its upgrades.",
+            "description_pvp": "Improves the Multi-Attack Chance and duration of Deadly Focus and its upgrades.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -32,61 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the damage per second effect by an additional 3 points. Increases duration by 3 seconds.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 242
-            },
-            "id": 1742298975,
-            "last_update": 1366730466.327388,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Deadly Focus",
-            "name_lower": "enhance: deadly focus",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730466.327388,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2992201103,
-            "deity": 0,
-            "description": "Improves the damage per second bonus and duration of Deadly Focus and its upgrades.",
-            "description_pvp": "Improves the damage per second bonus and duration of Deadly Focus and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases the damage per second effect by an additional 6 points. Increases duration by 6 seconds.",
+                    "description": "Increases the Multi-Attack Chance by an additional 6 points. Increases duration by 6 seconds.",
                     "indentation": 0
                 }
             ],
@@ -97,7 +45,7 @@
                 "id": 242
             },
             "id": 465074820,
-            "last_update": 1366730461.088048,
+            "last_update": 1387585147.63659,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Deadly Focus",
@@ -107,10 +55,10 @@
             "spellbook": 4,
             "tier": 2,
             "tier_name": "Apprentice",
-            "ts": 1366730461.088048,
+            "ts": 1387585147.63659,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -120,8 +68,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -131,8 +81,8 @@
             },
             "crc": 2992201103,
             "deity": 0,
-            "description": "Improves the damage per second bonus and duration of Deadly Focus and its upgrades.",
-            "description_pvp": "Improves the damage per second bonus and duration of Deadly Focus and its upgrades.",
+            "description": "Improves the Multi-Attack Chance and duration of Deadly Focus and its upgrades.",
+            "description_pvp": "Improves the Multi-Attack Chance and duration of Deadly Focus and its upgrades.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -140,7 +90,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the damage per second effect by an additional 15 points. Increases duration by 15 seconds.",
+                    "description": "Increases the Multi-Attack Chance by an additional 15 points. Increases duration by 15 seconds.",
                     "indentation": 0
                 }
             ],
@@ -151,7 +101,7 @@
                 "id": 242
             },
             "id": 2121650244,
-            "last_update": 1366730460.613003,
+            "last_update": 1387585147.632419,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Deadly Focus",
@@ -161,10 +111,10 @@
             "spellbook": 4,
             "tier": 5,
             "tier_name": "Adept",
-            "ts": 1366730460.613003,
+            "ts": 1387585147.632419,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -174,8 +124,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -185,8 +137,8 @@
             },
             "crc": 2992201103,
             "deity": 0,
-            "description": "Improves the damage per second bonus and duration of Deadly Focus and its upgrades.",
-            "description_pvp": "Improves the damage per second bonus and duration of Deadly Focus and its upgrades.",
+            "description": "Improves the Multi-Attack Chance and duration of Deadly Focus and its upgrades.",
+            "description_pvp": "Improves the Multi-Attack Chance and duration of Deadly Focus and its upgrades.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -194,7 +146,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the damage per second effect by an additional 12 points. Increases duration by 12 seconds.",
+                    "description": "Increases the Multi-Attack Chance by an additional 12 points. Increases duration by 12 seconds.",
                     "indentation": 0
                 }
             ],
@@ -205,7 +157,7 @@
                 "id": 242
             },
             "id": 3816436018,
-            "last_update": 1366730452.118347,
+            "last_update": 1387585147.630666,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Deadly Focus",
@@ -215,10 +167,10 @@
             "spellbook": 4,
             "tier": 4,
             "tier_name": "Journeyman",
-            "ts": 1366730452.118347,
+            "ts": 1387585147.630666,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -228,8 +180,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -239,8 +193,8 @@
             },
             "crc": 2992201103,
             "deity": 0,
-            "description": "Improves the damage per second bonus and duration of Deadly Focus and its upgrades.",
-            "description_pvp": "Improves the damage per second bonus and duration of Deadly Focus and its upgrades.",
+            "description": "Improves the Multi-Attack Chance and duration of Deadly Focus and its upgrades.",
+            "description_pvp": "Improves the Multi-Attack Chance and duration of Deadly Focus and its upgrades.",
             "duration": {
                 "does_not_expire": 0,
                 "max_sec_tenths": 0,
@@ -248,7 +202,63 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases the damage per second effect by an additional 9 points. Increases duration by 9 seconds.",
+                    "description": "Increases the Multi-Attack Chance by an additional 3 points. Increases duration by 3 seconds.",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 242
+            },
+            "id": 1742298975,
+            "last_update": 1387585147.627541,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Deadly Focus",
+            "name_lower": "enhance: deadly focus",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585147.627541,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2992201103,
+            "deity": 0,
+            "description": "Improves the Multi-Attack Chance and duration of Deadly Focus and its upgrades.",
+            "description_pvp": "Improves the Multi-Attack Chance and duration of Deadly Focus and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Increases the Multi-Attack Chance by an additional 9 points. Increases duration by 9 seconds.",
                     "indentation": 0
                 }
             ],
@@ -259,7 +269,7 @@
                 "id": 242
             },
             "id": 2260179954,
-            "last_update": 1366730452.081966,
+            "last_update": 1387585147.603167,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Deadly Focus",
@@ -269,10 +279,10 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730452.081966,
+            "ts": 1387585147.603167,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }

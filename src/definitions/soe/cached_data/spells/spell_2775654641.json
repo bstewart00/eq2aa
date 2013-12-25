@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730464.750641,
+    "min_ts": 1387585172.009059,
     "returned": 3,
-    "seconds": 0.014601945877075195,
+    "seconds": 0.014410972595214844,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,116 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2775654641,
-            "deity": 0,
-            "description": "Reduces the resistibility of Blasphemy and its upgrades.",
-            "description_pvp": "Reduces the resistibility of Blasphemy and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces resistibility by 10%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 295
-            },
-            "id": 2494834568,
-            "last_update": 1366730632.208609,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Blasphemy II",
-            "name_lower": "enhance: blasphemy ii",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730632.208609,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 2775654641,
-            "deity": 0,
-            "description": "Reduces the resistibility of Blasphemy and its upgrades.",
-            "description_pvp": "Reduces the resistibility of Blasphemy and its upgrades.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Reduces resistibility by 20%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 312,
-                "icon_heroic_op": -1,
-                "id": 295
-            },
-            "id": 3906273875,
-            "last_update": 1366730466.324624,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Enhance: Blasphemy II",
-            "name_lower": "enhance: blasphemy ii",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730466.324624,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -151,7 +45,7 @@
                 "id": 295
             },
             "id": 1977279269,
-            "last_update": 1366730464.750641,
+            "last_update": 1387585172.099226,
             "level": 0,
             "max_targets": 0,
             "name": "Enhance: Blasphemy II",
@@ -161,10 +55,122 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730464.750641,
+            "ts": 1387585172.099226,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2775654641,
+            "deity": 0,
+            "description": "Reduces the resistibility of Blasphemy and its upgrades.",
+            "description_pvp": "Reduces the resistibility of Blasphemy and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces resistibility by 20%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 295
+            },
+            "id": 3906273875,
+            "last_update": 1387585172.051853,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Blasphemy II",
+            "name_lower": "enhance: blasphemy ii",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387585172.051853,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 2775654641,
+            "deity": 0,
+            "description": "Reduces the resistibility of Blasphemy and its upgrades.",
+            "description_pvp": "Reduces the resistibility of Blasphemy and its upgrades.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces resistibility by 10%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 312,
+                "icon_heroic_op": -1,
+                "id": 295
+            },
+            "id": 2494834568,
+            "last_update": 1387585172.009059,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Enhance: Blasphemy II",
+            "name_lower": "enhance: blasphemy ii",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387585172.009059,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

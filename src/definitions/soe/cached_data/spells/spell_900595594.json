@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730443.204026,
+    "min_ts": 1387584925.182945,
     "returned": 10,
-    "seconds": 0.020933866500854492,
+    "seconds": 0.022348880767822266,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,128 +33,12 @@
                 "min_sec_tenths": 200
             },
             "effect_list": [
-                {
-                    "description": "Caster will Dodge 78.8% of incoming attacks",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to caster by 23.63%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 812
-            },
-            "id": 3830596227,
-            "last_update": 1366730647.758145,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Veil of Notes",
-            "name_lower": "veil of notes",
-            "recast_secs": 237.15416,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730647.758145,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 900595594,
-            "deity": 0,
-            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Caster will Dodge 57.6% of incoming attacks",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to caster by 17.27%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 812
-            },
-            "id": 619390997,
-            "last_update": 1366730642.587888,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Veil of Notes",
-            "name_lower": "veil of notes",
-            "recast_secs": 237.15416,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730642.587888,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 900595594,
-            "deity": 0,
-            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Caster will Dodge 100.0% of incoming attacks",
-                    "indentation": 0
-                },
                 {
                     "description": "Reduces all damage done to caster by 30%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Caster will Dodge 100.0% of incoming attacks",
                     "indentation": 0
                 },
                 {
@@ -167,7 +53,7 @@
                 "id": 812
             },
             "id": 2896234457,
-            "last_update": 1366730631.810561,
+            "last_update": 1387584926.147832,
             "level": 0,
             "max_targets": 0,
             "name": "Veil of Notes",
@@ -177,10 +63,10 @@
             "spellbook": 0,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730631.810561,
+            "ts": 1387584926.147832,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -190,8 +76,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -209,360 +97,12 @@
                 "min_sec_tenths": 200
             },
             "effect_list": [
-                {
-                    "description": "Caster will Dodge 66.7% of incoming attacks",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to caster by 20%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 812
-            },
-            "id": 2215573448,
-            "last_update": 1366730622.247419,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Veil of Notes",
-            "name_lower": "veil of notes",
-            "recast_secs": 237.15416,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730622.247419,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 900595594,
-            "deity": 0,
-            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Caster will Dodge 54.6% of incoming attacks",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to caster by 16.36%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "spellscroll",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 812
-            },
-            "id": 2569094363,
-            "last_update": 1366730589.5064,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Veil of Notes",
-            "name_lower": "veil of notes",
-            "recast_secs": 237.15416,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730589.5064,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 900595594,
-            "deity": 0,
-            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Caster will Dodge 90.9% of incoming attacks",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to caster by 27.27%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 812
-            },
-            "id": 515132979,
-            "last_update": 1366730460.01345,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Veil of Notes",
-            "name_lower": "veil of notes",
-            "recast_secs": 237.15416,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 8,
-            "tier_name": "Expert",
-            "ts": 1366730460.01345,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 900595594,
-            "deity": 0,
-            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Caster will Dodge 60.6% of incoming attacks",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to caster by 18.18%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 812
-            },
-            "id": 4185780624,
-            "last_update": 1366730457.768197,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Veil of Notes",
-            "name_lower": "veil of notes",
-            "recast_secs": 237.15416,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730457.768197,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 900595594,
-            "deity": 0,
-            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Caster will Dodge 72.7% of incoming attacks",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to caster by 21.82%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 812
-            },
-            "id": 1503145549,
-            "last_update": 1366730456.432445,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Veil of Notes",
-            "name_lower": "veil of notes",
-            "recast_secs": 237.15416,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730456.432445,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 900595594,
-            "deity": 0,
-            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Caster will Dodge 84.9% of incoming attacks",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to caster by 25.45%",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 812
-            },
-            "id": 969186054,
-            "last_update": 1366730454.534883,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Veil of Notes",
-            "name_lower": "veil of notes",
-            "recast_secs": 237.15416,
-            "recovery_secs_tenths": 50,
-            "spellbook": 0,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730454.534883,
-            "type": "spells",
-            "typeid": 0,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 80,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 3,
-                "savagery": 0
-            },
-            "crc": 900595594,
-            "deity": 0,
-            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 200,
-                "min_sec_tenths": 200
-            },
-            "effect_list": [
-                {
-                    "description": "Caster will Dodge 97.0% of incoming attacks",
-                    "indentation": 0
-                },
                 {
                     "description": "Reduces all damage done to caster by 29.09%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Caster will Dodge 97.0% of incoming attacks",
                     "indentation": 0
                 }
             ],
@@ -573,7 +113,7 @@
                 "id": 812
             },
             "id": 3273824182,
-            "last_update": 1366730443.204026,
+            "last_update": 1387584926.004369,
             "level": 0,
             "max_targets": 0,
             "name": "Veil of Notes",
@@ -583,10 +123,490 @@
             "spellbook": 0,
             "tier": 9,
             "tier_name": "Master",
-            "ts": 1366730443.204026,
+            "ts": 1387584926.004369,
             "type": "spells",
             "typeid": 0,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 900595594,
+            "deity": 0,
+            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces all damage done to caster by 27.27%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Caster will Dodge 90.9% of incoming attacks",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 812
+            },
+            "id": 515132979,
+            "last_update": 1387584925.948027,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Veil of Notes",
+            "name_lower": "veil of notes",
+            "recast_secs": 237.15416,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 8,
+            "tier_name": "Expert",
+            "ts": 1387584925.948027,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 900595594,
+            "deity": 0,
+            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces all damage done to caster by 25.45%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Caster will Dodge 84.9% of incoming attacks",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 812
+            },
+            "id": 969186054,
+            "last_update": 1387584925.828341,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Veil of Notes",
+            "name_lower": "veil of notes",
+            "recast_secs": 237.15416,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584925.828341,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 900595594,
+            "deity": 0,
+            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces all damage done to caster by 23.63%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Caster will Dodge 78.8% of incoming attacks",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 812
+            },
+            "id": 3830596227,
+            "last_update": 1387584925.707715,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Veil of Notes",
+            "name_lower": "veil of notes",
+            "recast_secs": 237.15416,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584925.707715,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 900595594,
+            "deity": 0,
+            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces all damage done to caster by 21.82%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Caster will Dodge 72.7% of incoming attacks",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 812
+            },
+            "id": 1503145549,
+            "last_update": 1387584925.602955,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Veil of Notes",
+            "name_lower": "veil of notes",
+            "recast_secs": 237.15416,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584925.602955,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 900595594,
+            "deity": 0,
+            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces all damage done to caster by 20%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Caster will Dodge 66.7% of incoming attacks",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 812
+            },
+            "id": 2215573448,
+            "last_update": 1387584925.484274,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Veil of Notes",
+            "name_lower": "veil of notes",
+            "recast_secs": 237.15416,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584925.484274,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 900595594,
+            "deity": 0,
+            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces all damage done to caster by 18.18%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Caster will Dodge 60.6% of incoming attacks",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 812
+            },
+            "id": 4185780624,
+            "last_update": 1387584925.387345,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Veil of Notes",
+            "name_lower": "veil of notes",
+            "recast_secs": 237.15416,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584925.387345,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 900595594,
+            "deity": 0,
+            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces all damage done to caster by 17.27%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Caster will Dodge 57.6% of incoming attacks",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 812
+            },
+            "id": 619390997,
+            "last_update": 1387584925.283621,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Veil of Notes",
+            "name_lower": "veil of notes",
+            "recast_secs": 237.15416,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584925.283621,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 80,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 3,
+                "savagery": 0
+            },
+            "crc": 900595594,
+            "deity": 0,
+            "description": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "description_pvp": "The bard surrounds themselves with a veil of sound, allowing them to reduce incoming damage while avoiding auto-attacks and, at rank 10, indirect Area of Effect abilities.  If the caster enters PVP combat, the duration of this effect will be reduced.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 200,
+                "min_sec_tenths": 200
+            },
+            "effect_list": [
+                {
+                    "description": "Reduces all damage done to caster by 16.36%",
+                    "indentation": 0
+                },
+                {
+                    "description": "Caster will Dodge 54.6% of incoming attacks",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 812
+            },
+            "id": 2569094363,
+            "last_update": 1387584925.182945,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Veil of Notes",
+            "name_lower": "veil of notes",
+            "recast_secs": 237.15416,
+            "recovery_secs_tenths": 50,
+            "spellbook": 0,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584925.182945,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
         }
     ]
 }

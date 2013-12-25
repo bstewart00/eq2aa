@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730441.08471,
+    "min_ts": 1387584425.80193,
     "returned": 3,
-    "seconds": 0.014413833618164062,
+    "seconds": 0.01630401611328125,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,124 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 864827640,
-            "deity": 0,
-            "description": "Greatly reduces damage to the conjuror's pet.",
-            "description_pvp": "Greatly reduces damage to the conjuror's pet.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Planar Armor to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to target by 10%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 163
-            },
-            "id": 1840812869,
-            "last_update": 1366730625.323398,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Planar Armor",
-            "name_lower": "planar armor",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730625.323398,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 864827640,
-            "deity": 0,
-            "description": "Greatly reduces damage to the conjuror's pet.",
-            "description_pvp": "Greatly reduces damage to the conjuror's pet.",
-            "duration": {
-                "does_not_expire": 1,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Applies Planar Armor to qualifying pets.",
-                    "indentation": 0
-                },
-                {
-                    "description": "Reduces all damage done to target by 20%",
-                    "indentation": 1
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": 317,
-                "icon_heroic_op": -1,
-                "id": 163
-            },
-            "id": 3497197451,
-            "last_update": 1366730619.968085,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Planar Armor",
-            "name_lower": "planar armor",
-            "recast_secs": 1.976285,
-            "recovery_secs_tenths": 50,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730619.968085,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -163,7 +49,7 @@
                 "id": 163
             },
             "id": 233055758,
-            "last_update": 1366730441.08471,
+            "last_update": 1387584426.045303,
             "level": 0,
             "max_targets": 0,
             "name": "Planar Armor",
@@ -173,10 +59,130 @@
             "spellbook": 4,
             "tier": 3,
             "tier_name": "Apprentice",
-            "ts": 1366730441.08471,
+            "ts": 1387584426.045303,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 864827640,
+            "deity": 0,
+            "description": "Greatly reduces damage to the conjuror's pet.",
+            "description_pvp": "Greatly reduces damage to the conjuror's pet.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Planar Armor to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces all damage done to target by 20%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 163
+            },
+            "id": 3497197451,
+            "last_update": 1387584425.923787,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Planar Armor",
+            "name_lower": "planar armor",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584425.923787,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 321,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 864827640,
+            "deity": 0,
+            "description": "Greatly reduces damage to the conjuror's pet.",
+            "description_pvp": "Greatly reduces damage to the conjuror's pet.",
+            "duration": {
+                "does_not_expire": 1,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Applies Planar Armor to qualifying pets.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Reduces all damage done to target by 10%",
+                    "indentation": 1
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": 317,
+                "icon_heroic_op": -1,
+                "id": 163
+            },
+            "id": 1840812869,
+            "last_update": 1387584425.80193,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Planar Armor",
+            "name_lower": "planar armor",
+            "recast_secs": 1.976285,
+            "recovery_secs_tenths": 50,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584425.80193,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

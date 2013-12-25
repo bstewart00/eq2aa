@@ -1,19 +1,21 @@
 {
     "limit": 10,
-    "min_ts": 1366730445.304914,
+    "min_ts": 1387585505.549696,
     "returned": 1,
-    "seconds": 0.01468205451965332,
+    "seconds": 0.01613306999206543,
     "spell_list": [
         {
             "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 321,
+            "aoe_radius_meters": 10.0,
+            "beneficial": 0,
+            "cast_secs_hundredths": 0,
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -23,40 +25,52 @@
             },
             "crc": 247956219,
             "deity": 0,
-            "description": "Builds increments and then uses them to allow the shadowknight to cast certain area of effect combat arts instantly.",
-            "description_pvp": "Builds increments and then uses them to allow the shadowknight to cast certain area of effect combat arts instantly.",
+            "description": "A replacement for Harm Touch. This ability deals a great amount of disease damage to enemies surrounding the target. This attack can not be outright resisted. For a short duration after the attack, the shadowknight will transform into a netherlord and some of their area effect abilities will cast instantly.",
+            "description_pvp": "A replacement for Harm Touch. This ability deals a great amount of disease damage to enemies surrounding the target. This attack can not be outright resisted. For a short duration after the attack, the shadowknight will transform into a netherlord and some of their area effect abilities will cast instantly.",
             "duration": {
-                "does_not_expire": 1,
+                "does_not_expire": 0,
                 "max_sec_tenths": 0,
                 "min_sec_tenths": 0
             },
             "effect_list": [
                 {
-                    "description": "Doom Judgment, Death Cloud, Chaos Cloud, Reaper's Mist and Unending Agony will provide increments of Grim Reaper. When Grim Reaper hits 50 increments, the shadowknight will be able to cast these abilities instantly.",
+                    "description": "Inflicts 64 - 106 disease damage on targets in Area of Effect",
                     "indentation": 0
+                },
+                {
+                    "description": "Applies Grim Reaper.  Lasts for 36.0 seconds.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Doom Judgment, Death Cloud, Chaos Cloud, Reaper's Mist and Unending Agony will cast instantly.",
+                    "indentation": 1
+                },
+                {
+                    "description": "Shapechanges caster into a netherlord",
+                    "indentation": 1
                 }
             ],
             "given_by": "alternateadvancement",
             "icon": {
-                "backdrop": 317,
+                "backdrop": 313,
                 "icon_heroic_op": -1,
-                "id": 897
+                "id": 247
             },
             "id": 1228507350,
-            "last_update": 1366730445.304914,
+            "last_update": 1387585505.549696,
             "level": 0,
-            "max_targets": 0,
-            "name": "Grim Reaper",
-            "name_lower": "grim reaper",
-            "recast_secs": 1.976285,
+            "max_targets": 8,
+            "name": "Reaper's Touch",
+            "name_lower": "reaper's touch",
+            "recast_secs": 296.442688,
             "recovery_secs_tenths": 50,
-            "spellbook": 4,
+            "spellbook": 0,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730445.304914,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
+            "ts": 1387585505.549696,
+            "type": "spells",
+            "typeid": 0,
+            "version": 2
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730433.995853,
+    "min_ts": 1387584322.677586,
     "returned": 10,
-    "seconds": 0.030807971954345703,
+    "seconds": 0.024255990982055664,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -31,302 +33,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Increases Hate Gain of caster by 2.0%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the hate gain of taunts by 6%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 655
-            },
-            "id": 1963841889,
-            "last_update": 1366730644.669987,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Executioner's Anger",
-            "name_lower": "executioner's anger",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 2,
-            "tier_name": "Apprentice",
-            "ts": 1366730644.669987,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4220920549,
-            "deity": 0,
-            "description": "Increases the Executioner's hate gained by all enemies.",
-            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Hate Gain of caster by 6.0%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the hate gain of taunts by 18%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 655
-            },
-            "id": 1822512762,
-            "last_update": 1366730636.350667,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Executioner's Anger",
-            "name_lower": "executioner's anger",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 6,
-            "tier_name": "Adept",
-            "ts": 1366730636.350667,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4220920549,
-            "deity": 0,
-            "description": "Increases the Executioner's hate gained by all enemies.",
-            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Hate Gain of caster by 9.0%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the hate gain of taunts by 27%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 655
-            },
-            "id": 976609932,
-            "last_update": 1366730634.353773,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Executioner's Anger",
-            "name_lower": "executioner's anger",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 9,
-            "tier_name": "Master",
-            "ts": 1366730634.353773,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4220920549,
-            "deity": 0,
-            "description": "Increases the Executioner's hate gained by all enemies.",
-            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Hate Gain of caster by 1.0%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the hate gain of taunts by 3%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 655
-            },
-            "id": 158137530,
-            "last_update": 1366730632.539747,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Executioner's Anger",
-            "name_lower": "executioner's anger",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 1,
-            "tier_name": "Apprentice",
-            "ts": 1366730632.539747,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4220920549,
-            "deity": 0,
-            "description": "Increases the Executioner's hate gained by all enemies.",
-            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Hate Gain of caster by 4.0%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the hate gain of taunts by 12%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 655
-            },
-            "id": 2379190999,
-            "last_update": 1366730630.30518,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Executioner's Anger",
-            "name_lower": "executioner's anger",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 4,
-            "tier_name": "Journeyman",
-            "ts": 1366730630.30518,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4220920549,
-            "deity": 0,
-            "description": "Increases the Executioner's hate gained by all enemies.",
-            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Hate Gain of caster by 10.0%",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves the hate gain of taunts by 30%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Hate Gain of caster by 10.0%",
                     "indentation": 0
                 }
             ],
@@ -337,7 +49,7 @@
                 "id": 655
             },
             "id": 3881246165,
-            "last_update": 1366730621.950526,
+            "last_update": 1387584323.438679,
             "level": 0,
             "max_targets": 0,
             "name": "Executioner's Anger",
@@ -347,10 +59,10 @@
             "spellbook": 4,
             "tier": 10,
             "tier_name": "Grandmaster",
-            "ts": 1366730621.950526,
+            "ts": 1387584323.438679,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -360,8 +72,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -380,11 +94,11 @@
             },
             "effect_list": [
                 {
-                    "description": "Increases Hate Gain of caster by 7.0%",
+                    "description": "Improves the hate gain of taunts by 27%.",
                     "indentation": 0
                 },
                 {
-                    "description": "Improves the hate gain of taunts by 21%.",
+                    "description": "Increases Hate Gain of caster by 9.0%",
                     "indentation": 0
                 }
             ],
@@ -394,8 +108,8 @@
                 "icon_heroic_op": -1,
                 "id": 655
             },
-            "id": 4054759180,
-            "last_update": 1366730457.318427,
+            "id": 976609932,
+            "last_update": 1387584323.311477,
             "level": 0,
             "max_targets": 0,
             "name": "Executioner's Anger",
@@ -403,12 +117,12 @@
             "recast_secs": 0.0,
             "recovery_secs_tenths": 0,
             "spellbook": 4,
-            "tier": 7,
-            "tier_name": "Expert",
-            "ts": 1366730457.318427,
+            "tier": 9,
+            "tier_name": "Master",
+            "ts": 1387584323.311477,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         },
         {
             "alternate_advancement": 1,
@@ -418,8 +132,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -437,128 +153,12 @@
                 "min_sec_tenths": 0
             },
             "effect_list": [
-                {
-                    "description": "Increases Hate Gain of caster by 3.0%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the hate gain of taunts by 9%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 655
-            },
-            "id": 3892459543,
-            "last_update": 1366730444.309445,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Executioner's Anger",
-            "name_lower": "executioner's anger",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 3,
-            "tier_name": "Apprentice",
-            "ts": 1366730444.309445,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4220920549,
-            "deity": 0,
-            "description": "Increases the Executioner's hate gained by all enemies.",
-            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Hate Gain of caster by 5.0%",
-                    "indentation": 0
-                },
-                {
-                    "description": "Improves the hate gain of taunts by 15%.",
-                    "indentation": 0
-                }
-            ],
-            "given_by": "alternateadvancement",
-            "icon": {
-                "backdrop": -1,
-                "icon_heroic_op": -1,
-                "id": 655
-            },
-            "id": 281047969,
-            "last_update": 1366730434.775398,
-            "level": 0,
-            "max_targets": 0,
-            "name": "Executioner's Anger",
-            "name_lower": "executioner's anger",
-            "recast_secs": 0.0,
-            "recovery_secs_tenths": 0,
-            "spellbook": 4,
-            "tier": 5,
-            "tier_name": "Adept",
-            "ts": 1366730434.775398,
-            "type": "pcinnates",
-            "typeid": 4,
-            "version": 1
-        },
-        {
-            "alternate_advancement": 1,
-            "aoe_radius_meters": 0.0,
-            "beneficial": 1,
-            "cast_secs_hundredths": 0,
-            "chardiff": 0,
-            "cost": {
-                "concentration": 0,
-                "health": 0,
-                "per_tick": {
-                    "health": 0,
-                    "power": 0,
-                    "savagery": 0
-                },
-                "power": 0,
-                "savagery": 0
-            },
-            "crc": 4220920549,
-            "deity": 0,
-            "description": "Increases the Executioner's hate gained by all enemies.",
-            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
-            "duration": {
-                "does_not_expire": 0,
-                "max_sec_tenths": 0,
-                "min_sec_tenths": 0
-            },
-            "effect_list": [
-                {
-                    "description": "Increases Hate Gain of caster by 8.0%",
-                    "indentation": 0
-                },
                 {
                     "description": "Improves the hate gain of taunts by 24%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Hate Gain of caster by 8.0%",
                     "indentation": 0
                 }
             ],
@@ -569,7 +169,7 @@
                 "id": 655
             },
             "id": 2805597178,
-            "last_update": 1366730433.995853,
+            "last_update": 1387584323.238916,
             "level": 0,
             "max_targets": 0,
             "name": "Executioner's Anger",
@@ -579,10 +179,430 @@
             "spellbook": 4,
             "tier": 8,
             "tier_name": "Expert",
-            "ts": 1366730433.995853,
+            "ts": 1387584323.238916,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4220920549,
+            "deity": 0,
+            "description": "Increases the Executioner's hate gained by all enemies.",
+            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the hate gain of taunts by 21%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Hate Gain of caster by 7.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 655
+            },
+            "id": 4054759180,
+            "last_update": 1387584323.158844,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Executioner's Anger",
+            "name_lower": "executioner's anger",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 7,
+            "tier_name": "Expert",
+            "ts": 1387584323.158844,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4220920549,
+            "deity": 0,
+            "description": "Increases the Executioner's hate gained by all enemies.",
+            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the hate gain of taunts by 18%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Hate Gain of caster by 6.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 655
+            },
+            "id": 1822512762,
+            "last_update": 1387584323.078277,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Executioner's Anger",
+            "name_lower": "executioner's anger",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 6,
+            "tier_name": "Adept",
+            "ts": 1387584323.078277,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4220920549,
+            "deity": 0,
+            "description": "Increases the Executioner's hate gained by all enemies.",
+            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the hate gain of taunts by 15%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Hate Gain of caster by 5.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 655
+            },
+            "id": 281047969,
+            "last_update": 1387584322.991223,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Executioner's Anger",
+            "name_lower": "executioner's anger",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 5,
+            "tier_name": "Adept",
+            "ts": 1387584322.991223,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4220920549,
+            "deity": 0,
+            "description": "Increases the Executioner's hate gained by all enemies.",
+            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the hate gain of taunts by 12%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Hate Gain of caster by 4.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 655
+            },
+            "id": 2379190999,
+            "last_update": 1387584322.950107,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Executioner's Anger",
+            "name_lower": "executioner's anger",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 4,
+            "tier_name": "Journeyman",
+            "ts": 1387584322.950107,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4220920549,
+            "deity": 0,
+            "description": "Increases the Executioner's hate gained by all enemies.",
+            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the hate gain of taunts by 9%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Hate Gain of caster by 3.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 655
+            },
+            "id": 3892459543,
+            "last_update": 1387584322.897147,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Executioner's Anger",
+            "name_lower": "executioner's anger",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 3,
+            "tier_name": "Apprentice",
+            "ts": 1387584322.897147,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4220920549,
+            "deity": 0,
+            "description": "Increases the Executioner's hate gained by all enemies.",
+            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the hate gain of taunts by 6%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Hate Gain of caster by 2.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 655
+            },
+            "id": 1963841889,
+            "last_update": 1387584322.750702,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Executioner's Anger",
+            "name_lower": "executioner's anger",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 2,
+            "tier_name": "Apprentice",
+            "ts": 1387584322.750702,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
+        },
+        {
+            "alternate_advancement": 1,
+            "aoe_radius_meters": 0.0,
+            "beneficial": 1,
+            "cast_secs_hundredths": 0,
+            "chardiff": 0,
+            "cost": {
+                "concentration": 0,
+                "dissonance": 0,
+                "health": 0,
+                "per_tick": {
+                    "dissonance": 0,
+                    "health": 0,
+                    "power": 0,
+                    "savagery": 0
+                },
+                "power": 0,
+                "savagery": 0
+            },
+            "crc": 4220920549,
+            "deity": 0,
+            "description": "Increases the Executioner's hate gained by all enemies.",
+            "description_pvp": "Increases the Executioner's hate gained by all enemies.",
+            "duration": {
+                "does_not_expire": 0,
+                "max_sec_tenths": 0,
+                "min_sec_tenths": 0
+            },
+            "effect_list": [
+                {
+                    "description": "Improves the hate gain of taunts by 3%.",
+                    "indentation": 0
+                },
+                {
+                    "description": "Increases Hate Gain of caster by 1.0%",
+                    "indentation": 0
+                }
+            ],
+            "given_by": "alternateadvancement",
+            "icon": {
+                "backdrop": -1,
+                "icon_heroic_op": -1,
+                "id": 655
+            },
+            "id": 158137530,
+            "last_update": 1387584322.677586,
+            "level": 0,
+            "max_targets": 0,
+            "name": "Executioner's Anger",
+            "name_lower": "executioner's anger",
+            "recast_secs": 0.0,
+            "recovery_secs_tenths": 0,
+            "spellbook": 4,
+            "tier": 1,
+            "tier_name": "Apprentice",
+            "ts": 1387584322.677586,
+            "type": "pcinnates",
+            "typeid": 4,
+            "version": 2
         }
     ]
 }

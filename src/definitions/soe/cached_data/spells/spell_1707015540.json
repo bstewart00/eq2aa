@@ -1,8 +1,8 @@
 {
     "limit": 10,
-    "min_ts": 1366730634.827138,
+    "min_ts": 1387584772.798634,
     "returned": 1,
-    "seconds": 0.017555952072143555,
+    "seconds": 0.014239072799682617,
     "spell_list": [
         {
             "alternate_advancement": 1,
@@ -12,8 +12,10 @@
             "chardiff": 0,
             "cost": {
                 "concentration": 0,
+                "dissonance": 0,
                 "health": 0,
                 "per_tick": {
+                    "dissonance": 0,
                     "health": 0,
                     "power": 0,
                     "savagery": 0
@@ -32,7 +34,7 @@
             },
             "effect_list": [
                 {
-                    "description": "Caster has a 3.0% chance of having one of their weapons' autoattack strike the target multiple times.",
+                    "description": "Caster has a 3.0% chance of having one of their weapons' auto-attack strike the target multiple times.",
                     "indentation": 0
                 }
             ],
@@ -43,7 +45,7 @@
                 "id": 337
             },
             "id": 217917644,
-            "last_update": 1366730634.827138,
+            "last_update": 1387584772.798634,
             "level": 0,
             "max_targets": 0,
             "name": "Flurry",
@@ -53,10 +55,10 @@
             "spellbook": 4,
             "tier": 1,
             "tier_name": "Apprentice",
-            "ts": 1366730634.827138,
+            "ts": 1387584772.798634,
             "type": "pcinnates",
             "typeid": 4,
-            "version": 1
+            "version": 2
         }
     ]
 }
