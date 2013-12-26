@@ -14,7 +14,7 @@ class TreeFactory(object):
     
     def _sort_trees(self, trees):
         def _get_tree_sort_order(tree):
-            type_ordering = ["Archetype", "Class", "Shadows", "Heroic", "Tradeskill", "Prestige", "TradeskillPrestige", "Warder"]
+            type_ordering = ["Archetype", "Class", "Shadows", "Heroic", "Tradeskill", "Prestige", "TradeskillPrestige", "Warder", "Dragon"]
             
             type_index = len(type_ordering)
             if tree.type in type_ordering:
