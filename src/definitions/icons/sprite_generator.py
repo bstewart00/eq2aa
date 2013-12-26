@@ -55,13 +55,21 @@ class SpriteCssGenerator(object):
     def __init__(self):
         pass
     
-    def generate_css(self, trees, output_path):
+    def generate_css(self, trees, icon_size, icon_padding):
         output = []
         
-      #  .Archetype .aa.id0 .icon {
-  # background-position: -1px -1px;
-#}
+        
+        y_offset = -icon_padding
         
         for tree in trees:
-            pass
+            x_offset = -icon_padding
+            for aa in tree.aa:
+                selector = ".{0} .aa.id{1} .icon".format(tree.type, aa.id)
+                css = "{{ background-position: {0}px {1}px; }}".format(x_offset, y_offset)
+                output.append(selector + " " + css)
+                
+                x_offset -= icon_size + 2 * icon_padding
+
+            y_offset -= icon_size + 2 * icon_padding
     
+        return os.linesep.join(output)
