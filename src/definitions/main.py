@@ -9,10 +9,12 @@ from definitions.utils.url_reader import UrlReader
 from definitions.utils.logger import ConsoleLogger
 from definitions.utils.json_writer import JsonFileWriter
 from definitions.icons.icon_downloader import IconDownloader
-from definitions.icons.sprite_generator import SpriteGenerator
+from definitions.icons.sprite_generator import SpriteImageGenerator
+from definitions.icons.sprite_generator import SpriteCssGenerator
 from definitions.icons.image_manipulator import ImageManipulator
 import os
 import datetime
+import io
 
 class AADefinitionApplication:
     def run(self):
@@ -43,17 +45,26 @@ class AADefinitionApplication:
         
         sprite_output_path = os.path.abspath('./output/sprites')
         self._ensure_dir_exists(sprite_output_path)
-        sprite_generator = SpriteGenerator(image_manipulator, icon_output_path, sprite_output_path, logger)
+        sprite_image_generator = SpriteImageGenerator(image_manipulator, icon_output_path, sprite_output_path, logger)
         
         classes = list(class_factory.create_classes())
         
         for c in classes:
             icon_downloader.download_all(c)
-            sprite_generator.generate(c)
+            sprite_image_generator.generate(c)
             
             json_writer.write(c.to_dict(), './output/' + c.name + '.json', indent=3)
             json_writer.write(c.to_dict(), './output_min/' + c.name + '.json')
             break
+        
+        icon_size = 42
+        icon_padding = 1
+        sprite_css_generator = SpriteCssGenerator()
+        css = sprite_css_generator.generate_css(classes[0].trees, icon_size, icon_padding)
+        
+        sprite_css_path = os.path.join(sprite_output_path, "sprites.css")
+        with open(sprite_css_path, "w", encoding="utf-8") as file:
+            file.write(css)
         
         end_time = datetime.datetime.now()
         logger.log('Done in {0}'.format(end_time - start_time))
