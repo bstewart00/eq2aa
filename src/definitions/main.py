@@ -56,6 +56,8 @@ class AADefinitionApplication:
         
         icon_size = 42
         icon_padding = 1
+        sprite_css_generator = SpriteCssGenerator()
+        
         for c in classes:
             icon_downloader.download_all(c)
             sprite_image_generator.generate(c, icon_size, icon_padding)
@@ -64,16 +66,19 @@ class AADefinitionApplication:
             json_writer.write(c.to_dict(), os.path.join(tree_output_dir, filename), indent=3)
             json_writer.write(c.to_dict(), os.path.join(tree_minified_output_dir, filename))
         
+            if c.name == 'Beastlord':
+                beastlord_css = sprite_css_generator.generate_css(c.trees, icon_size, icon_padding, '.Beastlord ')
+                self._write_to_text_file(os.path.join(sprite_output_path, "sprites-beastlord.css"), beastlord_css)        
 
-        sprite_css_generator = SpriteCssGenerator()
         css = sprite_css_generator.generate_css(classes[0].trees, icon_size, icon_padding)
-        
-        sprite_css_path = os.path.join(sprite_output_path, "sprites.css")
-        with open(sprite_css_path, "w", encoding="utf-8") as file:
-            file.write(css)
+        self._write_to_text_file(os.path.join(sprite_output_path, "sprites.css"), css)
         
         end_time = datetime.datetime.now()
         logger.log('Done in {0}'.format(end_time - start_time))
+        
+    def _write_to_text_file(self, path, contents):
+        with open(path, "w", encoding="utf-8") as file:
+            file.write(contents)
         
     def _ensure_dir_exists(self, path):
         if not os.path.exists(path):

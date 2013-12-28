@@ -13,7 +13,8 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/eq2aa.css">
     <link rel="stylesheet" type="text/css" href="css/aa-viewer.css">
-    <link rel="stylesheet" type="text/css" href="css/sprites.css">
+    <link rel="stylesheet" type="text/css" href="css/sprites/sprites.css">
+    <link rel="stylesheet" type="text/css" href="css/sprites/sprites-beastlord.css">
     <script src="js/eq2aa.js" type="text/javascript"></script>
 </head>
 <body>

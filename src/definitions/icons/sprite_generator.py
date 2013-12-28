@@ -54,15 +54,20 @@ class SpriteCssGenerator(object):
     def __init__(self):
         pass
     
-    def generate_css(self, trees, icon_size, icon_padding):
+    def generate_css(self, trees, icon_size, icon_padding, selector_prefix=''):
         output = []
         
         y_offset = -icon_padding
         
         for tree in trees:
             x_offset = -icon_padding
+            
+            tree_selector = '.{0}'.format(tree.type)
+            if tree.type == 'Warder':
+                tree_selector += '.{0}'.format(tree.name)
+            
             for aa in tree.aa:
-                selector = ".{0} .aa.id{1} .icon".format(tree.type, aa.id)
+                selector = "{0}{1} .aa.id{2} .icon".format(selector_prefix, tree_selector, aa.id)
                 css = "{{ background-position: {0}px {1}px; }}".format(x_offset, y_offset)
                 output.append(selector + " " + css)
                 

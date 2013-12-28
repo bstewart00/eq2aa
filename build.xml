@@ -81,7 +81,11 @@
          </fileset>
       </copy>
       
-      <copy file="${build.dir}/sprites/sprites.css" tofile="${dist.dir}/eq2aa/css/sprites.css" />
+      <copy todir="${dist.dir}/eq2aa/css/sprites">
+          <fileset dir="${build.dir}/sprites">
+              <include name="*.css" />
+          </fileset>
+      </copy>
       <copy todir="${dist.dir}/eq2aa/css/icons">
           <fileset dir="${build.dir}/sprites">
               <include name="*.png" />
