@@ -15,8 +15,15 @@ Beetny.EQ2AA.Model.Class = Class.extend({
 		getTreeByType: function (treeType) {
 		   return this.trees.filter(function (tree) {
 		      return tree.type === treeType;
-		   }); 
+		   })[0]
 		},
+		
+		getTreeById: function (id) {
+		   return this.trees.filter(function (tree) {
+		      return tree.id === id;
+		   })[0];
+		},
+		
 		getOrderedPointPools : function () {
 			return this.ordered_point_pools.map(function (type) {
 				return this.points[type]
@@ -43,7 +50,7 @@ Beetny.EQ2AA.Model.Class = Class.extend({
 			while (treeHashIndex !== -1) {
 				var treeHash = hash.slice(treeHashIndex);
 				var treeId = parseInt(treeHash.charAt(1), 36);
-				var tree = this.trees[treeId];
+				var tree = this.getTreeById(treeId);
 				if (tree)
 					tree.loadHash(treeHash.slice(2));
 				treeHashIndex = hash.indexOf(Beetny.EQ2AA.Model.Tree.TreeHashToken, treeHashIndex + 1)
@@ -56,6 +63,7 @@ Beetny.EQ2AA.Model.Class = Class.extend({
 				}
 			}
 		},
+		
 		createHash : function () {
 			var hash = "";
 			if (Object.size(this.trees) === 0)

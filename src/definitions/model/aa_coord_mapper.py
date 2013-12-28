@@ -2,6 +2,8 @@ class AACoordMapper:
     def map_coords(self, aa, tree_type):
         if tree_type == 'Archetype':
             return self._archetype_coords(aa)
+        elif tree_type == 'Dragon':
+            return self._dragon_coords(aa)
         else:
             return self._regular_coords(aa)
         
@@ -19,6 +21,23 @@ class AACoordMapper:
                  4: 287,
                  5: 352,
                  6: 417 }
+        
+        aa.coords[0] = x_map[aa.coords[0]]
+        aa.coords[1] = y_map[aa.coords[1]]
+        
+        return aa
+    
+    def _dragon_coords(self, aa):
+        x_map = { 1: 63, 
+                 5: 223, 
+                 9: 383, 
+                 13: 543}
+        
+        y_map = { 0: 15,
+                 1: 92,
+                 2: 157,
+                 3: 223,
+                 4: 287}
         
         aa.coords[0] = x_map[aa.coords[0]]
         aa.coords[1] = y_map[aa.coords[1]]

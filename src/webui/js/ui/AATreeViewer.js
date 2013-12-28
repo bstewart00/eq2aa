@@ -37,14 +37,14 @@ Beetny.EQ2AA.AATreeViewer = Class.extend({
 			return this._element;
 			function addTabs() {
 				var tabs = $(".tabs", jElement);
-				var numStandardTabs = Beetny.EQ2AA.Constants.TreeIdTabOrder.length;
+				var numStandardTabs = Beetny.EQ2AA.Constants.TreeTabOrder.length;
 				for (var i = 0; i < numStandardTabs; i++) {
-					var orderedId = Beetny.EQ2AA.Constants.TreeIdTabOrder[i];
-					var tree = self.class_.trees[orderedId];
+					var orderedType = Beetny.EQ2AA.Constants.TreeTabOrder[i];
+					var tree = self.class_.getTreeByType(orderedType);
 					tabs.append(self._renderer.renderTreeTab(tree.type, tree.name, tree))
 				}
 				if (self.class_.name === "Beastlord") {
-					var warderTrees = self.class_.trees.slice(numStandardTabs);
+					var warderTrees = self.class_.trees.filter(function (tree) { return tree.type === "Warder"; });
 					tabs.append(self._renderer.renderTreeTab("Warder", "Warder", warderTrees))
 				}
 			}

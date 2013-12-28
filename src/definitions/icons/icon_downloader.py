@@ -10,7 +10,6 @@ class IconDownloader(object):
         for tree in class_.trees:
             self._logger.log("Downloading icons for Tree {0}[{1}]".format(tree.name, tree.soe_id))
             for aa in tree.aa:
-                self._logger.log("Downloading icons for AA {0}".format(aa.name))
                 self.download(aa.icon["icon"])
                 self.download(aa.icon["backdrop"])
     

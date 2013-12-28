@@ -14,6 +14,7 @@ class TreeFactory(object):
     
     def _sort_trees(self, trees):
         def _get_tree_sort_order(tree):
+            # TODO: Remove dependence on tree ordering. What is important is the IDs not changing
             type_ordering = ["Archetype", "Class", "Shadows", "Heroic", "Tradeskill", "Prestige", "TradeskillPrestige", "Warder", "Dragon"]
             
             type_index = len(type_ordering)
