@@ -53,16 +53,18 @@ class AADefinitionApplication:
         
         tree_output_dir = os.path.join('.', 'output')
         tree_minified_output_dir = os.path.join('.', 'output_min')
+        
+        icon_size = 42
+        icon_padding = 1
         for c in classes:
             icon_downloader.download_all(c)
-            sprite_image_generator.generate(c)
+            sprite_image_generator.generate(c, icon_size, icon_padding)
             
             filename = c.name + '.json'
             json_writer.write(c.to_dict(), os.path.join(tree_output_dir, filename), indent=3)
             json_writer.write(c.to_dict(), os.path.join(tree_minified_output_dir, filename))
         
-        icon_size = 42
-        icon_padding = 1
+
         sprite_css_generator = SpriteCssGenerator()
         css = sprite_css_generator.generate_css(classes[0].trees, icon_size, icon_padding)
         
