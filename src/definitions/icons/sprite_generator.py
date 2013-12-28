@@ -1,6 +1,7 @@
 import os
 import shutil
 import io
+from threading import enumerate
 
 class SpriteImageGenerator(object):
     def __init__(self, image_manipulator, icon_path, output_path, logger):
@@ -59,20 +60,26 @@ class SpriteCssGenerator(object):
         
         y_offset = -icon_padding
         
+        highest_aa_id = 0
         for tree in trees:
-            x_offset = -icon_padding
+            highest_aa_id = max(len(tree.aa) - 1, highest_aa_id)
             
             tree_selector = '.{0}'.format(tree.type)
             if tree.type == 'Warder':
                 tree_selector += '.{0}'.format(tree.name)
             
-            for aa in tree.aa:
-                selector = "{0}{1} .aa.id{2} .icon".format(selector_prefix, tree_selector, aa.id)
-                css = "{{ background-position: {0}px {1}px; }}".format(x_offset, y_offset)
-                output.append(selector + " " + css)
-                
-                x_offset -= icon_size + 2 * icon_padding
+            selector = "{0}{1} .aa .icon".format(selector_prefix, tree_selector)
+            css = "{{ background-position-y: {0}px; }}".format(y_offset)
+            output.append(selector + " " + css)
 
             y_offset -= icon_size + 2 * icon_padding
+            
+            
+        x_offset = -icon_padding
+        for id_ in range(highest_aa_id):
+            selector = ".aa.id{0} .icon".format(id_)
+            css = "{{ background-position-x: {0}px; }}".format(x_offset)
+            output.append(selector + " " + css)
+            x_offset -= icon_size + 2 * icon_padding
     
         return os.linesep.join(output)

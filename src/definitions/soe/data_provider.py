@@ -59,6 +59,8 @@ class FileDataCache(object):
     
     def get_or_add_icon(self, filename, get_image):
         icon_path = os.path.join(self._cache_dir_path, filename)
+        self._ensure_dir_exists(os.path.dirname(icon_path))
+        
         if os.path.exists(icon_path):
             with open(icon_path, 'rb') as f:
                 return f.read()
