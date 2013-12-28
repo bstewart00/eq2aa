@@ -37,25 +37,29 @@ class AADefinitionApplication:
         
         json_writer = JsonFileWriter(logger)
         
-        icon_output_path = os.path.abspath('./output/icons')
+        build_dir = os.path.abspath('../../build')
+        
+        icon_output_path = os.path.join(build_dir, 'icons')
         self._ensure_dir_exists(icon_output_path)
         icon_downloader = IconDownloader(data_provider, icon_output_path, logger)
         
         image_manipulator = ImageManipulator()
         
-        sprite_output_path = os.path.abspath('./output/sprites')
+        sprite_output_path = os.path.join(build_dir, 'sprites')
         self._ensure_dir_exists(sprite_output_path)
         sprite_image_generator = SpriteImageGenerator(image_manipulator, icon_output_path, sprite_output_path, logger)
         
         classes = list(class_factory.create_classes())
         
+        tree_output_dir = os.path.join('.', 'output')
+        tree_minified_output_dir = os.path.join('.', 'output_min')
         for c in classes:
             icon_downloader.download_all(c)
             sprite_image_generator.generate(c)
             
-            json_writer.write(c.to_dict(), './output/' + c.name + '.json', indent=3)
-            json_writer.write(c.to_dict(), './output_min/' + c.name + '.json')
-            break
+            filename = c.name + '.json'
+            json_writer.write(c.to_dict(), os.path.join(tree_output_dir, filename), indent=3)
+            json_writer.write(c.to_dict(), os.path.join(tree_minified_output_dir, filename))
         
         icon_size = 42
         icon_padding = 1

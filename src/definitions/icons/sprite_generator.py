@@ -38,7 +38,7 @@ class SpriteImageGenerator(object):
         def get_tree_sprite_path(tree):
             return os.path.join(class_dir_path, tree.type, "{0}.png".format(tree.type))
         
-        class_sprite_path = os.path.join(class_dir_path, "{0}.png".format(class_.name))
+        class_sprite_path = os.path.join(self._output_path, "{0}.png".format(class_.name))
         tree_paths = list([get_tree_sprite_path(tree) for tree in class_.trees])
         
         sprite_width = widest_tree_width * icon_size + 2 * icon_padding * widest_tree_width
