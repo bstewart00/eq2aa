@@ -14,9 +14,12 @@ Beetny.EQ2AA.BackwardsCompatibility.HashUpgrader = Class.extend({
 			if (version === "GU63") {
 				hash = this._idRemapper.remapHashIds(hash, version);
 				version = "GU65";
-				hash = this._changeHashVersion(hash,
-						version)
+				hash = this._changeHashVersion(hash, version);
 			}
+			
+			version = "GU68";
+			hash = this._changeHashVersion(hash, version);
+			
 			return hash
 		},
 		_changeHashVersion : function (hash, newVersion) {

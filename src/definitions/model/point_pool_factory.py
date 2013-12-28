@@ -3,7 +3,7 @@ import re
 class PointPoolFactory:
     def __init__(self):
         self._pool_order = { "AA": 0, "Prestige": 1, "Tradeskill": 2, "TradeskillPrestige": 3, "Warder": 4 }
-        self._global_aa_max = 320
+        self._global_aa_max = 340
     
     def create(self, trees):
         points = self._get_point_pools(trees)

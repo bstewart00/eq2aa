@@ -30,12 +30,15 @@ Beetny.EQ2AA.Main = function (classLoader, renderer, importer, importHash, urlUp
 	
 	function addClassLinks() {
 		var classList = $("#class-list");
-		Object.iterItems(Beetny.EQ2AA.Constants.ClassNames, function (id, className) {
-			var template = '<li><a href="javascript:;">{Name}</a></li>'.replace("{Name}",
-					className);
-			$(template).on("click", onClassLinkClick(id)).appendTo(classList)
+				
+		Object.iterItems(Beetny.EQ2AA.Constants.SortedClassNames, function (className, id) {
+			var template = '<li><a href="javascript:;">{Name}</a></li>'.replace("{Name}", className);
+					
+			$(template)
+				.appendTo(classList)
+				.on("click", onClassLinkClick(id));
 		});
-		$("#class-list li:eq(1)").before($("#class-list li:last"));
+		
 		function onClassLinkClick(classId) {
 			return function (e) {
 				var link = $(e.target);

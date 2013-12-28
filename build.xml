@@ -80,6 +80,14 @@
             <include name="**/*" />
          </fileset>
       </copy>
+      
+      <copy file="${build.dir}/sprites/sprites.css" tofile="${dist.dir}/eq2aa/css/sprites.css" />
+      <copy todir="${dist.dir}/eq2aa/css/icons">
+          <fileset dir="${build.dir}/sprites">
+              <include name="*.png" />
+          </fileset>
+      </copy>
+      
       <mkdir dir="${dist.dir}/eq2aa/js" />
       <copy file="${build.dir}/eq2aa_compiled.js" tofile="${dist.dir}/eq2aa/js/eq2aa.js" />
       <copy file="${build.dir}/eq2aa_print_compiled.js" tofile="${dist.dir}/eq2aa/js/eq2aa_print.js" />

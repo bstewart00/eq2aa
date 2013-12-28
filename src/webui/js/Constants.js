@@ -1,8 +1,8 @@
 namespace("Beetny.EQ2AA");
 Beetny.EQ2AA.Constants = {};
-Beetny.EQ2AA.Constants.TreeIdTabOrder = [4, 0, 1, 2, 3, 5, 6];
+Beetny.EQ2AA.Constants.TreeIdTabOrder = [4, 0, 1, 2, 3, 5, 6, 7];
 Beetny.EQ2AA.Constants.ClassNames = {
-	"0" : "Assassin",
+	0 : "Assassin",
 	1 : "Berserker",
 	2 : "Brigand",
 	3 : "Bruiser",
@@ -26,23 +26,35 @@ Beetny.EQ2AA.Constants.ClassNames = {
 	21 : "Warden",
 	22 : "Warlock",
 	23 : "Wizard",
-	24 : "Beastlord"
+	24 : "Beastlord",
+	25 : "Channeler"
 };
-Beetny.EQ2AA.Constants.TreeTypes = {
-	"0" : "Archetype",
-	1 : "Class",
-	2 : "Shadows",
-	3 : "Heroic",
-	4 : "Tradeskill",
-	5 : "Prestige",
-	6 : "TradeskillPrestige"
-};
-Beetny.EQ2AA.Constants.TreeIds = {
-	"Archetype" : 0,
-	"Class" : 1,
-	"Shadows" : 2,
-	"Heroic" : 3,
-	"Tradeskill" : 4,
-	"Prestige" : 5,
-	"TradeskillPrestige" : 6
+
+Beetny.EQ2AA.Constants.SortedClassNames = {
+	"Assassin": 0,
+	"Beastlord": 24,
+	"Berserker": 1,
+	"Brigand": 2,
+	"Bruiser": 3,
+	"Channeler": 25,
+	"Coercer": 4,
+	"Conjuror": 5,
+	"Defiler": 6,
+	"Dirge": 7,
+	"Fury": 8,
+	"Guardian": 9,
+	"Illusionist": 10,
+	"Inquisitor": 11,
+	"Monk": 12,
+	"Mystic": 13,
+	"Necromancer": 14,
+	"Paladin": 15,
+	"Ranger": 16,
+	"Shadowknight": 17,
+	"Swashbuckler": 18,
+	"Templar": 19,
+	"Troubador": 20,
+	"Warden": 21,
+	"Warlock": 22,
+	"Wizard": 23
 };

@@ -27,7 +27,7 @@
             <img alt="" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1">
         </form>
         <h1>Everquest 2 AA Calculator</h1>
-        <div id="gameVersion">Version: GU65</div>
+        <div id="gameVersion">Version: GU68</div>
         <div id="topAd">
             <!-- Beetny - 728x90 - Game Advertising Online -->
             <iframe marginheight="0" marginwidth="0" scrolling="no" frameborder="0" width="728" height="90"
@@ -80,7 +80,7 @@
             </div>
         </div>
         <div id="footer">
-            <span class="version">Everquest 2 AA Calculator (Version 1.0.12 2013-11-3)</span>
+            <span class="version">Everquest 2 AA Calculator (Version 1.0.13 2013-12-28)</span>
             <span class="copy">&copy; 2013 Brett Stewart</span>
             <div class="links">
                 <a href="docs/api">api</a>
