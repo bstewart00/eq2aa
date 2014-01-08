@@ -29,7 +29,7 @@ class EQ2ClassFactory(object):
                 class_id = self._get_id(name)
                 
                 lineage = self._determine_lineage(previous_lineage, new_lineage)
-                lineage_dict = self._create_lineage_dict(lineage)
+                lineage_dict = self._create_lineage_dict(lineage, name)
                 previous_lineage = list(lineage)
                 new_lineage = []
                 
@@ -71,9 +71,11 @@ class EQ2ClassFactory(object):
         }
         return class_ids[name]
         
-    def _create_lineage_dict(self, lineage):
+    def _create_lineage_dict(self, lineage, class_name):
         if len(lineage) == 0: return {}
-        return { "family": lineage[0], "archetype": lineage[1]}    
+        family = "Priest" if class_name == "Channeler" else lineage[0]
+        
+        return { "family": family, "archetype": lineage[1]}    
 
     def _determine_lineage(self, previous_lineage, new_lineage):
         if len(previous_lineage) == 0 or len(new_lineage) == 2:

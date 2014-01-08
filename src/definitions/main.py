@@ -14,7 +14,6 @@ from definitions.icons.sprite_generator import SpriteCssGenerator
 from definitions.icons.image_manipulator import ImageManipulator
 import os
 import datetime
-import io
 
 class AADefinitionApplication:
     def run(self):
