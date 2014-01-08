@@ -51,12 +51,12 @@ class AAFactory(object):
         
         id_ = 0
         coords = [aa_node["xcoord"], aa_node["ycoord"]]
-        subclass = aa_node["classification"]
+        subclass = aa_node["classification"].strip()
         max_level = aa_node["maxtier"]
 
         prereqs = {"global": aa_node["pointsspentgloballytounlock"],
                    "tree": aa_node["pointsspentintreetounlock"],
-                   "subtree": self._calculate_subtree_prereq(aa_node, tree_y_subclass),
+                   "subtree": self._calculate_subtree_prereq(aa_node, subclass, tree_y_subclass),
                    "parent": aa_node.get("firstparentrequiredtier", 0) # So far, optionalfirstparentrequiredtier will always be the same as firstparentrequiredtier so we only need to store it once
                    }
         prereqs[ "parent_subtree"] = self._calculate_parent_subtree_prereq(subclass, max_level, lineage, class_name, tree_name, prereqs)
@@ -86,11 +86,11 @@ class AAFactory(object):
                   prereqs,
                   title=aa_node["title"])
         
-    def _calculate_subtree_prereq(self, aa_node, tree_y_subclass):
+    def _calculate_subtree_prereq(self, aa_node, subclass, tree_y_subclass):
         points = aa_node["classificationpointsrequired"]
         if points > 0:
             return points
-        if aa_node["classification"] == tree_y_subclass:
+        if subclass == tree_y_subclass:
             return aa_node["pointspertier"]
         return 0
         
