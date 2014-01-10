@@ -43,6 +43,31 @@ class TestSpriteCssgenerator(unittest.TestCase):
         self.assertEqual(lines[4], ".Shadows .aa.id1 .icon { background-position: -13px -13px; }")
         self.assertEqual(lines[5], ".Shadows .aa.id2 .icon { background-position: -25px -13px; }")
         
+    def test_generate_css_warder_tree_has_additional_selector(self):
+        tree1 = MagicMock()
+        tree1.aa = [self._create_aa(0), self._create_aa(1), self._create_aa(2)]
+        tree1.type = "Warder"
+        tree1.name = 'War Boar'
+        
+        result = self.sut.generate_css([tree1], self._icon_size, self._padding)
+        
+        lines = result.split(os.linesep)
+
+        self.assertEqual(lines[0], ".Warder.WarBoar .aa.id0 .icon { background-position: -1px -1px; }")
+        self.assertEqual(lines[1], ".Warder.WarBoar .aa.id1 .icon { background-position: -13px -1px; }")
+        self.assertEqual(lines[2], ".Warder.WarBoar .aa.id2 .icon { background-position: -25px -1px; }")
+        
+    def test_generate_css_selector_prefix_is_prepended(self):
+        tree1 = MagicMock()
+        tree1.aa = [self._create_aa(0)]
+        tree1.type = "Archetype"
+        
+        result = self.sut.generate_css([tree1], self._icon_size, self._padding, 'Prefix')
+        
+        lines = result.split(os.linesep)
+
+        self.assertEqual(lines[0], "Prefix.Archetype .aa.id0 .icon { background-position: -1px -1px; }")
+        
     def _create_aa(self, id_):
         result = MagicMock()
         result.id = id_
