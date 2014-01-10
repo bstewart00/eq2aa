@@ -6,8 +6,7 @@ Beetny.XmlBuilder = Class.extend({
    appendComment : function(text, parent) {
       parent = parent || this._doc;
 
-      var node = this._doc.createComment();
-      node.nodeValue = text;
+      var node = this._doc.createComment(text);
       parent.appendChild(node);
    },
 
