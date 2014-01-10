@@ -42,17 +42,20 @@ Beetny.EQ2AA.Tooltips = {
             effects = aa.getEffectForLevel(level === 0 ? level + 1 : level)
          }
          var costText = "";
+         var aaCost = aa.actualCost();
          if (level < aa.max_level)
-            costText = aa.cost + " " + (aa.cost > 1 ? "points" : "point");
+            costText = aaCost + " " + (aaCost > 1 ? "points" : "point");
+            
          $(".header .name", jTooltip).text(aa.name);
          $(".header .rank", jTooltip).text("Rank (" + level + "/" + aa.max_level + ")");
          $(".header .subclass", jTooltip).text(aa.subclass);
          $(".header .cost", jTooltip).text(costText).toggleClass("spent", aa.level > 0);
-         $(".header .prereqs", jTooltip).html(buildPrereqsList());
+         $(".header .prereqs", jTooltip).html(buildPrereqsList(aaCost));
          $(".description", jTooltip).text(aa.description);
          $(".effects > span", jTooltip).text(effectsLabel);
          $(".effects > div", jTooltip).html(effects);
-         function buildPrereqsList() {
+         
+         function buildPrereqsList(aaCost) {
             var list = "<ul>";
             if (!aa.satisfiesPrerequisites()) {
                list += makePrereqItem("parent");
@@ -63,7 +66,7 @@ Beetny.EQ2AA.Tooltips = {
                list += makePrereqItem("global")
             }
             if (aa.level === 0)
-               list += makeTitleItem();
+               list += makeTitleItem(aaCost);
             list += "</ul>";
             return list;
             function makeTreeRatioItem() {
@@ -124,9 +127,9 @@ Beetny.EQ2AA.Tooltips = {
                return "";
             }
 
-            function makeTitleItem() {
+            function makeTitleItem(aaCost) {
                if (aa.title.length > 0) {
-                  var titleText = 'Grants the prefix title "{Title}" with {Cost} {Points} spent'.replace("{Title}", aa.title).replace("{Cost}", aa.cost).replace("{Points}", aa.cost > 1 ? "points" : "point");
+                  var titleText = 'Grants the prefix title "{Title}" with {Cost} {Points} spent'.replace("{Title}", aa.title).replace("{Cost}", aaCost).replace("{Points}", aaCost > 1 ? "points" : "point");
                   return listItem(titleText)
                }
                return ""

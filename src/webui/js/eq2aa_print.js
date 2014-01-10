@@ -411,7 +411,7 @@ Beetny.EQ2AA.Model.Tree = Class.extend({
 			var pointsConsumed = 0;
 			if (numPoints > 0) {
 				numPoints = Math.min(numPoints, Math.floor(this.getAvailablePoints() /
-							aa.cost));
+							aa.actualCost()));
 				pointsConsumed = aa.spendPoints(numPoints)
 			} else if (numPoints < 0) {
 				pointsConsumed = aa.spendPoints(numPoints);
@@ -438,7 +438,7 @@ Beetny.EQ2AA.Model.Tree = Class.extend({
 			deferred.map(reclaimAAIfIllegal, this);
 			function reclaimAAIfIllegal(aa) {
 				if (aa.level > 0 && !aa.satisfiesPrerequisites()) {
-					var pointsReclaimed = -aa.level * aa.cost;
+					var pointsReclaimed = -aa.level * aa.actualCost();
 					aa.level = 0;
 					this.notifyPointsSpentInSubtree(aa.subclass, pointsReclaimed)
 				}
@@ -498,7 +498,7 @@ Beetny.EQ2AA.Model.Tree = Class.extend({
 					var aa = this.aa[aaId];
 					if (aa) {
 						aa.level = nextLevel;
-						this.notifyPointsSpentInSubtree(aa.subclass, aa.level * aa.cost)
+						this.notifyPointsSpentInSubtree(aa.subclass, aa.level * aa.actualCost())
 					}
 				}
 				hash = hash.slice(sliceIndex)
