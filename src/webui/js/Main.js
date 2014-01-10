@@ -81,7 +81,7 @@ Beetny.EQ2AA.Main = function (classLoader, renderer, importer, importHash, urlUp
 		$("#character-search").autocomplete({
 			source : function (request, response) {
 				$.ajax({
-					url : "http://data.soe.com/json/get/eq2/character/",
+					url : "http://census.soe.com/s:eq2aa/json/get/eq2/character/",
 					dataType : "jsonp",
 					data : {
 						"c:limit" : 10,

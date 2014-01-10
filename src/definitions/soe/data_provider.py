@@ -7,16 +7,16 @@ class SonyDataProvider(object):
         self._url_reader = url_reader
 
     def classes(self):
-        return self._json('http://data.soe.com/json/get/eq2/constants/?c:show=adventureclass_list')
+        return self._json('http://census.soe.com/s:eq2aa/json/get/eq2/constants/?c:show=adventureclass_list')
 
     def tree(self, tree_id):
-        return self._json('http://data.soe.com/json/get/eq2/alternateadvancement/' + str(tree_id))
+        return self._json('http://census.soe.com/s:eq2aa/json/get/eq2/alternateadvancement/' + str(tree_id))
 
     def spells(self, spell_crc):
-        return self._json('http://data.soe.com/json/get/eq2/spell/?c:limit=10&crc=' + str(spell_crc))
+        return self._json('http://census.soe.com/s:eq2aa/json/get/eq2/spell/?c:limit=10&crc=' + str(spell_crc))
 
     def icon(self, icon_id):
-        return self._url_reader.get("http://data.soe.com/img/eq2/icons/{0}/achievement".format(icon_id))
+        return self._url_reader.get("http://census.soe.com/s:eq2aa/img/eq2/icons/{0}/achievement".format(icon_id))
 
     def _json(self, url):
         response_data = self._url_reader.get(url)
