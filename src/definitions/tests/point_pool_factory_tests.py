@@ -18,7 +18,7 @@ class TestPointPoolFactory(unittest.TestCase):
         
         points, ordered_point_pools = self.sut.create(trees)
         
-        self.assertEqual(points["AA"], { "name": "AA", "max": 320 })
+        self.assertEqual(points["AA"], { "name": "AA", "max": 350 })
         self.assertEqual(points["Prestige"], { "name": "Prestige", "max": 30 })
         self.assertEqual(points["Tradeskill"], { "name": "Tradeskill", "max": 40 })
         self.assertEqual(points["TradeskillPrestige"], { "name": "Tradeskill Prestige", "max": 50 })
