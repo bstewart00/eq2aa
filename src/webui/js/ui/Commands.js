@@ -61,7 +61,8 @@ Beetny.EQ2AA.ExportXmlCommand = Beetny.EQ2AA.AATreeViewerCommand.extend({
          return element;
       },
       execute : function (aaTreeViewer) {
-         var exporter = new Beetny.EQ2AA.XmlExporter(Beetny.EQ2AA.GameVersions.LatestUpdate);
+      	 var xmlBuilder = new Beetny.XmlBuilder();
+         var exporter = new Beetny.EQ2AA.XmlExporter(xmlBuilder);
          var classDef = aaTreeViewer.getClassDef();
          var xml = exporter.exportClass(classDef);
          var form = $('form', this._element);

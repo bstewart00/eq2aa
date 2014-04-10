@@ -78,6 +78,19 @@ Array.prototype.collateAdjacentDuplicates = function () {
 	}
 	return this
 };
+Array.prototype.groupBy = function(predicate) {
+	var array = this;
+	
+    var grouped = {};
+    for(var i = 0; i < array.length; i++) {
+        var groupKey = predicate(array[i]);
+        if (typeof(grouped[groupKey]) === "undefined")
+            grouped[groupKey] = [];
+        grouped[groupKey].push(array[i]);
+    }
+
+    return grouped;
+};
 window.namespace = function () {
 	var a = arguments,
 	o = window,

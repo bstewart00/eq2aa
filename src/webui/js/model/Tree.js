@@ -135,6 +135,7 @@ Beetny.EQ2AA.Model.Tree = Class.extend({
          case 'Class':
          case 'Shadows':
          case 'Heroic':
+         case 'Dragon':
             return 0;
          case 'Warder':
             return 1;
