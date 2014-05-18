@@ -29,9 +29,11 @@ Beetny.EQ2AA.XmlExporter = Class.extend({
        * 4 = Tradeskill Prestige
        */
       
-      var groups = classModel.trees.filter(function(tree) {
+      var treesWithPoints = classModel.trees.filter(function(tree) {
          return tree.getTotalPointsSpent() > 0;
-      }).map(function (tree) { 
+      });
+      
+      var groups = treesWithPoints.map(function (tree) { 
 		return { 
 			"tree": tree, 
 			"serializationInfo": this._treeSerializationInfo(tree) 
@@ -40,12 +42,8 @@ Beetny.EQ2AA.XmlExporter = Class.extend({
   		 return obj.serializationInfo.typenum;
       });
       
-      Object.items(groups).forEach(function (typenum, treeInfo) {
-			
-      });
-      
-      groups.forEach(function(group) {
-         this._exportTreeGroup(group, aaElem);
+      Object.items(groups).forEach(function (group) {
+		 this._processGroup(group, aaElem);
       }, this);
       
       // Group by typenum
@@ -57,34 +55,44 @@ Beetny.EQ2AA.XmlExporter = Class.extend({
       return this._xmlBuilder.prettify().build();
    },
    
-   _exportTreeGroup: function (group, parentElement) {
-      var elem = this._xmlBuilder.appendChild('alternateadvancements', { 'typenum': group.serializationInfo.typenum }, parentElement)
-      
-      var order = 1;
-      tree.aa.filter(function (aa) {
-         return aa.level > 0;
-      }).forEach(function (aa) {
-         for (var i = 1; i <= aa.level; i++) {
-            this._xmlBuilder.appendChild('alternateadvancement', { 'order': order++, 'treeID': tree.soe_id, 'id':aa.soe_id }, treeElem);
-         }
-      }, this);
+   _processGroup: function (group, aaElem) {
+  		var typenum = group.key;
+  		var treesInGroup = group.value;
+  		
+  		var groupContainer = this._xmlBuilder.appendChild('alternateadvancements', { 'typenum': typenum }, aaElem)
+  		
+  		var i = 0;
+  		this._aaOrder = 1;
+  		treesInGroup.forEach(function (treeInfo) {
+  			var tree = treeInfo.tree;
+  			var serializationInfo = treeInfo.serializationInfo;
+  			
+  			if (i > 0 && serializationInfo.orderResetPerTree) {
+  				this._aaOrder = 1;
+  			}
+  			
+  			this._processTree(tree, groupContainer);
+						
+			++i;			
+		}, this);
    },
-
-   _exportTree : function(tree, parentElement) {
-      var treeElem = this._xmlBuilder.appendChild('alternateadvancements', { 'typenum': tree.typeNum() }, parentElement)
-      
-      var order = 1;
-      tree.aa.filter(function (aa) {
-         return aa.level > 0;
-      }).forEach(function (aa) {
-         for (var i = 1; i <= aa.level; i++) {
-            this._xmlBuilder.appendChild('alternateadvancement', { 'order': order++, 'treeID': tree.soe_id, 'id':aa.soe_id }, treeElem);
-         }
-      }, this);
+   
+   _processTree: function (tree, parentElem) {
+		tree.aa.filter(function (aa) {
+		   return aa.level > 0;
+		}).forEach(function (aa) {
+			this._processAA(aa, tree, parentElem);
+		}, this);
+   },
+   
+   _processAA: function (aa, tree, parentElem) {
+	   for (var i = 1; i <= aa.level; i++) {
+	      this._xmlBuilder.appendChild('alternateadvancement', { 'order': this._aaOrder++, 'treeID': tree.soe_id, 'id':aa.soe_id }, parentElem);
+	   }
    },
    
    _treeSerializationInfo: function (tree) {
-      switch(this.type) {
+      switch(tree.type) {
          case 'Archetype':
          case 'Class':
          case 'Shadows':
