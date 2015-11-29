@@ -6,7 +6,7 @@ class UrlGenerator {
 
     private $dataApi;
     private static $baseUrl = "http://beetny.com/eq2aa/";
-    private static $version = "GU65"; //FIXME: include in class definition
+    private static $version = "GU68"; //FIXME: include in class definition
 
     public function __construct($dataApi) {
         $this->dataApi = $dataApi;

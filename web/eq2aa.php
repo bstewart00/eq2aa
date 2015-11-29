@@ -30,15 +30,7 @@
         <h1>Everquest 2 AA Calculator</h1>
         <div id="gameVersion">Version: GU68</div>
         <div id="topAd">
-            <!-- Beetny - 728x90 - Game Advertising Online -->
-            <iframe marginheight="0" marginwidth="0" scrolling="no" frameborder="0" width="728" height="90"
-                    src="http://www3.game-advertising-online.com/process/serve-f.php?section=serve&id=1971"
-                    target="_blank"></iframe>
-            <noframes>
-                Game advertisements by <a href="http://www.game-advertising-online.com" target="_blank">Game Advertising
-                Online</a> require iframes.
-            </noframes>
-            <!-- END GAO 728x90 -->
+
         </div>
     </div>
     <div id="content-container">
@@ -69,20 +61,11 @@
                 </li>
             </ul>
             <div id="rightAd">
-                <!-- Beetny - 300x250 - Game Advertising Online -->
-                <iframe marginheight="0" marginwidth="0" scrolling="no" frameborder="0" width="300" height="250"
-                        src="http://www3.game-advertising-online.com/process/serve-f.php?section=serve&id=1972"
-                        target="_blank"></iframe>
-                <noframes>
-                    Game advertisements by <a href="http://www.game-advertising-online.com" target="_blank">Game
-                    Advertising Online</a> require iframes.
-                </noframes>
-                <!-- END GAO 300x250 -->
+
             </div>
         </div>
         <div id="footer">
-            <span class="version">Everquest 2 AA Calculator (Version 1.0.19 2014-05-18)</span>
-            <span class="copy">&copy; 2014 Brett Stewart</span>
+            <span class="version">Everquest 2 AA Calculator (Version 1.0.19 2015-01-10)</span>
             <div class="links">
                 <a href="docs/api">api</a>
                 | <a
