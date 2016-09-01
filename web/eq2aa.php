@@ -65,7 +65,7 @@
             </div>
         </div>
         <div id="footer">
-            <span class="version">Everquest 2 AA Calculator (Version 1.0.19 2015-01-10)</span>
+            <span class="version">Everquest 2 AA Calculator (Version 1.0.20 2016-09-01)</span>
             <div class="links">
                 <a href="docs/api">api</a>
                 | <a
