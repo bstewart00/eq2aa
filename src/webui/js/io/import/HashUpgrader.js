@@ -17,7 +17,7 @@ Beetny.EQ2AA.BackwardsCompatibility.HashUpgrader = Class.extend({
 				hash = this._changeHashVersion(hash, version);
 			}
 			
-			version = "GU68";
+			version = Beetny.EQ2AA.GameVersions.LatestUpdate;
 			hash = this._changeHashVersion(hash, version);
 			
 			return hash

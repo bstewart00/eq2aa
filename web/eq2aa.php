@@ -20,15 +20,8 @@
 <body>
 <div id="container">
     <div id="header">
-        <form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="REU9M5GYE5S8G">
-            <input type="image" src="https://www.paypal.com/en_AU/i/btn/btn_donate_SM.gif" border="0" name="submit"
-                   alt="PayPal - The safer, easier way to pay online.">
-            <img alt="" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1">
-        </form>
         <h1>Everquest 2 AA Calculator</h1>
-        <div id="gameVersion">Version: GU68</div>
+        <div id="gameVersion">Version: GU101</div>
         <div id="topAd">
 
         </div>
@@ -65,7 +58,7 @@
             </div>
         </div>
         <div id="footer">
-            <span class="version">Everquest 2 AA Calculator (Version 1.0.20 2016-09-01)</span>
+            <span class="version">Everquest 2 AA Calculator (Version 1.0.20 2016-09-18)</span>
             <div class="links">
                 <a href="docs/api">api</a>
                 | <a

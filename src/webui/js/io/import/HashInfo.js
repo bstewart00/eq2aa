@@ -18,8 +18,9 @@ Beetny.EQ2AA.HashInfo.parseHash = function (hash) {
 		var matchIndex = hash.search(/(GU\d+);/);
 		var version;
 		if (matchIndex === 0) {
-			version = hash.substr(0, 4);
-			hash = hash.slice(5)
+			var indexOfVersionSeparator = hash.indexOf(';');
+			version = hash.substr(0, indexOfVersionSeparator);
+			hash = hash.slice(indexOfVersionSeparator + 1)
 		} else
 			version = "GU60";
 		return version

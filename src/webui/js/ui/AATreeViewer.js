@@ -37,15 +37,30 @@ Beetny.EQ2AA.AATreeViewer = Class.extend({
 			return this._element;
 			function addTabs() {
 				var tabs = $(".tabs", jElement);
-				var numStandardTabs = Beetny.EQ2AA.Constants.TreeTabOrder.length;
-				for (var i = 0; i < numStandardTabs; i++) {
-					var orderedType = Beetny.EQ2AA.Constants.TreeTabOrder[i];
-					var tree = self.class_.getTreeByType(orderedType);
-					tabs.append(self._renderer.renderTreeTab(tree.type, tree.name, tree))
-				}
+
 				if (self.class_.name === "Beastlord") {
 					var warderTrees = self.class_.trees.filter(function (tree) { return tree.type === "Warder"; });
+					var otherTrees = self.class_.trees.filter(function (tree) { return tree.type !== "Warder"; });
+					
+					getOrderedTrees(otherTrees).forEach(function (tree) {
+						tabs.append(self._renderer.renderTreeTab(tree.type, tree.name, tree))	
+					});
 					tabs.append(self._renderer.renderTreeTab("Warder", "Warder", warderTrees))
+				} else {
+					getOrderedTrees(self.class_.trees).forEach(function (tree) {
+						tabs.append(self._renderer.renderTreeTab(tree.type, tree.name, tree))	
+					});
+				}
+				
+				function getOrderedTrees(trees) {
+					return trees.slice(0).sort(function (treeA, treeB) {
+						var orderA = Beetny.EQ2AA.Constants.TreeTabOrder.indexOf(treeA.type);
+						orderA = orderA == -1 ? Infinity : orderA;
+						var orderB = Beetny.EQ2AA.Constants.TreeTabOrder.indexOf(treeB.type);
+						orderB = orderB == -1 ? Infinity : orderB;
+											
+						return orderA - orderB;
+					});
 				}
 			}
 			function onTreeTabClick(e, tree) {

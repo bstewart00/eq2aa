@@ -1,6 +1,6 @@
 namespace("Beetny.EQ2AA");
 Beetny.EQ2AA.Constants = {};
-Beetny.EQ2AA.Constants.TreeTabOrder = ["Tradeskill", "Archetype", "Class", "Shadows", "Heroic", "Prestige", "TradeskillPrestige", "Dragon"];
+Beetny.EQ2AA.Constants.TreeTabOrder = ["Tradeskill", "Archetype", "Class", "Shadows", "Heroic", "Prestige", "General", "Dragon"];
 Beetny.EQ2AA.Constants.ClassNames = {
 	0 : "Assassin",
 	1 : "Berserker",
