@@ -1,20 +1,3 @@
-describe('Exporter', function () {
-	
-	var xmlBuilder = new Beetny.XmlBuilder();
-	var sut = new Beetny.EQ2AA.XmlExporter(xmlBuilder);
-	
-	var classModel = new Beetny.TestClassBuilder()
-		.addTree(0, 'Archetype')
-		.build();		
-	
-   it('does stuff', function () {
-   		var result = sut.exportClass(classModel)
-   		console.log(result);
-   		
-   		result.should.equal("");
-   });
-});
-
 Beetny.TestClassBuilder = Class.extend({
 	init: function () {
 		this._trees = [];

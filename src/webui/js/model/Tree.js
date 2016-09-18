@@ -143,8 +143,10 @@ Beetny.EQ2AA.Model.Tree = Class.extend({
             return 2;
          case 'Tradeskill':
             return 3;
-         case 'TradeskillPrestige':
+         case 'General':
             return 4;
+        default:
+            return 0;
       }
       return null;
    }
