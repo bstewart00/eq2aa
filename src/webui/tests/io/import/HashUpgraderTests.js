@@ -22,6 +22,5 @@ describe('HashUpgrader', function() {
 				upgradedHash.should.equal(expectedHash);
 			});
 		});
-
 	});
 });
