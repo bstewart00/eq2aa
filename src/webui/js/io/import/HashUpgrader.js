@@ -17,10 +17,12 @@ Beetny.EQ2AA.BackwardsCompatibility.HashUpgrader = Class.extend({
 			hash = this._changeHashVersion(hash, version);
 		}
 
-		version = "GU101";
-		hash = this._convertToGU101NewTreeHashFormat(hash);
-		hash = this._idRemapper.remapHashIds(hash, version, hashInfo.classId);
-		hash = this._changeHashVersion(hash, version);
+		if (version === "GU68") {	
+			version = "GU101";
+			hash = this._convertToGU101NewTreeHashFormat(hash);
+			//hash = this._idRemapper.remapHashIds(hash, version, hashInfo.classId);
+			hash = this._changeHashVersion(hash, version);
+		}
 
 		version = Beetny.EQ2AA.GameVersions.LatestUpdate;
 		hash = this._changeHashVersion(hash, version);

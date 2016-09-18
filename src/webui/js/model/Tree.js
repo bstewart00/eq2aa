@@ -90,7 +90,7 @@ Beetny.EQ2AA.Model.Tree = Class.extend({
       var hash = "";
       if (this.aa.length === 0 || this.getTotalPointsSpent() === 0)
          return hash;
-      hash += Beetny.EQ2AA.Model.Tree.TreeHashToken + this.id.toString(36);
+      hash += Beetny.EQ2AA.Model.Tree.TreeHashToken + this.id.toString(36) + Beetny.EQ2AA.Model.Tree.TreePointsStartHashToken; 
       var aaHash = this.aa.map(function(aa) {
          return aa.level.toString(36)
       }).collateAdjacentDuplicates();

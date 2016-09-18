@@ -48,12 +48,16 @@ Beetny.EQ2AA.Model.Class = Class.extend({
 		loadHash : function (hash) {
 			var treeHashIndex = hash.indexOf(Beetny.EQ2AA.Model.Tree.TreeHashToken);
 			while (treeHashIndex !== -1) {
-				var treeHash = hash.slice(treeHashIndex);
+				var treeHash = hash.slice(treeHashIndex); //tID!
+				var treePointsHashIndex = treeHash.indexOf(Beetny.EQ2AA.Model.Tree.TreePointsStartHashToken)
 				
-				var treeId = parseInt(treeHash.charAt(1), 36);
+				var treeIdStr = treeHash.slice(1, treePointsHashIndex);
+				var treeId = parseInt(treeIdStr, 36);
 				var tree = this.getTreeById(treeId);
-				if (tree)
-					tree.loadHash(treeHash.slice(2));
+				if (tree) {
+					var pointsHash = treeHash.slice(treePointsHashIndex + 1);
+					tree.loadHash(pointsHash);
+				}
 				treeHashIndex = hash.indexOf(Beetny.EQ2AA.Model.Tree.TreeHashToken, treeHashIndex + 1)
 			}
 			return result(true);

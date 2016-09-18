@@ -3,7 +3,7 @@ describe('Class', function() {
 
 	describe('loadHash', function() {
 		when('two trees with one aa each', function() {
-			sut.loadHash('GU68;ot05t14');
+			sut.loadHash('GU68;ot0!5t1!4');
 
 			it('loads AA in each tree', function() {
 				sut.points.AA.spent.should.equal(9);
