@@ -153,4 +153,5 @@ Beetny.EQ2AA.Model.Tree = Class.extend({
 
 });
 Beetny.EQ2AA.Model.Tree.TreeHashToken = "t";
+Beetny.EQ2AA.Model.Tree.TreePointsStartHashToken = "!";
 Beetny.EQ2AA.Model.Tree.RepeatHashToken = "@";

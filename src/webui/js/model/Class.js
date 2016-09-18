@@ -49,6 +49,7 @@ Beetny.EQ2AA.Model.Class = Class.extend({
 			var treeHashIndex = hash.indexOf(Beetny.EQ2AA.Model.Tree.TreeHashToken);
 			while (treeHashIndex !== -1) {
 				var treeHash = hash.slice(treeHashIndex);
+				
 				var treeId = parseInt(treeHash.charAt(1), 36);
 				var tree = this.getTreeById(treeId);
 				if (tree)
