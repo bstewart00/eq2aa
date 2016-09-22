@@ -18,9 +18,9 @@ Beetny.EQ2AA.BackwardsCompatibility.HashUpgrader = Class.extend({
 		}
 
 		if (version === "GU68") {	
-			version = "GU101";
 			hash = this._convertToGU101NewTreeHashFormat(hash);
-			//hash = this._idRemapper.remapHashIds(hash, version, hashInfo.classId);
+			hash = this._idRemapper.remapHashTreeIdsGU101Format(hash, version, hashInfo.classId);
+			version = "GU101";
 			hash = this._changeHashVersion(hash, version);
 		}
 

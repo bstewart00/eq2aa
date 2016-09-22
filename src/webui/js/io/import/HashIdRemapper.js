@@ -31,12 +31,37 @@ Beetny.EQ2AA.BackwardsCompatibility.HashIdRemapper = Class.extend({
 		}
 
 	},
-	_getRemapsForVersion : function(version) {
+	
+	remapHashTreeIdsGU101Format: function(hash, version, classId) {
+		var remaps = this._getTreeIdRemaps(version, classId);
+		if (!remaps)
+			return hash;
+		
+		Object.keys(remaps).reverse().forEach(function (treeId) {
+			var remappedId = remaps[treeId];
+			hash = hash.replace(
+				Beetny.EQ2AA.Model.Tree.TreeHashToken + treeId + Beetny.EQ2AA.Model.Tree.TreePointsStartHashToken,
+				Beetny.EQ2AA.Model.Tree.TreeHashToken + remappedId.toString(36) + Beetny.EQ2AA.Model.Tree.TreePointsStartHashToken
+			);
+		});
+		
+		return hash;
+	},
+	
+	_getRemapsForVersion : function(version, classId) {
+		//TODO: Make version an integer
 		if (version === "GU60" || version === "GU61" || version === "GU62")
 			return this._preGU63AAIdRemaps;
 		else if (version === "GU63")
 			return this._gu63ToGu65AAIdRemaps
 	},
+	
+	_getTreeIdRemaps: function (version, classId) {
+		if (version !== "GU101") {
+			return this._gu101TreeIdToSoeIdRemaps[classId]
+		}
+	},
+	
 	_preGU63AAIdRemaps : {
 		"0" : {
 			2 : 6,
@@ -70,7 +95,7 @@ Beetny.EQ2AA.BackwardsCompatibility.HashIdRemapper = Class.extend({
 		}
 	},
 
-	_gu101IdToSoeIdRemaps : {
+	_gu101TreeIdToSoeIdRemaps : {
 		"0" : {
 			"0" : 7,
 			"1" : 19,
