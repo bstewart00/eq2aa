@@ -36,6 +36,9 @@ class TreeFactory(object):
         
         aa, orphans, subtrees = self._aa_factory.create_all(tree["alternateadvancementnode_list"], lineage, class_name, name, tree_type, y_subclass)
         
+        if "Prismatic" in subtrees:
+            name = class_name + " (Prismatic)"
+        
         return Tree(soe_id, soe_id, name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio, x_subclass, y_subclass)
     
     def _determine_type(self, tree_name, lineage, class_name, is_warder_tree):
