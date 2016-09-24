@@ -40,7 +40,7 @@ Beetny.EQ2AA.BackwardsCompatibility.HashIdRemapper = Class.extend({
 		Object.keys(remaps).reverse().forEach(function (treeId) {
 			var remappedId = remaps[treeId];
 			hash = hash.replace(
-				Beetny.EQ2AA.Model.Tree.TreeHashToken + treeId + Beetny.EQ2AA.Model.Tree.TreePointsStartHashToken,
+				Beetny.EQ2AA.Model.Tree.TreeHashToken + parseInt(treeId).toString(36) + Beetny.EQ2AA.Model.Tree.TreePointsStartHashToken,
 				Beetny.EQ2AA.Model.Tree.TreeHashToken + remappedId.toString(36) + Beetny.EQ2AA.Model.Tree.TreePointsStartHashToken
 			);
 		});
