@@ -87,4 +87,4 @@ Beetny.EQ2AA.PrintCommand = Beetny.EQ2AA.AATreeViewerCommand.extend({
 			aaTreeViewer.printClass();
 		}
 	});
-Beetny.EQ2AA.Commands = [new Beetny.EQ2AA.ResetAllCommand, new Beetny.EQ2AA.ResetTreeCommand, new Beetny.EQ2AA.ExportCommand,  new Beetny.EQ2AA.ExportXmlCommand, new Beetny.EQ2AA.PrintCommand];
+Beetny.EQ2AA.Commands = [new Beetny.EQ2AA.ResetAllCommand, new Beetny.EQ2AA.ResetTreeCommand, new Beetny.EQ2AA.ExportCommand,  new Beetny.EQ2AA.ExportXmlCommand];
