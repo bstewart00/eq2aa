@@ -93,6 +93,7 @@ class TestTreeFactory(unittest.TestCase):
         result = self.sut.create(0, self._lineage, self._class_name)
         
         self.assertEqual(result.name, self._class_name + " (Prismatic)")
+        self.assertEqual(result.type, "ClassPrismatic")
         
     def test_create_name_equal_to_class_name_sets_type(self):
         tree = TreeBuilder().name(self._class_name).build()

@@ -38,6 +38,7 @@ class TreeFactory(object):
         
         if "Prismatic" in subtrees:
             name = class_name + " (Prismatic)"
+            tree_type = "ClassPrismatic"
         
         return Tree(soe_id, soe_id, name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio, x_subclass, y_subclass)
     
