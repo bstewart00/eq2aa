@@ -947,7 +947,7 @@
                   352
                ], 
                "cost": 1, 
-               "description": "Adds an effect to Divine Recovery that increases the base damage, heals and taunts of the group.", 
+               "description": "Adds an effect to Divine Recovery that increases the potency of the group.", 
                "effects": [
                   "<ul><li>Increases base damage, heals and taunt amounts of the group by 1.25%.</li></ul>", 
                   "<ul><li>Increases base damage, heals and taunt amounts of the group by 1.25%.</li></ul>", 
@@ -1047,7 +1047,7 @@
                   15
                ], 
                "cost": 1, 
-               "description": "Improves the health increase of Sacred Armor and its upgrades.", 
+               "description": "Improves the health increase of Sacred Armor.", 
                "effects": [
                   "<ul><li>Increases max health by 5%</li></ul>", 
                   "<ul><li>Increases max health by 5%</li></ul>", 
@@ -1079,7 +1079,7 @@
                   15
                ], 
                "cost": 1, 
-               "description": "Improves the resist reduction of Condemn and its higher level upgrades. This enhancement also makes it more difficult to outright resist this spell.", 
+               "description": "Improves the resist reduction of Condemn and its higher level upgrades. This enhancement also makes it more difficult to outright resist this spell. At five ranks Condemn will reduce the target's combat mitigation.", 
                "effects": [
                   "<ul><li>Reduces resistibility by 3%</li><li>Increases the resistance reduction effects by 7%</li></ul>", 
                   "<ul><li>Reduces resistibility by 3%</li><li>Increases the resistance reduction effects by 7%</li></ul>", 
@@ -1111,7 +1111,7 @@
                   15
                ], 
                "cost": 1, 
-               "description": "This alternative to Invocation and its upgrades is most appropriate for admonishing a foe at close range.", 
+               "description": "This alternative to Invocation is most appropriate for admonishing a foe at close range.", 
                "effects": [
                   "<ul><li>Interrupts target</li><li>Inflicts 519 - 635 divine damage on target</li></ul>", 
                   "<ul><li>Interrupts target</li><li>Inflicts 4 - 5 divine damage on target</li></ul>", 
@@ -1271,7 +1271,7 @@
                   82
                ], 
                "cost": 1, 
-               "description": "This alternative to Torment and its upgrades is most appropriate for applying discipline at close range.", 
+               "description": "This alternative to Torment is most appropriate for applying discipline at close range.", 
                "effects": [
                   "<ul><li>Inflicts 224 - 274 melee damage on target</li><li>Inflicts 1 mental damage on target every 3 seconds</li><li>Decreases Mitigation of target vs arcane damage by 2160</li></ul>", 
                   "<ul><li>Inflicts 1 - 2 melee damage on target</li><li>Inflicts 1 mental damage on target every 3 seconds</li><li>Increases Mitigation of target vs arcane damage by 0</li></ul>", 
@@ -1463,7 +1463,7 @@
                   145
                ], 
                "cost": 1, 
-               "description": "Increases the damage of Heretic's Doom and its upgrades.", 
+               "description": "Increases the damage of Heretic's Doom.", 
                "effects": [
                   "<ul><li>Increases damage by 10%</li></ul>", 
                   "<ul><li>Increases damage by 10%</li></ul>", 
@@ -2287,7 +2287,7 @@
                   124
                ], 
                "cost": 1, 
-               "description": "Increases potency based on Weapon Damage Bonus and Spell Weapon Damage Bonus.", 
+               "description": "Increases potency based on Weapon Damage Bonus.", 
                "effects": [
                   "<ul><li>Weapon Damage Bonus and Spell Weapon Damage Bonus will convert 0.65% of their values to Potency</li></ul>", 
                   "<ul><li>Weapon Damage Bonus and Spell Weapon Damage Bonus will convert 0.65% of their values to Potency</li></ul>", 
@@ -2444,7 +2444,7 @@
                   229
                ], 
                "cost": 2, 
-               "description": "Increases the caster's Weapon Damage Bonus and Spell Weapon Damage Bonus by a portion of their stamina. The caster must be using abilities for this spell to take effect.", 
+               "description": "Increases the caster's Weapon Damage Bonus by a portion of their stamina. The caster must be using abilities for this spell to take effect.", 
                "effects": [
                   "<ul><li>Increases Weapon Damage Bonus and Spell Weapon Damage Bonus by 0.3% of the caster's stamina</li><li>Must have used an ability within the last 7 seconds for the effect to be active</li></ul>", 
                   "<ul><li>Increases Weapon Damage Bonus and Spell Weapon Damage Bonus by 0.3% of the caster's stamina</li><li>Must have used an ability within the last 7 seconds for the effect to be active</li></ul>"
@@ -3523,7 +3523,7 @@
                   229
                ], 
                "cost": 2, 
-               "description": "Increases chance to obtain Quintessence when salvaging.", 
+               "description": "Grants a chance to double salvaging rewards.", 
                "effects": [
                   "<ul><li>Increases Quintessence salvaging chance by 100%-700%, depending on the quality of the item being salvaged.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Increases Quintessence salvaging chance by 100%-700%, depending on the quality of the item being salvaged.</li><li>Cannot be modified except by direct means</li></ul>"
@@ -5004,7 +5004,7 @@
                   166
                ], 
                "cost": 1, 
-               "description": "The inquisitor gains additional Potency based on their current Potency.", 
+               "description": "The inquisitor gains additional Potency from Crit Bonus.", 
                "effects": [
                   "<ul><li>For every 12 points of Potency, the caster gains an additional 1% Potency.</li></ul>", 
                   "<ul><li>For every 12 points of Potency, the caster gains an additional 1% Potency.</li></ul>"
@@ -5036,7 +5036,7 @@
                   166
                ], 
                "cost": 1, 
-               "description": "The inquisitor gains additional crit bonus from Multi-Attack Chance.", 
+               "description": "The inquisitor gains additional Crit Bonus from Potency.", 
                "effects": [
                   "<ul><li>For every 20 points of Multi-Attack Chance, the caster gains 1% crit bonus.</li></ul>", 
                   "<ul><li>For every 20 points of Multi-Attack Chance, the caster gains 1% crit bonus.</li></ul>"
@@ -5070,7 +5070,7 @@
                   250
                ], 
                "cost": 1, 
-               "description": "Improves the amount of healing received by the target. This spell starts at five increments and decreases each time the target takes damage. Higher ranks of this ability reduce the base reuse time.", 
+               "description": "Improves the amount of healing received by the target. This spell starts at twelve increments and decreases each time the target takes damage. Higher ranks of this ability reduce the base reuse time.", 
                "effects": [
                   "<ul><li>Increases healing received by 10.00%</li></ul>", 
                   "<ul><li>Increases healing received by 10.00%</li></ul>", 
@@ -5671,7 +5671,7 @@
                   145
                ], 
                "cost": 1, 
-               "description": "Grants additional spells which increase spell damage, increase melee damage or buffs the priest's pet.  These spells will suspend while the priest is in their healing based stances.", 
+               "description": "Grants additional spells which increase spell damage, increase melee damage or buffs the priest's pet.", 
                "effects": [], 
                "id": 6, 
                "level": 0, 

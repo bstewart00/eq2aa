@@ -1959,7 +1959,7 @@
                   355
                ], 
                "cost": 1, 
-               "description": "Using Vengeful Arrow will apply an impairment to the target that reduces their noxious mitigation.", 
+               "description": "Using Vengeful Arrow will apply an impairment to the target that reduces their noxious mitigation. At five ranks this adds an effect which reduces combat mitigation.", 
                "effects": [
                   "<ul><li>Using Vengeful Arrow will reduce the target's noxious mitigation.</li></ul>", 
                   "<ul><li>Using Vengeful Arrow will reduce the target's noxious mitigation.</li></ul>", 
@@ -2295,7 +2295,7 @@
                   124
                ], 
                "cost": 1, 
-               "description": "Increases potency based on Weapon Damage Bonus and Spell Weapon Damage Bonus.", 
+               "description": "Increases potency based on Weapon Damage Bonus.", 
                "effects": [
                   "<ul><li>Weapon Damage Bonus and Spell Weapon Damage Bonus will convert 0.65% of their values to Potency</li></ul>", 
                   "<ul><li>Weapon Damage Bonus and Spell Weapon Damage Bonus will convert 0.65% of their values to Potency</li></ul>", 
@@ -2452,7 +2452,7 @@
                   229
                ], 
                "cost": 2, 
-               "description": "Increases the caster's Weapon Damage Bonus and Spell Weapon Damage Bonus by a portion of their stamina. The caster must be using abilities for this spell to take effect.", 
+               "description": "Increases the caster's Weapon Damage Bonus by a portion of their stamina. The caster must be using abilities for this spell to take effect.", 
                "effects": [
                   "<ul><li>Increases Weapon Damage Bonus and Spell Weapon Damage Bonus by 0.3% of the caster's stamina</li><li>Must have used an ability within the last 7 seconds for the effect to be active</li></ul>", 
                   "<ul><li>Increases Weapon Damage Bonus and Spell Weapon Damage Bonus by 0.3% of the caster's stamina</li><li>Must have used an ability within the last 7 seconds for the effect to be active</li></ul>"
@@ -3531,7 +3531,7 @@
                   229
                ], 
                "cost": 2, 
-               "description": "Increases chance to obtain Quintessence when salvaging.", 
+               "description": "Grants a chance to double salvaging rewards.", 
                "effects": [
                   "<ul><li>Increases Quintessence salvaging chance by 100%-700%, depending on the quality of the item being salvaged.</li><li>Cannot be modified except by direct means</li></ul>", 
                   "<ul><li>Increases Quintessence salvaging chance by 100%-700%, depending on the quality of the item being salvaged.</li><li>Cannot be modified except by direct means</li></ul>"
@@ -5023,7 +5023,7 @@
                   166
                ], 
                "cost": 1, 
-               "description": "The channeler gains additional Potency based on their current Potency.", 
+               "description": "The channeler gains additional Potency from Crit Bonus.", 
                "effects": [
                   "<ul><li>For every 12 points of Potency, the caster gains an additional 1% Potency.</li></ul>", 
                   "<ul><li>For every 12 points of Potency, the caster gains an additional 1% Potency.</li></ul>"
@@ -5055,7 +5055,7 @@
                   166
                ], 
                "cost": 1, 
-               "description": "The channeler gains additional Crit Bonus based on their current Crit Bonus.", 
+               "description": "The channeler gains additional Crit Bonus from Potency.", 
                "effects": [
                   "<ul><li>For every 12% of Crit Bonus, the caster gains an additional 1% Crit Bonus.</li></ul>", 
                   "<ul><li>For every 12% of Crit Bonus, the caster gains an additional 1% Crit Bonus.</li></ul>"
@@ -5690,7 +5690,7 @@
                   145
                ], 
                "cost": 1, 
-               "description": "Grants additional spells which increase spell damage, increase melee damage or buffs the priest's pet.  These spells will suspend while the priest is in their healing based stances.", 
+               "description": "Grants additional spells which increase spell damage, increase melee damage or buffs the priest's pet.", 
                "effects": [], 
                "id": 6, 
                "level": 0, 
