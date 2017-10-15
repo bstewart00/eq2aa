@@ -39,8 +39,10 @@ class TreeFactory(object):
         if "Prismatic" in subtrees:
             name = class_name + " (Prismatic)"
             tree_type = "ClassPrismatic"
+            
+        tree_category = self._determine_category(name, tree_type, is_warder_tree)
         
-        return Tree(soe_id, soe_id, name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio, x_subclass, y_subclass)
+        return Tree(soe_id, soe_id, name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, tree_category, x_y_ratio, x_subclass, y_subclass)
     
     def _determine_type(self, tree_name, lineage, class_name, is_warder_tree):
         if tree_name == lineage["archetype"]:
@@ -48,5 +50,16 @@ class TreeFactory(object):
         elif tree_name == class_name:
             return "Class"
         elif is_warder_tree == "true":
-            return "Warder"
+            return "Warder"        
         return tree_name.replace(" ", "")
+    
+    def _determine_category(self, tree_name, tree_type, is_warder_tree):
+        if is_warder_tree == "true":
+            return { 'id': "Warder", 'name': "Warder", 'typenum': 1 }
+        elif tree_name == "Prestige" or tree_type == "ClassPrismatic":
+            return { 'id': "Prestige", 'name': "Prestige", 'typenum': 2 }
+        elif tree_name == "Tradeskill":
+            return { 'id': "Tradeskill", 'name': "Tradeskill", 'typenum': 3 }
+        elif tree_name == "General" or tree_name == "Far Seas":
+            return { 'id': "TradeskillPrestige", 'name': "Tradeskill Prestige", 'typenum': 4 }             
+        return { 'id': "AA", 'name': "Alternate Advancement", 'typenum': 0 }

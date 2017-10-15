@@ -8,7 +8,8 @@
    "ordered_point_pools": [
       "AA", 
       "Prestige", 
-      "Tradeskill"
+      "Tradeskill", 
+      "TradeskillPrestige"
    ], 
    "points": {
       "AA": {
@@ -16,12 +17,16 @@
          "name": "AA"
       }, 
       "Prestige": {
-         "max": 25, 
+         "max": 50, 
          "name": "Prestige"
       }, 
       "Tradeskill": {
          "max": 40, 
          "name": "Tradeskill"
+      }, 
+      "TradeskillPrestige": {
+         "max": 50, 
+         "name": "Tradeskill Prestige"
       }
    }, 
    "soe_id": 39, 
@@ -1005,6 +1010,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "AA", 
+            "name": "Alternate Advancement", 
+            "typenum": 0
+         }, 
          "id": 7, 
          "is_warder_tree": false, 
          "max_points": 100, 
@@ -2045,6 +2055,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "AA", 
+            "name": "Alternate Advancement", 
+            "typenum": 0
+         }, 
          "id": 20, 
          "is_warder_tree": false, 
          "max_points": 100, 
@@ -2532,6 +2547,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Prestige", 
+            "name": "Prestige", 
+            "typenum": 2
+         }, 
          "id": 135, 
          "is_warder_tree": false, 
          "max_points": 25, 
@@ -3289,6 +3309,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "AA", 
+            "name": "Alternate Advancement", 
+            "typenum": 0
+         }, 
          "id": 130, 
          "is_warder_tree": false, 
          "max_points": 100, 
@@ -3753,6 +3778,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "TradeskillPrestige", 
+            "name": "Tradeskill Prestige", 
+            "typenum": 4
+         }, 
          "id": 158, 
          "is_warder_tree": false, 
          "max_points": 25, 
@@ -4290,6 +4320,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "TradeskillPrestige", 
+            "name": "Tradeskill Prestige", 
+            "typenum": 4
+         }, 
          "id": 121, 
          "is_warder_tree": false, 
          "max_points": 25, 
@@ -4756,6 +4791,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "AA", 
+            "name": "Alternate Advancement", 
+            "typenum": 0
+         }, 
          "id": 67, 
          "is_warder_tree": false, 
          "max_points": 100, 
@@ -5475,6 +5515,11 @@
                "title": "the Salvo Master"
             }
          ], 
+         "category": {
+            "id": "Prestige", 
+            "name": "Prestige", 
+            "typenum": 2
+         }, 
          "id": 114, 
          "is_warder_tree": false, 
          "max_points": 25, 
@@ -6390,6 +6435,11 @@
                "title": "the Forest Stalker"
             }
          ], 
+         "category": {
+            "id": "AA", 
+            "name": "Alternate Advancement", 
+            "typenum": 0
+         }, 
          "id": 38, 
          "is_warder_tree": false, 
          "max_points": 100, 
@@ -6727,6 +6777,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Tradeskill", 
+            "name": "Tradeskill", 
+            "typenum": 3
+         }, 
          "id": 73, 
          "is_warder_tree": false, 
          "max_points": 40, 

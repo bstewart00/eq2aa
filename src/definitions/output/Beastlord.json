@@ -9,6 +9,7 @@
       "AA", 
       "Prestige", 
       "Tradeskill", 
+      "TradeskillPrestige", 
       "Warder"
    ], 
    "points": {
@@ -17,12 +18,16 @@
          "name": "AA"
       }, 
       "Prestige": {
-         "max": 25, 
+         "max": 50, 
          "name": "Prestige"
       }, 
       "Tradeskill": {
          "max": 40, 
          "name": "Tradeskill"
+      }, 
+      "TradeskillPrestige": {
+         "max": 50, 
+         "name": "Tradeskill Prestige"
       }, 
       "Warder": {
          "child_pools": {
@@ -1083,6 +1088,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "AA", 
+            "name": "Alternate Advancement", 
+            "typenum": 0
+         }, 
          "id": 74, 
          "is_warder_tree": false, 
          "max_points": 100, 
@@ -2123,6 +2133,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "AA", 
+            "name": "Alternate Advancement", 
+            "typenum": 0
+         }, 
          "id": 75, 
          "is_warder_tree": false, 
          "max_points": 100, 
@@ -2610,6 +2625,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Prestige", 
+            "name": "Prestige", 
+            "typenum": 2
+         }, 
          "id": 138, 
          "is_warder_tree": false, 
          "max_points": 25, 
@@ -3367,6 +3387,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "AA", 
+            "name": "Alternate Advancement", 
+            "typenum": 0
+         }, 
          "id": 130, 
          "is_warder_tree": false, 
          "max_points": 100, 
@@ -3831,6 +3856,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "TradeskillPrestige", 
+            "name": "Tradeskill Prestige", 
+            "typenum": 4
+         }, 
          "id": 158, 
          "is_warder_tree": false, 
          "max_points": 25, 
@@ -4368,6 +4398,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "TradeskillPrestige", 
+            "name": "Tradeskill Prestige", 
+            "typenum": 4
+         }, 
          "id": 121, 
          "is_warder_tree": false, 
          "max_points": 25, 
@@ -4838,6 +4873,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "AA", 
+            "name": "Alternate Advancement", 
+            "typenum": 0
+         }, 
          "id": 77, 
          "is_warder_tree": false, 
          "max_points": 100, 
@@ -5557,6 +5597,11 @@
                "title": "the Feral"
             }
          ], 
+         "category": {
+            "id": "Prestige", 
+            "name": "Prestige", 
+            "typenum": 2
+         }, 
          "id": 120, 
          "is_warder_tree": false, 
          "max_points": 25, 
@@ -6472,6 +6517,11 @@
                "title": "the Savage Lord"
             }
          ], 
+         "category": {
+            "id": "AA", 
+            "name": "Alternate Advancement", 
+            "typenum": 0
+         }, 
          "id": 76, 
          "is_warder_tree": false, 
          "max_points": 100, 
@@ -6809,6 +6859,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Tradeskill", 
+            "name": "Tradeskill", 
+            "typenum": 3
+         }, 
          "id": 73, 
          "is_warder_tree": false, 
          "max_points": 40, 
@@ -7364,6 +7419,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 78, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -7928,6 +7988,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 79, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -8492,6 +8557,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 80, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -9056,6 +9126,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 81, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -9620,6 +9695,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 82, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -10184,6 +10264,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 83, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -10748,6 +10833,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 84, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -11312,6 +11402,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 85, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -11876,6 +11971,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 86, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -12440,6 +12540,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 87, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -13004,6 +13109,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 88, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -13568,6 +13678,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 89, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -14132,6 +14247,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 90, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -14696,6 +14816,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 91, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -15260,6 +15385,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 92, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -15824,6 +15954,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 93, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -16388,6 +16523,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 94, 
          "is_warder_tree": true, 
          "max_points": 40, 
@@ -16952,6 +17092,11 @@
                "title": ""
             }
          ], 
+         "category": {
+            "id": "Warder", 
+            "name": "Warder", 
+            "typenum": 1
+         }, 
          "id": 95, 
          "is_warder_tree": true, 
          "max_points": 40, 

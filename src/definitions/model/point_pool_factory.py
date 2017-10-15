@@ -13,10 +13,8 @@ class PointPoolFactory:
         
         return points, ordered_point_pools
     
-    def _make_pool(self, name, max_points):
-        spaced_name = "Tradeskill Prestige" if name == "TradeskillPrestige" else name
-        
-        return { "name": spaced_name, "max": max_points }
+    def _make_pool(self, name, max_points):        
+        return { "name": name, "max": max_points }
     
     def _get_point_pools(self, trees):
         pools = {}
@@ -24,9 +22,12 @@ class PointPoolFactory:
         warder_trees = list(self._filter_warder_trees(trees))
         
         for t in trees:
-            if t.type in ["Prestige", "Tradeskill", "TradeskillPrestige"]:
-                pools[t.type.replace(' ', '')] = self._make_pool(t.type, t.max_points)
-            elif t.type == "Warder":
+            if t.category['id'] in ["Prestige", "Tradeskill", "TradeskillPrestige"]:
+                if not t.category['id'] in pools:
+                    pools[t.category['id']] = self._make_pool(t.category['name'], t.max_points)
+                else:
+                    pools[t.category['id']]["max"] += t.max_points
+            elif t.category['id'] == "Warder":
                 continue
             else:
                 pools["AA"] = self._make_pool("AA", self._global_aa_max)
@@ -42,12 +43,7 @@ class PointPoolFactory:
                 yield t
     
     def _map_tree_to_pool_name(self, tree):
-        valid_tree_types = ["Warder", "Prestige", "TradeskillPrestige", "Tradeskill"]
-        
-        if tree.type in valid_tree_types:
-            return tree.type
-        else:
-            return "AA"
+        return tree.category['id']
         
     def _get_child_pools(self, warder_trees):
         pools = {}

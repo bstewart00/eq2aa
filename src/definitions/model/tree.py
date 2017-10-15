@@ -1,5 +1,5 @@
 class Tree(object):
-    def __init__(self, id_, soe_id, name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, x_y_ratio=0, x_subclass="", y_subclass=""):
+    def __init__(self, id_, soe_id, name, tree_type, max_points, is_warder_tree, aa, subtrees, orphans, tree_category, x_y_ratio=0, x_subclass="", y_subclass=""):
         self.id = id_
         self.soe_id = soe_id
         self.name = name
@@ -12,6 +12,7 @@ class Tree(object):
         self.y_subclass = y_subclass
         self.subtrees = subtrees
         self.orphans = orphans
+        self.category = tree_category
         
     def to_dict(self):
         return {
@@ -19,6 +20,7 @@ class Tree(object):
                 "soe_id": self.soe_id,
                 "name": self.name,
                 "type": self.type,
+                "category": self.category,
                 "max_points": self.max_points,
                 "is_warder_tree": self.is_warder_tree,
                 "x_y_ratio": self.x_y_ratio,

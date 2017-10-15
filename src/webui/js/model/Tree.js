@@ -130,25 +130,7 @@ Beetny.EQ2AA.Model.Tree = Class.extend({
 	},
 
 	typeNum : function() {
-		switch(this.type) {
-			case 'Archetype':
-			case 'Class':
-			case 'Shadows':
-			case 'Heroic':
-			case 'Dragon':
-				return 0;
-			case 'Warder':
-				return 1;
-			case 'Prestige':
-				return 2;
-			case 'Tradeskill':
-				return 3;
-			case 'General':
-				return 4;
-			default:
-				return 0;
-		}
-		return null;
+		return this.category.typenum;
 	}
 });
 Beetny.EQ2AA.Model.Tree.ParseTreeHash = function(hash) {

@@ -31,7 +31,7 @@ Beetny.EQ2AA.Model.Class = Class.extend({
 				this)
 		},
 		getTreePointPool : function (tree) {
-			return tree.type === "Warder" ? this.points[tree.type].child_pools[tree.name.replace(" ", "")] : this.points[tree.type] || this.points.AA
+			return tree.category.id === "Warder" ? this.points[tree.category.id].child_pools[tree.name.replace(" ", "")] : this.points[tree.category.id] || this.points.AA
 		},
 		notifyPointsSpentInTree : function (tree, amount) {
 			this.getTreePointPool(tree).spent += amount

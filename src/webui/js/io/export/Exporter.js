@@ -92,13 +92,8 @@ Beetny.EQ2AA.XmlExporter = Class.extend({
    },
    
    _treeSerializationInfo: function (tree) {
-      switch(tree.type) {
-         case 'Archetype':
-         case 'Class':
-         case 'Shadows':
-         case 'Heroic':
-         case 'Dragon':
-         case 'FarSeas':
+      switch(tree.category.id) {
+         case 'AA':
             return new Beetny.EQ2AA.TreeXmlSerializationInfo(0, false);
          case 'Warder':
             return new Beetny.EQ2AA.TreeXmlSerializationInfo(1, true);
@@ -106,7 +101,7 @@ Beetny.EQ2AA.XmlExporter = Class.extend({
             return new Beetny.EQ2AA.TreeXmlSerializationInfo(2, true);
          case 'Tradeskill':
             return new Beetny.EQ2AA.TreeXmlSerializationInfo(3, true);
-         case 'General':
+         case 'TradeskillPrestige':
             return new Beetny.EQ2AA.TreeXmlSerializationInfo(4, true);
          default:
             return new Beetny.EQ2AA.TreeXmlSerializationInfo(0, false);
