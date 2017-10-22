@@ -17,7 +17,7 @@ Beetny.XmlBuilder = Class.extend({
       var element = this._doc.createElementNS("", tagName);
 
       Object.items(attributeMap).forEach(function(kvp) {
-         var attr = document.createAttribute(kvp.key);
+         var attr = document.createAttributeNS('', kvp.key);
          attr.nodeValue = kvp.value;
          element.setAttributeNode(attr);
       });
