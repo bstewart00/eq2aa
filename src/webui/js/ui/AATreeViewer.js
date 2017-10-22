@@ -8,7 +8,10 @@ Beetny.EQ2AA.AATreeViewer = Class.extend({
 			this._urlUpdater = urlUpdater;
 
 		},
-		_template : '<div class="tree-viewer {ClassName}">' + '<ul class="tabs"></ul>' + '<div class="trees"></div>' + "</div>",
+		_template : '<div class="tree-viewer {ClassName}">' + 
+				'<div class="categories"></div>' + 
+				'<div class="trees"></div>' + 
+			"</div>",
 		getElement : function () {
 			return this._element;
 		},
@@ -36,19 +39,35 @@ Beetny.EQ2AA.AATreeViewer = Class.extend({
 			
 			return this._element;
 			function addTabs() {
-				var tabs = $(".tabs", jElement);
-
-				if (self.class_.name === "Beastlord") {
-					var warderTrees = self.class_.trees.filter(function (tree) { return tree.type === "Warder"; });
-					var otherTrees = self.class_.trees.filter(function (tree) { return tree.type !== "Warder"; });
+				var categories = $(".categories", jElement);
+				
+				var treesByCategory = self.class_.trees.groupBy(function (tree) { return tree.category.id });
+				
+				getOrderedCategories(Object.keys(treesByCategory)).forEach(function (categoryId) {
+					var orderedTreesInCategory = getOrderedTrees(treesByCategory[categoryId]);		
+					var category = orderedTreesInCategory[0].category;	
+					var renderedCategory = self._renderer.renderCategory(category);
+					categories.append(renderedCategory);
+					var tabsInCategory = self._renderer.renderTabContainer(category);
+					renderedCategory.append(tabsInCategory);
 					
-					getOrderedTrees(otherTrees).forEach(function (tree) {
-						tabs.append(self._renderer.renderTreeTab(tree.type, tree.name, tree))	
-					});
-					tabs.append(self._renderer.renderTreeTab("Warder", "Warder", warderTrees))
-				} else {
-					getOrderedTrees(self.class_.trees).forEach(function (tree) {
-						tabs.append(self._renderer.renderTreeTab(tree.type, tree.name, tree))	
+					if (categoryId == 'Warder') {
+						tabsInCategory.append(self._renderer.renderTreeTab("Warder", "Warder", orderedTreesInCategory))
+					} else{
+						orderedTreesInCategory.forEach(function (tree) {
+							tabsInCategory.append(self._renderer.renderTreeTab(tree.type, tree.name, tree))	
+						});
+					}
+				});
+				
+				function getOrderedCategories(categoryIds) {
+					return categoryIds.slice(0).sort(function (categoryA, categoryB) {
+						var orderA = Beetny.EQ2AA.Constants.CategoryOrder.indexOf(categoryA);
+						orderA = orderA == -1 ? Infinity : orderA;
+						var orderB = Beetny.EQ2AA.Constants.CategoryOrder.indexOf(categoryB);
+						orderB = orderB == -1 ? Infinity : orderB;
+											
+						return orderA - orderB;
 					});
 				}
 				

@@ -37,7 +37,7 @@ class TreeFactory(object):
         aa, orphans, subtrees = self._aa_factory.create_all(tree["alternateadvancementnode_list"], lineage, class_name, name, tree_type, y_subclass)
         
         if "Prismatic" in subtrees:
-            name = class_name + " (Prismatic)"
+            name = class_name
             tree_type = "ClassPrismatic"
             
         tree_category = self._determine_category(name, tree_type, is_warder_tree)

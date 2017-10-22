@@ -4,7 +4,12 @@ Beetny.EQ2AA.Rendering.Renderer = Class.extend({
 			this._graphicsRenderer = graphicsRenderer;
 			this._elementBuilder = elementBuilder;
 			this._renderCache = {}
-
+		},
+		renderCategory : function (category) {
+			return this._elementBuilder.buildCategory(category);
+		},		
+		renderTabContainer: function (category) {
+			return this._elementBuilder.buildTabContainer(category.id);
 		},
 		renderTreeTab : function (tabClass, tabLabel, onClickData) {
 			return this._renderTab(tabClass, tabLabel, onTabClick);

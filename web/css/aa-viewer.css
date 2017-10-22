@@ -1,9 +1,21 @@
-.tabs {
-    border-bottom: 1px solid gray;
+.categories {
+	display: table;
+}
+
+.category {
+	display: table-row;
+}
+
+.categoryName, .categoryTabs {
+	display: table-cell;
+}
+
+.categoryName {
+	padding-right: 10px;
 }
 
 .tab {
-    display: inline-block;
+	display:inline-block;
     margin-right: 4px;
     border: 1px solid gray;
     padding: 2px;

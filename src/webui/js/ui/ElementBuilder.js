@@ -1,6 +1,18 @@
 namespace("Beetny.EQ2AA.Rendering");
 Beetny.EQ2AA.Rendering.ICON_SIZE = 42;
 Beetny.EQ2AA.Rendering.ElementBuilder = Class.extend({
+		buildCategory : function (category) {
+			var template = '<div class="category {Id}"><span class="categoryName">{Name}<span></div>';
+			var html = template.replace("{Id}", category.id).replace("{Name}", category.name);
+			return $(html)
+		},
+		
+		buildTabContainer : function (categoryId) {
+			var template = '<ul class="categoryTabs {CategoryId}"></ul>';
+			var html = template.replace("{CategoryId}", categoryId);
+			return $(html)
+		},
+	
 		buildTab : function (cssClass, label) {
 			var tabTemplate = '<li class="tab {Class}">{Label}</li>';
 			var tabHtml = tabTemplate.replace("{Class}", cssClass).replace("{Label}", label);
