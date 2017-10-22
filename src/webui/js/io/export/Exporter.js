@@ -57,7 +57,7 @@ Beetny.EQ2AA.XmlExporter = Class.extend({
    
    _processGroup: function (group, aaElem) {
   		var typenum = group.key;
-  		var treesInGroup = group.value;
+  		var treesInGroup = getOrderedTreesForExport(group.value);
   		
   		var groupContainer = this._xmlBuilder.appendChild('alternateadvancements', { 'typenum': typenum }, aaElem)
   		
@@ -75,6 +75,17 @@ Beetny.EQ2AA.XmlExporter = Class.extend({
 						
 			++i;			
 		}, this);
+		
+		function getOrderedTreesForExport(treeInfos) {
+			return treeInfos.slice(0).sort(function (treeinfoA, treeinfoB) {
+				var orderA = Beetny.EQ2AA.Constants.TreeExportOrder.indexOf(treeinfoA.tree.type);
+				orderA = orderA == -1 ? 0 : orderA;
+				var orderB = Beetny.EQ2AA.Constants.CategoryOrder.indexOf(treeinfoB.tree.type);
+				orderB = orderB == -1 ? 0 : orderB;
+									
+				return orderA - orderB;
+			});
+		}
    },
    
    _processTree: function (tree, parentElem) {
@@ -94,17 +105,17 @@ Beetny.EQ2AA.XmlExporter = Class.extend({
    _treeSerializationInfo: function (tree) {
       switch(tree.category.id) {
          case 'AA':
-            return new Beetny.EQ2AA.TreeXmlSerializationInfo(0, false);
+            return new Beetny.EQ2AA.TreeXmlSerializationInfo(tree.category.typenum, false);
          case 'Warder':
-            return new Beetny.EQ2AA.TreeXmlSerializationInfo(1, true);
+            return new Beetny.EQ2AA.TreeXmlSerializationInfo(tree.category.typenum, true);
          case 'Prestige':
-            return new Beetny.EQ2AA.TreeXmlSerializationInfo(2, true);
+            return new Beetny.EQ2AA.TreeXmlSerializationInfo(tree.category.typenum, true);
          case 'Tradeskill':
-            return new Beetny.EQ2AA.TreeXmlSerializationInfo(3, true);
+            return new Beetny.EQ2AA.TreeXmlSerializationInfo(tree.category.typenum, true);
          case 'TradeskillPrestige':
-            return new Beetny.EQ2AA.TreeXmlSerializationInfo(4, true);
+            return new Beetny.EQ2AA.TreeXmlSerializationInfo(tree.category.typenum, true);
          default:
-            return new Beetny.EQ2AA.TreeXmlSerializationInfo(0, false);
+            return new Beetny.EQ2AA.TreeXmlSerializationInfo(tree.category.typenum, false);
       }
       return null;
    }
