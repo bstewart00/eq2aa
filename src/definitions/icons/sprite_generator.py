@@ -11,6 +11,9 @@ class SpriteImageGenerator(object):
         self._logger = logger
         
     def generate(self, class_, icon_size, icon_padding):
+        def get_tree_sprite_dir_path(tree):
+            return os.path.join(class_dir_path, tree.category['id'] + '_' + tree.name)
+        
         class_dir_path = os.path.join(self._output_path, class_.name)
         os.makedirs(class_dir_path, exist_ok=True)
         
@@ -19,7 +22,7 @@ class SpriteImageGenerator(object):
         for tree in class_.trees:
             widest_tree_width = max(widest_tree_width, len(tree.aa))
             
-            tree_dir_path = os.path.join(class_dir_path, tree.name)
+            tree_dir_path = get_tree_sprite_dir_path(tree)
             os.makedirs(tree_dir_path, exist_ok=True)
             
             def get_aa_sprite_path(aa):
@@ -34,14 +37,14 @@ class SpriteImageGenerator(object):
             tree_sprite_path = os.path.join(tree_dir_path, "{0}.png".format(tree.name))
             self._image_manipulator.tile_horizontally(aa_paths, icon_size, icon_size, icon_padding, tree_sprite_path)
         
-        def get_tree_sprite_path(tree):
-            return os.path.join(class_dir_path, tree.name, "{0}.png".format(tree.name))
+        def get_tree_sprite_image_path(tree):
+            return os.path.join(get_tree_sprite_dir_path(tree), "{0}.png".format(tree.name))
         
         class_sprite_path = os.path.join(self._output_path, "{0}.png".format(class_.name))
-        tree_paths = list([get_tree_sprite_path(tree) for tree in class_.trees])
+        tree_image_paths = list([get_tree_sprite_image_path(tree) for tree in class_.trees])
         
         sprite_width = widest_tree_width * icon_size + 2 * icon_padding * widest_tree_width
-        self._image_manipulator.tile_vertically(tree_paths, sprite_width, icon_size, icon_padding, class_sprite_path)
+        self._image_manipulator.tile_vertically(tree_image_paths, sprite_width, icon_size, icon_padding, class_sprite_path)
 
                 
     def _create_icon_with_backdrop(self, backdrop_id, icon_path, output_path):
