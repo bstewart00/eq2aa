@@ -99,7 +99,7 @@ Beetny.EQ2AA.Model.AA = Class.extend({
       Object.iterItems(this.prereqs, function(prereq, required_points) {
          if (required_points === 0)
             return true;
-         return result = this.prerequisiteHandlers[prereq].call(this, required_points);
+         return result = result && this.prerequisiteHandlers[prereq].call(this, required_points);
       }, this);
       return result;
    },
