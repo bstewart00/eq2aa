@@ -86,8 +86,7 @@ Beetny.EQ2AA.Rendering.Renderer = Class.extend({
 				return elements
 			}
 		},
-		renderAA : function (aa,
-			canvas) {
+		renderAA : function (aa, canvas) {
 			var aaCache = this._getCachedComponents(aa.soe_id);
 			var icon = this._elementBuilder.buildAAIcon(aa);
 			var levelNumber = this._elementBuilder.buildLevelNumber(aa);
