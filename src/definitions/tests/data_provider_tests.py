@@ -9,7 +9,7 @@ class TestSonyDataProvider(unittest.TestCase):
         self._expected_result = {'a': 5}
         self.sut = SonyDataProvider(self._url_reader)
         
-    def _setup_url_ison_response(self, expected_url):
+    def _setup_url_json_response(self, expected_url):
         def get_response(url):
             if url == expected_url:
                 response_mock = MagicMock()
@@ -35,15 +35,15 @@ class TestSonyDataProvider(unittest.TestCase):
         self.assertIsNone(self.sut.icon(1))
         
     def test_classes_url(self):
-        self._setup_url_ison_response('http://census.daybreakgames.com/s:eq2aa/json/get/eq2/constants/?c:show=adventureclass_list')
+        self._setup_url_json_response('http://census.daybreakgames.com/s:eq2aa/json/get/eq2/constants/?c:show=adventureclass_list')
         self.assertEqual(self.sut.classes(), self._expected_result)
         
     def test_tree_url(self):
-        self._setup_url_ison_response('http://census.daybreakgames.com/s:eq2aa/json/get/eq2/alternateadvancement/5')
+        self._setup_url_json_response('http://census.daybreakgames.com/s:eq2aa/json/get/eq2/alternateadvancement/5')
         self.assertEqual(self.sut.tree(5), self._expected_result)
         
     def test_spells_url(self):
-        self._setup_url_ison_response('http://census.daybreakgames.com/s:eq2aa/json/get/eq2/spell/?c:limit=10&crc=5')
+        self._setup_url_json_response('http://census.daybreakgames.com/s:eq2aa/json/get/eq2/spell/?c:limit=10&given_by=alternateadvancement&level=110&crc=5')
         self.assertEqual(self.sut.spells(5), self._expected_result)
         
     def test_icon_url(self):

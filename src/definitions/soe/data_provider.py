@@ -13,7 +13,7 @@ class SonyDataProvider(object):
         return self._json('http://census.daybreakgames.com/s:eq2aa/json/get/eq2/alternateadvancement/' + str(tree_id))
 
     def spells(self, spell_crc):
-        return self._json('http://census.daybreakgames.com/s:eq2aa/json/get/eq2/spell/?c:limit=10&crc=' + str(spell_crc))
+        return self._json('http://census.daybreakgames.com/s:eq2aa/json/get/eq2/spell/?c:limit=10&given_by=alternateadvancement&level=110&crc=' + str(spell_crc))
 
     def icon(self, icon_id):
         return self._url_reader.get("http://census.daybreakgames.com/s:eq2aa/img/eq2/icons/{0}/achievement".format(icon_id))
