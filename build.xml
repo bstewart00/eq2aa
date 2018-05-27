@@ -10,11 +10,12 @@
 
    <property file="build_info.properties" />
    <property name="build.number" value="${build.major.number}.${build.minor.number}.${build.revision.number}" />
-   <property name="test-server" value="192.168.1.95" />
+   <property name="test-server" value="192.168.1.27" />
 
    <taskdef name="jscomp" classname="com.google.javascript.jscomp.ant.CompileTask" classpath="${lib.dir}/compiler.jar" />
    <path id="js.fileset">
       <filelist dir="${js.dir}/util" files="utils.js, shims.js, XmlBuilder.js" />
+      <filelist dir="${web.dir}" files="fingerprint.min.js" />
       <fileset dir="${js.dir}">
          <include name="Constants.js" />
          <include name="GameVersions.js" />
@@ -102,7 +103,7 @@
    </target>
 
    <target name="deploy-test" depends="dist">
-      <scp trust="true" sftp="true" todir="root:root@${test-server}:/var/www">
+      <scp trust="true" sftp="true" todir="bitnami:bitnami@${test-server}:/opt/bitnami/nginx">
          <fileset dir="${dist.dir}">
             <include name="**/*" />
          </fileset>

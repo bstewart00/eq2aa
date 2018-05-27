@@ -8,7 +8,7 @@ class EQ2DataApi {
 
     public function getClassList() {
         $classMap = array();
-        $classData = json_decode(file_get_contents('http://data.soe.com/json/get/eq2/constants/?c:show=adventureclass_list'), true);
+        $classData = json_decode(file_get_contents('http://census.daybreakgames.com/s:eq2aa/json/get/eq2/constants/?c:show=adventureclass_list'), true);
         if ($classData["returned"] == 1) {
             $adventureclass_list = $classData["constants_list"][0]["adventureclass_list"];
 
@@ -29,7 +29,7 @@ class EQ2DataApi {
     }
 
     private function fetchTree($treeId) {
-        $treeData = json_decode(file_get_contents("http://data.soe.com/json/get/eq2/alternateadvancement/$treeId"), true);
+        $treeData = json_decode(file_get_contents("http://census.daybreakgames.com/s:eq2aa/json/get/eq2/alternateadvancement/$treeId"), true);
         if ($treeData["returned"] == 1) {
             $tree = $treeData["alternateadvancement_list"][0];
 
@@ -38,7 +38,7 @@ class EQ2DataApi {
     }
     
     private function fetchPlayer($playerId) {
-        $playerData = json_decode(file_get_contents("http://data.soe.com/json/get/eq2/character/$playerId?c:show=alternateadvancements,type.class,alternateadvancements.alternateadvancement_list"), true);
+        $playerData = json_decode(file_get_contents("http://census.daybreakgames.com/s:eq2aa/json/get/eq2/character/$playerId?c:show=alternateadvancements,type.class,alternateadvancements.alternateadvancement_list"), true);
         if ($playerData["returned"] == 1) {
             return $playerData["character_list"][0];
         }
