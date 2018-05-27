@@ -35,19 +35,19 @@ class TestSonyDataProvider(unittest.TestCase):
         self.assertIsNone(self.sut.icon(1))
         
     def test_classes_url(self):
-        self._setup_url_ison_response('http://data.soe.com/json/get/eq2/constants/?c:show=adventureclass_list')
+        self._setup_url_ison_response('http://census.daybreakgames.com/s:eq2aa/json/get/eq2/constants/?c:show=adventureclass_list')
         self.assertEqual(self.sut.classes(), self._expected_result)
         
     def test_tree_url(self):
-        self._setup_url_ison_response('http://data.soe.com/json/get/eq2/alternateadvancement/5')
+        self._setup_url_ison_response('http://census.daybreakgames.com/s:eq2aa/json/get/eq2/alternateadvancement/5')
         self.assertEqual(self.sut.tree(5), self._expected_result)
         
     def test_spells_url(self):
-        self._setup_url_ison_response('http://data.soe.com/json/get/eq2/spell/?c:limit=10&crc=5')
+        self._setup_url_ison_response('http://census.daybreakgames.com/s:eq2aa/json/get/eq2/spell/?c:limit=10&crc=5')
         self.assertEqual(self.sut.spells(5), self._expected_result)
         
     def test_icon_url(self):
-        self._setup_url_binary_response('http://data.soe.com/img/eq2/icons/5/achievement', 55)
+        self._setup_url_binary_response('http://census.daybreakgames.com/s:eq2aa/img/eq2/icons/5/achievement', 55)
         self.assertEqual(self.sut.icon(5), 55)
         
 class TestCachedDataProvider(unittest.TestCase):

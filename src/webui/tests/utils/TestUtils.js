@@ -12,7 +12,12 @@ Beetny.TestClassBuilder = Class.extend({
 			aa : [this._createAA(0)],
 			subtrees : {
 				'Subtree' : 1
-			}
+			},
+			category: {
+	            id: "AA", 
+	            name: "Alternate Advancement", 
+	            typenum: 0
+	         }
 		});
 
 		return this;
@@ -39,7 +44,14 @@ Beetny.TestClassBuilder = Class.extend({
 			name : "SomeAA" + id,
 			level : 1,
 			cost: 1,
-			max : 5
+			max : 5,
+            prereqs: {
+              global: 0, 
+              parent: 0, 
+              parent_subtree: 0, 
+              subtree: 0, 
+              tree: 0
+           }
 		};
 		return aa;
 	}
